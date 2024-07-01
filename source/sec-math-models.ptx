@@ -3,6 +3,7 @@
 <section xml:id="sec-math-models" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Mathematical Models</title>
 
-  <p> Text of section. </p>
+  <!-- include subsections -->
+  <xi:include href="subsec-rankings-context.ptx" />
 
 </section>
