@@ -68,7 +68,19 @@
       </task>
     </activity>
 
-    <p>A <term>mathematical model</term> is a description of a system, or situation, using mathematical concepts, language, and numbers. People often use variables to help create mathematical models. Mathematical models can be represented as equations, tables, graphs, or descriptions in words.</p>
+    <p>
+      A <term>mathematical model</term> is a description of a system, or situation, using mathematical concepts, language, and numbers. People often use variables to help create mathematical models. Mathematical models can be represented as equations, tables, graphs, or descriptions in words.
+    </p>
+
+    <p>
+        Let's look at a mathematical model for ranking community colleges that combines variables to give us one number for each community college. The Aspen Institute  awards the Aspen Prize every other year. The award "honors those institutions that strive for and achieve exceptional levels of success for all students, while they are in college and after they graduate."<fn><url href="http://highered.aspeninstitute.org/projects/"></url></fn> In addition to the prestige of winning this award, the winning college also receives a $1 million cash prize. To determine the 150 finalists for the award, the Aspen Institute collects information from 1000 community colleges related to the following variables:
+        <ol>
+          <li><strong>Performance</strong> - The performance score measures student success in persistence, degrees awarded, completion, and transfer;</li>
+          <li><strong>Change</strong> - The change score measures consistent improvement in these areas over time; and</li>
+          <li><strong>Minority Achievement and Family Income</strong> - The minority achievement score and family income score measure equitable outcomes for students of all racial/ethnic and socioeconomic backgrounds.</li>
+        </ol>
+        Each of these scores is created from combining a great deal of information about many factors.
+    </p>
   </page>
 
 </worksheet>
