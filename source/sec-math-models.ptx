@@ -3,6 +3,7 @@
 <worksheet xml:id="sec-math-models" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Mathematical Models</title>
 
+  <page>
   <introduction>
     <p>
         Media outlets regularly publish rankings of cell phone carriers, travel destinations, colleges, TVs, and credit cards, just to mention a few.
@@ -28,7 +29,6 @@
     </p>
   </introduction>
 
-  <page>
     <activity workspace="1.5in">
       <p> 
         In your group, agree on a topic that interests everyone (or most of you!), and try to come up with a strategy to create a ranking system related to that topic. For example, you could think about how you’d rank the restaurants in your area. After agreeing on a topic, think about:
@@ -38,6 +38,26 @@
         <li>How to measure those variables; and</li>
         <li>How to combine all of them into one overall score.</li>
       </ul>
+    </activity>
+
+    <activity>
+      <introduction>
+        <p>
+          Every year, <em>U.S. News &amp; World Report</em> publishes a list of the best colleges in the United States. Colleges on the list are ranked based on many different factors, such as
+          <ul>
+            <li>First-year student retention</li>
+            <li>Graduation rates</li>
+            <li>Faculty strength</li>
+          </ul> 
+        </p>
+      </introduction>
+      <task workspace="1in">
+        <statement>
+          <p>
+            Using what you know about how <em>U.S. News</em> ranks colleges, discuss what things you might include in your decision in choosing a college. That is, what factors would be important to your decision?
+          </p>
+        </statement>
+      </task>
     </activity>
   </page>
 
