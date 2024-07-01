@@ -145,13 +145,13 @@
             The Aspen institute used the following <em>mathematical model equation</em> to calculate a score for each school:
             <me>R = 0.33P + 0.33C + 0.27M + 0.07F</me>
             where:
-            <ol>
+            <ul cols="2">
               <li><m>R =</m> Overall ranking score (higher scores are best)</li>
               <li><m>P =</m> Performance score</li>
               <li><m>C =</m> Change score</li>
               <li><m>M =</m> Minority score</li>
               <li><m>F =</m> Family income score</li>
-            </ol>
+            </ul>
             Use this equation to calculate the overall score for each of the schools and enter it into the table above. According to the overall score you calculated, which school is best?
           </p>
         </statement>
