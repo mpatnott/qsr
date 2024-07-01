@@ -185,6 +185,98 @@
           </p>
         </statement>
       </task>
+      <task>
+        <statement>
+          <p>
+            The table below lists known heights and weights of several current and former athletes. Calculate the BMI for each of the athletes. Use the fact that one inch is 0.0254 meters and one pound is about 0.454 kilograms.
+            <table>
+              <tabular halign="center">
+                <row header="yes" bottom="minor">
+                  <cell>Athlete</cell>
+                  <cell>Height (ft &amp; in)</cell>
+                  <cell>Height (m)</cell>
+                  <cell>Weight (lbs)</cell>
+                  <cell>Weight (kg)</cell>
+                  <cell>BMI (<m>\textbf{kg/m}^\mathbf{2}</m>)</cell>
+                </row>
+                <row>
+                  <cell>Rory McIlroy (Golf)</cell>
+                  <cell>5 ft 10 in</cell>
+                  <cell></cell>
+                  <cell>160</cell>
+                  <cell></cell>
+                  <cell></cell>
+                </row>
+                <row>
+                  <cell>Julianna Penn (UFC)</cell>
+                  <cell>5 ft 7 in</cell>
+                  <cell></cell>
+                  <cell>135</cell>
+                  <cell></cell>
+                  <cell></cell>
+                </row>
+                <row>
+                  <cell>Cam Gallagher (Baseball)</cell>
+                  <cell>6 ft 3 in</cell>
+                  <cell></cell>
+                  <cell>230</cell>
+                  <cell></cell>
+                  <cell></cell>
+                </row>
+                <row>
+                  <cell>Breanna Stewart (WNBA)</cell>
+                  <cell>6 ft 4 in</cell>
+                  <cell></cell>
+                  <cell>170</cell>
+                  <cell></cell>
+                  <cell></cell>
+                </row>
+                <row>
+                  <cell>Shaquille O'Neal (NBA)</cell>
+                  <cell>7 ft 1 in</cell>
+                  <cell></cell>
+                  <cell>325</cell>
+                  <cell></cell>
+                  <cell></cell>
+                </row>
+                <row>
+                  <cell>Maria Sharapova (Tennis)</cell>
+                  <cell>6 ft 2 in</cell>
+                  <cell></cell>
+                  <cell>130</cell>
+                  <cell></cell>
+                  <cell></cell>
+                </row>
+              </tabular>
+            </table>
+          </p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>
+            The Centers for Disease Control and Prevention (CDC) suggests that
+            <ul cols="2">
+              <li>BMI below 18.5 is underweight</li>
+              <li>BMI between 18.5 and 24.9 is normal</li>
+              <li>BMI between 25 and 29.9 is overweight</li>
+              <li>BMI of 30 and above is obsese</li>
+            </ul>
+            What are the athletes' classifications based on their BMIs? What does this suggest about limitations of the BMI model?
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Consider the following two scenarios. In each scenario, which person has the lower BMI?
+          </p>
+          <ul>
+            <li>Marisol and Adelyn have the same weight, but Marisol is taller.</li>
+            <li>Aries and Niko have the same height, but Aries weighs more.</li>
+          </ul>
+        </statement>
+      </task>
     </activity>
   </page>
 
