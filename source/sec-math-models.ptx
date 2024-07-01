@@ -140,7 +140,7 @@
           </table>
         </statement>
       </task>
-      <task>
+      <task workspace="0.5in">
         <statement>
           <p>
             The Aspen institute used the following <em>mathematical model equation</em> to calculate a score for each school:
@@ -162,8 +162,29 @@
 
   <page>
     <activity>
-      Body Mass Index, or BMI, is often used to classify people as obese or underweight. The formula for BMI is
-      <me>BMI = \frac{\text{weight (in kilograms)}}{[\text{height (in meters)}]^2}</me>
+      <introduction>
+        <p>
+          Body Mass Index, or BMI, is often used to classify people as obese or underweight. The formula for BMI is
+          <me>BMI = \frac{\text{weight (in kilograms)}}{[\text{height (in meters)}]^2}</me>
+        </p>
+      </introduction>
+      <task workspace="0.5in">
+        <p>
+          What variables are used to calculate BMI?
+        </p>
+      </task>
+      <task workspace="0.5in">
+        <p>
+          A 2012 study<fn><url href="https://www.sciencedaily.com/releases/2012/10/121001132146.htm"></url></fn> found that the proportion of Americans that are severely obese was increasing. How do you think the researchers in this study obtained information about these variables? Imagine yourselves as the researchers. You will want a large, varied sample, and you have limited funds. What would be a good way to get people's height and weight from diverse U.S. locations?
+        </p>
+      </task>
+      <task workspace="0.5in">
+        <statement>
+          <p>
+            If you want to determine whether someone is obese, are there any other variables that might be important to consider?
+          </p>
+        </statement>
+      </task>
     </activity>
   </page>
 
