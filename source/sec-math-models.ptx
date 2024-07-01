@@ -3,7 +3,40 @@
 <section xml:id="sec-math-models" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Mathematical Models</title>
 
-  <!-- include subsections -->
-  <xi:include href="subsec-rankings-context.ptx" />
+  <introduction>
+    <p>
+        Media outlets regularly publish rankings of cell phone carriers, travel destinations, colleges, TVs, and credit cards, just to mention a few.
+    </p>
+
+    <p> 
+        Here's an example of one such ranking - the "<url href="https://www.investopedia.com/articles/retirement/062016/6-countries-where-you-can-live-social-security.asp" visual="www.investopedia.com/articles/retirement/062016/6-countries-where-you-can-live-social-security.asp">Best Places to Retire on Earth</url>," according to <url href="https://www.investopedia.com/" visual="investopedia.com">investopedia.com</url>. To determine which countries are the best for retirees, they used a scoring system that measured seven categories:
+    </p>
+    <ul cols="2">
+        <li> Visa/benefits </li>
+        <li> Climate </li>
+        <li> Cost of living </li>
+        <li> Development </li>
+        <li> Healthcare </li>
+        <li> Housing </li>
+        <li> Affinity rating </li>
+    </ul>
+    <p>
+        The top 4 countries with the highest cumulative average score across all those categories are Costa Rica, Portugal, Mexico, and Panama.
+    </p>
+    <p>
+        When creating rankings like the one above, we first need to decide what factors (variables) will contribute to the overall ranking. Then, we need to decide how those factors can be measured (quantified). Finally, we need a formula that combines all of them into one overall score.
+    </p>
+  </introduction>
+
+  <activity>
+    <p> 
+      In your group, agree on a topic that interests everyone (or most of you!), and try to come up with a strategy to create a ranking system related to that topic. For example, you could think about how you’d rank the restaurants in your area. After agreeing on a topic, think about:
+    </p>
+    <ul>
+      <li>What variables to use;</li>
+      <li>How to measure those variables; and</li>
+      <li>How to combine all of them into one overall score.</li>
+    </ul>
+  </activity>
 
 </section>
