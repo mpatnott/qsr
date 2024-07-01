@@ -13,10 +13,19 @@ var ptx_lunr_docs = [
   "id": "sec-math-models",
   "level": "1",
   "url": "sec-math-models.html",
-  "type": "Section",
+  "type": "Worksheet",
   "number": "1.1",
   "title": "Mathematical Models",
-  "body": " Mathematical Models  Text of section.  "
+  "body": " Mathematical Models   Media outlets regularly publish rankings of cell phone carriers, travel destinations, colleges, TVs, and credit cards, just to mention a few.  Here's an example of one such ranking - the \" Best Places to Retire on Earth ,\" according to investopedia.com . To determine which countries are the best for retirees, they used a scoring system that measured seven categories:   Visa\/benefits  Climate  Cost of living  Development  Healthcare  Housing  Affinity rating   The top 4 countries with the highest cumulative average score across all those categories are Costa Rica, Portugal, Mexico, and Panama.  When creating rankings like the one above, we first need to decide what factors (variables) will contribute to the overall ranking. Then, we need to decide how those factors can be measured (quantified). Finally, we need a formula that combines all of them into one overall score.     In your group, agree on a topic that interests everyone (or most of you!), and try to come up with a strategy to create a ranking system related to that topic. For example, you could think about how you’d rank the restaurants in your area. After agreeing on a topic, think about:   What variables to use;  How to measure those variables; and  How to combine all of them into one overall score.     "
+},
+{
+  "id": "sec-math-models-3-1",
+  "level": "2",
+  "url": "sec-math-models.html#sec-math-models-3-1",
+  "type": "Activity",
+  "number": "1.1.1",
+  "title": "",
+  "body": " In your group, agree on a topic that interests everyone (or most of you!), and try to come up with a strategy to create a ranking system related to that topic. For example, you could think about how you’d rank the restaurants in your area. After agreeing on a topic, think about:   What variables to use;  How to measure those variables; and  How to combine all of them into one overall score.   "
 },
 {
   "id": "backmatter-2",
