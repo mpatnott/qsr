@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-math-models" xmlns:xi="http://www.w3.org/2001/XInclude">
+<worksheet xml:id="sec-math-models" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Mathematical Models</title>
 
   <introduction>
@@ -28,15 +28,17 @@
     </p>
   </introduction>
 
-  <activity>
-    <p> 
-      In your group, agree on a topic that interests everyone (or most of you!), and try to come up with a strategy to create a ranking system related to that topic. For example, you could think about how you’d rank the restaurants in your area. After agreeing on a topic, think about:
-    </p>
-    <ul>
-      <li>What variables to use;</li>
-      <li>How to measure those variables; and</li>
-      <li>How to combine all of them into one overall score.</li>
-    </ul>
-  </activity>
+  <page>
+    <activity workspace="1.5in">
+      <p> 
+        In your group, agree on a topic that interests everyone (or most of you!), and try to come up with a strategy to create a ranking system related to that topic. For example, you could think about how you’d rank the restaurants in your area. After agreeing on a topic, think about:
+      </p>
+      <ul>
+        <li>What variables to use;</li>
+        <li>How to measure those variables; and</li>
+        <li>How to combine all of them into one overall score.</li>
+      </ul>
+    </activity>
+  </page>
 
-</section>
+</worksheet>
