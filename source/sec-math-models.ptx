@@ -93,10 +93,10 @@
               <row header="yes" bottom="minor">
                 <cell>College</cell>
                 <cell>State</cell>
-                <cell>Performance Score</cell>
-                <cell>Change Score</cell>
-                <cell>Minority Achievement Score</cell>
-                <cell>Family Income Score</cell>
+                <cell>Performance</cell>
+                <cell>Change</cell>
+                <cell>Minority Achievement</cell>
+                <cell>Family Income</cell>
                 <cell><m>R</m></cell>
               </row>
               <row bottom="minor">
@@ -139,7 +139,7 @@
           </table>
         </statement>
       </task>
-      <task workspace="0.5in">
+      <task>
         <statement>
           <p>
             The Aspen institute used the following <em>mathematical model equation</em> to calculate a score for each school:
