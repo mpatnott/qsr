@@ -12,7 +12,7 @@
       <p> 
           Here's an example of one such ranking - the "<url href="https://www.investopedia.com/articles/retirement/062016/6-countries-where-you-can-live-social-security.asp" visual="www.investopedia.com/articles/retirement/062016/6-countries-where-you-can-live-social-security.asp">Best Places to Retire on Earth</url>," according to <url href="https://www.investopedia.com/" visual="investopedia.com">investopedia.com</url>. To determine which countries are the best for retirees, they used a scoring system that measured seven categories:
       </p>
-      <ul cols="4">
+      <ul cols="3">
           <li> Visa/benefits </li>
           <li> Climate </li>
           <li> Cost of living </li>
@@ -87,6 +87,72 @@
         <statement>
           <p>
             Look at the scores in the table below for four community colleges. Which school do you think is the “best?” Why? (Hint: What data are you focusing on in the table?)
+          </p>
+          <table>
+            <tabular halign="center">
+              <row header="yes">
+                <cell>College</cell>
+                <cell>State</cell>
+                <cell>Performance Score</cell>
+                <cell>Change Score</cell>
+                <cell>Minority Achievement Score</cell>
+                <cell>Family Income Score</cell>
+                <cell><m>R</m></cell>
+              </row>
+              <row>
+                <cell>Bergen Community College</cell>
+                <cell>NJ</cell>
+                <cell>299</cell>
+                <cell>800</cell>
+                <cell>178</cell>
+                <cell>70</cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell>Miami Dade College</cell>
+                <cell>FL</cell>
+                <cell>323</cell>
+                <cell>400</cell>
+                <cell>288</cell>
+                <cell>191</cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell>Northwest Iowa Community College</cell>
+                <cell>IA</cell>
+                <cell>503</cell>
+                <cell>200</cell>
+                <cell>437</cell>
+                <cell>99</cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell>Pearl River Community College</cell>
+                <cell>MS</cell>
+                <cell>444</cell>
+                <cell>600</cell>
+                <cell>275</cell>
+                <cell>118</cell>
+                <cell></cell>
+              </row>
+            </tabular>
+          </table>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            The Aspen institute used the following <em>mathematical model equation</em> to calculate a score for each school:
+            <me>R = 0.33P + 0.33C + 0.27M + 0.07F</me>
+            where:
+            <ol>
+              <li><m>R =</m> Overall ranking score (higher scores are best)</li>
+              <li><m>P =</m> Performance score</li>
+              <li><m>C =</m> Change score</li>
+              <li><m>M =</m> Minority score</li>
+              <li><m>F =</m> Family income score</li>
+            </ol>
+            Use this equation to calculate the overall score for each of the schools and enter it into the table above. According to the overall score you calculated, which school is best?
           </p>
         </statement>
       </task>
