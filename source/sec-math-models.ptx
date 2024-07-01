@@ -90,7 +90,7 @@
           </p>
           <table>
             <tabular halign="center">
-              <row header="yes">
+              <row header="yes" bottom="minor">
                 <cell>College</cell>
                 <cell>State</cell>
                 <cell>Performance Score</cell>
@@ -99,7 +99,7 @@
                 <cell>Family Income Score</cell>
                 <cell><m>R</m></cell>
               </row>
-              <row>
+              <row bottom="minor">
                 <cell>Bergen Community College</cell>
                 <cell>NJ</cell>
                 <cell>299</cell>
@@ -108,7 +108,7 @@
                 <cell>70</cell>
                 <cell></cell>
               </row>
-              <row>
+              <row bottom="minor">
                 <cell>Miami Dade College</cell>
                 <cell>FL</cell>
                 <cell>323</cell>
@@ -117,7 +117,7 @@
                 <cell>191</cell>
                 <cell></cell>
               </row>
-              <row>
+              <row bottom="minor">
                 <cell>Northwest Iowa Community College</cell>
                 <cell>IA</cell>
                 <cell>503</cell>
@@ -126,7 +126,7 @@
                 <cell>99</cell>
                 <cell></cell>
               </row>
-              <row>
+              <row bottom="minor">
                 <cell>Pearl River Community College</cell>
                 <cell>MS</cell>
                 <cell>444</cell>
@@ -139,7 +139,7 @@
           </table>
         </statement>
       </task>
-      <task>
+      <task workspace="0.5in">
         <statement>
           <p>
             The Aspen institute used the following <em>mathematical model equation</em> to calculate a score for each school:
