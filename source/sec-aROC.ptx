@@ -130,8 +130,50 @@
                 </p>
             </statement>
         </definition>
-        <example workspace="1in">
-            Find the average rates of change of Team A during the three-legged race over the intervals 0 to 3 sec, 0 to 10 sec, 7 to 8 sec, and 8 to 10 sec.
-        </example>
+        <activity>
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        Find the average rates of change of Team A during the three-legged race over the intervals 0 to 10 sec, 0 to 3 sec, 3 to 6 sec, 7 to 8 sec, and 8 to 10 sec.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Work with your group to complete the table showing the average rates of change for each of the teams over each of the time intervals.
+                    </p>
+                    <table>
+                        <tabular halign="center" top="major" left="major">
+                            <col right="minor"/> <col right="major" width="40%"/>
+                            <row header="yes" bottom="medium">
+                                <cell>Time Interval</cell>
+                                <cell>Average Rate of Change (m/s)</cell>
+                            </row>
+                            <row bottom="minor">
+                                <cell>0 to 10 sec</cell>
+                                <cell></cell>
+                            </row>
+                            <row bottom="minor">
+                                <cell>0 to 3 sec</cell>
+                                <cell></cell>
+                            </row>
+                            <row bottom="minor">
+                                <cell>3 to 6 sec</cell>
+                                <cell></cell>
+                            </row>
+                            <row bottom="minor">
+                                <cell>7 to 8 sec</cell>
+                                <cell></cell>
+                            </row>
+                            <row bottom="minor">
+                                <cell>8 to 10 sec</cell>
+                                <cell></cell>
+                            </row>
+                        </tabular>
+                    </table>
+                </statement>
+            </task>
+        </activity>
     </page>
 </worksheet>
