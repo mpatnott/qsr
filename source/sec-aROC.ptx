@@ -138,7 +138,7 @@
                     </p>
                 </statement>
             </task>
-            <task>
+            <task workspace="1in">
                 <statement>
                     <p>
                         Work with your group to complete the table showing the average rates of change for each of the teams over each of the time intervals.
@@ -192,6 +192,62 @@
                     </table>
                 </statement>
             </task>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        Write a sentence explaining what it means for an average rate of change to be negative.
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity>
+            <introduction>
+                <p>
+                    Bailee thinks she is spending too much time on her smartphone, and has been trying to cut back. The table below shows how many hours she spent on her phone every day over the past week, where day 0 is the start of her intentional effort to reduce her smartphone usage.
+                </p>
+                <table>
+                    <title>Bailee's smartphone usage</title>
+                    <tabular>
+                        <row header="yes" bottom = "minor">
+                            <cell>Day</cell>
+                            <cell>Hours on Smartphone</cell>
+                        </row>
+                        <row>
+                            <cell>0</cell>
+                            <cell>7.5</cell>
+                        </row>
+                        <row>
+                            <cell>1</cell>
+                            <cell>7.25</cell>
+                        </row>
+                        <row>
+                            <cell>2</cell>
+                            <cell>6.75</cell>
+                        </row>
+                        <row>
+                            <cell>3</cell>
+                            <cell>6</cell>
+                        </row>
+                        <row>
+                            <cell>4</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>5</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>6</cell>
+                            <cell>4.5</cell>
+                        </row>
+                        <row>
+                            <cell>7</cell>
+                            <cell>4</cell>
+                        </row>
+                    </tabular>
+                </table>
+            </introduction>
         </activity>
     </page>
 </worksheet>
