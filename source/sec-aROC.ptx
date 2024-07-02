@@ -280,7 +280,7 @@
                 </p>
                 <figure xml:id="fig-denver-pop">
                     <caption>Data from Data Commons 2024, US Census Bureua, electronic dataset, Data Commons, viewed 2 Jul 2024, <url href="https://datacommons.org"></url></caption>
-                    <image source="./images/denver-pop.png" width="50%">
+                    <image source="./images/denver-pop.png" width="30%">
                         <shortdescription>Graph showing Denver's population between 2010 and 2022.</shortdescription>
                         <description>
                             <p>
