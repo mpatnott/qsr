@@ -97,7 +97,7 @@
                 <statement>
                     Team D started the race at the same time as the other teams, finished in 10 seconds, and ran forward toward the finish line at a consistent pace for the entire race. Sketch Team D's progress on the axis below. How fast did Team D run?
                     <figure xml:id="fig-3-leg-race-team-d">
-                        <caption>Team C</caption>
+                        <caption>Team D</caption>
                         <image xml:id="graph-3-leg-race-team-d" width="33%">
                             <description>
                                 <p>
@@ -120,4 +120,18 @@
         </activity>
     </page>
 
+    <page>
+        <definition xml:id="def-aROC">
+            <statement>
+                <p>
+                    The <term>average rate of change</term> of a quantity <m>A</m> with respect to a quantity <m>B</m> is 
+                    <me>\text{aROC} = \frac{\text{Change in } A}{\text{Change in } B} = \frac{a_2 - a_1}{b_2 - b_1}</me>.
+                    It is the <term>slope</term> of the line from the point <m>(b_1, a_1)</m> to the point <m>(b_2, a_2)</m>.
+                </p>
+            </statement>
+        </definition>
+        <example workspace="1in">
+            Find the average rates of change of Team A during the three-legged race over the intervals 0 to 3 sec, 0 to 10 sec, 7 to 8 sec, and 8 to 10 sec.
+        </example>
+    </page>
 </worksheet>
