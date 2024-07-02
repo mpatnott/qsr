@@ -265,7 +265,23 @@
         </activity>
 
         <activity>
-            Challenge - median income by gender.
+            <introduction>
+                <p>
+                    The graph below shows the population of Denver between 2010 and 2022.
+                </p>
+                <figure xml:id="fig-denver-pop">
+                    <caption>Data from Data Commons 2024, US Census Bureua, electronic dataset, Data Commons, viewed 2 Jul 2024, <url href="https://datacommons.org"></url></caption>
+                    <image source="images/denver-pop.png">
+                        <shortdescription>Graph showing Denver's population between 2010 and 2022.</shortdescription>
+                        <description>
+                            <p>
+                                Between 2010 and 2020, Denver's population increased at a fairly steady rate from about 603,000 to 735,000. Population estimates are 620,000 in 2011, 635,000 in 2012, 649,000 in 2013, 665,000 in 2014, 683,000 in 2015, 696,000 in 2016, 705,000 in 2017, 716,000 in 2018, and 726,000 in 2019. Population dropped to about 711,000 in 2021, and then rose slightly to 713,000 in 2022.
+                            </p>
+                        </description>
+                    </image>
+                </figure>
+            </introduction>
+            
         </activity>
     </page>
 </worksheet>
