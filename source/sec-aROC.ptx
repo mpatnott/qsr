@@ -138,7 +138,7 @@
                     </p>
                 </statement>
             </task>
-            <task workspace="1in">
+            <task workspace="2in">
                 <statement>
                     <p>
                         Work with your group to complete the table showing the average rates of change for each of the teams over each of the time intervals.
@@ -200,7 +200,9 @@
                 </statement>
             </task>
         </activity>
+    </page>
 
+    <page>
         <activity>
             <introduction>
                 <p>
@@ -209,45 +211,57 @@
                 <table>
                     <title>Bailee's smartphone usage</title>
                     <tabular>
-                        <row header="yes" bottom = "minor">
-                            <cell>Day</cell>
-                            <cell>Hours on Smartphone</cell>
-                        </row>
-                        <row>
-                            <cell>0</cell>
-                            <cell>7.5</cell>
-                        </row>
-                        <row>
+                        <row bottom = "minor">
+                            <cell><strong>Day</strong></cell>
                             <cell>1</cell>
-                            <cell>7.25</cell>
-                        </row>
-                        <row>
                             <cell>2</cell>
-                            <cell>6.75</cell>
-                        </row>
-                        <row>
                             <cell>3</cell>
-                            <cell>6</cell>
-                        </row>
-                        <row>
                             <cell>4</cell>
-                            <cell></cell>
-                        </row>
-                        <row>
                             <cell>5</cell>
-                            <cell></cell>
-                        </row>
-                        <row>
                             <cell>6</cell>
-                            <cell>4.5</cell>
+                            <cell>7</cell>
                         </row>
                         <row>
-                            <cell>7</cell>
-                            <cell>4</cell>
+                            <cell><strong>Hours on Smartphone</strong></cell>
+                            <cell>7.5</cell>
+                            <cell>7.25</cell>
+                            <cell>6.75</cell>
+                            <cell>6</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell>4.5</cell>
                         </row>
                     </tabular>
                 </table>
             </introduction>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        What was the average rate of change in the number of hours Bailee spent on her smartphone from the beginning to the end of the week?
+                    </p>
+                </statement>
+            </task>
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        Bailee forgot to keep track of how many hours she spent on her phone on days 5 and 6. Use your average rate of change to estimate her smartphone usage on these two days.
+                    </p>
+                </statement>
+            </task>
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        If Bailee continues to decrease her smartphone usage at a steady rate, estimate how many hours she'll use her smartphone on Day 10.
+                    </p>
+                </statement>
+            </task>
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        Write a sentence explaining how to use an average rate of change to estimate missing or new data values.
+                    </p>
+                </statement>
+            </task>
         </activity>
     </page>
 </worksheet>
