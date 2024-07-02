@@ -241,29 +241,38 @@
                     </p>
                 </statement>
             </task>
-            <task workspace="0.75in">
+            <task workspace="1.5in">
                 <statement>
                     <p>
                         Bailee forgot to keep track of how many hours she spent on her phone on days 5 and 6. Use your average rate of change to estimate her smartphone usage on these two days.
                     </p>
                 </statement>
             </task>
-            <task workspace="0.75in">
+            <task workspace="1in">
                 <statement>
                     <p>
                         If Bailee continues to decrease her smartphone usage at a steady rate, estimate how many hours she'll use her smartphone on Day 10.
                     </p>
                 </statement>
             </task>
-            <task workspace="0.75in">
+            <task workspace="1in">
                 <statement>
                     <p>
                         Write a sentence explaining how to use an average rate of change to estimate missing or new data values.
                     </p>
                 </statement>
             </task>
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        Is it possible that Bailee spent 6.5 hours on her smartphone on day 5? Explain your answer.
+                    </p>
+                </statement>
+            </task>
         </activity>
+    </page>
 
+    <page>
         <activity>
             <introduction>
                 <p>
@@ -271,7 +280,7 @@
                 </p>
                 <figure xml:id="fig-denver-pop">
                     <caption>Data from Data Commons 2024, US Census Bureua, electronic dataset, Data Commons, viewed 2 Jul 2024, <url href="https://datacommons.org"></url></caption>
-                    <image source="./images/denver-pop.png">
+                    <image source="./images/denver-pop.png" width="75%">
                         <shortdescription>Graph showing Denver's population between 2010 and 2022.</shortdescription>
                         <description>
                             <p>
@@ -281,7 +290,41 @@
                     </image>
                 </figure>
             </introduction>
-            
+            <task workspace="0.75in">
+                <statement>
+                    <p>
+                        Explain how the graph suggests that the rate of change of Denver's population was fairly steady between 2010 and 2020.
+                    </p>
+                </statement>
+            </task>
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        Find three different estimates for the rate of change of Denver's population between 2010 and 2020. Do your estimates support the rate of change being fairly steady during this time period?
+                    </p>
+                </statement>
+            </task>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        Use one of your estimates from the previous part to estimate Denver's population in 2022.
+                    </p>
+                </statement>
+            </task>
+            <task workspace="0.75in">
+                <statement>
+                    <p>
+                        How does your estimate compare to the Denver's actual population in 2022? What real world event explains this difference?
+                    </p>
+                </statement>
+            </task>
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        Using a rate of change to estimate values outside of the data range available to us is called <term>extrapolation</term>. Use your response to the previous question to explain why extrapolation can be dangerous.
+                    </p>
+                </statement>
+            </task>
         </activity>
     </page>
 </worksheet>
