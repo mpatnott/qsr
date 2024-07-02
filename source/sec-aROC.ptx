@@ -145,29 +145,47 @@
                     </p>
                     <table>
                         <tabular halign="center" top="major" left="major">
-                            <col right="minor"/> <col right="major" width="40%"/>
+                            <col right="minor"/> <col right="minor"/> <col right="minor"/> <col right="minor"/> <col right="major"/>
                             <row header="yes" bottom="medium">
                                 <cell>Time Interval</cell>
-                                <cell>Average Rate of Change (m/s)</cell>
+                                <cell>Team A's aROC (m/s)</cell>
+                                <cell>Team B's aROC (m/s)</cell>
+                                <cell>Team C's aROC (m/s)</cell>
+                                <cell>Team D's aROC (m/s)</cell>
                             </row>
                             <row bottom="minor">
                                 <cell>0 to 10 sec</cell>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell></cell>
                                 <cell></cell>
                             </row>
                             <row bottom="minor">
                                 <cell>0 to 3 sec</cell>
                                 <cell></cell>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell></cell>
                             </row>
                             <row bottom="minor">
                                 <cell>3 to 6 sec</cell>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell></cell>
                                 <cell></cell>
                             </row>
                             <row bottom="minor">
                                 <cell>7 to 8 sec</cell>
                                 <cell></cell>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell></cell>
                             </row>
-                            <row bottom="minor">
+                            <row bottom="major">
                                 <cell>8 to 10 sec</cell>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell></cell>
                                 <cell></cell>
                             </row>
                         </tabular>
