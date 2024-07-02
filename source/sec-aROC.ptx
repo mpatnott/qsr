@@ -280,7 +280,7 @@
                 </p>
                 <figure xml:id="fig-denver-pop">
                     <caption>Data from Data Commons 2024, US Census Bureua, electronic dataset, Data Commons, viewed 2 Jul 2024, <url href="https://datacommons.org"></url></caption>
-                    <image source="./images/denver-pop.png" width="30%">
+                    <image source="./images/denver-pop.png" width="50%">
                         <shortdescription>Graph showing Denver's population between 2010 and 2022.</shortdescription>
                         <description>
                             <p>
@@ -297,7 +297,7 @@
                     </p>
                 </statement>
             </task>
-            <task workspace="1in">
+            <task workspace="0.75in">
                 <statement>
                     <p>
                         Find three different estimates for the rate of change of Denver's population between 2010 and 2020. Do your estimates support the rate of change being fairly steady during this time period?
@@ -318,7 +318,7 @@
                     </p>
                 </statement>
             </task>
-            <task workspace="1in">
+            <task workspace="0.75in">
                 <statement>
                     <p>
                         Using a rate of change to estimate values outside of the data range available to us is called <term>extrapolation</term>. Use your response to the previous question to explain why extrapolation can be dangerous.
