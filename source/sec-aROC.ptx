@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="sec-aROC" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title> Average Rates of Change </title>
+
+    <page>
+        <activity>
+            <introduction>
+                <p>
+                    In a three-legged race, people compete in teams of two. In each team, one person's left leg is tied to the other persons right leg. All teams then run from the start to the finish, competing to be the first team across the finish line.
+                </p>
+                <p>
+                    The graphs below show three teams' progress in a three-legged race at summer camp. The finish line for this race was 25 meters from the starting line.
+                </p>
+                <figure xml:id="fig-3-leg-race-all">
+                    <caption>Progress in a 25 meter Three-Legged Race</caption>
+                    <sidebyside>
+                        <figure xml:id="fig-3-leg-race-team-a">
+                            <caption>Team A</caption>
+                            <image xml:id="graph-3-leg-race-team-a">
+                                <description>
+                                    <p>
+                                        Parabola facing down. Increases from <m>(0,0)</m> to about <m>(8,27)</m>, then decreases to <m>(10,25)</m>. The horizontal axis is labeled seconds and the vertical axis is labeled meters.
+                                    </p>
+                                </description>
+                                <shortdescription>Parabola facing down. Increases from (0,0) to about (8,27), then decreases to (10,25).</shortdescription>
+                                <latex-image>
+                                    \begin{tikzpicture}
+                                        \begin{axis}[grid = both, axis lines = center,
+                                                        xmin = -0.5, xmax = 10.5, extra x ticks = {1, 3, 5, 7, 9}, xlabel={sec},
+                                                        ymin = -0.5, ymax = 30, extra y ticks = {5, 15, 25}, ylabel={m}]
+                                            \addplot[domain=0:10, very thick] {-0.4375*x^2+6.875*x};
+                                        \end{axis}
+                                    \end{tikzpicture}
+                                </latex-image>
+                            </image>
+                        </figure>
+                        <figure xml:id="fig-3-leg-race-team-b">
+                            <caption>Team B</caption>
+                            <image xml:id="graph-3-leg-race-team-b">
+                                <description>
+                                    <p>
+                                        Graph starts at <m>(0,0)</m> and increases to <m>(10,25)</m>. It initially increases slowly, then speeds up. The horizontal axis is labeled seconds and the vertical axis is labeled meters.
+                                    </p>
+                                </description>
+                                <shortdescription>Graph starts at (0,0) and increases to (10,25). It initially increases slowly, then speeds up.</shortdescription>
+                                <latex-image>
+                                    \begin{tikzpicture}
+                                        \begin{axis}[grid = both, axis lines = center,
+                                                        xmin = -0.5, xmax = 10.5, extra x ticks = {1, 3, 5, 7, 9}, xlabel={sec},
+                                                        ymin = -0.5, ymax = 30, extra y ticks = {5, 15, 25}, ylabel={m}]
+                                            \addplot[domain=0:10, very thick] {0.3*x^2 - 0.5*x};
+                                        \end{axis}
+                                    \end{tikzpicture}
+                                </latex-image>
+                            </image>
+                        </figure>
+                        <figure xml:id="fig-3-leg-race-team-c">
+                            <caption>Team C</caption>
+                            <image xml:id="graph-3-leg-race-team-c">
+                                <description>
+                                    <p>
+                                        Graph increases from <m>(0,0)</m> to <m>(3,10)</m>, decreases to <m>(6,9)</m>, then increases again to <m>(10,25)</m>. The horizontal axis is labeled seconds and the vertical axis is labeled meters.
+                                    </p>
+                                </description>
+                                <shortdescription>Graph increases from (0,0) to (3,10), decreases to (6,9), then increases again to (10,25).</shortdescription>
+                                <latex-image>
+                                    \begin{tikzpicture}
+                                        \begin{axis}[grid = both, axis lines = center,
+                                                        xmin = -0.5, xmax = 10.5, extra x ticks = {1, 3, 5, 7, 9}, xlabel={sec}, 
+                                                        ymin = -0.5, ymax = 30, extra y ticks = {5, 15, 25}, ylabel={m}]
+                                            \addplot[domain=0:10, very thick] {0.119*x^3 - 1.667*x^2 + 7.2619*x};
+                                        \end{axis}
+                                    \end{tikzpicture}
+                                </latex-image>
+                            </image>
+                        </figure>
+                    </sidebyside>
+                </figure>
+            </introduction>
+            <task workspace="0.25in">
+                <statement>
+                    Which team won the race? How do you know?
+                </statement>
+            </task>
+            <task workspace="0.25in">
+                <statement>
+                    Describe each team's progress during the race in words.
+                </statement>
+            </task>
+            <task workspace="0.25in">
+                <statement>
+                    Which team ran the fastest? Explain your answer.
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    Team D started the race at the same time as the other teams, finished in 10 seconds, and ran forward toward the finish line at a consistent pace for the entire race. Sketch Team D's progress on the axis below. How fast did Team D run?
+                    <figure xml:id="fig-3-leg-race-team-d">
+                        <caption>Team C</caption>
+                        <image xml:id="graph-3-leg-race-team-d" width="33%">
+                            <description>
+                                <p>
+                                    Blank axes. The horizontal axis is labeled seconds and ranges from 0 to 10. The vertical axis is labeled meters and ranges from 0 to 30.
+                                </p>
+                            </description>
+                            <shortdescription>Blank axes.</shortdescription>
+                            <latex-image>
+                                \begin{tikzpicture}
+                                    \begin{axis}[grid = both, axis lines = center,
+                                                    xmin = -0.5, xmax = 10.5, extra x ticks = {1, 3, 5, 7, 9}, xlabel={sec}, 
+                                                    ymin = -0.5, ymax = 30, extra y ticks = {5, 15, 25}, ylabel={m}]
+                                    \end{axis}
+                                \end{tikzpicture}
+                            </latex-image>
+                        </image>
+                    </figure>
+                </statement>
+            </task>
+        </activity>
+    </page>
+
+</worksheet>
