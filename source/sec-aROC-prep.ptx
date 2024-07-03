@@ -82,7 +82,9 @@
                 </statement>
             </task>
         </investigation>
+    </page>
 
+    <page>
         <investigation>
             <introduction>
                 <p>
@@ -90,7 +92,7 @@
                 </p>
                 <figure xml:id="fig-3-leg-race-team-a-prep">
                     <caption>Team A</caption>
-                    <image xml:id="graph-3-leg-race-team-a-prep">
+                    <image xml:id="graph-3-leg-race-team-a-prep" width="50%">
                         <description>
                             <p>
                                 Parabola facing down. Increases from <m>(0,0)</m> to about <m>(8,27)</m>, then decreases to <m>(10,25)</m>. The horizontal axis is labeled seconds and the vertical axis is labeled meters.
@@ -103,13 +105,36 @@
                                                 xmin = -0.5, xmax = 10.5, extra x ticks = {1, 3, 5, 7, 9}, xlabel={sec},
                                                 ymin = -0.5, ymax = 30, extra y ticks = {5, 15, 25}, ylabel={m}]
                                     \addplot[domain=0:10, very thick] {-0.4375*x^2+6.875*x};
+                                    \addplot+[nodes near coords, only marks, point meta=explicit symbolic]
+                                    coordinates{
+                                        (10,25) [A]
+                                        (1.622,10) [B]
+                                    };
                                 \end{axis}
                             \end{tikzpicture}
                         </latex-image>
                     </image>
                 </figure>
                 <p>
-                    This graph shows Team A's location from the starting line at every time during a race. From the axis labels, we can tell that the vertical axis tells us their location in meters and the horizontal axis tells us the time in seconds since the race began.
+                    This graph shows Team A's location from the starting line at every time during a race. From the axis labels, we can tell that the vertical axis tells us their location in meters and the horizontal axis tells us the time in seconds since the race began. Common types of questions to ask about this sort of graph include:
+                    <ul>
+                        <li>
+                            <p> 
+                                Where was Team A 10 sec into the race?
+                            </p>
+                            <p>
+                                <strong>Solution:</strong> Since seconds are on the horizontal axis, we need to find the coordinates of the point on the curve whose horizontal coordinate is 10. To do this, we go to 10 on the horizontal axis and look directly above and below until we find the curve. On this graph, we find point <m>A</m>. Now that we've found the point we want, our answer is the vertical coordinate of that point. In this case, our answer is 25 m.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                How long did it take Team A to go 10 m?
+                            </p>
+                            <p>
+                                <strong>Solution:</strong> Since distance in meters is on the vertical axis, we need to find the coordinates of the point on the curve whose vertical coordinate is 10. To do this, we go to 10 on the vertical axis and look directly to the right and left until we find the curve. On this graph, we find point <m>B</m>. Now that we've found the point we want, our answer is the horizontal coordinate of that point. In this case, we see that our point is between 1 and 2 on the horizontal axis. It's about half-way between, we estimate that our answer is 1.5 sec.
+                            </p>
+                        </li>
+                    </ul>
                 </p>
             </introduction>
         </investigation>
