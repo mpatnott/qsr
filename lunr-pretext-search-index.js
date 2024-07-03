@@ -127,6 +127,24 @@ var ptx_lunr_docs = [
   "body": "  The graph below shows the population of Denver between 2010 and 2022.   Data from Data Commons 2024, US Census Bureua, electronic dataset, Data Commons, viewed 2 Jul 2024,   Graph showing Denver's population between 2010 and 2022.   Between 2010 and 2020, Denver's population increased at a fairly steady rate from about 603,000 to 735,000. Population estimates are 620,000 in 2011, 635,000 in 2012, 649,000 in 2013, 665,000 in 2014, 683,000 in 2015, 696,000 in 2016, 705,000 in 2017, 716,000 in 2018, and 726,000 in 2019. Population dropped to about 711,000 in 2021, and then rose slightly to 713,000 in 2022.       Explain how the graph suggests that the rate of change of Denver's population was fairly steady between 2010 and 2020.    Find three different estimates for the rate of change of Denver's population between 2010 and 2020. Do your estimates support the rate of change being fairly steady during this time period?    Use one of your estimates from the previous part to estimate Denver's population in 2022.    How does your estimate compare to Denver's actual population in 2022? What real world event likely explains this difference?    Using a rate of change to estimate values outside of the data range available to us is called extrapolation . Use your response to the previous question to explain why extrapolation can be dangerous.   "
 },
 {
+  "id": "sec-aROC-prep",
+  "level": "1",
+  "url": "sec-aROC-prep.html",
+  "type": "Worksheet",
+  "number": "2.1",
+  "title": "Prep Activities: Average Rates of Change",
+  "body": " Prep Activities: Average Rates of Change   These activities will help you review some graphing skills that you will need in many future lessons. You will also review finding average speed, which you will build on in this lesson.     There are many types of graphs in math! In previous courses, you may have seen:  Bar charts  Pie charts  Scatterplots  Graphs of functions in the plane  and more. When we talk about graphs in this class, we will always mean graphs of points or curves in the plane (unless we specifically say otherwise). We will use these graphs in almost every lesson, so it is essential that you know how to read and create them.    The graph below shows several points in the plane (aka coordinate plane). The horizontal axis goes from left to right and is the boldest left-to-right line if the graph includes more than one such line. In previous classes, you may have called this the axis . The vertical axis goes up and down and is the boldst up-and-down line if the graph includes more than one such line. In previous classes, you may have called this the axis . The axes are two number lines that create a grid on the coordinate plane. (Note: Axis is singular and axes is plural.)   The point at which the two axes intersect is called the origin . This point represents 0 for both axes, and is given the coordinates (aka ordered pair ) . Each point in the plane has coordinates (horizontal value, vertical value). For example, the point has the coordinates , the point has the coordinates , and the point has coordinates .  Write the coordinates of the rest of the points in this graph.    "
+},
+{
+  "id": "sec-aROC-prep-3",
+  "level": "2",
+  "url": "sec-aROC-prep.html#sec-aROC-prep-3",
+  "type": "Prep Activity",
+  "number": "2.1.1",
+  "title": "",
+  "body": "  There are many types of graphs in math! In previous courses, you may have seen:  Bar charts  Pie charts  Scatterplots  Graphs of functions in the plane  and more. When we talk about graphs in this class, we will always mean graphs of points or curves in the plane (unless we specifically say otherwise). We will use these graphs in almost every lesson, so it is essential that you know how to read and create them.    The graph below shows several points in the plane (aka coordinate plane). The horizontal axis goes from left to right and is the boldest left-to-right line if the graph includes more than one such line. In previous classes, you may have called this the axis . The vertical axis goes up and down and is the boldst up-and-down line if the graph includes more than one such line. In previous classes, you may have called this the axis . The axes are two number lines that create a grid on the coordinate plane. (Note: Axis is singular and axes is plural.)   The point at which the two axes intersect is called the origin . This point represents 0 for both axes, and is given the coordinates (aka ordered pair ) . Each point in the plane has coordinates (horizontal value, vertical value). For example, the point has the coordinates , the point has the coordinates , and the point has coordinates .  Write the coordinates of the rest of the points in this graph.   "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
