@@ -2,81 +2,116 @@
 
 <worksheet xml:id="sec-aROC-prep" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Prep Activities: Average Rates of Change</title>
-    <introduction>
-        <p>
-            These activities will help you review some graphing skills that you will need in many future lessons. You will also review finding average speed, which you will build on in this lesson.
-        </p>
-    </introduction>
-    <investigation>
+    <page>
         <introduction>
             <p>
-                There are many types of graphs in math! In previous courses, you may have seen:
-                <ul>
-                    <li>Bar charts</li>
-                    <li>Pie charts</li>
-                    <li>Scatterplots</li>
-                    <li>Graphs of functions in the <m>xy-</m>plane</li>
-                </ul>
-                and more. When we talk about graphs in this class, we will always mean graphs of points or curves in the <m>xy-</m>plane (unless we specifically say otherwise). We will use these graphs in almost every lesson, so it is essential that you know how to read and create them.
+                These activities will help you review some graphing skills that you will need in many future lessons. You will also review finding average speed, which you will build on in this lesson.
             </p>
         </introduction>
-        <task workspace="0.75in">
-            <statement>
+        <investigation>
+            <introduction>
                 <p>
-                   The graph below shows several points  in the <m>xy-</m>plane (aka coordinate plane). The <term>horizontal axis</term> goes from left to right and is the boldest left-to-right line if the graph includes more than one such line. In previous classes, you may have called this the <term><m>x-</m>axis</term>. The <term>vertical axis</term> goes up and down and is the boldst up-and-down line if the graph includes more than one such line. In previous classes, you may have called this the <term><m>y-</m>axis</term>. The axes are two number lines that create a grid on the coordinate plane. (Note: Axis is singular and axes is plural.)
+                    There are many types of graphs in math! In previous courses, you may have seen:
+                    <ul>
+                        <li>Bar charts</li>
+                        <li>Pie charts</li>
+                        <li>Scatterplots</li>
+                        <li>Graphs of functions in the <m>xy-</m>plane</li>
+                    </ul>
+                    and more. When we talk about graphs in this class, we will always mean graphs of points or curves in the <m>xy-</m>plane (unless we specifically say otherwise). We will use these graphs in almost every lesson, so it is essential that you know how to read and create them.
                 </p>
-                <figure xml:id="fig-coords-example">
-                    <caption>Example of ppoints in the coordinate plane.</caption>
-                    <image xml:id="graph-coords-example" width="50%">
+            </introduction>
+            <task workspace="0.75in">
+                <statement>
+                    <p>
+                    The graph below shows several points  in the <m>xy-</m>plane (aka coordinate plane). The <term>horizontal axis</term> goes from left to right and is the boldest left-to-right line if the graph includes more than one such line. In previous classes, you may have called this the <term><m>x-</m>axis</term>. The <term>vertical axis</term> goes up and down and is the boldst up-and-down line if the graph includes more than one such line. In previous classes, you may have called this the <term><m>y-</m>axis</term>. The axes are two number lines that create a grid on the coordinate plane. (Note: Axis is singular and axes is plural.)
+                    </p>
+                    <figure xml:id="fig-coords-example">
+                        <caption>Example of ppoints in the coordinate plane.</caption>
+                        <image xml:id="graph-coords-example" width="50%">
+                            <description>
+                                <p>
+                                    Point A is at (2,3). Point B is at (-3,1). Point C is at (-1,-1). Point D is at (-1,3). Point E is at (0,1). Point F is at (4,0). Point G is at (0,-3). Point H is at (2,1). Point I is at (-1,1). Point J is at (-4,0).
+                                </p>
+                            </description>
+                            <shortdescription>10 points in the coordinate plane</shortdescription>
+                            <latex-image>
+                                \begin{tikzpicture}
+                                    \begin{axis}[grid = both, axis lines = center,
+                                                    xmin = -4.5, xmax = 4.5, extra x ticks = {-3,-1,1,3},
+                                                    ymin = -4.5, ymax = 4.5, extra y ticks = {-3,-1,1,3}]
+                                        \addplot+[nodes near coords, only marks, point meta=explicit symbolic, 
+                                            coordinate style/.condition={\coordindex==2}{below},
+                                            coordinate style/.condition={\coordindex==8}{below}]
+                                            coordinates{
+                                                (2,3) [A]
+                                                (-3,1) [B]
+                                                (-1,-1) [C]
+                                                (-1,3) [D]
+                                                (0,1) [E]
+                                                (4,0) [F]
+                                                (0,-3) [G]
+                                                (2,1) [H]
+                                                (1,-1) [I]
+                                                (-4,0) [J]
+                                            };
+                                            <!--table [meta=label] {
+                                                x  y label
+                                                2  3 A
+                                                -3  1 B
+                                                -1 -1 C
+                                                -1  3 D
+                                                0  1 E
+                                                4  0 F
+                                                0 -3 G
+                                                2  1 H
+                                                1 -1 I
+                                                -4  0 J
+                                            };-->
+                                    \end{axis}
+                                \end{tikzpicture}
+                            </latex-image>
+                        </image>
+                    </figure>
+                    <p> 
+                        The point at which the two axes intersect is called the <term>origin</term>. This point represents 0 for both axes, and is given the <term>coordinates</term> (aka <term>ordered pair</term>) <m>(0,0)</m>. Each point in the plane has coordinates (horizontal value, vertical value). For example, the point <m>A</m> has the coordinates <m>(2,3)</m>, the point <m>B</m> has the coordinates <m>(-3,1)</m>, and the point <m>J</m> has coordinates <m>(-4,0)</m>.
+                    </p>
+                    <p>
+                        Write the coordinates of the rest of the points in this graph.
+                    </p>
+                </statement>
+            </task>
+        </investigation>
+
+        <investigation>
+            <introduction>
+                <p>
+                    We will often be interested in graphs of lines and curves, rather than graphs of invidual points. Here is a graph that we will see again soon.
+                </p>
+                <figure xml:id="fig-3-leg-race-team-a-prep">
+                    <caption>Team A</caption>
+                    <image xml:id="graph-3-leg-race-team-a-prep">
                         <description>
                             <p>
-                                Point A is at (2,3). Point B is at (-3,1). Point C is at (-1,-1). Point D is at (-1,3). Point E is at (0,1). Point F is at (4,0). Point G is at (0,-3). Point H is at (2,1). Point I is at (-1,1). Point J is at (-4,0).
+                                Parabola facing down. Increases from <m>(0,0)</m> to about <m>(8,27)</m>, then decreases to <m>(10,25)</m>. The horizontal axis is labeled seconds and the vertical axis is labeled meters.
                             </p>
                         </description>
-                        <shortdescription>10 points in the coordinate plane</shortdescription>
+                        <shortdescription>Parabola facing down. Increases from (0,0) to about (8,27), then decreases to (10,25).</shortdescription>
                         <latex-image>
                             \begin{tikzpicture}
                                 \begin{axis}[grid = both, axis lines = center,
-                                                xmin = -4.5, xmax = 4.5, extra x ticks = {-3,-1,1,3},
-                                                ymin = -4.5, ymax = 4.5, extra y ticks = {-3,-1,1,3}]
-                                    \addplot+[nodes near coords, only marks, point meta=explicit symbolic]
-                                        coordinates{
-                                            (2,3) [A]
-                                            (-3,1) [B]
-                                            (-1,-1) [C]
-                                            (-1,3) [D]
-                                            (0,1) [E]
-                                            (4,0) [F]
-                                            (0,-3) [G]
-                                            (2,1) [H]
-                                            (1,-1) [I]
-                                            (-4,0) [J]
-                                        };
-                                        <!--table [meta=label] {
-                                            x  y label
-                                            2  3 A
-                                            -3  1 B
-                                            -1 -1 C
-                                            -1  3 D
-                                             0  1 E
-                                             4  0 F
-                                             0 -3 G
-                                             2  1 H
-                                             1 -1 I
-                                            -4  0 J
-                                        };-->
+                                                xmin = -0.5, xmax = 10.5, extra x ticks = {1, 3, 5, 7, 9}, xlabel={sec},
+                                                ymin = -0.5, ymax = 30, extra y ticks = {5, 15, 25}, ylabel={m}]
+                                    \addplot[domain=0:10, very thick] {-0.4375*x^2+6.875*x};
                                 \end{axis}
                             \end{tikzpicture}
                         </latex-image>
                     </image>
                 </figure>
-                <p> 
-                    The point at which the two axes intersect is called the <term>origin</term>. This point represents 0 for both axes, and is given the <term>coordinates</term> (aka <term>ordered pair</term>) <m>(0,0)</m>. Each point in the plane has coordinates (horizontal value, vertical value). For example, the point <m>A</m> has the coordinates <m>(2,3)</m>, the point <m>B</m> has the coordinates <m>(-3,1)</m>, and the point <m>J</m> has coordinates <m>(-4,0)</m>.
-                </p>
                 <p>
-                    Write the coordinates of the rest of the points in this graph.
+                    This graph shows Team A's location from the starting line at every time during a race. From the axis labels, we can tell that the vertical axis tells us their location in meters and the horizontal axis tells us the time in seconds since the race began.
                 </p>
-            </statement>
-        </task>
-    </investigation>
+            </introduction>
+        </investigation>
+    </page>
 </worksheet>
