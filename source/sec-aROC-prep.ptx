@@ -20,7 +20,7 @@
                 and more. When we talk about graphs in this class, we will always mean graphs of points or curves in the <m>xy-</m>plane (unless we specifically say otherwise). We will use these graphs in almost every lesson, so it is essential that you know how to read and create them.
             </p>
         </introduction>
-        <task>
+        <task workspace="0.75in">
             <statement>
                 <p>
                    The graph below shows several points  in the <m>xy-</m>plane (aka coordinate plane). The <term>horizontal axis</term> goes from left to right and is the boldest left-to-right line if the graph includes more than one such line. In previous classes, you may have called this the <term><m>x-</m>axis</term>. The <term>vertical axis</term> goes up and down and is the boldst up-and-down line if the graph includes more than one such line. In previous classes, you may have called this the <term><m>y-</m>axis</term>. The axes are two number lines that create a grid on the coordinate plane. (Note: Axis is singular and axes is plural.)
@@ -37,8 +37,8 @@
                         <latex-image>
                             \begin{tikzpicture}
                                 \begin{axis}[grid = both, axis lines = center,
-                                                xmin = -4.5, xmax = 4.5, xlabel={horizontal axis},
-                                                ymin = -4.5, ymax = 4.5, ylabel={vertical axis}]
+                                                xmin = -4.5, xmax = 4.5, extra x ticks = {-3,-1,1,3},
+                                                ymin = -4.5, ymax = 4.5, extra y ticks = {-3,-1,1,3}]
                                     \addplot+[nodes near coords, only marks, point meta=explicit symbolic]
                                         coordinates{
                                             (2,3) [A]
