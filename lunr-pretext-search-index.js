@@ -127,6 +127,24 @@ var ptx_lunr_docs = [
   "body": "  The graph below shows the population of Denver between 2010 and 2022.   Data from Data Commons 2024, US Census Bureua, electronic dataset, Data Commons, viewed 2 Jul 2024,   Graph showing Denver's population between 2010 and 2022.   Between 2010 and 2020, Denver's population increased at a fairly steady rate from about 603,000 to 735,000. Population estimates are 620,000 in 2011, 635,000 in 2012, 649,000 in 2013, 665,000 in 2014, 683,000 in 2015, 696,000 in 2016, 705,000 in 2017, 716,000 in 2018, and 726,000 in 2019. Population dropped to about 711,000 in 2021, and then rose slightly to 713,000 in 2022.       Explain how the graph suggests that the rate of change of Denver's population was fairly steady between 2010 and 2020.    Find three different estimates for the rate of change of Denver's population between 2010 and 2020. Do your estimates support the rate of change being fairly steady during this time period?    Use one of your estimates from the previous part to estimate Denver's population in 2022.    How does your estimate compare to Denver's actual population in 2022? What real world event likely explains this difference?    Using a rate of change to estimate values outside of the data range available to us is called extrapolation . Use your response to the previous question to explain why extrapolation can be dangerous.   "
 },
 {
+  "id": "sec-linear-models",
+  "level": "1",
+  "url": "sec-linear-models.html",
+  "type": "Worksheet",
+  "number": "1.3",
+  "title": "Linear Models",
+  "body": " Linear Models     Xcel Energy provides electricity to most people in and around Denver Colorado. The table below shows an estimate of monthly rates charged by Xcel . Use this table to respond to the questions below.   Xcel Energy Electricity Charges, Residential Opt-Out Pricing Plan     Summer Billing Cycles (June - Septembr)  Winter Billing Cycles (    Fixed Monthly Fees  $12.20  $12.20    $ Per kWh  $0.1038  $0.0857       Suppose a customer uses no electricity in July. What would her monthly bill be?    Ellie uses 900 kWh in July. What would her monthly bill be?    David uses 905 kWh in July. What would his monthly bill be?    What is the difference between outputs in your answers to parts (b) and (c)? What is the difference between the inputs you used to answer parts (b) and (c)? Now use these differences to calculate the average rate of change.    How is your answer to part (d) related to the information you were given in the table?    Use your observation in part (e) to find the average rate of change between the costs to Theo, who used 784 kWh in August, and Iris, who used 1023 kWh in August, without calculating anything      "
+},
+{
+  "id": "sec-linear-models-2-1",
+  "level": "2",
+  "url": "sec-linear-models.html#sec-linear-models-2-1",
+  "type": "Activity",
+  "number": "1.3.1",
+  "title": "",
+  "body": "  Xcel Energy provides electricity to most people in and around Denver Colorado. The table below shows an estimate of monthly rates charged by Xcel . Use this table to respond to the questions below.   Xcel Energy Electricity Charges, Residential Opt-Out Pricing Plan     Summer Billing Cycles (June - Septembr)  Winter Billing Cycles (    Fixed Monthly Fees  $12.20  $12.20    $ Per kWh  $0.1038  $0.0857       Suppose a customer uses no electricity in July. What would her monthly bill be?    Ellie uses 900 kWh in July. What would her monthly bill be?    David uses 905 kWh in July. What would his monthly bill be?    What is the difference between outputs in your answers to parts (b) and (c)? What is the difference between the inputs you used to answer parts (b) and (c)? Now use these differences to calculate the average rate of change.    How is your answer to part (d) related to the information you were given in the table?    Use your observation in part (e) to find the average rate of change between the costs to Theo, who used 784 kWh in August, and Iris, who used 1023 kWh in August, without calculating anything    "
+},
+{
   "id": "sec-aROC-prep",
   "level": "1",
   "url": "sec-aROC-prep.html",
