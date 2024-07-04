@@ -335,7 +335,7 @@
             </p>
             <figure xml:id="fig-comic-scam">
                 <caption>Relationship between Latte Purchase and Amount Left on Card</caption>
-                <image xml:id="graph-comic-scam" width="40%">
+                <image xml:id="graph-comic-scam">
                     <description>
                         <p>
                             The horizontal axis is ranges from -3 to 42. The vertical axis is ranges from -13 to 16. The graph shows a line with vertical intercept -10 and horizontal intercept 20.
@@ -347,7 +347,7 @@
                             \begin{axis}[grid = both, axis lines = center,
                                             xmin = -3, xmax = 42, extra x ticks = {-2, 2, 4, 6, 8, 12, 14, 16, 18, 22, 24, 26, 28, 32, 34, 36, 38}, extra x tick style={xticklabel=\empty,grid=major},
                                             ymin = -13, ymax = 16, extra y ticks = {-12, -11, -9, -8, -7, -6, -4, -3, -2, -1, 1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 13, 14}, extra y tick style={yticklabel=\empty,grid=major},
-                                            width=6in, height=3in]
+                                            width=6in, height=4in]
                                 \addplot[domain=0:42, very thick] {0.5*x - 10};
                             \end{axis}
                         \end{tikzpicture}
@@ -388,7 +388,65 @@
 
   <page>
     <activity>
-        comparing data plans problem from quantway co-req m.4
+        <introduction>
+            <p>
+                Data plans for cell phone plans can be purchased in two different ways. One is an unlimited data plan where the customer pays a set monthly fee for unlimited data. The other is a per-gigabyte (GB) pricing service where the customer pays a set monthly fee plus a specified amount for each GB. The GBs are not prorated (that means it doesn't matter if the customer uses 0.001 GB or 1 GB, they must still pay for the entire 1 GB). The cost of the phone itself and other fees are the same amount under each plan.
+            </p>
+            <p>
+                Ximena is shopping for a data plan and needs to decide which option costs less.
+                <ul>
+                    <li>Per-GB Pricing: There is a monthly fee of $20 plus $10 per GB.</li>
+                    <li>Unlimited Data: The unlimited plan costs $60 per month.</li>
+                </ul>
+            </p>
+        </introduction>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Which plan do you think is less expensive and why?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Let <m>P</m> be the monthly cost for the per-GB pricing plan and <m>g</m> be the number of gigabytes used. Create the linear model for <m>P</m> in terms of <m>g</m>.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Let <m>U</m> be the monthly cost for the unlimited pricing plan and <m>g</m> be the number of gigabytes used. Create the linear model for <m>U</m> in terms of <m>g</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Sketch both of your linear models on the same graph.
+                </p>
+                <figure xml:id="fig-compare-data-plans">
+                    <caption>Relationship between Latte Purchase and Amount Left on Card</caption>
+                    <image xml:id="graph-compare-data-plans" width="35%">
+                        <description>
+                            <p>
+                                Blank axes. The horizontal axis is labeled <m>g</m> and ranges from 0 to 8. The vertical axis is labeled $ and ranges from 0 to 100.
+                            </p>
+                        </description>
+                        <shortdescription>Blank axes.</shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                \begin{axis}[grid = both, axis lines = center,
+                                                ymin = -0.5, ymax = 101, ylabel={\$}, 
+                                                xmin = -0.5, xmax = 8.5, xlabel={$g$}]
+                                \end{axis}
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                </figure>
+            </statement>
+        </task>
     </activity>
   </page>
 
