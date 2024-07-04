@@ -82,7 +82,7 @@
         <task xml-id="electric-bill-graph">
             <statement>
                 <p>
-                    Sketch a graph that shows the relationship between kWh used in the summer and a customer's bill. <br/> <emph>Hint: Start by graphing the three points you found in parts (a) -(c)!</emph> 
+                    Sketch a graph that shows the relationship between kWh used in the summer and a customer's bill. <br/> <emph>Hint: Start by graphing the three points you found in parts (a) - (c)!</emph> 
                 </p>
                 <figure xml:id="fig-summer-electric-bill">
                     <caption>Relationship between Bill and Electricity Usage</caption>
@@ -244,8 +244,66 @@
   </page>
 
   <page>
-    <activity>
-        daily latte problem from quantway co-req m.2
+    <activity workspace="0.5in">
+        <introduction>
+            <p>
+                A local coffee shop offers a coffee card that you can preload with any amount of money and use like a debit card each day to purchase coffee. At the beginning of the month (when they get their paycheck), Arlo loads it with $50. Their favorite small soy latte costs $2.63.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Arlo purchases a latte every weekday. Estimate whether the amount of money they loaded onto their coffee card will last until the end of the month.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Explain why a linear model would describe the amount of money Arlo has left on their card.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    What is the vertical intercept for the linear model? The slope? How do you know?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Let <m>A</m> be the amount Arlo has left on their coffee card and <m>n</m> be the number of latte's they've purchased. Find a formula for the linear model relating <m>A</m> and <m>n</m>.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0in">
+            <statement>
+                <p>
+                    Sketch a graph of your linear model.
+                </p>
+                <figure xml:id="fig-coffee-card">
+                    <caption>Relationship between Latte Purchase and Amount Left on Card</caption>
+                    <image xml:id="graph-coffee-card" width="50%">
+                        <description>
+                            <p>
+                                Blank axes. The horizontal axis is labeled lattes and ranges from 0 to 25. The vertical axis is labeled $ and ranges from 0 to 50.
+                            </p>
+                        </description>
+                        <shortdescription>Blank axes.</shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                \begin{axis}[grid = both, axis lines = center,
+                                                ymin = -0.5, ymax = 52, ylabel={\$}, 
+                                                xmin = -0.5, xmax = 27, xlabel={lattes}}]
+                                \end{axis}
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                </figure>
+            </statement>
+        </task>
     </activity>
   </page>
 
