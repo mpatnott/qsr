@@ -4,7 +4,7 @@
   <title>Linear Models</title>
 
   <page>
-    <activity xml:id="xcel-summer-electricity">
+    <activity xml:id="a-xcel-summer-electricity">
         <introduction>
             <p>
                 Xcel Energy provides electricity to most people in and around Denver Colorado. The table below shows an estimate of monthly rates charged by Xcel<fn><url href="https://co.my.xcelenergy.com/s/billing-payment/residential-rates/residential-plan"></url></fn>. Use this table to respond to the questions below. 
@@ -214,7 +214,7 @@
         <task workspace="0.25in">
             <statement>
                 <p>
-                    The <term>vertical intercept</term> of a mathematical model is the value where the graph crosses the vertical axis. It is also called the <term>initial value</term> because it is the output when the input is 0. What is the vertical intercept of your graph in <xref ref="xcel-summer-electricity"/> part (e)?
+                    The <term>vertical intercept</term> of a mathematical model is the value where the graph crosses the vertical axis. It is also called the <term>initial value</term> because it is the output when the input is 0. What is the vertical intercept of your graph in <xref ref="a-xcel-summer-electricity"/> part (e)?
                 </p>
             </statement>
         </task>
