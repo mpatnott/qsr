@@ -97,7 +97,7 @@
                             \begin{tikzpicture}
                                 \begin{axis}[grid = both, axis lines = center,
                                                 xmin = -0.5, xmax = 175, xlabel={kWh}, extra x ticks = {10, 20, 30, 40, 60, 70, 80, 90, 110, 120, 130, 140, 160, 170}, extra x tick style={xticklabel=\empty,grid=major},
-                                                ymin = -0.5, ymax = 1550, ylabel={\$}, extra y ticks = {100, 200, 300, 400, 600, 700, 800, 900, 1100, 1200, 1300, 1400}, extra x tick style={xticklabel=\empty,grid=minor}]
+                                                ymin = -0.5, ymax = 1550, ylabel={\$}, extra y ticks = {100, 200, 300, 400, 600, 700, 800, 900, 1100, 1200, 1300, 1400}, extra y tick style={yticklabel=\empty,grid=major}]
                                 \end{axis}
                             \end{tikzpicture}
                         </latex-image>
@@ -105,20 +105,48 @@
                 </figure>
             </statement>
         </task>
-        <!-- <task workspace="0.5in">
-            <statement>
-                <p>
-                    Use your observation in part (e) to find the average rate of change between the costs to Theo, who used 784 kWh in August, and Iris, who used 1023 kWh in August, <strong>without calculating anything</strong>
-                </p>
-            </statement>
-        </task>
-        <task>
-            <statement>
-                <p>
-                    Let <m>B(k)</m> be the monthly bill of a customer who used <m>k</m> kWh of electricity in a summer month. Find a formula for <m>B(k)</m>
-                </p>
-            </statement>
-        </task> -->
+    </activity>
+  </page>
+
+  <page>
+    <definition xml:id="def-linear-model">
+        <statement>
+            <p>
+                A mathematical model that has a constant rate of change is called <term>linear model</term>. The rate of change of a linear model is called its <term>slope</term>.
+            </p>
+        </statement>
+    </definition>
+
+    <activity>
+        linear model or not? if linear, find slope.
+    </activity>
+
+    <activity>
+        back to electricity. introduce vertical intercept language. find formula. observe connection between slope, vertical intercept, and formula. quantway problem 1 #10
+    </activity>
+  </page>
+
+  <page>
+    <activity>
+        daily latte problem from quantway co-req m.2
+    </activity>
+  </page>
+
+  <page>
+    <activity>
+        given a graph, do lines stuff
+    </activity>
+  </page>
+
+  <page>
+    <activity>
+        comparing data plans problem from quantway co-req m.4
+    </activity>
+  </page>
+
+  <page>
+    <activity>
+        develop point-slope form
     </activity>
   </page>
 </worksheet>
