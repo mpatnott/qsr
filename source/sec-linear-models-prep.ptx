@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="sec-linear-models-prep" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Building Linear Models</title>
+    <page>
+        <introduction>
+            <p>
+                These activities will help you review some graphing skills that you will need in many future lessons. You will also practice find average rates of change, an essential skill for this lesson.
+            </p>
+        </introduction>
+        <investigation>
+            <introduction>
+                <p>
+                    Let's review plotting points. Use the axes below for all parts of this activity.
+                </p>
+                <figure xml:id="fig-graphing-practice">
+                    <caption>Money Earned</caption>
+                    <image xml:id="graph-graphing-practice" width="50%">
+                        <description>
+                            <p>
+                                Blank axes. The horizontal axis is labeled <m>t</m>, hrs and ranges from 0 to 40. The vertical axis is labeled $ and ranges from 0 to 400.
+                            </p>
+                        </description>
+                        <shortdescription>Blank axes.</shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                \begin{axis}[grid = both, axis lines = center,
+                                                xmin = -1, xmax = 100, xlabel={$t$, hrs},
+                                                ymin = -5, ymax = 400, ylabel={\$}]
+                                \end{axis}
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                </figure>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        If we're given the coordinates of a point, then we graph the point by going over to the first coordinate on the horizontal axis, and then up or down to the second number on the vertical axis. Graph the points <m>(10,100)</m>, <m>(25,200)</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        In this class, we will often need to find the coordinates of a point from a sentence. For example, the sentence
+                        <blockquote>
+                            <p>
+                                Jakai will make \$200 if he works for 25 hours.
+                            </p>
+                        </blockquote>
+                        describes that point <m>(25,200)</m> on our graph. We know that 25 hours has to be the first/horizontal coordinate because of the labeling of the axes in our graph.
+                    </p>
+                    <p>
+                        Graph the points described by each of the following sentences:
+                    </p>
+                </statement>
+                <task>
+                    <statement>
+                        <p>
+                            Dior will make \$300 if she works for 30 hours.
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Santos worked for 10 hours and made \$200.
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Ramona worked for 35 hours and made \$370.
+                        </p>
+                    </statement>
+                </task>
+            </task>
+        </investigation>
+    </page>
+</worksheet>
