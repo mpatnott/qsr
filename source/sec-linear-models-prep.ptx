@@ -49,7 +49,7 @@
                                 Jakai will make $200 if he works for 25 hours.
                             </p>
                         </blockquote>
-                        describes that point <m>(25,200)</m> on our graph. We know that 25 hours has to be the first/horizontal coordinate because of the labeling of the axes in our graph.
+                        describes the point <m>(25,200)</m> on our graph. We know that 25 hours has to be the first/horizontal coordinate because of the labeling of the axes in our graph.
                     </p>
                     <p>
                         Graph the points described by each of the following sentences:
@@ -93,7 +93,7 @@
                 We will sometimes be given points in a data table. Tables might be organized vertically, with named columns, or horizontally, with named rows. Look for the row and column names to find the horizontal and vertical coordinates of the points. Here are the points we've already graphed, arranged in a table in two different ways.
             </p>
             <sidebyside>
-                <table>
+                <table halign="center" top="minor" bottom="minor" left="minor" right="minor">
                     <title>Points arranged in a vertical table</title>
                     <tabular>
                         <row header="yes">
@@ -122,8 +122,8 @@
                         </row>
                     </tabular>
                 </table>
-                <table>
-                    <title>Points arranged in a vertical table</title>
+                <table halign="center" top="minor" bottom="minor" left="minor" right="minor">
+                    <title>Points arranged in a horizontal table</title>
                     <tabular>
                         <row>
                             <cell>Hours Worked</cell>
@@ -170,7 +170,7 @@
                     The table below shows the number of housing units in Denver.<fn>Data from Data Commons 2024, US Census Bureua, electronic dataset, Data Commons, viewed 2 Jul 2024, <url href="https://datacommons.org"></url></fn>
                 </p>
                 <sidebyside>
-                    <table>
+                    <table halign="center" top="minor" bottom="minor" left="minor" right="minor">
                         <title>Housing Units in Denver</title>
                         <tabular>
                             <row header="yes">
@@ -239,8 +239,8 @@
                             <latex-image>
                                 \begin{tikzpicture}
                                     \begin{axis}[grid = both, axis lines = center,
-                                                    xmin = 2011, xmax = 2023, xlabel={years}, 
-                                                    ymin = 280, ymax = 350, ylabel={units (1000s)}]
+                                                    xmin = 2011, xmax = 2023, xlabel={years}, extra x ticks = {2013, 2015, 2017, 2019, 2021}, x tick label style={/pgf/number format/1000 sep={}},
+                                                    ymin = 280, ymax = 350, ylabel={units (1000s)}, extra y ticks = {280, 285, 290, 295, 305, 310, 315, 325, 330, 335, 340, 345}]
                                     \end{axis}
                                 \end{tikzpicture}
                             </latex-image>
@@ -248,14 +248,14 @@
                     </figure>
                 </sidebyside>
             </introduction>
-            <task workspace="0.5in">
+            <task workspace="0.25in">
                 <statement>
                     <p>
                         Graph the points and connect them. You'll need to estimate the exact location of each dot! Why does it make sense to connect the points in this context?
                     </p>
                 </statement>
             </task>
-            <task>
+            <task workspace="0.25in">
                 <statement>
                     <p>
                         Notice that this data set says that it is giving us ``Number of Housing Units (1000s).'' This is common when working with large numbers. To find the number of housing units, we need to multiply the given values by 1000. So, for example, there were 284,000 housing units in 2011. How many housing units were there in 2022?
