@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="sec-linear-models" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Linear Models</title>
+
+  <page>
+    <activity>
+        <introduction>
+            <p>
+                Xcel Energy provides electricity to most people in and around Denver Colorado. The table below shows an estimate of monthly rates charged by Xcel<fn><url href="https://co.my.xcelenergy.com/s/billing-payment/residential-rates/residential-plan"></url></fn>. Use this table to respond to the questions below. 
+            </p>
+            <table>
+                <title>Xcel Energy Electricity Charges, Residential Opt-Out Pricing Plan</title>
+                <tabular>
+                    <row header="yes">
+                        <cell></cell>
+                        <cell>Summer Billing Cycles (June - Septembr)</cell>
+                        <cell>Winter Billing Cycles (</cell>
+                    </row>
+                    <row>
+                        <cell><strong>Fixed Monthly Fees</strong></cell>
+                        <cell>$12.20</cell>
+                        <cell>$12.20</cell>
+                    </row>
+                    <row>
+                        <cell><strong>$ Per kWh</strong></cell>
+                        <cell>$0.1038</cell>
+                        <cell>$0.0857</cell>
+                    </row>
+                </tabular>
+            </table>
+        </introduction>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Suppose a customer uses no electricity in July. What would her monthly bill be?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Ellie uses 900 kWh in July. What would her monthly bill be?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    David uses 905 kWh in July. What would his monthly bill be?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    What is the difference between outputs in your answers to parts (b) and (c)? What is the difference between the inputs you used to answer parts (b) and (c)? Now use these differences to calculate the average rate of change. 
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                   How is your answer to part (d) related to the information you were given in the table?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Use your observation in part (e) to find the average rate of change between the costs to Theo, who used 784 kWh in August, and Iris, who used 1023 kWh in August, <strong>without calculating anything</strong>
+                </p>
+            </statement>
+        </task>
+    </activity>
+  </page>
+</worksheet>

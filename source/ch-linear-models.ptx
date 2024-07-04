@@ -10,5 +10,6 @@
   <!-- include sections -->
   <xi:include href="sec-math-models.ptx" />
   <xi:include href="sec-aROC.ptx" />
+  <xi:include href="sec-linear-models.ptx" />
 
 </chapter>
