@@ -272,21 +272,21 @@
                     We learned in <xref ref="sec-aROC"/> how to find average rates of change. A useful writing convention to be aware of is that when we say "the average rate of change IN (some quantity)", then (some quantity) is the output quantity and goes in the numerator of the fraction. Find each of the following:
                 </p>
             </introduction>
-            <task>
+            <task workspace="0.75in">
                 <statement>
                     <p>
                         The average rate of change in the number of housing units in Denver between 2012 and 2016.
                     </p>
                 </statement>
             </task>
-            <task>
+            <task workspace="0.75in">
                 <statement>
                     <p>
                         The average rate of change in the number of housing units in Denver between 2018 and 2020.
                     </p>
                 </statement>
             </task>
-            <task>
+            <task workspace="0.75in">
                 <statement>
                     <p>
                         The average rate of change in the number of housing units in Denver between 2018 and 2021.
