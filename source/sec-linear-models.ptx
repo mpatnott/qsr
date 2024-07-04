@@ -10,12 +10,12 @@
                 Xcel Energy provides electricity to most people in and around Denver Colorado. The table below shows an estimate of monthly rates charged by Xcel<fn><url href="https://co.my.xcelenergy.com/s/billing-payment/residential-rates/residential-plan"></url></fn>. Use this table to respond to the questions below. 
             </p>
             <table>
-                <title>Xcel Energy Electricity Charges, Residential Opt-Out Pricing Plan</title>
-                <tabular>
-                    <row header="yes">
+                <title>Xcel Energy Electricity Charges, Residential Opt-Out Pricing</title>
+                <tabular halign="center" top="major" bottom = "major" right="major" left="major">
+                    <row header="yes" bottom="minor">
                         <cell></cell>
                         <cell>Summer Billing Cycles (June - Septembr)</cell>
-                        <cell>Winter Billing Cycles (</cell>
+                        <cell>Winter Billing Cycles</cell>
                     </row>
                     <row>
                         <cell><strong>Fixed Monthly Fees</strong></cell>
@@ -30,48 +30,95 @@
                 </tabular>
             </table>
         </introduction>
-        <task workspace="0.5in">
+        <task workspace="0.25in">
             <statement>
                 <p>
-                    Suppose a customer uses no electricity in July. What would her monthly bill be?
+                    Suppose Iris uses no electricity in July. What would her monthly bill be?
                 </p>
             </statement>
         </task>
-        <task workspace="0.5in">
+        <task workspace="0.25in">
             <statement>
                 <p>
                     Ellie uses 900 kWh in July. What would her monthly bill be?
                 </p>
             </statement>
         </task>
-        <task workspace="0.5in">
+        <task workspace="0.25in">
             <statement>
                 <p>
                     David uses 905 kWh in July. What would his monthly bill be?
                 </p>
             </statement>
         </task>
-        <task workspace="0.5in">
+        <task>
             <statement>
                 <p>
-                    What is the difference between outputs in your answers to parts (b) and (c)? What is the difference between the inputs you used to answer parts (b) and (c)? Now use these differences to calculate the average rate of change. 
+                    Use your answers to parts (a) - (c) to fill in the table below. What do you notice?
                 </p>
+                <table>
+                    <title>Average Rates of Change Between Summer Bills</title>
+                    <tabular halign="center" top="major" bottom = "major" right="major" left="major">
+                        <row header="yes" bottom="minor">
+                            <cell></cell>
+                            <cell>Average Rate of Change</cell>
+                        </row>
+                        <row bottom="minor">
+                            <cell>Iris and Ellie</cell>
+                            <cell></cell>
+                        </row>
+                        <row bottom="minor">
+                            <cell>Iris and David</cell>
+                            <cell></cell>
+                        </row>
+                        <row bottom="minor">
+                            <cell>David and Ellie</cell>
+                            <cell></cell>
+                        </row>
+                    </tabular>
+                </table>
             </statement>
         </task>
-        <task workspace="0.5in">
+        <task>
             <statement>
                 <p>
-                   How is your answer to part (d) related to the information you were given in the table?
+                    Sketch a graph that shows the relationship between kWh used in the summer and a customer's bill. <br/> <emph>Hint: Start by graphing the three points you found in parts (a) - (c)!</emph> 
                 </p>
+                <figure xml:id="fig-summer-electric-bill">
+                    <caption>Relationship between Bill and Electricity Usage</caption>
+                    <image xml:id="graph-summer-electric-bill" width="33%">
+                        <description>
+                            <p>
+                                Blank axes. The horizontal axis is labeled kWh and ranges from 0 to 1500. The vertical axis is labeled $ and ranges from 0 to 170.
+                            </p>
+                        </description>
+                        <shortdescription>Blank axes.</shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                \begin{axis}[grid = both, axis lines = center,
+                                                xmin = -0.5, xmax = 175, xlabel={kWh}, 
+                                                ymin = -0.5, ymax = 1550, ylabel={\$}]
+                                \end{axis}
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                </figure>
             </statement>
         </task>
-        <task workspace="0.5in">
+        <!-- <task workspace="0.5in">
             <statement>
                 <p>
                     Use your observation in part (e) to find the average rate of change between the costs to Theo, who used 784 kWh in August, and Iris, who used 1023 kWh in August, <strong>without calculating anything</strong>
                 </p>
             </statement>
         </task>
+        <task>
+            <statement>
+                <p>
+                    Let <m>B(k)</m> be the monthly bill of a customer who used <m>k</m> kWh of electricity in a summer month. Find a formula for <m>B(k)</m>
+                </p>
+            </statement>
+        </task> -->
     </activity>
   </page>
 </worksheet>
