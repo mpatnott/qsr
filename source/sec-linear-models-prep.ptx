@@ -239,7 +239,7 @@
                             <latex-image>
                                 \begin{tikzpicture}
                                     \begin{axis}[grid = both, axis lines = center,
-                                                    xmin = 2011, xmax = 2023, xlabel={years}, extra x ticks = {2013, 2015, 2017, 2019, 2021}, x tick label style={/pgf/number format/1000 sep={}},
+                                                    xmin = 2011, xmax = 2023, xlabel={years}, extra x ticks = {2013, 2015, 2017, 2019, 2021}, x tick label style={/pgf/number format/1000 sep={}}, extra x tick style={xticklabel=\empty,grid=major},
                                                     ymin = 280, ymax = 350, ylabel={units (1000s)}, extra y ticks = {280, 285, 290, 295, 305, 310, 315, 325, 330, 335, 340, 345}]
                                     \end{axis}
                                 \end{tikzpicture}
