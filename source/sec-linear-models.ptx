@@ -11,8 +11,8 @@
             </p>
             <table>
                 <title>Xcel Energy Electricity Charges, Residential Opt-Out Pricing</title>
-                <tabular halign="center" top="major" bottom = "major" right="major" left="major">
-                    <row header="yes" bottom="minor">
+                <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                    <row header="yes">
                         <cell></cell>
                         <cell>Summer Billing Cycles (June - Septembr)</cell>
                         <cell>Winter Billing Cycles</cell>
@@ -58,20 +58,20 @@
                 </p>
                 <table>
                     <title>Average Rates of Change Between Summer Bills</title>
-                    <tabular halign="center" top="major" bottom = "major" right="major" left="major">
-                        <row header="yes" bottom="minor">
+                    <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                        <row header="yes">
                             <cell></cell>
                             <cell>Average Rate of Change</cell>
                         </row>
-                        <row bottom="minor">
+                        <row>
                             <cell>Iris and Ellie</cell>
                             <cell></cell>
                         </row>
-                        <row bottom="minor">
+                        <row>
                             <cell>Iris and David</cell>
                             <cell></cell>
                         </row>
-                        <row bottom="minor">
+                        <row>
                             <cell>David and Ellie</cell>
                             <cell></cell>
                         </row>
@@ -96,8 +96,8 @@
                         <latex-image>
                             \begin{tikzpicture}
                                 \begin{axis}[grid = both, axis lines = center,
-                                                xmin = -0.5, xmax = 175, xlabel={kWh}, extra x ticks = {10, 20, 30, 40, 60, 70, 80, 90, 110, 120, 130, 140, 160, 170}, extra x tick style={xticklabel=\empty,grid=major},
-                                                ymin = -0.5, ymax = 1550, ylabel={\$}, extra y ticks = {100, 200, 300, 400, 600, 700, 800, 900, 1100, 1200, 1300, 1400}, extra y tick style={yticklabel=\empty,grid=major}]
+                                                ymin = -0.5, ymax = 175, ylabel={kWh}, extra y ticks = {10, 20, 30, 40, 60, 70, 80, 90, 110, 120, 130, 140, 160, 170}, extra y tick style={yticklabel=\empty,grid=major},
+                                                xmin = -0.5, xmax = 1550, xlabel={\$}, extra x ticks = {100, 200, 300, 400, 600, 700, 800, 900, 1100, 1200, 1300, 1400}, extra x tick style={xticklabel=\empty,grid=major}]
                                 \end{axis}
                             \end{tikzpicture}
                         </latex-image>
@@ -117,8 +117,97 @@
         </statement>
     </definition>
 
-    <activity>
-        linear model or not? if linear, find slope.
+    <activity workspace="1.5in">
+        Decide whether each of the three data sets fits a linear model. Explain your answers in words. If a data set does define a linear model, find its slope.
+        <sidebyside>
+            <table>
+                <title>Data Set 1</title>
+                <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                    <row header="yes">
+                        <cell>Input</cell>
+                        <cell>Output</cell>
+                    </row>
+                    <row>
+                        <cell>-4</cell>
+                        <cell>-4</cell>
+                    </row>
+                    <row>
+                        <cell>-2</cell>
+                        <cell>2</cell>
+                    </row>
+                    <row>
+                        <cell>0</cell>
+                        <cell>8</cell>
+                    </row>
+                    <row>
+                        <cell>2</cell>
+                        <cell>14</cell>
+                    </row>
+                    <row>
+                        <cell>4</cell>
+                        <cell>20</cell>
+                    </row>
+                </tabular>
+            </table>
+            <table>
+                <title>Data Set 2</title>
+                <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                    <row header="yes">
+                        <cell>Input</cell>
+                        <cell>Output</cell>
+                    </row>
+                    <row>
+                        <cell>10</cell>
+                        <cell>2</cell>
+                    </row>
+                    <row>
+                        <cell>20</cell>
+                        <cell>10</cell>
+                    </row>
+                    <row>
+                        <cell>40</cell>
+                        <cell>26</cell>
+                    </row>
+                    <row>
+                        <cell>80</cell>
+                        <cell>58</cell>
+                    </row>
+                    <row>
+                        <cell>160</cell>
+                        <cell>122</cell>
+                    </row>
+                </tabular>
+            </table>
+            <table>
+                <title>Data Set 3</title>
+                <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                    <row header="yes">
+                        <cell>Input</cell>
+                        <cell>Output</cell>
+                    </row>
+                    <row>
+                        <cell>-5</cell>
+                        <cell>3</cell>
+                    </row>
+                    <row>
+                        <cell>0</cell>
+                        <cell>4.5</cell>
+                    </row>
+                    <row>
+                        <cell>5</cell>
+                        <cell>7.5</cell>
+                    </row>
+                    <row>
+                        <cell>10</cell>
+                        <cell>12</cell>
+                    </row>
+                    <row>
+                        <cell>15</cell>
+                        <cell>18</cell>
+                    </row>
+                </tabular>
+            </table>
+        </sidebyside>
     </activity>
 
     <activity>
