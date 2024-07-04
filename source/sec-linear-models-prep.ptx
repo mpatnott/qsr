@@ -41,7 +41,7 @@
                 </statement>
             </task>
             <task>
-                <statement>
+                <introduction>
                     <p>
                         In this class, we will often need to find the coordinates of a point from a sentence. For example, the sentence
                         <blockquote>
@@ -54,7 +54,7 @@
                     <p>
                         Graph the points described by each of the following sentences:
                     </p>
-                </statement>
+                </introduction>
                 <task>
                     <statement>
                         <p>
@@ -77,83 +77,6 @@
                     </statement>
                 </task>
             </task>
-            <task>
-                <statement>
-                    <p>
-                        We will sometimes be given points in a data table. Tables might be organized vertically, with named columns, or horizontally, with named rows. Look for the row and column names to find the horizontal and vertical coordinates of the points. Here are the points we've already graphed, arranged in a table in two different ways.
-                    </p>
-                    <sidebyside>
-                        <table>
-                            <title>Points arranged in a vertical table</title>
-                            <tabular>
-                                <row header="yes">
-                                    <cell>Hours Worked</cell>
-                                    <cell>Money Earned ($)</cell>
-                                </row>
-                                <row>
-                                    <cell>10</cell>
-                                    <cell>100</cell>
-                                </row>
-                                <row>
-                                    <cell>25</cell>
-                                    <cell>200</cell>
-                                </row>
-                                <row>
-                                    <cell>30</cell>
-                                    <cell>300</cell>
-                                </row>
-                                <row>
-                                    <cell>10</cell>
-                                    <cell>240</cell>
-                                </row>
-                                <row>
-                                    <cell>35</cell>
-                                    <cell>370</cell>
-                                </row>
-                            </tabular>
-                        </table>
-                        <table>
-                            <title>Points arranged in a vertical table</title>
-                            <tabular>
-                                <row>
-                                    <cell>Hours Worked</cell>
-                                    <cell>10</cell>
-                                    <cell>25</cell>
-                                    <cell>30</cell>
-                                    <cell>10</cell>
-                                    <cell>35</cell>
-                                </row>
-                                <row>
-                                    <cell>Money Earned ($)</cell>
-                                    <cell>100</cell>
-                                    <cell>200</cell>
-                                    <cell>300</cell>
-                                    <cell>240</cell>
-                                    <cell>370</cell>
-                                </row>
-                            </tabular>
-                        </table>
-                    </sidebyside>
-                    <p>
-                        Add the points from the table below to the graph.
-                    </p>
-                    <table>
-                        <title>New points to graph</title>
-                        <tabular>
-                            <row>
-                                <cell>Hours Worked</cell>
-                                <cell>15</cell>
-                                <cell>20</cell>
-                            </row>
-                            <row>
-                                <cell>Money Earned ($)</cell>
-                                <cell>180</cell>
-                                <cell>320</cell>
-                            </row>
-                        </tabular>
-                    </table>
-                </statement>
-            </task>
             <task workspace="0.5in">
                 <statement>
                     <p>
@@ -165,6 +88,82 @@
     </page>
 
     <page>
+        <investigation>
+            <p>
+                We will sometimes be given points in a data table. Tables might be organized vertically, with named columns, or horizontally, with named rows. Look for the row and column names to find the horizontal and vertical coordinates of the points. Here are the points we've already graphed, arranged in a table in two different ways.
+            </p>
+            <sidebyside>
+                <table>
+                    <title>Points arranged in a vertical table</title>
+                    <tabular>
+                        <row header="yes">
+                            <cell>Hours Worked</cell>
+                            <cell>Money Earned ($)</cell>
+                        </row>
+                        <row>
+                            <cell>10</cell>
+                            <cell>100</cell>
+                        </row>
+                        <row>
+                            <cell>25</cell>
+                            <cell>200</cell>
+                        </row>
+                        <row>
+                            <cell>30</cell>
+                            <cell>300</cell>
+                        </row>
+                        <row>
+                            <cell>10</cell>
+                            <cell>240</cell>
+                        </row>
+                        <row>
+                            <cell>35</cell>
+                            <cell>370</cell>
+                        </row>
+                    </tabular>
+                </table>
+                <table>
+                    <title>Points arranged in a vertical table</title>
+                    <tabular>
+                        <row>
+                            <cell>Hours Worked</cell>
+                            <cell>10</cell>
+                            <cell>25</cell>
+                            <cell>30</cell>
+                            <cell>10</cell>
+                            <cell>35</cell>
+                        </row>
+                        <row>
+                            <cell>Money Earned ($)</cell>
+                            <cell>100</cell>
+                            <cell>200</cell>
+                            <cell>300</cell>
+                            <cell>240</cell>
+                            <cell>370</cell>
+                        </row>
+                    </tabular>
+                </table>
+            </sidebyside>
+            <p>
+                Add the points from the table below to the graph.
+            </p>
+            <table>
+                <title>New points to graph</title>
+                <tabular>
+                    <row>
+                        <cell>Hours Worked</cell>
+                        <cell>15</cell>
+                        <cell>20</cell>
+                    </row>
+                    <row>
+                        <cell>Money Earned ($)</cell>
+                        <cell>180</cell>
+                        <cell>320</cell>
+                    </row>
+                </tabular>
+            </table>
+        </investigation>
+
         <investigation>
             <introduction>
                 <p>
