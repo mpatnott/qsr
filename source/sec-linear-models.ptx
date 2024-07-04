@@ -250,41 +250,41 @@
   </page>
 
   <page>
-    <activity workspace="0.5in">
+    <activity>
         <introduction>
             <p>
                 A local coffee shop offers a coffee card that you can preload with any amount of money and use like a debit card each day to purchase coffee. At the beginning of the month (when they get their paycheck), Arlo loads it with $50. Their favorite small soy latte costs $2.63.
             </p>
         </introduction>
-        <task>
+        <task workspace="0.5in">
             <statement>
                 <p>
                     Arlo purchases a latte every weekday. Estimate whether the amount of money they loaded onto their coffee card will last until the end of the month.
                 </p>
             </statement>
         </task>
-        <task>
+        <task workspace="0.5in">
             <statement>
                 <p>
                     Explain why a linear model would describe the amount of money Arlo has left on their card.
                 </p>
             </statement>
         </task>
-        <task>
+        <task workspace="0.5in">
             <statement>
                 <p>
                     What is the vertical intercept for the linear model? The slope? How do you know?
                 </p>
             </statement>
         </task>
-        <task>
+        <task workspace="0.5in">
             <statement>
                 <p>
                     Let <m>A</m> be the amount Arlo has left on their coffee card and <m>n</m> be the number of latte's they've purchased. Find a formula for the linear model relating <m>A</m> and <m>n</m>.
                 </p>
             </statement>
         </task>
-        <task workspace="0in">
+        <task>
             <statement>
                 <p>
                     Sketch a graph of your linear model.
@@ -310,14 +310,14 @@
                 </figure>
             </statement>
         </task>
-        <task>
+        <task workspace="0.5in">
             <statement>
                 <p>
                     A <term>horizontal intercept</term> of a mathematical model is the value where the graph crosses the horizontal axis. It tells us the input value that has an output value of 0. What is the horizontal intercept of this model?
                 </p>
             </statement>
         </task>
-        <task>
+        <task workspace="0.5in">
             <statement>
                 <p>
                     Will Arlo's card last until the end of the month? If so, how much is left? If not, how many days will it last? (Note: There are about 22 weekdays in a month.)
@@ -345,8 +345,8 @@
                     <latex-image>
                         \begin{tikzpicture}
                             \begin{axis}[grid = both, axis lines = center,
-                                            ymin = -3, ymax = 42, 
-                                            xmin = -13, xmax = 16]
+                                            xmin = -3, xmax = 42, 
+                                            ymin = -13, ymax = 16]
                                 \addplot[domain=0:42, very thick] {0.5*x - 10};
                             \end{axis}
                         \end{tikzpicture}
