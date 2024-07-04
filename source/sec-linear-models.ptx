@@ -4,7 +4,7 @@
   <title>Linear Models</title>
 
   <page>
-    <activity>
+    <activity xml:id="xcel-summer-electricity">
         <introduction>
             <p>
                 Xcel Energy provides electricity to most people in and around Denver Colorado. The table below shows an estimate of monthly rates charged by Xcel<fn><url href="https://co.my.xcelenergy.com/s/billing-payment/residential-rates/residential-plan"></url></fn>. Use this table to respond to the questions below. 
@@ -30,21 +30,21 @@
                 </tabular>
             </table>
         </introduction>
-        <task workspace="0.25in">
+        <task workspace="0.25in" xml-id="no-electricity-bill">
             <statement>
                 <p>
                     Suppose Iris uses no electricity in July. What would her monthly bill be?
                 </p>
             </statement>
         </task>
-        <task workspace="0.25in">
+        <task workspace="0.25in" xml-id="900-kwh-bill">
             <statement>
                 <p>
                     Ellie uses 900 kWh in July. What would her monthly bill be?
                 </p>
             </statement>
         </task>
-        <task workspace="0.25in">
+        <task workspace="0.25in" xml-id="905-kwh-bill">
             <statement>
                 <p>
                     David uses 905 kWh in July. What would his monthly bill be?
@@ -54,7 +54,7 @@
         <task>
             <statement>
                 <p>
-                    Use your answers to parts (a) - (c) to fill in the table below. What do you notice?
+                    Use your answers to parts <xref ref="no-electricity-bill"/> - <xref ref="905-kwh-bill"/> to fill in the table below. What do you notice?
                 </p>
                 <table>
                     <title>Average Rates of Change Between Summer Bills</title>
@@ -79,10 +79,10 @@
                 </table>
             </statement>
         </task>
-        <task>
+        <task xml-id="electric-bill-graph">
             <statement>
                 <p>
-                    Sketch a graph that shows the relationship between kWh used in the summer and a customer's bill. <br/> <emph>Hint: Start by graphing the three points you found in parts (a) - (c)!</emph> 
+                    Sketch a graph that shows the relationship between kWh used in the summer and a customer's bill. <br/> <emph>Hint: Start by graphing the three points you found in parts <xref ref="no-electricity-bill"/> - <xref ref="905-kwh-bill"/>!</emph> 
                 </p>
                 <figure xml:id="fig-summer-electric-bill">
                     <caption>Relationship between Bill and Electricity Usage</caption>
@@ -211,7 +211,14 @@
     </activity>
 
     <activity>
-        back to electricity. introduce vertical intercept language. find formula. observe connection between slope, vertical intercept, and formula. quantway problem 1 #10
+        <!-- back to electricity. introduce vertical intercept language. find formula. observe connection between slope, vertical intercept, and formula. quantway problem 1 #10 -->
+        <task>
+            <statement>
+                <p>
+                    Look back at your graph in <xref ref="xcel-summer-electricity"/> part <xref ref="electric-bill-graph"/>
+                </p>
+            </statement>
+        </task>
     </activity>
   </page>
 
