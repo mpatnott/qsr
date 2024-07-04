@@ -345,7 +345,7 @@
                     <latex-image>
                         \begin{tikzpicture}
                             \begin{axis}[grid = both, axis lines = center,
-                                            xmin = -3, xmax = 42, extra x ticks = {-2, 2, 4, 6, 8, 12, 14, 16, 18, 22, 24, 26, 28, 32, 34, 36, 38}, extra x tick style={xticklabel=\empty,grid=major},
+                                            xmin = -3, xmax = 42, extra x ticks = {-2, -1, 1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 34, 35, 36, 37, 38, 39, 41}, extra x tick style={xticklabel=\empty,grid=major},
                                             ymin = -13, ymax = 16, extra y ticks = {-12, -11, -9, -8, -7, -6, -4, -3, -2, -1, 1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 13, 14}, extra y tick style={yticklabel=\empty,grid=major},
                                             width=6in, height=4in]
                                 \addplot[domain=0:42, very thick] {0.5*x - 10};
@@ -445,6 +445,13 @@
                         </latex-image>
                     </image>
                 </figure>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Under what conditions is the per-GB plan less expensive? Under what conditions is the unlimited plan less expensive? Explain in words how you found your answers.
+                </p>
             </statement>
         </task>
     </activity>
