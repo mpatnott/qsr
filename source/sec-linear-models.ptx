@@ -117,7 +117,7 @@
         </statement>
     </definition>
 
-    <activity workspace="1.5in">
+    <activity workspace="1.5in" xml-id="a-linear-or-not">
         Decide whether each of the three data sets fits a linear model. Explain your answers in words. If a data set does define a linear model, find its slope.
         <sidebyside>
             <table>
@@ -447,7 +447,7 @@
                 </figure>
             </statement>
         </task>
-        <task>
+        <task workspace="1in">
             <statement>
                 <p>
                     Under what conditions is the per-GB plan less expensive? Under what conditions is the unlimited plan less expensive? Explain in words how you found your answers.
@@ -459,7 +459,100 @@
 
   <page>
     <activity>
-        develop point-slope form
+        <introduction>
+            <p>
+                We determined in <xref ref="a-linear-or-not"/> that
+                <table>
+                    <title>Data Set 2</title>
+                    <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                        <row header="yes">
+                            <cell>Input</cell>
+                            <cell>Output</cell>
+                        </row>
+                        <row>
+                            <cell>10</cell>
+                            <cell>2</cell>
+                        </row>
+                        <row>
+                            <cell>20</cell>
+                            <cell>10</cell>
+                        </row>
+                        <row>
+                            <cell>40</cell>
+                            <cell>26</cell>
+                        </row>
+                        <row>
+                            <cell>80</cell>
+                            <cell>58</cell>
+                        </row>
+                        <row>
+                            <cell>160</cell>
+                            <cell>122</cell>
+                        </row>
+                    </tabular>
+                </table>
+                has a linear model with slope 0.8. 
+            </p>
+        </introduction>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    The table doesn't give us the vertical intercept. Find it, then write a formula for the output, <m>y</m>, in terms of the input, <m>x</m>.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Find a linear model for
+                </p>
+                <table>
+                    <title>Data Set 4</title>
+                    <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                        <row>
+                            <cell>Input, <m>X</m></cell>
+                            <cell>Output, <m>Y</m></cell>
+                        </row>
+                        <row>
+                            <cell>0</cell>
+                            <cell>10</cell>
+                            <cell>30</cell>
+                            <cell>70</cell>
+                            <cell>150</cell>
+                        </row>
+                        <row>
+                            <cell>2</cell>
+                            <cell>10</cell>
+                            <cell>26</cell>
+                            <cell>58</cell>
+                            <cell>122</cell>
+                        </row>
+                    </tabular>
+                </table>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    How are Data Set 2 and Data Set 4 related to each other?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Fill in the blanks to find a second formula for Data Set 2's linear model.
+                </p>
+                <me>\large y = \underline{\hspace{3em}}(x - \underline{\hspace{3em}}) + \underline{\hspace{3em}}</me>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Write a sentence describing how to build a formula to find the output of a linear model from its slope and ANY point on the line.
+                </p>
+            </statement>
+        </task>
     </activity>
   </page>
 </worksheet>
