@@ -211,11 +211,10 @@
     </activity>
 
     <activity>
-        <!-- back to electricity. introduce vertical intercept language. find formula. observe connection between slope, vertical intercept, and formula. quantway problem 1 #10 -->
         <task workspace="0.25in">
             <statement>
                 <p>
-                    The <term>vertical intercept</term> of a linear model is the value where the graph crosses the vertical axis. It is also called the <term>initial value</term> because it is the output when the input is 0. What is the vertical intercept of your graph in <xref ref="xcel-summer-electricity"/> part (e)?
+                    The <term>vertical intercept</term> of a mathematical model is the value where the graph crosses the vertical axis. It is also called the <term>initial value</term> because it is the output when the input is 0. What is the vertical intercept of your graph in <xref ref="xcel-summer-electricity"/> part (e)?
                 </p>
             </statement>
         </task>
@@ -237,6 +236,13 @@
             <statement>
                 <p>
                     Write a sentence describing how to build a formula to find the output of a linear model from its slope, vertical intercept, and an input value.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Suppose a family makes a quarterly (3-month) budget to plan for upcoming expenses. This family estimates they will use an average of 1000 kWh per month in July, August and September. How much money must the family set aside in the budget so that they will be able to pay for the electricity they will use during the three-month period? Round to the nearest dollar, since budgets are only estimates.
                 </p>
             </statement>
         </task>
@@ -296,12 +302,26 @@
                             \begin{tikzpicture}
                                 \begin{axis}[grid = both, axis lines = center,
                                                 ymin = -0.5, ymax = 52, ylabel={\$}, 
-                                                xmin = -0.5, xmax = 27, xlabel={lattes}}]
+                                                xmin = -0.5, xmax = 27, xlabel={lattes}]
                                 \end{axis}
                             \end{tikzpicture}
                         </latex-image>
                     </image>
                 </figure>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    A <term>horizontal intercept</term> of a mathematical model is the value where the graph crosses the horizontal axis. It tells us the input value that has an output value of 0. What is the horizontal intercept of this model?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Will Arlo's card last until the end of the month? If so, how much is left? If not, how many days will it last? (Note: There are about 22 weekdays in a month.)
+                </p>
             </statement>
         </task>
     </activity>
