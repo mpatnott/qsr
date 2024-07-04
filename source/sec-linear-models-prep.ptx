@@ -13,9 +13,9 @@
                 <p>
                     Let's review plotting points. Use the axes below for all parts of this activity.
                 </p>
-                <figure xml:id="fig-graphing-practice">
+                <figure xml:id="fig-graphing-practice-points">
                     <caption>Money Earned</caption>
-                    <image xml:id="graph-graphing-practice" width="50%">
+                    <image xml:id="graph-graphing-practice-points" width="40%">
                         <description>
                             <p>
                                 Blank axes. The horizontal axis is labeled <m>t</m>, hrs and ranges from 0 to 40. The vertical axis is labeled $ and ranges from 0 to 400.
@@ -25,8 +25,8 @@
                         <latex-image>
                             \begin{tikzpicture}
                                 \begin{axis}[grid = both, axis lines = center,
-                                                xmin = -1, xmax = 100, xlabel={$t$, hrs},
-                                                ymin = -5, ymax = 400, ylabel={\$}]
+                                                xmin = -1, xmax = 100, xlabel={$t$, hrs}, extra x ticks = {10, 30, 50, 70, 90},
+                                                ymin = -5, ymax = 400, ylabel={\$}, extra y ticks = {20, 40, 60, 80, 120, 140, 160, 180, 220, 240, 260, 280, 320, 340, 360, 380}, extra y tick style={yticklabel=\empty,grid=major}]
                                 \end{axis}
                             \end{tikzpicture}
                         </latex-image>
@@ -36,7 +36,7 @@
             <task>
                 <statement>
                     <p>
-                        If we're given the coordinates of a point, then we graph the point by going over to the first coordinate on the horizontal axis, and then up or down to the second number on the vertical axis. Graph the points <m>(10,100)</m>, <m>(25,200)</m>.
+                        If we're given the coordinates of a point, then we graph the point by going over to the first coordinate on the horizontal axis, and then up or down to the second number on the vertical axis. Graph the points <m>(10,100)</m>, <m>(25,200)</m>. You'll need to estimate the location of 25 on the horizontal axis.
                     </p>
                 </statement>
             </task>
@@ -46,7 +46,7 @@
                         In this class, we will often need to find the coordinates of a point from a sentence. For example, the sentence
                         <blockquote>
                             <p>
-                                Jakai will make \$200 if he works for 25 hours.
+                                Jakai will make $200 if he works for 25 hours.
                             </p>
                         </blockquote>
                         describes that point <m>(25,200)</m> on our graph. We know that 25 hours has to be the first/horizontal coordinate because of the labeling of the axes in our graph.
@@ -58,24 +58,210 @@
                 <task>
                     <statement>
                         <p>
-                            Dior will make \$300 if she works for 30 hours.
+                            Dior will make $300 if she works for 30 hours.
                         </p>
                     </statement>
                 </task>
                 <task>
                     <statement>
                         <p>
-                            Santos worked for 10 hours and made \$200.
+                            Santos worked for 10 hours and made $240.
                         </p>
                     </statement>
                 </task>
                 <task>
                     <statement>
                         <p>
-                            Ramona worked for 35 hours and made \$370.
+                            Ramona worked for 35 hours and made $370.
                         </p>
                     </statement>
                 </task>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        We will sometimes be given points in a data table. Tables might be organized vertically, with named columns, or horizontally, with named rows. Look for the row and column names to find the horizontal and vertical coordinates of the points. Here are the points we've already graphed, arranged in a table in two different ways.
+                    </p>
+                    <sidebyside>
+                        <table>
+                            <title>Points arranged in a vertical table</title>
+                            <tabular>
+                                <row header="yes">
+                                    <cell>Hours Worked</cell>
+                                    <cell>Money Earned ($)</cell>
+                                </row>
+                                <row>
+                                    <cell>10</cell>
+                                    <cell>100</cell>
+                                </row>
+                                <row>
+                                    <cell>25</cell>
+                                    <cell>200</cell>
+                                </row>
+                                <row>
+                                    <cell>30</cell>
+                                    <cell>300</cell>
+                                </row>
+                                <row>
+                                    <cell>10</cell>
+                                    <cell>240</cell>
+                                </row>
+                                <row>
+                                    <cell>35</cell>
+                                    <cell>370</cell>
+                                </row>
+                            </tabular>
+                        </table>
+                        <table>
+                            <title>Points arranged in a vertical table</title>
+                            <tabular>
+                                <row>
+                                    <cell>Hours Worked</cell>
+                                    <cell>10</cell>
+                                    <cell>25</cell>
+                                    <cell>30</cell>
+                                    <cell>10</cell>
+                                    <cell>35</cell>
+                                </row>
+                                <row>
+                                    <cell>Money Earned ($)</cell>
+                                    <cell>100</cell>
+                                    <cell>200</cell>
+                                    <cell>300</cell>
+                                    <cell>240</cell>
+                                    <cell>370</cell>
+                                </row>
+                            </tabular>
+                        </table>
+                    </sidebyside>
+                    <p>
+                        Add the points from the table below to the graph.
+                    </p>
+                    <table>
+                        <title>New points to graph</title>
+                        <tabular>
+                            <row>
+                                <cell>Hours Worked</cell>
+                                <cell>15</cell>
+                                <cell>20</cell>
+                            </row>
+                            <row>
+                                <cell>Money Earned ($)</cell>
+                                <cell>180</cell>
+                                <cell>320</cell>
+                            </row>
+                        </tabular>
+                    </table>
+                </statement>
+            </task>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        Write a sentence explaining why it doesn't make sense to connect these points in this context.
+                    </p>
+                </statement>
+            </task>
+        </investigation>
+    </page>
+
+    <page>
+        <investigation>
+            <introduction>
+                <p>
+                    The table below shows the number of housing units in Denver.<fn>Data from Data Commons 2024, US Census Bureua, electronic dataset, Data Commons, viewed 2 Jul 2024, <url href="https://datacommons.org"></url></fn>
+                </p>
+                <sidebyside>
+                    <table>
+                        <title>Housing Units in Denver</title>
+                        <tabular>
+                            <row header="yes">
+                                <cell>Year</cell>
+                                <cell>Housing Units (1000s)</cell>
+                            </row>
+                            <row>
+                                <cell>2011</cell>
+                                <cell>284</cell>
+                            </row>
+                            <row>
+                                <cell>2012</cell>
+                                <cell>285</cell>
+                            </row>
+                            <row>
+                                <cell>2013</cell>
+                                <cell>288</cell>
+                            </row>
+                            <row>
+                                <cell>2014</cell>
+                                <cell>291</cell>
+                            </row>
+                            <row>
+                                <cell>2015</cell>
+                                <cell>294</cell>
+                            </row>
+                            <row>
+                                <cell>2016</cell>
+                                <cell>299</cell>
+                            </row>
+                            <row>
+                                <cell>2017</cell>
+                                <cell>307</cell>
+                            </row>
+                            <row>
+                                <cell>2018</cell>
+                                <cell>314</cell>
+                            </row>
+                            <row>
+                                <cell>2019</cell>
+                                <cell>322</cell>
+                            </row>
+                            <row>
+                                <cell>2020</cell>
+                                <cell>306</cell>
+                            </row>
+                            <row>
+                                <cell>2021</cell>
+                                <cell>335</cell>
+                            </row>
+                            <row>
+                                <cell>2022</cell>
+                                <cell>345</cell>
+                            </row>
+                        </tabular>
+                    </table>
+                    <figure xml:id="fig-graphing-practice-curve">
+                        <caption>Housing Units in Denver</caption>
+                        <image xml:id="graph-graphing-practice-curve" width="40%">
+                            <description>
+                                <p>
+                                    Blank axes. The horizontal axis is labeled years and ranges from 2011 to 2023. The vertical axis is labeled units (1000s) and ranges from 280 to 350.
+                                </p>
+                            </description>
+                            <shortdescription>Blank axes.</shortdescription>
+                            <latex-image>
+                                \begin{tikzpicture}
+                                    \begin{axis}[grid = both, axis lines = center,
+                                                    xmin = 2011, xmax = 2023, xlabel={years}, 
+                                                    ymin = 280, ymax = 350, ylabel={units (1000s)}]
+                                    \end{axis}
+                                \end{tikzpicture}
+                            </latex-image>
+                        </image>
+                    </figure>
+                </sidebyside>
+            </introduction>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        Graph the points and connect them. You'll need to estimate the exact location of each dot! Why does it make sense to connect the points in this context?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Notice that this data set says that it is giving us ``Number of Housing Units (1000s).'' This is common when working with large numbers. To find the number of housing units, we need to multiply the given values by 1000. So, for example, there were 284,000 housing units in 2011. How many housing units were there in 2022?
+                    </p>
+                </statement>
             </task>
         </investigation>
     </page>
