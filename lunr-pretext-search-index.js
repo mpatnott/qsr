@@ -133,7 +133,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "1.3",
   "title": "Linear Models",
-  "body": " Linear Models     Xcel Energy provides electricity to most people in and around Denver Colorado. The table below shows an estimate of monthly rates charged by Xcel . Use this table to respond to the questions below.   Xcel Energy Electricity Charges, Residential Opt-Out Pricing     Summer Billing Cycles (June - Septembr)  Winter Billing Cycles    Fixed Monthly Fees  $12.20  $12.20    $ Per kWh  $0.1038  $0.0857       Suppose Iris uses no electricity in July. What would her monthly bill be?    Ellie uses 900 kWh in July. What would her monthly bill be?    David uses 905 kWh in July. What would his monthly bill be?    Use your answers to parts (a) - (c) to fill in the table below. What do you notice?   Average Rates of Change Between Summer Bills     Average Rate of Change    Iris and Ellie     Iris and David     David and Ellie        Sketch a graph that shows the relationship between kWh used in the summer and a customer's bill.  Hint: Start by graphing the three points you found in parts (a) - (c)!    Relationship between Bill and Electricity Usage    Blank axes. The horizontal axis is labeled kWh and ranges from 0 to 1500. The vertical axis is labeled $ and ranges from 0 to 170.   Blank axes.         "
+  "body": " Linear Models     Xcel Energy provides electricity to most people in and around Denver Colorado. The table below shows an estimate of monthly rates charged by Xcel . Use this table to respond to the questions below.   Xcel Energy Electricity Charges, Residential Opt-Out Pricing     Summer Billing Cycles (June - Septembr)  Winter Billing Cycles    Fixed Monthly Fees  $12.20  $12.20    $ Per kWh  $0.1038  $0.0857       Suppose Iris uses no electricity in July. What would her monthly bill be?    Ellie uses 900 kWh in July. What would her monthly bill be?    David uses 905 kWh in July. What would his monthly bill be?    Use your answers to parts (a) - (c) to fill in the table below. What do you notice?   Average Rates of Change Between Summer Bills     Average Rate of Change    Iris and Ellie     Iris and David     David and Ellie        Sketch a graph that shows the relationship between kWh used in the summer and a customer's bill.  Hint: Start by graphing the three points you found in parts (a) - (c)!    Relationship between Bill and Electricity Usage    Blank axes. The horizontal axis is labeled kWh and ranges from 0 to 1500. The vertical axis is labeled $ and ranges from 0 to 170.   Blank axes.           A mathematical model that has a constant rate of change is called linear model . The rate of change of a linear model is called its slope .    linear model or not? if linear, find slope.  back to electricity. introduce vertical intercept language. find formula. observe connection between slope, vertical intercept, and formula. quantway problem 1 #10    daily latte problem from quantway co-req m.2    given a graph, do lines stuff    comparing data plans problem from quantway co-req m.4    develop point-slope form   "
 },
 {
   "id": "sec-linear-models-2-1",
@@ -142,7 +142,70 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.3.1",
   "title": "",
-  "body": "  Xcel Energy provides electricity to most people in and around Denver Colorado. The table below shows an estimate of monthly rates charged by Xcel . Use this table to respond to the questions below.   Xcel Energy Electricity Charges, Residential Opt-Out Pricing     Summer Billing Cycles (June - Septembr)  Winter Billing Cycles    Fixed Monthly Fees  $12.20  $12.20    $ Per kWh  $0.1038  $0.0857       Suppose Iris uses no electricity in July. What would her monthly bill be?    Ellie uses 900 kWh in July. What would her monthly bill be?    David uses 905 kWh in July. What would his monthly bill be?    Use your answers to parts (a) - (c) to fill in the table below. What do you notice?   Average Rates of Change Between Summer Bills     Average Rate of Change    Iris and Ellie     Iris and David     David and Ellie        Sketch a graph that shows the relationship between kWh used in the summer and a customer's bill.  Hint: Start by graphing the three points you found in parts (a) - (c)!    Relationship between Bill and Electricity Usage    Blank axes. The horizontal axis is labeled kWh and ranges from 0 to 1500. The vertical axis is labeled $ and ranges from 0 to 170.   Blank axes.       "
+  "body": "  Xcel Energy provides electricity to most people in and around Denver Colorado. The table below shows an estimate of monthly rates charged by Xcel . Use this table to respond to the questions below.   Xcel Energy Electricity Charges, Residential Opt-Out Pricing     Summer Billing Cycles (June - Septembr)  Winter Billing Cycles    Fixed Monthly Fees  $12.20  $12.20    $ Per kWh  $0.1038  $0.0857       Suppose Iris uses no electricity in July. What would her monthly bill be?    Ellie uses 900 kWh in July. What would her monthly bill be?    David uses 905 kWh in July. What would his monthly bill be?    Use your answers to parts (a) - (c) to fill in the table below. What do you notice?   Average Rates of Change Between Summer Bills     Average Rate of Change    Iris and Ellie     Iris and David     David and Ellie        Sketch a graph that shows the relationship between kWh used in the summer and a customer's bill.  Hint: Start by graphing the three points you found in parts (a) - (c)!    Relationship between Bill and Electricity Usage    Blank axes. The horizontal axis is labeled kWh and ranges from 0 to 1500. The vertical axis is labeled $ and ranges from 0 to 170.   Blank axes.      "
+},
+{
+  "id": "def-linear-model",
+  "level": "2",
+  "url": "sec-linear-models.html#def-linear-model",
+  "type": "Definition",
+  "number": "1.3.4",
+  "title": "",
+  "body": "  A mathematical model that has a constant rate of change is called linear model . The rate of change of a linear model is called its slope .   "
+},
+{
+  "id": "sec-linear-models-3-2",
+  "level": "2",
+  "url": "sec-linear-models.html#sec-linear-models-3-2",
+  "type": "Activity",
+  "number": "1.3.2",
+  "title": "",
+  "body": "linear model or not? if linear, find slope. "
+},
+{
+  "id": "sec-linear-models-3-3",
+  "level": "2",
+  "url": "sec-linear-models.html#sec-linear-models-3-3",
+  "type": "Activity",
+  "number": "1.3.3",
+  "title": "",
+  "body": "back to electricity. introduce vertical intercept language. find formula. observe connection between slope, vertical intercept, and formula. quantway problem 1 #10 "
+},
+{
+  "id": "sec-linear-models-4-1",
+  "level": "2",
+  "url": "sec-linear-models.html#sec-linear-models-4-1",
+  "type": "Activity",
+  "number": "1.3.4",
+  "title": "",
+  "body": "daily latte problem from quantway co-req m.2 "
+},
+{
+  "id": "sec-linear-models-5-1",
+  "level": "2",
+  "url": "sec-linear-models.html#sec-linear-models-5-1",
+  "type": "Activity",
+  "number": "1.3.5",
+  "title": "",
+  "body": "given a graph, do lines stuff "
+},
+{
+  "id": "sec-linear-models-6-1",
+  "level": "2",
+  "url": "sec-linear-models.html#sec-linear-models-6-1",
+  "type": "Activity",
+  "number": "1.3.6",
+  "title": "",
+  "body": "comparing data plans problem from quantway co-req m.4 "
+},
+{
+  "id": "sec-linear-models-7-1",
+  "level": "2",
+  "url": "sec-linear-models.html#sec-linear-models-7-1",
+  "type": "Activity",
+  "number": "1.3.7",
+  "title": "",
+  "body": "develop point-slope form "
 },
 {
   "id": "sec-aROC-prep",
