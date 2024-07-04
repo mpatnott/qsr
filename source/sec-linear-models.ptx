@@ -291,7 +291,7 @@
                 </p>
                 <figure xml:id="fig-coffee-card">
                     <caption>Relationship between Latte Purchase and Amount Left on Card</caption>
-                    <image xml:id="graph-coffee-card" width="50%">
+                    <image xml:id="graph-coffee-card" width="40%">
                         <description>
                             <p>
                                 Blank axes. The horizontal axis is labeled lattes and ranges from 0 to 25. The vertical axis is labeled $ and ranges from 0 to 50.
@@ -328,8 +328,60 @@
   </page>
 
   <page>
-    <activity>
-        given a graph, do lines stuff
+    <activity workspace="0.5in">
+        <introduction>
+            <p>
+                Many old comic books contained ads offering money-making schemes to children reading the comics.<fn><url href=" http://mentalfloss.com/article/57958/6-get-rich-quick-schemes-vintage-comic-books"></url></fn> As an example, suppose a company offered to send 30 greeting cards to a child to sell to relatives, friends, and neighbors. The child was to sell them for <m>m</m> dollars each, and had to send <m>b</m> dollars back to the company. Here is a graph of a linear model representing the situation. The input (horizontal value) represents the number of cards sold, and the output (vertical value) represents the child's profit in dollars.
+            </p>
+            <figure xml:id="fig-comic-scam">
+                <caption>Relationship between Latte Purchase and Amount Left on Card</caption>
+                <image xml:id="graph-comic-scam" width="40%">
+                    <description>
+                        <p>
+                            The horizontal axis is ranges from -3 to 42. The vertical axis is ranges from -13 to 16. The graph shows a line with vertical intercept -10 and horizontal intercept 20.
+                        </p>
+                    </description>
+                    <shortdescription>Blank axes.</shortdescription>
+                    <latex-image>
+                        \begin{tikzpicture}
+                            \begin{axis}[grid = both, axis lines = center,
+                                            ymin = -3, ymax = 42, 
+                                            xmin = -13, xmax = 16]
+                                \addplot[domain=0:42, very thick] {0.5*x - 10};
+                            \end{axis}
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </figure>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Find a formula for <m>P</m>, the child's profit, in terms of <m>n</m>, the number of comics they sell. <br /> <strong>Hints:</strong> What information do you need to find a formula for a linear model?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    What are <m>m</m> and <m>b</m> in the story?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    What is the horizontal intercept? What does it represent in the context of this problem?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    How much money will the child earn if they sell all 30 cards?
+                </p>
+            </statement>
+        </task>
     </activity>
   </page>
 
