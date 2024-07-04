@@ -117,7 +117,7 @@
         </statement>
     </definition>
 
-    <activity workspace="1.5in" xml-id="a-linear-or-not">
+    <activity xml-id="a-linear-or-not" workspace="1.5in">
         Decide whether each of the three data sets fits a linear model. Explain your answers in words. If a data set does define a linear model, find its slope.
         <sidebyside>
             <table>
