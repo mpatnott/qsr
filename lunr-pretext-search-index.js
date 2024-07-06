@@ -208,6 +208,24 @@ var ptx_lunr_docs = [
   "body": "  We determined in that  Data Set 2    Input  Output    10  2    20  10    40  26    80  58    160  122    has a linear model with slope 0.8.    The table doesn't give us the vertical intercept. Find it, then write a formula for the output, , in terms of the input, .    Find a linear model for   Data Set 4    Input,  0  10  30  70  150    Output,  2  10  26  58  122       How are Data Set 2 and Data Set 4 related to each other?    Fill in the blanks to find a second formula for Data Set 2's linear model.     Write a sentence describing how to build a formula to find the output of a linear model from its slope and ANY point on the line.   "
 },
 {
+  "id": "sec-linear-models",
+  "level": "1",
+  "url": "sec-linear-models.html",
+  "type": "Worksheet",
+  "number": "1.4",
+  "title": "Linear Trends",
+  "body": " Linear Trends     In 2022, Nelson created the following graph to represent his annual pay over the years.   Example of ppoints in the coordinate plane.    Pay in 2012 was $24,000. In 2013 it was about $25,000. In 2014 it was about $27,000. In 2015 it was about $27,500. In 2016 it was about $28,500. In 2017 it was about $28,500. In 2018 it was about $29,000. In 2019 it as about $30,000. In 2020 it was about $31,000. In 2021 it was about $31,500. In 2022 it was $32,000.   Graph showing annual pay in each year between 2012 and 2022.        "
+},
+{
+  "id": "sec-linear-models-2-1",
+  "level": "2",
+  "url": "sec-linear-models.html#sec-linear-models-2-1",
+  "type": "Activity",
+  "number": "1.4.1",
+  "title": "",
+  "body": "  In 2022, Nelson created the following graph to represent his annual pay over the years.   Example of ppoints in the coordinate plane.    Pay in 2012 was $24,000. In 2013 it was about $25,000. In 2014 it was about $27,000. In 2015 it was about $27,500. In 2016 it was about $28,500. In 2017 it was about $28,500. In 2018 it was about $29,000. In 2019 it as about $30,000. In 2020 it was about $31,000. In 2021 it was about $31,500. In 2022 it was $32,000.   Graph showing annual pay in each year between 2012 and 2022.      "
+},
+{
   "id": "sec-aROC-prep",
   "level": "1",
   "url": "sec-aROC-prep.html",

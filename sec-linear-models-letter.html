@@ -8,7 +8,7 @@
 <html lang="en-US" dir="ltr">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Building Linear Models</title>
+<title>Linear Trends</title>
 <meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
@@ -106,7 +106,7 @@ window.MathJax = {
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-aROC.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-linear-models.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ch-linear-models.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-linear-models.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-linear-models.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ch-linear-models.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -121,7 +121,8 @@ window.MathJax = {
 <ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-math-models.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Mathematical Models</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-aROC.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Average Rates of Change</span></a></div></li>
-<li class="toc-item toc-worksheet active"><div class="toc-title-box"><a href="sec-linear-models.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Building Linear Models</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-linear-models.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Building Linear Models</span></a></div></li>
+<li class="toc-item toc-worksheet active"><div class="toc-title-box"><a href="sec-linear-models.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Linear Trends</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -136,291 +137,22 @@ window.MathJax = {
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content">
 <button class="print-button" title="Print" onClick="window.print()"><span class="name">Print</span></button><section class="worksheet" id="sec-linear-models"><h2 class="heading hide-type">
-<span class="type">Worksheet</span><span class="space"> </span><span class="codenumber">1.3</span><span class="space"> </span><span class="title">Building Linear Models</span><div class="print-links">
+<span class="type">Worksheet</span><span class="space"> </span><span class="codenumber">1.4</span><span class="space"> </span><span class="title">Linear Trends</span><div class="print-links">
 <a href="sec-linear-models-a4.html" class="a4">A4</a><a href="sec-linear-models-letter.html" class="us">US</a>
 </div>
 </h2>
-<section class="onepage" id="sec-linear-models-2"><article class="activity project-like" id="a-xcel-summer-electricity"><h3 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.1</span><span class="period">.</span>
+<section class="onepage" id="sec-linear-models-2"><article class="activity project-like" id="sec-linear-models-2-1"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.4.1</span><span class="period">.</span>
 </h3>
-<div class="introduction" id="a-xcel-summer-electricity-1">
-<div class="para" id="a-xcel-summer-electricity-1-1">Xcel Energy provides electricity to most people in and around Denver Colorado. The table below shows an estimate of monthly rates charged by Xcel<details class="ptx-footnote" aria-live="polite" id="a-xcel-summer-electricity-1-1-1"><summary class="ptx-footnote__number" title="Footnote 1.3.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="a-xcel-summer-electricity-1-1-1"><a class="external" href="https://co.my.xcelenergy.com/s/billing-payment/residential-rates/residential-plan" target="_blank"><code class="code-inline tex2jax_ignore">https://co.my.xcelenergy.com/s/billing-payment/residential-rates/residential-plan</code></a></div></details>. Use this table to respond to the questions below.</div> <figure class="table table-like" id="a-xcel-summer-electricity-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.3.1<span class="period">.</span></span><span class="space"> </span>Xcel Energy Electricity Charges, Residential Opt-Out Pricing</figcaption><div class="tabular-box natural-width"><table class="tabular">
-<tr class="header-horizontal">
-<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines">Summer Billing Cycles (June - Septembr)</th>
-<th scope="col" class="c m b1 r1 l0 t1 lines">Winter Billing Cycles</th>
-</tr>
-<tr>
-<td class="c m b1 r1 l1 t0 lines">Fixed Monthly Fees</td>
-<td class="c m b1 r1 l0 t0 lines">$12.20</td>
-<td class="c m b1 r1 l0 t0 lines">$12.20</td>
-</tr>
-<tr>
-<td class="c m b1 r1 l1 t0 lines">$ Per kWh</td>
-<td class="c m b1 r1 l0 t0 lines">$0.1038</td>
-<td class="c m b1 r1 l0 t0 lines">$0.0857</td>
-</tr>
-</table></div></figure>
+<div class="introduction" id="sec-linear-models-2-1-1">
+<div class="para" id="sec-linear-models-2-1-1-1">In 2022, Nelson created the following graph to represent his annual pay over the years.</div> <figure class="figure figure-like" id="fig-annual-pay"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;">
+<img src="generated/latex-image/graph-annual-pay.svg" role="img" class="contained" alt="Graph showing annual pay in each year between 2012 and 2022."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="graph-annual-pay-description"><div class="para" id="graph-annual-pay-1-1">Pay in 2012 was $24,000. In 2013 it was about $25,000. In 2014 it was about $27,000. In 2015 it was about $27,500. In 2016 it was about $28,500. In 2017 it was about $28,500. In 2018 it was about $29,000. In 2019 it as about $30,000. In 2020 it was about $31,000. In 2021 it was about $31,500. In 2022 it was $32,000.</div></div></details>
 </div>
-<article class="task exercise-like" id="a-xcel-summer-electricity-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
-<div class="para" id="a-xcel-summer-electricity-2-1-1">Suppose Iris uses no electricity in July. What would her monthly bill be?</div>
-<div class="workspace" data-space="0.25in"></div></article><article class="task exercise-like" id="a-xcel-summer-electricity-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
-<div class="para" id="a-xcel-summer-electricity-3-1-1">Ellie uses 900 kWh in July. What would her monthly bill be?</div>
-<div class="workspace" data-space="0.25in"></div></article><article class="task exercise-like" id="a-xcel-summer-electricity-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
-<div class="para" id="a-xcel-summer-electricity-4-1-1">David uses 905 kWh in July. What would his monthly bill be?</div>
-<div class="workspace" data-space="0.25in"></div></article><article class="task exercise-like" id="a-xcel-summer-electricity-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
-<div class="para" id="a-xcel-summer-electricity-5-1-1">Use your answers to parts (a) - (c) to fill in the table below. What do you notice?</div> <figure class="table table-like" id="a-xcel-summer-electricity-5-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.3.2<span class="period">.</span></span><span class="space"> </span>Average Rates of Change Between Summer Bills</figcaption><div class="tabular-box natural-width"><table class="tabular">
-<tr class="header-horizontal">
-<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
-<th scope="col" class="c m b1 r1 l0 t1 lines">Average Rate of Change</th>
-</tr>
-<tr>
-<td class="c m b1 r1 l1 t0 lines">Iris and Ellie</td>
-<td class="c m b1 r1 l0 t0 lines"></td>
-</tr>
-<tr>
-<td class="c m b1 r1 l1 t0 lines">Iris and David</td>
-<td class="c m b1 r1 l0 t0 lines"></td>
-</tr>
-<tr>
-<td class="c m b1 r1 l1 t0 lines">David and Ellie</td>
-<td class="c m b1 r1 l0 t0 lines"></td>
-</tr>
-</table></div></figure></article><article class="task exercise-like" id="a-xcel-summer-electricity-6"><h4 class="heading"><span class="codenumber">(e)</span></h4>
-<div class="para" id="a-xcel-summer-electricity-6-1-1">Sketch a graph that shows the relationship between kWh used in the summer and a customer’s bill.  Hint: Start by graphing the three points you found in parts (a) - (c)!</div> <figure class="figure figure-like" id="fig-summer-electric-bill"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;">
-<img src="generated/latex-image/graph-summer-electric-bill.svg" role="img" class="contained" alt="Blank axes."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="graph-summer-electric-bill-description"><div class="para" id="graph-summer-electric-bill-1-1">Blank axes. The horizontal axis is labeled kWh and ranges from 0 to 1500. The vertical axis is labeled $ and ranges from 0 to 170.</div></div></details>
-</div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.3.3<span class="period">.</span></span><span class="space"> </span>Relationship between Bill and Electricity Usage</figcaption></figure></article></article></section><section class="onepage" id="sec-linear-models-3"><article class="definition definition-like" id="def-linear-model"><h3 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.3.4</span><span class="period">.</span>
-</h3>
-<div class="para" id="def-linear-model-1-1">A mathematical model that has a constant rate of change is called <dfn class="terminology">linear model</dfn>. The rate of change of a linear model is called its <dfn class="terminology">slope</dfn>.</div></article> <article class="activity project-like" id="sec-linear-models-3-2"><h3 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.2</span><span class="period">.</span>
-</h3>Decide whether each of the three data sets fits a linear model. Explain your answers in words. If a data set does define a linear model, find its slope. <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
-<div class="sbspanel fixed-width top" style="width:33.3333333333333%;"><figure class="table table-like" id="sec-linear-models-3-2-1-1"><table class="tabular">
-<tr class="header-horizontal">
-<th scope="col" class="c m b1 r1 l1 t1 lines">Input</th>
-<th scope="col" class="c m b1 r1 l0 t1 lines">Output</th>
-</tr>
-<tr>
-<td class="c m b1 r1 l1 t0 lines">-4</td>
-<td class="c m b1 r1 l0 t0 lines">-4</td>
-</tr>
-<tr>
-<td class="c m b1 r1 l1 t0 lines">-2</td>
-<td class="c m b1 r1 l0 t0 lines">2</td>
-</tr>
-<tr>
-<td class="c m b1 r1 l1 t0 lines">0</td>
-<td class="c m b1 r1 l0 t0 lines">8</td>
-</tr>
-<tr>
-<td class="c m b1 r1 l1 t0 lines">2</td>
-<td class="c m b1 r1 l0 t0 lines">14</td>
-</tr>
-<tr>
-<td class="c m b1 r1 l1 t0 lines">4</td>
-<td class="c m b1 r1 l0 t0 lines">20</td>
-</tr>
-</table>
-<figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.3.5<span class="period">.</span></span><span class="space"> </span>Data Set 1</figcaption></figure></div>
-<div class="sbspanel fixed-width top" style="width:33.3333333333333%;"><figure class="table table-like" id="sec-linear-models-3-2-1-2"><table class="tabular">
-<tr class="header-horizontal">
-<th scope="col" class="c m b1 r1 l1 t1 lines">Input</th>
-<th scope="col" class="c m b1 r1 l0 t1 lines">Output</th>
-</tr>
-<tr>
-<td class="c m b1 r1 l1 t0 lines">10</td>
-<td class="c m b1 r1 l0 t0 lines">2</td>
-</tr>
-<tr>
-<td class="c m b1 r1 l1 t0 lines">20</td>
-<td class="c m b1 r1 l0 t0 lines">10</td>
-</tr>
-<tr>
-<td class="c m b1 r1 l1 t0 lines">40</td>
-<td class="c m b1 r1 l0 t0 lines">26</td>
-</tr>
-<tr>
-<td class="c m b1 r1 l1 t0 lines">80</td>
-<td class="c m b1 r1 l0 t0 lines">58</td>
-</tr>
-<tr>
-<td class="c m b1 r1 l1 t0 lines">160</td>
-<td class="c m b1 r1 l0 t0 lines">122</td>
-</tr>
-</table>
-<figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.3.6<span class="period">.</span></span><span class="space"> </span>Data Set 2</figcaption></figure></div>
-<div class="sbspanel fixed-width top" style="width:33.3333333333333%;"><figure class="table table-like" id="sec-linear-models-3-2-1-3"><table class="tabular">
-<tr class="header-horizontal">
-<th scope="col" class="c m b1 r1 l1 t1 lines">Input</th>
-<th scope="col" class="c m b1 r1 l0 t1 lines">Output</th>
-</tr>
-<tr>
-<td class="c m b1 r1 l1 t0 lines">-5</td>
-<td class="c m b1 r1 l0 t0 lines">3</td>
-</tr>
-<tr>
-<td class="c m b1 r1 l1 t0 lines">0</td>
-<td class="c m b1 r1 l0 t0 lines">4.5</td>
-</tr>
-<tr>
-<td class="c m b1 r1 l1 t0 lines">5</td>
-<td class="c m b1 r1 l0 t0 lines">7.5</td>
-</tr>
-<tr>
-<td class="c m b1 r1 l1 t0 lines">10</td>
-<td class="c m b1 r1 l0 t0 lines">12</td>
-</tr>
-<tr>
-<td class="c m b1 r1 l1 t0 lines">15</td>
-<td class="c m b1 r1 l0 t0 lines">18</td>
-</tr>
-</table>
-<figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.3.7<span class="period">.</span></span><span class="space"> </span>Data Set 3</figcaption></figure></div>
-</div></div>
-<div class="workspace" data-space="1.5in"></div></article> <article class="activity project-like" id="sec-linear-models-3-3"><h3 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.3</span><span class="period">.</span>
-</h3>
-<article class="task exercise-like" id="sec-linear-models-3-3-1"><h4 class="heading"><span class="codenumber">(a)</span></h4>
-<div class="para" id="sec-linear-models-3-3-1-1-1">The <dfn class="terminology">vertical intercept</dfn> of a mathematical model is the value where the graph crosses the vertical axis. It is also called the <dfn class="terminology">initial value</dfn> because it is the output when the input is 0. What is the vertical intercept of your graph in <a href="sec-linear-models.html#a-xcel-summer-electricity" class="xref" data-knowl="./knowl/xref/a-xcel-summer-electricity.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 1.3.1">Activity 1.3.1</a> part (e)?</div>
-<div class="workspace" data-space="0.25in"></div></article><article class="task exercise-like" id="sec-linear-models-3-3-2"><h4 class="heading"><span class="codenumber">(b)</span></h4>
-<div class="para" id="sec-linear-models-3-3-2-1-1">Suppose that Theo used <span class="process-math">\(k\)</span> kWh of energy in a summer month. Find a formula for <span class="process-math">\(B\text{,}\)</span> Theo’s bill.</div>
-<div class="workspace" data-space="0.5in"></div></article><article class="task exercise-like" id="sec-linear-models-3-3-3"><h4 class="heading"><span class="codenumber">(c)</span></h4>
-<div class="para" id="sec-linear-models-3-3-3-1-1">How do the slope and vertical intercept of the linear model appear in your formula in part (b)?</div>
-<div class="workspace" data-space="0.5in"></div></article><article class="task exercise-like" id="sec-linear-models-3-3-4"><h4 class="heading"><span class="codenumber">(d)</span></h4>
-<div class="para" id="sec-linear-models-3-3-4-1-1">Write a sentence describing how to build a formula to find the output of a linear model from its slope, vertical intercept, and an input value.</div>
-<div class="workspace" data-space="0.5in"></div></article><article class="task exercise-like" id="sec-linear-models-3-3-5"><h4 class="heading"><span class="codenumber">(e)</span></h4>
-<div class="para" id="sec-linear-models-3-3-5-1-1">Suppose a family makes a quarterly (3-month) budget to plan for upcoming expenses. This family estimates they will use an average of 1000 kWh per month in July, August and September. How much money must the family set aside in the budget so that they will be able to pay for the electricity they will use during the three-month period? Round to the nearest dollar, since budgets are only estimates.</div>
-<div class="workspace" data-space="0.5in"></div></article></article></section><section class="onepage" id="sec-linear-models-4"><article class="activity project-like" id="sec-linear-models-4-1"><h3 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.4</span><span class="period">.</span>
-</h3>
-<div class="introduction" id="sec-linear-models-4-1-1"><div class="para" id="sec-linear-models-4-1-1-1">A local coffee shop offers a coffee card that you can preload with any amount of money and use like a debit card each day to purchase coffee. At the beginning of the month (when they get their paycheck), Arlo loads it with $50. Their favorite small soy latte costs $2.63.</div></div>
-<article class="task exercise-like" id="sec-linear-models-4-1-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
-<div class="para" id="sec-linear-models-4-1-2-1-1">Arlo purchases a latte every weekday. Estimate whether the amount of money they loaded onto their coffee card will last until the end of the month.</div>
-<div class="workspace" data-space="0.5in"></div></article><article class="task exercise-like" id="sec-linear-models-4-1-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
-<div class="para" id="sec-linear-models-4-1-3-1-1">Explain why a linear model would describe the amount of money Arlo has left on their card.</div>
-<div class="workspace" data-space="0.5in"></div></article><article class="task exercise-like" id="sec-linear-models-4-1-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
-<div class="para" id="sec-linear-models-4-1-4-1-1">What is the vertical intercept for the linear model? The slope? How do you know?</div>
-<div class="workspace" data-space="0.5in"></div></article><article class="task exercise-like" id="sec-linear-models-4-1-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
-<div class="para" id="sec-linear-models-4-1-5-1-1">Let <span class="process-math">\(A\)</span> be the amount Arlo has left on their coffee card and <span class="process-math">\(n\)</span> be the number of latte’s they’ve purchased. Find a formula for the linear model relating <span class="process-math">\(A\)</span> and <span class="process-math">\(n\text{.}\)</span>
-</div>
-<div class="workspace" data-space="0.5in"></div></article><article class="task exercise-like" id="sec-linear-models-4-1-6"><h4 class="heading"><span class="codenumber">(e)</span></h4>
-<div class="para" id="sec-linear-models-4-1-6-1-1">Sketch a graph of your linear model.</div> <figure class="figure figure-like" id="fig-coffee-card"><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;">
-<img src="generated/latex-image/graph-coffee-card.svg" role="img" class="contained" alt="Blank axes."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="graph-coffee-card-description"><div class="para" id="graph-coffee-card-1-1">Blank axes. The horizontal axis is labeled lattes and ranges from 0 to 25. The vertical axis is labeled $ and ranges from 0 to 50.</div></div></details>
-</div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.3.8<span class="period">.</span></span><span class="space"> </span>Relationship between Latte Purchase and Amount Left on Card</figcaption></figure></article><article class="task exercise-like" id="sec-linear-models-4-1-7"><h4 class="heading"><span class="codenumber">(f)</span></h4>
-<div class="para" id="sec-linear-models-4-1-7-1-1">A <dfn class="terminology">horizontal intercept</dfn> of a mathematical model is the value where the graph crosses the horizontal axis. It tells us the input value that has an output value of 0. What is the horizontal intercept of this model?</div>
-<div class="workspace" data-space="0.25in"></div></article><article class="task exercise-like" id="sec-linear-models-4-1-8"><h4 class="heading"><span class="codenumber">(g)</span></h4>
-<div class="para" id="sec-linear-models-4-1-8-1-1">Will Arlo’s card last until the end of the month? If so, how much is left? If not, how many days will it last? (Note: There are about 22 weekdays in a month.)</div>
-<div class="workspace" data-space="0.5in"></div></article></article></section><section class="onepage" id="sec-linear-models-5"><article class="activity project-like" id="sec-linear-models-5-1"><h3 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.5</span><span class="period">.</span>
-</h3>
-<div class="introduction" id="sec-linear-models-5-1-1">
-<div class="para" id="sec-linear-models-5-1-1-1">Many old comic books contained ads offering money-making schemes to children reading the comics.<details class="ptx-footnote" aria-live="polite" id="sec-linear-models-5-1-1-1-1"><summary class="ptx-footnote__number" title="Footnote 1.3.2"><sup> 2 </sup></summary><div class="ptx-footnote__contents" id="sec-linear-models-5-1-1-1-1"><a class="external" href="http://mentalfloss.com/article/57958/6-get-rich-quick-schemes-vintage-comic-books" target="_blank"><code class="code-inline tex2jax_ignore"> http://mentalfloss.com/article/57958/6-get-rich-quick-schemes-vintage-comic-books</code></a></div></details> As an example, suppose a company offered to send 30 greeting cards to a child to sell to relatives, friends, and neighbors. The child was to sell them for <span class="process-math">\(m\)</span> dollars each, and had to send <span class="process-math">\(b\)</span> dollars back to the company. Here is a graph of a linear model representing the situation. The input (horizontal value) represents the number of cards sold, and the output (vertical value) represents the child’s profit in dollars.</div> <figure class="figure figure-like" id="fig-comic-scam"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;">
-<img src="generated/latex-image/graph-comic-scam.svg" role="img" class="contained" alt="Blank axes."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="graph-comic-scam-description"><div class="para" id="graph-comic-scam-1-1">The horizontal axis is ranges from -3 to 42. The vertical axis is ranges from -13 to 16. The graph shows a line with vertical intercept -10 and horizontal intercept 20.</div></div></details>
-</div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.3.9<span class="period">.</span></span><span class="space"> </span>Relationship between Latte Purchase and Amount Left on Card</figcaption></figure>
-</div>
-<article class="task exercise-like" id="sec-linear-models-5-1-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
-<div class="para" id="sec-linear-models-5-1-2-1-1">Find a formula for <span class="process-math">\(P\text{,}\)</span> the child’s profit, in terms of <span class="process-math">\(n\text{,}\)</span> the number of comics they sell.  Hints: What information do you need to find a formula for a linear model?</div>
-<div class="workspace" data-space="0.5in"></div></article><article class="task exercise-like" id="sec-linear-models-5-1-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
-<div class="para" id="sec-linear-models-5-1-3-1-1">What are <span class="process-math">\(m\)</span> and <span class="process-math">\(b\)</span> in the story?</div>
-<div class="workspace" data-space="0.5in"></div></article><article class="task exercise-like" id="sec-linear-models-5-1-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
-<div class="para" id="sec-linear-models-5-1-4-1-1">What is the horizontal intercept? What does it represent in the context of this problem?</div>
-<div class="workspace" data-space="0.5in"></div></article><article class="task exercise-like" id="sec-linear-models-5-1-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
-<div class="para" id="sec-linear-models-5-1-5-1-1">How much money will the child earn if they sell all 30 cards?</div>
-<div class="workspace" data-space="0.5in"></div></article></article></section><section class="onepage" id="sec-linear-models-6"><article class="activity project-like" id="sec-linear-models-6-1"><h3 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.6</span><span class="period">.</span>
-</h3>
-<div class="introduction" id="sec-linear-models-6-1-1">
-<div class="para" id="sec-linear-models-6-1-1-1">Data plans for cell phone plans can be purchased in two different ways. One is an unlimited data plan where the customer pays a set monthly fee for unlimited data. The other is a per-gigabyte (GB) pricing service where the customer pays a set monthly fee plus a specified amount for each GB. The GBs are not prorated (that means it doesn’t matter if the customer uses 0.001 GB or 1 GB, they must still pay for the entire 1 GB). The cost of the phone itself and other fees are the same amount under each plan.</div> <div class="para logical" id="sec-linear-models-6-1-1-2">
-<div class="para">Ximena is shopping for a data plan and needs to decide which option costs less.</div>
-<ul class="disc">
-<li id="sec-linear-models-6-1-1-2-1-1"><div class="para" id="p-derived-sec-linear-models-6-1-1-2-1-1">Per-GB Pricing: There is a monthly fee of $20 plus $10 per GB.</div></li>
-<li id="sec-linear-models-6-1-1-2-1-2"><div class="para" id="p-derived-sec-linear-models-6-1-1-2-1-2">Unlimited Data: The unlimited plan costs $60 per month.</div></li>
-</ul>
-</div>
-</div>
-<article class="task exercise-like" id="sec-linear-models-6-1-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
-<div class="para" id="sec-linear-models-6-1-2-1-1">Which plan do you think is less expensive and why?</div>
-<div class="workspace" data-space="0.5in"></div></article><article class="task exercise-like" id="sec-linear-models-6-1-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
-<div class="para" id="sec-linear-models-6-1-3-1-1">Let <span class="process-math">\(P\)</span> be the monthly cost for the per-GB pricing plan and <span class="process-math">\(g\)</span> be the number of gigabytes used. Create the linear model for <span class="process-math">\(P\)</span> in terms of <span class="process-math">\(g\text{.}\)</span>
-</div>
-<div class="workspace" data-space="0.5in"></div></article><article class="task exercise-like" id="sec-linear-models-6-1-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
-<div class="para" id="sec-linear-models-6-1-4-1-1">Let <span class="process-math">\(U\)</span> be the monthly cost for the unlimited pricing plan and <span class="process-math">\(g\)</span> be the number of gigabytes used. Create the linear model for <span class="process-math">\(U\)</span> in terms of <span class="process-math">\(g\text{.}\)</span>
-</div>
-<div class="workspace" data-space="0.5in"></div></article><article class="task exercise-like" id="sec-linear-models-6-1-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
-<div class="para" id="sec-linear-models-6-1-5-1-1">Sketch both of your linear models on the same graph.</div> <figure class="figure figure-like" id="fig-compare-data-plans"><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;">
-<img src="generated/latex-image/graph-compare-data-plans.svg" role="img" class="contained" alt="Blank axes."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="graph-compare-data-plans-description"><div class="para" id="graph-compare-data-plans-1-1">Blank axes. The horizontal axis is labeled <span class="process-math">\(g\)</span> and ranges from 0 to 8. The vertical axis is labeled $ and ranges from 0 to 100.</div></div></details>
-</div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.3.10<span class="period">.</span></span><span class="space"> </span>Relationship between Latte Purchase and Amount Left on Card</figcaption></figure></article><article class="task exercise-like" id="sec-linear-models-6-1-6"><h4 class="heading"><span class="codenumber">(e)</span></h4>
-<div class="para" id="sec-linear-models-6-1-6-1-1">Under what conditions is the per-GB plan less expensive? Under what conditions is the unlimited plan less expensive? Explain in words how you found your answers.</div>
-<div class="workspace" data-space="1in"></div></article></article></section><section class="onepage" id="sec-linear-models-7"><article class="activity project-like" id="sec-linear-models-7-1"><h3 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.7</span><span class="period">.</span>
-</h3>
-<div class="introduction" id="sec-linear-models-7-1-1"><div class="para" id="sec-linear-models-7-1-1-1">We determined in <code class="code-inline tex2jax_ignore">[cross-reference to target(s) "a-linear-or-not" missing or not unique]</code> that <figure class="table table-like" id="sec-linear-models-7-1-1-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.3.11<span class="period">.</span></span><span class="space"> </span>Data Set 2</figcaption><div class="tabular-box natural-width"><table class="tabular">
-<tr class="header-horizontal">
-<th scope="col" class="c m b1 r1 l1 t1 lines">Input</th>
-<th scope="col" class="c m b1 r1 l0 t1 lines">Output</th>
-</tr>
-<tr>
-<td class="c m b1 r1 l1 t0 lines">10</td>
-<td class="c m b1 r1 l0 t0 lines">2</td>
-</tr>
-<tr>
-<td class="c m b1 r1 l1 t0 lines">20</td>
-<td class="c m b1 r1 l0 t0 lines">10</td>
-</tr>
-<tr>
-<td class="c m b1 r1 l1 t0 lines">40</td>
-<td class="c m b1 r1 l0 t0 lines">26</td>
-</tr>
-<tr>
-<td class="c m b1 r1 l1 t0 lines">80</td>
-<td class="c m b1 r1 l0 t0 lines">58</td>
-</tr>
-<tr>
-<td class="c m b1 r1 l1 t0 lines">160</td>
-<td class="c m b1 r1 l0 t0 lines">122</td>
-</tr>
-</table></div></figure> has a linear model with slope 0.8.</div></div>
-<article class="task exercise-like" id="sec-linear-models-7-1-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
-<div class="para" id="sec-linear-models-7-1-2-1-1">The table doesn’t give us the vertical intercept. Find it, then write a formula for the output, <span class="process-math">\(y\text{,}\)</span> in terms of the input, <span class="process-math">\(x\text{.}\)</span>
-</div>
-<div class="workspace" data-space="1in"></div></article><article class="task exercise-like" id="sec-linear-models-7-1-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
-<div class="para" id="sec-linear-models-7-1-3-1-1">Find a linear model for</div> <figure class="table table-like" id="sec-linear-models-7-1-3-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.3.12<span class="period">.</span></span><span class="space"> </span>Data Set 4</figcaption><div class="tabular-box natural-width"><table class="tabular">
-<tr>
-<td class="c m b1 r1 l1 t1 lines">Input, <span class="process-math">\(X\)</span>
-</td>
-<td class="c m b1 r1 l0 t1 lines">0</td>
-<td class="c m b1 r1 l0 t1 lines">10</td>
-<td class="c m b1 r1 l0 t1 lines">30</td>
-<td class="c m b1 r1 l0 t1 lines">70</td>
-<td class="c m b1 r1 l0 t1 lines">150</td>
-</tr>
-<tr>
-<td class="c m b1 r1 l1 t0 lines">Output, <span class="process-math">\(Y\)</span>
-</td>
-<td class="c m b1 r1 l0 t0 lines">2</td>
-<td class="c m b1 r1 l0 t0 lines">10</td>
-<td class="c m b1 r1 l0 t0 lines">26</td>
-<td class="c m b1 r1 l0 t0 lines">58</td>
-<td class="c m b1 r1 l0 t0 lines">122</td>
-</tr>
-</table></div></figure><div class="workspace" data-space="0.5in"></div></article><article class="task exercise-like" id="sec-linear-models-7-1-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
-<div class="para" id="sec-linear-models-7-1-4-1-1">How are Data Set 2 and Data Set 4 related to each other?</div>
-<div class="workspace" data-space="0.5in"></div></article><article class="task exercise-like" id="sec-linear-models-7-1-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
-<div class="para" id="sec-linear-models-7-1-5-1-1">Fill in the blanks to find a second formula for Data Set 2’s linear model.</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\large y = \underline{\hspace{3em}}(x - \underline{\hspace{3em}}) + \underline{\hspace{3em}}
-\end{equation*}
-</div></article><article class="task exercise-like" id="sec-linear-models-7-1-6"><h4 class="heading"><span class="codenumber">(e)</span></h4>
-<div class="para" id="sec-linear-models-7-1-6-1-1">Write a sentence describing how to build a formula to find the output of a linear model from its slope and ANY point on the line.</div>
-<div class="workspace" data-space="1in"></div></article></article></section></section>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.4.1<span class="period">.</span></span><span class="space"> </span>Example of ppoints in the coordinate plane.</figcaption></figure>
+</div></article></section></section>
 </div>
 <div class="ptx-content-footer">
-<a class="previous-button button" href="sec-aROC.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-linear-models.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="sec-linear-models.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-linear-models.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
