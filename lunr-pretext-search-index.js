@@ -412,7 +412,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "2.5",
   "title": "Piecewise Linear Models",
-  "body": " Piecewise Linear Models    You will need to be able to build a linear model, work with formulas, and solve linear equations for this lesson.   Zeke is driving from his house to the beach and wants to model how far he is from home. He is currently 50 miles from home and will drive 65 mph until he reaches the beach. Let t be time in hours and D be distance in miles from Zeke's home. Which of the following equations models this situation? Explain your answer in words.          The number of members in a professional organization increased each year for ten years, starting in 2013. The result can be modeled by the equation .    What do you think the variables and represent?    What was the rate of the organization's growth? How do you know?    How large was the organization's membership: a   At the start of the growth period?   At the end of the growth period?   In 2020?     "
+  "body": " Piecewise Linear Models    You will need to be able to interpret the formula for a linear model and build linear models in the next lesson.   Zeke is driving from his house to the beach and wants to model how far he is from home. He is currently 50 miles from home and will drive 65 mph until he reaches the beach. Let t be time in hours and D be distance in miles from Zeke's home. Which of the following equations models this situation? Explain your answer in words.          The number of members in a professional organization increased each year for ten years, starting in 2013. The result can be modeled by the equation .    What do you think the variables and represent?    What was the rate of the organization's growth? How do you know?    How large was the organization's membership: a   At the start of the growth period?   At the end of the growth period?   In 2020?        Most car values decrease over time. For example, in 2015, a new Toyota Prius Two sold for $25,500. In 2023, online car valuation sites like the Kelley Blue Book and Car Gurus list used 2015 Prius Twos for $18,500. The value of the 2015 Toyota Prius Two depreciated over time.    Assume the depreciation is linear. What is the rate of change of a linear model that represents the value of the 2015 Prius Two over time?    Create a linear model of the value of the 2015 Prius Two, where is the value, and is the number of years after 2015.    What is the vertical intercept of the graph of the model? What does it represent in the context of this problem?    Use the model to estimate the value of the 2015 Prius Two in 2026. How much confidence do you have in your prediction?     You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Interpret the formula for a linear model.     Build a linear model.        "
 },
 {
   "id": "sec-piecewise-linear-prep-2-2",
@@ -431,6 +431,24 @@ var ptx_lunr_docs = [
   "number": "2.5.2",
   "title": "",
   "body": "  The number of members in a professional organization increased each year for ten years, starting in 2013. The result can be modeled by the equation .    What do you think the variables and represent?    What was the rate of the organization's growth? How do you know?    How large was the organization's membership: a   At the start of the growth period?   At the end of the growth period?   In 2020?   "
+},
+{
+  "id": "sec-piecewise-linear-prep-3-1",
+  "level": "2",
+  "url": "sec-piecewise-linear-prep.html#sec-piecewise-linear-prep-3-1",
+  "type": "Prep Activity",
+  "number": "2.5.3",
+  "title": "",
+  "body": "  Most car values decrease over time. For example, in 2015, a new Toyota Prius Two sold for $25,500. In 2023, online car valuation sites like the Kelley Blue Book and Car Gurus list used 2015 Prius Twos for $18,500. The value of the 2015 Toyota Prius Two depreciated over time.    Assume the depreciation is linear. What is the rate of change of a linear model that represents the value of the 2015 Prius Two over time?    Create a linear model of the value of the 2015 Prius Two, where is the value, and is the number of years after 2015.    What is the vertical intercept of the graph of the model? What does it represent in the context of this problem?    Use the model to estimate the value of the 2015 Prius Two in 2026. How much confidence do you have in your prediction?   "
+},
+{
+  "id": "sec-piecewise-linear-prep-3-2",
+  "level": "2",
+  "url": "sec-piecewise-linear-prep.html#sec-piecewise-linear-prep-3-2",
+  "type": "Prep Activity",
+  "number": "2.5.4",
+  "title": "",
+  "body": " You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Interpret the formula for a linear model.     Build a linear model.      "
 },
 {
   "id": "backmatter-2",
