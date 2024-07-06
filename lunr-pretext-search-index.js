@@ -253,9 +253,9 @@ var ptx_lunr_docs = [
   "body": "  The infographic below contains the same data points for the Global Temperature Change (the change in average Global Temperature in the years from 1970-2022) that were included in the infographic showing \"How Realists View Global Warming.\" This infographic is meant to depict a common view stated by contrarians that global warming is not real since there have been several periods over the last 50 years when global temperatures have declined on average.   Difference in average global temperature from the 1850-1900 mean with a piecewise model. Image from Quantway College Module M.3 by Carnegie Math Pathways   Graph showing the difference in average global temperature from the 1850-1900 mean with a piecewise model.   The temperature difference has a lot of variation over short time periods, but over the entire 1970 to 2022 time period, the differences tend to increase. There are seven short-term trendlines shown, each of which is either decreasing or roughly horizontal. The trend line from 2010 to 2015 starts at about (2010, 1.1) and ends at about (2015, 0.9).     Also shown is a piecewise model, which is a model defined by multiple pieces, each of which has its own trendline that represents the trend of the data within a certain interval. This infographic shows a linear piecewise model that consists of 7 line segments - each of which can be considered a trendline for that restricted time period.    Look at the line segments that are drawn on the graph. What do these lines represent as a whole?    Now look at just the segment of the piecewise \"best fit\" model from 2010 to 2015 (the line segment second farthest to the right). Estimate where the line segment would cross the vertical axis (in year 1970). (Hint: It might be useful to use a straight-edged item to extend the line to the vertical axis. You can see the line is very slightly slanted.)    What is the slope value of the 2010 to 2015 line segment? Give an interpretation of the slope value.    Estimate the equation of the 2010 to 2015 line segment.    Could we use the equation of the 2010 to 2015 line segment to predict the mean Global Surface Temperature Change in 2035? Why or why not?    Explain what the Contrarian Model is saying about the general pattern of global temperature. Is it rising or falling? Think about this on your own for a minute before sharing your ideas in your group.    If you look at the overall trend of the data in the infographic, it is increasing. However, each line segment in the piecewise model is decreasing (ever so slightly). What does this mean? Explain what the model is saying about the general pattern of global temperature change.    Come up with an example of a similar piecewise linear model. Note that models can be represented in different ways - tables, graphs, written descriptions, or equations. We will explore piecewise models in the next lesson.   "
 },
 {
-  "id": "sec-linear-trends-prep",
+  "id": "sec-math-models-prep",
   "level": "1",
-  "url": "sec-linear-trends-prep.html",
+  "url": "sec-math-models-prep.html",
   "type": "Worksheet",
   "number": "2.1",
   "title": "Mathematical Models",
@@ -412,7 +412,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "2.5",
   "title": "Piecewise Linear Models",
-  "body": " Piecewise Linear Models    You will need to be able to build a linear model, work with formulas, and solve linear equations for this lesson.   Zeke is driving from his house to the beach and wants to model how far he is from home. He is currently 50 miles from home and will drive 65 mph until he reaches the beach. Let t be time in hours and D be distance in miles from Zeke's home. Which of the following equations models this situation? Explain your answer in words.         "
+  "body": " Piecewise Linear Models    You will need to be able to build a linear model, work with formulas, and solve linear equations for this lesson.   Zeke is driving from his house to the beach and wants to model how far he is from home. He is currently 50 miles from home and will drive 65 mph until he reaches the beach. Let t be time in hours and D be distance in miles from Zeke's home. Which of the following equations models this situation? Explain your answer in words.          The number of members in a professional organization increased each year for ten years, starting in 2013. The result can be modeled by the equation .    What do you think the variables and represent?    What was the rate of the organization's growth? How do you know?    How large was the organization's membership: a   At the start of the growth period?   At the end of the growth period?   In 2020?     "
 },
 {
   "id": "sec-piecewise-linear-prep-2-2",
@@ -422,6 +422,15 @@ var ptx_lunr_docs = [
   "number": "2.5.1",
   "title": "",
   "body": "Zeke is driving from his house to the beach and wants to model how far he is from home. He is currently 50 miles from home and will drive 65 mph until he reaches the beach. Let t be time in hours and D be distance in miles from Zeke's home. Which of the following equations models this situation? Explain your answer in words.       "
+},
+{
+  "id": "sec-piecewise-linear-prep-2-3",
+  "level": "2",
+  "url": "sec-piecewise-linear-prep.html#sec-piecewise-linear-prep-2-3",
+  "type": "Prep Activity",
+  "number": "2.5.2",
+  "title": "",
+  "body": "  The number of members in a professional organization increased each year for ten years, starting in 2013. The result can be modeled by the equation .    What do you think the variables and represent?    What was the rate of the organization's growth? How do you know?    How large was the organization's membership: a   At the start of the growth period?   At the end of the growth period?   In 2020?   "
 },
 {
   "id": "backmatter-2",
