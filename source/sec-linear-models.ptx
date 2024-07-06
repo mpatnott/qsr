@@ -14,7 +14,7 @@
                 <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
                     <row header="yes">
                         <cell></cell>
-                        <cell>Summer Billing Cycles (June - Septembr)</cell>
+                        <cell>Summer Billing Cycles (June - September)</cell>
                         <cell>Winter Billing Cycles</cell>
                     </row>
                     <row>

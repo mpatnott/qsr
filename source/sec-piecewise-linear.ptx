@@ -3,36 +3,100 @@
 <worksheet xml:id="sec-piecewise-linear" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Piecewise Linear Models</title>
 
-    <introduction>
-        <p>
+    <activity workspace="0.5in">
+        <introduction>
+            <p>
             In <xref ref="sec-linear-models"/>, we explored the cost of electricity in and around Denver, CO, during the summer for customers on the Residential Opt-Out Pricing Plan. We knew that the rates for this plan are<fn><url href="https://co.my.xcelenergy.com/s/billing-payment/residential-rates/residential-plan"></url></fn>. 
-        </p>
-        <table>
-            <title>Xcel Energy Electricity Charges, Residential Opt-Out Pricing</title>
-            <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
-                <row header="yes">
-                    <cell></cell>
-                    <cell>Summer Billing Cycles (June - Septembr)</cell>
-                    <cell>Winter Billing Cycles</cell>
-                </row>
-                <row>
-                    <cell><strong>Fixed Monthly Fees</strong></cell>
-                    <cell>$12.20</cell>
-                    <cell>$12.20</cell>
-                </row>
-                <row>
-                    <cell><strong>$ Per kWh</strong></cell>
-                    <cell>$0.1038</cell>
-                    <cell>$0.0857</cell>
-                </row>
-            </tabular>
-        </table>
-        <p>
-            And used this information to find that
-            <me>
-                B = 12.20 + 0.1038k
-            </me>
-            is a linear model for the bill amount <m>B</m> of a customer that uses <m>k</m>.
-        </p>
-    </introduction>
+            </p>
+            <table>
+                <title>Xcel Energy Electricity Charges, Residential Opt-Out Pricing</title>
+                <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                    <row header="yes">
+                        <cell></cell>
+                        <cell>Summer Billing Cycles (June - Septembr)</cell>
+                        <cell>Winter Billing Cycles</cell>
+                    </row>
+                    <row>
+                        <cell><strong>Fixed Monthly Fees</strong></cell>
+                        <cell>$12.20</cell>
+                        <cell>$12.20</cell>
+                    </row>
+                    <row>
+                        <cell><strong>$ Per kWh</strong></cell>
+                        <cell>$0.1038</cell>
+                        <cell>$0.0857</cell>
+                    </row>
+                </tabular>
+            </table>
+            <p>
+                And used this information to find that
+                <me>
+                    B = 12.20 + 0.1038k
+                </me>
+                is a linear model for the bill amount <m>B</m> of a customer that uses <m>k</m> kWh.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Now, let's consider the cost of electricity in and around Denver in the winter. Use the information given in the table above to build a linear model for the bill amount, <m>B</m>, of a customer that uses <m>k</m> kWh in the winter.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    The company that provides electricity to people in and around New Orleans, Louisiana is called Entergy. The table below estimates the winter monthly rates charged by Entergy<fn><url href="https://www.entergy-louisiana.com/your_home/price/"></url></fn>. Let <m>B</m> be the monthly bill amount and <m>k</m> be the number of kWh used.
+                </p>
+                <table>
+                    <title>Entergy Electricity Charges, November - April</title>
+                    <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                        <row header="yes">
+                            <cell>Fixed Monthly Fees</cell>
+                            <cell>$8.07</cell>
+                        </row>
+                        <row>
+                            <cell>Cost per kWh, for 800 kWh or less</cell>
+                            <cell>$0.06002</cell>
+                        </row>
+                        <row>
+                            <cell>Cost per kWh, kWh over 800 kWh</cell>
+                            <cell>$0.04766</cell>
+                        </row>
+                    </tabular>
+                </table>
+            </statement>
+            <p>
+                For example, a customer who used 700 kWh in a month would be charged <m>B = 8.07 + 0.06002 \times 700 = $50.08</m>. A customer who used 1000 kWh in a month would be charged <m>B = 8.07 + 0.06002 \times 800 + 0.04766 \times (1000 - 800) = B = 8.07 + 0.06002 \times 800 + 0.04766 \times 200 = $65.62</m>
+            </p>
+            <task>
+                <statement>
+                    <p>
+                        How much would a customer who used 600 kWh be charged? 900 kWh? 1200 kWh? 
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Build a linear model for the bill <m>B</m>, of a customer that used 800 kWh or less.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Build a linear model for the bill <m>B</m>, of a customer that used 800 kWh or less.
+                    </p>
+                </statement>
+            </task>
+            <!-- <task>
+                <statement>
+                    <p>
+                        This situation is called "Piecewise Defined." It is piecewise because the cost changes based on the amount of electricity used; cost per kWh is not constant so the graph if this situation is not a line.
+                    </p>
+                </statement>
+            </task> -->
+        </task>
+    </activity>
 </worksheet>
