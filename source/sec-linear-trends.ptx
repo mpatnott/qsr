@@ -10,7 +10,7 @@
                 In 2022, Nelson created the following graph to represent his annual pay over the years.
             </p>
             <figure xml:id="fig-annual-pay">
-                <caption>Example of ppoints in the coordinate plane.</caption>
+                <caption>Nelson's Annual Pay</caption>
                 <image xml:id="graph-annual-pay" width="50%">
                     <description>
                         <p>
@@ -21,9 +21,10 @@
                     <latex-image>
                         \begin{tikzpicture}
                             \begin{axis}[grid = both, axis lines = center,
-                                            xmin = 2012, xmax = 2022, xlabel={Year}, xtick = {2012, 2014, 2016, 2018, 2020, 2022}, extra x ticks = {2013, 2015, 2017, 2019, 2021}, x tick label style={/pgf/number format/1000 sep={}}, extra x tick style={xticklabel=\empty,grid=major},
-                                            ymin = 0, ymax = 36000, ylabel={Annual Salary (\$)}, ytick = {4000, 8000, 12000, 16000, 20000, 24000, 28000, 32000, 36000}, extra y ticks = {2000, 6000, 10000, 14000, 22000, 26000, 30000, 34000}, extra y tick style={yticklabel=\empty,grid=major}]
-                                \addplot[only marks] coordinates{
+                                            xmin = 2011, xmax = 2022, xlabel={Year}, xtick = {2012, 2014, 2016, 2018, 2020, 2022}, extra x ticks = {2013, 2015, 2017, 2019, 2021}, x tick label style={/pgf/number format/1000 sep={}}, extra x tick style={xticklabel=\empty,grid=major},
+                                            ymin = 0, ymax = 36000, ylabel={Annual Salary (\$)}, ytick = {4000, 8000, 12000, 16000, 20000, 24000, 28000, 32000, 36000}, extra y ticks = {2000, 6000, 10000, 14000, 22000, 26000, 30000, 34000}, extra y tick style={yticklabel=\empty,grid=major}, scaled ticks = false]
+                                \addplot[only marks] 
+                                    coordinates{
                                         (2012, 24000)
                                         (2013, 25000)
                                         (2014, 27000)
@@ -63,6 +64,45 @@
                 </p>
             </statement>
         </task>
+    </activity>
+  </page>
+
+  <page>
+    <activity>
+        The following table shows the average weight for infant boys:<fn><url href="https://www.who.int/tools/child-growth-standards/standards/weight-for-age"></url></fn>
+        <table>
+            <title>Average Weight of Boys, Ages 10 - 20 months</title>
+            <tabular>
+                <row>
+                    <cell>Age (months)</cell>
+                    <cell>10</cell>
+                    <cell>11</cell>
+                    <cell>12</cell>
+                    <cell>13</cell>
+                    <cell>14</cell>
+                    <cell>15</cell>
+                    <cell>16</cell>
+                    <cell>17</cell>
+                    <cell>18</cell>
+                    <cell>19</cell>
+                    <cell>20</cell>
+                </row>
+                <row>
+                    <cell>Weight (kg)</cell>
+                    <cell>9.2</cell>
+                    <cell>9.4</cell>
+                    <cell>9.7</cell>
+                    <cell>9.9</cell>
+                    <cell>10.1</cell>
+                    <cell>10.3</cell>
+                    <cell>10.5</cell>
+                    <cell>10.7</cell>
+                    <cell>10.9</cell>
+                    <cell>11.1</cell>
+                    <cell>11.4</cell>
+                </row>
+            </tabular>
+        </table>
     </activity>
   </page>
 </worksheet>  
