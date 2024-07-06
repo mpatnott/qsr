@@ -24,8 +24,8 @@
                 <sidebyside>
                     <table>
                         <title>Loralee's Flex Dollars Balance</title>
-                        <tabular>
-                            <row header="yes">
+                        <tabular halign="center">
+                            <row header="yes" bottom = "minor">
                                 <cell>Week</cell>
                                 <cell>Balance ($)</cell>
                             </row>
@@ -103,7 +103,7 @@
                             <latex-image>
                                 \begin{tikzpicture}
                                     \begin{axis}[grid = both, axis lines = center,
-                                                    ymin = 90, ymax = 155, ylabel={\$}, ytick = {90, 100, 110, 120, 130, 140, 150},extra y ticks = {95, 115, 125, 135, 145}, extra y tick style={yticklabel=\empty,grid=major},
+                                                    ymin = 90, ymax = 155, ylabel={\$}, ytick = {90, 100, 110, 120, 130, 140, 150},extra y ticks = {95, 105, 115, 125, 135, 145}, extra y tick style={yticklabel=\empty,grid=major},
                                                     xmin = -0.5, xmax = 14.5, xlabel={Week}, xtick = {2, 4, 6, 8, 10, 12, 14}, extra x ticks = {1, 3, 5, 7, 9, 11, 13}, extra x tick style={xticklabel=\empty,grid=major}]
                                     \end{axis}
                                 \end{tikzpicture}
@@ -123,6 +123,27 @@
                 <statement>
                     <p>
                         This model is approximately linear. What are the units for the slope: $, Week/$, $/Week, or there are no units.
+                    </p>
+                </statement>
+            </task>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        What is the vertical intercept tell you in context? the horizontal intercept?
+                    </p>
+                </statement>
+            </task>
+            <task workspace="0.5">
+                <statement>
+                    <p>
+                        Let <m>M</m> be the amount of money left on the card, <m>t</m> weeks after the beginning of the semester. Write a linear equation to model the data. Use Week 0 and Week 14 to calculate the slope.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        If Loralee continues to spend her flex dollars at the same rate, use your euqation to determine how much money will be on the card at the end of spring semester, which also lasts 14 weeks.
                     </p>
                 </statement>
             </task>
