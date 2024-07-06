@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="sec-piecewise-linear-prep" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Piecewise Linear Models</title>
+
+    <page>
+        <introduction>
+            <p>
+                You will need to be able to build a linear model, work with formulas, and solve linear equations for this lesson.
+            </p>
+        </introduction>
+
+        <investigation workspace="0.5in">
+            Zeke is driving from his house to the beach and wants to model how far he is from home. He is currently 50 miles from home and will drive 65 mph until he reaches the beach. Let t be time in hours and D be distance in miles from Zeke's home. Which of the following equations models this situation? Explain your answer in words.
+            <ol>
+                <li><m>D = 50 - 65t</m></li>
+                <li><m>D = 50 + 65t</m></li>
+                <li><m>D = 65 - 50t</m></li>
+                <li><m>D = 65 + 50t</m></li>
+            </ol>
+        </investigation>
+    </page>
+</worksheet>

@@ -8,8 +8,10 @@
   </introduction> -->
 
   <!-- include sections -->
+  <xi:include href="sec-math-models-prep.ptx" />
   <xi:include href="sec-aROC-prep.ptx" />
   <xi:include href="sec-linear-models-prep.ptx" />
   <xi:include href="sec-linear-trends-prep.ptx" />
+  <xi:include href="sec-piecewise-linear-prep.ptx" />
 
 </chapter>
