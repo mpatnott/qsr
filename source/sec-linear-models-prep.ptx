@@ -93,9 +93,9 @@
                 We will sometimes be given points in a data table. Tables might be organized vertically, with named columns, or horizontally, with named rows. Look for the row and column names to find the horizontal and vertical coordinates of the points. Here are the points we've already graphed, arranged in a table in two different ways.
             </p>
             <sidebyside>
-                <table halign="center" top="minor" bottom="minor" left="minor" right="minor">
+                <table>
                     <title>Points arranged in a vertical table</title>
-                    <tabular>
+                    <tabular halign="center" top="minor" bottom="minor" left="minor" right="minor">
                         <row header="yes">
                             <cell>Hours Worked</cell>
                             <cell>Money Earned ($)</cell>
@@ -122,9 +122,9 @@
                         </row>
                     </tabular>
                 </table>
-                <table halign="center" top="minor" bottom="minor" left="minor" right="minor">
+                <table>
                     <title>Points arranged in a horizontal table</title>
-                    <tabular>
+                    <tabular  halign="center" top="minor" bottom="minor" left="minor" right="minor">
                         <row>
                             <cell>Hours Worked</cell>
                             <cell>10</cell>
@@ -170,9 +170,9 @@
                     The table below shows the number of housing units in Denver.<fn>Data from Data Commons 2024, US Census Bureua, electronic dataset, Data Commons, viewed 2 Jul 2024, <url href="https://datacommons.org"></url></fn>
                 </p>
                 <sidebyside>
-                    <table halign="center" top="minor" bottom="minor" left="minor" right="minor">
+                    <table>
                         <title>Housing Units in Denver</title>
-                        <tabular>
+                        <tabular  halign="center" top="minor" bottom="minor" left="minor" right="minor">
                             <row header="yes">
                                 <cell>Year</cell>
                                 <cell>Housing Units (1000s)</cell>

@@ -160,9 +160,9 @@
                 <p>
                     In the table below, enter the amount of the quarterly bill for each of the water usage amounts listed.
                 </p>
-                <table halign="center" top = "minor" bottom = "minor" left="minor" right="minor">
+                <table>
                     <title>Detroit Quarterly Water Bills</title>
-                    <tabular>
+                    <tabular  halign="center" top = "minor" bottom = "minor" left="minor" right="minor">
                         <row>
                             <cell>Quarterly Water Usage in Thousands of Gallons</cell>
                             <cell>15</cell>
@@ -232,6 +232,16 @@
                 </p>
             </statement>
         </task>
+    </activity>
+  </page>
+
+  <page>
+    <activity>
+        Quantway M.3 Exercise 5
+    </activity>
+
+    <activity>
+        Quantway M.4 Problem Situation 2
     </activity>
   </page>
 </worksheet>
