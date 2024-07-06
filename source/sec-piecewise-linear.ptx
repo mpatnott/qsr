@@ -5,7 +5,34 @@
 
     <introduction>
         <p>
-            In <xref ref="sec-linear-models"/>, we explored the cost of electricity in and around Denver, CO, during the summer. In this collaboration, we consider electrical charges during the winter.
+            In <xref ref="sec-linear-models"/>, we explored the cost of electricity in and around Denver, CO, during the summer for customers on the Residential Opt-Out Pricing Plan. We knew that the rates for this plan are<fn><url href="https://co.my.xcelenergy.com/s/billing-payment/residential-rates/residential-plan"></url></fn>. 
+        </p>
+        <table>
+            <title>Xcel Energy Electricity Charges, Residential Opt-Out Pricing</title>
+            <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                <row header="yes">
+                    <cell></cell>
+                    <cell>Summer Billing Cycles (June - Septembr)</cell>
+                    <cell>Winter Billing Cycles</cell>
+                </row>
+                <row>
+                    <cell><strong>Fixed Monthly Fees</strong></cell>
+                    <cell>$12.20</cell>
+                    <cell>$12.20</cell>
+                </row>
+                <row>
+                    <cell><strong>$ Per kWh</strong></cell>
+                    <cell>$0.1038</cell>
+                    <cell>$0.0857</cell>
+                </row>
+            </tabular>
+        </table>
+        <p>
+            And used this information to find that
+            <me>
+                B = 12.20 + 0.1038k
+            </me>
+            is a linear model for the bill amount <m>B</m> of a customer that uses <m>k</m>.
         </p>
     </introduction>
 </worksheet>
