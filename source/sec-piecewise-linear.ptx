@@ -124,9 +124,9 @@
                 <p>
                     Graph this piecewise linear model. 
                 </p>
-                <figure xml:id="fig-graphing-practice-curve">
+                <figure xml:id="fig-graphing-entergy">
                     <caption>Energy Bills in Winter Near New Orleans</caption>
-                    <image xml:id="graph-graphing-practice-curve" width="50%">
+                    <image xml:id="graph-graphing-entergy" width="50%">
                         <description>
                             <p>
                                 Blank axes. The horizontal axis is labeled kWh and ranges from 0 to 1500. The vertical axis is labeled $ and ranges from 0 to 100.
@@ -193,6 +193,32 @@
                         </row>
                     </tabular>
                 </table>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Plot this data as points on the graph below.
+                </p>
+                <figure xml:id="fig-detroit-water">
+                    <caption>Detroit Quarterly Water Bills</caption>
+                    <image xml:id="graph-detroit" width="33%">
+                        <description>
+                            <p>
+                                Blank axes. The horizontal axis is labeled gal (1000s) but has no other labels. The vertical axis is labeled $ but has no other labels.
+                            </p>
+                        </description>
+                        <shortdescription>Blank axes.</shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                \begin{axis}[grid = both, axis lines = center,
+                                                ymin = -1, ymax = 25, ylabel={\$}, ytick = {-1,1,2,...,25}, y tick label style={yticklabel=\empty,grid=major},
+                                                xmin = -4, xmax = 25, xlabel={gal (1000s)}, xtick = {-4,-3,-2,...,25}, x tick label style={xticklabel=\empty,grid=major}]
+                                \end{axis}
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                </figure>
             </statement>
         </task>
     </activity>

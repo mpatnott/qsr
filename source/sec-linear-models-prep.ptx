@@ -227,9 +227,9 @@
                             </row>
                         </tabular>
                     </table>
-                    <figure xml:id="fig-graphing-practice-curve">
+                    <figure xml:id="fig-graphing-denver-housing">
                         <caption>Housing Units in Denver</caption>
-                        <image xml:id="graph-graphing-practice-curve" width="40%">
+                        <image xml:id="graph-graphing-denver-housing" width="40%">
                             <description>
                                 <p>
                                     Blank axes. The horizontal axis is labeled years and ranges from 2011 to 2023. The vertical axis is labeled units (1000s) and ranges from 280 to 350.
