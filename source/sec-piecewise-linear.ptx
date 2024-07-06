@@ -44,7 +44,7 @@
             </statement>
         </task>
         <task>
-            <statement>
+            <introduction>
                 <p>
                     The company that provides electricity to people in and around New Orleans, Louisiana is called Entergy. The table below estimates the winter monthly rates charged by Entergy<fn><url href="https://www.entergy-louisiana.com/your_home/price/"></url></fn>. Let <m>B</m> be the monthly bill amount and <m>k</m> be the number of kWh used.
                 </p>
@@ -65,10 +65,10 @@
                         </row>
                     </tabular>
                 </table>
-            </statement>
-            <p>
-                For example, a customer who used 700 kWh in a month would be charged <m>B = 8.07 + 0.06002 \times 700 = $50.08</m>. A customer who used 1000 kWh in a month would be charged <m>B = 8.07 + 0.06002 \times 800 + 0.04766 \times (1000 - 800) = B = 8.07 + 0.06002 \times 800 + 0.04766 \times 200 = $65.62</m>
-            </p>
+                <p>
+                    For example, a customer who used 700 kWh in a month would be charged <m>B = 8.07 + 0.06002 \times 700 = $50.08</m>. A customer who used 1000 kWh in a month would be charged <m>B = 8.07 + 0.06002 \times 800 + 0.04766 \times (1000 - 800) = B = 8.07 + 0.06002 \times 800 + 0.04766 \times 200 = $65.62</m>
+                </p>
+            </introduction>
             <task>
                 <statement>
                     <p>
