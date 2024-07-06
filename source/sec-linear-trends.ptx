@@ -23,7 +23,7 @@
                             \begin{axis}[grid = both, axis lines = center,
                                             xmin = 2012, xmax = 2022, xlabel={Year}, xtick = {2012, 2014, 2016, 2018, 2020, 2022}, extra x ticks = {2013, 2015, 2017, 2019, 2021}, x tick label style={/pgf/number format/1000 sep={}}, extra x tick style={xticklabel=\empty,grid=major},
                                             ymin = 0, ymax = 36000, ylabel={Annual Salary (\$)}, ytick = {4000, 8000, 12000, 16000, 20000, 24000, 28000, 32000, 36000}, extra y ticks = {2000, 6000, 10000, 14000, 22000, 26000, 30000, 34000}, extra y tick style={yticklabel=\empty,grid=major}]
-                                \addplot coordinates{
+                                \addplot[only marks] coordinates{
                                         (2012, 24000)
                                         (2013, 25000)
                                         (2014, 27000)
@@ -42,6 +42,27 @@
                 </image>
             </figure>
         </introduction>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Find a linear equation that models the above situation. Use <m>P</m> to represent Nelson's pay in dollars and <m>t</m> to represent the number of years since 2012.
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    If the trend continues, in what year would he expect to earn $36,000 a year?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                   Nelson is using <em>extrapoloation</em> to predict his future salary, so his prediction is unlikely to be perfect and could even be quite a bit off. Extrapolation is the process of using a mathematical model to make predictions that are outside the range of the available data, based on the assumption that existing trends will continue. The problem with extrapolation is that the trend could change in the future, for any number of reasons, which would make the prediction unreliable. Give at least one example of way that the trend in Nelson's salary might change and result his prediction being very wrong. 
+                </p>
+            </statement>
+        </task>
     </activity>
   </page>
 </worksheet>  
