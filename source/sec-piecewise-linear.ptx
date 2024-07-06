@@ -163,32 +163,22 @@
                 <table halign="center" top = "minor" bottom = "minor" left="minor" right="minor">
                     <title>Detroit Quarterly Water Bills</title>
                     <tabular>
-                        <row header="yes">
+                        <row>
                             <cell>Quarterly Water Usage in Thousands of Gallons</cell>
-                            <cell>Amount of Bill ($)</cell>
-                        </row>
-                        <row>
                             <cell>15</cell>
-                            <cell></cell>
-                        </row>
-                        <row>
                             <cell>18</cell>
-                            <cell></cell>
-                        </row>
-                        <row>
                             <cell>20</cell>
-                            <cell></cell>
-                        </row>
-                        <row>
                             <cell>25</cell>
-                            <cell></cell>
-                        </row>
-                        <row>
                             <cell>28</cell>
-                            <cell></cell>
+                            <cell>32</cell>
                         </row>
                         <row>
-                            <cell>32</cell>
+                            <cell>Amount of Bill ($)</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
                             <cell></cell>
                         </row>
                     </tabular>
