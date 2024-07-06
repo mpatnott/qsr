@@ -11,13 +11,13 @@
         <investigation>
             <introduction>
                 <p>
-                    Several years ago, Onondaga Community College, in upstate New York, introduced a meal plan that included "Flex Dollars" that were stored on students' ID cards. The following description of flex dollars appeared on the college's website:
+                    Several years ago, Onondaga Community College, in upstate New York, introduced a meal plan that included "Flex Dollars" that were stored on students' ID cards. Each student was given $150 "Flex Dollars" as part of their meal plan package that could be used like cash at several campus dining locations.
                 </p>
-                <blockquote>
+                <!-- <blockquote>
                     <p>
                         To accommodate instances where you do not wish to purchase a "meal", but would still like something to eat or drink, the College offers $150 of "Flex Dollars" included in each meal plan package. This "flexible money" may be used just like cash for any item sold in the Gordon Café, Mawhinney Café, Starbucks or Fresh Express. Do you want that Large Mocha at Starbucks or that pint of Ben and Jerry's from Mawhinney Café? Use your flex dollars to pay for it!
                     </p>
-                </blockquote>
+                </blockquote> -->
                 <p>
                     Onondaga student Loralee tracked her use of flex dollars weekly during the fall semester as shown in the table below:
                 </p>
@@ -119,7 +119,7 @@
                     </p>
                 </statement>
             </task>
-            <task workspace="0.25in">
+            <task>
                 <statement>
                     <p>
                         This model is approximately linear. What are the units for the slope: $, Week/$, $/Week, or there are no units.
