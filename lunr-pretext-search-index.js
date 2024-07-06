@@ -307,6 +307,24 @@ var ptx_lunr_docs = [
   "body": " You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Plot a point on a graph.     Find the coordinates of a point from a sentence or table.     Find average rates of change.      "
 },
 {
+  "id": "sec-linear-trends-prep",
+  "level": "1",
+  "url": "sec-linear-trends-prep.html",
+  "type": "Worksheet",
+  "number": "2.3",
+  "title": "Linear Trends",
+  "body": " Linear Trends    In the real world, it is more common to have data that is approximately linear than exactly linear. These activities will introduce the idea of linear trends, which we'll spend more time in class. They'll also provide practice with building a linear model by identifying its slope and vertical intercept.    Several years ago, Onondaga Community College, in upstate New York, introduced a meal plan that included \"Flex Dollars\" that were stored on students' ID cards. The following description of flex dollars appeared on the college's website:   To accommodate instances where you do not wish to purchase a \"meal\", but would still like something to eat or drink, the College offers $150 of \"Flex Dollars\" included in each meal plan package. This \"flexible money\" may be used just like cash for any item sold in the Gordon Café, Mawhinney Café, Starbucks or Fresh Express. Do you want that Large Mocha at Starbucks or that pint of Ben and Jerry's from Mawhinney Café? Use your flex dollars to pay for it!   Onondaga student Loralee tracked her use of flex dollars weekly during the fall semester as shown in the table below:   Loralee's Flex Dollars Balance    Week  0  1  2  3  4  5  6  7  8  9  10  11  12  13  14    Balance ($)  150.00  146.75  142.75  139.00  134.00  130.25  126.25  122.25  118.50  114.50  110.00  106.50  101.50  97.00  93.25       "
+},
+{
+  "id": "sec-linear-trends-prep-2-2",
+  "level": "2",
+  "url": "sec-linear-trends-prep.html#sec-linear-trends-prep-2-2",
+  "type": "Prep Activity",
+  "number": "2.3.1",
+  "title": "",
+  "body": " Several years ago, Onondaga Community College, in upstate New York, introduced a meal plan that included \"Flex Dollars\" that were stored on students' ID cards. The following description of flex dollars appeared on the college's website:   To accommodate instances where you do not wish to purchase a \"meal\", but would still like something to eat or drink, the College offers $150 of \"Flex Dollars\" included in each meal plan package. This \"flexible money\" may be used just like cash for any item sold in the Gordon Café, Mawhinney Café, Starbucks or Fresh Express. Do you want that Large Mocha at Starbucks or that pint of Ben and Jerry's from Mawhinney Café? Use your flex dollars to pay for it!   Onondaga student Loralee tracked her use of flex dollars weekly during the fall semester as shown in the table below:   Loralee's Flex Dollars Balance    Week  0  1  2  3  4  5  6  7  8  9  10  11  12  13  14    Balance ($)  150.00  146.75  142.75  139.00  134.00  130.25  126.25  122.25  118.50  114.50  110.00  106.50  101.50  97.00  93.25     "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
