@@ -223,7 +223,7 @@
                     </p>
                     <figure xml:id="fig-phone-depreciation">
                         <caption>Loralee's Flex Dollars Balance</caption>
-                        <image xml:id="graph-phone-depreciation" width="50%">
+                        <image xml:id="graph-phone-depreciation" width="33%">
                             <description>
                                 <p>
                                     Blank axes. The horizontal axis is labeled Month but has no other labels. The vertical axis is labeled $ but has no other labels.
@@ -242,17 +242,52 @@
                     </figure>
                 </statement>
             </task>
-            <task workspace="0.5in">
+            <task>
                 <statement>
                     <p>
-                        Does the data appear to be linear? Explain your answer.
+                        Is the data <em>perfectly</em> linear? Explain your answer.
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
-                        Is the data <em>exactly</em> linear? Explain your answer.
+                        Why does the data appear to be <em>approximately </em> linear? Explain your answer
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Give an estimate for the slope of the model, and explain what it means in this situation.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What is the vertical intercept of the graph? What does it mean in relation to the situation?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Write an equation that gives a linear model for the value of the cell phone from Sept 2019 through February 2020. Use <m>V</m> for the value in dollars, <m>m</m> for the number of the month, and your slope estimate.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Suppose Coraline want to sell her phone before it is worth less than $300. Using your model, when is the last month she could sell it and get at least $300?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What is the horizontal intercept of your model? What is the meaning of this in the context of this problem? Is this reasonable?
                     </p>
                 </statement>
             </task>
