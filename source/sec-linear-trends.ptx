@@ -159,7 +159,7 @@
     <activity>
         <introduction>
             <p>
-                Below is an infographic showing the data gathered by BEST showing the monthly "Global Temperature Anomaly" (that is, the change in average Global Temperature, in degrees Celsius) for the years 1970-2022. Shown on the graph is a trendline, also known as a line of best fit, that is a linear model representing the trend of the data. It is stated on the project's website that the baseline period is the 1850-1900 mean.<fn><url href="https://skepticalscience.com/escalator_2022.html"></url></fn> This means that the data from 1970-2022 is compared with the data from 1850-1900.
+                Below is an infographic showing the data gathered by BEST showing the monthly "Global Temperature Anomaly" (that is, the change in average Global Temperature, in degrees Celsius) for the years 1970-2022. It is stated on the project's website that the baseline period is the 1850-1900 mean.<fn><url href="https://skepticalscience.com/escalator_2022.html"></url></fn> This means that the data from 1970-2022 is compared with the data from 1850-1900.
             </p>
             <figure xml:id="fig-best-temp-realist">
                 <caption>Difference in average global temperature from the 1850-1900 mean with a trendline. Image from Quantway College Module M.3 by Carnegie Math Pathways</caption>
@@ -172,6 +172,9 @@
                     </description>
                 </image>
             </figure>
+            <p>
+                Shown on the graph is a trendline, also known as a line of best fit, that is a linear model representing the trend of the data.
+            </p>
         </introduction>
         <task>
             <statement>
@@ -222,10 +225,105 @@
                 </p>
             </statement>
         </task>
-        <task workspace="0.5in">
+        <task>
             <statement>
                 <p>
-                    Using your own estimates, estimate the equation of the line. Take a minute to try this on your own before sharing in your group.
+                    Using your own estimates, estimate the equation of the line.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    What is the model saying about the general pattern of the global temperature. Is it rising or falling?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Using your linear equation from above, predict the temperature change at the end of 2030. Also predict the temperature change at the end of 2050. Do you think this is a reliable prediction for 2050? Why or why not? Explain using complete sentences.
+                </p>
+            </statement>
+        </task>
+    </activity>
+  </page>
+
+  <page>
+    <activity>
+        <introduction>
+            <p>
+                The infographic below contains the same data points for the Global Temperature Change (the change in average Global Temperature in the years from 1970-2022) that were included in the infographic showing "How Realists View Global Warming." This infographic is meant to depict a common view stated by contrarians that global warming is not real since there have been several periods over the last 50 years when global temperatures have declined on average.
+            </p>
+            <figure xml:id="fig-best-temp-contrary">
+                <caption>Difference in average global temperature from the 1850-1900 mean with a piecewise model. Image from Quantway College Module M.3 by Carnegie Math Pathways</caption>
+                <image source="./images/best-temp-contrary.png" width="50%">
+                    <shortdescription>Graph showing the difference in average global temperature from the 1850-1900 mean with a piecewise model.</shortdescription>
+                    <description>
+                        <p>
+                            The temperature difference has a lot of variation over short time periods, but over the entire 1970 to 2022 time period, the differences tend to increase. There are seven short-term trendlines shown, each of which is either decreasing or roughly horizontal. The trend line from 2010 to 2015 starts at about (2010, 1.1) and ends at about (2015, 0.9).
+                        </p>
+                    </description>
+                </image>
+            </figure>
+            <p>
+                Also shown is a piecewise model, which is a model defined by multiple pieces, each of which has its own trendline that represents the trend of the data within a certain interval. This infographic shows a linear piecewise model that consists of 7 line segments - each of which can be considered a trendline for that restricted time period.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Look at the line segments that are drawn on the graph. What do these lines represent as a whole?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Now look at just the segment of the piecewise "best fit" model from 2010 to 2015 (the line segment second farthest to the right). Estimate where the line segment would cross the vertical axis (in year 1970). (Hint: It might be useful to use a straight-edged item to extend the line to the vertical axis. You can see the line is very slightly slanted.)
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    What is the slope value of the 2010 to 2015 line segment? Give an interpretation of the slope value.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Estimate the equation of the 2010 to 2015 line segment.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Could we use the equation of the 2010 to 2015 line segment to predict the mean Global Surface Temperature Change in 2035? Why or why not?
+
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Explain what the Contrarian Model is saying about the general pattern of global temperature. Is it rising or falling? Think about this on your own for a minute before sharing your ideas in your group.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    If you look at the overall trend of the data in the infographic, it is increasing. However, each line segment in the piecewise model is decreasing (ever so slightly). What does this mean? Explain what the model is saying about the general pattern of global temperature change.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Come up with an example of a similar piecewise linear model. Note that models can be represented in different ways - tables, graphs, written descriptions, or equations. We will explore piecewise models in the next lesson.
                 </p>
             </statement>
         </task>
