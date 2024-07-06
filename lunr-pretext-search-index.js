@@ -253,11 +253,20 @@ var ptx_lunr_docs = [
   "body": "  The infographic below contains the same data points for the Global Temperature Change (the change in average Global Temperature in the years from 1970-2022) that were included in the infographic showing \"How Realists View Global Warming.\" This infographic is meant to depict a common view stated by contrarians that global warming is not real since there have been several periods over the last 50 years when global temperatures have declined on average.   Difference in average global temperature from the 1850-1900 mean with a piecewise model. Image from Quantway College Module M.3 by Carnegie Math Pathways   Graph showing the difference in average global temperature from the 1850-1900 mean with a piecewise model.   The temperature difference has a lot of variation over short time periods, but over the entire 1970 to 2022 time period, the differences tend to increase. There are seven short-term trendlines shown, each of which is either decreasing or roughly horizontal. The trend line from 2010 to 2015 starts at about (2010, 1.1) and ends at about (2015, 0.9).     Also shown is a piecewise model, which is a model defined by multiple pieces, each of which has its own trendline that represents the trend of the data within a certain interval. This infographic shows a linear piecewise model that consists of 7 line segments - each of which can be considered a trendline for that restricted time period.    Look at the line segments that are drawn on the graph. What do these lines represent as a whole?    Now look at just the segment of the piecewise \"best fit\" model from 2010 to 2015 (the line segment second farthest to the right). Estimate where the line segment would cross the vertical axis (in year 1970). (Hint: It might be useful to use a straight-edged item to extend the line to the vertical axis. You can see the line is very slightly slanted.)    What is the slope value of the 2010 to 2015 line segment? Give an interpretation of the slope value.    Estimate the equation of the 2010 to 2015 line segment.    Could we use the equation of the 2010 to 2015 line segment to predict the mean Global Surface Temperature Change in 2035? Why or why not?    Explain what the Contrarian Model is saying about the general pattern of global temperature. Is it rising or falling? Think about this on your own for a minute before sharing your ideas in your group.    If you look at the overall trend of the data in the infographic, it is increasing. However, each line segment in the piecewise model is decreasing (ever so slightly). What does this mean? Explain what the model is saying about the general pattern of global temperature change.    Come up with an example of a similar piecewise linear model. Note that models can be represented in different ways - tables, graphs, written descriptions, or equations. We will explore piecewise models in the next lesson.   "
 },
 {
+  "id": "sec-linear-trends-prep",
+  "level": "1",
+  "url": "sec-linear-trends-prep.html",
+  "type": "Worksheet",
+  "number": "2.1",
+  "title": "Mathematical Models",
+  "body": " Mathematical Models  There are no prep activities for this section.  "
+},
+{
   "id": "sec-aROC-prep",
   "level": "1",
   "url": "sec-aROC-prep.html",
   "type": "Worksheet",
-  "number": "2.1",
+  "number": "2.2",
   "title": "Average Rates of Change",
   "body": " Average Rates of Change    These activities will help you review some graphing skills that you will need in many future lessons. You will also review finding average speed, which you will build on in this lesson.     There are many types of graphs in math! In previous courses, you may have seen:  Bar charts  Pie charts  Scatterplots  Graphs of functions in the plane  and more. When we talk about graphs in this class, we will always mean graphs of points or curves in the plane (unless we specifically say otherwise). We will use these graphs in almost every lesson, so it is essential that you know how to read and create them.    The graph below shows several points in the plane (aka coordinate plane). The horizontal axis goes from left to right and is the boldest left-to-right line if the graph includes more than one such line. In previous classes, you may have called this the axis . The vertical axis goes up and down and is the boldst up-and-down line if the graph includes more than one such line. In previous classes, you may have called this the axis . The axes are two number lines that create a grid on the coordinate plane. (Note: Axis is singular and axes is plural.)   Example of points in the coordinate plane.    Point A is at (2,3). Point B is at (-3,1). Point C is at (-1,-1). Point D is at (-1,3). Point E is at (0,1). Point F is at (4,0). Point G is at (0,-3). Point H is at (2,1). Point I is at (-1,1). Point J is at (-4,0).   10 points in the coordinate plane     The point at which the two axes intersect is called the origin . This point represents 0 for both axes, and is given the coordinates (aka ordered pair ) . Each point in the plane has coordinates (horizontal value, vertical value). For example, the point has the coordinates , the point has the coordinates , and the point has coordinates .  Write the coordinates of the rest of the points in this graph.        We will often be interested in graphs of lines and curves, rather than graphs of invidual points. Here is a graph that we will see again soon.   Team A    Parabola facing down. Increases from to about , then decreases to . The horizontal axis is labeled seconds and the vertical axis is labeled meters.   Parabola facing down. Increases from (0,0) to about (8,27), then decreases to (10,25).     This graph shows Team A's location from the starting line at every time during a race. From the axis labels, we can tell that the vertical axis tells us their location in meters and the horizontal axis tells us the time in seconds since the race began. Common types of questions to ask about this sort of graph include:   Where was Team A 10 sec into the race?   Solution: Since seconds are on the horizontal axis, we need to find the coordinates of the point on the curve whose horizontal coordinate is 10. To do this, we go to 10 on the horizontal axis and look directly above and below until we find the curve. On this graph, we find point . Now that we've found the point we want, our answer is the vertical coordinate of that point. In this case, our answer is 25 m.    How long did it take Team A to go 10 m?   Solution: Since distance in meters is on the vertical axis, we need to find the coordinates of the point on the curve whose vertical coordinate is 10. To do this, we go to 10 on the vertical axis and look directly to the right and left until we find the curve. On this graph, we find point . Now that we've found the point we want, our answer is the horizontal coordinate of that point. In this case, we see that our point is between 1 and 2 on the horizontal axis. It's a little closer to 2 than to 1, we estimate that our answer is 1.6 sec. When we estimate, there's a range of acceptable answers. In this case, any number between 1.5 and 1.9 is a reasonable estimate.       Where was Team A after 5 seconds?    How long did it take Team A to go 20 m?        You will also need to know how to find average speed. Average speed is . For example, if I drove 100 miles in 2 hours, then my average speed was . Another example is that if after 2 hours, I was 100 mi from home and after 5 hours, I was 210 miles from home, then my average speed between hour 2 and hour 5 was     What was Team A's average speed between 5 and 10 seconds into the race?    What was Team A's average speed between 1.6 and 3.9 seconds into the race?     You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Find the coordinates of points in the coordinate plane.     Use a graph to answer questions.     Find average speed.        "
 },
@@ -266,7 +275,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-aROC-prep.html#sec-aROC-prep-2-2",
   "type": "Prep Activity",
-  "number": "2.1.1",
+  "number": "2.2.1",
   "title": "",
   "body": "  There are many types of graphs in math! In previous courses, you may have seen:  Bar charts  Pie charts  Scatterplots  Graphs of functions in the plane  and more. When we talk about graphs in this class, we will always mean graphs of points or curves in the plane (unless we specifically say otherwise). We will use these graphs in almost every lesson, so it is essential that you know how to read and create them.    The graph below shows several points in the plane (aka coordinate plane). The horizontal axis goes from left to right and is the boldest left-to-right line if the graph includes more than one such line. In previous classes, you may have called this the axis . The vertical axis goes up and down and is the boldst up-and-down line if the graph includes more than one such line. In previous classes, you may have called this the axis . The axes are two number lines that create a grid on the coordinate plane. (Note: Axis is singular and axes is plural.)   Example of points in the coordinate plane.    Point A is at (2,3). Point B is at (-3,1). Point C is at (-1,-1). Point D is at (-1,3). Point E is at (0,1). Point F is at (4,0). Point G is at (0,-3). Point H is at (2,1). Point I is at (-1,1). Point J is at (-4,0).   10 points in the coordinate plane     The point at which the two axes intersect is called the origin . This point represents 0 for both axes, and is given the coordinates (aka ordered pair ) . Each point in the plane has coordinates (horizontal value, vertical value). For example, the point has the coordinates , the point has the coordinates , and the point has coordinates .  Write the coordinates of the rest of the points in this graph.   "
 },
@@ -275,7 +284,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-aROC-prep.html#sec-aROC-prep-3-1",
   "type": "Prep Activity",
-  "number": "2.1.2",
+  "number": "2.2.2",
   "title": "",
   "body": "  We will often be interested in graphs of lines and curves, rather than graphs of invidual points. Here is a graph that we will see again soon.   Team A    Parabola facing down. Increases from to about , then decreases to . The horizontal axis is labeled seconds and the vertical axis is labeled meters.   Parabola facing down. Increases from (0,0) to about (8,27), then decreases to (10,25).     This graph shows Team A's location from the starting line at every time during a race. From the axis labels, we can tell that the vertical axis tells us their location in meters and the horizontal axis tells us the time in seconds since the race began. Common types of questions to ask about this sort of graph include:   Where was Team A 10 sec into the race?   Solution: Since seconds are on the horizontal axis, we need to find the coordinates of the point on the curve whose horizontal coordinate is 10. To do this, we go to 10 on the horizontal axis and look directly above and below until we find the curve. On this graph, we find point . Now that we've found the point we want, our answer is the vertical coordinate of that point. In this case, our answer is 25 m.    How long did it take Team A to go 10 m?   Solution: Since distance in meters is on the vertical axis, we need to find the coordinates of the point on the curve whose vertical coordinate is 10. To do this, we go to 10 on the vertical axis and look directly to the right and left until we find the curve. On this graph, we find point . Now that we've found the point we want, our answer is the horizontal coordinate of that point. In this case, we see that our point is between 1 and 2 on the horizontal axis. It's a little closer to 2 than to 1, we estimate that our answer is 1.6 sec. When we estimate, there's a range of acceptable answers. In this case, any number between 1.5 and 1.9 is a reasonable estimate.       Where was Team A after 5 seconds?    How long did it take Team A to go 20 m?   "
 },
@@ -284,7 +293,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-aROC-prep.html#sec-aROC-prep-4-1",
   "type": "Prep Activity",
-  "number": "2.1.3",
+  "number": "2.2.3",
   "title": "",
   "body": "  You will also need to know how to find average speed. Average speed is . For example, if I drove 100 miles in 2 hours, then my average speed was . Another example is that if after 2 hours, I was 100 mi from home and after 5 hours, I was 210 miles from home, then my average speed between hour 2 and hour 5 was     What was Team A's average speed between 5 and 10 seconds into the race?    What was Team A's average speed between 1.6 and 3.9 seconds into the race?   "
 },
@@ -293,7 +302,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-aROC-prep.html#sec-aROC-prep-4-2",
   "type": "Prep Activity",
-  "number": "2.1.4",
+  "number": "2.2.4",
   "title": "",
   "body": " You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Find the coordinates of points in the coordinate plane.     Use a graph to answer questions.     Find average speed.      "
 },
@@ -302,7 +311,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-linear-models-prep.html",
   "type": "Worksheet",
-  "number": "2.2",
+  "number": "2.3",
   "title": "Building Linear Models",
   "body": " Building Linear Models    These activities will help you review some graphing skills that you will need in many future lessons. You will also practice find average rates of change, an essential skill for this lesson.     Let's review plotting points. Use the axes below for all parts of this activity.   Money Earned    Blank axes. The horizontal axis is labeled , hrs and ranges from 0 to 40. The vertical axis is labeled $ and ranges from 0 to 400.   Blank axes.       If we're given the coordinates of a point, then we graph the point by going over to the first coordinate on the horizontal axis, and then up or down to the second number on the vertical axis. Graph the points , . You'll need to estimate the location of 25 on the horizontal axis.    In this class, we will often need to find the coordinates of a point from a sentence. For example, the sentence  Jakai will make $200 if he works for 25 hours.  describes the point on our graph. We know that 25 hours has to be the first\/horizontal coordinate because of the labeling of the axes in our graph.  Graph the points described by each of the following sentences:   Dior will make $300 if she works for 30 hours.   Santos worked for 10 hours and made $240.   Ramona worked for 35 hours and made $370.    Write a sentence explaining why it doesn't make sense to connect these points in this context.       We will sometimes be given points in a data table. Tables might be organized vertically, with named columns, or horizontally, with named rows. Look for the row and column names to find the horizontal and vertical coordinates of the points. Here are the points we've already graphed, arranged in a table in two different ways.    Points arranged in a vertical table    Hours Worked  Money Earned ($)    10  100    25  200    30  300    10  240    35  370      Points arranged in a horizontal table    Hours Worked  10  25  30  10  35    Money Earned ($)  100  200  300  240  370      Add the points from the table below to the graph.   New points to graph    Hours Worked  15  20    Money Earned ($)  180  320        The table below shows the number of housing units in Denver. Data from Data Commons 2024, US Census Bureua, electronic dataset, Data Commons, viewed 2 Jul 2024,     Housing Units in Denver    Year  Housing Units (1000s)    2011  284    2012  285    2013  288    2014  291    2015  294    2016  299    2017  307    2018  314    2019  322    2020  306    2021  335    2022  345      Housing Units in Denver    Blank axes. The horizontal axis is labeled years and ranges from 2011 to 2023. The vertical axis is labeled units (1000s) and ranges from 280 to 350.   Blank axes.        Graph the points and connect them. You'll need to estimate the exact location of each dot! Why does it make sense to connect the points in this context?    Notice that this data set says that it is giving us \"Number of Housing Units (1000s).\" This is common when working with large numbers. To find the number of housing units, we need to multiply the given values by 1000. So, for example, there were 284,000 housing units in 2011. How many housing units were there in 2022?        We learned in how to find average rates of change. A useful writing convention to be aware of is that when we say \"the average rate of change IN (some quantity)\", then (some quantity) is the output quantity and goes in the numerator of the fraction. Find each of the following:    The average rate of change in the number of housing units in Denver between 2012 and 2016.    The average rate of change in the number of housing units in Denver between 2018 and 2020.    The average rate of change in the number of housing units in Denver between 2018 and 2021.     You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Plot a point on a graph.     Find the coordinates of a point from a sentence or table.     Find average rates of change.        "
 },
@@ -311,7 +320,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-linear-models-prep.html#sec-linear-models-prep-2-2",
   "type": "Prep Activity",
-  "number": "2.2.1",
+  "number": "2.3.1",
   "title": "",
   "body": "  Let's review plotting points. Use the axes below for all parts of this activity.   Money Earned    Blank axes. The horizontal axis is labeled , hrs and ranges from 0 to 40. The vertical axis is labeled $ and ranges from 0 to 400.   Blank axes.       If we're given the coordinates of a point, then we graph the point by going over to the first coordinate on the horizontal axis, and then up or down to the second number on the vertical axis. Graph the points , . You'll need to estimate the location of 25 on the horizontal axis.    In this class, we will often need to find the coordinates of a point from a sentence. For example, the sentence  Jakai will make $200 if he works for 25 hours.  describes the point on our graph. We know that 25 hours has to be the first\/horizontal coordinate because of the labeling of the axes in our graph.  Graph the points described by each of the following sentences:   Dior will make $300 if she works for 30 hours.   Santos worked for 10 hours and made $240.   Ramona worked for 35 hours and made $370.    Write a sentence explaining why it doesn't make sense to connect these points in this context.   "
 },
@@ -320,7 +329,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-linear-models-prep.html#sec-linear-models-prep-3-1",
   "type": "Prep Activity",
-  "number": "2.2.2",
+  "number": "2.3.2",
   "title": "",
   "body": " We will sometimes be given points in a data table. Tables might be organized vertically, with named columns, or horizontally, with named rows. Look for the row and column names to find the horizontal and vertical coordinates of the points. Here are the points we've already graphed, arranged in a table in two different ways.    Points arranged in a vertical table    Hours Worked  Money Earned ($)    10  100    25  200    30  300    10  240    35  370      Points arranged in a horizontal table    Hours Worked  10  25  30  10  35    Money Earned ($)  100  200  300  240  370      Add the points from the table below to the graph.   New points to graph    Hours Worked  15  20    Money Earned ($)  180  320     "
 },
@@ -329,7 +338,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-linear-models-prep.html#sec-linear-models-prep-3-2",
   "type": "Prep Activity",
-  "number": "2.2.3",
+  "number": "2.3.3",
   "title": "",
   "body": "  The table below shows the number of housing units in Denver. Data from Data Commons 2024, US Census Bureua, electronic dataset, Data Commons, viewed 2 Jul 2024,     Housing Units in Denver    Year  Housing Units (1000s)    2011  284    2012  285    2013  288    2014  291    2015  294    2016  299    2017  307    2018  314    2019  322    2020  306    2021  335    2022  345      Housing Units in Denver    Blank axes. The horizontal axis is labeled years and ranges from 2011 to 2023. The vertical axis is labeled units (1000s) and ranges from 280 to 350.   Blank axes.        Graph the points and connect them. You'll need to estimate the exact location of each dot! Why does it make sense to connect the points in this context?    Notice that this data set says that it is giving us \"Number of Housing Units (1000s).\" This is common when working with large numbers. To find the number of housing units, we need to multiply the given values by 1000. So, for example, there were 284,000 housing units in 2011. How many housing units were there in 2022?   "
 },
@@ -338,7 +347,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-linear-models-prep.html#sec-linear-models-prep-4-1",
   "type": "Prep Activity",
-  "number": "2.2.4",
+  "number": "2.3.4",
   "title": "",
   "body": "  We learned in how to find average rates of change. A useful writing convention to be aware of is that when we say \"the average rate of change IN (some quantity)\", then (some quantity) is the output quantity and goes in the numerator of the fraction. Find each of the following:    The average rate of change in the number of housing units in Denver between 2012 and 2016.    The average rate of change in the number of housing units in Denver between 2018 and 2020.    The average rate of change in the number of housing units in Denver between 2018 and 2021.   "
 },
@@ -347,7 +356,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-linear-models-prep.html#sec-linear-models-prep-4-2",
   "type": "Prep Activity",
-  "number": "2.2.5",
+  "number": "2.3.5",
   "title": "",
   "body": " You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Plot a point on a graph.     Find the coordinates of a point from a sentence or table.     Find average rates of change.      "
 },
@@ -356,7 +365,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-linear-trends-prep.html",
   "type": "Worksheet",
-  "number": "2.3",
+  "number": "2.4",
   "title": "Linear Trends",
   "body": " Linear Trends    In the real world, it is more common to have data that is approximately linear than exactly linear. These activities will introduce the idea of linear trends, which we'll spend more time in class. They'll also provide practice with building a linear model by identifying its slope and vertical intercept.     Several years ago, Onondaga Community College, in upstate New York, introduced a meal plan that included \"Flex Dollars\" that were stored on students' ID cards. Each student was given $150 \"Flex Dollars\" as part of their meal plan package that could be used like cash at several campus dining locations.   Onondaga student Loralee tracked her use of flex dollars weekly during the fall semester as shown in the table below:    Loralee's Flex Dollars Balance    Week  Balance ($)    0  150.00    1  146.75    2  142.75    3  139.00    4  134.00    5  130.25    6  126.25    7  122.25    8  118.50    9  114.50    10  110.00    11  106.50    12  101.50    13  97.00    14  93.25      Loralee's Flex Dollars Balance    Blank axes. The horizontal axis is labeled Week and ranges from 0 to 14. The vertical axis is labeled $ and ranges from 90 to 155.   Blank axes.        Make a graph of the amount of money left on Loralee's card over the semester.    This model is approximately linear. What are the units for the slope: $, Week\/$, $\/Week, or there are no units.    What is the vertical intercept tell you in context? the horizontal intercept?    Let be the amount of money left on the card, weeks after the beginning of the semester. Write a linear equation to model the data. Use Week 0 and Week 14 to calculate the slope.    If Loralee continues to spend her flex dollars at the same rate, use your equation to determine how much money will be on the card at the end of spring semester, which also lasts 14 weeks.        Smartphones, like many other manufactured goods, depreciate on a daily basis. Depreciation means how much an item (e.g. a smartphone) loses in value compared to the price that was originally paid for it from the manufacturer. There tends to be two main periods in a smartphone's life when it sees the biggest drops in value: 1. the period of time after the phone is initially purchased, and 2. when the manufacturer launches a new model.  In September 2019, the iPhone 11 256GB was released with a price of $849. Twelve months after the launch, it was found that the value of iPhone 11s depreciated about 37% (which is actually better than most smartphone depreciation!).   Suppose Coraline bought a new iPhone 11 256GB in September 2019 for $849. The phone would soon start depreciating in value. The following table shows the approximate value of her iPhone 11, by month from September 2019.   Value of Coraline's iPhone 11    Month  Sept 2019  Oct 2019  Nov 2019  Dec 2019  Jan 2020  Feb 2020    Value ($)  849  800  780  750  720  699       It can be easier to work with models when the data are numerical. Modify the first row of the table to change the months into numbers. There isn't a \"right\" way to do this, although it is important that Jan 2020's number be bigger than Dec 2019's.   Value of Coraline's iPhone 11    Month          Value ($)  849  800  780  750  720  699       Now, use the table from the previous question to create a graph of the data. Remember to label the axes.   Loralee's Flex Dollars Balance    Blank axes. The horizontal axis is labeled Month but has no other labels. The vertical axis is labeled $ but has no other labels.   Blank axes.       Is the data perfectly linear? Explain your answer.    Why does the data appear to be approximately linear? Explain your answer        Let's continue analyzing the depreciation of Coraline's phone.    Give an estimate for the slope of the model, and explain what it means in this situation.    What is the vertical intercept of the graph? What does it mean in relation to the situation?    Write an equation that gives a linear model for the value of the cell phone from Sept 2019 through February 2020. Use for the value in dollars, for the number of the month, and your slope estimate.    Suppose Coraline wants to sell her phone before it is worth less than $300. Using your model, when is the last month she could sell it and get at least $300?    What is the horizontal intercept of your model? What is the meaning of this in the context of this problem? Is this reasonable?     You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Identify the slope and the vertical intercept of a linear equation.     Identify when data is not perfectly linear, but is approximately linear.     Estimate the slope for approximately linear data.        "
 },
@@ -365,7 +374,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-linear-trends-prep.html#sec-linear-trends-prep-2-2",
   "type": "Prep Activity",
-  "number": "2.3.1",
+  "number": "2.4.1",
   "title": "",
   "body": "  Several years ago, Onondaga Community College, in upstate New York, introduced a meal plan that included \"Flex Dollars\" that were stored on students' ID cards. Each student was given $150 \"Flex Dollars\" as part of their meal plan package that could be used like cash at several campus dining locations.   Onondaga student Loralee tracked her use of flex dollars weekly during the fall semester as shown in the table below:    Loralee's Flex Dollars Balance    Week  Balance ($)    0  150.00    1  146.75    2  142.75    3  139.00    4  134.00    5  130.25    6  126.25    7  122.25    8  118.50    9  114.50    10  110.00    11  106.50    12  101.50    13  97.00    14  93.25      Loralee's Flex Dollars Balance    Blank axes. The horizontal axis is labeled Week and ranges from 0 to 14. The vertical axis is labeled $ and ranges from 90 to 155.   Blank axes.        Make a graph of the amount of money left on Loralee's card over the semester.    This model is approximately linear. What are the units for the slope: $, Week\/$, $\/Week, or there are no units.    What is the vertical intercept tell you in context? the horizontal intercept?    Let be the amount of money left on the card, weeks after the beginning of the semester. Write a linear equation to model the data. Use Week 0 and Week 14 to calculate the slope.    If Loralee continues to spend her flex dollars at the same rate, use your equation to determine how much money will be on the card at the end of spring semester, which also lasts 14 weeks.   "
 },
@@ -374,7 +383,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-linear-trends-prep.html#sec-linear-trends-prep-3-1",
   "type": "Prep Activity",
-  "number": "2.3.2",
+  "number": "2.4.2",
   "title": "",
   "body": "  Smartphones, like many other manufactured goods, depreciate on a daily basis. Depreciation means how much an item (e.g. a smartphone) loses in value compared to the price that was originally paid for it from the manufacturer. There tends to be two main periods in a smartphone's life when it sees the biggest drops in value: 1. the period of time after the phone is initially purchased, and 2. when the manufacturer launches a new model.  In September 2019, the iPhone 11 256GB was released with a price of $849. Twelve months after the launch, it was found that the value of iPhone 11s depreciated about 37% (which is actually better than most smartphone depreciation!).   Suppose Coraline bought a new iPhone 11 256GB in September 2019 for $849. The phone would soon start depreciating in value. The following table shows the approximate value of her iPhone 11, by month from September 2019.   Value of Coraline's iPhone 11    Month  Sept 2019  Oct 2019  Nov 2019  Dec 2019  Jan 2020  Feb 2020    Value ($)  849  800  780  750  720  699       It can be easier to work with models when the data are numerical. Modify the first row of the table to change the months into numbers. There isn't a \"right\" way to do this, although it is important that Jan 2020's number be bigger than Dec 2019's.   Value of Coraline's iPhone 11    Month          Value ($)  849  800  780  750  720  699       Now, use the table from the previous question to create a graph of the data. Remember to label the axes.   Loralee's Flex Dollars Balance    Blank axes. The horizontal axis is labeled Month but has no other labels. The vertical axis is labeled $ but has no other labels.   Blank axes.       Is the data perfectly linear? Explain your answer.    Why does the data appear to be approximately linear? Explain your answer   "
 },
@@ -383,7 +392,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-linear-trends-prep.html#sec-linear-trends-prep-4-1",
   "type": "Prep Activity",
-  "number": "2.3.3",
+  "number": "2.4.3",
   "title": "",
   "body": "  Let's continue analyzing the depreciation of Coraline's phone.    Give an estimate for the slope of the model, and explain what it means in this situation.    What is the vertical intercept of the graph? What does it mean in relation to the situation?    Write an equation that gives a linear model for the value of the cell phone from Sept 2019 through February 2020. Use for the value in dollars, for the number of the month, and your slope estimate.    Suppose Coraline wants to sell her phone before it is worth less than $300. Using your model, when is the last month she could sell it and get at least $300?    What is the horizontal intercept of your model? What is the meaning of this in the context of this problem? Is this reasonable?   "
 },
@@ -392,9 +401,27 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-linear-trends-prep.html#sec-linear-trends-prep-4-2",
   "type": "Prep Activity",
-  "number": "2.3.4",
+  "number": "2.4.4",
   "title": "",
   "body": " You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Identify the slope and the vertical intercept of a linear equation.     Identify when data is not perfectly linear, but is approximately linear.     Estimate the slope for approximately linear data.      "
+},
+{
+  "id": "sec-piecewise-linear-prep",
+  "level": "1",
+  "url": "sec-piecewise-linear-prep.html",
+  "type": "Worksheet",
+  "number": "2.5",
+  "title": "Piecewise Linear Models",
+  "body": " Piecewise Linear Models    You will need to be able to build a linear model, work with formulas, and solve linear equations for this lesson.   Zeke is driving from his house to the beach and wants to model how far he is from home. He is currently 50 miles from home and will drive 65 mph until he reaches the beach. Let t be time in hours and D be distance in miles from Zeke's home. Which of the following equations models this situation? Explain your answer in words.         "
+},
+{
+  "id": "sec-piecewise-linear-prep-2-2",
+  "level": "2",
+  "url": "sec-piecewise-linear-prep.html#sec-piecewise-linear-prep-2-2",
+  "type": "Prep Activity",
+  "number": "2.5.1",
+  "title": "",
+  "body": "Zeke is driving from his house to the beach and wants to model how far he is from home. He is currently 50 miles from home and will drive 65 mph until he reaches the beach. Let t be time in hours and D be distance in miles from Zeke's home. Which of the following equations models this situation? Explain your answer in words.       "
 },
 {
   "id": "backmatter-2",
