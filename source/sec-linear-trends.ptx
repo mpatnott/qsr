@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="sec-linear-models" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Linear Trends</title>
+
+  <page>
+    <activity>
+        <introduction>
+            <p>
+                In 2022, Nelson created the following graph to represent his annual pay over the years.
+            </p>
+            <figure xml:id="fig-annual-pay">
+                <caption>Example of ppoints in the coordinate plane.</caption>
+                <image xml:id="graph-annual-pay" width="50%">
+                    <description>
+                        <p>
+                            Pay in 2012 was $24,000. In 2013 it was about $25,000. In 2014 it was about $27,000. In 2015 it was about $27,500. In 2016 it was about $28,500. In 2017 it was about $28,500. In 2018 it was about $29,000. In 2019 it as about $30,000. In 2020 it was about $31,000. In 2021 it was about $31,500. In 2022 it was $32,000. 
+                        </p>
+                    </description>
+                    <shortdescription>Graph showing annual pay in each year between 2012 and 2022.</shortdescription>
+                    <latex-image>
+                        \begin{tikzpicture}
+                            \begin{axis}[grid = both, axis lines = center,
+                                            xmin = 2012, xmax = 2022, xlabel={Year}, xtick = {2012, 2014, 2016, 2018, 2020, 2022}, extra x ticks = {2013, 2015, 2017, 2019, 2021}, x tick label style={/pgf/number format/1000 sep={}}, extra x tick style={xticklabel=\empty,grid=major},
+                                            ymin = 0, ymax = 36000, ylabel={Annual Salary (\$)}, ytick = {4000, 8000, 12000, 16000, 20000, 24000, 28000, 32000, 36000}, extra y ticks = {2000, 6000, 10000, 14000, 22000, 26000, 30000, 34000}, extra y tick style={yticklabel=\empty,grid=major}]
+                                \addplot coordinates{
+                                        (2012, 24000)
+                                        (2013, 25000)
+                                        (2014, 27000)
+                                        (2015, 27500)
+                                        (2016, 28500)
+                                        (2017, 28500)
+                                        (2018, 29000)
+                                        (2019, 30000)
+                                        (2020, 31000)
+                                        (2021, 31500)
+                                        (2022, 32000)
+                                    };
+                            \end{axis}
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </figure>
+        </introduction>
+    </activity>
+  </page>
+</worksheet>  
