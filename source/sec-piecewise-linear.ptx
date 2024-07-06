@@ -112,7 +112,7 @@
                 The { symbol is there to tell you that this is a piecewise formula. The <m>k \leq 800</m> at the end of the first line tells you to use that part of the formula when <m>k</m> is 800 or less. The <m>k \gt 800</m> at the end of the second line tells you to use that part of the formula when <m>k</m> is bigger than 800.
             </p>
         </introduction>
-        <task>
+        <task workspace="1in">
             <statement>
                 <p>
                     Use the piecewise formula to find the bill for customers who used 600 kWh, 900 kWh, and 1200 kWh. You should get the same answers as you did in <xref ref="a-entergy-winter"/>
@@ -126,7 +126,7 @@
                 </p>
                 <figure xml:id="fig-graphing-practice-curve">
                     <caption>Energy Bills in Winter Near New Orleans</caption>
-                    <image xml:id="graph-graphing-practice-curve" width="40%">
+                    <image xml:id="graph-graphing-practice-curve" width="50%">
                         <description>
                             <p>
                                 Blank axes. The horizontal axis is labeled kWh and ranges from 0 to 1500. The vertical axis is labeled $ and ranges from 0 to 100.
@@ -136,13 +136,63 @@
                         <latex-image>
                             \begin{tikzpicture}
                                 \begin{axis}[grid = both, axis lines = center,
-                                                ymin = -0.5, ymax = 105, ylabel={\$}, extra y ticks = {10, 20, 30, 40, 60, 70, 80, 90}, extra y tick style={yticklabel=\empty,grid=major},
+                                                ymin = -0.5, ymax = 105, ylabel={\$}, extra y ticks = {10, 30, 50, 70, 90}, extra y tick style={yticklabel=\empty,grid=major},
                                                 xmin = -0.5, xmax = 1550, xlabel={kWh}, extra x ticks = {100, 200, 300, 400, 500, 600, 700, 800, 900, 1100, 1200, 1300, 1400}, extra x tick style={xticklabel=\empty,grid=major}]
                                 \end{axis}
                             \end{tikzpicture}
                         </latex-image>
                     </image>
                 </figure>
+            </statement>
+        </task>
+    </activity>
+  </page>
+
+  <page>
+    <activity>
+        <introduction>
+            <p>
+                In order to conserve water, the Detroit area water system has a two-tiered system of charges. Customers are billed quarterly (every three months) for water usage. The cost to customers is $12.04 per thousand gallons for the first 20,000 gallons of water used, and $21.90 for each thousand gallons over 20,000. In addition there is always a flat quarterly fee of $73.00.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    In the table below, enter the amount of the quarterly bill for each of the water usage amounts listed.
+                </p>
+                <table halign="center" top = "minor" bottom = "minor" left="minor" right="minor">
+                    <title>Detroit Quarterly Water Bills</title>
+                    <tabular>
+                        <row header="yes">
+                            <cell>Quarterly Water Usage in Thousands of Gallons</cell>
+                            <cell>Amount of Bill ($)</cell>
+                        </row>
+                        <row>
+                            <cell>15</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>18</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>20</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>25</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>28</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>32</cell>
+                            <cell></cell>
+                        </row>
+                    </tabular>
+                </table>
             </statement>
         </task>
     </activity>
