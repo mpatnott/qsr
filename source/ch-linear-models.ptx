@@ -12,5 +12,6 @@
   <xi:include href="sec-aROC.ptx" />
   <xi:include href="sec-linear-models.ptx" />
   <xi:include href="sec-linear-trends.ptx" />
+  <xi:include href="sec-piecewise-linear.ptx" />
 
 </chapter>
