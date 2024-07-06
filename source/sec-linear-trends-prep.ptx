@@ -133,7 +133,7 @@
                     </p>
                 </statement>
             </task>
-            <task workspace="0.5">
+            <task workspace="0.5in">
                 <statement>
                     <p>
                         Let <m>M</m> be the amount of money left on the card, <m>t</m> weeks after the beginning of the semester. Write a linear equation to model the data. Use Week 0 and Week 14 to calculate the slope.
@@ -143,8 +143,77 @@
             <task>
                 <statement>
                     <p>
-                        If Loralee continues to spend her flex dollars at the same rate, use your euqation to determine how much money will be on the card at the end of spring semester, which also lasts 14 weeks.
+                        If Loralee continues to spend her flex dollars at the same rate, use your equation to determine how much money will be on the card at the end of spring semester, which also lasts 14 weeks.
                     </p>
+                </statement>
+            </task>
+        </investigation>
+    </page>
+
+    <page>
+        <investigation>
+            <introduction>
+                <p>
+                    Smartphones, like many other manufactured goods, depreciate on a daily basis. Depreciation means how much an item (e.g. a smartphone) loses in value compared to the price that was originally paid for it from the manufacturer. There tends to be two main periods in a smartphone's life when it sees the biggest drops in value: 1. the period of time after the phone is initially purchased, and 2. when the manufacturer launches a new model.
+                </p>
+                <p>
+                    In September 2019, the iPhone 11 256GB was released with a price of $849. Twelve months after the launch, it was found that the value of iPhone 11s depreciated about 37% (which is actually better than most smartphone depreciation!).<fn><url href="https://www.decluttr.com/phone-depreciation/"></url></fn>
+                </p>
+                <p>
+                    Suppose Coraline bought a new iPhone 11 256GB in September 2019 for $849. The phone would soon start depreciating in value. The following table shows the approximate value of her iPhone 11, by month from September 2019.
+                </p>
+                <table>
+                    <title>Value of Coraline's iPhone 11</title>
+                    <tabular halign="center">
+                        <row bottom = "minor">
+                            <cell right="minor">Month</cell>
+                            <cell>Sept 2019</cell>
+                            <cell>Oct 2019</cell>
+                            <cell>Nov 2019</cell>
+                            <cell>Dec 2019</cell>
+                            <cell>Jan 2020</cell>
+                            <cell>Feb 2020</cell>
+                        </row>
+                        <row>
+                            <cell right="minor">Value ($)</cell>
+                            <cell>849</cell>
+                            <cell>800</cell>
+                            <cell>780</cell>
+                            <cell>750</cell>
+                            <cell>720</cell>
+                            <cell>699</cell>
+                        </row>
+                    </tabular>
+                </table>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        It can be easier to work with models when the data are numerical. Modify the first row of the table to change the months into numbers. There isn't a "right" way to do this, although it is important that Jan 2020's number be bigger than Dec 2019's. 
+                    </p>
+                    <table>
+                        <title>Value of Coraline's iPhone 11</title>
+                    <tabular halign="center">
+                        <row bottom = "minor">
+                            <cell right="minor">Month</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell right="minor">Value ($)</cell>
+                            <cell>849</cell>
+                            <cell>800</cell>
+                            <cell>780</cell>
+                            <cell>750</cell>
+                            <cell>720</cell>
+                            <cell>699</cell>
+                        </row>
+                    </tabular>
+                    </table>
                 </statement>
             </task>
         </investigation>
