@@ -167,7 +167,7 @@
                     <shortdescription>Graph showing the difference in average global temperature from the 1850-1900 mean with a trendline.</shortdescription>
                     <description>
                         <p>
-                            The temperature difference has a lot of variation over short time periods, but over the entire 1970 to 2022 time period, the differences tend to increase. Exact points on the trend line are hard to estimate, but it appears that (1970, 0.25) and (2022, 1.28) are both approximately on the line.
+                            The temperature difference has a lot of variation over short time periods, but over the entire 1970 to 2022 time period, the differences tend to increase. Exact points on the trend line are hard to estimate, but it appears that (1970, 0.21) and (2022, 1.28) are both approximately on the line.
                         </p>
                     </description>
                 </image>
@@ -180,31 +180,52 @@
                 </p>
             </statement>
         </task>
-        <task workspace="0.5in">
+        <task>
             <statement>
                 <p>
                     What are the units on the vertical axis? What is the variable?
                 </p>
             </statement>
         </task>
-        <task workspace="0.25in">
+        <task>
             <statement>
                 <p>
                     What does one point on the graph represent?
                 </p>
             </statement>
         </task>
-        <task workspace="0.25in">
+        <task>
             <statement>
                 <p>
                     Now look at the trendline that is drawn on the graph. What does this line represent?
                 </p>
             </statement>
         </task>
-        <task workspace="0.5in">
+        <task>
             <statement>
                 <p>
                     Do you think the trendline is reasonable? Does it represent the trends in the data?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Estimate the value where the trendline crosses the vertical axis (we will treat this as the value in 1970). Describe the meaning of the point where the trendline crosses the vertical axis.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Estimate the slope of this line in degrees Celsius per year (although the original data is monthly, the slope will be per year). Write an interpretation of the slope in this context. Be sure to use units with your values, and use complete sentences. Finding exact points on this line is difficult. Just do your best to estimate two points and use them to find the slope.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Using your own estimates, estimate the equation of the line. Take a minute to try this on your own before sharing in your group.
                 </p>
             </statement>
         </task>
