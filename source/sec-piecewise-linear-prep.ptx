@@ -19,5 +19,55 @@
                 <li><m>D = 65 + 50t</m></li>
             </ol>
         </investigation>
+
+        <investigation workspace="0.5in">
+            <introduction>
+                <p>
+                    The number of members in a professional organization increased each year for ten years, starting in 2013. The result can be modeled by the equation <m>M = 1,200 + 250t</m>. 
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        What do you think the variables <m>M</m> and <m>t</m> represent? 
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What was the rate of the organization's growth? How do you know?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        How large was the organization's membership: a
+                    </p>
+                </statement>
+                <task>
+                    <statement>
+                        <p>
+                            At the start of the growth period?
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            At the end of the growth period?
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            In 2020?
+                        </p>
+                    </statement>
+                </task>
+            </task>
+        </investigation>
     </page>
 </worksheet>
