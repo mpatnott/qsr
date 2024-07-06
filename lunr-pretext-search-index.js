@@ -259,7 +259,16 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "1.5",
   "title": "Piecewise Linear Models",
-  "body": " Piecewise Linear Models   In , we explored the cost of electricity in and around Denver, CO, during the summer. In this collaboration, we consider electrical charges during the winter.   "
+  "body": " Piecewise Linear Models   In , we explored the cost of electricity in and around Denver, CO, during the summer for customers on the Residential Opt-Out Pricing Plan. We knew that the rates for this plan are .   Xcel Energy Electricity Charges, Residential Opt-Out Pricing     Summer Billing Cycles (June - Septembr)  Winter Billing Cycles    Fixed Monthly Fees  $12.20  $12.20    $ Per kWh  $0.1038  $0.0857     And used this information to find that is a linear model for the bill amount of a customer that uses .   "
+},
+{
+  "id": "sec-piecewise-linear-2-2",
+  "level": "2",
+  "url": "sec-piecewise-linear.html#sec-piecewise-linear-2-2",
+  "type": "Table",
+  "number": "1.5.1",
+  "title": "Xcel Energy Electricity Charges, Residential Opt-Out Pricing",
+  "body": " Xcel Energy Electricity Charges, Residential Opt-Out Pricing     Summer Billing Cycles (June - Septembr)  Winter Billing Cycles    Fixed Monthly Fees  $12.20  $12.20    $ Per kWh  $0.1038  $0.0857    "
 },
 {
   "id": "sec-math-models-prep",
