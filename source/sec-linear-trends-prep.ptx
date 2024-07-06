@@ -140,7 +140,7 @@
                     </p>
                 </statement>
             </task>
-            <task>
+            <task workspace="0.25in">
                 <statement>
                     <p>
                         If Loralee continues to spend her flex dollars at the same rate, use your equation to determine how much money will be on the card at the end of spring semester, which also lasts 14 weeks.
@@ -214,6 +214,46 @@
                         </row>
                     </tabular>
                     </table>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Now, use the table from the previous question to create a graph of the data. Remember to label the axes.
+                    </p>
+                    <figure xml:id="fig-phone-depreciation">
+                        <caption>Loralee's Flex Dollars Balance</caption>
+                        <image xml:id="graph-phone-depreciation" width="50%">
+                            <description>
+                                <p>
+                                    Blank axes. The horizontal axis is labeled Month but has no other labels. The vertical axis is labeled $ but has no other labels.
+                                </p>
+                            </description>
+                            <shortdescription>Blank axes.</shortdescription>
+                            <latex-image>
+                                \begin{tikzpicture}
+                                    \begin{axis}[grid = both, axis lines = center,
+                                                    ymin = 650, ymax = 850, ylabel={\$}, ytick = {660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790, 800, 810, 820, 830, 840, 850}, y tick label style={yticklabel=\empty,grid=major},
+                                                    xmin = -0.5, xmax = 7.5, xlabel={Month}, xtick = {1, 2, 3, 4, 5, 6, 7}, x tick label style={xticklabel=\empty,grid=major}]
+                                    \end{axis}
+                                \end{tikzpicture}
+                            </latex-image>
+                        </image>
+                    </figure>
+                </statement>
+            </task>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        Does the data appear to be linear? Explain your answer.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Is the data <em>exactly</em> linear? Explain your answer.
+                    </p>
                 </statement>
             </task>
         </investigation>
