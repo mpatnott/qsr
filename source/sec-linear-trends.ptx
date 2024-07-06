@@ -154,4 +154,60 @@
         On the website <url href="https://skepticalscience.com/" visual="skepticalscience.com"></url>, the data from the Berkeley Earth project has been used as the source for two different analyses of the same information. The first one is labeled "How Realists View Global Warming" and the other is "How Contrarians View Global Warming." The two infographics are reproduced here. You will see that each includes a line or line segments along with the actual data. Use these infographics to answer the following questions.
     </p>
   </page>
+
+  <page>
+    <activity>
+        <introduction>
+            <p>
+                Below is an infographic showing the data gathered by BEST showing the monthly "Global Temperature Anomaly" (that is, the change in average Global Temperature, in degrees Celsius) for the years 1970-2022. Shown on the graph is a trendline, also known as a line of best fit, that is a linear model representing the trend of the data. It is stated on the project's website that the baseline period is the 1850-1900 mean.<fn><url href="https://skepticalscience.com/escalator_2022.html"></url></fn> This means that the data from 1970-2022 is compared with the data from 1850-1900.
+            </p>
+            <figure xml:id="fig-best-temp-realist">
+                <caption>Difference in average global temperature from the 1850-1900 mean with a trendline. Image from Quantway College Module M.3 by Carnegie Math Pathways</caption>
+                <image source="./images/best-temp-realist.png" width="50%">
+                    <shortdescription>Graph showing the difference in average global temperature from the 1850-1900 mean with a trendline.</shortdescription>
+                    <description>
+                        <p>
+                            The temperature difference has a lot of variation over short time periods, but over the entire 1970 to 2022 time period, the differences tend to increase. Exact points on the trend line are hard to estimate, but it appears that (1970, 0.25) and (2022, 1.28) are both approximately on the line.
+                        </p>
+                    </description>
+                </image>
+            </figure>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    What are the units on the horizontal axis? What is the variable?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    What are the units on the vertical axis? What is the variable?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    What does one point on the graph represent?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Now look at the trendline that is drawn on the graph. What does this line represent?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Do you think the trendline is reasonable? Does it represent the trends in the data?
+                </p>
+            </statement>
+        </task>
+    </activity>
+  </page>
 </worksheet>  
