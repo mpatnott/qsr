@@ -282,9 +282,54 @@
             </statement>
         </task>
     </activity>
+  </page>
 
-    <activity>
-        Quantway M.4 Problem Situation 2
+  <page>
+    <activity workspace="0.5in">
+        <introduction>
+            <p>
+                Julio is moving from one apartment to another apartment in a neighboring town. He needs to rent a truck for one day to move his belongings. Julio uses the Internet to search for companies with trucks for rent. He finds two companies that have trucks available on the day he needs one: Rent-A-Truk and Trucks-4-Less. 
+                <ul>
+                    <li> Rent-A-Truk advertises a rate of $40 for the day, plus 60 cents a mile for every mile over 40 miles. </li>
+                    <li> Trucks-4-Less advertises a rate of $25 a day plus 80 cents a mile for every mile over 25 miles. </li>
+                </ul>
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    What factors will Julio use to determine which company to rent from?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Fill in the blank with little or no calculation: If Julio only drives _________ miles during the day, Trucks-4-Less will end up being the better deal. Explain your reasoning.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Fill in the blank with little or no calculation: If Julio drives _________ miles during the day, Rent-A-Truk will end up being the better deal. Explain your reasoning.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Without doing any calculations, do you know if there will ever be a time when the two rental plans would cost the same?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    How much total mileage used will make the cost of both rental plans about the same? Use any method you wish to make this approximation.
+                </p>
+            </statement>
+        </task>
     </activity>
   </page>
 </worksheet>
