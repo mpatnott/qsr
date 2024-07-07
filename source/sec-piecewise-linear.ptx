@@ -330,6 +330,36 @@
                 </p>
             </statement>
         </task>
+        <task>
+            <statement>
+                <p>
+                    Set up an algebraic model that can be used to represent the cost for using Rent-A-Truk, <m>R</m> given that one plans on driving <m>x</m> miles.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    If a person plans on driving <m>x</m> miles, what would the algebraic model be to represent the cost for using Trucks-4-Less, <m>T</m>?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Julio might want to know at what mileage the cost of the Rent-A-Truk plan equals the cost of the Trucks-4-Less plan. Use your algebraic models to write one equation, using only the variable <m>x</m>, that represents this situation. <br/>
+                    <strong>Hint:</strong> You can think about this situation as <m>R = T</m>. <br />
+                    <strong>Hint:</strong> Julio estimated that this situation occurs at a mileage higher than 40.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Solve your equation for <m>x</m> and check whether the solution agrees with your answer to estimate.
+                </p>
+            </statement>
+        </task>
     </activity>
   </page>
 </worksheet>
