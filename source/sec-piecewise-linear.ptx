@@ -237,7 +237,50 @@
 
   <page>
     <activity>
-        Quantway M.3 Exercise 5
+        <introduction>
+            <p>
+                The graph below displays the monthly sales data for a specific clothing item from 2013 - 2023 in the U.S. Let <m>t</m> be the number of months after January 2013, and <m>u</m> be the number of units sold (in thousands).
+            </p>
+            <figure xml:id="fig-sales-since-2013">
+                <caption>Difference in average global temperature from the 1850-1900 mean with a trendline. Image from Quantway College Module M.3 by Carnegie Math Pathways</caption>
+                <image source="./images/sales-since-2013.png" width="50%">
+                    <shortdescription>Increasing linear trend from Jan 2013 for 84 months. Large drop, then increasing linear trend for 48 months.</shortdescription>
+                    <description>
+                        <p>
+                            Graph shows that sales tended to increase from Jan 2013 for the next 84 months. In Jan 2013, 60,000 units of the item were sold, and 84 months later, about 140,000 units were sold. But, after 84 months, sales dropped suddenly to about 50,000 units sold. They slowly increased for the next 48 years to about 78,000 units sold.
+                        </p>
+                    </description>
+                </image>
+            </figure>
+        </introduction>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    What trends can you identify in the sales?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Explain why a linear model will not work for this data, but a piecewise linear model would be a good fit.
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Find a formula for a piecewise linear model for this data.
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Use your model to predict the number of units of this clothing item that will be sold this month. How much confidence do you have in your prediction?
+                </p>
+            </statement>
+        </task>
     </activity>
 
     <activity>
