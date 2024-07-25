@@ -82,5 +82,529 @@
             </statement>
         </task>
     </activity>
+
+    <activity xml:id="a-define-inflation">
+        <introduction>
+            <p>
+                <term>Inflation</term> is the rate at which the general level of prices for goods and services is rising and, consequently, the buying power of currency is falling. In other words, if everything else (rent, groceries, utilities, etc.) gets more expensive, but your salary stays the same, your buying power decreases.  To account for that, some state and private sector employees get annual salary adjustments, often  referred to as Cost of Living Adjustment (COLA).
+            </p>
+            <p>
+                Suppose Gracelyn's pre-tax income was $65,800 in 2022.
+            </p>
+        </introduction>
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Gracelyn spent $41,000 on expenses in 2022. What percent of her income did she spend on expenses?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Gracelyn spent $45,000 on expenses in 2023. How much would she have needed to make in 2023 in order to have the same buying power, i.e. in order to spend the same percent of her income on expenses as she did in 2022? 
+                </p>
+            </statement>
+        </task>
+    </activity>
   </page>
+
+  <page>
+    <activity xml:id="a-cpi-intro" workspace="1in">
+        <p>
+            The Consumer Price Index (CPI)<fn><url href="https://www.investopedia.com/terms/c/consumerpriceindex.asp" /></fn> is often used in the US to measure inflation. The Bureau of Labor Statistics calculates the CPI every month by looking at the prices of a collection of goods and services, including cars and housing. The inflation rate is the relative change in the CPI.
+        </p>
+        <p>
+            The average price of a new car in 1945 was $1,020. The Consumer Price Index was 18.0 in 1945 and 271.0 in 2021. Use this information to answer the following question: $1,020 in 1945 has the same buying power as how many dollars in 2021?
+        </p>
+    </activity>
+
+    <activity xml:id="a-national-debt">
+        <introduction>
+            <p>
+                The table below lists the U.S. national debt at various times in history. We need to adjust these figures for inflation. Adjusting them will allow us to more accurately compare the sizes of these debts to one another.
+            </p>
+        </introduction>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    Use the Consumer Price Index<fn><url href="https://www.minneapolisfed.org/about-us/monetary-policy/inflation-calculator/consumer-price-index-1913-" /></fn> to adjust the national debt for each year so that the debt is expressed in 2021 dollars. Enter the adjusted amounts in the table below. Round to two decimal places.
+                </p>
+                <table xml:id="tab-national-debt-cpi">
+                    <title>Adjusting the National Debt for Inflation</title>
+                    <tabular halign="center" top="minor" bottom="minor" left="minor" right="minor">
+                        <row header = "yes">
+                            <cell>Year</cell>
+                            <cell>National Debt (Billion $)</cell>
+                            <cell>CPI (average annual)</cell>
+                            <cell>National Debt Adjusted for Inflation (Billion 2021 $)</cell>
+                        </row>
+                        <row>
+                            <cell>1945</cell>
+                            <cell>259</cell>
+                            <cell>18.0</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>1980</cell>
+                            <cell>930</cell>
+                            <cell>82.4</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>1995</cell>
+                            <cell>4,974</cell>
+                            <cell>152.4</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>2010</cell>
+                            <cell>14,025</cell>
+                            <cell>218.1</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>2021</cell>
+                            <cell>28,429</cell>
+                            <cell>271.0</cell>
+                            <cell></cell>
+                        </row>
+                    </tabular>
+                </table>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    When adjusted for inflation, in which year was the national debt largest? smallest?
+                </p>
+            </statement>
+        </task>
+    </activity>
+  </page>
+
+  <page>
+    <activity xml:id="a-national-debt-visualize">
+        <introduction>
+            <p>
+                When communicating information about very large numbers like the national debt, it can be useful to use tools like infographics and comparing sizes of real objects.
+            </p>
+        </introduction>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    When communicating quantitative information, an infographic can be a useful tool. In order to help people understand the national debt adjusted to 2021 dollar amounts, we can draw bags of money to illustrate the change. If we use a 4 cm segment (4 bags of money) to represent the 1945 national debt adjusted for inflation (see figure below), how long should the segments be for each of the other years' national debt after adjusting to 2021 amounts? Round your answers to the nearest tenth of a centimeter.
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    According to the U.S. Treasury Department, a one-hundred-dollar bill is 0.0043 inches thick. Therefore, a stack of 100 one-hundred-dollar bills would be 0.43 inches thick. Assume that we could create stacks of one-hundred-dollar bills that would never topple over, no matter the height. How tall is the stack of money that represents each year's inflation-adjusted national debts?
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+    <activity xml:id="a-national-debt-percent-gdp">
+        <introduction>
+            <p>
+                Now let us consider a different approach to analyzing the U.S. national debt over time. Just as the cost of dinner and a movie for a person before and after college can be compared as a percentage of their income, economists frequently compare the national debt at different times in history by measuring it as a percentage of Gross Domestic Product (GDP). The GDP is the estimated value of all the goods and services that are produced in a country in a given year. 
+            </p>
+        </introduction>
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Fill in the table below with the national debt as a percentage of each year’s GDP. Round to the nearest percentage point.
+                </p>
+                <table xml:id="tab-national-debt-gdp">
+                    <title>Comparing the National Debt to GDP</title>
+                    <tabular halign="center" top="minor" bottom="minor" left="minor" right="minor">
+                        <row header = "yes">
+                            <cell>Year</cell>
+                            <cell>National Debt (Billion $)</cell>
+                            <cell>GDP (Billion $)</cell>
+                            <cell>National Debt as Percent of GDP</cell>
+                        </row>
+                        <row>
+                            <cell>1945</cell>
+                            <cell>259</cell>
+                            <cell>228</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>1980</cell>
+                            <cell>930</cell>
+                            <cell>2,857</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>1995</cell>
+                            <cell>4,974</cell>
+                            <cell>7.640</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>2010</cell>
+                            <cell>14,025</cell>
+                            <cell>15,049</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>2021</cell>
+                            <cell>28,429</cell>
+                            <cell>23,315</cell>
+                            <cell></cell>
+                        </row>
+                    </tabular>
+                </table>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    After adjusting the debt relative to GDP, in which year was the national debt the largest? In which year was the debt smallest? (<em>Note:</em> In this case, we say the national debts are being compared in relative terms.)
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Is it better to measure the national debt in absolute terms or relative terms? Write a brief explanation.
+                </p>
+            </statement>
+        </task>
+    </activity>
+  </page>
+
+  <page>
+    <activity xml:id="a-comparing-salaries-abs-relative">
+        <introduction>
+            <p>
+                Lucian is a Sales Associate at a retail store for a cell phone provider. His company offers many opportunities for growth in the organization. Lucian is starting some long-term planning and wants to decide if he should stay with this company and seek a promotion, or if he wants to explore other options with another company, or even try a new career. 
+            </p>
+            <p>
+                Lucian has access to the following data from the past seven years about typical salaries for Sales Associates, Sales Supervisors, and Regional Sales Managers. Notice that salaries do not always increase from one year to the next. Lucian wants to get a better idea about how the salaries change over time for each of these positions, to gain insight into his earning potential if he stays with his current company.
+            </p>
+            <table xml:id="tab-salaries-sales">
+                <title>Salaries of Sales Personnel (2016 - 2023)</title>
+                <tabular row-headers="yes" halign="center" top="minor" bottom="minor" left="minor" right="minor">
+                    <row header="yes">
+                        <cell></cell>
+                        <cell>2016</cell>
+                        <cell>2017</cell>
+                        <cell>2018</cell>
+                        <cell>2019</cell>
+                        <cell>2020</cell>
+                        <cell>2021</cell>
+                        <cell>2022</cell>
+                        <cell>2023</cell>
+                    </row>
+                    <row>
+                        <cell>Sales Associate</cell>
+                        <cell>$41,500</cell>
+                        <cell>$42,600</cell>
+                        <cell>$42,800</cell>
+                        <cell>$42,000</cell>
+                        <cell>$43,100</cell>
+                        <cell>$43,600</cell>
+                        <cell>$44,700</cell>
+                        <cell>$46,300</cell>
+                    </row>
+                    <row>
+                        <cell>Sales Supervisor</cell>
+                        <cell>$56,500</cell>
+                        <cell>$57,100</cell>
+                        <cell>$58,700</cell>
+                        <cell>$57,300</cell>
+                        <cell>$60,500</cell>
+                        <cell>$59,600</cell>
+                        <cell>$60,700</cell>
+                        <cell>$62,600</cell>
+                    </row>
+                    <row>
+                        <cell>Regional Sales Manager</cell>
+                        <cell>$85,000</cell>
+                        <cell>$89,500</cell>
+                        <cell>$87,400</cell>
+                        <cell>$82,700</cell>
+                        <cell>$87,100</cell>
+                        <cell>$89,000</cell>
+                        <cell>$86,100</cell>
+                        <cell>$91,000</cell>
+                    </row>
+                </tabular>
+            </table>
+        </introduction>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    What do you notice about the figures in this table? What are some advantages or disadvantages of only using this table to compare salaries to make a decision? Be sure to describe the advantages and disadvantages quantitatively.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Make a quick sketch of a graph or visual display of these data. To make your graph easier to read, consider using different color ink to represent each of the positions.
+                </p>
+                <figure xml:id="fig-sales-salaries">
+                    <caption>Salaries of Sales Personnel (2016 - 2023)</caption>
+                    <image xml:id="graph-sales-salaries" width="60%">
+                        <description>
+                            <p>
+                                Blank axes. The horizontal axis is labeled the years between 2016 and 2023. The vertical axis is labeled from $0 to $100,000 in $10,000 increments.
+                            </p>
+                        </description>
+                        <shortdescription>Blank axes.</shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                \begin{axis}[grid = both, axis lines = center,
+                                                xmin = 2015.5, xmax = 2023, xtick = {2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023},  x tick label style={/pgf/number format/1000 sep={}}, extra x tick style={xticklabel=\empty,grid=major},
+                                                ymin = 0, ymax = 100000, ytick = {10000, 20000, 30000, 40000, 50000, 60000, 70000, 80000, 90000, 100000}, extra y ticks = {2000, 4000, 6000, 8000, 12000, 14000, 16000, 18000, 22000, 24000, 26000, 28000, 32000, 34000, 36000, 38000, 42000, 44000, 46000, 48000, 52000, 54000, 56000, 58000, 62000, 64000, 66000, 68000, 72000, 74000, 76000, 78000, 82000, 84000, 86000, 88000, 92000, 94000, 96000, 98000}, y tick label style={/pgf/number format/10000 sep={,}}, extra y tick style={yticklabel=\empty,grid=major}, scaled ticks = false]
+                                \end{axis}
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                </figure>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    What are some advantages or disadvantages of using a graph like the one you made above to visualize data over time?
+                </p>
+            </statement>
+        </task>
+    </activity>
+  </page>
+
+  <page>
+    <activity xml:id="a-comparing-salaries-abs-relative-cont">
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Which position seems to show the most growth in salary over the past seven years? What particular quantities would be valuable for Lucian to notice to help make his decision?
+                </p>
+            </statement>
+        </task>
+        <task workspace="">
+            <introduction>
+                <p>
+                    The table below shows absolute and relative changes in salaries for each position from 2016 to 2023.
+                </p>
+                <table>
+                    <title>Absolute and Relative Changes from 2016 to 2023</title>
+                    <tabular row-headers="yes" halign="center" top="minor" bottom="minor" left="minor" right="minor">
+                        <row header="yes">
+                            <cell>Position</cell>
+                            <cell>Absolute Change</cell>
+                            <cell>Relative Change</cell>
+                        </row>
+                        <row>
+                            <cell>Sales Associate</cell>
+                            <cell>$4,800</cell>
+                            <cell>11.6%</cell>
+                        </row>
+                        <row>
+                            <cell>Sales Supervisor</cell>
+                            <cell>$6,100</cell>
+                            <cell>10.8%</cell>
+                        </row>
+                        <row>
+                            <cell>Regional Sales Manager</cell>
+                            <cell>$6,000</cell>
+                            <cell>7.1%</cell>
+                        </row>
+                    </tabular>
+                </table>
+            </introduction>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        Explain what you observe in the numbers and in the absolute changes and relative changes. For example, you could explain how the Sales Associate can have the lowest absolute increase in salary but the highest relative increase.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Now calculate the absolute and relative changes in salary from 2021 to 2022. Fill in the table below with your answers. Round your answers to the nearest tenth of a percent.
+                    </p>
+                    <table>
+                        <title>Absolute and Relative Changes from 2021 to 2022</title>
+                        <tabular row-headers="yes" halign="center" top="minor" bottom="minor" left="minor" right="minor">
+                            <row header="yes">
+                                <cell>Position</cell>
+                                <cell>Absolute Change</cell>
+                                <cell>Relative Change</cell>
+                            </row>
+                            <row>
+                                <cell>Sales Associate</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell>Sales Supervisor</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell>Regional Sales Manager</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                        </tabular>
+                    </table>
+                </statement>
+            </task>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        Which position had the greatest absolute increase in salary? Which position had the greatest relative increase in salary? Write an explanation for what you observe in the absolute changes and relative changes.
+                    </p>
+                </statement>
+            </task>
+        </task>
+    </activity>
+  </page>
+
+  <!-- <page>
+    <activity xml:id="a-gary-anne-intro">
+        <introduction>
+            <p>
+                Gary is a Sales Associate in a retail store for a cell phone provider. Anne is the Sales Supervisor for Gary's store. We are going to explore ways to measure and compare how their salaries change over time.
+            </p>
+        </introduction>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    In 2022, Gary earned $48,300. In 2023, he received a raise of $5,100. Comparing Gary's increased salary to his previous salary, what would be a good estimate for the relative increase? Explain your strategy.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <introduction>
+                <p>
+                    Calculate the missing amount in each statement below and fill in the blanks:
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Gary's new salary is <fillin characters="10" /> times his previous salary. Round your answer to the nearest hundredth.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Gary's new salary is <fillin characters="10" />% of his previous salary. Round your answer to the nearest percent.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Gary's new salary is <fillin characters="10" />% more than his previous salary. Round your answer to the nearest percent.
+                    </p>
+                </statement>
+            </task>
+        </task>
+        <task>
+            <introduction>
+                <p>
+                    If Gary meets his supervisor's benchmark goals in 2023, then he will earn $59,150 in 2024. Calculate the missing amount in each statement below and fill in the blanks, assuming Gary meets the benchmark goals.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Gary's 2024 salary is <fillin characters="10" /> times his 2023 salary. Round your answer to the nearest hundredth.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Gary's 2024 salary is <fillin characters="10" />% of his 2023 salary. Round your answer to the nearest percent.
+                    </p>
+                </statement>
+            </task>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    If Gary meets his goals, his supervisor Anne will also receive a pay raise. Anne's salary in 2023 is $67,680, and she would receive a pay raise of $6,100 for 2024. What would be a good estimate for the percent increase in Anne's pay? Explain your strategy.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <introduction>
+                <p>
+                    Calculate the missing amount in each statement below and fill in the blanks.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Anne's 2024 salary is <fillin characters="10" /> times her 2023 salary. Round your answer to the nearest hundredth.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Anne's 2024 salary is <fillin characters="10" />% of her 2023 salary. Round your answer to the nearest percent.
+                    </p>
+                </statement>
+            </task>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Write an explanation of how Gary's raise from 2023 to 2024 compares to Anne's raise from 2023 to 2024. Be sure to include specific quantities and mention both the absolute change and relative change in each of their salaries.
+                </p>
+            </statement>
+        </task>
+    </activity>
+  </page> -->
+
+  <!-- <page>
+    <activity xml:id="a-intro-index">
+        <introduction>
+            <p>
+                So far, we've learned how to compare quantities using absolute and relative change. Quantities are also commonly compared using <term>ratios</term> and <term>indexes</term> (like the Consumer Price Index!). For example, if Danela's 2022 salary was $81,000 and her 2023 salary was $85,000, here's how we can compare these values using all four methods
+            </p>
+            <table xml:id="tab-abs-change-rel-change-ratio-index">
+                <title>Four Ways to Compare Quantities</title>
+                <tabular row-headers="yes">
+                    <row>
+                        <cell>Absolute Change</cell>
+                        <cell><m>85,000 - 81,000 = \$4,000</m></cell>
+                    </row>
+                    <row>
+                        <cell>Relative Change</cell>
+                        <cell><m>\frac{85,000 - 81,000}{81,000} \times 100 = 4.94\%</m></cell>
+                    </row>
+                    <row>
+                        <cell>Salary Ratio</cell>
+                        <cell><m>\frac{85,000}{81,000} = 1.0494</m></cell>
+                    </row>
+                    <row>
+                        <cell>Salary Index</cell>
+                        <cell><m>\frac{85,000}{81,000} \times 100 = 104.94</m></cell>
+                    </row>
+                </tabular>
+            </table>
+        </introduction>
+        <task workspace="">
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+        </task>
+    </activity>
+  </page>-->
 </worksheet>
