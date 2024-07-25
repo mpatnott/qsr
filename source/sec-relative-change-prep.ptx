@@ -22,7 +22,7 @@
             Think carefully about what change you are trying to measure! To measure a relative change, you'll need to understand which value constitutes the "starting value", "reference value" or "old value" and which constitutes the "ending value", "final value" or "new value". The context and the surrounding language in a question help to clarify which is which.
         </p>
     </introduction>
-    <investigation>
+    <investigation xml:id="pa-abs-rel-change-trump-clinton">
         <introduction>
             <p>
                 An article about the 2016 presidential election stated: "Trump lost the popular vote by about 2.1 percentage points. Meanwhile, Trump racked up 306 electoral voters - 14 percent more than Clinton." Answer the following questions about this statement.
@@ -51,7 +51,7 @@
         </task> -->
     </investigation>
 
-    <investigation>
+    <investigation xml:id="pa-abs-rel-change-snow">
         <introduction>
             <p>
                 The average annual snowfall for Boise, ID, is 19.8 inches. Moline, IL, receives an average of 33.3 inches.

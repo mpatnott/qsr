@@ -4,8 +4,83 @@
   <title>Relative Change</title>
 
   <page>
-    <activity>
-        tba
+    <activity xml:id="a-abs-rel-change-unemployment">
+        <introduction>
+            <p>
+                The unemployment rate is the percentage of people in the labor force who are unemployed and actively seeking work. Going into the Covid pandemic in January 2020, the unemployment rate in the United States was 3.5%. In May of that year, unemployment was 13.2%. There are many ways that this change in unemployment rate could be described. Fill in the blanks in the following statements so they correctly describe this change.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    From January 2020 to May 2020 the unemployment rate increased by <fillin characters="10" /> percentage points. (<em>Hint:</em> You are computing an absolute change here.)
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    From January 2020 to May 2020 the unemployment rate increased <fillin characters="10" /> percent. (<em>Hint:</em> You are computing a relative change here.) Round to the nearest percent.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    From January 2020 to May 2020 the unemployment rate <fillin characters="10" /> (fill in with "nearly" or "more than") <fillin characters="10" /> (fill in with "tripled" or "quadrupled").
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+    <activity xml:id="a-abs-rel-change-smoking">
+        <introduction>
+            <p>
+                The table below presents data on the proportion of smokers in several countries.
+            </p>
+            <table>
+                <title>Percentage of Smokers by Country</title>
+                <tabular row-headers="yes" halign="center" top="minor" bottom="minor" left="minor" right="minor">
+                    <row>
+                        <cell>Country</cell>
+                        <cell>Greece</cell>
+                        <cell>Germany</cell>
+                        <cell>France</cell>
+                        <cell>Sweden</cell>
+                        <cell>Canada</cell>
+                    </row>
+                    <row>
+                        <cell>% of Smokers</cell>
+                        <cell>39.1</cell>
+                        <cell>28.0</cell>
+                        <cell>34.6</cell>
+                        <cell>8.0</cell>
+                        <cell>17.5</cell>
+                    </row>
+                </tabular>
+            </table>
+        </introduction>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Write a statement comparing the smoking rates of people in Greece and Sweden, using a measure of absolute change.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Write a statement comparing the smoking rates of Canada and Greece, using a measure of relative change.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Describe what you learned by writing a statement comparing the smoking rates of Canada and Greece. Use phrases similar to "almost double,"" "more than triple," and "almost a fourth of."
+                </p>
+            </statement>
+        </task>
     </activity>
   </page>
 </worksheet>
