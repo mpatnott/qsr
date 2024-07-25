@@ -23,7 +23,75 @@
         </p>
     </introduction>
     <investigation>
-        An article about the 2016 presidential election stated: "Trump lost the popular vote by about 2.1 percentage points. Meanwhile, Trump racked up 306 electoral voters - 14 percent more than Clinton." Answer the following questions about this statement.
+        <introduction>
+            <p>
+                An article about the 2016 presidential election stated: "Trump lost the popular vote by about 2.1 percentage points. Meanwhile, Trump racked up 306 electoral voters - 14 percent more than Clinton." Answer the following questions about this statement.
+            </p>
+        </introduction>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Does "2.1 percentage points" refer to an absolute or a relative change?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Does "14 percent more" refer to an absolute or a relative change?
+                </p>
+            </statement>
+        </task>
+        <!-- <task workspace="0.5in">
+            <statement>
+                <p>
+                    Use the fact that Trump won 306 electoral voters, 14 percent more than Clinton, to find the number of electoral voters won by Clinton.
+                </p>
+            </statement>
+        </task> -->
+    </investigation>
+
+    <investigation>
+        <introduction>
+            <p>
+                The average annual snowfall for Boise, ID, is 19.8 inches. Moline, IL, receives an average of 33.3 inches.
+            </p>
+        </introduction>
+        <task>
+            <introduction>
+                <p>
+                    Fill in the blanks:
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Moline receives, on average, <fillin characters="10" /> more inches of snow than Boise.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Moline receives, on average, <fillin characters="10" />% more snow than Boise. Round to the nearest tenth of a percent.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Boise receives, on average, <fillin characters="10" />% less snow than Moline. Round to the nearest tenth of a percent.
+                    </p>
+                </statement>
+            </task>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    In which of the above statements were you calculating absolute change? In which were you calculating relative change?
+                </p>
+            </statement>
+        </task>
     </investigation>
   </page>
 </worksheet>
