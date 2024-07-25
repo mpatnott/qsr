@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="sec-relative-change-prep" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Relative Change Prep Activities</title>
+
+  <page>
+    <introduction>
+        <p>
+            There are several different ways that we can measure the change between an old value and a new value. These values could be, for example, the weight of the same person at two different points in time, or the age of the previous governor and the age of the current governor.
+        </p>
+        <p>
+            The <term>absolute change</term> tells us by how much the two values differ. We can find the absolute change using the formula
+            <me>\text{Absolute Change} = \text{New} - \text{Old}</me>
+            where "Old" is the starting value and "New" is the ending value.
+        </p>
+        <p>
+            The <term>relative change</term> is the absolute change compared to the reference value (typically, the earlier quantity). Relative change is often given as a percentage. We can find the relative change using the formula
+            <me>\text{Relative Change} = \frac{\text{New - Old}}{\text{Old}}</me>.
+            We often multiply by 100 to express relative change as a percentage.
+        </p>
+        <p>
+            Think carefully about what change you are trying to measure! To measure a relative change, you'll need to understand which value constitutes the "starting value", "reference value" or "old value" and which constitutes the "ending value", "final value" or "new value". The context and the surrounding language in a question help to clarify which is which.
+        </p>
+    </introduction>
+    <investigation>
+        An article about the 2016 presidential election stated: "Trump lost the popular vote by about 2.1 percentage points. Meanwhile, Trump racked up 306 electoral voters - 14 percent more than Clinton." Answer the following questions about this statement.
+    </investigation>
+  </page>
+</worksheet>

@@ -30,7 +30,7 @@
                     </p>
                 </statement>
             </task>
-            <task workspace="1in">
+            <task workspace="0.5in">
                 <statement>
                     <p>
                         Textbooks are taxable in Illinois.<fn><url href="https://www.taxjar.com/blog/textbooks-tax-exempt-sales-tax" /></fn>The amount that a student paid at her school bookstore was $185. What was the price of the books and school supplies before tax? Round to the nearest cent.
@@ -38,7 +38,7 @@
                 </statement>
             </task>
         </task>
-        <task workspace="0.75in">
+        <task workspace="0.5in">
             <statement>
                 <p>
                     In 2022, Jacob worked as a fast food manager and:
@@ -97,6 +97,95 @@
                         </row>
                     </tabular>
                 </table>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Some research suggests that the risk of developing type 2 diabetes by age 70 is 11%. How could you express this with a meaningful rate or ratio?
+                </p>
+            </statement>
+        </task>
+    </activity>
+  </page>
+
+  <page>
+    <activity xml:id="a-percent-as-rate">
+        <task>
+            <introduction>
+                <p>
+                    According to the CDC, 11.5% of Americans smoked tobacco in 2021.<fn><url href="https://www.cdc.gov/tobacco/data-statistics/mmwr/2023-mm7218a1.html" /></fn>
+                </p>
+            </introduction>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        What is meant by this statement? What was the numerator? What was the denominator? What assumptions could you make about the population of Americans included in this statement?
+                    </p>
+                </statement>
+            </task>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        Discuss in your group how this percentage (11.5%) was probably computed. Record your group's thinking below.
+                    </p>
+                </statement>
+            </task>
+        </task>
+        <task>
+            <introduction>
+                <p>
+                    The Insurance Institute for Highway Safety (IIHS) is an independent, nonprofit scientific and educational organization dedicated to reducing deaths, injuries and property damage from motor vehicle crashes. In 2021, the IIHS published statistics showing, in part, that almost three out of four motor vehicle crash deaths were males.<fn><url href="https://www.iihs.org/topics/fatality-statistics/detail/males-and-females" /></fn>
+                </p>
+            </introduction>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        Use the figures from the last sentence ("almost three out of four motor vehicle deaths"). What percentage of motor vehicle crash deaths in the U.S. were males? Round to the nearest percentage point.
+                    </p>
+                </statement>
+            </task>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        What percentage of motor vehicle crash deaths in the U.S. were female? Round to the nearest percentage point.
+                    </p>
+                </statement>
+            </task>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        Do your answers to the previous two parts support the statement, "In general, males are more likely to be killed in traffic accidents than females"? Explain your reasoning. Support your answer with some possible examples.
+                    </p>
+                </statement>
+            </task>
+        </task>
+    </activity>
+
+    <activity xml:id="a-percent-proportion-and-risk">
+        <introduction>
+            <p>
+                A flyer that went to households in the mail, from a company called Life Line Screening,<fn>Life Line Screening, unsolicited mail, received April 14, 2012.</fn> included the following claim:
+            </p>
+            <me>
+                \text{Your risk of suffering a stroke is high—it affects 1 in 5 women, and 1 in 6 men.}
+            </me>
+            <p>
+                Answer the questions below by converting the risk of suffering a stroke from a proportion to a percentage.
+            </p>
+        </introduction>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    What is the claimed likelihood of a woman suffering a stroke? a man? Calculate the percentages.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    There are many different ways to compare the differences in these two risks. Find two or three ways, and write a complete sentence for the ways you chose.
+                </p>
             </statement>
         </task>
     </activity>
