@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="sec-working-with-percentages-prep" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Working With Percentages Prep Activities</title>
+
+  <page>
+    <introduction>
+        <p>
+            Brief review of percents
+        </p>
+    </introduction>
+    <activity xml:id="a-find-part-from-whole-and-percent">
+        <introduction>
+            text
+        </introduction>
+    </activity>
+  </page>
+</worksheet>
