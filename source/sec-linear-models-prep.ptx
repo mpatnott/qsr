@@ -124,7 +124,7 @@
                 </table>
                 <table>
                     <title>Points arranged in a horizontal table</title>
-                    <tabular  halign="center" top="minor" bottom="minor" left="minor" right="minor">
+                    <tabular row-headers = "yes" halign="center" top="minor" bottom="minor" left="minor" right="minor">
                         <row>
                             <cell>Hours Worked</cell>
                             <cell>10</cell>

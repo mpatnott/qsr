@@ -164,7 +164,7 @@
                 </p>
                 <table>
                     <title>Value of Coraline's iPhone 11</title>
-                    <tabular halign="center">
+                    <tabular row-headers = "yes" halign="center">
                         <row bottom = "minor">
                             <cell right="minor">Month</cell>
                             <cell>Sept 2019</cell>
@@ -193,7 +193,7 @@
                     </p>
                     <table>
                         <title>Value of Coraline's iPhone 11</title>
-                    <tabular halign="center">
+                    <tabular row-headers = "yes" halign="center">
                         <row bottom = "minor">
                             <cell right="minor">Month</cell>
                             <cell></cell>

@@ -210,7 +210,7 @@
                 </p>
                 <table>
                     <title>Bailee's smartphone usage</title>
-                    <tabular halign="center">
+                    <tabular halign="center" row-headers = "yes">
                         <row bottom = "minor">
                             <cell right="minor">Day</cell>
                             <cell>1</cell>

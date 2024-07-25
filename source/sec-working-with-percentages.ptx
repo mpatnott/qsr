@@ -4,10 +4,101 @@
   <title>Working With Percentages</title>
 
   <page>
-    <activity xml:id="a-name">
-        <introduction>
-            text
-        </introduction>
+    <introduction>
+        <p>
+            In this lesson, we will practice working with percentages.
+        </p>
+    </introduction>
+    <activity xml:id="a-computing-with-percents">
+        <task>
+            <introduction>
+                <p>
+                    The state of Illinois has a 6.25% sales tax.<fn><url href="https://www.salestaxinstitute.com/resources/rates"></url></fn>
+                </p>
+            </introduction>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        Calculate the amount of tax on a $120 purchase. Round to the nearest cent.
+                    </p>
+                </statement>
+            </task>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        What is the total sale price of a $120 purchase, including tax? Round to the nearest cent.
+                    </p>
+                </statement>
+            </task>
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        Textbooks are taxable in Illinois.<fn><url href="https://www.taxjar.com/blog/textbooks-tax-exempt-sales-tax" /></fn>The amount that a student paid at her school bookstore was $185. What was the price of the books and school supplies before tax? Round to the nearest cent.
+                    </p>
+                </statement>
+            </task>
+        </task>
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    In 2022, Jacob worked as a fast food manager and:
+                </p>
+                <ul>
+                    <li>had a taxable income of $30,000 </li>
+                    <li>was required to pay $3,398 in federal taxes.<fn><url href="https://www.irs.gov/pub/irs-pdf/i1040tt.pdf" /></fn></li>
+                </ul>
+                <p>
+                    What federal tax rate did Jacob pay as a percentage? Round to the nearest percent.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    According to Wikipedia, the information in the table below represents a breakdown of how the U.S. federal government spent money during the 2022 fiscal year:<fn><url href="https://en.wikipedia.org/wiki/United_States_federal_budget#Major_expenditure_categories" /></fn> Compute the percentage of the total amount of money that the U.S. federal government spent in each category to complete the table. Round to the nearest percentage point.
+                </p>
+                <table>
+                    <title>US Federal Government Spending, FY 2022</title>
+                    <tabular row-headers = "yes" top = "minor" bottom = "minor" left="minor" right="minor" halign="center">
+                        <row header="yes">
+                            <cell>Category</cell>
+                            <cell>Billions of $ Spent</cell>
+                            <cell>Percentage of Total Spending</cell>
+                        </row>
+                        <row>
+                            <cell>Defense Department</cell>
+                            <cell>751</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>Social Security</cell>
+                            <cell>1,200</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>Healthcare</cell>
+                            <cell>1,339</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>Net Interest</cell>
+                            <cell>475</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>Other Mandatory</cell>
+                            <cell>1,583</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>Other Discretionary</cell>
+                            <cell>910</cell>
+                            <cell></cell>
+                        </row>
+                    </tabular>
+                </table>
+            </statement>
+        </task>
     </activity>
   </page>
 </worksheet>

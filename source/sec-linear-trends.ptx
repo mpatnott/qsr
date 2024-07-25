@@ -75,7 +75,7 @@
             </p>
             <table>
                 <title>Average Weight of Boys, Ages 10 - 20 months</title>
-                <tabular halign="center" row-headers="yes">
+                <tabular row-headers = "yes" halign="center">
                     <row bottom="minor">
                         <cell right="minor">Age (months)</cell>
                         <cell>10</cell>

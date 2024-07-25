@@ -11,7 +11,7 @@
             </p>
             <table>
                 <title>Xcel Energy Electricity Charges, Residential Opt-Out Pricing</title>
-                <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                <tabular row-headers = "yes" halign="center" top="minor" bottom = "minor" right="minor" left="minor">
                     <row header="yes">
                         <cell></cell>
                         <cell>Summer Billing Cycles (June - Septembr)</cell>
@@ -162,7 +162,7 @@
                 </p>
                 <table>
                     <title>Detroit Quarterly Water Bills</title>
-                    <tabular  halign="center" top = "minor" bottom = "minor" left="minor" right="minor">
+                    <tabular row-headers = "yes" halign="center" top = "minor" bottom = "minor" left="minor" right="minor">
                         <row>
                             <cell>Quarterly Water Usage in Thousands of Gallons</cell>
                             <cell>15</cell>

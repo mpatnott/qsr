@@ -11,19 +11,19 @@
             </p>
             <table>
                 <title>Xcel Energy Electricity Charges, Residential Opt-Out Pricing</title>
-                <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                <tabular row-headers = "yes" halign="center" top="minor" bottom = "minor" right="minor" left="minor">
                     <row header="yes">
                         <cell></cell>
                         <cell>Summer Billing Cycles (June - September)</cell>
                         <cell>Winter Billing Cycles</cell>
                     </row>
                     <row>
-                        <cell><strong>Fixed Monthly Fees</strong></cell>
+                        <cell>Fixed Monthly Fees</cell>
                         <cell>$12.20</cell>
                         <cell>$12.20</cell>
                     </row>
                     <row>
-                        <cell><strong>$ Per kWh</strong></cell>
+                        <cell>$ Per kWh</cell>
                         <cell>$0.1038</cell>
                         <cell>$0.0857</cell>
                     </row>
@@ -58,7 +58,7 @@
                 </p>
                 <table>
                     <title>Average Rates of Change Between Summer Bills</title>
-                    <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                    <tabular row-headers = "yes" halign="center" top="minor" bottom = "minor" right="minor" left="minor">
                         <row header="yes">
                             <cell></cell>
                             <cell>Average Rate of Change</cell>
@@ -508,7 +508,7 @@
                 </p>
                 <table>
                     <title>Data Set 4</title>
-                    <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                    <tabular row-headers = "yes" halign="center" top="minor" bottom = "minor" right="minor" left="minor">
                         <row>
                             <cell>Input, <m>X</m></cell>
                             <cell>0</cell>
