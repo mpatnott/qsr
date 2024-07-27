@@ -646,16 +646,70 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "3.3",
   "title": "Exponential Models",
-  "body": " Exponential Models   TBA   "
+  "body": " Exponential Models    We have seen that when a quantity increases or decreases by the same amount for each additional unit of the input variable, the value of the output variable can be modeled as a linear model. That is, linear models have a constant average rate of change. For example, think of getting a $500 raise every year.  When a quantity increases or decreases by the same percentage for each additional unit of the input variable, the value of the output variable can be modeled as an exponential model . Exponential models have a constant relative change. For example, think of getting a 3% raise every year.     We looked at the populations of three small towns in the Prep Activities. All three towns had a population of 5500 in 2010, but their populations were changing in different ways:  Indiana: Increasing by 2.5% each year  Ohio: Decreasing by 2.5% each year  Michigan: Decreasing by 150 people each year      Determine which town's population has a linear model. Explain your answer, and find a formula for the population of this town years after 2010.    The populations of the other two towns have an exponential model. Explain how we know this from the verbal description of the change in the towns' populations.    In the Prep Activity, you found the populations of all three towns in 2011, 2012, 2013, and 2020. Plot the populations of all three towns on the graph below. What do you notice?   Populations of Three Small Towns    Blank axes. The horizontal axis is labeled with the years between 0 and 10. The vertical axis goes from 3900 to 7100.   Blank axes.       You learned in the Prep Activity that the math expressions and are equivalent. Use this idea to rewrite your work for finding the populations of the two towns with exponential models. What pattern do you see? Find formulas for the populations of the two towns with exponential models.        List at least two other situations where quantities, besides population, can have constant relative change and be represented with an exponential model, and explain your reasoning.    Create an algebraic formula that represents the changing values over time for each of your examples.    What is \"exponential\" about these exponential models?      Suppose that the cost of attending a certain four-year private college (tuition and fees) was $16,500 in 1977 and that the cost increased about 3.2% every year.    Create an algebraic model, or formula, that could be used to estimate the cost of attending this college over time.    According to your model, what would be the tuition and fees for 1987, 1997, and 2022? Round your answers to the nearest dollar.    How many years from 1977 did it take for the total cost of tuition and fees to double? To triple?    If the original cost of attending the college in 1977 was only $12,000, how would the doubling and tripling time change?    Explain one strategy you could use to determine the year when this model would predict a cost of $42,000. Assume we are using the original cost of $16,500 for 1977.        The rate of elimination of caffeine from the human body varies greatly from individual to individual. Suppose that Jacob drinks a 16-ounce coffee drink that contains about 310 mg of caffeine. His body eliminates about 13% of the caffeine every hour. Hint: Assume all caffeine is absorbed into the body as soon as the coffee is drunk.    Create an algebraic model for this situation. Let be the number of hours after drinking a 16-oz cup of coffee, and let be the amount of caffeine in your body.    How much caffeine would be in Jacob's body right after he drank a second 16-ounce coffee drink, exactly three hours after drinking the first one?    Approximately how long will it take for Jacob's body to eliminate half of the caffeine from one 16-ounce coffee drink?   Try to use algebra to answer this question! What happens?   Use a graphing utility to create a precise graphical model of the amount of caffeine in Jacob's body from one 16-ounce coffee drink. Use your graph to answer the question. Include a sketch of your graph and the steps you used to find the answer here.    If Jacob drank a 12-ounce Pepsi containing 38 mg of caffeine instead of the coffee drink, how long will it take for Jacob's body to eliminate half of the caffeine? Write your answer rounded to the nearest whole hour.      For each scenario below, find an algebraic formula to model the scenario. Use your formula and\/or a graph to answer the question about the scenario.  Shawn's brand new Dodge Charger valued at $52,250 depreciates at the rate of 8% per year. He plans to sell it in 5 years. How much will it be worth then?    Fletcher currently exercises for about an hour per week. They'd like to exercise for the recommended 150 minutes per week. They know that they're more likely to sustain the change if they slowly increase the amount they're exercising each week instead of trying to jump from one hour to 150 minutes. If Fletcher increases how much they exercise by 20 minutes each week, how many weeks will it take them to get to their goal of 150 minutes per week?    Melany's starting salary is $55,000, and she will be getting a 2% pay raise every year. How many years will it take for her salary to be $60,000?    Joan quit her job at GM when she was 35 years old. Her friend, who is a financial advisor, recommended that she leave her 401(k) retirement savings in GM's retirement plan rather than withdrawing or transferring the money to a new plan. Her friend said that, on average, Joan could expect a 6% increase per year if she left her money in the plan for many years, based on the past performance of GM's plan. Joan will not be able to add more money to the GM 401(k) account, but can open a new one at her new job. How long will it take for the amount of money Joan has in the GM 401(k) to double?        The half-life of a substance with an exponential model is the amount of time it takes for half of the substance to be eliminated. For example, the half-life of a drug in the blood in the amount of time it takes for half of the drug to be elminiated from the body, and the half-life of a radioactive element is the amount of time it takes for half of the starting amount to decay.    If the half-life of a certain drug is 3 hours, and 25 mg of the drug is in the blood at 5 pm, how much of the drug will be in the blood at 8 pm? How long will it take for there to be 6.25 mg of the drug left in the blood?    Earlier, we assumed that the body could eliminate 13% of the caffeine present every hour. Wikipedia states that the half-life of caffeine in a healthy adult is often between 4.9 and 6 hours. If 13% of the caffeine is eliminated every hour, does this imply a half-life between 4.9 and 6 hours? Explain.    The antibiotic tetracycline is used for treatment against many different bacterial infections. Suppose that an individual is given 300 mg of tetracycline per dose, and the half-life of tetracycline is 8 hours. Assume all tetracycline is absorbed into the body immediately.   Use that the half-life of tetracycline is 8 hours to fill in the table below.   Amount of Tetracycline in the Body    Hours Since Dose  Number of 8 Hours Periods,  Amount of Tetracycline (mg),    0  0  300    8  1     16      24      48        Find an algebraic formula for , the amount of tetracycline in the body, after 8-hour periods.   It would be more convenient to have a formula for , the amount of tetracycline in the body, after hours! If it has been hours, how many 8-hour periods has it been? Use your observation to rewrite your formula for in terms of instead of .   Suppose that Reese is given a 300-mg tetracycline does every 6-hrs. How much tetracycline does he have left in his body just before his second dose?     "
 },
 {
-  "id": "sec-exponential-models-2-1",
+  "id": "sec-exponential-models-2-1-2",
   "level": "2",
-  "url": "sec-exponential-models.html#sec-exponential-models-2-1",
+  "url": "sec-exponential-models.html#sec-exponential-models-2-1-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "exponential model "
+},
+{
+  "id": "sec-exponential-models-2-2",
+  "level": "2",
+  "url": "sec-exponential-models.html#sec-exponential-models-2-2",
   "type": "Activity",
   "number": "3.3.1",
   "title": "",
-  "body": "TBA "
+  "body": "  We looked at the populations of three small towns in the Prep Activities. All three towns had a population of 5500 in 2010, but their populations were changing in different ways:  Indiana: Increasing by 2.5% each year  Ohio: Decreasing by 2.5% each year  Michigan: Decreasing by 150 people each year      Determine which town's population has a linear model. Explain your answer, and find a formula for the population of this town years after 2010.    The populations of the other two towns have an exponential model. Explain how we know this from the verbal description of the change in the towns' populations.    In the Prep Activity, you found the populations of all three towns in 2011, 2012, 2013, and 2020. Plot the populations of all three towns on the graph below. What do you notice?   Populations of Three Small Towns    Blank axes. The horizontal axis is labeled with the years between 0 and 10. The vertical axis goes from 3900 to 7100.   Blank axes.       You learned in the Prep Activity that the math expressions and are equivalent. Use this idea to rewrite your work for finding the populations of the two towns with exponential models. What pattern do you see? Find formulas for the populations of the two towns with exponential models.   "
+},
+{
+  "id": "sec-exponential-models-3-1",
+  "level": "2",
+  "url": "sec-exponential-models.html#sec-exponential-models-3-1",
+  "type": "Activity",
+  "number": "3.3.2",
+  "title": "",
+  "body": "  List at least two other situations where quantities, besides population, can have constant relative change and be represented with an exponential model, and explain your reasoning.    Create an algebraic formula that represents the changing values over time for each of your examples.    What is \"exponential\" about these exponential models?   "
+},
+{
+  "id": "sec-exponential-models-3-2",
+  "level": "2",
+  "url": "sec-exponential-models.html#sec-exponential-models-3-2",
+  "type": "Activity",
+  "number": "3.3.3",
+  "title": "",
+  "body": "  Suppose that the cost of attending a certain four-year private college (tuition and fees) was $16,500 in 1977 and that the cost increased about 3.2% every year.    Create an algebraic model, or formula, that could be used to estimate the cost of attending this college over time.    According to your model, what would be the tuition and fees for 1987, 1997, and 2022? Round your answers to the nearest dollar.    How many years from 1977 did it take for the total cost of tuition and fees to double? To triple?    If the original cost of attending the college in 1977 was only $12,000, how would the doubling and tripling time change?    Explain one strategy you could use to determine the year when this model would predict a cost of $42,000. Assume we are using the original cost of $16,500 for 1977.   "
+},
+{
+  "id": "sec-exponential-models-4-1",
+  "level": "2",
+  "url": "sec-exponential-models.html#sec-exponential-models-4-1",
+  "type": "Activity",
+  "number": "3.3.4",
+  "title": "",
+  "body": "  The rate of elimination of caffeine from the human body varies greatly from individual to individual. Suppose that Jacob drinks a 16-ounce coffee drink that contains about 310 mg of caffeine. His body eliminates about 13% of the caffeine every hour. Hint: Assume all caffeine is absorbed into the body as soon as the coffee is drunk.    Create an algebraic model for this situation. Let be the number of hours after drinking a 16-oz cup of coffee, and let be the amount of caffeine in your body.    How much caffeine would be in Jacob's body right after he drank a second 16-ounce coffee drink, exactly three hours after drinking the first one?    Approximately how long will it take for Jacob's body to eliminate half of the caffeine from one 16-ounce coffee drink?   Try to use algebra to answer this question! What happens?   Use a graphing utility to create a precise graphical model of the amount of caffeine in Jacob's body from one 16-ounce coffee drink. Use your graph to answer the question. Include a sketch of your graph and the steps you used to find the answer here.    If Jacob drank a 12-ounce Pepsi containing 38 mg of caffeine instead of the coffee drink, how long will it take for Jacob's body to eliminate half of the caffeine? Write your answer rounded to the nearest whole hour.   "
+},
+{
+  "id": "sec-exponential-models-5-1",
+  "level": "2",
+  "url": "sec-exponential-models.html#sec-exponential-models-5-1",
+  "type": "Activity",
+  "number": "3.3.5",
+  "title": "",
+  "body": "For each scenario below, find an algebraic formula to model the scenario. Use your formula and\/or a graph to answer the question about the scenario.  Shawn's brand new Dodge Charger valued at $52,250 depreciates at the rate of 8% per year. He plans to sell it in 5 years. How much will it be worth then?    Fletcher currently exercises for about an hour per week. They'd like to exercise for the recommended 150 minutes per week. They know that they're more likely to sustain the change if they slowly increase the amount they're exercising each week instead of trying to jump from one hour to 150 minutes. If Fletcher increases how much they exercise by 20 minutes each week, how many weeks will it take them to get to their goal of 150 minutes per week?    Melany's starting salary is $55,000, and she will be getting a 2% pay raise every year. How many years will it take for her salary to be $60,000?    Joan quit her job at GM when she was 35 years old. Her friend, who is a financial advisor, recommended that she leave her 401(k) retirement savings in GM's retirement plan rather than withdrawing or transferring the money to a new plan. Her friend said that, on average, Joan could expect a 6% increase per year if she left her money in the plan for many years, based on the past performance of GM's plan. Joan will not be able to add more money to the GM 401(k) account, but can open a new one at her new job. How long will it take for the amount of money Joan has in the GM 401(k) to double?   "
+},
+{
+  "id": "sec-exponential-models-6-1",
+  "level": "2",
+  "url": "sec-exponential-models.html#sec-exponential-models-6-1",
+  "type": "Activity",
+  "number": "3.3.6",
+  "title": "",
+  "body": "  The half-life of a substance with an exponential model is the amount of time it takes for half of the substance to be eliminated. For example, the half-life of a drug in the blood in the amount of time it takes for half of the drug to be elminiated from the body, and the half-life of a radioactive element is the amount of time it takes for half of the starting amount to decay.    If the half-life of a certain drug is 3 hours, and 25 mg of the drug is in the blood at 5 pm, how much of the drug will be in the blood at 8 pm? How long will it take for there to be 6.25 mg of the drug left in the blood?    Earlier, we assumed that the body could eliminate 13% of the caffeine present every hour. Wikipedia states that the half-life of caffeine in a healthy adult is often between 4.9 and 6 hours. If 13% of the caffeine is eliminated every hour, does this imply a half-life between 4.9 and 6 hours? Explain.    The antibiotic tetracycline is used for treatment against many different bacterial infections. Suppose that an individual is given 300 mg of tetracycline per dose, and the half-life of tetracycline is 8 hours. Assume all tetracycline is absorbed into the body immediately.   Use that the half-life of tetracycline is 8 hours to fill in the table below.   Amount of Tetracycline in the Body    Hours Since Dose  Number of 8 Hours Periods,  Amount of Tetracycline (mg),    0  0  300    8  1     16      24      48        Find an algebraic formula for , the amount of tetracycline in the body, after 8-hour periods.   It would be more convenient to have a formula for , the amount of tetracycline in the body, after hours! If it has been hours, how many 8-hour periods has it been? Use your observation to rewrite your formula for in terms of instead of .   Suppose that Reese is given a 300-mg tetracycline does every 6-hrs. How much tetracycline does he have left in his body just before his second dose?   "
 },
 {
   "id": "sec-working-with-percentages-prep",
@@ -784,13 +838,76 @@ var ptx_lunr_docs = [
   "body": "  In an expression of the form , we call the base , the exponent or power , and a coefficient . This vocabulary will be useful to us in the next lesson, so let's practice it now.    Identify the base, exponent, and coefficient in each of the expressions below.     Write an expression with base , coefficient , and exponent .   "
 },
 {
-  "id": "pa-prep-survey-aROC",
+  "id": "pa-prep-survey-exp-models-prep",
   "level": "2",
-  "url": "sec-exponential-models-prep.html#pa-prep-survey-aROC",
+  "url": "sec-exponential-models-prep.html#pa-prep-survey-exp-models-prep",
   "type": "Prep Activity",
   "number": "4.3.4",
   "title": "",
   "body": " You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Apply the same percent change to a quantity repeatedly.     Write formulas for calculating the new value of quantity after a percent change in two different ways.     Identify the base, exponent, and coefficient in an expression of the form      "
+},
+{
+  "id": "sec-log-models-prep",
+  "level": "1",
+  "url": "sec-log-models-prep.html",
+  "type": "Worksheet",
+  "number": "4.4",
+  "title": "Logarithmic Models Prep",
+  "body": " Logarithmic Models Prep     Let's consider the steps we'd take to solve several equations!    Fill in the blanks:   In order to solve the equation you could from both sides of the equation.  This works because the operation of \"undoes\" the operation of .  After performing this step, you arrive at the solution, .     Fill in the blanks:   In order to solve the equation you could both sides of the equation by .  This works because the operation of \"undoes\" the operation of .  After performing this step, you arrive at the solution, .     Fill in the blanks:   In order to solve the equation you could both sides of the equation.  This works because the operation of \"undoes\" the operation of .  After performing this step, you arrive at the solution, .     Now we would like to introduce a new operation which \"undoes\" exponentiation. That operation is written as , and we say this as \"the log of x.\"\"  The term log is an abbreviation for the mathematical term logarithm . A logarithm is a quantity representing the power to which a fixed number (the base) must be raised to produce a given number.  For example, a logarithm, or log operation, can be used to find the exponent to which one must raise the number 10 to get the specific number as the output.  The expression \" \" is then equal to , since .  The expression \" \" is then equal to , since .  The expression \" \" is then equal to , since .    Most scientific and graphing calculators have a button or function labeled \"Log\" which performs this calculation. Calculators will assume that the base is 10 unless you specifically ask them to use a different base. We'll stick with base 10 for now.    What are the following logs?                Now we would like to use the log operation to solve equations. Consider the equation . Notice that the exponent is not a whole number in this case. We can still solve this equation by doing something to both sides of the equation, as we did in . In this case, we will \"take the log\" of both sides of the equation:   Solving an Equation with a Log    Initial equation     Take the log of both sides      Use a calculator's \"Log\" function to find and get the answer      We can can check this result using a calculator. If , we get , which is about . It is not exactly  because we rounded to three decimal places. Logs are often terrible decimals.    Using your calculator, follow the steps above to solve the equation . Round to the nearest thousandth.    Check your answer by finding , where is your answer. You should get , or something very close. Did you?    What happens if you try to follow the steps to solve the equation ? Why do you think that is?     You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Solve equations by undoing operations.     Understand that the log operation undoes the \"raise 10 to the power of...\" operation.        "
+},
+{
+  "id": "pa-undoing-operations-warmup",
+  "level": "2",
+  "url": "sec-log-models-prep.html#pa-undoing-operations-warmup",
+  "type": "Prep Activity",
+  "number": "4.4.1",
+  "title": "",
+  "body": "  Let's consider the steps we'd take to solve several equations!    Fill in the blanks:   In order to solve the equation you could from both sides of the equation.  This works because the operation of \"undoes\" the operation of .  After performing this step, you arrive at the solution, .     Fill in the blanks:   In order to solve the equation you could both sides of the equation by .  This works because the operation of \"undoes\" the operation of .  After performing this step, you arrive at the solution, .     Fill in the blanks:   In order to solve the equation you could both sides of the equation.  This works because the operation of \"undoes\" the operation of .  After performing this step, you arrive at the solution, .    "
+},
+{
+  "id": "sec-log-models-prep-2-3",
+  "level": "2",
+  "url": "sec-log-models-prep.html#sec-log-models-prep-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "logarithm "
+},
+{
+  "id": "pa-log-10",
+  "level": "2",
+  "url": "sec-log-models-prep.html#pa-log-10",
+  "type": "Prep Activity",
+  "number": "4.4.2",
+  "title": "",
+  "body": "  What are the following logs?             "
+},
+{
+  "id": "sec-log-models-prep-3-2",
+  "level": "2",
+  "url": "sec-log-models-prep.html#sec-log-models-prep-3-2",
+  "type": "Table",
+  "number": "4.4.1",
+  "title": "Solving an Equation with a Log",
+  "body": " Solving an Equation with a Log    Initial equation     Take the log of both sides      Use a calculator's \"Log\" function to find and get the answer     "
+},
+{
+  "id": "sec-log-models-prep-3-4",
+  "level": "2",
+  "url": "sec-log-models-prep.html#sec-log-models-prep-3-4",
+  "type": "Prep Activity",
+  "number": "4.4.3",
+  "title": "",
+  "body": "  Using your calculator, follow the steps above to solve the equation . Round to the nearest thousandth.    Check your answer by finding , where is your answer. You should get , or something very close. Did you?    What happens if you try to follow the steps to solve the equation ? Why do you think that is?   "
+},
+{
+  "id": "pa-prep-survey-log-models-prep",
+  "level": "2",
+  "url": "sec-log-models-prep.html#pa-prep-survey-log-models-prep",
+  "type": "Prep Activity",
+  "number": "4.4.4",
+  "title": "",
+  "body": " You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Solve equations by undoing operations.     Understand that the log operation undoes the \"raise 10 to the power of...\" operation.      "
 },
 {
   "id": "backmatter-2",
