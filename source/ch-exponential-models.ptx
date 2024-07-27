@@ -10,5 +10,6 @@
   <!-- include sections -->
   <xi:include href="sec-working-with-percentages.ptx" />
   <xi:include href="sec-relative-change.ptx" />
+  <xi:include href="sec-exponential-models.ptx" />
 
 </chapter>
