@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="sec-exponential-models" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Exponential Models</title>
+
+  <page>
+    <investigation>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    The population of a small town was 5,500 people in the year 2010 and census data showed that the population grew by approximately 2.5% every year until 2020. What was the approximate population in 2011? 2012? 2013? 2020? Round to the nearest person.
+                </p>
+                <table>
+                    <title>Population of a Small Town Over Time</title>
+                    <tabular halign="center" top="minor" bottom="minor" right="minor" left="minor">
+                        <row header="yes">
+                            <cell>Year</cell>
+                            <cell>Population</cell>
+                        </row>
+                        <row>
+                            <cell>2010</cell>
+                            <cell>5500</cell>
+                        </row>
+                        <row>
+                            <cell>2011</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>2012</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>2013</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>2020</cell>
+                            <cell></cell>
+                        </row>
+                    </tabular>
+                </table>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    If Karl invested $5,500 in 2010 in an account which earned 2.5% interest every year, how much money would be in the account after one year? Two years? Three years? Ten years? Round to the nearest penny.
+                </p>
+                <table>
+                    <title>Karl's Money</title>
+                    <tabular halign="center" top="minor" bottom="minor" right="minor" left="minor">
+                        <row header="yes">
+                            <cell>Year</cell>
+                            <cell>Money</cell>
+                        </row>
+                        <row>
+                            <cell>2010</cell>
+                            <cell>5500</cell>
+                        </row>
+                        <row>
+                            <cell>2011</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>2012</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>2013</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>2020</cell>
+                            <cell></cell>
+                        </row>
+                    </tabular>
+                </table>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    What are the similarities and differences between the previous two situations?
+                </p>
+            </statement>
+        </task>
+    </investigation>
+  </page>
+</worksheet>

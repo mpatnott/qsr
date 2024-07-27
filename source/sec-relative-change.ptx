@@ -469,6 +469,115 @@
     </activity>
   </page>
 
+  <page>
+    <activity xml:id="a-salary-index">
+        <introduction>
+            <p>
+                One way to systematically look at a large set of relative changes over time is to create an <term>index</term>. We used the Consumer Price Index earlier to help us understand inflation. Now, you'll compute a salary index to help Lucian's career discernment. A salary index will look like a table of numbers that answer the question, "The salary for this year is what percent of the base year?"
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Use the salary information from the earlier to create a salary index for each of the three positions. You will be creating three separate indices, one for Sales Associate, one for Sales Supervisor, and one for Regional Sales Manager. Use 2016 as the base year, and round each answer to the nearest tenth.
+                </p>
+                <table>
+                    <title>Salary Index (Base Year = 2016)</title>
+                    <tabular row-headers="yes" halign="center" top="minor" bottom="minor" left="minor" right="minor">
+                        <row header="yes"> 
+                            <cell>Year</cell>
+                            <cell>Sales Associate</cell>
+                            <cell>Sales Supervisor</cell>
+                            <cell>Regional Sales Manager</cell>
+                        </row>
+                        <row>
+                            <cell>2016</cell>
+                            <cell><m>100.0</m></cell>
+                            <cell><m>100.0</m></cell>
+                            <cell><m>100.0</m></cell>
+                        </row>
+                        <row>
+                            <cell>2017</cell>
+                            <cell><m>102.7 = \frac{42,600}{41,500} \times 100</m></cell>
+                            <cell><m>101.1 = \frac{57,100}{56,500} \times 100</m></cell>
+                            <cell><m>105.3 = \frac{89,500}{85,000} \times 100 </m></cell>
+                        </row>
+                        <row>
+                            <cell>2018</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>2019</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>2020</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>2021</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>2022</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>2023</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                    </tabular>
+                </table>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Use quantities in your index table to explain your observations and ideas about what Gary should know about how the salaries change over time.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Make a graph of the indices that you created. What are the advantages and disadvantages of using this graph to interpret how the salaries changed over time?
+                </p>
+                <figure xml:id="fig-sales-salaries-index">
+                    <caption>Salary Indexes of Sales Personnel (2016 - 2023)</caption>
+                    <image xml:id="graph-sales-salaries-index" width="60%">
+                        <description>
+                            <p>
+                                Blank axes. The horizontal axis is labeled the years between 2016 and 2023. The vertical axis is labeled from 90 to 115 in increments of 5.
+                            </p>
+                        </description>
+                        <shortdescription>Blank axes.</shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                \begin{axis}[grid = both, axis lines = center,
+                                                xmin = 2015.5, xmax = 2023, xtick = {2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023},  x tick label style={/pgf/number format/1000 sep={}}, extra x tick style={xticklabel=\empty,grid=major},
+                                                ymin = 89, ymax = 115, ytick = {90, 95, 100, 105, 110, 115}, extra y ticks = {91, 92, 93, 94, 96, 97, 98, 99, 101, 102, 103, 104, 106, 107, 108, 109, 111, 112, 113, 114}, extra y tick style={yticklabel=\empty,grid=major}, scaled ticks = false]
+                                \end{axis}
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                </figure>
+            </statement>
+        </task>
+    </activity>
+  </page>
+
   <!-- <page>
     <activity xml:id="a-gary-anne-intro">
         <introduction>
