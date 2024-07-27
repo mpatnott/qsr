@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Relative Change</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Quantitative Skills and Reasoning">
+<meta property="book:author" content="Megan Patnott">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body id="qsrworkbook" class="pretext book ignore-math standalone worksheet letter">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">Quantitative Skills and Reasoning:</span> <span class="subtitle">Activity Workbook</span></a></h1>
+<p class="byline">Megan Patnott</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-working-with-percentages.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-exponential-models.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-exponential-models.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-linear-models.html" class="internal"><span class="codenumber">1</span> <span class="title">Linear Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-math-models.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Mathematical Models</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-aROC.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Average Rates of Change</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-linear-models.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Building Linear Models</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-linear-trends.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Linear Trends</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-piecewise-linear.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Piecewise Linear Models</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-linear-models.html" class="internal"><span class="codenumber">2</span> <span class="title">Linear Models Prep Activities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-math-models-prep.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Mathematical Models Prep Activities</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-aROC-prep.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Average Rates of Change</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-linear-models-prep.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Building Linear Models Prep Activities</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-linear-trends-prep.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Linear Trends Prep Activities</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-piecewise-linear-prep.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Piecewise Linear Models Prep Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-exponential-models.html" class="internal"><span class="codenumber">3</span> <span class="title">Exponential Models</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-working-with-percentages.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Working With Percentages</span></a></div></li>
+<li class="toc-item toc-worksheet active"><div class="toc-title-box"><a href="sec-relative-change.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Relative Change</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exponential-models.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Exponential Models</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-exponential-models-prep.html" class="internal"><span class="codenumber">4</span> <span class="title">Exponential Models Prep Activities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-working-with-percentages-prep.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Working With Percentages Prep Activities</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-relative-change-prep.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Relative Change Prep Activities</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exponential-models-prep.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Exponential Models Prep Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<button class="print-button" title="Print" onClick="window.print()"><span class="name">Print</span></button><section class="worksheet" id="sec-relative-change"><h2 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space"> </span><span class="codenumber">3.2</span><span class="space"> </span><span class="title">Relative Change</span><div class="print-links">
+<a href="sec-relative-change-a4.html" class="a4">A4</a><a href="sec-relative-change-letter.html" class="us">US</a>
+</div>
+</h2>
+<section class="onepage" id="sec-relative-change-2"><article class="activity project-like" id="a-abs-rel-change-unemployment"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.2.1</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="a-abs-rel-change-unemployment-1"><div class="para" id="a-abs-rel-change-unemployment-1-1">The unemployment rate is the percentage of people in the labor force who are unemployed and actively seeking work. Going into the Covid pandemic in January 2020, the unemployment rate in the United States was 3.5%. In May of that year, unemployment was 13.2%. There are many ways that this change in unemployment rate could be described. Fill in the blanks in the following statements so they correctly describe this change.</div></div>
+<article class="task exercise-like" id="a-abs-rel-change-unemployment-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="a-abs-rel-change-unemployment-2-1-1">From January 2020 to May 2020 the unemployment rate increased by <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> percentage points. (<em class="emphasis">Hint:</em> You are computing an absolute change here.)</div></article><article class="task exercise-like" id="a-abs-rel-change-unemployment-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="a-abs-rel-change-unemployment-3-1-1">From January 2020 to May 2020 the unemployment rate increased <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> percent. (<em class="emphasis">Hint:</em> You are computing a relative change here.) Round to the nearest percent.</div></article><article class="task exercise-like" id="a-abs-rel-change-unemployment-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="a-abs-rel-change-unemployment-4-1-1">From January 2020 to May 2020 the unemployment rate <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> (fill in with "nearly" or "more than") <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> (fill in with "tripled" or "quadrupled").</div></article></article> <article class="activity project-like" id="a-abs-rel-change-smoking"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.2.2</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="a-abs-rel-change-smoking-1">
+<div class="para" id="a-abs-rel-change-smoking-1-1">The table below presents data on the proportion of smokers in several countries.</div> <figure class="table table-like" id="a-abs-rel-change-smoking-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.2.1<span class="period">.</span></span><span class="space"> </span>Percentage of Smokers by Country</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<th scope="row" class="c m b1 r1 l1 t1 lines">Country</th>
+<td class="c m b1 r1 l0 t1 lines">Greece</td>
+<td class="c m b1 r1 l0 t1 lines">Germany</td>
+<td class="c m b1 r1 l0 t1 lines">France</td>
+<td class="c m b1 r1 l0 t1 lines">Sweden</td>
+<td class="c m b1 r1 l0 t1 lines">Canada</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">% of Smokers</th>
+<td class="c m b1 r1 l0 t0 lines">39.1</td>
+<td class="c m b1 r1 l0 t0 lines">28.0</td>
+<td class="c m b1 r1 l0 t0 lines">34.6</td>
+<td class="c m b1 r1 l0 t0 lines">8.0</td>
+<td class="c m b1 r1 l0 t0 lines">17.5</td>
+</tr>
+</table></div></figure>
+</div>
+<article class="task exercise-like" id="a-abs-rel-change-smoking-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="a-abs-rel-change-smoking-2-1-1">Write a statement comparing the smoking rates of people in Greece and Sweden, using a measure of absolute change.</div>
+<div class="workspace" data-space="0.5in"></div></article><article class="task exercise-like" id="a-abs-rel-change-smoking-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="a-abs-rel-change-smoking-3-1-1">Write a statement comparing the smoking rates of Canada and Greece, using a measure of relative change.</div>
+<div class="workspace" data-space="0.5in"></div></article><article class="task exercise-like" id="a-abs-rel-change-smoking-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="a-abs-rel-change-smoking-4-1-1">Describe what you learned by writing a statement comparing the smoking rates of Canada and Greece. Use phrases similar to "almost double,"" "more than triple," and "almost a fourth of."</div>
+<div class="workspace" data-space="0.5in"></div></article></article> <article class="activity project-like" id="a-define-inflation"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.2.3</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="a-define-inflation-1">
+<div class="para" id="a-define-inflation-1-1">
+<dfn class="terminology">Inflation</dfn> is the rate at which the general level of prices for goods and services is rising and, consequently, the buying power of currency is falling. In other words, if everything else (rent, groceries, utilities, etc.) gets more expensive, but your salary stays the same, your buying power decreases.  To account for that, some state and private sector employees get annual salary adjustments, often  referred to as Cost of Living Adjustment (COLA).</div> <div class="para" id="a-define-inflation-1-2">Suppose Gracelyn’s pre-tax income was $65,800 in 2022.</div>
+</div>
+<article class="task exercise-like" id="a-define-inflation-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="a-define-inflation-2-1-1">Gracelyn spent $41,000 on expenses in 2022. What percent of her income did she spend on expenses?</div>
+<div class="workspace" data-space="0.25in"></div></article><article class="task exercise-like" id="a-define-inflation-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="a-define-inflation-3-1-1">Gracelyn spent $45,000 on expenses in 2023. How much would she have needed to make in 2023 in order to have the same buying power, i.e. in order to spend the same percent of her income on expenses as she did in 2022?</div>
+<div class="workspace" data-space="0.5in"></div></article></article></section><section class="onepage" id="sec-relative-change-3"><article class="activity project-like" id="a-cpi-intro"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.2.4</span><span class="period">.</span>
+</h3>
+<div class="para" id="a-cpi-intro-1">The Consumer Price Index (CPI)<details class="ptx-footnote" aria-live="polite" id="a-cpi-intro-1-1"><summary class="ptx-footnote__number" title="Footnote 3.2.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="a-cpi-intro-1-1"><a class="external" href="https://www.investopedia.com/terms/c/consumerpriceindex.asp" target="_blank"><code class="code-inline tex2jax_ignore">https://www.investopedia.com/terms/c/consumerpriceindex.asp</code></a></div></details> is often used in the US to measure inflation. The Bureau of Labor Statistics calculates the CPI every month by looking at the prices of a collection of goods and services, including cars and housing. The inflation rate is the relative change in the CPI.</div> <div class="para" id="a-cpi-intro-2">The average price of a new car in 1945 was $1,020. The Consumer Price Index was 18.0 in 1945 and 271.0 in 2021. Use this information to answer the following question: $1,020 in 1945 has the same buying power as how many dollars in 2021?</div>
+<div class="workspace" data-space="1in"></div></article> <article class="activity project-like" id="a-national-debt"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.2.5</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="a-national-debt-1"><div class="para" id="a-national-debt-1-1">The table below lists the U.S. national debt at various times in history. We need to adjust these figures for inflation. Adjusting them will allow us to more accurately compare the sizes of these debts to one another.</div></div>
+<article class="task exercise-like" id="a-national-debt-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="a-national-debt-2-1-1">Use the Consumer Price Index<details class="ptx-footnote" aria-live="polite" id="a-national-debt-2-1-1-1"><summary class="ptx-footnote__number" title="Footnote 3.2.2"><sup> 2 </sup></summary><div class="ptx-footnote__contents" id="a-national-debt-2-1-1-1"><a class="external" href="https://www.minneapolisfed.org/about-us/monetary-policy/inflation-calculator/consumer-price-index-1913-" target="_blank"><code class="code-inline tex2jax_ignore">https://www.minneapolisfed.org/about-us/monetary-policy/inflation-calculator/consumer-price-index-1913-</code></a></div></details> to adjust the national debt for each year so that the debt is expressed in 2021 dollars. Enter the adjusted amounts in the table below. Round to two decimal places.</div> <figure class="table table-like" id="tab-national-debt-cpi"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.2.2<span class="period">.</span></span><span class="space"> </span>Adjusting the National Debt for Inflation</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Year</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">National Debt (Billion $)</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">CPI (average annual)</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">National Debt Adjusted for Inflation (Billion 2021 $)</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1945</td>
+<td class="c m b1 r1 l0 t0 lines">259</td>
+<td class="c m b1 r1 l0 t0 lines">18.0</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1980</td>
+<td class="c m b1 r1 l0 t0 lines">930</td>
+<td class="c m b1 r1 l0 t0 lines">82.4</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1995</td>
+<td class="c m b1 r1 l0 t0 lines">4,974</td>
+<td class="c m b1 r1 l0 t0 lines">152.4</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2010</td>
+<td class="c m b1 r1 l0 t0 lines">14,025</td>
+<td class="c m b1 r1 l0 t0 lines">218.1</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2021</td>
+<td class="c m b1 r1 l0 t0 lines">28,429</td>
+<td class="c m b1 r1 l0 t0 lines">271.0</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div></figure><div class="workspace" data-space="2in"></div></article><article class="task exercise-like" id="a-national-debt-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="a-national-debt-3-1-1">When adjusted for inflation, in which year was the national debt largest? smallest?</div>
+<div class="workspace" data-space="0.5in"></div></article></article></section><section class="onepage" id="sec-relative-change-4"><article class="activity project-like" id="a-national-debt-visualize"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.2.6</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="a-national-debt-visualize-1"><div class="para" id="a-national-debt-visualize-1-1">When communicating information about very large numbers like the national debt, it can be useful to use tools like infographics and comparing sizes of real objects.</div></div>
+<article class="task exercise-like" id="a-national-debt-visualize-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="a-national-debt-visualize-2-1-1">When communicating quantitative information, an infographic can be a useful tool. In order to help people understand the national debt adjusted to 2021 dollar amounts, we can draw bags of money to illustrate the change. If we use a 4 cm segment (4 bags of money) to represent the 1945 national debt adjusted for inflation (see figure below), how long should the segments be for each of the other years’ national debt after adjusting to 2021 amounts? Round your answers to the nearest tenth of a centimeter.</div>
+<div class="workspace" data-space="1in"></div></article><article class="task exercise-like" id="a-national-debt-visualize-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="a-national-debt-visualize-3-1-1">According to the U.S. Treasury Department, a one-hundred-dollar bill is 0.0043 inches thick. Therefore, a stack of 100 one-hundred-dollar bills would be 0.43 inches thick. Assume that we could create stacks of one-hundred-dollar bills that would never topple over, no matter the height. How tall is the stack of money that represents each year’s inflation-adjusted national debts?</div>
+<div class="workspace" data-space="1in"></div></article></article> <article class="activity project-like" id="a-national-debt-percent-gdp"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.2.7</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="a-national-debt-percent-gdp-1"><div class="para" id="a-national-debt-percent-gdp-1-1">Now let us consider a different approach to analyzing the U.S. national debt over time. Just as the cost of dinner and a movie for a person before and after college can be compared as a percentage of their income, economists frequently compare the national debt at different times in history by measuring it as a percentage of Gross Domestic Product (GDP). The GDP is the estimated value of all the goods and services that are produced in a country in a given year.</div></div>
+<article class="task exercise-like" id="a-national-debt-percent-gdp-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="a-national-debt-percent-gdp-2-1-1">Fill in the table below with the national debt as a percentage of each year’s GDP. Round to the nearest percentage point.</div> <figure class="table table-like" id="tab-national-debt-gdp"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.2.3<span class="period">.</span></span><span class="space"> </span>Comparing the National Debt to GDP</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Year</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">National Debt (Billion $)</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">GDP (Billion $)</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">National Debt as Percent of GDP</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1945</td>
+<td class="c m b1 r1 l0 t0 lines">259</td>
+<td class="c m b1 r1 l0 t0 lines">228</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1980</td>
+<td class="c m b1 r1 l0 t0 lines">930</td>
+<td class="c m b1 r1 l0 t0 lines">2,857</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1995</td>
+<td class="c m b1 r1 l0 t0 lines">4,974</td>
+<td class="c m b1 r1 l0 t0 lines">7.640</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2010</td>
+<td class="c m b1 r1 l0 t0 lines">14,025</td>
+<td class="c m b1 r1 l0 t0 lines">15,049</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2021</td>
+<td class="c m b1 r1 l0 t0 lines">28,429</td>
+<td class="c m b1 r1 l0 t0 lines">23,315</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div></figure><div class="workspace" data-space="0.25in"></div></article><article class="task exercise-like" id="a-national-debt-percent-gdp-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="a-national-debt-percent-gdp-3-1-1">After adjusting the debt relative to GDP, in which year was the national debt the largest? In which year was the debt smallest? (<em class="emphasis">Note:</em> In this case, we say the national debts are being compared in relative terms.)</div>
+<div class="workspace" data-space="0.5in"></div></article><article class="task exercise-like" id="a-national-debt-percent-gdp-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="a-national-debt-percent-gdp-4-1-1">Is it better to measure the national debt in absolute terms or relative terms? Write a brief explanation.</div>
+<div class="workspace" data-space="0.5in"></div></article></article></section><section class="onepage" id="sec-relative-change-5"><article class="activity project-like" id="a-comparing-salaries-abs-relative"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.2.8</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="a-comparing-salaries-abs-relative-1">
+<div class="para" id="a-comparing-salaries-abs-relative-1-1">Lucian is a Sales Associate at a retail store for a cell phone provider. His company offers many opportunities for growth in the organization. Lucian is starting some long-term planning and wants to decide if he should stay with this company and seek a promotion, or if he wants to explore other options with another company, or even try a new career.</div> <div class="para" id="a-comparing-salaries-abs-relative-1-2">Lucian has access to the following data from the past seven years about typical salaries for Sales Associates, Sales Supervisors, and Regional Sales Managers. Notice that salaries do not always increase from one year to the next. Lucian wants to get a better idea about how the salaries change over time for each of these positions, to gain insight into his earning potential if he stays with his current company.</div> <figure class="table table-like" id="tab-salaries-sales"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.2.4<span class="period">.</span></span><span class="space"> </span>Salaries of Sales Personnel (2016 - 2023)</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">2016</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">2017</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">2018</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">2019</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">2020</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">2021</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">2022</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">2023</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Sales Associate</th>
+<td class="c m b1 r1 l0 t0 lines">$41,500</td>
+<td class="c m b1 r1 l0 t0 lines">$42,600</td>
+<td class="c m b1 r1 l0 t0 lines">$42,800</td>
+<td class="c m b1 r1 l0 t0 lines">$42,000</td>
+<td class="c m b1 r1 l0 t0 lines">$43,100</td>
+<td class="c m b1 r1 l0 t0 lines">$43,600</td>
+<td class="c m b1 r1 l0 t0 lines">$44,700</td>
+<td class="c m b1 r1 l0 t0 lines">$46,300</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Sales Supervisor</th>
+<td class="c m b1 r1 l0 t0 lines">$56,500</td>
+<td class="c m b1 r1 l0 t0 lines">$57,100</td>
+<td class="c m b1 r1 l0 t0 lines">$58,700</td>
+<td class="c m b1 r1 l0 t0 lines">$57,300</td>
+<td class="c m b1 r1 l0 t0 lines">$60,500</td>
+<td class="c m b1 r1 l0 t0 lines">$59,600</td>
+<td class="c m b1 r1 l0 t0 lines">$60,700</td>
+<td class="c m b1 r1 l0 t0 lines">$62,600</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Regional Sales Manager</th>
+<td class="c m b1 r1 l0 t0 lines">$85,000</td>
+<td class="c m b1 r1 l0 t0 lines">$89,500</td>
+<td class="c m b1 r1 l0 t0 lines">$87,400</td>
+<td class="c m b1 r1 l0 t0 lines">$82,700</td>
+<td class="c m b1 r1 l0 t0 lines">$87,100</td>
+<td class="c m b1 r1 l0 t0 lines">$89,000</td>
+<td class="c m b1 r1 l0 t0 lines">$86,100</td>
+<td class="c m b1 r1 l0 t0 lines">$91,000</td>
+</tr>
+</table></div></figure>
+</div>
+<article class="task exercise-like" id="a-comparing-salaries-abs-relative-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="a-comparing-salaries-abs-relative-2-1-1">What do you notice about the figures in this table? What are some advantages or disadvantages of only using this table to compare salaries to make a decision? Be sure to describe the advantages and disadvantages quantitatively.</div>
+<div class="workspace" data-space="0.5in"></div></article><article class="task exercise-like" id="a-comparing-salaries-abs-relative-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="a-comparing-salaries-abs-relative-3-1-1">Make a quick sketch of a graph or visual display of these data. To make your graph easier to read, consider using different color ink to represent each of the positions.</div> <figure class="figure figure-like" id="fig-sales-salaries"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;">
+<img src="generated/latex-image/graph-sales-salaries.svg" role="img" class="contained" alt="Blank axes."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="graph-sales-salaries-description"><div class="para" id="graph-sales-salaries-1-1">Blank axes. The horizontal axis is labeled the years between 2016 and 2023. The vertical axis is labeled from $0 to $100,000 in $10,000 increments.</div></div></details>
+</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.2.5<span class="period">.</span></span><span class="space"> </span>Salaries of Sales Personnel (2016 - 2023)</figcaption></figure></article><article class="task exercise-like" id="a-comparing-salaries-abs-relative-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="a-comparing-salaries-abs-relative-4-1-1">What are some advantages or disadvantages of using a graph like the one you made above to visualize data over time?</div>
+<div class="workspace" data-space="0.5in"></div></article></article></section><section class="onepage" id="sec-relative-change-6"><article class="activity project-like" id="a-comparing-salaries-abs-relative-cont"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.2.9</span><span class="period">.</span>
+</h3>
+<article class="task exercise-like" id="a-comparing-salaries-abs-relative-cont-1"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="a-comparing-salaries-abs-relative-cont-1-1-1">Which position seems to show the most growth in salary over the past seven years? What particular quantities would be valuable for Lucian to notice to help make his decision?</div>
+<div class="workspace" data-space="0.5in"></div></article><article class="task exercise-like" id="a-comparing-salaries-abs-relative-cont-2"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="introduction" id="a-comparing-salaries-abs-relative-cont-2-1">
+<div class="para" id="a-comparing-salaries-abs-relative-cont-2-1-1">The table below shows absolute and relative changes in salaries for each position from 2016 to 2023.</div> <figure class="table table-like" id="a-comparing-salaries-abs-relative-cont-2-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.2.6<span class="period">.</span></span><span class="space"> </span>Absolute and Relative Changes from 2016 to 2023</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Position</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Absolute Change</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Relative Change</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Sales Associate</th>
+<td class="c m b1 r1 l0 t0 lines">$4,800</td>
+<td class="c m b1 r1 l0 t0 lines">11.6%</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Sales Supervisor</th>
+<td class="c m b1 r1 l0 t0 lines">$6,100</td>
+<td class="c m b1 r1 l0 t0 lines">10.8%</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Regional Sales Manager</th>
+<td class="c m b1 r1 l0 t0 lines">$6,000</td>
+<td class="c m b1 r1 l0 t0 lines">7.1%</td>
+</tr>
+</table></div></figure>
+</div>
+<article class="task exercise-like" id="a-comparing-salaries-abs-relative-cont-2-2"><h5 class="heading"><span class="codenumber">(i)</span></h5>
+<div class="para" id="a-comparing-salaries-abs-relative-cont-2-2-1-1">Explain what you observe in the numbers and in the absolute changes and relative changes. For example, you could explain how the Sales Associate can have the lowest absolute increase in salary but the highest relative increase.</div>
+<div class="workspace" data-space="0.5in"></div></article><article class="task exercise-like" id="a-comparing-salaries-abs-relative-cont-2-3"><h5 class="heading"><span class="codenumber">(ii)</span></h5>
+<div class="para" id="a-comparing-salaries-abs-relative-cont-2-3-1-1">Now calculate the absolute and relative changes in salary from 2021 to 2022. Fill in the table below with your answers. Round your answers to the nearest tenth of a percent.</div> <figure class="table table-like" id="a-comparing-salaries-abs-relative-cont-2-3-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.2.7<span class="period">.</span></span><span class="space"> </span>Absolute and Relative Changes from 2021 to 2022</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Position</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Absolute Change</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Relative Change</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Sales Associate</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Sales Supervisor</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Regional Sales Manager</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div></figure></article><article class="task exercise-like" id="a-comparing-salaries-abs-relative-cont-2-4"><h5 class="heading"><span class="codenumber">(iii)</span></h5>
+<div class="para" id="a-comparing-salaries-abs-relative-cont-2-4-1-1">Which position had the greatest absolute increase in salary? Which position had the greatest relative increase in salary? Write an explanation for what you observe in the absolute changes and relative changes.</div>
+<div class="workspace" data-space="0.5in"></div></article></article></article></section><section class="onepage" id="sec-relative-change-7"><article class="activity project-like" id="a-salary-index"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.2.10</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="a-salary-index-1"><div class="para" id="a-salary-index-1-1">One way to systematically look at a large set of relative changes over time is to create an <dfn class="terminology">index</dfn>. We used the Consumer Price Index earlier to help us understand inflation. Now, you’ll compute a salary index to help Lucian’s career discernment. A salary index will look like a table of numbers that answer the question, "The salary for this year is what percent of the base year?"</div></div>
+<article class="task exercise-like" id="a-salary-index-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="a-salary-index-2-1-1">Use the salary information from the earlier to create a salary index for each of the three positions. You will be creating three separate indices, one for Sales Associate, one for Sales Supervisor, and one for Regional Sales Manager. Use 2016 as the base year, and round each answer to the nearest tenth.</div> <figure class="table table-like" id="a-salary-index-2-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.2.8<span class="period">.</span></span><span class="space"> </span>Salary Index (Base Year = 2016)</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Year</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Sales Associate</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Sales Supervisor</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Regional Sales Manager</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">2016</th>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(100.0\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(100.0\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(100.0\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">2017</th>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(102.7 = \frac{42,600}{41,500} \times 100\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(101.1 = \frac{57,100}{56,500} \times 100\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(105.3 = \frac{89,500}{85,000} \times 100 \)</span></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">2018</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">2019</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">2020</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">2021</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">2022</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">2023</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div></figure></article><article class="task exercise-like" id="a-salary-index-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="a-salary-index-3-1-1">Use quantities in your index table to explain your observations and ideas about what Gary should know about how the salaries change over time.</div>
+<div class="workspace" data-space="0.5in"></div></article><article class="task exercise-like" id="a-salary-index-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="a-salary-index-4-1-1">Make a graph of the indices that you created. What are the advantages and disadvantages of using this graph to interpret how the salaries changed over time?</div> <figure class="figure figure-like" id="fig-sales-salaries-index"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;">
+<img src="generated/latex-image/graph-sales-salaries-index.svg" role="img" class="contained" alt="Blank axes."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="graph-sales-salaries-index-description"><div class="para" id="graph-sales-salaries-index-1-1">Blank axes. The horizontal axis is labeled the years between 2016 and 2023. The vertical axis is labeled from 90 to 115 in increments of 5.</div></div></details>
+</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.2.9<span class="period">.</span></span><span class="space"> </span>Salary Indexes of Sales Personnel (2016 - 2023)</figcaption></figure></article></article></section></section>
+</div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="sec-working-with-percentages.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-exponential-models.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>
