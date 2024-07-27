@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="sec-log-models-prep" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Logarithmic Models Prep</title>
+
+  <page>
+    <activity>
+        <introduction>
+            <p>
+                Let's consider the steps we'd take to solve several equations!
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Fill in the blanks:
+                </p>
+                <ol>
+                    <li> In order to solve the equation <m>x+7= -2</m> you could <fillin characters="20" /> from both sides of the equation. </li>
+                    <li>This works because the operation of <fillin characters="10" /> "undoes" the operation of 
+                        <fillin characters="10" />.</li>
+                    <li>After performing this step, you arrive at the solution, <m>x = <fillin characters="10" /></m>.</li>
+                </ol>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Fill in the blanks:
+                </p>
+                <ol>
+                    <li> In order to solve the equation <m>3x = 15</m> you could <fillin characters="20" /> both sides of the equation by <fillin characters="5" />. </li>
+                    <li>This works because the operation of <fillin characters="10" /> "undoes" the operation of 
+                        <fillin characters="10" />.</li>
+                    <li>After performing this step, you arrive at the solution, <m>x = <fillin characters="10" /></m>.</li>
+                </ol>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Fill in the blanks:
+                </p>
+                <ol>
+                    <li> In order to solve the equation <m>x^2 = 15</m> you could <fillin characters="20" /> both sides of the equation. </li>
+                    <li>This works because the operation of <fillin characters="10" /> "undoes" the operation of 
+                        <fillin characters="10" />.</li>
+                    <li>After performing this step, you arrive at the solution, <m>x = <fillin characters="5" /> \text{ or } <fillin characters="5" /></m>.</li>
+                </ol>
+            </statement>
+        </task>
+    </activity>
+  </page>
+</worksheet>

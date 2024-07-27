@@ -23,7 +23,7 @@
                 </ul>
             </p>
         </introduction>
-        <task workspace="1in">
+        <task workspace="0.5in">
             <statement>
                 <p>
                     Determine which town's population has a linear model. Explain your answer, and find a formula for the population <m>P</m> of this town <m>t</m> years after 2010.
@@ -37,17 +37,36 @@
                 </p>
             </statement>
         </task>
-        <task workspace="1in">
+        <task>
             <statement>
                 <p>
-                    In the Prep Activity, you found the populations of all three towns in 2011, 2012, 2013, and 2020. You also learned that the math expressions <m>5500 + 5500(0.025)</m> and <m>5500 \times 1.025</m> are equivalent. Use this idea to rewrite your work for finding the populations of the two towns with exponential models. What pattern do you see?
+                    In the Prep Activity, you found the populations of all three towns in 2011, 2012, 2013, and 2020. Plot the populations of all three towns on the graph below. What do you notice?
                 </p>
+                <figure xml:id="fig-town-pops">
+                    <caption>Populations of Three Small Towns</caption>
+                    <image xml:id="graph-town-pops" width="35%">
+                        <description>
+                            <p>
+                                Blank axes. The horizontal axis is labeled with the years between 0 and 10. The vertical axis goes from 3900 to 7100.
+                            </p>
+                        </description>
+                        <shortdescription>Blank axes.</shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                \begin{axis}[grid = both, axis lines = center,
+                                                xmin = -0.5, xmax = 10.5, xlabel = {Years since 2010},
+                                                ymin = 3900, ymax = 7100, ylabel = {Population}]
+                                \end{axis}
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                </figure>
             </statement>
         </task>
         <task workspace="0.5in">
             <statement>
                 <p>
-                    Find formulas for the populations of the two towns with exponential models.
+                    You learned in the Prep Activity that the math expressions <m>5500 + 5500(0.025)</m> and <m>5500 \times 1.025</m> are equivalent. Use this idea to rewrite your work for finding the populations of the two towns with exponential models. What pattern do you see? Find formulas for the populations of the two towns with exponential models.
                 </p>
             </statement>
         </task>
@@ -119,6 +138,186 @@
                     Explain one strategy you could use to determine the year when this model would predict a cost of $42,000. Assume we are using the original cost of $16,500 for 1977.
                 </p>
             </statement>
+        </task>
+    </activity>
+  </page>
+
+  <page>
+    <activity>
+        <introduction>
+            <p>
+                The rate of elimination of caffeine from the human body varies greatly from individual to individual. Suppose that Jacob drinks a 16-ounce coffee drink that contains about 310 mg of caffeine. His body eliminates about 13% of the caffeine every hour. <em>Hint:</em> Assume all caffeine is absorbed into the body as soon as the coffee is drunk.
+            </p>
+        </introduction>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Create an algebraic model for this situation. Let <m>t</m> be the number of hours after drinking a 16-oz cup of coffee, and let <m>A</m> be the amount of caffeine in your body.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    How much caffeine would be in Jacob's body right after he drank a second 16-ounce coffee drink, exactly three hours after drinking the first one?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <introduction>
+                <p>
+                    Approximately how long will it take for Jacob's body to eliminate half of the caffeine from one 16-ounce coffee drink?
+                </p>
+            </introduction>
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        Try to use algebra to answer this question! What happens?
+                    </p>
+                </statement>
+            </task>
+            <task workspace="2.5in">
+                <statement>
+                    <p>
+                        Use a graphing utility to create a precise graphical model of the amount of caffeine in Jacob's body from one 16-ounce coffee drink. Use your graph to answer the question. Include a sketch of your graph and the steps you used to find the answer here.
+                    </p>
+                </statement>
+            </task>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    If Jacob drank a 12-ounce Pepsi containing 38 mg of caffeine instead of the coffee drink, how long will it take for Jacob's body to eliminate half of the caffeine? Write your answer rounded to the nearest whole hour.
+                </p>
+            </statement>
+        </task>
+    </activity>
+  </page>
+
+  <page>
+    <activity>
+        For each scenario below, find an algebraic formula to model the scenario. Use your formula and/or a graph to answer the question about the scenario.
+        <task workspace="1.5in">
+            <statement>
+                <p>
+                    Shawn's brand new Dodge Charger valued at $52,250 depreciates at the rate of 8% per year. He plans to sell it in 5 years. How much will it be worth then?
+                </p>
+            </statement>
+        </task>
+        <task workspace="1.5in">
+            <statement>
+                <p>
+                    Fletcher currently exercises for about an hour per week. They'd like to exercise for the recommended 150 minutes per week. They know that they're more likely to sustain the change if they slowly increase the amount they're exercising each week instead of trying to jump from one hour to 150 minutes. If Fletcher increases how much they exercise by 20 minutes each week, how many weeks will it take them to get to their goal of 150 minutes per week?
+                </p>
+            </statement>
+        </task>
+        <task workspace="1.5in">
+            <statement>
+                <p>
+                    Melany's starting salary is $55,000, and she will be getting a 2% pay raise every year. How many years will it take for her salary to be $60,000?
+                </p>
+            </statement>
+        </task>
+        <task workspace="1.5in">
+            <statement>
+                <p>
+                    Joan quit her job at GM when she was 35 years old. Her friend, who is a financial advisor, recommended that she leave her 401(k) retirement savings in GM's retirement plan rather than withdrawing or transferring the money to a new plan. Her friend said that, on average, Joan could expect a 6% increase per year if she left her money in the plan for many years, based on the past performance of GM's plan. Joan will not be able to add more money to the GM 401(k) account, but can open a new one at her new job. How long will it take for the amount of money Joan has in the GM 401(k) to double?
+                </p>
+            </statement>
+        </task>
+    </activity>
+  </page>
+
+  <page>
+    <activity>
+        <introduction>
+            <p>
+                The <term>half-life</term> of a substance with an exponential model is the amount of time it takes for half of the substance to be eliminated. For example, the half-life of a drug in the blood in the amount of time it takes for half of the drug to be elminiated from the body, and the half-life of a radioactive element is the amount of time it takes for half of the starting amount to decay.
+            </p>
+        </introduction>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    If the half-life of a certain drug is 3 hours, and 25 mg of the drug is in the blood at 5 pm, how much of the drug will be in the blood at 8 pm? How long will it take for there to be 6.25 mg of the drug left in the blood?
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Earlier, we assumed that the body could eliminate 13% of the caffeine present every hour. Wikipedia states that the half-life of caffeine in a healthy adult is often between 4.9 and 6 hours.<fn><url href="https://en.wikipedia.org/wiki/Caffeine" /></fn> If 13% of the caffeine is eliminated every hour, does this imply a half-life between 4.9 and 6 hours? Explain.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <introduction>
+                <p>
+                    The antibiotic tetracycline is used for treatment against many different bacterial infections. Suppose that an individual is given 300 mg of tetracycline per dose, and the half-life of tetracycline is 8 hours. Assume all tetracycline is absorbed into the body immediately.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Use that the half-life of tetracycline is 8 hours to fill in the table below.
+                    </p>
+                    <table>
+                        <title>Amount of Tetracycline in the Body</title>
+                        <tabular halign="center" top="minor" bottom="minor" right="minor" left="minor">
+                            <row header="yes">
+                                <cell>Hours Since Dose</cell>
+                                <cell>Number of 8 Hours Periods, <m>x</m></cell>
+                                <cell>Amount of Tetracycline (mg), <m>A</m></cell>
+                            </row>
+                            <row>
+                                <cell>0</cell>
+                                <cell>0</cell>
+                                <cell>300</cell>
+                            </row>
+                            <row>
+                                <cell>8</cell>
+                                <cell>1</cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell>16</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell>24</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell>48</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                        </tabular>
+                    </table>
+                </statement>
+            </task>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        Find an algebraic formula for <m>A</m>, the amount of tetracycline in the body, after <m>x</m> 8-hour periods.
+                    </p>
+                </statement>
+            </task>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        It would be more convenient to have a formula for <m>A</m>, the amount of tetracycline in the body, after <m>t</m> hours! If it has been <m>t</m> hours, how many 8-hour periods has it been? Use your observation to rewrite your formula for <m>A</m> in terms of <m>t</m> instead of <m>x</m>.
+                    </p>
+                </statement>
+            </task>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        Suppose that Reese is given a 300-mg tetracycline does every 6-hrs. How much tetracycline does he have left in his body just before his second dose?
+                    </p>
+                </statement>
+            </task>
         </task>
     </activity>
   </page>
