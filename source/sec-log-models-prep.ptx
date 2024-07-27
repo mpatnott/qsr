@@ -4,7 +4,7 @@
   <title>Logarithmic Models Prep</title>
 
   <page>
-    <activity>
+    <investigation xml:id="pa-undoing-operations-warmup">
         <introduction>
             <p>
                 Let's consider the steps we'd take to solve several equations!
@@ -49,6 +49,118 @@
                 </ol>
             </statement>
         </task>
-    </activity>
+    </investigation>
+
+    <p>
+        Now we would like to introduce a new operation which "undoes"  exponentiation. That operation is written as <m>\log(x)</m>, and we say this as "the log of x."" 
+    </p>
+    <p>
+        The term log is an abbreviation for the mathematical term <term>logarithm</term>. A logarithm is a quantity representing the power to which a fixed number (the base) must be raised to produce a given number.
+    </p>
+    <p>
+        For example, a logarithm, or log operation, can be used to find the exponent to which one must raise the number 10 to get the specific number as the output. 
+        <ul>
+            <li>The expression "<m>\log(1000)</m>" is then equal to <m>3</m>, since <m>10^3=1000</m>.</li>
+            <li>The expression "<m>\log(10)</m>" is then equal to <m>1</m>, since <m>10^1=10</m>.</li>
+            <li>The expression "<m>\log\left(10^x\right)</m>" is then equal to <m>x</m>, since <m>10^x=10^x</m>.</li>
+        </ul>
+    </p>
+    <p>
+        Most scientific and graphing calculators have a button or function labeled "Log" which performs this calculation. Calculators will assume that the base is 10 unless you specifically ask them to use a different base. We'll stick with base 10 for now.
+    </p>
+
+    <investigation xml:id="pa-log-10">
+        <introduction>
+            <p>
+                What are the following logs?
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>\log(100) = <fillin characters="5" /></m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>\log(100,000) = <fillin characters="5" /></m>
+                </p>
+            </statement>
+        </task>
+    </investigation>
+  </page>
+
+  <page>
+    <p>
+        Now we would like to use the log operation to solve equations. Consider the equation <m>10^x=16</m>. Notice that the exponent is not a whole number in this case. We can still solve this equation by doing something to both sides of the equation, as we did in <xref ref="pa-undoing-operations-warmup"/>. In this case, we will "take the log" of both sides of the equation: 
+    </p>
+    <table>
+        <title>Solving an Equation with a Log</title>
+        <tabular>
+            <row>
+                <cell>Initial equation</cell>
+                <cell><m>10^x = 16</m></cell>
+            </row>
+            <row>
+                <cell>Take the log of both sides</cell>
+                <cell><line><m>\log\left(10^x\right) = \log(16)</m></line>
+                        <line><m>x = \log(16)</m></line></cell>
+            </row>
+            <row>
+                <cell>Use a calculator's "Log" function to find <m>\log(16)</m> and get the answer</cell>
+                <cell><m>x \approx 1.204</m></cell>
+            </row>
+        </tabular>
+    </table>
+    <p>
+        We can can check this result using a calculator. If <m>x = 1.204</m>, we get <me> 10^x= 10^{1.204} = 15.996</me>, which is about <m>16</m>. It is not <em>exactly</em> <m>16</m> because we rounded <m>log 16</m> to three decimal places. Logs are often terrible decimals.
+    </p>
+    <investigation>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Using your calculator, follow the steps above to solve the equation <m>10^x = 25</m>. Round to the nearest thousandth.
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Check your answer by finding <m>10^x</m>, where <m>x</m> is your answer. You should get <m>25</m>, or something very close. Did you?
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    What happens if you try to follow the steps to solve the equation <m>10^x = -25</m>? Why do you think that is?
+                </p>
+            </statement>
+        </task>
+    </investigation>
+
+    <investigation xml:id="pa-prep-survey-log-models-prep">
+        <p>
+            You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).
+        </p>
+        <table>
+            <tabular bottom = "minor" top = "minor" left = "minor" right = "minor">
+                <row header ="yes" bottom = "minor">
+                    <cell>Skill or Concept: I can …</cell>
+                    <cell>Rating from 1 to 5</cell>
+                </row>
+                <row bottom = "minor">
+                    <cell>Solve equations by undoing operations.</cell>
+                    <cell></cell>
+                </row>
+                <row bottom = "minor">
+                    <cell>Understand that the log operation undoes the "raise 10 to the power of..." operation.</cell>
+                    <cell></cell>
+                </row>
+            </tabular>
+        </table>
+    </investigation>
   </page>
 </worksheet>
