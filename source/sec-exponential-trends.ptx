@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="sec-exponential-trends" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Exponential Trends</title>
+
+  <page>
+    <introduction>
+        <p>
+            We saw in <xref ref="sec-linear-trends"/> that in the real world, it's more common to have data that is <em>approximately</em> linear than it is to have data that is <em>exactly</em>. The same thing is true of exponential models! Today, we will put the skills we've been learning together to find a formula for an exponential model for a data set with an exponential trend. 
+        </p>
+    </introduction>
+
+    <activity xml:id="a-us-population-1700-to-2023-start">
+        <introduction>
+            <p>
+                The graph on the left below<fn>Chart made in Excel using data from: Hannah Ritchie, Lucas Rodés-Guirao, Edouard Mathieu, Marcel Gerber, Esteban Ortiz-Ospina, Joe Hasell and Max Roser (2023) - "Population Growth" Published online at OurWorldInData.org. Retrieved from: <url href="https://ourworldindata.org/population-growth" /> [Online Resource]</fn> shows population of what is now the United States between 1700 and 2023.
+            </p>
+            <figure xml:id="fig-us-population-1700-to-2023">
+                <caption>US Population Between 1700 and 2023. </caption>
+                <sidebyside>
+                    <figure xml:id="fig-us-pop-1700-to-2023-numbers">
+                        <caption>Population</caption>
+                        <image source="./images/US-pop-1700-to-2023.png" width="50%">
+                            <shortdescription>Graph showing the population in what is now the US between 1700 and 2023..</shortdescription>
+                            <description>
+                                <p>
+                                    The population appears to have grown exponentially, from a little under a million people in 1700 to about 343 million in 2023.
+                                </p>
+                            </description>
+                        </image>
+                    </figure>
+                    <figure xml:id="fig-us-population-1700-to-2023-log">
+                        <caption>Log of US Population Between 1700 and 2023. </caption>
+                        <image source="./images/US-pop-1700-to-2023-log.png" width="50%">
+                            <shortdescription>Graph showing the log of the population in what is now the US between 1700 and 2023..</shortdescription>
+                            <description>
+                                <p>
+                                    The log of the population is roughly linear. It seems to be about 5.95 in 1700, and about 8.54 in 2023.
+                                </p>
+                            </description>
+                        </image>
+                    </figure>
+                </sidebyside>
+            </figure>
+        </introduction>
+        <task workspace="0.35in">
+            <statement>
+                <p>
+                    Explain why a linear model is not a good fit for the population data.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.35in">
+            <statement>
+                <p>
+                    The trend of the data resembles the graphs of an increasing exponential model. Logs are often used to analyze trends when the data seems to grow exponentially. The graph above right shows the <em>log</em> of the population. The years are kept the same, but the vertical axis shows the log of the population instead of the population itself. A graph that takes the log of the data values on one of the two axes is called a <term>semi-log graph</term>.
+                </p>
+                <p>
+                    Explain why a linear model IS a good fit for the log of the population data.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    We can use either graph to estimate the US population in a year. For example, we see from the population data graph that the US population in 1990 was about 250 million. From the log population graph, we see that the log of the population in 1990 was about 8.4. If we let <m>P</m> be the population, we get the log equation <me>\log(P) \approx 8.4</me>. As we learned in <xref ref="sec-exponential-trends-prep"/>, this tells us that <m>P \approx 10^{8.4} = 251,188,643.151</m>, which is about 250 million.
+                </p>
+                <p>
+                    Estimate the US population in 1930 in two ways: (1) from the population data graph and (2) from the log of population data graph.
+                </p>
+            </statement>
+        </task>
+    </activity>
+  </page>
+
+  <page>
+    <activity xml:id="a-us-population-1700-to-2023-cont">
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Here's the log of population graph again.
+                </p>
+                <figure xml:id="fig-us-population-1700-to-2023-log-repeat">
+                    <caption>Log of US Population Between 1700 and 2023. </caption>
+                    <image source="./images/US-pop-1700-to-2023-log.png" width="50%">
+                        <shortdescription>Graph showing the log of the population in what is now the US between 1700 and 2023..</shortdescription>
+                        <description>
+                            <p>
+                                The log of the population is roughly linear. It seems to be about 5.95 in 1700, and about 8.54 in 2023.
+                            </p>
+                        </description>
+                    </image>
+                </figure>
+                <p>
+                    Sketch a line on the graph to model the trend, and find a formula for your line.
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    If <m>P</m> is the population of the US, then the output of your line is <m>\log(P)</m>. To transform your linear model for <m>\log(P)</m> into an exponential model for <m>P</m>, apply the "raise 10 to the power of..." operation to both sides of your line formula. 
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Use your exponential model for <m>P</m> to estimate the US population in 1930 and 1990. How close are your answers to our earlier estimates?
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Summarize the process that we used in this activity and <xref ref="a-us-population-1700-to-2023-start"/> to find an exponential model or a data set.
+                </p>
+            </statement>
+        </task>
+    </activity>
+  </page>
+
+  <page>
+    <activity xml:id="a-cost-of-data-storage">
+        <!-- Example 4 in Section 4.7 of Lippman and Rasmussen-->
+        <introduction>
+            <p>
+                The table below shows the cost in dollars per megabyte of storage space on computer hard drives from 1980 to 2004.
+            </p>
+            <table>
+                <title>Cost Per Megabyte of Storage Space</title>
+                <tabular row-headers="yes" halign="center" top="minor" bottom="minor" left="minor" right="minor">
+                    <row>
+                        <cell>Year</cell>
+                        <cell>1980</cell>
+                        <cell>1984</cell>
+                        <cell>1988</cell>
+                        <cell>1992</cell>
+                        <cell>1996</cell>
+                        <cell>2000</cell>
+                        <cell>2004</cell>
+                    </row>
+                    <row>
+                        <cell>Cost per MB ($)</cell>
+                        <cell>192.31</cell>
+                        <cell>87.86</cell>
+                        <cell>15.98</cell>
+                        <cell>4</cell>
+                        <cell>0.173</cell>
+                        <cell>0.006849</cell>
+                        <cell>0.001149</cell>
+                    </row>
+                </tabular>
+            </table>
+        </introduction>
+    </activity>
+  </page>
+</worksheet>
