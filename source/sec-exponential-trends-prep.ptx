@@ -68,7 +68,7 @@
                             A table for the annual mean <m>\text{CO}_2</m><sub>2</sub> amounts is:
                         </p>
                         <table>
-                            <title>Annual Mean CO<sub>2</sub> Ammounts (ppm) at the Mauna Loa Observatory</title>
+                            <title>Annual Mean CO<sub>2</sub> Amounts (ppm) at the Mauna Loa Observatory</title>
                             <tabular>
                                 <row header="yes" bottom="minor">
                                     <cell>Year</cell>
@@ -184,7 +184,7 @@
                 </p>
             </statement>
         </task>
-        <task workspace="1in">
+        <task workspace="0.5in">
             <statement>
                 <p>
                     Sketch a line on the graph that fits the general trend, and use your line to find a formula for an appropriate linear model.
