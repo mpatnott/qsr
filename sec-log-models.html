@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>The Log Operation</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Quantitative Skills and Reasoning">
+<meta property="book:author" content="Megan Patnott">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body id="qsrworkbook" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">Quantitative Skills and Reasoning:</span> <span class="subtitle">Activity Workbook</span></a></h1>
+<p class="byline">Megan Patnott</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-exponential-models.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-exponential-models.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ch-exponential-models-prep.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-linear-models.html" class="internal"><span class="codenumber">1</span> <span class="title">Linear Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-math-models.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Mathematical Models</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-aROC.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Average Rates of Change</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-linear-models.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Building Linear Models</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-linear-trends.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Linear Trends</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-piecewise-linear.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Piecewise Linear Models</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-linear-models.html" class="internal"><span class="codenumber">2</span> <span class="title">Linear Models Prep Activities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-math-models-prep.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Mathematical Models Prep Activities</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-aROC-prep.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Average Rates of Change</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-linear-models-prep.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Building Linear Models Prep Activities</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-linear-trends-prep.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Linear Trends Prep Activities</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-piecewise-linear-prep.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Piecewise Linear Models Prep Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-exponential-models.html" class="internal"><span class="codenumber">3</span> <span class="title">Exponential Models</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-working-with-percentages.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Working With Percentages</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-relative-change.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Relative Change</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exponential-models.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Exponential Models</span></a></div></li>
+<li class="toc-item toc-worksheet active"><div class="toc-title-box"><a href="sec-log-models.html" class="internal"><span class="codenumber">3.4</span> <span class="title">The Log Operation</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-exponential-models-prep.html" class="internal"><span class="codenumber">4</span> <span class="title">Exponential Models Prep Activities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-working-with-percentages-prep.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Working With Percentages Prep Activities</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-relative-change-prep.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Relative Change Prep Activities</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exponential-models-prep.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Exponential Models Prep Activities</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-log-models-prep.html" class="internal"><span class="codenumber">4.4</span> <span class="title">The Log Operation Prep Activities</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exponential-trends-prep.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Exponential Trends Prep Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="worksheet" id="sec-log-models"><h2 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space"> </span><span class="codenumber">3.4</span><span class="space"> </span><span class="title">The Log Operation</span><div class="print-links">
+<a href="sec-log-models-a4.html" class="a4">A4</a><a href="sec-log-models-letter.html" class="us">US</a>
+</div>
+</h2>
+<section class="onepage" id="sec-log-models-2"><article class="activity project-like" id="a-one-step-eqns"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.4.1</span><span class="period">.</span>
+</h3>
+<div class="para" id="a-one-step-eqns-1">We use "opposite" operations to solve equations. If you can see what operations are currently applied to a variable, you can do the opposite operations to solve the equation - to find out what number the variable stands for. Some examples of operations in math are: addition, subtraction, multiplication, division, raising a number to a power, and taking a root of a number (such as the square root).</div> <div class="para" id="a-one-step-eqns-2">Fill in the column on the right in the table below:</div> <figure class="table table-like" id="a-one-step-eqns-3"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.4.1<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b1 r1 l1 t1 lines">If you have an equation like...</th>
+<th scope="col" class="l m b1 r1 l0 t1 lines">...you can solve it by using the opposite operation.<br>Write the operation you would use to solve the equation, and then solve it.</th>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><span class="process-math">\(x + 5.4 = 11.6\)</span></td>
+<td class="l m b1 r1 l0 t0 lines"> <br> <br> </td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><span class="process-math">\(t - 28 = 44\)</span></td>
+<td class="l m b1 r1 l0 t0 lines"> <br> <br> </td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><span class="process-math">\(5w = 38\)</span></td>
+<td class="l m b1 r1 l0 t0 lines"> <br> <br> </td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><span class="process-math">\(\frac{d}{12} = 3.5\)</span></td>
+<td class="l m b1 r1 l0 t0 lines"> <br> <br> </td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><span class="process-math">\(r^2 = 36\)</span></td>
+<td class="l m b1 r1 l0 t0 lines"> <br> <br> </td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><span class="process-math">\(y^3 = 27\)</span></td>
+<td class="l m b1 r1 l0 t0 lines"> <br> <br> </td>
+</tr>
+</table></div></figure></article> <div class="para" id="sec-log-models-2-2">Now, consider the following example. Even though both equations include the same numbers and the same variable, they are fundamentally different. It’s all about the placement of a variable.</div> <ul class="disc">
+<li id="sec-log-models-2-3-1"><div class="para" id="p-derived-sec-log-models-2-3-1">The equation on the left is a cubic equation; the variable <span class="process-math">\(x\)</span> is in the base of <span class="process-math">\(x^3\text{.}\)</span>
+</div></li>
+<li id="sec-log-models-2-3-2"><div class="para" id="p-derived-sec-log-models-2-3-2">The equation on the right is an exponential equation; the variable <span class="process-math">\(x\)</span> is in the exponent of <span class="process-math">\(3^x\)</span>
+</div></li>
+</ul> <figure class="table table-like" id="sec-log-models-2-4"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.4.2<span class="period">.</span></span><span class="space"> </span>Variable as Base vs. Variable as Exponent</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r1 l1 t1 lines">Given equation</td>
+<td class="l m b1 r1 l0 t1 lines"><span class="process-math">\(x^3 = 25\)</span></td>
+<td class="l m b1 r1 l0 t1 lines"><span class="process-math">\(3^x = 25\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">Given operation</td>
+<td class="l m b1 r1 l0 t0 lines">The variable <span class="process-math">\(x\)</span> is cubed.</td>
+<td class="l m b1 r1 l0 t0 lines">
+<span class="process-math">\(3\)</span> is raised to the power of <span class="process-math">\(x\)</span>
+</td>
+</tr>
+</table></div></figure> <div class="para" id="sec-log-models-2-5">An equation that has a variable in the exponent is called an <dfn class="terminology">exponential equation.</dfn> Sometimes, we can solve such equations by <dfn class="terminology">inspection</dfn>. This means we look at an equation and see what number could go in place of the variable to make the equation true, such as in the equation <span class="process-math">\(10^x=100\text{,}\)</span>where we know that <span class="process-math">\(x = 2\)</span> because <span class="process-math">\(10^2= 100\text{.}\)</span> <em class="emphasis">Note:</em> If a problem asks you to solve an equation by inspection, but you don’t have that arithmetic fact memorized and don’t see the answer, that’s okay! In that case, use the instruction to "solve by inspection" as a hint that the answer is probably a small nice number, and solve by guess and check instead.</div> <article class="activity project-like" id="a-solve-by-inspection"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.4.2</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="a-solve-by-inspection-1"><div class="para" id="a-solve-by-inspection-1-1">Solve the equations below by inspection.</div></div>
+<article class="task exercise-like" id="a-solve-by-inspection-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="a-solve-by-inspection-2-1-1"><span class="process-math">\(5^x = 25\)</span></div></article><article class="task exercise-like" id="a-solve-by-inspection-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="a-solve-by-inspection-3-1-1"><span class="process-math">\(3^x = 81\)</span></div></article></article></section><section class="onepage" id="sec-log-models-3"><article class="activity project-like" id="a-solve-with-log-10"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.4.3</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="a-solve-with-log-10-1">
+<div class="para" id="a-solve-with-log-10-1-1">In <a href="sec-log-models-prep.html" class="internal" title="Worksheet 4.4: The Log Operation Prep Activities">Worksheet 4.4</a>, we saw that we can also undo the operation in an exponential equation using logarithms, which are often referred to as logs. We learned to use the log operation to solve equations when the base is the number 10 (such as <span class="process-math">\(10^x=16\)</span>).</div> <div class="para" id="a-solve-with-log-10-1-2">Solve the equations below. Think about the operation you would use to solve the equation first and then solve it. Round to the nearest thousandth.</div>
+</div>
+<article class="task exercise-like" id="a-solve-with-log-10-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="a-solve-with-log-10-2-1-1"><span class="process-math">\(10^x = 135\)</span></div>
+<div class="workspace" data-space="0.5in"></div></article><article class="task exercise-like" id="a-solve-with-log-10-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="a-solve-with-log-10-3-1-1"><span class="process-math">\(10^x = 12.2\)</span></div>
+<div class="workspace" data-space="0.5in"></div></article></article> <div class="para logical" id="sec-log-models-3-2">
+<div class="para">What if the base isn’t 10? For example, consider the examples</div>
+<div class="displaymath process-math">
+\begin{equation*}
+3^x = 25 \qquad 7^x = 49 \qquad 1.05^x = 1.6
+\end{equation*}
+</div>
+<div class="para">You might be able to use inspection to see that the solution to <span class="process-math">\(7^x = 49\)</span> is <span class="process-math">\(x = 2\)</span> because you remember that <span class="process-math">\(7^2=49\text{,}\)</span> but the answers to the other two examples are not nice numbers.</div>
+</div> <div class="para logical" id="sec-log-models-3-3">
+<div class="para">There are two ways to solve this problem:</div>
+<ol class="lower-alpha">
+<li id="sec-log-models-3-3-1-1">
+<div class="para logical" id="sec-log-models-3-3-1-1-1">
+<div class="para">We said in <a href="sec-log-models-prep.html" class="internal" title="Worksheet 4.4: The Log Operation Prep Activities">Worksheet 4.4</a> that the log button on our calculators assumes the base is 10 <em class="emphasis">unless we tell it otherwise</em>. On some calculators, we can specificy the base we want to use for our log. In general, we write</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/sec-log-models-prep.html">
+\begin{equation*}
+\log_b(x)
+\end{equation*}
+</div>
+<div class="para">for the number that we need to raise <span class="process-math">\(b\)</span> to in order to get out <span class="process-math">\(x\)</span> as our answer. For example,</div>
+</div>
+<ul class="disc">
+<li id="sec-log-models-3-3-1-1-2-1"><div class="para" id="p-derived-sec-log-models-3-3-1-1-2-1">The expression <span class="process-math">\(\log_7(49)\)</span> is equal to <span class="process-math">\(2\text{,}\)</span> since <span class="process-math">\(7^2 = 49\text{.}\)</span>
+</div></li>
+<li id="sec-log-models-3-3-1-1-2-2"><div class="para" id="p-derived-sec-log-models-3-3-1-1-2-2">The expression <span class="process-math">\(\log_2(16)\)</span> is equal to <span class="process-math">\(4\text{,}\)</span> since <span class="process-math">\(2^4 = 16\text{.}\)</span>
+</div></li>
+<li id="sec-log-models-3-3-1-1-2-3"><div class="para" id="p-derived-sec-log-models-3-3-1-1-2-3">The expression <span class="process-math">\(\log_b\left(b^x\right)\)</span> is equal to <span class="process-math">\(x\text{,}\)</span> since <span class="process-math">\(b^x = b^x\text{.}\)</span>
+</div></li>
+</ul>
+</li>
+<li id="sec-log-models-3-3-1-2"><div class="para" id="p-derived-sec-log-models-3-3-1-2">Some calculators can only compute logs with a base of 10 and the special number <span class="process-math">\(e\text{.}\)</span> On these calculators, we use the formula<div class="displaymath process-math">
+\begin{equation*}
+\text{If } b^x = a \text{, then } x = \frac{\log a}{\log b}\text{.}
+\end{equation*}
+</div>
+</div></li>
+</ol>
+</div> <div class="para" id="sec-log-models-3-4">Let’s use both strategies to solve <span class="process-math">\(3^x = 25\)</span> and <span class="process-math">\(1.05^x = 1.6\text{.}\)</span>
+</div> <figure class="table table-like" id="sec-log-models-3-5"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.4.3<span class="period">.</span></span><span class="space"> </span>Two Strategies to Solve Exponential Equations</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<th scope="row" class="l m b1 r1 l1 t1 lines">Original Equation</th>
+<td class="l m b1 r1 l0 t1 lines"><span class="process-math">\(3^x = 25\)</span></td>
+<td class="l m b1 r1 l0 t1 lines"><span class="process-math">\(1.05^x = 1.6\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="l m b1 r1 l1 t0 lines">Strategy 1</th>
+<td class="l m b1 r1 l0 t0 lines">Take <span class="process-math">\(\log_3\)</span> of both sides: <span class="process-math">\(\log_3\left(3^x\right) = \log_3(25)\)</span><br>Use that <span class="process-math">\(\log_b\left(b^x\right) = x\)</span> to rewrite: <span class="process-math">\(x = \log_3(25)\)</span><br>Use a calculator to find <span class="process-math">\(\log_3(25)\text{:}\)</span> <span class="process-math">\(x \approx 2.93\)</span><br>Use a calculator to find <span class="process-math">\(3^{2.93}\)</span> to check your answer. Is it <span class="process-math">\(25\text{?}\)</span>
+</td>
+<td class="l m b1 r1 l0 t0 lines">Take <span class="process-math">\(\log_{1.05}\)</span> of both sides: <span class="process-math">\(\log_{1.05}\left(1.05^x\right) = \log_{1.05}(1.6)\)</span><br>Use that <span class="process-math">\(\log_b\left(b^x\right) = x\)</span> to rewrite: <span class="process-math">\(x = \log_{1.05}(1.6)\)</span><br>Use a calculator to find <span class="process-math">\(\log_{1.05}(1.6)\text{:}\)</span> <span class="process-math">\(x \approx 9.633\)</span><br>Use a calculator to find <span class="process-math">\(1.05^{9.633}\)</span> to check your answer. Is it <span class="process-math">\(1.6\text{?}\)</span>
+</td>
+</tr>
+<tr>
+<th scope="row" class="l m b1 r1 l1 t0 lines">Strategy 2</th>
+<td class="l m b1 r1 l0 t0 lines">Use the formula to get the answer: <span class="process-math">\(x = \frac{\log 25}{\log 3}\)</span><br>Use a calculator to find the logs and divide: <span class="process-math">\(x \approx 2.93\)</span><br>Use a calculator to find <span class="process-math">\(3^{2.93}\)</span> to check your answer. Is it <span class="process-math">\(25\text{?}\)</span>
+</td>
+<td class="l m b1 r1 l0 t0 lines">Use the formula to get the answer: <span class="process-math">\(x = \frac{\log 1.6}{\log 1.05}\)</span><br>Use a calculator to find the logs and divide: <span class="process-math">\(x \approx 9.633\)</span><br>Use a calculator to find <span class="process-math">\(1.05^{9.633}\)</span> to check your answer. Is it <span class="process-math">\(1.6\text{?}\)</span>
+</td>
+</tr>
+</table></div></figure></section><section class="onepage" id="sec-log-models-4"><article class="activity project-like" id="a-solve-exp-eqn-not-base-10"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.4.4</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="a-solve-exp-eqn-not-base-10-1"><div class="para" id="a-solve-exp-eqn-not-base-10-1-1">Use one of the two strategies to solve each of the equations below. Round to the nearest thousandth.</div></div>
+<article class="task exercise-like" id="a-solve-exp-eqn-not-base-10-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="a-solve-exp-eqn-not-base-10-2-1-1"><span class="process-math">\(3^x = 27\)</span></div>
+<div class="workspace" data-space="0.5in"></div></article><article class="task exercise-like" id="a-solve-exp-eqn-not-base-10-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="a-solve-exp-eqn-not-base-10-3-1-1"><span class="process-math">\(6^t = 200\)</span></div>
+<div class="workspace" data-space="0.5in"></div></article><article class="task exercise-like" id="a-solve-exp-eqn-not-base-10-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="a-solve-exp-eqn-not-base-10-4-1-1"><span class="process-math">\(1.032^t = 2\)</span></div>
+<div class="workspace" data-space="0.5in"></div></article></article> <article class="activity project-like" id="a-logs-in-application-tuition"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.4.5</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="a-logs-in-application-tuition-1">
+<div class="para" id="a-logs-in-application-tuition-1-1">We looked at the following scenario in <a href="sec-exponential-models.html" class="internal" title="Worksheet 3.3: Exponential Models">Worksheet 3.3</a>:</div> <blockquote class="blockquote" id="a-logs-in-application-tuition-1-2"><div class="para" id="a-logs-in-application-tuition-1-2-1">Suppose that the cost of attending a certain four-year private college (tuition and fees) was $16,500 in 1977 and that the cost increased about 3.2% every year.</div></blockquote> <div class="para logical" id="a-logs-in-application-tuition-1-3">
+<div class="para">We found that</div>
+<div class="displaymath process-math">
+\begin{equation*}
+T = 16,500(1.032)^t
+\end{equation*}
+</div>
+<div class="para">is a formula that models this situation where <span class="process-math">\(T\)</span> is tuition and <span class="process-math">\(t\)</span> is years since 1977. We then thought about how we might determine the year when tuition would reach $42,000. We considered various methods, such as guess-and-check (guessing different values and checking the results), to find a solution to the equation:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+42,000 = 16,500(1.032)^t\text{.}
+\end{equation*}
+</div>
+</div>
+</div>
+<article class="task exercise-like" id="a-logs-in-application-tuition-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="a-logs-in-application-tuition-2-1-1">In what year is tuition predicted to be $42,000? Use an algebraic strategy to find the answer.</div>
+<div class="workspace" data-space="1.5in"></div></article><article class="task exercise-like" id="a-logs-in-application-tuition-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="a-logs-in-application-tuition-3-1-1">What method could you use to determine whether your solution is correct? Explain your method, then use it to check your answer.</div>
+<div class="workspace" data-space="1in"></div></article></article></section><section class="onepage" id="sec-log-models-5"><article class="activity project-like" id="a-logs-in-application-caffeine"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.4.6</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="a-logs-in-application-caffeine-1"><div class="para" id="a-logs-in-application-caffeine-1-1">We also modeled the amount of caffeine Jacob has left in his body several hours after drinking a 16-oz coffee drink in <a href="sec-exponential-models.html" class="internal" title="Worksheet 3.3: Exponential Models">Worksheet 3.3</a>. Suppose that Jacob has just consumed a 16-ounce cup of coffee containing 300 mg of caffeine.</div></div>
+<article class="task exercise-like" id="a-logs-in-application-caffeine-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="a-logs-in-application-caffeine-2-1-1">If caffeine is being eliminated from Jacob’s body at a rate of 13% every hour, how long before three quarters of the caffeine has been eliminated? Enter your answer rounded to the nearest hour. (<em class="emphasis">Hint:</em> First, set up a model for the situation and then use it to answer the question.)</div>
+<div class="workspace" data-space="1.5in"></div></article><article class="task exercise-like" id="a-logs-in-application-caffeine-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="a-logs-in-application-caffeine-3-1-1">How much caffeine will be in Jason’s blood if he drinks another 16-ounce cup of coffee 5 hours after the first?</div>
+<div class="workspace" data-space="1.5in"></div></article></article> <article class="activity project-like" id="a-logs-in-application-compound-interest"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.4.7</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="a-logs-in-application-compound-interest-1">
+<div class="para">Exponential equations are often seen when working with accounts or loans that use compound interest. Compound interest occurs when interest is calculated on both the initial principal and any accumulated interest from previous periods. (Note: For comparison, recall that simple interest does not take into account the accumulated interest, that is, the interest each year is only based on the initial principal.) The equation for computing the amount of a loan, or in an account, that uses compound interest (assuming no change in principal) is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+A = P\left(1 + \frac{r}{n}\right)^{nt}
+\end{equation*}
+</div>
+<div class="para">where</div>
+<ul class="disc">
+<li id="a-logs-in-application-compound-interest-1-2-1"><div class="para" id="p-derived-a-logs-in-application-compound-interest-1-2-1">
+<span class="process-math">\(A\)</span> represents the total amount of the loan or in the account.</div></li>
+<li id="a-logs-in-application-compound-interest-1-2-2"><div class="para" id="p-derived-a-logs-in-application-compound-interest-1-2-2">
+<span class="process-math">\(P\)</span> represents the principal (initial amount of the loan or money put into the account).</div></li>
+<li id="a-logs-in-application-compound-interest-1-2-3"><div class="para" id="p-derived-a-logs-in-application-compound-interest-1-2-3">
+<span class="process-math">\(r\)</span> represents the interest rate, written as a decimal.</div></li>
+<li id="a-logs-in-application-compound-interest-1-2-4"><div class="para" id="p-derived-a-logs-in-application-compound-interest-1-2-4">
+<span class="process-math">\(n\)</span> represents the number of compounding periods per year.</div></li>
+<li id="a-logs-in-application-compound-interest-1-2-5"><div class="para" id="p-derived-a-logs-in-application-compound-interest-1-2-5">
+<span class="process-math">\(t\)</span> represents the term of the loan in years or time since opening the account in years.</div></li>
+</ul>
+</div> Suppose that you take out a $2000 loan with a compound interest rate of 4%, compounded annually (once a year). If you make no payments, and interest compounds annually, in how many years will the loan balance double (reach or surpass $4000)? Think about this on your own for a minute before sharing your ideas in your group.<div class="workspace" data-space="1.5in"></div></article></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="sec-exponential-models.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-exponential-models-prep.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

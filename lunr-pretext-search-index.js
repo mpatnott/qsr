@@ -712,6 +712,105 @@ var ptx_lunr_docs = [
   "body": "  The half-life of a substance with an exponential model is the amount of time it takes for half of the substance to be eliminated. For example, the half-life of a drug in the blood in the amount of time it takes for half of the drug to be elminiated from the body, and the half-life of a radioactive element is the amount of time it takes for half of the starting amount to decay.    If the half-life of a certain drug is 3 hours, and 25 mg of the drug is in the blood at 5 pm, how much of the drug will be in the blood at 8 pm? How long will it take for there to be 6.25 mg of the drug left in the blood?    Earlier, we assumed that the body could eliminate 13% of the caffeine present every hour. Wikipedia states that the half-life of caffeine in a healthy adult is often between 4.9 and 6 hours. If 13% of the caffeine is eliminated every hour, does this imply a half-life between 4.9 and 6 hours? Explain.    The antibiotic tetracycline is used for treatment against many different bacterial infections. Suppose that an individual is given 300 mg of tetracycline per dose, and the half-life of tetracycline is 8 hours. Assume all tetracycline is absorbed into the body immediately.   Use that the half-life of tetracycline is 8 hours to fill in the table below.   Amount of Tetracycline in the Body    Hours Since Dose  Number of 8 Hours Periods,  Amount of Tetracycline (mg),    0  0  300    8  1     16      24      48        Find an algebraic formula for , the amount of tetracycline in the body, after 8-hour periods.   It would be more convenient to have a formula for , the amount of tetracycline in the body, after hours! If it has been hours, how many 8-hour periods has it been? Use your observation to rewrite your formula for in terms of instead of .   Suppose that Reese is given a 300-mg tetracycline does every 6-hrs. How much tetracycline does he have left in his body just before his second dose?   "
 },
 {
+  "id": "sec-log-models",
+  "level": "1",
+  "url": "sec-log-models.html",
+  "type": "Worksheet",
+  "number": "3.4",
+  "title": "The Log Operation",
+  "body": " The Log Operation    We use \"opposite\" operations to solve equations. If you can see what operations are currently applied to a variable, you can do the opposite operations to solve the equation - to find out what number the variable stands for. Some examples of operations in math are: addition, subtraction, multiplication, division, raising a number to a power, and taking a root of a number (such as the square root).  Fill in the column on the right in the table below:      If you have an equation like...  ...you can solve it by using the opposite operation.  Write the operation you would use to solve the equation, and then solve it.                              Now, consider the following example. Even though both equations include the same numbers and the same variable, they are fundamentally different. It's all about the placement of a variable.   The equation on the left is a cubic equation; the variable is in the base of .  The equation on the right is an exponential equation; the variable is in the exponent of    Variable as Base vs. Variable as Exponent    Given equation      Given operation  The variable is cubed.  is raised to the power of     An equation that has a variable in the exponent is called an exponential equation. Sometimes, we can solve such equations by inspection . This means we look at an equation and see what number could go in place of the variable to make the equation true, such as in the equation ,where we know that because . Note: If a problem asks you to solve an equation by inspection, but you don't have that arithmetic fact memorized and don't see the answer, that's okay! In that case, use the instruction to \"solve by inspection\" as a hint that the answer is probably a small nice number, and solve by guess and check instead.    Solve the equations below by inspection.                  In , we saw that we can also undo the operation in an exponential equation using logarithms, which are often referred to as logs. We learned to use the log operation to solve equations when the base is the number 10 (such as ).  Solve the equations below. Think about the operation you would use to solve the equation first and then solve it. Round to the nearest thousandth.              What if the base isn't 10? For example, consider the examples You might be able to use inspection to see that the solution to is because you remember that , but the answers to the other two examples are not nice numbers.  There are two ways to solve this problem:  We said in that the log button on our calculators assumes the base is 10 unless we tell it otherwise . On some calculators, we can specificy the base we want to use for our log. In general, we write for the number that we need to raise to in order to get out as our answer. For example,   The expression is equal to , since .  The expression is equal to , since .  The expression is equal to , since .    Some calculators can only compute logs with a base of 10 and the special number . On these calculators, we use the formula .    Let's use both strategies to solve and .   Two Strategies to Solve Exponential Equations    Original Equation      Strategy 1  Take of both sides:  Use that to rewrite:  Use a calculator to find :  Use a calculator to find to check your answer. Is it ?  Take of both sides:  Use that to rewrite:  Use a calculator to find :  Use a calculator to find to check your answer. Is it ?    Strategy 2  Use the formula to get the answer:  Use a calculator to find the logs and divide:  Use a calculator to find to check your answer. Is it ?  Use the formula to get the answer:  Use a calculator to find the logs and divide:  Use a calculator to find to check your answer. Is it ?         Use one of the two strategies to solve each of the equations below. Round to the nearest thousandth.                     We looked at the following scenario in :   Suppose that the cost of attending a certain four-year private college (tuition and fees) was $16,500 in 1977 and that the cost increased about 3.2% every year.   We found that is a formula that models this situation where is tuition and is years since 1977. We then thought about how we might determine the year when tuition would reach $42,000. We considered various methods, such as guess-and-check (guessing different values and checking the results), to find a solution to the equation: .    In what year is tuition predicted to be $42,000? Use an algebraic strategy to find the answer.    What method could you use to determine whether your solution is correct? Explain your method, then use it to check your answer.        We also modeled the amount of caffeine Jacob has left in his body several hours after drinking a 16-oz coffee drink in . Suppose that Jacob has just consumed a 16-ounce cup of coffee containing 300 mg of caffeine.    If caffeine is being eliminated from Jacob's body at a rate of 13% every hour, how long before three quarters of the caffeine has been eliminated? Enter your answer rounded to the nearest hour. ( Hint: First, set up a model for the situation and then use it to answer the question.)    How much caffeine will be in Jason’s blood if he drinks another 16-ounce cup of coffee 5 hours after the first?     Exponential equations are often seen when working with accounts or loans that use compound interest. Compound interest occurs when interest is calculated on both the initial principal and any accumulated interest from previous periods. (Note: For comparison, recall that simple interest does not take into account the accumulated interest, that is, the interest each year is only based on the initial principal.) The equation for computing the amount of a loan, or in an account, that uses compound interest (assuming no change in principal) is where  represents the total amount of the loan or in the account.  represents the principal (initial amount of the loan or money put into the account).  represents the interest rate, written as a decimal.  represents the number of compounding periods per year.  represents the term of the loan in years or time since opening the account in years.   Suppose that you take out a $2000 loan with a compound interest rate of 4%, compounded annually (once a year). If you make no payments, and interest compounds annually, in how many years will the loan balance double (reach or surpass $4000)? Think about this on your own for a minute before sharing your ideas in your group.   "
+},
+{
+  "id": "a-one-step-eqns",
+  "level": "2",
+  "url": "sec-log-models.html#a-one-step-eqns",
+  "type": "Activity",
+  "number": "3.4.1",
+  "title": "",
+  "body": " We use \"opposite\" operations to solve equations. If you can see what operations are currently applied to a variable, you can do the opposite operations to solve the equation - to find out what number the variable stands for. Some examples of operations in math are: addition, subtraction, multiplication, division, raising a number to a power, and taking a root of a number (such as the square root).  Fill in the column on the right in the table below:      If you have an equation like...  ...you can solve it by using the opposite operation.  Write the operation you would use to solve the equation, and then solve it.                             "
+},
+{
+  "id": "sec-log-models-2-4",
+  "level": "2",
+  "url": "sec-log-models.html#sec-log-models-2-4",
+  "type": "Table",
+  "number": "3.4.2",
+  "title": "Variable as Base vs. Variable as Exponent",
+  "body": " Variable as Base vs. Variable as Exponent    Given equation      Given operation  The variable is cubed.  is raised to the power of    "
+},
+{
+  "id": "sec-log-models-2-5",
+  "level": "2",
+  "url": "sec-log-models.html#sec-log-models-2-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "exponential equation. inspection "
+},
+{
+  "id": "a-solve-by-inspection",
+  "level": "2",
+  "url": "sec-log-models.html#a-solve-by-inspection",
+  "type": "Activity",
+  "number": "3.4.2",
+  "title": "",
+  "body": "  Solve the equations below by inspection.             "
+},
+{
+  "id": "a-solve-with-log-10",
+  "level": "2",
+  "url": "sec-log-models.html#a-solve-with-log-10",
+  "type": "Activity",
+  "number": "3.4.3",
+  "title": "",
+  "body": "  In , we saw that we can also undo the operation in an exponential equation using logarithms, which are often referred to as logs. We learned to use the log operation to solve equations when the base is the number 10 (such as ).  Solve the equations below. Think about the operation you would use to solve the equation first and then solve it. Round to the nearest thousandth.             "
+},
+{
+  "id": "sec-log-models-3-5",
+  "level": "2",
+  "url": "sec-log-models.html#sec-log-models-3-5",
+  "type": "Table",
+  "number": "3.4.3",
+  "title": "Two Strategies to Solve Exponential Equations",
+  "body": " Two Strategies to Solve Exponential Equations    Original Equation      Strategy 1  Take of both sides:  Use that to rewrite:  Use a calculator to find :  Use a calculator to find to check your answer. Is it ?  Take of both sides:  Use that to rewrite:  Use a calculator to find :  Use a calculator to find to check your answer. Is it ?    Strategy 2  Use the formula to get the answer:  Use a calculator to find the logs and divide:  Use a calculator to find to check your answer. Is it ?  Use the formula to get the answer:  Use a calculator to find the logs and divide:  Use a calculator to find to check your answer. Is it ?    "
+},
+{
+  "id": "a-solve-exp-eqn-not-base-10",
+  "level": "2",
+  "url": "sec-log-models.html#a-solve-exp-eqn-not-base-10",
+  "type": "Activity",
+  "number": "3.4.4",
+  "title": "",
+  "body": "  Use one of the two strategies to solve each of the equations below. Round to the nearest thousandth.                  "
+},
+{
+  "id": "a-logs-in-application-tuition",
+  "level": "2",
+  "url": "sec-log-models.html#a-logs-in-application-tuition",
+  "type": "Activity",
+  "number": "3.4.5",
+  "title": "",
+  "body": "  We looked at the following scenario in :   Suppose that the cost of attending a certain four-year private college (tuition and fees) was $16,500 in 1977 and that the cost increased about 3.2% every year.   We found that is a formula that models this situation where is tuition and is years since 1977. We then thought about how we might determine the year when tuition would reach $42,000. We considered various methods, such as guess-and-check (guessing different values and checking the results), to find a solution to the equation: .    In what year is tuition predicted to be $42,000? Use an algebraic strategy to find the answer.    What method could you use to determine whether your solution is correct? Explain your method, then use it to check your answer.   "
+},
+{
+  "id": "a-logs-in-application-caffeine",
+  "level": "2",
+  "url": "sec-log-models.html#a-logs-in-application-caffeine",
+  "type": "Activity",
+  "number": "3.4.6",
+  "title": "",
+  "body": "  We also modeled the amount of caffeine Jacob has left in his body several hours after drinking a 16-oz coffee drink in . Suppose that Jacob has just consumed a 16-ounce cup of coffee containing 300 mg of caffeine.    If caffeine is being eliminated from Jacob's body at a rate of 13% every hour, how long before three quarters of the caffeine has been eliminated? Enter your answer rounded to the nearest hour. ( Hint: First, set up a model for the situation and then use it to answer the question.)    How much caffeine will be in Jason’s blood if he drinks another 16-ounce cup of coffee 5 hours after the first?   "
+},
+{
+  "id": "a-logs-in-application-compound-interest",
+  "level": "2",
+  "url": "sec-log-models.html#a-logs-in-application-compound-interest",
+  "type": "Activity",
+  "number": "3.4.7",
+  "title": "",
+  "body": " Exponential equations are often seen when working with accounts or loans that use compound interest. Compound interest occurs when interest is calculated on both the initial principal and any accumulated interest from previous periods. (Note: For comparison, recall that simple interest does not take into account the accumulated interest, that is, the interest each year is only based on the initial principal.) The equation for computing the amount of a loan, or in an account, that uses compound interest (assuming no change in principal) is where  represents the total amount of the loan or in the account.  represents the principal (initial amount of the loan or money put into the account).  represents the interest rate, written as a decimal.  represents the number of compounding periods per year.  represents the term of the loan in years or time since opening the account in years.   Suppose that you take out a $2000 loan with a compound interest rate of 4%, compounded annually (once a year). If you make no payments, and interest compounds annually, in how many years will the loan balance double (reach or surpass $4000)? Think about this on your own for a minute before sharing your ideas in your group. "
+},
+{
   "id": "sec-working-with-percentages-prep",
   "level": "1",
   "url": "sec-working-with-percentages-prep.html",
@@ -852,8 +951,8 @@ var ptx_lunr_docs = [
   "url": "sec-log-models-prep.html",
   "type": "Worksheet",
   "number": "4.4",
-  "title": "Logarithmic Models Prep",
-  "body": " Logarithmic Models Prep     Let's consider the steps we'd take to solve several equations!    Fill in the blanks:   In order to solve the equation you could from both sides of the equation.  This works because the operation of \"undoes\" the operation of .  After performing this step, you arrive at the solution, .     Fill in the blanks:   In order to solve the equation you could both sides of the equation by .  This works because the operation of \"undoes\" the operation of .  After performing this step, you arrive at the solution, .     Fill in the blanks:   In order to solve the equation you could both sides of the equation.  This works because the operation of \"undoes\" the operation of .  After performing this step, you arrive at the solution, .     Now we would like to introduce a new operation which \"undoes\" exponentiation. That operation is written as , and we say this as \"the log of x.\"\"  The term log is an abbreviation for the mathematical term logarithm . A logarithm is a quantity representing the power to which a fixed number (the base) must be raised to produce a given number.  For example, a logarithm, or log operation, can be used to find the exponent to which one must raise the number 10 to get the specific number as the output.  The expression \" \" is then equal to , since .  The expression \" \" is then equal to , since .  The expression \" \" is then equal to , since .    Most scientific and graphing calculators have a button or function labeled \"Log\" which performs this calculation. Calculators will assume that the base is 10 unless you specifically ask them to use a different base. We'll stick with base 10 for now.    What are the following logs?                Now we would like to use the log operation to solve equations. Consider the equation . Notice that the exponent is not a whole number in this case. We can still solve this equation by doing something to both sides of the equation, as we did in . In this case, we will \"take the log\" of both sides of the equation:   Solving an Equation with a Log    Initial equation     Take the log of both sides      Use a calculator's \"Log\" function to find and get the answer      We can can check this result using a calculator. If , we get , which is about . It is not exactly  because we rounded to three decimal places. Logs are often terrible decimals.    Using your calculator, follow the steps above to solve the equation . Round to the nearest thousandth.    Check your answer by finding , where is your answer. You should get , or something very close. Did you?    What happens if you try to follow the steps to solve the equation ? Why do you think that is?     You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Solve equations by undoing operations.     Understand that the log operation undoes the \"raise 10 to the power of...\" operation.        "
+  "title": "The Log Operation Prep Activities",
+  "body": " The Log Operation Prep Activities     Let's consider the steps we'd take to solve several equations!    Fill in the blanks:   In order to solve the equation you could from both sides of the equation.  This works because the operation of \"undoes\" the operation of .  After performing this step, you arrive at the solution, .     Fill in the blanks:   In order to solve the equation you could both sides of the equation by .  This works because the operation of \"undoes\" the operation of .  After performing this step, you arrive at the solution, .     Fill in the blanks:   In order to solve the equation you could both sides of the equation.  This works because the operation of \"undoes\" the operation of .  After performing this step, you arrive at the solution, .     Now we would like to introduce a new operation which \"undoes\" exponentiation. That operation is written as , and we say this as \"the log of x.\"  The term log is an abbreviation for the mathematical term logarithm . A logarithm is a quantity representing the power to which a fixed number (the base) must be raised to produce a given number.  For example, a logarithm, or log operation, can be used to find the exponent to which one must raise the number 10 to get the specific number as the output.  The expression \" \" is then equal to , since .  The expression \" \" is then equal to , since .  The expression \" \" is then equal to , since .    Most scientific and graphing calculators have a button or function labeled \"Log\" which performs this calculation. Calculators will assume that the base is 10 unless you specifically ask them to use a different base. We'll stick with base 10 for now.    What are the following logs?                Now we would like to use the log operation to solve equations. Consider the equation . Notice that the exponent is not a whole number in this case. We can still solve this equation by doing something to both sides of the equation, as we did in . In this case, we will \"take the log\" of both sides of the equation:   Solving an Equation with a Log    Initial equation     Take the log of both sides      Use a calculator's \"Log\" function to find and get the answer      We can can check this result using a calculator. If , we get , which is about . It is not exactly  because we rounded to three decimal places. Logs are often terrible decimals.    Using your calculator, follow the steps above to solve the equation . Round to the nearest thousandth.    Check your answer by finding , where is your answer. You should get , or something very close. Did you?    What happens if you try to follow the steps to solve the equation ? Why do you think that is?     You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Solve equations by undoing operations.     Understand that the log operation undoes the \"raise 10 to the power of...\" operation.        "
 },
 {
   "id": "pa-undoing-operations-warmup",
@@ -908,6 +1007,42 @@ var ptx_lunr_docs = [
   "number": "4.4.4",
   "title": "",
   "body": " You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Solve equations by undoing operations.     Understand that the log operation undoes the \"raise 10 to the power of...\" operation.      "
+},
+{
+  "id": "sec-exponential-trends-prep",
+  "level": "1",
+  "url": "sec-exponential-trends-prep.html",
+  "type": "Worksheet",
+  "number": "4.5",
+  "title": "Exponential Trends Prep Activities",
+  "body": " Exponential Trends Prep Activities     In and , we introduced the log operation, which undoes the \"raise 10 to the power of\" operation. We also saw that we can use the log base operation to undo the \"raise to the power of\" operation. This allowed us to solve exponential equations.  A logarithmic equation , or a log equation, is an equation that has the variable inside of a log. We will need to solve log equations in the next lesson. In order to solve log equations, we need to know how to undo the log operation. Fortunately, we don't need another new operation! The \"raise to the power of\" operation undoes the log base operation. For our purposes, it will be sufficient to use the \"raise 10 to the power of\" operation to undo the log (assumed baes 10) operation. That is, we will use the fact that to undo the log operation. This fact is true because is the number so that   As an example, let's solve the log equation . Applying the \"raise 10 to the power of\" operation to both sides gives us . Since , we can rewrite as . Using a calculator to find , we get that . We can check this is correct by using a calculator and finding . That's is close enough to that we can be confident the difference is just from rounding.  Use the \"raise 10 to the power of\" operation to undo the logs and solve each of the log equations below.               ( Hint: You'll need to do another step first to get an equation that looks like .)        We learned how to build a formula to describe a linear trend in . We will need to be able to do this in the next lesson, so let's practice now.  Every year, the Mauna Loa Observatory in Hawaii measures the levels of carbon dioxide ( ) in the atmosphere. The graph below shows the annual mean amounts, in parts per million, for the years 2006 - 2022 :   Annual Mean Ammounts (ppm) at the Mauna Loa Observatory    A table for the annual mean 2 amounts is:   Annual Mean CO 2 Amounts (ppm) at the Mauna Loa Observatory    Year  Annual Mean (ppm)    2006  382.09    2007  384.02    2008  385.83    2009  287.64    2010  390.1    2011  391.85    2012  394.06    2013  396.74    2014  398.81    2015  401.01    2016  404.41    2017  406.76    2018  408.72    2019  411.66    2020  414.24    2021  416.45    2022  418.56      Graph showing annual mean CO2 amounts from 2006 to 2022.       Explain why it's reasonable to find a linear model for this trend.    Sketch a line on the graph that fits the general trend, and use your line to find a formula for an appropriate linear model.    Using your model, predict how much CO 2 there will be in the atmosphere at Mauna Loa in 2050. How much confidence do you have in your prediction? Explain your answer.     You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Understand that the \"raise 10 to the power of...\" operation undoes the log operation.     Solve log equations by undoing the log operation.     Find a formula to model a linear trend.        "
+},
+{
+  "id": "pa-raise-to-power-undoes-log",
+  "level": "2",
+  "url": "sec-exponential-trends-prep.html#pa-raise-to-power-undoes-log",
+  "type": "Prep Activity",
+  "number": "4.5.1",
+  "title": "",
+  "body": "  In and , we introduced the log operation, which undoes the \"raise 10 to the power of\" operation. We also saw that we can use the log base operation to undo the \"raise to the power of\" operation. This allowed us to solve exponential equations.  A logarithmic equation , or a log equation, is an equation that has the variable inside of a log. We will need to solve log equations in the next lesson. In order to solve log equations, we need to know how to undo the log operation. Fortunately, we don't need another new operation! The \"raise to the power of\" operation undoes the log base operation. For our purposes, it will be sufficient to use the \"raise 10 to the power of\" operation to undo the log (assumed baes 10) operation. That is, we will use the fact that to undo the log operation. This fact is true because is the number so that   As an example, let's solve the log equation . Applying the \"raise 10 to the power of\" operation to both sides gives us . Since , we can rewrite as . Using a calculator to find , we get that . We can check this is correct by using a calculator and finding . That's is close enough to that we can be confident the difference is just from rounding.  Use the \"raise 10 to the power of\" operation to undo the logs and solve each of the log equations below.               ( Hint: You'll need to do another step first to get an equation that looks like .)   "
+},
+{
+  "id": "pa-practice-linear-trend",
+  "level": "2",
+  "url": "sec-exponential-trends-prep.html#pa-practice-linear-trend",
+  "type": "Prep Activity",
+  "number": "4.5.2",
+  "title": "",
+  "body": "  We learned how to build a formula to describe a linear trend in . We will need to be able to do this in the next lesson, so let's practice now.  Every year, the Mauna Loa Observatory in Hawaii measures the levels of carbon dioxide ( ) in the atmosphere. The graph below shows the annual mean amounts, in parts per million, for the years 2006 - 2022 :   Annual Mean Ammounts (ppm) at the Mauna Loa Observatory    A table for the annual mean 2 amounts is:   Annual Mean CO 2 Amounts (ppm) at the Mauna Loa Observatory    Year  Annual Mean (ppm)    2006  382.09    2007  384.02    2008  385.83    2009  287.64    2010  390.1    2011  391.85    2012  394.06    2013  396.74    2014  398.81    2015  401.01    2016  404.41    2017  406.76    2018  408.72    2019  411.66    2020  414.24    2021  416.45    2022  418.56      Graph showing annual mean CO2 amounts from 2006 to 2022.       Explain why it's reasonable to find a linear model for this trend.    Sketch a line on the graph that fits the general trend, and use your line to find a formula for an appropriate linear model.    Using your model, predict how much CO 2 there will be in the atmosphere at Mauna Loa in 2050. How much confidence do you have in your prediction? Explain your answer.   "
+},
+{
+  "id": "pa-prep-survey-exp-trends-prep",
+  "level": "2",
+  "url": "sec-exponential-trends-prep.html#pa-prep-survey-exp-trends-prep",
+  "type": "Prep Activity",
+  "number": "4.5.3",
+  "title": "",
+  "body": " You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Understand that the \"raise 10 to the power of...\" operation undoes the log operation.     Solve log equations by undoing the log operation.     Find a formula to model a linear trend.      "
 },
 {
   "id": "backmatter-2",
