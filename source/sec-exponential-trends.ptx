@@ -21,7 +21,7 @@
                     <figure xml:id="fig-us-pop-1700-to-2023-numbers">
                         <caption>Population</caption>
                         <image source="./images/US-pop-1700-to-2023.png" width="50%">
-                            <shortdescription>Graph showing the population in what is now the US between 1700 and 2023..</shortdescription>
+                            <shortdescription>Graph showing the population in what is now the US between 1700 and 2023.</shortdescription>
                             <description>
                                 <p>
                                     The population appears to have grown exponentially, from a little under a million people in 1700 to about 343 million in 2023.
@@ -83,7 +83,7 @@
                 <figure xml:id="fig-us-population-1700-to-2023-log-repeat">
                     <caption>Log of US Population Between 1700 and 2023. </caption>
                     <image source="./images/US-pop-1700-to-2023-log.png" width="50%">
-                        <shortdescription>Graph showing the log of the population in what is now the US between 1700 and 2023..</shortdescription>
+                        <shortdescription>Graph showing the log of the population in what is now the US between 1700 and 2023.</shortdescription>
                         <description>
                             <p>
                                 The log of the population is roughly linear. It seems to be about 5.95 in 1700, and about 8.54 in 2023.
@@ -114,6 +114,71 @@
             <statement>
                 <p>
                     Summarize the process that we used in this activity and <xref ref="a-us-population-1700-to-2023-start"/> to find an exponential model or a data set.
+                </p>
+            </statement>
+        </task>
+    </activity>
+  </page>
+
+  <page>
+    <activity xml:id="a-child-mortality">
+        <introduction>
+            <p>
+                The graphs below show
+            </p>
+            <figure xml:id="fig-us-child-mortality">
+                <caption>US Child Mortality Rate Between 1933 and 2021. </caption>
+                <sidebyside>
+                    <figure xml:id="fig-us-child-mortality-numbers">
+                        <caption>Child Mortality Rate</caption>
+                        <image source="./images/US-child-mortality-1933-to-2021.png" width="50%">
+                            <shortdescription>Graph showing the child mortality rate in the US between 1933 and 2021.</shortdescription>
+                            <description>
+                                <p>
+                                    The child mortality rate appears to have decreased exponentially, from nearly 8% in 1934 to about 0.6% in 2021.
+                                </p>
+                            </description>
+                        </image>
+                    </figure>
+                    <figure xml:id="fig-us-child-mortality-log">
+                        <caption>Log of Child Mortality Rate</caption>
+                        <image source="./images/US-child-mortality-1933-to-2021-log.png" width="50%">
+                            <shortdescription>Graph showing the log of the child mortality rate in the US between 1933 and 2021.</shortdescription>
+                            <description>
+                                <p>
+                                    The log of the child mortality rate is approximately linear. It's about 0.9 in 1934 and about -0.2 in 2021.
+                                </p>
+                            </description>
+                        </image>
+                    </figure>
+                </sidebyside>
+            </figure>
+        </introduction>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Explain why a linear model is a better fit for the log of the child mortality rate than the child mortality rate.
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Find a formula for a linear model for the log of the child mortality rate.
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Find a formula for an exponential model for the child mortality rate.
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Use your exponential model for the child mortality rate to estimate it in 1940, 1995, and 2025. What do you notice? What do you wonder?
                 </p>
             </statement>
         </task>
@@ -153,6 +218,228 @@
                 </tabular>
             </table>
         </introduction>
+        <task>
+            <statement>
+                <p>
+                    Graph the data on the axes below left. Explain how the graph tells you that an exponential model is probably a better fit than a linear model.
+                </p>
+                <sidebyside width="30%">
+                    <figure xml:id="fig-cost-mb-storage">
+                        <caption>Cost Per Megabyte of Storage Space</caption>
+                        <image xml:id="graph-cost-mb-storage" width="30%">
+                            <description>
+                                <p>
+                                    Blank axes. The horizontal axis goes from 0 to 24, and the vertical axis goes from 0 to 200.
+                                </p>
+                            </description>
+                            <shortdescription>Blank axes.</shortdescription>
+                            <latex-image>
+                                \begin{tikzpicture}
+                                    \begin{axis}[grid = both, axis lines = center,
+                                                    xmin = -2, xmax = 24, xlabel = {Year Since 1980},
+                                                    ymin = -2, ymax = 200, ylabel = {\$}]
+                                    \end{axis}
+                                \end{tikzpicture}
+                            </latex-image>
+                        </image>
+                    </figure>
+                    
+                    <figure xml:id="fig-log-cost-mb-storage">
+                        <caption>Log Cost Per Megabyte of Storage Space</caption>
+                        <image xml:id="graph-log-cost-mb-storage" width="30%">
+                            <description>
+                                <p>
+                                    Blank axes. The horizontal axis goes from 0 to 24, and the vertical axis goes from -4 to 3.
+                                </p>
+                            </description>
+                            <shortdescription>Blank axes.</shortdescription>
+                            <latex-image>
+                                \begin{tikzpicture}
+                                    \begin{axis}[grid = both, axis lines = center,
+                                                    xmin = -2, xmax = 24, xlabel = {Year Since 1980},
+                                                    ymin = -4, ymax = 3, ylabel = {log(\$)}]
+                                    \end{axis}
+                                \end{tikzpicture}
+                            </latex-image>
+                        </image>
+                    </figure>
+                </sidebyside>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Complete the table below by finding the log of the costs. Then, plot your new points on the axis above right.
+                </p>
+                <table>
+                    <title>Log Cost Per Megabyte of Storage Space</title>
+                    <tabular row-headers="yes" halign="center" top="minor" bottom="minor" left="minor" right="minor">
+                        <row>
+                            <cell>Year</cell>
+                            <cell>1980</cell>
+                            <cell>1984</cell>
+                            <cell>1988</cell>
+                            <cell>1992</cell>
+                            <cell>1996</cell>
+                            <cell>2000</cell>
+                            <cell>2004</cell>
+                        </row>
+                        <row>
+                            <cell>Log Cost per MB ($)</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                    </tabular>
+                </table>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Explain why a linear model seems to be reasonable for the log of costs, then find a formula for a linear model for log costs.
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Convert your linear model for log costs into an exponential model for costs.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Use your exponential model for costs to fill in the table below. What do you notice? What do you wonder?
+                </p>
+                <table>
+                    <title>Cost Per Megabyte of Storage Space</title>
+                    <tabular row-headers="yes" halign="center" top="minor" bottom="minor" left="minor" right="minor">
+                        <row>
+                            <cell>Year</cell>
+                            <cell>1980</cell>
+                            <cell>1984</cell>
+                            <cell>1988</cell>
+                            <cell>1992</cell>
+                            <cell>1996</cell>
+                            <cell>2000</cell>
+                            <cell>2004</cell>
+                        </row>
+                        <row>
+                            <cell>Cost per MB ($)</cell>
+                            <cell>192.31</cell>
+                            <cell>87.86</cell>
+                            <cell>15.98</cell>
+                            <cell>4</cell>
+                            <cell>0.173</cell>
+                            <cell>0.006849</cell>
+                            <cell>0.001149</cell>
+                        </row>
+                        <row>
+                            <cell>Estimate Cost From Model</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                    </tabular>
+                </table>
+            </statement>
+        </task>
+    </activity>
+  </page>
+
+  <page>
+    <activity xml:id="a-linear-exp-or-neither">
+        <introduction>
+            <p>
+                Graph each of the data sets given below, and use your graph to decide whether a linear model, an exponential model, or neither is a reasonable fit for the trend. If a linear model or exponential model is a reasonable fit for the trend, find a formula for it.
+            </p>
+        </introduction>
+        <task workspace="3.5in">
+            <statement>
+                <p>
+                    The average price of electricity (in cents per kilowatt hour) from 1990 through 2008 is given below.
+                </p>
+                <table>
+                    <title>Average Electricity Price (cents per kilowatt hour)</title>
+                    <tabular row-headers="yes" halign="center" bottom="minor" top="minor" right="minor" left="minor">
+                        <row>
+                            <cell>Year</cell>
+                            <cell>1990</cell>
+                            <cell>1992</cell>
+                            <cell>1994</cell>
+                            <cell>1996</cell>
+                            <cell>1998</cell>
+                            <cell>2000</cell>
+                            <cell>2002</cell>
+                            <cell>2004</cell>
+                            <cell>2006</cell>
+                            <cell>2008</cell>
+                        </row>
+                        <row>
+                            <cell>Cost</cell>
+                            <cell>7.83</cell>
+                            <cell>8.21</cell>
+                            <cell>8.38</cell>
+                            <cell>8.36</cell>
+                            <cell>8.26</cell>
+                            <cell>8.24</cell>
+                            <cell>8.44</cell>
+                            <cell>8.95</cell>
+                            <cell>10.50</cell>
+                            <cell>11.26</cell>
+                        </row>
+                    </tabular>
+                </table>
+            </statement>
+        </task>
+        <task workspace="3.5in">
+            <statement>
+                <p>
+                    The average cost of a loaf of white bread from 1986 through 2008 is given below.
+                </p>
+                <table>
+                    <title>Average Cost of a Loaf of White Bread ($)</title>
+                    <tabular row-headers="yes" halign="center" bottom="minor" top="minor" right="minor" left="minor">
+                        <row>
+                            <cell>Year</cell>
+                            <cell>1986</cell>
+                            <cell>1988</cell>
+                            <cell>1990</cell>
+                            <cell>1995</cell>
+                            <cell>1997</cell>
+                            <cell>2000</cell>
+                            <cell>2002</cell>
+                            <cell>2004</cell>
+                            <cell>2006</cell>
+                            <cell>2008</cell>
+                        </row>
+                        <row>
+                            <cell>Cost</cell>
+                            <cell>0.57</cell>
+                            <cell>0.66</cell>
+                            <cell>0.70</cell>
+                            <cell>0.84</cell>
+                            <cell>0.88</cell>
+                            <cell>0.99</cell>
+                            <cell>1.03</cell>
+                            <cell>0.97</cell>
+                            <cell>1.14</cell>
+                            <cell>1.42</cell>
+                        </row>
+                    </tabular>
+                </table>
+            </statement>
+        </task>
     </activity>
   </page>
 </worksheet>
