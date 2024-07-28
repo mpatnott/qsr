@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <worksheet xml:id="sec-log-models" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Logarithmic Models</title>
+  <title>The Log Operation</title>
 
   <page>
     <activity xml:id="a-one-step-eqns">
@@ -56,7 +56,7 @@
     </ul>
     <table>
         <title>Variable as Base vs. Variable as Exponent</title>
-        <tabular>
+        <tabular bottom = "minor" top = "minor" left = "minor" right = "minor">
             <row>
                 <cell>Given equation</cell>
                 <cell><m>x^3 = 25</m></cell>
@@ -73,7 +73,7 @@
         An equation that has a variable in the exponent is called an <term>exponential equation.</term> Sometimes, we can solve such equations by <term>inspection</term>. This means we look at an equation and see what number could go in place of the variable to make the equation true, such as in the equation <m>10^x=100</m>,where we know that <m>x = 2</m> because <m>10^2= 100</m>. <em>Note:</em> If a problem asks you to solve an equation by inspection, but you don't have that arithmetic fact memorized and don't see the answer, that's okay! In that case, use the instruction to "solve by inspection" as a hint that the answer is probably a small nice number, and solve by guess and check instead.
     </p>
 
-    <activity>
+    <activity xml:id="a-solve-by-inspection">
         <introduction>
             <p>
                 Solve the equations below by inspection.
@@ -93,6 +93,188 @@
                 </p>
             </statement>
         </task>
+    </activity>
+  </page>
+
+  <page>
+    <activity xml:id="a-solve-with-log-10">
+        <introduction>
+            <p>
+                In <xref ref="sec-log-models-prep"/>, we saw that we can also undo the operation in an exponential equation using logarithms, which are often referred to as logs. We learned to use the log operation to solve equations when the base is the number 10 (such as <m>10^x=16</m>).
+            </p>
+            <p>
+                Solve the equations below. Think about the operation you would use to solve the equation first and then solve it. Round to the nearest thousandth.
+            </p>
+        </introduction>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    <m>10^x = 135</m>
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    <m>10^x = 12.2</m>
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+    <p>
+        What if the base isn't 10? For example, consider the examples
+        <me>3^x = 25 \qquad 7^x = 49 \qquad 1.05^x = 1.6</me>
+        You might be able to use inspection to see that the solution to <m>7^x = 49</m> is <m>x = 2</m> because you remember that <m>7^2=49</m>, but the answers to the other two examples are not nice numbers.
+    </p>
+    <p>
+        There are two ways to solve this problem:
+        <ol>
+            <li><p> We said in <xref ref="sec-log-models-prep"/> that the log button on our calculators assumes the base is 10 <em>unless we tell it otherwise</em>. On some calculators, we can specificy the base we want to use for our log. In general, we write <me>\log_b(x)</me> for the number that we need to raise <m>b</m> to in order to get out <m>x</m> as our answer. For example,</p>
+                <ul>
+                    <li>The expression <m>\log_7(49)</m> is equal to <m>2</m>, since <m>7^2 = 49</m>.</li>
+                    <li>The expression <m>\log_2(16)</m> is equal to <m>4</m>, since <m>2^4 = 16</m>.</li>
+                    <li>The expression <m>\log_b\left(b^x\right)</m> is equal to <m>x</m>, since <m>b^x = b^x</m>.</li>
+                </ul>
+            </li>
+            <li>Some calculators can only compute logs with a base of 10 and the special number <m>e</m>. On these calculators, we use the formula <me>\text{If } b^x = a \text{, then } x = \frac{\log a}{\log b}</me>.</li>
+        </ol>
+    </p>
+    <p>
+        Let's use both strategies to solve <m>3^x = 25</m> and <m>1.05^x = 1.6</m>.
+    </p>
+    <table>
+        <title>Two Strategies to Solve Exponential Equations</title>
+        <tabular row-headers="yes" bottom = "minor" top = "minor" left = "minor" right = "minor">
+            <row>
+                <cell>Original Equation</cell>
+                <cell><m>3^x = 25</m></cell>
+                <cell><m>1.05^x = 1.6</m></cell>
+            </row>
+            <row>
+                <cell>Strategy 1</cell>
+                <cell><line>Take <m>\log_3</m> of both sides: <m>\log_3\left(3^x\right) = \log_3(25)</m></line>
+                        <line>Use that <m>\log_b\left(b^x\right) = x</m> to rewrite: <m>x = \log_3(25)</m></line>
+                        <line>Use a calculator to find <m>\log_3(25)</m>: <m>x \approx 2.93</m></line>
+                        <line>Use a calculator to find <m>3^{2.93}</m> to check your answer. Is it <m>25</m>?</line></cell>
+                <cell><line>Take <m>\log_{1.05}</m> of both sides: <m>\log_{1.05}\left(1.05^x\right) = \log_{1.05}(1.6)</m></line>
+                        <line>Use that <m>\log_b\left(b^x\right) = x</m> to rewrite: <m>x = \log_{1.05}(1.6)</m></line>
+                        <line>Use a calculator to find <m>\log_{1.05}(1.6)</m>: <m>x \approx 9.633</m></line>
+                        <line>Use a calculator to find <m>1.05^{9.633}</m> to check your answer. Is it <m>1.6</m>?</line></cell>
+            </row>
+            <row>
+                <cell>Strategy 2</cell>
+                <cell><line>Use the formula to get the answer: <m>x = \frac{\log 25}{\log 3}</m></line>
+                        <line>Use a calculator to find the logs and divide: <m>x \approx 2.93</m></line>
+                        <line>Use a calculator to find <m>3^{2.93}</m> to check your answer. Is it <m>25</m>?</line></cell>
+                <cell><line>Use the formula to get the answer: <m>x = \frac{\log 1.6}{\log 1.05}</m></line>
+                        <line>Use a calculator to find the logs and divide: <m>x \approx 9.633</m></line>
+                        <line>Use a calculator to find <m>1.05^{9.633}</m> to check your answer. Is it <m>1.6</m>?</line></cell>
+            </row>
+        </tabular>
+    </table>
+  </page>
+
+  <page>
+    <activity xml:id="a-solve-exp-eqn-not-base-10">
+        <introduction>
+            <p>
+                Use one of the two strategies to solve each of the equations below. Round to the nearest thousandth.
+            </p>
+        </introduction>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    <m>3^x = 27</m>
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    <m>6^t = 200</m>
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    <m>1.032^t = 2</m>
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+    <activity xml:id="a-logs-in-application-tuition">
+        <introduction>
+            <p>
+                We looked at the following scenario in <xref ref="sec-exponential-models"/>:
+            </p>
+            <blockquote>
+                <p>
+                    Suppose that the cost of attending a certain four-year private college (tuition and fees) was $16,500 in 1977 and that the cost increased about 3.2% every year.
+                </p>
+            </blockquote>
+            <p>
+                We found that <me>T = 16,500(1.032)^t</me> is a formula that models this situation where <m>T</m> is tuition and <m>t</m> is years since 1977. We then thought about how we might determine the year when tuition would reach $42,000. We considered various methods, such as guess-and-check (guessing different values and checking the results), to find a solution to the equation:
+                <me>42,000 = 16,500(1.032)^t</me>.
+            </p>
+        </introduction>
+        <task workspace="1.5in">
+            <statement>
+                <p>
+                    In what year is tuition predicted to be $42,000? Use an algebraic strategy to find the answer.
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    What method could you use to determine whether your solution is correct? Explain your method, then use it to check your answer.
+                </p>
+            </statement>
+        </task>
+    </activity>
+  </page>
+
+  <page>
+    <activity xml:id="a-logs-in-application-caffeine">
+        <introduction>
+            <p>
+                We also modeled the amount of caffeine Jacob has left in his body several hours after drinking a 16-oz coffee drink in <xref ref="sec-exponential-models"/>. Suppose that Jacob has just consumed a 16-ounce cup of coffee containing 300 mg of caffeine.
+            </p>
+        </introduction>
+        <task workspace="1.5in">
+            <statement>
+                <p>
+                    If caffeine is being eliminated from Jacob's body at a rate of 13% every hour, how long before three quarters of the caffeine has been eliminated? Enter your answer rounded to the nearest hour. (<em>Hint:</em> First, set up a model for the situation and then use it to answer the question.)
+
+                </p>
+            </statement>
+        </task>
+        <task workspace="1.5in">
+            <statement>
+                <p>
+                    How much caffeine will be in Jason’s blood if he drinks another 16-ounce cup of coffee 5 hours after the first?
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+    <activity xml:id="a-logs-in-application-compound-interest" workspace="1.5in">
+        <p>
+            Exponential equations are often seen when working with accounts or loans that use compound interest. Compound interest occurs when interest is calculated on both the initial principal and any accumulated interest from previous periods. (Note: For comparison, recall that simple interest does not take into account the accumulated interest, that is, the interest each year is only based on the initial principal.) The equation for computing the amount of a loan, or in an account, that uses compound interest (assuming no change in principal) is
+            <me>A = P\left(1 + \frac{r}{n}\right)^{nt}</me>
+            where
+            <ul>
+                <li><m>A</m> represents the total amount of the loan or in the account.</li>
+                <li><m>P</m> represents the principal (initial amount of the loan or money put into the account).</li>
+                <li><m>r</m> represents the interest rate, written as a decimal.</li>
+                <li><m>n</m> represents the number of compounding periods per year.</li>
+                <li><m>t</m> represents the term of the loan in years or time since opening the account in years.</li>
+            </ul>
+        </p>
+        Suppose that you take out a $2000 loan with a compound interest rate of 4%, compounded annually (once a year). If you make no payments, and interest compounds annually, in how many years will the loan balance double (reach or surpass $4000)? Think about this on your own for a minute before sharing your ideas in your group.
     </activity>
   </page>
 </worksheet>

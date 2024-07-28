@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <worksheet xml:id="sec-log-models-prep" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Logarithmic Models Prep</title>
+  <title>The Log Operation Prep</title>
 
   <page>
     <investigation xml:id="pa-undoing-operations-warmup">
@@ -147,15 +147,15 @@
         </p>
         <table>
             <tabular bottom = "minor" top = "minor" left = "minor" right = "minor">
-                <row header ="yes" bottom = "minor">
+                <row header ="yes">
                     <cell>Skill or Concept: I can …</cell>
                     <cell>Rating from 1 to 5</cell>
                 </row>
-                <row bottom = "minor">
+                <row>
                     <cell>Solve equations by undoing operations.</cell>
                     <cell></cell>
                 </row>
-                <row bottom = "minor">
+                <row>
                     <cell>Understand that the log operation undoes the "raise 10 to the power of..." operation.</cell>
                     <cell></cell>
                 </row>
