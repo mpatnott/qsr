@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="sec-exponential-trends-prep" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Applying Exponential Models to Real Scenarios Prep Activities</title>
+
+  <page>
+    <introduction>
+        <p>
+            The Social Security program is a program managed by the U.S. government to make payments to individuals after they retire. Basically, current workers pay into the program (a portion of their paycheck is automatically deducted for this purpose) and people who are retired receive payments from this program, based on their income while they worked. The following text is from a March 2023 NPR story.<fn><url href="https://www.npr.org/2023/03/31/1167378958/social-security-medicare-entitlement-programs-budget" /></fn> Please read the excerpt and answer the questions.
+        </p>
+        <blockquote>
+            <p>
+                <alert>Social Security is now expected to run short of cash by 2033</alert>
+            </p>
+            <p>
+                The Social Security program is expected to run short of cash to pay promised benefits in about ten years, while a key trust fund for Medicare will run out of funds by 2031, according to new forecasts issued Friday by trustees of both programs. Social Security benefits for retirees and others are primarily paid for through payroll taxes on current workers, and are supplemented by a trust fund.
+            </p>
+            <p>
+                Benefits paid out by the program have exceeded money coming in since 2021, and the trust fund is now expected to be depleted by 2033. That's a year earlier than forecast last year, thanks in part to slower economic growth.
+            </p>
+            <p>
+                Unless changes are made before then to shore up the program, 66 million Social Security recipients would see their benefits cut by 23-25%.
+            </p>
+            <p>
+                Meanwhile, the Medicare trust fund, which supplements payments to hospitals and nursing homes, is also running out of cash. That could result in an 11% pay cut to health care providers unless changes are made by 2031. That deadline is three years later than had been forecast last year.
+            </p>
+            <p>
+                <alert>Millions depend on Social Security, Medicare</alert>
+            </p>
+            <p>
+                Treasury Secretary Janet Yellen, who leads the trustees, stressed the importance of propping up both trust funds to avoid draconian cuts in benefits and provider payments.
+            </p>
+            <p>
+                "Social Security and Medicare are two bedrock programs that older Americans rely upon for their retirement security," Yellen said in a statement. "The Biden-Harris Administration is committed to ensuring the long-term viability of these critical programs so that retirees can receive the hard-earned benefits they're owed."
+            </p>
+            <p>
+                The primary challenge for Social Security is demographic. As aging baby boomers retire, there are fewer workers paying into the program to support the rising cost of benefits. As of last year, there were just 2.7 workers paying into the system for each person drawing Social Security benefits.
+            </p>
+            <p>
+                Additionally, a smaller fraction of income is now subject to the payroll taxes that support Social Security.
+            </p>
+            <p>
+                Patching the program will require higher taxes, lower benefits or some combination of the two.
+            </p>
+            <p>
+                "The only responsible thing to do is admit that we've got to make changes and we disagree about how to do it but let's sit down and try to figure those out," said Maya Macguineas, president of the Committee for a Responsible Federal Budget. "If we wait until the last minute, they'll be much, much harder."
+            </p>
+        </blockquote>
+    </introduction>
+  </page>
+
+  <page>
+    <investigation xml:id="pa-soc-security">
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    What is the main point of this article?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Why has the Social Security Administration been paying out more money than expected?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    What does the article suggest needs to be done to address these issues?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <introduction>
+                <p>
+                    The Social Security Administration posts answers to frequently asked questions about the Social Security Trust Funds, which can be accessed here <url href="https://www.ssa.gov/oact/progdata/fundFAQ.html" />. Use the website to help you find answers to the following questions:
+                </p>
+            </introduction>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        Which two of the following funds comprise the Social Security Trust Funds?
+                    </p>
+                    <ul>
+                        <li>Old-Age and Survivors Insurance (OASI).</li>
+                        <li>Temporary Assistance for Needy Families (TANF).</li>
+                        <li>Disability Insurance (DI).</li>
+                        <li>Women, Infants, and Children (WIC). </li>
+                    </ul>
+                </statement>
+            </task>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        In what year in the past were the reserves in the OASI trust fund nearly depleted?
+                    </p>
+                </statement>
+            </task>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    How were benefits paid out when the funds were nearly depleted?
+                </p>
+                <ol>
+                    <li>Federal income tax was increased to raise the money.</li>
+                    <li>Money was borrowed from other federal trust funds and repaid with interest.</li>
+                    <li>Benefits were reduced for four years.</li>
+                </ol>
+            </statement>
+        </task>
+    </investigation>
+  </page>
+
+  <page>
+    <investigation xml:id="pa-practice-build-exp">
+        <task workspace="2in">
+            <statement>
+                <p>
+                    According to carfax.com, the value of a new vehicle can drop by 20 percent after the first 12 months of ownership. Then, for the next four years, you can expect your car to lose roughly 10 percent of its value annually. Use the <url href="https://www.carfax.com/blog/car-depreciation">depreciation rates listed by CARFAX</url> to find the value after 5 years of a brand new Ford F-150 purchased for $62,520. Round to the nearest dollar.
+                </p>
+            </statement>
+        </task>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    Consider an item initially priced at $549.99. Find its value after three consecutive 10% markdowns. Round to the nearest cent.
+                </p>
+            </statement>
+        </task>
+    </investigation>
+
+    <investigation xml:id="pa-prep-survey-exp-trends-prep">
+        <p>
+            You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).
+        </p>
+        <table>
+            <tabular bottom = "minor" top = "minor" left = "minor" right = "minor">
+                <row header ="yes">
+                    <cell>Skill or Concept: I can …</cell>
+                    <cell>Rating from 1 to 5</cell>
+                </row>
+                <row>
+                    <cell>Set up and evaluate exponential models given starting values and rate of growth/decline.</cell>
+                    <cell></cell>
+                </row>
+            </tabular>
+        </table>
+    </investigation>
+  </page>
+</worksheet>
