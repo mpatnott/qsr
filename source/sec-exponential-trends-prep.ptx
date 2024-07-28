@@ -4,7 +4,7 @@
   <title>Exponential Trends Prep Activities</title>
 
   <page>
-    <investigation>
+    <investigation xml:id="pa-raise-to-power-undoes-log">
         <introduction>
             <p>
                 In <xref ref="sec-log-models-prep"/> and <xref ref="sec-log-models"/>, we introduced the log operation, which undoes the "raise 10 to the power of" operation. We also saw that we can use the log base <m>b</m> operation to undo the "raise <m>b</m> to the power of" operation. This allowed us to solve exponential equations.
@@ -49,7 +49,156 @@
             </statement>
         </task>
     </investigation>
+  </page>
 
+  <page>
+    <investigation xml:id="pa-practice-linear-trend">
+        <introduction>
+            <p>
+                We learned how to build a formula to describe a linear trend in <xref ref="sec-linear-trends"/>. We will need to be able to do this in the next lesson, so let's practice now.
+            </p>
+            <p>
+                Every year, the Mauna Loa Observatory in Hawaii measures the levels of carbon dioxide (<m>\text{CO}_2</m>) in the atmosphere. The graph below shows the annual mean amounts, in parts per million, for the years 2006 - 2022<fn><url href="https://gml.noaa.gov/ccgg/trends/mlo.html" /></fn>:
+            </p>
+            <figure xml:id="fig-co2-mauna-loa">
+                <caption>Annual Mean <m>\text{CO}_2</m> Ammounts (ppm) at the Mauna Loa Observatory</caption>
+                <image xml:id="graph-co2-mauna-loa" width="50%">
+                    <description>
+                        <p>
+                            A table for the annual mean <m>\text{CO}_2</m><sub>2</sub> amounts is:
+                        </p>
+                        <table>
+                            <title>Annual Mean CO<sub>2</sub> Ammounts (ppm) at the Mauna Loa Observatory</title>
+                            <tabular>
+                                <row header="yes" bottom="minor">
+                                    <cell>Year</cell>
+                                    <cell>Annual Mean <m>\text{CO}_2</m> (ppm)</cell>
+                                </row>
+                                <row>
+                                    <cell>2006</cell>
+                                    <cell>382.09</cell>
+                                </row>
+                                <row>
+                                    <cell>2007</cell>
+                                    <cell>384.02</cell>
+                                </row>
+                                <row>
+                                    <cell>2008</cell>
+                                    <cell>385.83</cell>
+                                </row>
+                                <row>
+                                    <cell>2009</cell>
+                                    <cell>287.64</cell>
+                                </row>
+                                <row>
+                                    <cell>2010</cell>
+                                    <cell>390.1</cell>
+                                </row>
+                                <row>
+                                    <cell>2011</cell>
+                                    <cell>391.85</cell>
+                                </row>
+                                <row>
+                                    <cell>2012</cell>
+                                    <cell>394.06</cell>
+                                </row>
+                                <row>
+                                    <cell>2013</cell>
+                                    <cell>396.74</cell>
+                                </row>
+                                <row>
+                                    <cell>2014</cell>
+                                    <cell>398.81</cell>
+                                </row>
+                                <row>
+                                    <cell>2015</cell>
+                                    <cell>401.01</cell>
+                                </row>
+                                <row>
+                                    <cell>2016</cell>
+                                    <cell>404.41</cell>
+                                </row>
+                                <row>
+                                    <cell>2017</cell>
+                                    <cell>406.76</cell>
+                                </row>
+                                <row>
+                                    <cell>2018</cell>
+                                    <cell>408.72</cell>
+                                </row>
+                                <row>
+                                    <cell>2019</cell>
+                                    <cell>411.66</cell>
+                                </row>
+                                <row>
+                                    <cell>2020</cell>
+                                    <cell>414.24</cell>
+                                </row>
+                                <row>
+                                    <cell>2021</cell>
+                                    <cell>416.45</cell>
+                                </row>
+                                <row>
+                                    <cell>2022</cell>
+                                    <cell>418.56</cell>
+                                </row>
+                            </tabular>
+                        </table>
+                    </description>
+                    <shortdescription>Graph showing annual mean CO2 amounts from 2006 to 2022.</shortdescription>
+                    <latex-image>
+                        \begin{tikzpicture}
+                            \begin{axis}[grid = both, axis lines = center,
+                                            xmin = 2005, xmax = 2023, xlabel={Year}, xtick = {2006, 2010, 2014, 2018, 2022}, extra x ticks = {2007, 2008, 2009, 2011, 2012, 2013, 2015, 2016, 2017, 2019, 2020, 2021}, x tick label style={/pgf/number format/1000 sep={}}, extra x tick style={xticklabel=\empty,grid=major},
+                                            ymin = 380, ymax = 420, ylabel={Mean Annual $\text{CO}_2$ (ppm)}, ytick = {380, 390, 400, 410, 420}, extra y ticks = {385, 395, 405, 415}, extra y tick style={yticklabel=\empty,grid=major}, scaled ticks = false]
+                                \addplot[only marks] 
+                                    coordinates{
+                                        (2006, 382.09)
+                                        (2007, 384.02)
+                                        (2008, 385.83)
+                                        (2009, 387.64)
+                                        (2010, 390.1)
+                                        (2011, 391.85)
+                                        (2012, 394.06)
+                                        (2013, 396.74)
+                                        (2014, 398.81)
+                                        (2015, 401.01)
+                                        (2016, 404.41)
+                                        (2017, 406.76)
+                                        (2018, 408.72)
+                                        (2019, 411.66)
+                                        (2020, 414.25)
+                                        (2021, 416.45)
+                                        (2022, 418.56)
+                                    };
+                            \end{axis}
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </figure>
+        </introduction>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Explain why it's reasonable to find a linear model for this trend.
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Sketch a line on the graph that fits the general trend, and use your line to find a formula for an appropriate linear model.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Using your model, predict how much CO<sub>2</sub> there will be in the atmosphere at Mauna Loa in 2050. How much confidence do you have in your prediction? Explain your answer.
+                </p>
+            </statement>
+        </task>
+    </investigation>
     <investigation xml:id="pa-prep-survey-exp-trends-prep">
         <p>
             You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).
