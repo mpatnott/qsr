@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <worksheet xml:id="sec-log-models-prep" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>The Log Operation Prep</title>
+  <title>The Log Operation Prep Activities</title>
 
   <page>
     <investigation xml:id="pa-undoing-operations-warmup">
@@ -52,7 +52,7 @@
     </investigation>
 
     <p>
-        Now we would like to introduce a new operation which "undoes"  exponentiation. That operation is written as <m>\log(x)</m>, and we say this as "the log of x."" 
+        Now we would like to introduce a new operation which "undoes"  exponentiation. That operation is written as <m>\log(x)</m>, and we say this as "the log of x."
     </p>
     <p>
         The term log is an abbreviation for the mathematical term <term>logarithm</term>. A logarithm is a quantity representing the power to which a fixed number (the base) must be raised to produce a given number.

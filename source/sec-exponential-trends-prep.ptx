@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="sec-exponential-trends-prep" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Exponential Trends Prep Activities</title>
+
+  <page>
+    <investigation>
+        <introduction>
+            <p>
+                In <xref ref="sec-log-models-prep"/> and <xref ref="sec-log-models"/>, we introduced the log operation, which undoes the "raise 10 to the power of" operation. We also saw that we can use the log base <m>b</m> operation to undo the "raise <m>b</m> to the power of" operation. This allowed us to solve exponential equations.
+            </p>
+            <p>
+                A <term>logarithmic equation</term>, or a log equation, is an equation that has the variable inside of a log. We will need to solve log equations in the next lesson. In order to solve log equations, we need to know how to undo the log operation. Fortunately, we don't need another new operation! The "raise <m>b</m> to the power of" operation undoes the log base <m>b</m> operation. For our purposes, it will be sufficient to use the "raise 10 to the power of" operation to undo the log (assumed baes 10) operation. That is, we will use the fact that
+                <me>10^{\log(x)} = x</me>
+                to undo the log operation. This fact is true because <m>\log(x)</m> is the number so that <m>10^{\text{that number}} = x</m>
+            </p>
+            <p>
+                As an example, let's solve the log equation
+                <me>\log(x) = 4.5</me>.
+                Applying the "raise 10 to the power of" operation to both sides gives us
+                <me>10^{\log(x)} = 10^{4.5}</me>.
+                Since <m>10^{\log(x)} = x</m>, we can rewrite as
+                <me>x = 10^{4.5}</me>.
+                Using a calculator to find <m>10^{4.5}</m>, we get that <m>x \approx 31,622.8</m>. We can check this is correct by using a calculator and finding <m>\log(31,622.8) = 4.5000003214</m>. That's is close enough to <m>4.5</m> that we can be confident the difference is just from rounding.
+            </p>
+            <p>
+                Use the "raise 10 to the power of" operation to undo the logs and solve each of the log equations below.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>\log(x) = 6.8</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>\log(x) = -1</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                   <m>3\log(x) = 9.2 </m> (<em>Hint:</em> You'll need to do another step first to get an equation that looks like <m>\log(x) = \text{a number}</m>.)  
+                </p>
+            </statement>
+        </task>
+    </investigation>
+
+    <investigation xml:id="pa-prep-survey-exp-trends-prep">
+        <p>
+            You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).
+        </p>
+        <table>
+            <tabular bottom = "minor" top = "minor" left = "minor" right = "minor">
+                <row header ="yes">
+                    <cell>Skill or Concept: I can …</cell>
+                    <cell>Rating from 1 to 5</cell>
+                </row>
+                <row>
+                    <cell>Understand that the "raise 10 to the power of..." operation undoes the log operation.</cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Solve log equations by undoing the log operation.</cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Find a formula to model a linear trend.</cell>
+                    <cell></cell>
+                </row>
+            </tabular>
+        </table>
+    </investigation>
+  </page>
+</worksheet>

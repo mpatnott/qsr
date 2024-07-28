@@ -12,5 +12,6 @@
   <xi:include href="sec-relative-change-prep.ptx" />
   <xi:include href="sec-exponential-models-prep.ptx" />
   <xi:include href="sec-log-models-prep.ptx" />
+  <xi:include href="sec-exponential-trends-prep.ptx" />
 
 </chapter>
