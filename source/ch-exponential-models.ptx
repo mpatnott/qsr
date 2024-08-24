@@ -13,5 +13,6 @@
   <xi:include href="sec-exponential-models.ptx" />
   <xi:include href="sec-log-models.ptx" />
   <xi:include href="sec-exponential-trends.ptx" />
+  <xi:include href="sec-apply-exponential.ptx" />
 
 </chapter>
