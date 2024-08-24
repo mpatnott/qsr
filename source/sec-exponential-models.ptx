@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<worksheet xml:id="sec-exponential-models" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-exponential-models" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Exponential Models</title>
 
   <page>
@@ -321,4 +321,4 @@
         </task>
     </activity>
   </page>
-</worksheet>
+</section>

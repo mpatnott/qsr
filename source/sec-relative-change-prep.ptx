@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<worksheet xml:id="sec-relative-change-prep" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-relative-change-prep" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Relative Change Prep Activities</title>
 
   <page>
@@ -94,4 +94,4 @@
         </task>
     </investigation>
   </page>
-</worksheet>
+</section>
