@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-log-models" xmlns:xi="http://www.w3.org/2001/XInclude">
+<worksheet xml:id="sec-log-models" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>The Log Operation</title>
 
   <page>
@@ -277,4 +277,4 @@
         Suppose that you take out a $2000 loan with a compound interest rate of 4%, compounded annually (once a year). If you make no payments, and interest compounds annually, in how many years will the loan balance double (reach or surpass $4000)? Think about this on your own for a minute before sharing your ideas in your group.
     </activity>
   </page>
-</section>
+</worksheet>

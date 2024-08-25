@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-exponential-trends" xmlns:xi="http://www.w3.org/2001/XInclude">
+<worksheet xml:id="sec-exponential-trends" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Exponential Trends</title>
 
   <page>
@@ -442,4 +442,4 @@
         </task>
     </activity>
   </page>
-</section>
+</worksheet>
