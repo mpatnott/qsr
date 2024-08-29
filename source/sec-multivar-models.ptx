@@ -36,5 +36,161 @@
             <li><m>V_E</m> is a measure called <term>minute volume</term>, which is the volume of air that is inhaled and exhaled in one minute, measured in liters per minute. Normal levels are around 5 - 8 liters per minute. </li>
         </ul>
     </introduction>
+
+    <activity>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Which variables in the equations above have a positive (increasing) effect on REE? Take a minute to think about this on your own before sharing your ideas in your group. Explain how you determined your answer.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Which variable in the equations above has a negative (decreasing) effect on REE? Take a minute to think about this on your own before sharing your ideas in your group. Explain how you determined your answer. 
+                </p>
+            </statement>
+        </task>
+        <task workspace="">
+            <introduction>
+                <p>
+                    Use Devon's profile in the table below to do the calculations (i) - (iv). Round to the nearest calorie per day. Try each calculation on your own first before sharing your answers in your group.
+                </p>
+                <p>
+                    <em>Hint:</em> Don't forget that, in the equations, weight is measured in kilograms, height is measured in centimeters, and temperature is measured in degrees Celsius. You'll need to know that <m>1\text{ lb} \approx 0.4536\text{ kg}</m>, <m>1\text{ in} = 2.54\text{ cm}</m>, and that a formula for converting from degrees Fahrenheit (F) to degrees Celsius (C) is <m>C = \frac{5}{9}(F - 32)</m>.
+                </p>
+                <table>
+                    <title>Devon's Profile</title>
+                    <tabular halign="center" bottom = "minor" top = "minor" left = "minor" right = "minor">
+                        <row header="yes">
+                            <cell>Sex</cell>
+                            <cell>Age</cell>
+                            <cell>Weight</cell>
+                            <cell>Height</cell>
+                            <cell><m>T_{max}</m></cell>
+                            <cell><m>V_E</m></cell>
+                        </row>
+                        <row>
+                            <cell>Male</cell>
+                            <cell>29</cell>
+                            <cell>188 lbs</cell>
+                            <cell>5 ft, 11 in</cell>
+                            <cell>98.6 degrees F</cell>
+                            <cell>7 L/min</cell>
+                        </row>
+                    </tabular>
+                </table>
+            </introduction>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        American College of Chest Physicians
+                    </p>
+                </statement>
+            </task>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        Harris-Benedict
+                    </p>
+                </statement>
+            </task>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        Penn State 1998
+                    </p>
+                </statement>
+            </task>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        Penn State 2003
+                    </p>
+                </statement>
+            </task>
+        </task>
+        <task>
+            <introduction>
+                <p>
+                    Suppose Camila and Sofia, who are female twins, want to calculate their REE using the Harris-Benedict equation.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Using the information in the table below, calculate the predicted REE for Camila and for Sofia. Do the calculations on your own before sharing your answers in your group.
+                    </p>
+                    <table>
+                        <title>Camila and Sofia's weight, height, and age.</title>
+                        <tabular halign="center" bottom = "minor" top = "minor" left = "minor" right = "minor">
+                            <row header="yes">
+                                <cell></cell>
+                                <cell>Camila</cell>
+                                <cell>Sofia</cell>
+                            </row>
+                            <row>
+                                <cell>Weight (kg)</cell>
+                                <cell>61</cell>
+                                <cell>62</cell>
+                            </row>
+                            <row>
+                                <cell>Height (cm)</cell>
+                                <cell>165</cell>
+                                <cell>165</cell>
+                            </row>
+                            <row>
+                                <cell>Age (years)</cell>
+                                <cell>30</cell>
+                                <cell>30</cell>
+                            </row>
+                            <row>
+                                <cell>Predicted REE</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                        </tabular>
+                    </table>
+                </statement>
+            </task>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        How much higher is Sofia's predicted REE than Camila's predicted REE? How does this relate to the coefficient for weight in the Harris-Benedict equation for females?
+                    </p>
+                </statement>
+            </task>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        Interpret the coefficient for age in the Harris-Benedict equation for females.
+                    </p>
+                </statement>
+            </task>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Imagine that you have just completed a moderate 45-minute workout and decide to measure your REE. Which of the equations might be used to support the notion that working out can raise your REE?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    How accurate do you think these formulas are?
+                </p>
+            </statement>
+        </task>
+    </activity>
+  </page>
+
+  <page>
+    <introduction>
+        <p>
+            Multivariable models can also have inputs with non-linear relationships to the output. An example is seen in a fundamental equation in physics for kinetic energy. Kinetic energy is the amount of energy an object has due to its motion. Think about an object moving toward you. The heavier the object and the faster it is moving, the more kinetic energy it has (the harder it will hit you). The equation for calculating kinetic energy is:
+        </p>
+    </introduction>
   </page>
 </section>
