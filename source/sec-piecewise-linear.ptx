@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<worksheet xml:id="sec-piecewise-linear" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-piecewise-linear" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Piecewise Linear Models</title>
 
   <page>
@@ -362,4 +362,4 @@
         </task>
     </activity>
   </page>
-</worksheet>
+</section>
