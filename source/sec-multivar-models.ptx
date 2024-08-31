@@ -187,10 +187,309 @@
   </page>
 
   <page>
-    <introduction>
-        <p>
-            Multivariable models can also have inputs with non-linear relationships to the output. An example is seen in a fundamental equation in physics for kinetic energy. Kinetic energy is the amount of energy an object has due to its motion. Think about an object moving toward you. The heavier the object and the faster it is moving, the more kinetic energy it has (the harder it will hit you). The equation for calculating kinetic energy is:
-        </p>
-    </introduction>
+    <activity>
+        <introduction>
+            <p>
+                Multivariable models can also have inputs with non-linear relationships to the output. An example is seen in a fundamental equation in physics for kinetic energy. Kinetic energy is the amount of energy an object has due to its motion. Think about an object moving toward you. The heavier the object and the faster it is moving, the more kinetic energy it has (the harder it will hit you). The equation for calculating kinetic energy is:
+            </p>
+            <me>K = 0.5*m*v^2</me>
+            <p>
+                where
+                <ul>
+                    <li><m>K = </m> kinetic energy, measured in joules</li>
+                    <li><m>m =</m> mass of the object, in kilograms</li>
+                    <li><m>v =</m> speed of the object, in meters per second</li>
+                </ul>
+            </p>
+        </introduction>
+        <task workspace = "0.5in">
+            <p>
+                To consider the importance of kinetic energy, imagine being hit by a tennis ball that is traveling 50 miles per hour (it would probably hurt). Now imagine being hit by an average sized car moving at 65 miles per hour.
+            </p>
+            <p>
+                To quantify the difference, calculate the kinetic energy of the tennis ball and the car. Try this on your own first before sharing your answers in your group. Round to the nearest one hundredth of a joule. You will need: 
+                <ul>
+                    <li>Tennis balls have a mass of 58.5 grams.</li>
+                    <li>An average sized car has a mass of 1500 kilograms.</li>
+                    <li>To convert units: 1 kilogram = 1000 grams; 1 mile per hour ≈ 0.447 meters per second.</li>
+                </ul>
+            </p>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    How many times greater is the car's kinetic energy compared to the tennis ball's kinetic energy? Round to the nearest whole number.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    If we instead compare the kinetic energy of two average sized cars, Car 1 moving at 50 miles per hour and Car 2 moving at 25 miles per hour, how many times greater is the kinetic energy of Car 1 compared to Car 2?
+                </p>
+            </statement>
+        </task>
+    </activity>
+  </page>
+
+  <page>
+    <activity>
+        <introduction>
+            <p>
+                Your friend Dash is helping you search for a good used car to buy. They researched three cars yesterday and rated each car on a scale of 1 to 10 (10 is the best, 1 is the worst) in four different categories. Dash's recommendations are shown in the table below. Dash recommended that you look at Car 3, because it has the highest average rating of the three cars.
+            </p>
+            <table>
+                <title>Dash's Used Car Ratings</title>
+                <tabular row-headers="yes" halign="center" bottom = "minor" top = "minor" left = "minor" right = "minor">
+                    <row header="yes">
+                        <cell></cell>
+                        <cell>Car 1</cell>
+                        <cell>Car 2</cell>
+                        <cell>Car 3</cell>
+                    </row>
+                    <row>
+                        <cell>Reliability</cell>
+                        <cell>8</cell>
+                        <cell>6</cell>
+                        <cell>7</cell>
+                    </row>
+                    <row>
+                        <cell>Gas Mileage</cell>
+                        <cell>6</cell>
+                        <cell>7</cell>
+                        <cell>5</cell>
+                    </row>
+                    <row>
+                        <cell>Interior Features/Comfort</cell>
+                        <cell>5</cell>
+                        <cell>9</cell>
+                        <cell>6</cell>
+                    </row>
+                    <row>
+                        <cell>Cargo space</cell>
+                        <cell>7</cell>
+                        <cell>4</cell>
+                        <cell>10</cell>
+                    </row>
+                    <row>
+                        <cell>Mean (Average)</cell>
+                        <cell>6.5</cell>
+                        <cell>6.5</cell>
+                        <cell>7</cell>
+                    </row>
+                </tabular>
+            </table>
+        </introduction>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    What do you observe about how the three cars compare to each other across all categories?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    What is an explanation for why Car 3 has the highest overall mean (average)?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    What are the advantages and disadvantages of using a mean (average) to select the best overall car?  
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <p>
+                One way to show that some categories are more important than others would be to count that rating more times. For example, if Reliability is important, you can count it twice; if Comfort is even more important, you can count it four times. Your ratings might now look like this:
+            </p>
+            <table>
+                <title>Dash's Used Car Ratings</title>
+                <tabular row-headers="yes" halign="center" bottom = "minor" top = "minor" left = "minor" right = "minor">
+                    <row header="yes">
+                        <cell></cell>
+                        <cell>Car 1</cell>
+                        <cell>Car 2</cell>
+                        <cell>Car 3</cell>
+                    </row>
+                    <row>
+                        <cell>Reliability</cell>
+                        <cell>8</cell>
+                        <cell>6</cell>
+                        <cell>7</cell>
+                    </row>
+                    <row>
+                        <cell>Reliability</cell>
+                        <cell>8</cell>
+                        <cell>6</cell>
+                        <cell>7</cell>
+                    </row>
+                    <row>
+                        <cell>Gas Mileage</cell>
+                        <cell>6</cell>
+                        <cell>7</cell>
+                        <cell>5</cell>
+                    </row>
+                    <row>
+                        <cell>Interior Features/Comfort</cell>
+                        <cell>5</cell>
+                        <cell>9</cell>
+                        <cell>6</cell>
+                    </row>
+                    <row>
+                        <cell>Interior Features/Comfort</cell>
+                        <cell>5</cell>
+                        <cell>9</cell>
+                        <cell>6</cell>
+                    </row>
+                    <row>
+                        <cell>Interior Features/Comfort</cell>
+                        <cell>5</cell>
+                        <cell>9</cell>
+                        <cell>6</cell>
+                    </row>
+                    <row>
+                        <cell>Interior Features/Comfort</cell>
+                        <cell>5</cell>
+                        <cell>9</cell>
+                        <cell>6</cell>
+                    </row>
+                    <row>
+                        <cell>Cargo space</cell>
+                        <cell>7</cell>
+                        <cell>4</cell>
+                        <cell>10</cell>
+                    </row>
+                    <row>
+                        <cell>Mean (Average)</cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                </tabular>
+            </table>
+            <p>
+                Make a prediction for which car will have the highest overall rating and then calculate each average.
+            </p>
+        </task>
+        <task workspace="0.5in">
+            <introduction>
+                <p>
+                    This kind of average, where some values are counted more times than others, is called a <term>weighted average</term>. The <em>weights</em> refer to how much each value is counted. In the above example, you could say that the categories of Gas Mileage and Cargo Space have weights equal to 1, Reliability has a weight of 2, and Interior Features/Comfort has a weight of 4. So, the total number of weights is 8. (1 for Gas Mileage, 1 for Cargo Space, 2 for Reliability, 4 for Interior Features/Comfort = 8 total weights.)
+                </p>
+                <p>
+                    Weighted average problems are specific cases of multivariable models. You might notice that the categories for rating the cars are acting as input variables used to calculate an overall score for <q>Car Quality</q> (weighted average), which is the output variable.
+                </p>
+            </introduction>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        Which of the following represents the multivariable model used to calculate the score for Car Quality (weighted average) in the previous problem? The following variables represent the individual rating in each category: <m>R</m> = Reliability; <m>G</m> = Gas Mileage; <m>I</m> = Interior Features/Comfort; <m>C</m> = Cargo Space.
+                        <ol>
+                            <li><m>\text{Car Quality} = \frac{R + G + I + C}{4}</m></li>
+                            <li><m>\text{Car Quality} = \frac{R + G + I+ C}{8}</m></li>
+                            <li><m>\text{Car Quality} = \frac{2R + G + 4I + C}{4}</m></li>
+                            <li><m>\text{Car Quality} = \frac{2R + G + 4I + C}{8}</m></li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <introduction>
+                    <p>
+                        Devon suggests using a different weighting strategy. They agree with all of your preferences, but want to use bigger weights with the following formula:
+                    </p>
+                    <me>\text{Car Quality} = \frac{10R + 5G + 20I + 5C}{40}</me>
+                </introduction>
+                <task workspace="0.5in">
+                    <statement>
+                        <p>
+                            What is the weight for the Interior Features/Comfort category?
+                        </p>
+                    </statement>
+                </task>
+                <task workspace="0.5in">
+                    <statement>
+                        <p>
+                            How many total weights are used in this equation?
+                        </p>
+                    </statement>
+                </task>
+                <task workspace="0.5in">
+                    <statement>
+                        <p>
+                            Using the same ratings in each category from above, find the weighted average for each car using this new equation. How do these weighted averages compare to the earlier weighted averages? What could explain your results?
+                        </p>
+                    </statement>
+                </task>
+            </task>
+            <task>
+                <introduction>
+                    <p>
+                        Imagine using this approach in choosing a car and create your own weighted average formula based on your own personal preferences. Use the same four categories: Reliability, Gas Mileage, Interior Features/Comfort, and Cargo Space, but choose relative weights for each category based on what you think is important in a vehicle.
+                    </p>
+                </introduction>
+                <task workspace="0.5in">
+                    <statement>
+                        <p>
+                            Write your weighted average formula.
+                        </p>
+                    </statement>
+                </task>
+                <task workspace="0.5in">
+                    <statement>
+                        <p>
+                            Explain how you chose the weights for the different categories. 
+                        </p>
+                    </statement>
+                </task>
+                <task workspace="0.5in">
+                    <statement>
+                        <p>
+                            Use your formula to calculate the weighted average of each of the three cars.
+                        </p>
+                    </statement>
+                </task>
+                <task workspace="0.5in">
+                    <statement>
+                        <p>
+                            Which car has the highest weighted average according to your weighting? Which car would be the best out of the three for you?
+                        </p>
+                    </statement>
+                </task>
+            </task>
+        </task>
+    </activity>
+  </page>
+
+  <page>
+    <activity>
+        <introduction>
+            <p>
+                It was noted above that weighted average models are specific cases of multivariable models. There are many multivariable models that are not weighted average models, for example, the REE equations.
+            </p>
+            <p>
+                Consider the weighted average model from Question 12 and compare it to the Harris-Benedict equation for males' REE (both shown below).
+                <me>\text{Weighted Average:} \text{Car Quality} = \frac{10R + 5G + 20I + 5C}{40}</me>
+                <me>\text{Harris-Benedict for males:} REE = 66.4730 + 13.7516 * W + 5.0033 * H - 6.7550 * A</me>
+            </p>
+        </introduction>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    What differences do you notice between the equations?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Why is the Harris-Benedict model for male REE not a weighted average?
+                </p>
+            </statement>
+        </task>
+    </activity>
   </page>
 </section>
