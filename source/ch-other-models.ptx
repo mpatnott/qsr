@@ -5,4 +5,5 @@
     
     <!-- include sections -->
     <xi:include href="sec-multivar-models.ptx" />
+    <xi:include href="sec-power-models.ptx" />
 </chapter>
