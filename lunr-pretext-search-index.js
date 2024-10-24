@@ -1252,6 +1252,69 @@ var ptx_lunr_docs = [
   "body": "  It was noted above that weighted average models are specific cases of multivariable models. There are many multivariable models that are not weighted average models, for example, the REE equations.  Consider the weighted average model from Question 12 and compare it to the Harris-Benedict equation for males' REE (both shown below).      What differences do you notice between the equations?    Why is the Harris-Benedict model for male REE not a weighted average?   "
 },
 {
+  "id": "sec-power-models",
+  "level": "1",
+  "url": "sec-power-models.html",
+  "type": "Section",
+  "number": "5.2",
+  "title": "Power Models",
+  "body": " Power Models  "
+},
+{
+  "id": "sec-multivar-models-prep",
+  "level": "1",
+  "url": "sec-multivar-models-prep.html",
+  "type": "Section",
+  "number": "6.1",
+  "title": "Multivariables Models Prep Activities",
+  "body": " Multivariables Models Prep Activities  There are no prep activities for this section.  "
+},
+{
+  "id": "sec-power-models-prep",
+  "level": "1",
+  "url": "sec-power-models-prep.html",
+  "type": "Section",
+  "number": "6.2",
+  "title": "Power Models Prep Activities",
+  "body": " Power Models Prep Activities     The area of a square can be modeled by the formula where is the length of a side of the square and is the square's area.    Use the model to fill in the table below.   Areas of Squares    Side Length, , (cm)  1  2  3  4  5    Area, ,            What would change if the side lengths of the squares were measured in feet instead of centimeters?    Sketch a graph showing the relationship between the area of a square and its side length.    Explain how we know that this isn't a linear model.    Explain how we know that this isn't an exponential model.      A power model is a relationship between two quantities that can be written in the form , where and are the two quantities, is a number called the coefficient and is a number called the power .  For example, the area of a square model is a power model. The two quantities are the area ( ) and the side length ( ), the coefficient is , and the power is .  Determine whether or not each of the models below is a power model. If it is a power model, identify the quantities, the coefficient, and the power. If it's not a power model, explain why not.                               Create formulas for three models: a power model, an exponential model, and a model that is neither. Briefly explain your answer.     You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Identify whether or not a formula is a power model.     Explain the difference between power models and exponential models.        "
+},
+{
+  "id": "pa-area",
+  "level": "2",
+  "url": "sec-power-models-prep.html#pa-area",
+  "type": "Prep Activity",
+  "number": "6.2.1",
+  "title": "",
+  "body": "  The area of a square can be modeled by the formula where is the length of a side of the square and is the square's area.    Use the model to fill in the table below.   Areas of Squares    Side Length, , (cm)  1  2  3  4  5    Area, ,            What would change if the side lengths of the squares were measured in feet instead of centimeters?    Sketch a graph showing the relationship between the area of a square and its side length.    Explain how we know that this isn't a linear model.    Explain how we know that this isn't an exponential model.   "
+},
+{
+  "id": "sec-power-models-prep-2-2",
+  "level": "2",
+  "url": "sec-power-models-prep.html#sec-power-models-prep-2-2",
+  "type": "Prep Activity",
+  "number": "6.2.2",
+  "title": "",
+  "body": "  A power model is a relationship between two quantities that can be written in the form , where and are the two quantities, is a number called the coefficient and is a number called the power .  For example, the area of a square model is a power model. The two quantities are the area ( ) and the side length ( ), the coefficient is , and the power is .  Determine whether or not each of the models below is a power model. If it is a power model, identify the quantities, the coefficient, and the power. If it's not a power model, explain why not.                            "
+},
+{
+  "id": "sec-power-models-prep-2-3",
+  "level": "2",
+  "url": "sec-power-models-prep.html#sec-power-models-prep-2-3",
+  "type": "Prep Activity",
+  "number": "6.2.3",
+  "title": "",
+  "body": "  Create formulas for three models: a power model, an exponential model, and a model that is neither. Briefly explain your answer.   "
+},
+{
+  "id": "sec-power-models-prep-2-4",
+  "level": "2",
+  "url": "sec-power-models-prep.html#sec-power-models-prep-2-4",
+  "type": "Prep Activity",
+  "number": "6.2.4",
+  "title": "",
+  "body": " You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Identify whether or not a formula is a power model.     Explain the difference between power models and exponential models.      "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
