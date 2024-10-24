@@ -5,7 +5,124 @@
 
   <page>
     <investigation xml:id="pa-area">
-        The area of a square can be modeled by the formula
+        <introduction>
+            <p>
+                The area of a square can be modeled by the formula <me>A = s^2</me> where <m>s</m> is the length of a side of the square and <m>A</m> is the square's area.
+            </p>
+        </introduction>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Use the model to fill in the table below.
+                </p>
+                <table>
+                    <title>Areas of Squares</title>
+                    <tabular row-headers="yes" halign="center" top="minor" bottom="minor" left="minor" right="minor">
+                        <row>
+                            <cell>Side Length, <m>s</m>, (cm)</cell>
+                            <cell>1</cell>
+                            <cell>2</cell>
+                            <cell>3</cell>
+                            <cell>4</cell>
+                            <cell>5</cell>
+                        </row>
+                        <row>
+                            <cell>Area, <m>A</m>, <m>\textbf{(cm)}^2</m></cell>
+                            <cell><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/></cell>
+                            <cell><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/></cell>
+                            <cell><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/></cell>
+                            <cell><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/></cell>
+                            <cell><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/></cell>
+                        </row>
+                    </tabular>
+                </table>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    What would change if the side lengths of the squares were measured in feet instead of centimeters?
+                </p>
+            </statement>
+        </task>
+        <task workspace="1.5in">
+            <statement>
+                <p>
+                    Sketch a graph showing the relationship between the area of a square and its side length.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Explain how we know that this isn't a linear model.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Explain how we know that this isn't an exponential model.
+                </p>
+            </statement>
+        </task>
+    </investigation>
+
+    <investigation>
+        <introduction>
+            <p>
+                A <term>power model</term> is a relationship between two quantities that can be written in the form <me>Q_2 = c \times Q_1^p</me>, where <m>Q_1</m> and <m>Q_2</m> are the two quantities, <m>c</m> is a number called the <term>coefficient</term> and <m>p</m> is a number called the <term>power</term>.
+            </p>
+            <p>
+                For example, the area of a square model is a power model. The two quantities are the area (<m>A</m>) and the side length (<m>s</m>), the coefficient is <m>1</m>, and the power is <m>2</m>.
+            </p>
+            <p>
+                Determine whether or not each of the models below is a power model. If it is a power model, identify the quantities, the coefficient, and the power. If it's not a power model, explain why not.
+            </p>
+            <task>
+                <statement>
+                    <p>
+                        <m>i = -7m^3</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>p = 5 \times 8^s</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>E = -8 T^4 - 2</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>S = 6b^{-1}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>C = 5n^{3/5}</m>
+                    </p>
+                </statement>
+            </task>
+        </introduction>
+    </investigation>
+
+    <investigation>
+        <statement>
+            <p>
+                Create formulas for three models: a power model, an exponential model, and a model that is neither. Briefly explain your answer.
+            </p>
+        </statement>
     </investigation>
 
     <investigation>
