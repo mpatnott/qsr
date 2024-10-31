@@ -6,4 +6,5 @@
     <!-- include sections -->
     <xi:include href="sec-multivar-models-prep.ptx" />
     <xi:include href="sec-power-models-prep.ptx" />
+    <xi:include href="sec-quad-and-polyn-prep.ptx" />
 </chapter>

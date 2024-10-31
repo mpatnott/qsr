@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-quad-and-polyn-prep" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Quadratic and Polynomial Models Prep Activities</title>
+
+  <page>
+    <investigation>
+        <introduction>
+            <p>
+                Use the provided formulas to find the area or volume of the shape. You will need to decide which formula or formulas to use!
+            </p>
+            <ul>
+                <li>Area of a rectangle: <m>\text{length} \times \text{width}</m>
+                    <figure xml:id="fig-rectangle">
+                        <caption>Length and width of a rectangle</caption>
+                        <image xml:id="graph-rectangle" width="50%">
+                            <description>
+                                <p>
+                                    Rectangle with length and width labeled
+                                </p>
+                            </description>
+                            <shortdescription>Rectangle</shortdescription>
+                            <latex-image>
+                                \begin{tikzpicture}
+                                    \draw (0,0) -- node[below]{length} (4,0) -- node[right]{width} (4,3) -- (0,3) -- cycle;
+                                \end{tikzpicture}
+                            </latex-image>
+                        </image>
+                    </figure>
+                </li>
+                <li>Area of a triangle: <m>\frac12 \times \text{base} \times \text{height}</m>
+                    <figure xml:id="fig-triangle">
+                        <caption>Base and height of a triangle</caption>
+                        <image xml:id="graph-triangle" width="50%">
+                            <description>
+                                <p>
+                                    Triangles with base and height labeled
+                                </p>
+                            </description>
+                            <shortdescription>Triangles</shortdescription>
+                            <latex-image>
+                                \begin{tikzpicture}
+                                    \draw (5,0) -- node[below]{base} (9,0) -- node[right]{height} (9,3) -- cycle;
+                                    \draw (0,0) -- node[below]{base} (4,0) -- (1,3) -- cycle;
+                                    \draw[dashed] (1,0) -- node[right]{height} (1,3);
+                                \end{tikzpicture}
+                            </latex-image>
+                        </image>
+                    </figure>
+                </li>
+                <li>Area of a circle: <m>\pi \times (\text{radius})^2</m>
+                    <figure xml:id="fig-circle">
+                        <caption>Radius of a circle</caption>
+                        <image xml:id="graph-circle" width="50%">
+                            <description>
+                                <p>
+                                    Circle with radius
+                                </p>
+                            </description>
+                            <shortdescription>Circle</shortdescription>
+                            <latex-image>
+                                \begin{tikzpicture}
+                                    \draw (0,0) circle[radius=2];
+                                    \draw (0,0) -- node[above]{radius} (2,0);
+                                \end{tikzpicture}
+                            </latex-image>
+                        </image>
+                    </figure>
+                </li>
+                <li>Volume of a box: <m>\text{length} \times \text{width} \times \text{height}</m>
+                    <figure xml:id="fig-box">
+                        <caption>Length, width, and height of a box</caption>
+                        <image xml:id="graph-box" width="50%">
+                            <description>
+                                <p>
+                                    Box with length, width, and height
+                                </p>
+                            </description>
+                            <shortdescription>Box</shortdescription>
+                            <latex-image>
+                                \begin{tikzpicture}
+                                    \draw (0,3) -- node[left]{height} (0,0) -- node[below]{width} (4,0) -- node[right]{length} (5,0.5) -- (5,3.5) -- (1,3.5) -- (0,3) -- (4,3) --(4,0) (4,3) -- (5,3.5);
+                                    \draw[dashed] (0,0) -- (1,0.5) -- (5,0.5) (1,0.5) -- (1,3.5);
+                                \end{tikzpicture}
+                            </latex-image>
+                        </image>
+                    </figure>
+                </li>
+                <li>Volume of a pyramid: <m>\frac13 \times (\text{area of base}) \times \text{height}</m>
+                    <figure xml:id="fig-pyramid">
+                        <caption>Base and height of a pyramid</caption>
+                        <image xml:id="graph-pyramid" width="50%">
+                            <description>
+                                <p>
+                                    Pyramid with base and height
+                                </p>
+                            </description>
+                            <shortdescription>Pyramid</shortdescription>
+                            <latex-image>
+                                \begin{tikzpicture}
+                                    \draw (0,0) -- (0.75,2) -- (2,4) -- (0,0) -- (4,0) -- (4.25,2) -- (2,4) -- (4,0);
+                                    \draw[dashed] (0.75,2) -- (4.25,2);
+                                    \node at (2,1) {Base};
+                                    \draw[dashed] (0.5,1) -- (0,1) -- node[left]{height} (0,4) -- (0.5,4);
+                                \end{tikzpicture}
+                            </latex-image>
+                        </image>
+                    </figure>
+                </li>
+            </ul>
+        </introduction>
+        <task>
+            <statement>
+                <figure xml:id="fig-circle-rad2">
+                    <caption>Circle with radius 2 cm</caption>
+                    <image xml:id="graph-circle-rad2" width="50%">
+                        <description>
+                            <p>
+                                Circle with radius 2 cm
+                            </p>
+                        </description>
+                        <shortdescription>Circle with radius 2 cm</shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                \draw (0,0) circle[radius=2];
+                                \draw (0,0) -- node[above]{2 cm} (2,0);
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                </figure>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    The shaded area. Hint: You'll need to use the area of a rectangle formula twice.
+                </p>
+                <figure xml:id="fig-frame">
+                    <caption>Area of a frame</caption>
+                    <image xml:id="graph-frame" width="50%">
+                        <description>
+                            <p>
+                                Rectangle with length 1 and width 2, inside of a rectangle with length 4 and width 3. The area to find is the area between the rectangles
+                            </p>
+                        </description>
+                        <shortdescription>Rectangular frame</shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}
+                            \fill[gray!50, draw=black] (0,0) -- node[below, black]{4} (4,0) -- node[right, black]{3} (4,3) -- (0,3) -- cycle;
+                            \fill[white] (1.5,0.5) -- (1.5, 2.5) -- (2.5,2.5) -- node[left,black]{2} (2.5,0.5) -- node[above,black]{1} cycle;
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                </figure>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <figure xml:id="fig-composite">
+                    <caption>Composite shape made up of a square with side length 2, a triangle with base 2 and height 3, and a half of a circle with radius 1</caption>
+                    <image xml:id="graph-composite" width="50%">
+                        <description>
+                            <p>
+                                Composite shape made up of a square with side length 2, a triangle with base 2 and height 3, and a half of a circle with radius 1
+                            </p>
+                        </description>
+                        <shortdescription>Composite shape</shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                \draw (0,0) -- node[below]{2} (2,0) -- (2,2) -- (0,2) -- cycle;
+                                \draw (0,2) -- node[left]{3} (0,5) -- (2,2);
+                                \draw (2,0) arc[start angle=270, end angle=450, radius=1];
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                </figure>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Volume of a box with length 3, width 7, and height 2.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Volume of a period with base a rectangle with length 2 and width 4, and height of 1.5.
+                </p>
+            </statement>
+        </task>
+    </investigation>
+
+    <investigation>
+        <introduction>
+            <p>
+                The <term>distributive property</term> lets us rewrite multiplication of expressions in the form <m>a(b+c)</m> without parentheses. The distributive property says 
+                <me>a(b+c) = ab + ac</me>.
+                Some people find it helpful to represent the distributive property as finding the area of a rectangle in two ways:
+            </p>
+            <figure xml:id="fig-rectangle-distribution">
+                <caption>Visualizing the Distributive Property</caption>
+                <image xml:id="graph-rectangle-distribution" width="50%">
+                    <description>
+                        <p>
+                            The distributive property can be visualized as two ways to find the area of a rectangle with length <m>b + c</m> and width <m>a</m>. One way is to multiply the length and the width to get <m>a(b+c)</m>. The second way is to view the rectangle as two smaller rectangles, then add the areas of those rectangles to get <m>ab + bc</m>.
+                        </p>
+                    </description>
+                    <shortdescription>Distributive Property Visual</shortdescription>
+                    <latex-image>
+                        \begin{tikzpicture}
+                            \draw (0,0) -- node[left]{$a$} (0,1) -- node[above]{$b$} (2,1) -- node[above]{$c$} (4,1) -- (4,0) -- (0,0);
+                            \draw (2,0) -- (2,1);
+                            \node at (1,0.5){$ab$};
+                            \node at (3,0.5){$ac$};
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </figure>
+            <ol>
+                <li>
+                    <p>
+                        Multiply the length and the width to get <m>a(b+c)</m>.
+                    </p>
+                </li>
+                <li>Split the big rectangle into two little rectangles. Find the areas of the little rectangles and add them to get the area of the big rectangle.</li>
+            </ol>
+            <p>
+                For example, using the distributive property to rewrite the expression <m>2(5 - 3x)</m> gives us <m>2(5) - 2(3x) = 10 - 6x</m>. We can visualize this using the diagram below.
+            </p>
+            <figure xml:id="fig-rectangle-distribution-example">
+                <caption>An Example of the Distributive Property</caption>
+                <image xml:id="graph-rectangle-distribution-example" width="50%">
+                    <description>
+                        <p>
+                            A large rectangle with width 2 and length split into two pieces. The first piece of the length is 5, and the second piece is <m>-3x</m>. So, the large rectangle is made up of a small rectangle with width 2 and length 5 and a second small rectangle of width 2 and length <m>-3x</m>. The area of the first small rectangle is <m>2 \times 5 = 10</m> and the area of the second small rectangle is <m>2 \times (-3x) = -6x</m>. So, the area of the big rectangle is 10 - 6x.
+                        </p>
+                    </description>
+                    <shortdescription>Distributive Property Visual</shortdescription>
+                    <latex-image>
+                        \begin{tikzpicture}
+                            \draw (0,0) -- node[left]{$2$} (0,1) -- node[above]{$5$} (2,1) -- node[above]{$-3x$} (4,1) -- (4,0) -- (0,0);
+                            \draw (2,0) -- (2,1);
+                            \node at (1,0.5){$2 \times 5$};
+                            \node at (3,0.5){$2 \times (-3x)$};
+                            \node at (2,-0.5) {Total area = $2 \times 5 + 2 \times (-3x) = 10 - 6x$};
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </figure>
+            <p>
+                Use the distributive property to rewrite each of the expressions below.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>4(x + 3)</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>-3x(2x + 4)</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>5w(3w^2 - 2)</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>\frac12(4t - 5t^2 + 1)</m> (Hint: Extend the area model so that the big rectangle is made up of 3 smaller rectangles.)
+                </p>
+            </statement>
+        </task>
+    </investigation>
+
+    <investigation>
+        <introduction>
+            <p>
+                The distributive property also lets us rewrite multiplication of expressions in the form <m>(a+b)(c+d)</m> without parentheses. The distributive property says 
+                <me>(a+b)(c+d) = ac + ad + bc + bd</me>. The area model can also be helpful for this version of the distributive property.
+            </p>
+            <figure xml:id="fig-rectangle-distribution-2">
+                <caption>Visualizing the Distributive Property, Part 2</caption>
+                <image xml:id="graph-rectangle-distribution-2" width="50%">
+                    <description>
+                        <p>
+                            The distributive property can be visualized as two ways to find the area of a rectangle with length <m>c + d</m> and width <m>a+b</m>. One way is to multiply the length and the width to get <m>(a+b)(c+d)</m>. The second way is to view the rectangle as four smaller rectangles, then add the areas of those rectangles to get <m>ac + ad + bc + bd</m>.
+                        </p>
+                    </description>
+                    <shortdescription>Distributive Property Visual, Part 2</shortdescription>
+                    <latex-image>
+                        \begin{tikzpicture}
+                            \draw (0,0) -- node[left]{$b$} (0,1) -- node[left]{$a$} (0,2) -- node[above]{$c$} (2,2) -- node[above]{$d$} (4,2) -- (4,0) -- (0,0);
+                            \draw (2,0) -- (2,2);
+                            \draw (0,1) -- (4,1);
+                            \node at (1,1.5){$ac$};
+                            \node at (3,1.5){$ad$};
+                            \node at (1,0.5){$bc$};
+                            \node at (3,0.5){$bd$};
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </figure>
+            <p>
+                For example, using the distributive property to rewrite the expression <m>(2x + 4)(5 - 3x)</m> gives us <m>2x(5) - 2x(3x) + 4(5) - 4(3x) = 10x - 6x^2 + 20 - 12x = 20 - 6x^2 - 2x</m>. We can visualize this using the diagram below.
+            </p>
+            <figure xml:id="fig-rectangle-distribution-example-2">
+                <caption>An Example of the Distributive Property, Part 2</caption>
+                <image xml:id="graph-rectangle-distribution-example-2" width="50%">
+                    <description>
+                        <p>
+                            A large rectangle split in half both horizontally and vertically, to form four small rectangles inside the large rectangle. The halves of the vertical are labeled <m>2x</m> and 4. The halves of the horizontal are labeled 5 and <m>-3x</m>. The upper left rectangle has area <m>2x \times 5</m>, the upper right rectangle has area <m>2x \times (-3x)</m>, the lower left rectangle has area <m>4 \times 5</m>, and the lower right rectangle has area <m>4 \times (-3x)</m>.
+                        </p>
+                    </description>
+                    <shortdescription>Distributive Property Visual Example 2</shortdescription>
+                    <latex-image>
+                        \begin{tikzpicture}
+                            \draw (0,0) -- node[left]{$4$} (0,1) -- node[left]{$2x$} (0,2) -- node[above]{$5$} (2,2) -- node[above]{$-3x$} (4,2) -- (4,0) -- (0,0);
+                            \draw (2,0) -- (2,2);
+                            \draw (0,1) -- (4,1);
+                            \node at (1,1.5){$2x \times 5$};
+                            \node at (3,1.5){$2x \times (-3x)$};
+                            \node at (1,0.5){$4 \times 5$};
+                            \node at (3,0.5){$4 \times (-3x)$};
+                            \node at (2,-0.5) {Total area = $2x \times 5 + 2x \times (-3x) + 4 \times 5 + 4 \times (-3x)$};
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </figure>
+            <p>
+                Use the distributive property to rewrite each of the expressions below.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>(2x - 7)(3x + 6)</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>(a + 3)(4 - 5a)</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>-3(7x - 3)(2x - 9)</m>
+                </p>
+            </statement>
+        </task>
+    </investigation>
+
+    <investigation>
+        <p>
+            You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).
+        </p>
+        <table>
+            <tabular bottom = "minor" top = "minor" left = "minor" right = "minor">
+                <row header ="yes">
+                    <cell>Skill or Concept: I can …</cell>
+                    <cell>Rating from 1 to 5</cell>
+                </row>
+                <row>
+                    <cell>Use formulas to find areas and volumes.</cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Distribute to rewrite expressions of the form <m>a(b + c)</m> without parentheses.</cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Distribute to rewrite expressions of the form <m>(a+b)(c + d)</m> without parentheses.</cell>
+                    <cell></cell>
+                </row>
+            </tabular>
+        </table>
+    </investigation>
+  </page>
+</section>
