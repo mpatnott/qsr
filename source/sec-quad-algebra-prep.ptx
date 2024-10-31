@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-quad-algebra-prep" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Solving Quadratic Equations Prep Activities</title>
+
+  <page>
+    <investigation>
+        <introduction>
+            <p>
+                An equation that can be written in the form <me>ax^2 + bx + c = 0</me>, where <m>a</m>, <m>b</m>, and <m>c</m> are any number, is called a <term>quadratic equation</term>. The form <m>ax^2 + bx + c = 0</m> is sometimes called the <term>standard form</term> for a quadratic equation.
+            </p>
+            <p>
+                Rewrite each of the equations below in standard form, and find the values of <m>a</m>, <m>b</m>, and <m>c</m>.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>x^2 - 8x + 9 = 0</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>-6x - 13 + 2x^2 = 0</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>3x^2 - x = x^2 - 5x + 6</m>
+                </p>
+            </statement>
+        </task>
+    </investigation>
+
+    <investigation>
+        <introduction>
+            <p>
+                Quadratic equations with <m>b = 0</m> are easier to solve than quadratic equations with <m>b \neq 0</m>. For example, to solve
+                <me>3x^2 - 12 = 0</me>
+                we first add <m>12</m> to both sides to get
+                <me>3x^2 = 12</me>.
+                Next, we divide both sides by <m>3</m> and get
+                <me>x^2 = 4</me>.
+                Finally, we take the square root of both sides, being careful not to forget the negative square root, to get the answers
+                <me>x = 2, x = -2</me>.
+            </p>
+            <p>
+                Solve the quadratic equations below.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>x^2 - 27 = 0</m>      
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>32 - 2x^2 = 0</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>x^2 + 1 = 0</m>
+                </p>
+            </statement>
+        </task>
+    </investigation>
+
+    <investigation>
+        <p>
+            You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).
+        </p>
+        <table>
+            <tabular bottom = "minor" top = "minor" left = "minor" right = "minor">
+                <row header ="yes">
+                    <cell>Skill or Concept: I can …</cell>
+                    <cell>Rating from 1 to 5</cell>
+                </row>
+                <row>
+                    <cell>Rewrite a quadratic model in standard form.</cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Solve quadratic equations of the form <m>ax^2 + c = 0</m>.</cell>
+                    <cell></cell>
+                </row>
+            </tabular>
+        </table>
+    </investigation>
+  </page>
+</section>
