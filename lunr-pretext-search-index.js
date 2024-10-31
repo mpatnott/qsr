@@ -1405,6 +1405,42 @@ var ptx_lunr_docs = [
   "body": " You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Use formulas to find areas and volumes.     Distribute to rewrite expressions of the form without parentheses.     Distribute to rewrite expressions of the form without parentheses.      "
 },
 {
+  "id": "sec-quad-algebra-prep",
+  "level": "1",
+  "url": "sec-quad-algebra-prep.html",
+  "type": "Section",
+  "number": "6.4",
+  "title": "Solving Quadratic Equations Prep Activities",
+  "body": " Solving Quadratic Equations Prep Activities     An equation that can be written in the form , where , , and are any number, is called a quadratic equation . The form is sometimes called the standard form for a quadratic equation.  Rewrite each of the equations below in standard form, and find the values of , , and .                     Quadratic equations with are easier to solve than quadratic equations with . For example, to solve we first add to both sides to get . Next, we divide both sides by and get . Finally, we take the square root of both sides, being careful not to forget the negative square root, to get the answers .  Solve the quadratic equations below.                    You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Rewrite a quadratic model in standard form.     Solve quadratic equations of the form .        "
+},
+{
+  "id": "sec-quad-algebra-prep-2-1",
+  "level": "2",
+  "url": "sec-quad-algebra-prep.html#sec-quad-algebra-prep-2-1",
+  "type": "Prep Activity",
+  "number": "6.4.1",
+  "title": "",
+  "body": "  An equation that can be written in the form , where , , and are any number, is called a quadratic equation . The form is sometimes called the standard form for a quadratic equation.  Rewrite each of the equations below in standard form, and find the values of , , and .                  "
+},
+{
+  "id": "sec-quad-algebra-prep-2-2",
+  "level": "2",
+  "url": "sec-quad-algebra-prep.html#sec-quad-algebra-prep-2-2",
+  "type": "Prep Activity",
+  "number": "6.4.2",
+  "title": "",
+  "body": "  Quadratic equations with are easier to solve than quadratic equations with . For example, to solve we first add to both sides to get . Next, we divide both sides by and get . Finally, we take the square root of both sides, being careful not to forget the negative square root, to get the answers .  Solve the quadratic equations below.                  "
+},
+{
+  "id": "sec-quad-algebra-prep-2-3",
+  "level": "2",
+  "url": "sec-quad-algebra-prep.html#sec-quad-algebra-prep-2-3",
+  "type": "Prep Activity",
+  "number": "6.4.3",
+  "title": "",
+  "body": " You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Rewrite a quadratic model in standard form.     Solve quadratic equations of the form .      "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
