@@ -193,7 +193,7 @@
     </task>
   </activity>
 
-  <activity xml:id="build-a-box">
+  <activity xml:id="a-build-a-box">
     <introduction>
         <p>
             Pablo and Aisha are designing custom boxes to use at a special event. Attendees will fill their boxes with candy from a candy bar They'll make the boxes out of <m>8.5 \times 11</m> inch cardstock that they've had printed with their club's logo and advertisements. In this activity, you'll help Pablo and Aisha figure out how to build a box that will hold the most candy possible.
@@ -264,6 +264,120 @@
         <statement>
             <p>
                 <alert>Algebra Challenge:</alert> Use the distributive property to rewrite your volume formula without any parentheses!
+            </p>
+        </statement>
+    </task>
+  </activity>
+
+  <activity xml:id="a-profit">
+    <introduction>
+        <p>
+            In <xref ref="a-price-demand-revenue"/>, we looked at Edna's small business selling ceramic gnomes at craft fairs. In that activity, we explored her revenue. Edna is more interested in her <term>profit</term> than her revenue. Profit is the amount of money that she's made after subtracting her costs from her revenue.
+        </p>
+    </introduction>    
+    <task workspace="1in">
+        <statement>
+            <p>
+                Use the information given in <xref ref="a-price-demand-revenue"/> to find a model for Edna's costs, <m>C</m>, to produce <m>x</m> gnomes. Additionally, explain how we know that a linear model is appropriate. 
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                You should have found a positive slope for your cost model. Why does it make sense that the slope would be positive in this context? That is, why does it make sense that the cost model is increasing?
+            </p>
+        </statement>
+    </task>
+    <task workspace="1in">
+        <statement>
+            <p>
+                Let <m>P</m> be Edna's profit. Profit is revenue minus costs. Use your revenue model from <xref ref="a-price-demand-revenue"/> and your cost model to find a model for profit.
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Is your profit model any of: linear, exponential, power, quadratic, or polynomial? Explain how you know.
+            </p>
+        </statement>
+    </task>
+    <task workspace="2in">
+        <statement>
+            <p>
+                Use Desmos to graph your profit model, and sketch your graph here. What do you notice? What do you wonder?
+            </p>
+        </statement>
+    </task>
+    <task workspace="1in">
+        <statement>
+            <p>
+                Use Desmos and your graph to determine how many gnomes Edna needs to sell in order to at least breakeven, i.e., in order to have a profit of $0 or higher. Your answer should be a range of numbers!
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.75in">
+        <statement>
+            <p>
+                Use Desmos and your graph to determine how many gnomes Edna needs to sell in order to maximize her profit. 
+            </p>
+        </statement>
+    </task>
+    <task workspace="1in">
+        <statement>
+            <p>
+                Use your price-demand function from <xref ref="a-price-demand-revenue"/> to determine the range of prices that Edna should consider for her gnomes in order to at least breakeven, and the price that will give her the highest profit.
+            </p>
+        </statement>
+    </task>
+  </activity>
+
+  <activity xml:id="a-build-a-box-2">
+    <introduction>
+        <p>
+            In <xref ref="a-build-a-box"/>, you helped Pablo and Aisha build a box out of cardstock with the largest volume possible. At the event, Pablo noticed that most people didn't just fill their box to the top, but piled up candy up higher than the top of the box. He and Aisha want to reconsider their box design to take into account this additional candy. They want to maximize the volume, including not only the box but also the pile on top.
+        </p>
+    </introduction>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Is the length or width of the box going to be smaller? How do you know?
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Pablo thinks that most people's extra candy pile was roughly pyramid-shaped. The base of the period is the rectangular opening at the top of the box. Find a formula for the area of the base.
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Pablo thinks the height of most people's pyramid of candy was about a quarter of the shorterst side of the base. Find a formula for the height of the pyramid.
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                The volume of a pyramid is <me>\frac13 \times (\text{Area of Base}) \times \text{Height}</me>. Find a formula for the volume of the pyramid.
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Find a formula for the total volume of candy by adding your formula for the volume of the box from <xref ref="a-build-a-box"/> and your formula for the volume of the pyramid.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                What should <m>x</m> be in order to make the total volume as large as possible? <alert>Hint:</alert> Use Desmos to help you answer this question.
             </p>
         </statement>
     </task>
