@@ -3,7 +3,7 @@
 <section xml:id="sec-power-models" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Power Models</title>
 
-  <activity>
+  <activity xml:id="a-volume">
     <introduction>
         <p>
             The volume of a cube can be modeled by the formula <me>V = s^3</me> where <m>s</m> is the length of a side of the cube and <m>V</m> is the cube's volume.
@@ -51,7 +51,7 @@
     </task>
   </activity>
 
-  <activity>
+  <activity xml:id="a-cube-root-law">
     <introduction>
         <p>
             The cube root law<fn>R. Taagepera. ``The size of national assemblies.'' <em>Social Science Research</em> v. 1, no. 4. <url href="https://doi.org/10.1016/0049-089X(72)90084-1"/></fn>, in political science, observes that in many countries, the number of seats in the legislative body most similar to the US House of Representatives is approximately modeled by the formula <m>s = \sqrt[3]{P}</m>, where <m>s</m> is the number of seats in the legislative body and <m>P</m> is the country's population.
@@ -108,7 +108,7 @@
     </task>
   </activity>
  
-  <activity>
+  <activity xml:id="a-ree-mass">
     <introduction>
         <p>
             The resting energy expenditure (REE) is the amount of energy a person or animal needs for basic bodily functions. In the 1930s, biologist Max Kleiber<fn>Z. Wang, T. O'Connor, S. Heshka, and s. Heymsfield. ``The Reconstruction of Kleiber's Law at the Organ-Tissue Level.'' <em>The Journal of Nutrition</em> v. 131, no. 11. doi: 10.1093/jn/131.11.2967</fn> discovered that there is a relationship between the REE of an adult mammal and its body mass: <me>R = 70 \times M^{3/4}</me> where <m>R</m> is a mammal's REE (in kcal/d) and <m>M</m> is its body mass (in kg).
@@ -156,7 +156,7 @@
     </task>
   </activity>
 
-  <activity>
+  <activity xml:id="a-kepler-3rd-law">
     <introduction>
         <p>
             Kepler's Third Law tells us that <me>133404 \times a^3 = T^2</me> where <m>a</m> is the planet's distance from the Sun in AU and <m>T</m> is the number of days the planet takes to orbit the Sun. Note that 1 AU is the distance between Earth and the Sun.
@@ -199,7 +199,7 @@
     </task>
   </activity>
 
-  <activity>
+  <activity xml:id="a-color-noise">
     <introduction>
         <p>
             Pink noise is a type of sound that may help some people fall asleep and/or help people with ADHD concentrate.<fn>C. Johnson, <q>Have you tried pink noise for sleep? Here's what to know.</q> AP New, May 20, 2024. <url href="https://apnews.com/article/pink-brown-white-noise-sleep-focus-concentration-f5f24dad1effb09c1cf8b607bd22ebc7"></url></fn> Higher frequency sounds are less intense than low frequency sounds in pink noise. We can model this relationship using the formula <me>P = \frac{1}{f}</me> where <m>P</m> is the power of the sound and <m>f</m> is its frequency.

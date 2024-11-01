@@ -4,7 +4,7 @@
   <title>Quadratic and Polynomial Models Prep Activities</title>
 
   <page>
-    <investigation>
+    <investigation xml:id="pa-area-volume-formulas">
         <introduction>
             <p>
                 Use the provided formulas to find the area or volume of the shape. You will need to decide which formula or formulas to use!
@@ -192,7 +192,7 @@
         </task>
     </investigation>
 
-    <investigation>
+    <investigation xml:id="pa-distribute">
         <introduction>
             <p>
                 The <term>distributive property</term> lets us rewrite multiplication of expressions in the form <m>a(b+c)</m> without parentheses. The distributive property says 
@@ -283,7 +283,7 @@
         </task>
     </investigation>
 
-    <investigation>
+    <investigation xml:id="pa-distribute-2">
         <introduction>
             <p>
                 The distributive property also lets us rewrite multiplication of expressions in the form <m>(a+b)(c+d)</m> without parentheses. The distributive property says 
@@ -364,7 +364,7 @@
         </task>
     </investigation>
 
-    <investigation>
+    <investigation xml:id="pa-quad-polyn-prep-confidence">
         <p>
             You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).
         </p>

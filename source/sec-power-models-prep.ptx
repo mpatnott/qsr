@@ -68,7 +68,7 @@
         </task>
     </investigation>
 
-    <investigation>
+    <investigation xml:id="pa-id-power-model">
         <introduction>
             <p>
                 A <term>power model</term> is a relationship between two quantities that can be written in the form <me>Q_2 = c \times Q_1^p</me>, where <m>Q_1</m> and <m>Q_2</m> are the two quantities, <m>c</m> is a number called the <term>coefficient</term> and <m>p</m> is a number called the <term>power</term>.
@@ -117,7 +117,7 @@
         </introduction>
     </investigation>
 
-    <investigation>
+    <investigation xml:id="pa-power-model-examples">
         <statement>
             <p>
                 Create formulas for three models: a power model, an exponential model, and a model that is neither. Briefly explain your answer.
@@ -125,7 +125,7 @@
         </statement>
     </investigation>
 
-    <investigation>
+    <investigation xml:id="pa-power-model-prep-confidence">
         <p>
             You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).
         </p>

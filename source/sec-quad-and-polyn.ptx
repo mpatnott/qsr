@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-quad-and-polyn" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Quadratic and Polynomial Models</title>
+
+    <!-- This activity comes from the Stitz-Zeager supplemental materials cited in the front matter -->
+  <activity xml:id="a-price-demand-revenue">
+    <introduction>
+        <p>
+            Edna makes ceramic gnomes to sell at a local craft market each week. The cost of her ceramic-making equipment is $100 and the cost of supplies per gnome is $15. If the selling price per gnome is $50 then Edna will sell 28 gnomes per week but if she drops the price to $45 per gnome then she will sell 32 of them per week.
+        </p>
+    </introduction>
+    <task workspace="1in">
+        <statement>
+            <p>
+                A <term>price-demand function</term> is a mathematical model the describes the relationship between the selling price of an item and the demand, i.e., the number of items sold. Let <m>p</m> be the selling price for one of Edna's gnomes and <m>x</m> be the number of gnomes Edna sells. Assume that the relationship between <m>p</m> and <m>x</m> is linear, and use the information given in the problem statement to find a linear model for the price-demand function for Edna's gnomes.
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                You should have found a negative slope for your price-demand function. Why does it make sense that the slope would be negative in this context? That is, why does it make sense that the price-demand function is decreasing?
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Let <m>R</m> be Edna's <term>revenue</term>, the amount of money that she takes in from selling gnomes. Explain why it makes sense that <m>R = xp</m>. 
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                The model <m>R = xp</m> is a multivariable model for revenue. It's often useful to turn multivariable models into single variable models, when possible, because many of the mathematical tools we use to analyze models are simpler when there are fewer variables. We can get a model for revenue that includes only <m>R</m> and <m>x</m> (the number of items sold) by replacing <m>p</m> with the price-demand function.
+            </p>
+            <p>
+                For example, Manuel sells handmade cutting boards at the craft fair. His price-demand function for his cutting boards is <me>p = 90 - 2(x - 17)</me>. That means his revenue is <me>R = x(90 - 2(x-17))</me>. <alert>Note:</alert> The parentheses are important! In order to find revenue, we need to multiply the number of items sold by the price of an item. If Manuel wrote his revenue model as <me>R = x\times 90 - 2(x-17)</me>, then his model would find number of items sold times 90, then subtract <m>2(x-17)</m>, instead of number of items sold times that price of the item (which is <m>90 - 2(x-17)</m>).
+            </p>
+            <p>
+                Find a single variable model for Edna's revenue by replacing <m>p</m> with your price-demand function.
+            </p>
+        </statement>
+    </task>
+    <task workspace="1in">
+        <statement>
+            <p>
+                Manuel's revenue model is kind of messy! He decides to clean it up using distribution. First, he uses the distributive property to rewrite <m>-2(x - 17) = -2x + 34</m>. This gives him <me>R = x(90 - 2x + 34)</me>, which he simplifies by adding 90 and 34 to get <me>R = x(124 - 2x)</me>. Finally, Manuel distributes the <m>x</m> to get <me>R = 124x - 2x^2</me>. 
+            </p>
+            <p>
+                Use the distributive property to clean up your model for Edna's revenue.
+            </p>
+        </statement>
+    </task>
+    <task workspace="1in">
+        <statement>
+            <p>
+                What will Edna's revenue be is she sells 20 gnomes? 30 gnomes? 40 gnomes?
+            </p>
+        </statement>
+    </task>
+    <task workspace="2in">
+        <statement>
+            <p>
+                Use Desmos to create a graph for Edna's revenue. Sketch your graph here. What do you notice about the graph? What do you wonder?
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Explain how you know that this model for revenue is not a linear, exponential, or power model.
+            </p>
+        </statement>
+    </task>
+    <task workspace="1in">
+        <statement>
+            <p>
+                Use Desmos and your graph to find the number of gnomes that Edna needs to sell in order to have revenue of <alert>exactly</alert> $1200. You should have two answers!
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Try to find the number of gnomes that Edna needs to sell in order to have revenue of exactly $1200 using algebra instead of the graph. What problem(s) do you encounter? Or, what tool that we haven't discussed yet did you need to use?
+            </p>
+        </statement>
+    </task>
+    <task workspace="1in">
+        <statement>
+            <p>
+                Use Desmos and your graph to find the number of gnomes that Edna needs to sell in order to have revenue of <alert>at least</alert> $1200. Your answer should be a range of numbers!
+            </p>
+        </statement>
+    </task>
+  </activity>
+
+  <activity xml:id="a-polyn-vocab">
+    <introduction>
+        <p>
+            The models we found for revenue in <xref ref="a-price-demand-revenue"/> are <term>polynomials</term>. A <term>polynomial</term> model can be written as a sum of nonnegative whole number powers of a variable times constants. In formal symbols, we can write a polynomial in the form <me>a_n x^n + a_{n-1}x^{n-1} + \cdots + a_2 x^2 + a_1 x + a_0</me> for some nonegative whole number <m>n</m> and numbers <m>a_n, a_{n-1}, \ldots, a_1, a_0</m>. The numbers that are multiplied by the variable and its powers are called <term>coefficients.</term>
+        </p>
+        <p>
+            The highest power in a polynomial is called the <term>degree</term> of the polynomial. The <term>leading coefficient</term> is the coefficient of the highest power. A polynomial of degree 2 is also called a <term>quadratic</term> model.
+        </p>
+    </introduction>
+    <task xml:id="a-t-id-polyns">
+        <introduction>
+            <p>
+                Decide whether or not each of the expressions below is a polynomial. Briefly explain your answers.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>7x^3 - 8</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>5x^8</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>6x^{-6} - 9x^2 - 8</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>9^x - 7x^9</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>7x^{1/3} + 1</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>9 - \frac43 x^2 + 4x</m>
+                </p>
+            </statement>
+        </task>
+    </task>
+    <task workspace="1in">
+        <statement>
+            <p>
+                What are the degrees and leading coefficients of the expressions from <xref ref="a-t-id-polyns"/> that were polynomial?
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Are any of the expressions in <xref ref="a-t-id-polyns"/> quadratic models?
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Is a linear model a polynomial? Explain your answer.
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Are power models polynomials? Explain your answer.
+            </p>
+        </statement>
+    </task>
+    <task workspace="1in">
+        <statement>
+            <p>
+                Write a list of features that tell you that an expression is NOT a polynomial.
+            </p>
+        </statement>
+    </task>
+  </activity>
+
+  <activity xml:id="build-a-box">
+    <introduction>
+        <p>
+            Pablo and Aisha are designing custom boxes to use at a special event. Attendees will fill their boxes with candy from a candy bar They'll make the boxes out of <m>8.5 \times 11</m> inch cardstock that they've had printed with their club's logo and advertisements. In this activity, you'll help Pablo and Aisha figure out how to build a box that will hold the most candy possible.
+        </p>
+        <p>
+            The diagram below shows how Pablo and Aisha are going to make their boxes. They'll cut out the corner squares, then fold up the four edge rectangles. The center rectangle will be the bottom of the box.
+        </p>
+        <figure xml:id="fig-box-template">
+            <caption>Template for building a box.</caption>
+            <image xml:id="graph-box-template" width="75%">
+                <description>
+                    <p>
+                        Squares with side length <m>x</m> have been cut out of all four corners of an <m>8.5 \times 11</m> inch rectangle. The bottom edge of the center rectangle is labeled length, and the left edge of the center rectangle is labeled width.
+                    </p>
+                </description>
+                <shortdescription>Box template</shortdescription>
+                <latex-image>
+                    \begin{tikzpicture}
+                        \draw (0,0) -- node[below]{11 inch} (11,0) -- (11,8.5) -- (0,8.5) -- node[left]{8.5 inch} (0,0);
+                        \draw[dashed] (0,1) -- node[above, pos=0.05]{$x$} (11,1) (0,7.5) -- (11,7.5) (1,0) -- (1,8.5) (10,0) -- (10, 8.5);
+                        \draw (1,1) -- node[above]{length} (10,1) -- (10,7.5) -- (1,7.5) -- node[right]{width} (1,1);
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+        </figure>
+    </introduction>
+    <task workspace="0.5in">
+        <statement>
+            Explain why <m>x</m> is the height of the box.
+        </statement>
+    </task>
+    <task workspace="1in">
+        <statement>
+            <p>
+                Find formulas for the length and width of the box.
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Find a formula for the volume of the box.
+            </p>
+        </statement>
+    </task>
+    <task workspace="1in">
+        <statement>
+            <p>
+                Use your formula to find the volume of the box for three different values of <m>x</m>. (You choose the values of <m>x</m>).
+            </p>
+        </statement>
+    </task>
+    <task workspace="2in">
+        <statement>
+            <p>
+                Use Desmos to make graph your volume formula, and sketch your graph here.
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Use Desmos and your graph to find the value of <m>x</m> that gives Pablo and Aisha the box with the biggest volume.
+            </p>
+        </statement>
+    </task>
+    <task workspace="1in">
+        <statement>
+            <p>
+                <alert>Algebra Challenge:</alert> Use the distributive property to rewrite your volume formula without any parentheses!
+            </p>
+        </statement>
+    </task>
+  </activity>
+</section>
