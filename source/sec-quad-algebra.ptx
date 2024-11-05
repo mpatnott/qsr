@@ -104,4 +104,116 @@
         </statement>
     </task>
    </activity>
+
+   <!-- This activity is based on a scenario from page 60 of the Doug Gardner book cited in the front matter -->
+   <!-- <activity xml:id="a-tree-height-v-volume">
+        <introduction>
+            <p>
+                The volume of a tree can be estimated knowing its height using the quadratic model
+                <me>V = 0.008h^2 + 0.856h - 4.987</me>
+                where <m>V</m> is the volume of the tree in board feet and <m>h</m> is the height of the tree in feet. One board foot is 12" x 12" x 1". Board feet are a common way to measure the volume of a tree, since they tell us how much lumber we can get from the tree. 
+            </p>
+        </introduction>
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    Predict the number of board feet of lumbar a 50 ft tree would be expected to have.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.">
+            <statement>
+                <p>
+                    Predict the height of a tree that we would expect to give us 100 board feet of lumbar.
+                </p>
+            </statement>
+        </task>
+   </activity> -->
+
+    <!-- This activity is based on Exercise 2.3.14 from the Stitz-Zeager PreCalc book -->
+   <activity xml:id="a-cost-revenue-profit">
+    <introduction>
+        <p>
+            Suppose that the monthly cost, in hundreds of dollars, to produce <m>x</m> custom built electric scooters is <me>C = 20x + 1000</me> and the price-demand function, in hundreds of dollars, is <m>p = 140 - 2x</m> as long as we produce at most <m>70</m> scooters.
+        </p>
+    </introduction>
+    <task workspace="1in">
+        <statement>
+            <p>
+                The revenue from selling electric scooters is <me>R = px</me>. Re-write <m>R</m> by replacing <m>p</m> with the price-demand function and then simplifying.
+            </p>
+        </statement>
+    </task>
+    <task workspace="2in">
+        <statement>
+            <p>
+                Use Desmos to graph your revenue model and sketch your graph here. Based on your graph, why do you think the problem specifies that our price-demand function only makes sense when we produce at most <m>70</m> scooters?
+            </p>
+        </statement>
+    </task>
+    <task workspace="1.5in">
+        <statement>
+            <p>
+                The <term>breakeven point</term> is the number of scooters that we need to produce for our revenue to equal our costs. Find the breakeven point by setting up an equation and using the quadratic formula to solve it.
+            </p>
+        </statement>
+    </task>
+   </activity>
+
+   <activity xml:id="a-berlin-papyrus">
+    <introduction>
+        <p>
+            People have been solving quadratic equations for thousands of years! The Berlin Papyrus 6619 was probably written in about 1800 BCE in Egypt, and contains two math problems. Both math problems can be solved by thinking about quadratic equations (although that's not how the Egyptians would have solved them - they didn't know the quadratic formula, or have our modern algebra notation).
+        </p>
+        <p>
+            Here's the first problem:
+            <blockquote>
+                <p>
+                    You are told the area of a square of 100 square cubits is equal to that of two smaller squares, the side of one square is 1/2 + 1/4 of the other. What are the sides of the two unknown squares?
+                </p>
+            </blockquote>
+            Let's try to solve this problem! There are three squares in this problem:
+            <ul>
+                <li>Big square has area 100 square cubits. </li>
+                <li>Small square #1: Let's call it's side length <m>x</m>.</li>
+                <li>Small square #2: It's side length of 1/2 + 1/4 of <m>x</m>.</li>
+            </ul>
+        </p>
+    </introduction>
+    <task workspace="0.75in">
+        <statement>
+            <p>
+                What's the side length of the big square? How do you know?
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Write a formula for the area of small square #1. (This shouldn't involve a lot of steps - don't overthink it!)
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.75in">
+        <statement>
+            <p>
+                The problem says that small square #2 has side length of 1/2 + 1/4 of <m>x</m>. From a modern perspective, that's a weird way to write that (it was normal in ancient Egypt!)! Rewrite the side length of small square \#2 in a way that seems more normal from a modern perspective.
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.75in">
+        <statement>
+            <p>
+                Write a formula for the area of small square #2.
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.75in">
+        <statement>
+            <p>
+                The problem tells us that the big square's area is equal to the two smaller squares put together. Use this information to set up an equation, then use the quadratic formula to solve it and find the side length of small square #1.
+            </p>
+        </statement>
+    </task>
+   </activity>
 </section>
