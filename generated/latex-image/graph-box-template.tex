@@ -1,0 +1,23 @@
+\documentclass[12pt]{article}
+\usepackage{geometry}
+\geometry{letterpaper,total={408pt,9.0in}}
+%% Custom Page Layout Adjustments (use publisher page-geometry)
+\usepackage{amsmath,amssymb}
+\usepackage{tikz, pgfplots} \usetikzlibrary{positioning,matrix,arrows} \usetikzlibrary{shapes,decorations,shadows,fadings,patterns} \usetikzlibrary{decorations.markings}
+\ifdefined\tikzset
+\tikzset{ampersand replacement = \amp}
+\fi
+\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} \def\thecourse{MT 250} \def\theterm{Fall 2024}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\newcommand{\amp}{&}
+\begin{document}
+\pagestyle{empty}
+\resizebox{\width}{\height}{
+\begin{tikzpicture}
+    \draw (0,0) -- node[below]{11 inch} (11,0) -- (11,8.5) -- (0,8.5) -- node[left]{8.5 inch} (0,0);
+    \draw[dashed] (0,1) -- node[above, pos=0.05]{$x$} (11,1) (0,7.5) -- (11,7.5) (1,0) -- (1,8.5) (10,0) -- (10, 8.5);
+    \draw (1,1) -- node[above]{length} (10,1) -- (10,7.5) -- (1,7.5) -- node[right]{width} (1,1);
+\end{tikzpicture}
+}
+\end{document}

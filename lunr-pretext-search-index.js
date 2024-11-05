@@ -1360,6 +1360,60 @@ var ptx_lunr_docs = [
   "body": "  In , you helped Pablo and Aisha build a box out of cardstock with the largest volume possible. At the event, Pablo noticed that most people didn't just fill their box to the top, but piled up candy up higher than the top of the box. He and Aisha want to reconsider their box design to take into account this additional candy. They want to maximize the volume, including not only the box but also the pile on top.    Is the length or width of the box going to be smaller? How do you know?    Pablo thinks that most people's extra candy pile was roughly pyramid-shaped. The base of the period is the rectangular opening at the top of the box. Find a formula for the area of the base.    Pablo thinks the height of most people's pyramid of candy was about a quarter of the shorterst side of the base. Find a formula for the height of the pyramid.    The volume of a pyramid is . Find a formula for the volume of the pyramid.    Find a formula for the total volume of candy by adding your formula for the volume of the box from and your formula for the volume of the pyramid.    What should be in order to make the total volume as large as possible? Hint: Use Desmos to help you answer this question.   "
 },
 {
+  "id": "sec-quad-algebra",
+  "level": "1",
+  "url": "sec-quad-algebra.html",
+  "type": "Section",
+  "number": "5.4",
+  "title": "Solving Quadratic Equations",
+  "body": " Solving Quadratic Equations   The quadratic formula is a tool for solving quadratic equations. If we have a quadratic equation in standard form then the quadratic formula tells us that the solutions are   For example, let's find the solutions to . Since , , and , the quadratic formula tells us that the solutions are or and .  It's easy to make a mistake when using the quadratic formula, so it's a good idea to check your answers by plugging them back in. Since and , it looks like our answers are probably right and the only reason we're not getting exactly is rounding.   Caution: It's very important when using the quadratic formula that your equation is in standard form . If it's not, you need to rewrite the equation to put it into standard form before you can use the quadratic formula.     Use the quadratic formula to solve each of the equations below.                                     The apparent temperature or heat index is a measure of how hot it feels despite what the thermometer says. The more moisture that is in the air the hotter it will feel. If the actual temperature is F, then the heat index, , can be modeled by the formula where is the humidity percent.    The average humidity in July in Denver is 46%. What is the heat index in Denver on a F with typical humidity?    The average humidity in July in Chicago is 68%. What is the heat index in Chicago on a F with typical humidity?    What would the humidity need to be for a F day to feel like a F day?    What would the humidity need to be for a F to feel like a F day?         Suppose that the monthly cost, in hundreds of dollars, to produce custom built electric scooters is and the price-demand function, in hundreds of dollars, is as long as we produce at most scooters.    The revenue from selling electric scooters is . Re-write by replacing with the price-demand function and then simplifying.    Use Desmos to graph your revenue model and sketch your graph here. Based on your graph, why do you think the problem specifies that our price-demand function only makes sense when we produce at most scooters?    The breakeven point is the number of scooters that we need to produce for our revenue to equal our costs. Find the breakeven point by setting up an equation and using the quadratic formula to solve it.      People have been solving quadratic equations for thousands of years! The Berlin Papyrus 6619 was probably written in about 1800 BCE in Egypt, and contains two math problems. Both math problems can be solved by thinking about quadratic equations (although that's not how the Egyptians would have solved them - they didn't know the quadratic formula, or have our modern algebra notation).  Here's the first problem:  You are told the area of a square of 100 square cubits is equal to that of two smaller squares, the side of one square is 1\/2 + 1\/4 of the other. What are the sides of the two unknown squares?  Let's try to solve this problem! There are three squares in this problem:  Big square has area 100 square cubits.  Small square #1: Let's call it's side length .  Small square #2: It's side length of 1\/2 + 1\/4 of .      What's the side length of the big square? How do you know?    Write a formula for the area of small square #1. (This shouldn't involve a lot of steps - don't overthink it!)    The problem says that small square #2 has side length of 1\/2 + 1\/4 of . From a modern perspective, that's a weird way to write that (it was normal in ancient Egypt!)! Rewrite the side length of small square \\#2 in a way that seems more normal from a modern perspective.    Write a formula for the area of small square #2.    The problem tells us that the big square's area is equal to the two smaller squares put together. Use this information to set up an equation, then use the quadratic formula to solve it and find the side length of small square #1.    "
+},
+{
+  "id": "sec-quad-algebra-2-1",
+  "level": "2",
+  "url": "sec-quad-algebra.html#sec-quad-algebra-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "quadratic formula "
+},
+{
+  "id": "a-quad-form-practice",
+  "level": "2",
+  "url": "sec-quad-algebra.html#a-quad-form-practice",
+  "type": "Activity",
+  "number": "5.4.1",
+  "title": "",
+  "body": "  Use the quadratic formula to solve each of the equations below.                                 "
+},
+{
+  "id": "a-heat-index",
+  "level": "2",
+  "url": "sec-quad-algebra.html#a-heat-index",
+  "type": "Activity",
+  "number": "5.4.2",
+  "title": "",
+  "body": "  The apparent temperature or heat index is a measure of how hot it feels despite what the thermometer says. The more moisture that is in the air the hotter it will feel. If the actual temperature is F, then the heat index, , can be modeled by the formula where is the humidity percent.    The average humidity in July in Denver is 46%. What is the heat index in Denver on a F with typical humidity?    The average humidity in July in Chicago is 68%. What is the heat index in Chicago on a F with typical humidity?    What would the humidity need to be for a F day to feel like a F day?    What would the humidity need to be for a F to feel like a F day?   "
+},
+{
+  "id": "a-cost-revenue-profit",
+  "level": "2",
+  "url": "sec-quad-algebra.html#a-cost-revenue-profit",
+  "type": "Activity",
+  "number": "5.4.3",
+  "title": "",
+  "body": "  Suppose that the monthly cost, in hundreds of dollars, to produce custom built electric scooters is and the price-demand function, in hundreds of dollars, is as long as we produce at most scooters.    The revenue from selling electric scooters is . Re-write by replacing with the price-demand function and then simplifying.    Use Desmos to graph your revenue model and sketch your graph here. Based on your graph, why do you think the problem specifies that our price-demand function only makes sense when we produce at most scooters?    The breakeven point is the number of scooters that we need to produce for our revenue to equal our costs. Find the breakeven point by setting up an equation and using the quadratic formula to solve it.   "
+},
+{
+  "id": "a-berlin-papyrus",
+  "level": "2",
+  "url": "sec-quad-algebra.html#a-berlin-papyrus",
+  "type": "Activity",
+  "number": "5.4.4",
+  "title": "",
+  "body": "  People have been solving quadratic equations for thousands of years! The Berlin Papyrus 6619 was probably written in about 1800 BCE in Egypt, and contains two math problems. Both math problems can be solved by thinking about quadratic equations (although that's not how the Egyptians would have solved them - they didn't know the quadratic formula, or have our modern algebra notation).  Here's the first problem:  You are told the area of a square of 100 square cubits is equal to that of two smaller squares, the side of one square is 1\/2 + 1\/4 of the other. What are the sides of the two unknown squares?  Let's try to solve this problem! There are three squares in this problem:  Big square has area 100 square cubits.  Small square #1: Let's call it's side length .  Small square #2: It's side length of 1\/2 + 1\/4 of .      What's the side length of the big square? How do you know?    Write a formula for the area of small square #1. (This shouldn't involve a lot of steps - don't overthink it!)    The problem says that small square #2 has side length of 1\/2 + 1\/4 of . From a modern perspective, that's a weird way to write that (it was normal in ancient Egypt!)! Rewrite the side length of small square \\#2 in a way that seems more normal from a modern perspective.    Write a formula for the area of small square #2.    The problem tells us that the big square's area is equal to the two smaller squares put together. Use this information to set up an equation, then use the quadratic formula to solve it and find the side length of small square #1.   "
+},
+{
   "id": "sec-multivar-models-prep",
   "level": "1",
   "url": "sec-multivar-models-prep.html",
