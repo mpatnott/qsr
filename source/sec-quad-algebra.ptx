@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-quad-algebra" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Solving Quadratic Equations</title>
+
+   <introduction>
+    <p>
+        The <term>quadratic formula</term> is a tool for solving quadratic equations. If we have a quadratic equation in standard form <me>ax^2 + bx + c = 0</me> then the quadratic formula tells us that the solutions are <me>x = \frac{-b - \sqrt{b^2 - 4ac}}{2a} \text{ and } x = \frac{-b + \sqrt{b^2 - 4ac}}{2a}</me>
+    </p>
+    <p>
+        For example, let's find the solutions to <me>3x^2 + 6x - 7 = 0</me>. Since <m>a = 3</m>, <m>b = 6</m>, and <m>c = -7</m>, the quadratic formula tells us that the solutions are <me>x = \frac{-6 - \sqrt{6^2 - 4(3)(-7)}}{2(3)} \text{ and } x = \frac{-6 + \sqrt{6^2 - 4(3)(-7)}}{2(3)}</me> or <m>x = -2.826</m> and <m>x = 0.826</m>.
+    </p>
+    <p>
+        It's easy to make a mistake when using the quadratic formula, so it's a good idea to check your answers by plugging them back in. Since <me>(-2.826)^2 + 6(-2.826) - 7 \approx 0.0028 \approx 0</me> and <me>(0.826)^2 + 6(0.826) - 7 \approx 0.0028 \approx 0</me>, it looks like our answers are probably right and the only reason we're not getting exactly <m>0</m> is rounding.
+    </p>
+    <p>
+        <alert>Caution:</alert> It's very important when using the quadratic formula that your equation is in standard form <me>ax^2 + bx + c = 0</me>. If it's not, you need to rewrite the equation to put it into standard form before you can use the quadratic formula.
+    </p>
+   </introduction>
+
+   <activity xml:id="a-quad-form-practice">
+        <introduction>
+            <p>
+                Use the quadratic formula to solve each of the equations below.
+            </p>
+        </introduction>
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    <m>x^2 + 4.2x + 1.3 = 0</m>
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    <m>4y - 3 + 7y^2 = 0</m>
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    <m>3x + 2x^2 = 16</m>
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    <m>12x + x^2 = -35</m>
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    <m>2x(x-4) = x^2 - 15</m>
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    <m>x(x+1) = -5</m>
+                </p>
+            </statement>
+        </task>
+   </activity>
+
+   <!-- This activity is based on a scenario from page 48 of the Doug Gardner book cited in the front matter -->
+   <activity xml:id="a-heat-index">
+    <introduction>
+        <p>
+            The apparent temperature or heat index is a measure of how hot it feels despite what the thermometer says. The more moisture that is in the air the hotter it will feel. If the actual temperature is <m>90^\circ</m>F, then the heat index, <m>I</m>, can be modeled by the formula <me>I = 0.007h^2 - 0.257h + 90.979</me> where <m>h</m> is the humidity percent.
+        </p>
+    </introduction>
+    <task workspace="0.75in">
+        <statement>
+            <p>
+                The average humidity in July in Denver is 46%. What is the heat index in Denver on a <m>90^\circ</m>F with typical humidity? 
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.75in">
+        <statement>
+            <p>
+                The average humidity in July in Chicago is 68%. What is the heat index in Chicago on a <m>90^\circ</m>F with typical humidity?
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.75in">
+        <statement>
+            <p>
+                What would the humidity need to be for a <m>90^\circ</m>F day to feel like a <m>100^\circ</m>F day?
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.75in">
+        <statement>
+            <p>
+                What would the humidity need to be for a <m>90^\circ</m>F to feel like a <m>120^\circ</m>F day?
+            </p>
+        </statement>
+    </task>
+   </activity>
+</section>
