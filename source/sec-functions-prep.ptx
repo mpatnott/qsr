@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-functions-prep" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Functions Prep Activities</title>
+
+  <page>
+    <investigation xml:id="pa-function-notation">
+        <introduction>
+            <p>
+                Some of the problems in the Practice Assignments use notation like <m>f(x)</m>. Although this looks like it says <m>f</m> times <m>x</m>, that's not what it actually means! This notation is called <term>function notation</term>, and is read <q><m>f</m> of <m>x</m></q>. It has three parts:
+                <ul>
+                    <li>
+                        <p>
+                            <m>f</m> is the <term>name</term> of the function or model
+                        </p>
+                    </li>
+                    <li><m>x</m> is the <term>input</term></li>
+                    <li><m>f(x)</m> all together is the <term>output</term>. If we have <m>f(x) = y</m>, then <m>y</m> is also the output.</li>
+                </ul>
+            </p>
+            <p>
+                Identify the input, output, and function name in each of the math sentences below.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>b(q) = g</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>n(k) = 5</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>y(2) = m</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>s(-1) = -7</m>
+                </p>
+            </statement>
+        </task>
+    </investigation>
+
+    <investigation xml:id="pa-fxn-notation-table">
+        <introduction>
+            <p>
+                Function notation is a compact way to keep track of and connect several pieces of information. Let's practice interpreting it in an example.
+            </p>
+            <p>
+                The table below shows the percent of US adults (18+) who said they used Instagram in each year<fn>Data from Pew Research Center surveys on social media use.</fn>.
+            </p>
+            <table>
+                <title>Percent of US Adults That Use Instagram</title>
+                <tabular row-headers = "yes" halign="center">
+                    <row bottom="minor">
+                        <cell right="minor">Year, <m>y</m></cell>
+                        <cell>2012</cell>
+                        <cell>2013</cell>
+                        <cell>2014</cell>
+                        <cell>2015</cell>
+                        <cell>2016</cell>
+                        <cell>2018</cell>
+                        <cell>2019</cell>
+                        <cell>2021</cell>
+                        <cell>2023</cell>
+                    </row>
+                    <row>
+                        <cell right="minor">Percent, <m>P(y)</m></cell>
+                        <cell>13</cell>
+                        <cell>17</cell>
+                        <cell>26</cell>
+                        <cell>28</cell>
+                        <cell>32</cell>
+                        <cell>35</cell>
+                        <cell>37</cell>
+                        <cell>40</cell>
+                        <cell>47</cell>
+                    </row>
+                </tabular>
+            </table>
+            <p>
+                Using function notation, we can write the sentence <q>13% of US adults used Instagram in 2012</q> as <m>P(2012) = 13%</m>.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                   Use function notation to write the sentence <q>47% of US adults used Instagram in 2023</q>. 
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Interpret <m>P(2016) = 32</m> by writing a sentence in words.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    We can use the table to evaluate expressions in function notation. For example, if we're asked <q>Evaluate <m>P(2018)</m></q>, the table tells us the answer is <m>35</m>. 
+                </p>
+                <p>
+                    Evaluate <m>P(2021)</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    We can also use the table to solve equations in function notation. For example, if we're asked <q>Solve the equation <m>P(y) = 17</m></q>, the answer is <m>y = 2014</m>, since that's the year in which <m>17%</m> of US adults used Instagram, according to the table.  
+                </p>
+                <p>
+                    Solve the equation <m>P(y) = 28</m>.
+                </p>
+            </statement>
+        </task>
+    </investigation>
+
+    <investigation xml:id="pa-fxn-notation-graph">
+        <introduction>
+            <p>
+                We can also use function notation with graphs. In the graph below, let <m>y</m> be the year, and <m>L(t)</m> be the life expetancy at birth in year <m>y</m>.
+            </p>
+            <figure xml:id="fig-us-life-expectancy">
+                <caption>US Life Expectancy at Birth Between 1800 and 2021. </caption>
+                <image source="./images/US-life-expectency.png" width="75%">
+                    <shortdescription>Graph showing life expectancy at birth in the US between 1800 and 2021.</shortdescription>
+                    <description>
+                        <p>
+                            Life expectancy has increased steadily, except for dips during World War I and after COVID-19.
+                        </p>
+                    </description>
+                </image>
+            </figure>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Use function notation to write the sentence <q>Life expectancy in 1985 was about 75 years</q>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Interpret <m>L(2000) = 76.8</m> by writing a sentence in words.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Use the graph to evaluate <m>L(1900)</m>. You'll need to estimate!
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Use the graph to solve the equation <m>L(y) = 60</m>. You'll need to estimate!
+                </p>
+            </statement>
+        </task>
+    </investigation>
+
+    <investigation xml:id="pa-functions-prep-confidence">
+        <p>
+            You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).
+        </p>
+        <table>
+            <tabular bottom = "minor" top = "minor" left = "minor" right = "minor">
+                <row header ="yes">
+                    <cell>Skill or Concept: I can …</cell>
+                    <cell>Rating from 1 to 5</cell>
+                </row>
+                <row>
+                    <cell>Write a sentence interpreting function notation.</cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Use a graph or table to evaluate <m>f(a)</m>.</cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Use a graph or table to solve <m>f(x) = b</m>.</cell>
+                    <cell></cell>
+                </row>
+            </tabular>
+        </table>
+    </investigation>
+  </page>
+</section>
