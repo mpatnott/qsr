@@ -1414,6 +1414,78 @@ var ptx_lunr_docs = [
   "body": "  People have been solving quadratic equations for thousands of years! The Berlin Papyrus 6619 was probably written in about 1800 BCE in Egypt, and contains two math problems. Both math problems can be solved by thinking about quadratic equations (although that's not how the Egyptians would have solved them - they didn't know the quadratic formula, or have our modern algebra notation).  Here's the first problem:  You are told the area of a square of 100 square cubits is equal to that of two smaller squares, the side of one square is 1\/2 + 1\/4 of the other. What are the sides of the two unknown squares?  Let's try to solve this problem! There are three squares in this problem:  Big square has area 100 square cubits.  Small square #1: Let's call it's side length .  Small square #2: It's side length of 1\/2 + 1\/4 of .      What's the side length of the big square? How do you know?    Write a formula for the area of small square #1. (This shouldn't involve a lot of steps - don't overthink it!)    The problem says that small square #2 has side length of 1\/2 + 1\/4 of . From a modern perspective, that's a weird way to write that (it was normal in ancient Egypt!)! Rewrite the side length of small square \\#2 in a way that seems more normal from a modern perspective.    Write a formula for the area of small square #2.    The problem tells us that the big square's area is equal to the two smaller squares put together. Use this information to set up an equation, then use the quadratic formula to solve it and find the side length of small square #1.   "
 },
 {
+  "id": "sec-functions",
+  "level": "1",
+  "url": "sec-functions.html",
+  "type": "Section",
+  "number": "5.5",
+  "title": "Functions",
+  "body": " Functions     In , we introduced function notation and practiced using it with tables and graphs. Function notation is also often used with formulas.  The velocity, in feet per second, of a car that slammed on its brakes can be determined based on the length of the skid marks that its tires left on the ground. Suppose that on a particular surface, this relationship is given by , where is the length of the skid marks in feet.    Use function notation to write the sentence If the length of the skid marks was 200 feet, then the car was traveling 80 ft\/sec .    Interpret by writing a sentence in words.    Use the formula to evaluate .    Use the formula to solve the equation .    We have mostly used the word model to refer to relationships between quantities in this class. A function, like a model, is a relationship between quantities. To be a function, a relationship needs to follow a special rule.    A function is a relationship between an input quantity and an output quantity in which every input quantity is matched to exactly one output quantity. When a relationship is a function, we say that output is a function of input .    We'll focus on identifying relationships that aren't functions because some inputs have more than one output. For example, in the graph below, is NOT a function of , because, for example, maps to two values of . >  Team A    Parabola facing to the right.   Parabola facing to the right.       Determine whether each of the tables below describes the output variable as a function of the input variable.      Input  Output    -4  8    -2  2    0  0    2  8    4  16        Input  Output    10  2    20  10    40  26    80  58    160  122        Input  Output    5  3    0  4.5    5  7.5    10  12    15  18          Determine whether each of the graphs below describes the output variable as a function of the input variable.    Team A    Graph shows exponential growth   Graph shows exponential growth      Team A    Graph shows a parabola facing down   Graph shows a parabola facing down        Team A    Graph shows a cubic function   Graph shows a cubic function      Team A    Graph shows a cubic function turned on its side   Graph shows a cubic function turned on its side          Determine whether each of the formulas below describes the output variable as a function of the input variable.     , where is the output variable and is the input variable.     , where is the output variable and is the input variable.     , where is the output variable and is the input variable.      Determine whether each of the sentences below describes the output variable as a function of the input variable.    The height of a person and their age, with height as the output variable and age as the input variable.    The height of a person and their age, with age as the output variable and height as the input variable.    "
+},
+{
+  "id": "a-fxn-notation-formula",
+  "level": "2",
+  "url": "sec-functions.html#a-fxn-notation-formula",
+  "type": "Activity",
+  "number": "5.5.1",
+  "title": "",
+  "body": "  In , we introduced function notation and practiced using it with tables and graphs. Function notation is also often used with formulas.  The velocity, in feet per second, of a car that slammed on its brakes can be determined based on the length of the skid marks that its tires left on the ground. Suppose that on a particular surface, this relationship is given by , where is the length of the skid marks in feet.    Use function notation to write the sentence If the length of the skid marks was 200 feet, then the car was traveling 80 ft\/sec .    Interpret by writing a sentence in words.    Use the formula to evaluate .    Use the formula to solve the equation .   "
+},
+{
+  "id": "def-function",
+  "level": "2",
+  "url": "sec-functions.html#def-function",
+  "type": "Definition",
+  "number": "5.5.1",
+  "title": "",
+  "body": "  A function is a relationship between an input quantity and an output quantity in which every input quantity is matched to exactly one output quantity. When a relationship is a function, we say that output is a function of input .   "
+},
+{
+  "id": "fig-x-equals-y-squared",
+  "level": "2",
+  "url": "sec-functions.html#fig-x-equals-y-squared",
+  "type": "Figure",
+  "number": "5.5.2",
+  "title": "",
+  "body": " Team A    Parabola facing to the right.   Parabola facing to the right.    "
+},
+{
+  "id": "a-fxn-or-not-tables",
+  "level": "2",
+  "url": "sec-functions.html#a-fxn-or-not-tables",
+  "type": "Activity",
+  "number": "5.5.2",
+  "title": "",
+  "body": "  Determine whether each of the tables below describes the output variable as a function of the input variable.      Input  Output    -4  8    -2  2    0  0    2  8    4  16        Input  Output    10  2    20  10    40  26    80  58    160  122        Input  Output    5  3    0  4.5    5  7.5    10  12    15  18       "
+},
+{
+  "id": "a-fxn-or-not-graphs",
+  "level": "2",
+  "url": "sec-functions.html#a-fxn-or-not-graphs",
+  "type": "Activity",
+  "number": "5.5.3",
+  "title": "",
+  "body": "  Determine whether each of the graphs below describes the output variable as a function of the input variable.    Team A    Graph shows exponential growth   Graph shows exponential growth      Team A    Graph shows a parabola facing down   Graph shows a parabola facing down        Team A    Graph shows a cubic function   Graph shows a cubic function      Team A    Graph shows a cubic function turned on its side   Graph shows a cubic function turned on its side       "
+},
+{
+  "id": "a-fxn-or-not-formulas",
+  "level": "2",
+  "url": "sec-functions.html#a-fxn-or-not-formulas",
+  "type": "Activity",
+  "number": "5.5.4",
+  "title": "",
+  "body": "  Determine whether each of the formulas below describes the output variable as a function of the input variable.     , where is the output variable and is the input variable.     , where is the output variable and is the input variable.     , where is the output variable and is the input variable.   "
+},
+{
+  "id": "a-fxn-or-not-descriptions",
+  "level": "2",
+  "url": "sec-functions.html#a-fxn-or-not-descriptions",
+  "type": "Activity",
+  "number": "5.5.5",
+  "title": "",
+  "body": "  Determine whether each of the sentences below describes the output variable as a function of the input variable.    The height of a person and their age, with height as the output variable and age as the input variable.    The height of a person and their age, with age as the output variable and height as the input variable.   "
+},
+{
   "id": "sec-multivar-models-prep",
   "level": "1",
   "url": "sec-multivar-models-prep.html",
@@ -1555,7 +1627,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.5",
   "title": "Functions Prep Activities",
-  "body": " Functions Prep Activities     Some of the problems in the Practice Assignments use notation like . Although this looks like it says times , that's not what it actually means! This notation is called function notation , and is read of . It has three parts:    is the name of the function or model   is the input  all together is the output . If we have , then is also the output.    Identify the input, output, and function name in each of the math sentences below.                          Function notation is a compact way to keep track of and connect several pieces of information. Let's practice interpreting it in an example.  The table below shows the percent of US adults (18+) who said they used Instagram in each year Data from Pew Research Center surveys on social media use. .   Percent of US Adults That Use Instagram    Year,  2012  2013  2014  2015  2016  2018  2019  2021  2023    Percent,  13  17  26  28  32  35  37  40  47     Using function notation, we can write the sentence 13% of US adults used Instagram in 2012 as .    Use function notation to write the sentence 47% of US adults used Instagram in 2023 .    Interpret by writing a sentence in words.    We can use the table to evaluate expressions in function notation. For example, if we're asked Evaluate , the table tells us the answer is .  Evaluate .    We can also use the table to solve equations in function notation. For example, if we're asked Solve the equation , the answer is , since that's the year in which of US adults used Instagram, according to the table.  Solve the equation .      We can also use function notation with graphs. In the graph below, let be the year, and be the life expetancy at birth in year .   US Life Expectancy at Birth Between 1800 and 2021.   Graph showing life expectancy at birth in the US between 1800 and 2021.   Life expectancy has increased steadily, except for dips during World War I and after COVID-19.       Use function notation to write the sentence Life expectancy in 1985 was about 75 years .    Interpret by writing a sentence in words.    Use the graph to evaluate . You'll need to estimate!    Use the graph to solve the equation . You'll need to estimate!     You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Write a sentence interpreting function notation.     Use a graph or table to evaluate .     Use a graph or table to solve .        "
+  "body": " Functions Prep Activities     Some of the problems in the Practice Assignments use notation like . Although this looks like it says times , that's not what it actually means! This notation is called function notation , and is read of . It has three parts:    is the name of the function or model   is the input  all together is the output . If we have , then is also the output.    Identify the input, output, and function name in each of the math sentences below.                          Function notation is a compact way to keep track of and connect several pieces of information. Let's practice interpreting it in an example.  The table below shows the percent of US adults (18+) who said they used Instagram in each year Data from Pew Research Center surveys on social media use. .   Percent of US Adults That Use Instagram    Year,  2012  2013  2014  2015  2016  2018  2019  2021  2023    Percent,  13  17  26  28  32  35  37  40  47     Using function notation, we can write the sentence 13% of US adults used Instagram in 2012 as .    Use function notation to write the sentence 47% of US adults used Instagram in 2023 .    Interpret by writing a sentence in words.    We can use the table to evaluate expressions in function notation. For example, if we're asked Evaluate , the table tells us the answer is .  Evaluate .    We can also use the table to solve equations in function notation. For example, if we're asked Solve the equation , the answer is , since that's the year in which of US adults used Instagram, according to the table.  Solve the equation .      We can also use function notation with graphs. In the graph below, let be the year, and be the life expetancy at birth in year . Data Page: Life expectancy at birth , part of the following publication: Saloni Dattani, Lucas Rodés-Guirao, Hannah Ritchie, Esteban Ortiz-Ospina and Max Roser (2023) - Life Expectancy . Data adapted from Human Mortality Database, United Nations, Zijdeman et al., James C. Riley. Retrieved from [online resource], November 25, 2024.    US Life Expectancy at Birth Between 1800 and 2021.   Graph showing life expectancy at birth in the US between 1800 and 2021.   Life expectancy has increased steadily, except for dips during World War I and after COVID-19.       Use function notation to write the sentence Life expectancy in 1985 was about 75 years .    Interpret by writing a sentence in words.    Use the graph to evaluate . You'll need to estimate!    Use the graph to solve the equation . You'll need to estimate!     You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Write a sentence interpreting function notation.     Use a graph or table to evaluate .     Use a graph or table to solve .        "
 },
 {
   "id": "pa-function-notation",
@@ -1582,7 +1654,7 @@ var ptx_lunr_docs = [
   "type": "Prep Activity",
   "number": "6.5.3",
   "title": "",
-  "body": "  We can also use function notation with graphs. In the graph below, let be the year, and be the life expetancy at birth in year .   US Life Expectancy at Birth Between 1800 and 2021.   Graph showing life expectancy at birth in the US between 1800 and 2021.   Life expectancy has increased steadily, except for dips during World War I and after COVID-19.       Use function notation to write the sentence Life expectancy in 1985 was about 75 years .    Interpret by writing a sentence in words.    Use the graph to evaluate . You'll need to estimate!    Use the graph to solve the equation . You'll need to estimate!   "
+  "body": "  We can also use function notation with graphs. In the graph below, let be the year, and be the life expetancy at birth in year . Data Page: Life expectancy at birth , part of the following publication: Saloni Dattani, Lucas Rodés-Guirao, Hannah Ritchie, Esteban Ortiz-Ospina and Max Roser (2023) - Life Expectancy . Data adapted from Human Mortality Database, United Nations, Zijdeman et al., James C. Riley. Retrieved from [online resource], November 25, 2024.    US Life Expectancy at Birth Between 1800 and 2021.   Graph showing life expectancy at birth in the US between 1800 and 2021.   Life expectancy has increased steadily, except for dips during World War I and after COVID-19.       Use function notation to write the sentence Life expectancy in 1985 was about 75 years .    Interpret by writing a sentence in words.    Use the graph to evaluate . You'll need to estimate!    Use the graph to solve the equation . You'll need to estimate!   "
 },
 {
   "id": "pa-functions-prep-confidence",
