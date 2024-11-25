@@ -132,7 +132,7 @@
     <investigation xml:id="pa-fxn-notation-graph">
         <introduction>
             <p>
-                We can also use function notation with graphs. In the graph below, let <m>y</m> be the year, and <m>L(t)</m> be the life expetancy at birth in year <m>y</m>.
+                We can also use function notation with graphs. In the graph below, let <m>y</m> be the year, and <m>L(t)</m> be the life expetancy at birth in year <m>y</m>.<fn><q>Data Page: Life expectancy at birth</q>, part of the following publication: Saloni Dattani, Lucas Rodés-Guirao, Hannah Ritchie, Esteban Ortiz-Ospina and Max Roser (2023) - <q>Life Expectancy</q>. Data adapted from Human Mortality Database, United Nations, Zijdeman et al., James C. Riley. Retrieved from <url href="https://ourworldindata.org/grapher/life-expectancy"/>  [online resource], November 25, 2024.</fn>
             </p>
             <figure xml:id="fig-us-life-expectancy">
                 <caption>US Life Expectancy at Birth Between 1800 and 2021. </caption>

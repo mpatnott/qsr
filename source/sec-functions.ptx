@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Functions</title>
+
+  <!-- The scenario and formula for this activity are from Lippman and Rasmusse, Example 3.8.4. -->
+   <activity xml:id="a-fxn-notation-formula">
+        <introduction>
+            <p>
+                In <xref ref="sec-functions-prep"/>, we introduced function notation and practiced using it with tables and graphs. Function notation is also often used with formulas. 
+            </p>
+            <p>
+                The velocity, in feet per second, of a car that slammed on its brakes can be determined based on the length of the skid marks that its tires left on the ground. Suppose that on a particular surface, this relationship is given by <me>v(d) = \sqrt{32d}</me>, where <m>d</m> is the length of the skid marks in feet.
+            </p>
+        </introduction>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Use function notation to write the sentence <q>If the length of the skid marks was 200 feet, then the car was traveling 80 ft/sec</q>.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Interpret <m>v(100) \approx 56.6</m> by writing a sentence in words.
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Use the formula to evaluate <m>v(150)</m>.
+                </p>
+            </statement>
+        </task>
+        <task workspace="1.5in">
+            <statement>
+                <p>
+                    Use the formula to solve the equation <m>L(d) = 100</m>.
+                </p>
+            </statement>
+        </task>
+   </activity>
+
+   <p>
+    We have mostly used the word <q>model</q> to refer to relationships between quantities in this class. A function, like a model, is a relationship between quantities. To be a function, a relationship needs to follow a special rule.
+   </p>
+   <definition xml:id="def-function">
+    <statement>
+        <p>
+            A <term>function</term> is a relationship between an input quantity and an output quantity in which every input quantity is matched to exactly one output quantity. When a relationship is a function, we say that <q>output is a function of input</q>.
+        </p>
+    </statement>
+   </definition>
+   <p>
+    We'll focus on identifying relationships that aren't functions because some inputs have more than one output. For example, in the graph below, <m>y</m> is NOT a function of <m>x</m>, because, for example, <m>x = 5</m> maps to two values of <m>y</m>.
+   </p>>
+   <figure xml:id="fig-x-equals-y-squared">
+    <caption>Team A</caption>
+    <image xml:id="graph-x-equals-y-squared">
+        <description>
+            <p>
+                Parabola facing to the right.
+            </p>
+        </description>
+        <shortdescription>Parabola facing to the right.</shortdescription>
+        <latex-image>
+            \begin{tikzpicture}
+                \begin{axis}[grid = both, axis lines = center,
+                                xmin = -0.5, xmax = 20, xlabel={x},
+                                ymin = -4.5, ymax = 4.5, ylabel={y}]
+                    \addplot[domain=-5:5, smooth,very thick] ({x^2}, {x});
+                \end{axis}
+            \end{tikzpicture}
+        </latex-image>
+    </image>
+</figure>
+
+<activity xml:id="a-fxn-or-not-tables">
+    <task workspace="1in">
+        <statement>
+            <p>
+                Determine whether each of the tables below describes the output variable as a function of the input variable.
+            </p>
+            
+        </statement>
+    </task>
+</activity>
+</section>

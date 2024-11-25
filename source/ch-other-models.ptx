@@ -8,4 +8,5 @@
     <xi:include href="sec-power-models.ptx" />
     <xi:include href="sec-quad-and-polyn.ptx" />
     <xi:include href="sec-quad-algebra.ptx" />
+    <xi:include href="sec-functions.ptx" />
 </chapter>
