@@ -78,12 +78,238 @@
 </figure>
 
 <activity xml:id="a-fxn-or-not-tables">
-    <task workspace="1in">
+    <statement>
+        <p>
+            Determine whether each of the tables below describes the output variable as a function of the input variable.
+        </p>
+        <sidebyside>
+            <table>
+                <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                    <row header="yes">
+                        <cell>Input</cell>
+                        <cell>Output</cell>
+                    </row>
+                    <row>
+                        <cell>-4</cell>
+                        <cell>8</cell>
+                    </row>
+                    <row>
+                        <cell>-2</cell>
+                        <cell>2</cell>
+                    </row>
+                    <row>
+                        <cell>0</cell>
+                        <cell>0</cell>
+                    </row>
+                    <row>
+                        <cell>2</cell>
+                        <cell>8</cell>
+                    </row>
+                    <row>
+                        <cell>4</cell>
+                        <cell>16</cell>
+                    </row>
+                </tabular>
+            </table>
+            <table>
+                <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                    <row header="yes">
+                        <cell>Input</cell>
+                        <cell>Output</cell>
+                    </row>
+                    <row>
+                        <cell>10</cell>
+                        <cell>2</cell>
+                    </row>
+                    <row>
+                        <cell>20</cell>
+                        <cell>10</cell>
+                    </row>
+                    <row>
+                        <cell>40</cell>
+                        <cell>26</cell>
+                    </row>
+                    <row>
+                        <cell>80</cell>
+                        <cell>58</cell>
+                    </row>
+                    <row>
+                        <cell>160</cell>
+                        <cell>122</cell>
+                    </row>
+                </tabular>
+            </table>
+            <table>
+                <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                    <row header="yes">
+                        <cell>Input</cell>
+                        <cell>Output</cell>
+                    </row>
+                    <row>
+                        <cell>5</cell>
+                        <cell>3</cell>
+                    </row>
+                    <row>
+                        <cell>0</cell>
+                        <cell>4.5</cell>
+                    </row>
+                    <row>
+                        <cell>5</cell>
+                        <cell>7.5</cell>
+                    </row>
+                    <row>
+                        <cell>10</cell>
+                        <cell>12</cell>
+                    </row>
+                    <row>
+                        <cell>15</cell>
+                        <cell>18</cell>
+                    </row>
+                </tabular>
+            </table>
+        </sidebyside>
+    </statement>
+</activity>
+
+<activity xml:id="a-fxn-or-not-graphs">
+    <statement>
+        <p>
+            Determine whether each of the graphs below describes the output variable as a function of the input variable.
+        </p>
+        <sidebyside>
+            <figure xml:id="fig-exponential-growth">
+                <caption>Team A</caption>
+                <image xml:id="graph-exponential-growth">
+                    <description>
+                        <p>
+                            Graph shows exponential growth
+                        </p>
+                    </description>
+                    <shortdescription>Graph shows exponential growth</shortdescription>
+                    <latex-image>
+                        \begin{tikzpicture}
+                            \begin{axis}[grid = both, axis lines = center,
+                                            xmin = -10, xmax = 10, xlabel={Input},
+                                            ymin = -6, ymax = 6, ylabel={Output}]
+                                \addplot[domain=-10:10,smooth,very thick] {2*1.15^x-4};
+                            \end{axis}
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </figure>
+            <figure xml:id="fig-quadratic-growth">
+                <caption>Team A</caption>
+                <image xml:id="graph-quadratic-growth">
+                    <description>
+                        <p>
+                            Graph shows a parabola facing down
+                        </p>
+                    </description>
+                    <shortdescription>Graph shows a parabola facing down</shortdescription>
+                    <latex-image>
+                        \begin{tikzpicture}
+                            \begin{axis}[grid = both, axis lines = center,
+                                            xmin = -6, xmax = 2, xlabel={Input},
+                                            ymin = -4.5, ymax = 4.5, ylabel={Output}]
+                                \addplot[domain=-6:2,smooth,very thick] {-0.5*(x+2)^2+4};
+                            \end{axis}
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </figure>
+        </sidebyside>
+        <sidebyside>
+            <figure xml:id="fig-cubic">
+                <caption>Team A</caption>
+                <image xml:id="graph-cubic">
+                    <description>
+                        <p>
+                            Graph shows a cubic function
+                        </p>
+                    </description>
+                    <shortdescription>Graph shows a cubic function</shortdescription>
+                    <latex-image>
+                        \begin{tikzpicture}
+                            \begin{axis}[grid = both, axis lines = center,
+                                            xmin = -2.5, xmax = 1, xlabel={Input},
+                                            ymin = -2, ymax = 2, ylabel={Output}]
+                                \addplot[domain=-2.5:1,smooth,very thick] {x^3+2*x^2};
+                            \end{axis}
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </figure>
+            <figure xml:id="fig-cubic-sideways">
+                <caption>Team A</caption>
+                <image xml:id="graph-cubic-sideways">
+                    <description>
+                        <p>
+                            Graph shows a cubic function turned on its side
+                        </p>
+                    </description>
+                    <shortdescription>Graph shows a cubic function turned on its side</shortdescription>
+                    <latex-image>
+                        \begin{tikzpicture}
+                            \begin{axis}[grid = both, axis lines = center,
+                                            xmin = -2, xmax = 2, xlabel={Input},
+                                            ymin = -2.5, ymax = 1, ylabel={Output}]
+                                \addplot[domain=-6:2,smooth,very thick] ({x^3+2*x^2}, {x});
+                            \end{axis}
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </figure>
+        </sidebyside>
+    </statement>
+</activity>
+
+<activity xml:id="a-fxn-or-not-formulas">
+    <introduction>
+        <p>
+            Determine whether each of the formulas below describes the output variable as a function of the input variable.
+        </p>
+    </introduction>
+    <task workspace="0.5in">
         <statement>
             <p>
-                Determine whether each of the tables below describes the output variable as a function of the input variable.
+                <m>2n + 6p = 12</m>, where <m>p = f(n)</m> is the output variable and <m>n</m> is the input variable.
             </p>
-            
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                <m>x + y^2 = 4</m>, where <m>y = f(x)</m> is the output variable and <m>x</m> is the input variable.
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                <m>k - t^3 = 2</m>, where <m>k = f(t)</m> is the output variable and <m>t</m> is the input variable.
+            </p>
+        </statement>
+    </task>
+</activity>
+
+<activity xml:id="a-fxn-or-not-descriptions">
+    <introduction>
+        <p>
+            Determine whether each of the sentences below describes the output variable as a function of the input variable.
+        </p>
+    </introduction>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                The height of a person and their age, with height as the output variable and age as the input variable.
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                The height of a person and their age, with age as the output variable and height as the input variable.
+            </p>
         </statement>
     </task>
 </activity>
