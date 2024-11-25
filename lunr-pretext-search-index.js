@@ -1549,6 +1549,51 @@ var ptx_lunr_docs = [
   "body": " You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Rewrite a quadratic model in standard form.     Solve quadratic equations of the form .      "
 },
 {
+  "id": "sec-functions-prep",
+  "level": "1",
+  "url": "sec-functions-prep.html",
+  "type": "Section",
+  "number": "6.5",
+  "title": "Functions Prep Activities",
+  "body": " Functions Prep Activities     Some of the problems in the Practice Assignments use notation like . Although this looks like it says times , that's not what it actually means! This notation is called function notation , and is read of . It has three parts:    is the name of the function or model   is the input  all together is the output . If we have , then is also the output.    Identify the input, output, and function name in each of the math sentences below.                          Function notation is a compact way to keep track of and connect several pieces of information. Let's practice interpreting it in an example.  The table below shows the percent of US adults (18+) who said they used Instagram in each year Data from Pew Research Center surveys on social media use. .   Percent of US Adults That Use Instagram    Year,  2012  2013  2014  2015  2016  2018  2019  2021  2023    Percent,  13  17  26  28  32  35  37  40  47     Using function notation, we can write the sentence 13% of US adults used Instagram in 2012 as .    Use function notation to write the sentence 47% of US adults used Instagram in 2023 .    Interpret by writing a sentence in words.    We can use the table to evaluate expressions in function notation. For example, if we're asked Evaluate , the table tells us the answer is .  Evaluate .    We can also use the table to solve equations in function notation. For example, if we're asked Solve the equation , the answer is , since that's the year in which of US adults used Instagram, according to the table.  Solve the equation .      We can also use function notation with graphs. In the graph below, let be the year, and be the life expetancy at birth in year .   US Life Expectancy at Birth Between 1800 and 2021.   Graph showing life expectancy at birth in the US between 1800 and 2021.   Life expectancy has increased steadily, except for dips during World War I and after COVID-19.       Use function notation to write the sentence Life expectancy in 1985 was about 75 years .    Interpret by writing a sentence in words.    Use the graph to evaluate . You'll need to estimate!    Use the graph to solve the equation . You'll need to estimate!     You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Write a sentence interpreting function notation.     Use a graph or table to evaluate .     Use a graph or table to solve .        "
+},
+{
+  "id": "pa-function-notation",
+  "level": "2",
+  "url": "sec-functions-prep.html#pa-function-notation",
+  "type": "Prep Activity",
+  "number": "6.5.1",
+  "title": "",
+  "body": "  Some of the problems in the Practice Assignments use notation like . Although this looks like it says times , that's not what it actually means! This notation is called function notation , and is read of . It has three parts:    is the name of the function or model   is the input  all together is the output . If we have , then is also the output.    Identify the input, output, and function name in each of the math sentences below.                       "
+},
+{
+  "id": "pa-fxn-notation-table",
+  "level": "2",
+  "url": "sec-functions-prep.html#pa-fxn-notation-table",
+  "type": "Prep Activity",
+  "number": "6.5.2",
+  "title": "",
+  "body": "  Function notation is a compact way to keep track of and connect several pieces of information. Let's practice interpreting it in an example.  The table below shows the percent of US adults (18+) who said they used Instagram in each year Data from Pew Research Center surveys on social media use. .   Percent of US Adults That Use Instagram    Year,  2012  2013  2014  2015  2016  2018  2019  2021  2023    Percent,  13  17  26  28  32  35  37  40  47     Using function notation, we can write the sentence 13% of US adults used Instagram in 2012 as .    Use function notation to write the sentence 47% of US adults used Instagram in 2023 .    Interpret by writing a sentence in words.    We can use the table to evaluate expressions in function notation. For example, if we're asked Evaluate , the table tells us the answer is .  Evaluate .    We can also use the table to solve equations in function notation. For example, if we're asked Solve the equation , the answer is , since that's the year in which of US adults used Instagram, according to the table.  Solve the equation .   "
+},
+{
+  "id": "pa-fxn-notation-graph",
+  "level": "2",
+  "url": "sec-functions-prep.html#pa-fxn-notation-graph",
+  "type": "Prep Activity",
+  "number": "6.5.3",
+  "title": "",
+  "body": "  We can also use function notation with graphs. In the graph below, let be the year, and be the life expetancy at birth in year .   US Life Expectancy at Birth Between 1800 and 2021.   Graph showing life expectancy at birth in the US between 1800 and 2021.   Life expectancy has increased steadily, except for dips during World War I and after COVID-19.       Use function notation to write the sentence Life expectancy in 1985 was about 75 years .    Interpret by writing a sentence in words.    Use the graph to evaluate . You'll need to estimate!    Use the graph to solve the equation . You'll need to estimate!   "
+},
+{
+  "id": "pa-functions-prep-confidence",
+  "level": "2",
+  "url": "sec-functions-prep.html#pa-functions-prep-confidence",
+  "type": "Prep Activity",
+  "number": "6.5.4",
+  "title": "",
+  "body": " You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Write a sentence interpreting function notation.     Use a graph or table to evaluate .     Use a graph or table to solve .      "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
