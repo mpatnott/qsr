@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-math-models" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Mathematical Models</title>
+  <title>Mathematical Models Activities</title>
 
   <page>
     <introduction>
@@ -143,7 +143,7 @@
       <task workspace="0.5in">
         <statement>
           <p>
-            The Aspen institute used the following <em>mathematical model equation</em> to calculate a score for each school:
+            The Aspen institute used the following <term>mathematical model equation</term> to calculate a score for each school:
             <me>R = 0.33P + 0.33C + 0.27M + 0.07F</me>
             where:
             <ul cols="2">

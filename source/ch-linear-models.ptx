@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="ch-linear-models" xmlns:xi="http://www.w3.org/2001/XInclude">
+<part xml:id="part-linear-models" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Linear Models</title>
 
   <!-- <introduction>
@@ -8,10 +8,22 @@
   </introduction> -->
 
   <!-- include sections -->
-  <xi:include href="sec-math-models.ptx" />
-  <xi:include href="sec-aROC.ptx" />
+  <chapter xml:id="ch-math-models" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Introduction to Mathematical Models</title>
+    
+    <xi:include href="sec-math-models-prep.ptx" />
+    <xi:include href="sec-math-models.ptx" />
+  </chapter>
+
+  <chapter xml:id="ch-aROC" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title> Average Rates of Change </title>
+
+    <xi:include href="sec-aROC-prep.ptx" />
+    <xi:include href="sec-aROC.ptx" />
+  </chapter>
+  <!-- 
   <xi:include href="sec-linear-models.ptx" />
   <xi:include href="sec-linear-trends.ptx" />
-  <xi:include href="sec-piecewise-linear.ptx" />
+  <xi:include href="sec-piecewise-linear.ptx" /> -->
 
-</chapter>
+</part>
