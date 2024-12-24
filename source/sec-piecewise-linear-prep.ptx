@@ -10,26 +10,26 @@
             </p>
         </introduction>
 
-        <investigation workspace="0.5in">
-            Zeke is driving from his house to the beach and wants to model how far he is from home. He is currently 50 miles from home and will drive 65 mph until he reaches the beach. Let t be time in hours and D be distance in miles from Zeke's home. Which of the following equations models this situation? Explain your answer in words.
+        <investigation workspace="0.5in" xml:id="pa-choose-linear-model">
+            Zeke is driving from his house to the beach and wants to model how far he is from home. He is currently 50 miles from home and will drive 65 mph until he reaches the beach. Let <m>t</m> be time in hours and <m>D(t)</m> be distance in miles from Zeke's home. Which of the following equations models this situation? Explain your answer in words.
             <ol>
-                <li><m>D = 50 - 65t</m></li>
-                <li><m>D = 50 + 65t</m></li>
-                <li><m>D = 65 - 50t</m></li>
-                <li><m>D = 65 + 50t</m></li>
+                <li><m>D(t) = 50 - 65t</m></li>
+                <li><m>D(t) = 50 + 65t</m></li>
+                <li><m>D(t) = 65 - 50t</m></li>
+                <li><m>D(t) = 65 + 50t</m></li>
             </ol>
         </investigation>
 
-        <investigation workspace="0.5in">
+        <investigation workspace="0.5in" xml:id="pa-org-members">
             <introduction>
                 <p>
-                    The number of members in a professional organization increased each year for ten years, starting in 2013. The result can be modeled by the equation <m>M = 1,200 + 250t</m>. 
+                    The number of members in a professional organization increased each year for ten years, starting in 2013. The result can be modeled by the equation <m>M(t) = 1,200 + 250t</m>. 
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
-                        What do you think the variables <m>M</m> and <m>t</m> represent? 
+                        What do you think the variables <m>M(t)</m> and <m>t</m> represent? 
                     </p>
                 </statement>
             </task>
@@ -43,7 +43,7 @@
             <task>
                 <introduction>
                     <p>
-                        How large was the organization's membership: a
+                        How large was the organization's membership: 
                     </p>
                 </introduction>
                 <task>
@@ -72,7 +72,7 @@
     </page>
 
     <page>
-        <investigation workspace="0.5in">
+        <investigation workspace="0.5in" xml:id="pa-car-depreciation">
             <introduction>
                 <p>
                     Most car values decrease over time. For example, in 2015, a new Toyota Prius Two sold for $25,500. In 2023, online car valuation sites like the Kelley Blue Book and Car Gurus list used 2015 Prius Twos for $18,500. The value of the 2015 Toyota Prius Two depreciated over time. 
@@ -108,7 +108,7 @@
             </task>
         </investigation>
 
-        <investigation>
+        <investigation xml:id="pa-piecewise-linear-confidence">
             <p>
                 You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).
             </p>

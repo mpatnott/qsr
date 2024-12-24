@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-piecewise-linear" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Piecewise Linear Models</title>
+  <title>Piecewise Linear Models Activities</title>
 
   <page>
     <activity xml:id="a-entergy-winter">
@@ -32,22 +32,22 @@
             <p>
                 And used this information to find that
                 <me>
-                    B = 12.20 + 0.1038k
+                    B(k) = 12.20 + 0.1038k
                 </me>
-                is a linear model for the bill amount <m>B</m> of a customer that uses <m>k</m> kWh.
+                is a linear model for the bill amount <m>B(k)</m> of a customer that uses <m>k</m> kWh.
             </p>
         </introduction>
         <task workspace="0.5in">
             <statement>
                 <p>
-                    Now, let's consider the cost of electricity in and around Denver in the winter. Use the information given in the table above to build a linear model for the bill amount, <m>B</m>, of a customer that uses <m>k</m> kWh in the winter.
+                    Now, let's consider the cost of electricity in and around Denver in the winter. Use the information given in the table above to build a linear model for the bill amount, <m>B(k)</m>, of a customer that uses <m>k</m> kWh in the winter.
                 </p>
             </statement>
         </task>
         <task>
             <introduction>
                 <p>
-                    The company that provides electricity to people in and around New Orleans, Louisiana is called Entergy. The table below estimates the winter monthly rates charged by Entergy<fn><url href="https://www.entergy-louisiana.com/your_home/price/"></url></fn>. Let <m>B</m> be the monthly bill amount and <m>k</m> be the number of kWh used.
+                    The company that provides electricity to people in and around New Orleans, Louisiana is called Entergy. The table below estimates the winter monthly rates charged by Entergy<fn><url href="https://www.entergy-louisiana.com/your_home/price/"></url></fn>. Let <m>B(k)</m> be the monthly bill amount and <m>k</m> be the number of kWh used.
                 </p>
                 <table>
                     <title>Entergy Electricity Charges, November - April</title>
@@ -67,7 +67,12 @@
                     </tabular>
                 </table>
                 <p>
-                    For example, a customer who used 700 kWh in a month would be charged <m>B = 8.07 + 0.06002 \times 700 = $50.08</m>. A customer who used 1000 kWh in a month would be charged <me>B = 8.07 + 0.06002 \times 800 + 0.04766 \times (1000 - 800) = B = 8.07 + 0.06002 \times 800 + 0.04766 \times 200 = $65.62</me>
+                    For example, a customer who used 700 kWh in a month would be charged <me>B(700) = 8.07 + 0.06002 \times 700 = $50.08</me>. A customer who used 1000 kWh in a month would be charged 
+                    <md>
+                        <mrow> B(1000) \amp= 8.07 + 0.06002 \times 800 + 0.04766 \times (1000 - 800)</mrow>
+                        <mrow>         \amp= 8.07 + 0.06002 \times 800 + 0.04766 \times 200</mrow> 
+                        <mrow> B(1000) \amp= $65.62 </mrow>
+                    </md>
                 </p>
             </introduction>
             <task workspace="0.5in">
@@ -80,14 +85,14 @@
             <task workspace="0.5in">
                 <statement>
                     <p>
-                        Build a linear model for the bill <m>B</m>, of a customer that used 800 kWh or less.
+                        Build a linear model for the bill <m>B(k)</m>, of a customer that used 800 kWh or less.
                     </p>
                 </statement>
             </task>
             <task workspace="0.5in">
                 <statement>
                     <p>
-                        Build a linear model for the bill <m>B</m>, of a customer that used 800 kWh or less.
+                        Build a linear model for the bill <m>B(k)</m>, of a customer that used more than 800 kWh.
                     </p>
                 </statement>
             </task>
@@ -96,15 +101,15 @@
   </page>
   
   <page>
-    <activity>
+    <activity xml:id="a-piecewise-notation">
         <introduction>
             <p>
-                The situation in <xref ref="a-entergy-winter"/> is called "piecewise defined" or a "piecewise linear model." It is piecewise because the cost changes based on the amount of electricity used. Cost per kWh is not constant so the graph if this situation is not a line. It is piecewise <em>linear</em> because the graph has two pieces, and cost per kWh is constant on each piece.
+                The situation in <xref ref="a-entergy-winter"/> is called <q>piecewise defined</q> or a <q>piecewise linear model.</q> It is piecewise because the cost changes based on the amount of electricity used. Cost per kWh is not constant, so the graph of this situation is not a line. But it is piecewise linear, because cost per kWh is constant on each piece.
             </p>
             <p>
-                We found that when the number of kilowatt hours used, <m>k</m> is 800 or less, the bill is <m>B = 8.07 + 0.06002k</m>. When the number of kilowatt hours used is more than 800, <m>B = 8.07 + 0.06002 \times 800 + 0.04766(k - 800)</m>, or <m>B = 56.086 + 0.04766(k-800)</m>. Mathematicians like to put both of these equations together like this:
+                We found that when the number of kilowatt hours used, <m>k</m> is 800 or less, the bill is <m>B(k) = 8.07 + 0.06002k</m>. When the number of kilowatt hours used is more than 800, <me>B(k) = 8.07 + 0.06002 \times 800 + 0.04766(k - 800)</me>, or <me>B(k) = 56.086 + 0.04766(k-800)</me>. Mathematicians like to put both of these equations together like this:
                 <me>
-                    B = \begin{cases}
+                    B(k) = \begin{cases}
                             8.07 + 0.06002k, \amp k \leq 800 \\
                             56.086 + 0.04766(k-800), \amp k \gt 800
                         \end{cases}
@@ -149,7 +154,7 @@
   </page>
 
   <page>
-    <activity>
+    <activity xml:id="a-water-charges">
         <introduction>
             <p>
                 In order to conserve water, the Detroit area water system has a two-tiered system of charges. Customers are billed quarterly (every three months) for water usage. The cost to customers is $12.04 per thousand gallons for the first 20,000 gallons of water used, and $21.90 for each thousand gallons over 20,000. In addition there is always a flat quarterly fee of $73.00.
@@ -214,7 +219,7 @@
         <task workspace="1in">
             <statement>
                 <p>
-                    Construct a formula for a piecewise linear model that represents the amount of the quarterly water bill (in dollars) for any amount of water used. Use <m>g</m> for water usage and <m>W</m> for water bill amount.
+                    Construct a formula for a piecewise linear model that represents the amount of the quarterly water bill (in dollars) for any amount of water used. Use <m>g</m> for water usage and <m>W(g)</m> for water bill amount.
                 </p>
             </statement>
         </task>
@@ -236,10 +241,10 @@
   </page>
 
   <page>
-    <activity>
+    <activity xml:id="a-clothing-sales">
         <introduction>
             <p>
-                The graph below displays the monthly sales data for a specific clothing item from 2013 - 2023 in the U.S. Let <m>t</m> be the number of months after January 2013, and <m>u</m> be the number of units sold (in thousands).
+                The graph below displays the monthly sales data for a specific clothing item from 2013 - 2023 in the U.S. Let <m>t</m> be the number of months after January 2013, and <m>u(t)</m> be the number of units sold (in thousands).
             </p>
             <figure xml:id="fig-sales-since-2013">
                 <caption>Difference in average global temperature from the 1850-1900 mean with a trendline. Image from Quantway College Module M.3 by Carnegie Math Pathways</caption>
@@ -285,7 +290,7 @@
   </page>
 
   <page>
-    <activity>
+    <activity xml:id="a-moving-costs">
         <introduction>
             <p>
                 Julio is moving from one apartment to another apartment in a neighboring town. He needs to rent a truck for one day to move his belongings. Julio uses the Internet to search for companies with trucks for rent. He finds two companies that have trucks available on the day he needs one: Rent-A-Truk and Trucks-4-Less. 
@@ -333,14 +338,14 @@
         <task>
             <statement>
                 <p>
-                    Set up an algebraic model that can be used to represent the cost for using Rent-A-Truk, <m>R</m> given that one plans on driving <m>x</m> miles.
+                    Set up an algebraic model that can be used to represent the cost for using Rent-A-Truk, <m>R(x)</m> given that one plans on driving <m>x</m> miles.
                 </p>
             </statement>
         </task>
         <task>
             <statement>
                 <p>
-                    If a person plans on driving <m>x</m> miles, what would the algebraic model be to represent the cost for using Trucks-4-Less, <m>T</m>?
+                    If a person plans on driving <m>x</m> miles, what would the algebraic model be to represent the cost for using Trucks-4-Less, <m>T(x)</m>?
                 </p>
             </statement>
         </task>
@@ -348,7 +353,7 @@
             <statement>
                 <p>
                     Julio might want to know at what mileage the cost of the Rent-A-Truk plan equals the cost of the Trucks-4-Less plan. Use your algebraic models to write one equation, using only the variable <m>x</m>, that represents this situation. <br/>
-                    <strong>Hint:</strong> You can think about this situation as <m>R = T</m>. <br />
+                    <strong>Hint:</strong> You can think about this situation as <m>R(x) = T(x)</m>. <br />
                     <strong>Hint:</strong> Julio estimated that this situation occurs at a mileage higher than 40.
                 </p>
             </statement>
