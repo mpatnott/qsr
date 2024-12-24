@@ -16,13 +16,19 @@
   </chapter>
 
   <chapter xml:id="ch-aROC" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title> Average Rates of Change </title>
+    <title>Average Rates of Change</title>
 
     <xi:include href="sec-aROC-prep.ptx" />
     <xi:include href="sec-aROC.ptx" />
   </chapter>
+
+  <chapter xml:id="ch-build-linear-models">
+    <title>Building Linear Models</title>
+    
+    <xi:include href="sec-linear-models-prep.ptx" />
+    <xi:include href="sec-linear-models.ptx" />
+  </chapter>
   <!-- 
-  <xi:include href="sec-linear-models.ptx" />
   <xi:include href="sec-linear-trends.ptx" />
   <xi:include href="sec-piecewise-linear.ptx" /> -->
 

@@ -10,7 +10,7 @@
       </p>
 
       <p> 
-          Here's an example of one such ranking - the "<url href="https://www.investopedia.com/articles/retirement/062016/6-countries-where-you-can-live-social-security.asp" visual="www.investopedia.com/articles/retirement/062016/6-countries-where-you-can-live-social-security.asp">Best Places to Retire on Earth</url>," according to <url href="https://www.investopedia.com/" visual="investopedia.com">investopedia.com</url>. To determine which countries are the best for retirees, they used a scoring system that measured seven categories:
+          Here's an example of one such ranking - the <q><url href="https://www.investopedia.com/articles/retirement/062016/6-countries-where-you-can-live-social-security.asp" visual="www.investopedia.com/articles/retirement/062016/6-countries-where-you-can-live-social-security.asp">Best Places to Retire on Earth</url>,</q> according to <url href="https://www.investopedia.com/" visual="investopedia.com">investopedia.com</url>. To determine which countries are the best for retirees, they used a scoring system that measured seven categories:
       </p>
       <ul cols="3">
           <li> Visa/benefits </li>
@@ -33,7 +33,7 @@
       Important factors for a decision or situation are called <term>variables</term>. Variables that have values that are numbers called <term>quantitative variables</term>.
     </p>
 
-    <activity workspace="1in">
+    <activity workspace="1in" xml:id="a-create-a-ranking">
       <p> 
         In your group, agree on a topic that interests everyone (or most of you!), and try to come up with a strategy to create a ranking system related to that topic. After agreeing on a topic, think about:
       </p>
@@ -44,7 +44,7 @@
       </ul>
     </activity>
 
-    <activity>
+    <activity xml:id="a-ranking-colleges">
       <introduction>
         <p>
           Every year, <em>U.S. News &amp; World Report</em> publishes a list of the best colleges in the United States. Colleges on the list are ranked based on many different factors, such as first-year student retention, graduation rates, and faculty strength.
@@ -72,10 +72,10 @@
       A <term>mathematical model</term> is a description of a system, or situation, using mathematical concepts, language, and numbers. People often use variables to help create mathematical models. Mathematical models can be represented as equations, tables, graphs, or descriptions in words.
     </p>
 
-    <activity>
+    <activity xml:id="a-cc-rankings">
       <introduction>
         <p>
-            Let's look at a mathematical model for ranking community colleges that combines variables to give us one number for each community college. The Aspen Institute  awards the Aspen Prize every other year. The award "honors those institutions that strive for and achieve exceptional levels of success for all students, while they are in college and after they graduate."<fn><url href="http://highered.aspeninstitute.org/projects/"></url></fn> In addition to the prestige of winning this award, the winning college also receives a $1 million cash prize. To determine the 150 finalists for the award, the Aspen Institute collects information from 1000 community colleges related to the following variables:
+            Let's look at a mathematical model for ranking community colleges that combines variables to give us one number for each community college. The Aspen Institute  awards the Aspen Prize every other year. The award <q>honors those institutions that strive for and achieve exceptional levels of success for all students, while they are in college and after they graduate.</q><fn><url href="http://highered.aspeninstitute.org/projects/"></url></fn> In addition to the prestige of winning this award, the winning college also receives a $1 million cash prize. To determine the 150 finalists for the award, the Aspen Institute collects information from 1000 community colleges related to the following variables:
             <ol>
               <li><strong>Performance</strong> - The performance score measures student success in persistence, degrees awarded, completion, and transfer;</li>
               <li><strong>Change</strong> - The change score measures consistent improvement in these areas over time; and</li>
@@ -87,7 +87,7 @@
       <task workspace="1in">
         <statement>
           <p>
-            Look at the scores in the table below for four community colleges. Which school do you think is the “best?” Why? (Hint: What data are you focusing on in the table?)
+            Look at the scores in the table below for four community colleges. Which school do you think is the <q>best?</q> Why? (Hint: What data are you focusing on in the table?)
           </p>
           <table>
             <tabular halign="center">
@@ -161,7 +161,7 @@
   </page>
 
   <page>
-    <activity>
+    <activity xml:id="a-bmi">
       <introduction>
         <p>
           Body Mass Index, or BMI, is often used to classify people as obese or underweight. The formula for BMI is
@@ -280,4 +280,216 @@
     </activity>
   </page>
 
+  <page>
+    <activity xml:id="a-fxn-notation">
+      <introduction>
+            <p>
+                Most of the mathematical models that we'll explore in this class are <term>functions</term>. A function is a special type of mathematical model that matches each value of its <term>input</term> quantity to exactly one value of its <term>output</term> quantity. Mathematicians use a special notation for functions, <m>f(x)</m>, which is read <q><m>f</m> of <m>x</m></q>. It has three parts:
+                <ul>
+                    <li>
+                        <p>
+                            <m>f</m> is the <term>name</term> of the function or model
+                        </p>
+                    </li>
+                    <li><m>x</m> is the <term>input</term></li>
+                    <li><m>f(x)</m> all together is the <term>output</term>. If we have <m>f(x) = y</m>, then <m>y</m> is also the output.</li>
+                </ul>
+            </p>
+            <p>
+                Identify the input, output, and function name in each of the math sentences below.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>b(q) = g</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>n(k) = 5</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>y(2) = m</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>s(-1) = -7</m>
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+    <activity xml:id="a-fxn-notation-table">
+      <introduction>
+            <p>
+                Function notation is a compact way to keep track of and connect several pieces of information. Let's practice interpreting it in an example.
+            </p>
+            <p>
+                The table below shows the percent of US adults (18+) who said they used Instagram in each year<fn>Data from Pew Research Center surveys on social media use.</fn>.
+            </p>
+            <table>
+                <title>Percent of US Adults That Use Instagram</title>
+                <tabular row-headers = "yes" halign="center">
+                    <row bottom="minor">
+                        <cell right="minor">Year, <m>y</m></cell>
+                        <cell>2012</cell>
+                        <cell>2013</cell>
+                        <cell>2014</cell>
+                        <cell>2015</cell>
+                        <cell>2016</cell>
+                        <cell>2018</cell>
+                        <cell>2019</cell>
+                        <cell>2021</cell>
+                        <cell>2023</cell>
+                    </row>
+                    <row>
+                        <cell right="minor">Percent, <m>P(y)</m></cell>
+                        <cell>13</cell>
+                        <cell>17</cell>
+                        <cell>26</cell>
+                        <cell>28</cell>
+                        <cell>32</cell>
+                        <cell>35</cell>
+                        <cell>37</cell>
+                        <cell>40</cell>
+                        <cell>47</cell>
+                    </row>
+                </tabular>
+            </table>
+            <p>
+                Using function notation, we can write the sentence <q>13% of US adults used Instagram in 2012</q> as <m>P(2012) = 13%</m>.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                   Use function notation to write the sentence <q>47% of US adults used Instagram in 2023</q>. 
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Interpret <m>P(2016) = 32</m> by writing a sentence in words.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    We can use the table to evaluate expressions in function notation. For example, if we're asked <q>Evaluate <m>P(2018)</m></q>, the table tells us the answer is <m>35</m>. 
+                </p>
+                <p>
+                    Evaluate <m>P(2021)</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    We can also use the table to solve equations in function notation. For example, if we're asked <q>Solve the equation <m>P(y) = 17</m></q>, the answer is <m>y = 2014</m>, since that's the year in which <m>17%</m> of US adults used Instagram, according to the table.  
+                </p>
+                <p>
+                    Solve the equation <m>P(y) = 28</m>.
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+    <activity xml:id="a-fxn-notation-graph">
+      <introduction>
+            <p>
+                We can also use function notation with graphs. In the graph below, let <m>y</m> be the year, and <m>L(t)</m> be the life expetancy at birth in year <m>y</m>.<fn><q>Data Page: Life expectancy at birth</q>, part of the following publication: Saloni Dattani, Lucas Rodés-Guirao, Hannah Ritchie, Esteban Ortiz-Ospina and Max Roser (2023) - <q>Life Expectancy</q>. Data adapted from Human Mortality Database, United Nations, Zijdeman et al., James C. Riley. Retrieved from <url href="https://ourworldindata.org/grapher/life-expectancy"/>  [online resource], November 25, 2024.</fn>
+            </p>
+            <figure xml:id="fig-us-life-expectancy">
+                <caption>US Life Expectancy at Birth Between 1800 and 2021. </caption>
+                <image source="./images/US-life-expectency.png" width="75%">
+                    <shortdescription>Graph showing life expectancy at birth in the US between 1800 and 2021.</shortdescription>
+                    <description>
+                        <p>
+                            Life expectancy has increased steadily, except for dips during World War I and after COVID-19.
+                        </p>
+                    </description>
+                </image>
+            </figure>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Use function notation to write the sentence <q>Life expectancy in 1985 was about 75 years</q>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Interpret <m>L(2000) = 76.8</m> by writing a sentence in words.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Use the graph to evaluate <m>L(1900)</m>. You'll need to estimate!
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Use the graph to solve the equation <m>L(y) = 60</m>. You'll need to estimate!
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+    <activity xml:id="a-fxn-notation-formula">
+      <introduction>
+            <p>
+                Function notation is also often used with formulas. 
+            </p>
+            <p>
+                The velocity, in feet per second, of a car that slammed on its brakes can be determined based on the length of the skid marks that its tires left on the ground. Suppose that on a particular surface, this relationship is given by <me>v(d) = \sqrt{32d}</me>, where <m>d</m> is the length of the skid marks in feet.
+            </p>
+        </introduction>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Use function notation to write the sentence <q>If the length of the skid marks was 200 feet, then the car was traveling 80 ft/sec</q>.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Interpret <m>v(100) \approx 56.6</m> by writing a sentence in words.
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Use the formula to evaluate <m>v(150)</m>.
+                </p>
+            </statement>
+        </task>
+        <task workspace="1.5in">
+            <statement>
+                <p>
+                    Use the formula to solve the equation <m>L(d) = 100</m>.
+                </p>
+            </statement>
+        </task>
+    </activity>
+  </page>
 </section>

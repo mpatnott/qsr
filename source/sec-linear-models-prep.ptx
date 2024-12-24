@@ -8,7 +8,7 @@
                 These activities will help you review some graphing skills that you will need in many future lessons. You will also practice find average rates of change, an essential skill for this lesson.
             </p>
         </introduction>
-        <investigation>
+        <investigation xml:id="pa-plotting-points">
             <introduction>
                 <p>
                     Let's review plotting points. Use the axes below for all parts of this activity.
@@ -88,7 +88,7 @@
     </page>
 
     <page>
-        <investigation>
+        <investigation xml:id="pa-points-from-table">
             <p>
                 We will sometimes be given points in a data table. Tables might be organized vertically, with named columns, or horizontally, with named rows. Look for the row and column names to find the horizontal and vertical coordinates of the points. Here are the points we've already graphed, arranged in a table in two different ways.
             </p>
@@ -149,7 +149,7 @@
             </p>
             <table>
                 <title>New points to graph</title>
-                <tabular>
+                <tabular row-headers = "yes" halign="center" top="minor" bottom="minor" left="minor" right="minor">
                     <row>
                         <cell>Hours Worked</cell>
                         <cell>15</cell>
@@ -164,7 +164,7 @@
             </table>
         </investigation>
 
-        <investigation>
+        <investigation xml:id="pa-graphing-practice">
             <introduction>
                 <p>
                     The table below shows the number of housing units in Denver.<fn>Data from Data Commons 2024, US Census Bureua, electronic dataset, Data Commons, viewed 2 Jul 2024, <url href="https://datacommons.org"></url></fn>
@@ -258,7 +258,7 @@
             <task workspace="0.35in">
                 <statement>
                     <p>
-                        Notice that this data set says that it is giving us "Number of Housing Units (1000s)." This is common when working with large numbers. To find the number of housing units, we need to multiply the given values by 1000. So, for example, there were 284,000 housing units in 2011. How many housing units were there in 2022?
+                        Notice that this data set says that it is giving us <q>Number of Housing Units (1000s).</q> This is common when working with large numbers. To find the number of housing units, we need to multiply the given values by 1000. So, for example, there were 284,000 housing units in 2011. How many housing units were there in 2022?
                     </p>
                 </statement>
             </task>
@@ -266,10 +266,10 @@
     </page>
 
     <page>
-        <investigation>
+        <investigation xml:id="pa-aroc-phrasing">
             <introduction>
                 <p>
-                    We learned in <xref ref="sec-aROC"/> how to find average rates of change. A useful writing convention to be aware of is that when we say "the average rate of change IN (some quantity)", then (some quantity) is the output quantity and goes in the numerator of the fraction. Find each of the following:
+                    We learned in <xref ref="sec-aROC"/> how to find average rates of change. A useful writing convention to be aware of is that when we say <q>the average rate of change IN (some quantity)</q>, then (some quantity) is the output quantity and goes in the numerator of the fraction. Find each of the following:
                 </p>
             </introduction>
             <task workspace="0.75in">
@@ -295,7 +295,7 @@
             </task>
         </investigation>
 
-        <investigation>
+        <investigation xml:id="pa-linear-models-confidence">
             <p>
                 You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).
             </p>

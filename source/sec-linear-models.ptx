@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-linear-models" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Building Linear Models</title>
+  <title>Building Linear Models Activities</title>
 
   <page>
     <activity xml:id="a-xcel-summer-electricity">
@@ -64,15 +64,15 @@
                             <cell>Average Rate of Change</cell>
                         </row>
                         <row>
-                            <cell>Iris and Ellie</cell>
+                            <cell>0 kWh to 900 kWh</cell>
                             <cell></cell>
                         </row>
                         <row>
-                            <cell>Iris and David</cell>
+                            <cell>0 kWh to 905 kWh</cell>
                             <cell></cell>
                         </row>
                         <row>
-                            <cell>David and Ellie</cell>
+                            <cell>900 kWh to 905 kWh</cell>
                             <cell></cell>
                         </row>
                     </tabular>
@@ -112,13 +112,13 @@
     <definition xml:id="def-linear-model">
         <statement>
             <p>
-                A mathematical model that has a constant rate of change is called <term>linear model</term>. The rate of change of a linear model is called its <term>slope</term>.
+                A mathematical model that has a constant rate of change is called <term>linear model</term>. The rate of change of a linear model is called its <term>slope</term>. Linear models are functions, so we will sometimes use function notation when working with them.
             </p>
         </statement>
     </definition>
 
     <activity xml:id="a-linear-or-not" workspace="1.5in">
-        Decide whether each of the three data sets fits a linear model. Explain your answers in words. If a data set does define a linear model, find its slope.
+        Decide whether each of the three data sets has a linear model. Explain your answers in words. If a data set does define a linear model, find its slope.
         <sidebyside>
             <table>
                 <title>Data Set 1</title>
@@ -221,7 +221,10 @@
         <task workspace="0.5in">
             <statement>
                 <p>
-                    Suppose that Theo used <m>k</m> kWh of energy in a summer month. Find a formula for <m>B</m>, Theo's bill.
+                    Suppose that Theo used <m>k</m> kWh of energy in a summer month. Find a formula for <m>B(k)</m>, Theo's bill. 
+                </p>
+                <p>
+                    Reminder: <m>B(k)</m> is read <q><m>B</m> of <m>k</m></q> and is NOT multiplication; <m>B</m> is the name of the function, <m>k</m> is the input, and <m>B(k)</m> all together is the output. In this context, <m>k</m> is the kWh of energy that Theo used, and <m>B(k)</m> is the amount of money he owes.
                 </p>
             </statement>
         </task>
@@ -280,7 +283,7 @@
         <task workspace="0.5in">
             <statement>
                 <p>
-                    Let <m>A</m> be the amount Arlo has left on their coffee card and <m>n</m> be the number of latte's they've purchased. Find a formula for the linear model relating <m>A</m> and <m>n</m>.
+                    Let <m>A(n)</m> be the amount Arlo has left on their coffee card and <m>n</m> be the number of latte's they've purchased. Find a formula for the linear model relating <m>A(n)</m> and <m>n</m>.
                 </p>
             </statement>
         </task>
@@ -358,7 +361,7 @@
         <task>
             <statement>
                 <p>
-                    Find a formula for <m>P</m>, the child's profit, in terms of <m>n</m>, the number of comics they sell. <br /> <strong>Hints:</strong> What information do you need to find a formula for a linear model?
+                    Find a formula for <m>P(n)</m>, the child's profit, in terms of <m>n</m>, the number of comics they sell. <br /> <strong>Hint:</strong> What information do you need to find a formula for a linear model?
                 </p>
             </statement>
         </task>
@@ -410,14 +413,14 @@
         <task workspace="0.5in">
             <statement>
                 <p>
-                    Let <m>P</m> be the monthly cost for the per-GB pricing plan and <m>g</m> be the number of gigabytes used. Create the linear model for <m>P</m> in terms of <m>g</m>.
+                    Let <m>P(g)</m> be the monthly cost for the per-GB pricing plan and <m>g</m> be the number of gigabytes used. Create the linear model for <m>P(g)</m> in terms of <m>g</m>.
                 </p>
             </statement>
         </task>
         <task workspace="0.5in">
             <statement>
                 <p>
-                    Let <m>U</m> be the monthly cost for the unlimited pricing plan and <m>g</m> be the number of gigabytes used. Create the linear model for <m>U</m> in terms of <m>g</m>.
+                    Let <m>U(g)</m> be the monthly cost for the unlimited pricing plan and <m>g</m> be the number of gigabytes used. Create the linear model for <m>U(g)</m> in terms of <m>g</m>.
                 </p>
             </statement>
         </task>
