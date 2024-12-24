@@ -28,8 +28,14 @@
     <xi:include href="sec-linear-models-prep.ptx" />
     <xi:include href="sec-linear-models.ptx" />
   </chapter>
+
+  <chapter xml:id="ch-linear-trends">
+    <title>Linear Trends</title>
+    
+    <xi:include href="sec-linear-trends-prep.ptx" />
+    <xi:include href="sec-linear-trends.ptx" />
+  </chapter>
   <!-- 
-  <xi:include href="sec-linear-trends.ptx" />
   <xi:include href="sec-piecewise-linear.ptx" /> -->
 
 </part>

@@ -210,7 +210,7 @@
         </sidebyside>
     </activity>
 
-    <activity>
+    <activity xml:id="a-build-model">
         <task workspace="0.25in">
             <statement>
                 <p>
@@ -253,7 +253,7 @@
   </page>
 
   <page>
-    <activity>
+    <activity xml:id="a-coffee-card">
         <introduction>
             <p>
                 A local coffee shop offers a coffee card that you can preload with any amount of money and use like a debit card each day to purchase coffee. At the beginning of the month (when they get their paycheck), Arlo loads it with $50. Their favorite small soy latte costs $2.63.
@@ -331,7 +331,7 @@
   </page>
 
   <page>
-    <activity workspace="0.5in">
+    <activity workspace="0.5in" xml:id="a-comic-books">
         <introduction>
             <p>
                 Many old comic books contained ads offering money-making schemes to children reading the comics.<fn><url href=" http://mentalfloss.com/article/57958/6-get-rich-quick-schemes-vintage-comic-books"></url></fn> As an example, suppose a company offered to send 30 greeting cards to a child to sell to relatives, friends, and neighbors. The child was to sell them for <m>m</m> dollars each, and had to send <m>b</m> dollars back to the company. Here is a graph of a linear model representing the situation. The input (horizontal value) represents the number of cards sold, and the output (vertical value) represents the child's profit in dollars.
@@ -390,7 +390,7 @@
   </page>
 
   <page>
-    <activity>
+    <activity xml:id="a-phone-plans">
         <introduction>
             <p>
                 Data plans for cell phone plans can be purchased in two different ways. One is an unlimited data plan where the customer pays a set monthly fee for unlimited data. The other is a per-gigabyte (GB) pricing service where the customer pays a set monthly fee plus a specified amount for each GB. The GBs are not prorated (that means it doesn't matter if the customer uses 0.001 GB or 1 GB, they must still pay for the entire 1 GB). The cost of the phone itself and other fees are the same amount under each plan.
@@ -461,7 +461,7 @@
   </page>
 
   <page>
-    <activity>
+    <activity xml:id="a-build-model-2">
         <introduction>
             <p>
                 We determined in <xref ref="a-linear-or-not"/> that
