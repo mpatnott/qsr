@@ -8,7 +8,7 @@
 <html lang="en-US" dir="ltr">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Mathematical Models</title>
+<title>Mathematical Models Activities</title>
 <meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
@@ -86,7 +86,7 @@ window.MathJax = {
 <link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_blue_grey.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
 </head>
 <body id="qsrworkbook" class="pretext book ignore-math">
@@ -106,7 +106,7 @@ window.MathJax = {
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="ch-linear-models.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-linear-models.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-aROC.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} \def\thecourse{MT 250} \def\theterm{Fall 2024}
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-math-models-prep.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-math-models.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ch-aROC.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} \def\thecourse{MT 250} \def\theterm{Fall 2024}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -114,77 +114,55 @@ window.MathJax = {
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
 <div class="ptx-page">
-<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth3 parts"><ul class="structural contains-active toc-item-list">
 <li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
-<li class="toc-item toc-chapter contains-active">
-<div class="toc-title-box"><a href="ch-linear-models.html" class="internal"><span class="codenumber">1</span> <span class="title">Linear Models</span></a></div>
+<li class="toc-item toc-part contains-active">
+<div class="toc-title-box"><a href="part-linear-models.html" class="internal"><span class="codenumber">I</span> <span class="title">Linear Models</span></a></div>
 <ul class="structural toc-item-list contains-active">
-<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-math-models.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Mathematical Models</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-aROC.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Average Rates of Change</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-linear-models.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Building Linear Models</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-linear-trends.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Linear Trends</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-piecewise-linear.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Piecewise Linear Models</span></a></div></li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-math-models.html" class="internal"><span class="codenumber">1</span> <span class="title">Introduction to Mathematical Models</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-math-models-prep.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Mathematical Models Prep Activities</span></a></div></li>
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-math-models.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Mathematical Models Activities</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-linear-models.html" class="internal"><span class="codenumber">2</span> <span class="title">Linear Models Prep Activities</span></a></div>
+<div class="toc-title-box"><a href="ch-aROC.html" class="internal"><span class="codenumber">2</span> <span class="title">Average Rates of Change</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-math-models-prep.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Mathematical Models Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-aROC-prep.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Average Rates of Change</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-linear-models-prep.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Building Linear Models Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-linear-trends-prep.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Linear Trends Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-piecewise-linear-prep.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Piecewise Linear Models Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-aROC-prep.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Average Rates of Change Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-aROC.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Average Rates of Change Activities</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-exponential-models.html" class="internal"><span class="codenumber">3</span> <span class="title">Exponential Models</span></a></div>
+<div class="toc-title-box"><a href="ch-build-linear-models.html" class="internal"><span class="codenumber">3</span> <span class="title">Building Linear Models</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-working-with-percentages.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Working With Percentages</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-relative-change.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Relative Change</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-exponential-models.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Exponential Models</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-log-models.html" class="internal"><span class="codenumber">3.4</span> <span class="title">The Log Operation</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-exponential-trends.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Exponential Trends</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-apply-exponential.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Applying Exponential Models to Real Scenarios</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-linear-models-prep.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Building Linear Models Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-linear-models.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Building Linear Models Activities</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-exponential-models-prep.html" class="internal"><span class="codenumber">4</span> <span class="title">Exponential Models Prep Activities</span></a></div>
+<div class="toc-title-box"><a href="ch-linear-trends.html" class="internal"><span class="codenumber">4</span> <span class="title">Linear Trends</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-working-with-percentages-prep.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Working With Percentages Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-relative-change-prep.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Relative Change Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-exponential-models-prep.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Exponential Models Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-log-models-prep.html" class="internal"><span class="codenumber">4.4</span> <span class="title">The Log Operation Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-exponential-trends-prep.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Exponential Trends Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-apply-exponential-prep.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Applying Exponential Models to Real Scenarios Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-linear-trends-prep.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Linear Trends Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-linear-trends.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Linear Trends Activities</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-other-models.html" class="internal"><span class="codenumber">5</span> <span class="title">Other Models</span></a></div>
+<div class="toc-title-box"><a href="ch-piecewise-linear.html" class="internal"><span class="codenumber">5</span> <span class="title">Piecewise Linear Models</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-multivar-models.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Multivariable Models</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-power-models.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Power Models</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-quad-and-polyn.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Quadratic and Polynomial Models</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-quad-algebra.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Solving Quadratic Equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-functions.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-piecewise-linear-prep.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Piecewise Linear Models Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-piecewise-linear.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Piecewise Linear Models Activities</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-other-models-prep.html" class="internal"><span class="codenumber">6</span> <span class="title">Other Models Prep Activities</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-multivar-models-prep.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Multivariables Models Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-power-models-prep.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Power Models Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-quad-and-polyn-prep.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Quadratic and Polynomial Models Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-quad-algebra-prep.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Solving Quadratic Equations Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-functions-prep.html" class="internal"><span class="codenumber">6.5</span> <span class="title">Functions Prep Activities</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-math-models"><h2 class="heading hide-type">
-<span class="type">Section</span><span class="space"> </span><span class="codenumber">1.1</span><span class="space"> </span><span class="title">Mathematical Models</span>
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">1.2</span><span class="space"> </span><span class="title">Mathematical Models Activities</span>
 </h2>
 <div class="introduction" id="sec-math-models-2-1">
-<div class="para" id="sec-math-models-2-1-1">Media outlets regularly publish rankings of cell phone carriers, travel destinations, colleges, TVs, and credit cards, just to mention a few.</div> <div class="para" id="sec-math-models-2-1-2">Here’s an example of one such ranking - the "<a class="external" href="https://www.investopedia.com/articles/retirement/062016/6-countries-where-you-can-live-social-security.asp" target="_blank">Best Places to Retire on Earth</a><details class="ptx-footnote" aria-live="polite" id="sec-math-models-2-1-2-2"><summary class="ptx-footnote__number" title="Footnote 1.1.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="sec-math-models-2-1-2-2"><code class="code-inline tex2jax_ignore">www.investopedia.com/articles/retirement/062016/6-countries-where-you-can-live-social-security.asp</code></div></details>," according to <a class="external" href="https://www.investopedia.com/" target="_blank">investopedia.com</a><details class="ptx-footnote" aria-live="polite" id="sec-math-models-2-1-2-4"><summary class="ptx-footnote__number" title="Footnote 1.1.2"><sup> 2 </sup></summary><div class="ptx-footnote__contents" id="sec-math-models-2-1-2-4"><code class="code-inline tex2jax_ignore">investopedia.com</code></div></details>. To determine which countries are the best for retirees, they used a scoring system that measured seven categories:</div> <ul class="disc cols3">
+<div class="para" id="sec-math-models-2-1-1">Media outlets regularly publish rankings of cell phone carriers, travel destinations, colleges, TVs, and credit cards, just to mention a few.</div> <div class="para" id="sec-math-models-2-1-2">Here’s an example of one such ranking - the “<a class="external" href="https://www.investopedia.com/articles/retirement/062016/6-countries-where-you-can-live-social-security.asp" target="_blank">Best Places to Retire on Earth</a><details class="ptx-footnote" aria-live="polite" id="sec-math-models-2-1-2-1-2"><summary class="ptx-footnote__number" title="Footnote 1.2.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="sec-math-models-2-1-2-1-2"><code class="code-inline tex2jax_ignore">www.investopedia.com/articles/retirement/062016/6-countries-where-you-can-live-social-security.asp</code></div></details>,” according to <a class="external" href="https://www.investopedia.com/" target="_blank">investopedia.com</a><details class="ptx-footnote" aria-live="polite" id="sec-math-models-2-1-2-3"><summary class="ptx-footnote__number" title="Footnote 1.2.2"><sup> 2 </sup></summary><div class="ptx-footnote__contents" id="sec-math-models-2-1-2-3"><code class="code-inline tex2jax_ignore">investopedia.com</code></div></details>. To determine which countries are the best for retirees, they used a scoring system that measured seven categories:</div> <ul class="disc cols3">
 <li id="sec-math-models-2-1-3-1"><div class="para" id="p-derived-sec-math-models-2-1-3-1">Visa/benefits</div></li>
 <li id="sec-math-models-2-1-3-2"><div class="para" id="p-derived-sec-math-models-2-1-3-2">Climate</div></li>
 <li id="sec-math-models-2-1-3-3"><div class="para" id="p-derived-sec-math-models-2-1-3-3">Cost of living</div></li>
@@ -193,33 +171,33 @@ window.MathJax = {
 <li id="sec-math-models-2-1-3-6"><div class="para" id="p-derived-sec-math-models-2-1-3-6">Housing</div></li>
 <li id="sec-math-models-2-1-3-7"><div class="para" id="p-derived-sec-math-models-2-1-3-7">Affinity rating</div></li>
 </ul> <div class="para" id="sec-math-models-2-1-4">The top 4 countries with the highest cumulative average score across all those categories are Costa Rica, Portugal, Mexico, and Panama.</div> <div class="para" id="sec-math-models-2-1-5">When creating rankings like the one above, we first need to decide what factors (variables) will contribute to the overall ranking. Then, we need to decide how those factors can be measured (quantified). Finally, we need a formula that combines all of them into one overall score.</div>
-</div> <div class="para" id="sec-math-models-2-2">Important factors for a decision or situation are called <dfn class="terminology">variables</dfn>. Variables that have values that are numbers called <dfn class="terminology">quantitative variables</dfn>.</div> <article class="activity project-like" id="sec-math-models-2-3"><h3 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.1</span><span class="period">.</span>
+</div> <div class="para" id="sec-math-models-2-2">Important factors for a decision or situation are called <dfn class="terminology">variables</dfn>. Variables that have values that are numbers called <dfn class="terminology">quantitative variables</dfn>.</div> <article class="activity project-like" id="a-create-a-ranking"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.1</span><span class="period">.</span>
 </h3>
-<div class="para" id="sec-math-models-2-3-1">In your group, agree on a topic that interests everyone (or most of you!), and try to come up with a strategy to create a ranking system related to that topic. After agreeing on a topic, think about:</div> <ul class="disc">
-<li id="sec-math-models-2-3-2-1"><div class="para" id="p-derived-sec-math-models-2-3-2-1">What variables to use;</div></li>
-<li id="sec-math-models-2-3-2-2"><div class="para" id="p-derived-sec-math-models-2-3-2-2">How to measure those variables; and</div></li>
-<li id="sec-math-models-2-3-2-3"><div class="para" id="p-derived-sec-math-models-2-3-2-3">How to combine all of them into one overall score.</div></li>
-</ul></article> <article class="activity project-like" id="sec-math-models-2-4"><h3 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.2</span><span class="period">.</span>
+<div class="para" id="a-create-a-ranking-1">In your group, agree on a topic that interests everyone (or most of you!), and try to come up with a strategy to create a ranking system related to that topic. After agreeing on a topic, think about:</div> <ul class="disc">
+<li id="a-create-a-ranking-2-1"><div class="para" id="p-derived-a-create-a-ranking-2-1">What variables to use;</div></li>
+<li id="a-create-a-ranking-2-2"><div class="para" id="p-derived-a-create-a-ranking-2-2">How to measure those variables; and</div></li>
+<li id="a-create-a-ranking-2-3"><div class="para" id="p-derived-a-create-a-ranking-2-3">How to combine all of them into one overall score.</div></li>
+</ul></article> <article class="activity project-like" id="a-ranking-colleges"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.2</span><span class="period">.</span>
 </h3>
-<div class="introduction" id="sec-math-models-2-4-1"><div class="para" id="sec-math-models-2-4-1-1">Every year, <em class="emphasis">U.S. News &amp; World Report</em> publishes a list of the best colleges in the United States. Colleges on the list are ranked based on many different factors, such as first-year student retention, graduation rates, and faculty strength.</div></div>
-<article class="task exercise-like" id="sec-math-models-2-4-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
-<div class="para" id="sec-math-models-2-4-2-1-1">Using what you know about how <em class="emphasis">U.S. News</em> ranks colleges, discuss what things you might include in your decision in choosing a college. That is, what factors would be important to your decision?</div></article><article class="task exercise-like" id="sec-math-models-2-4-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
-<div class="para" id="sec-math-models-2-4-3-1-1">Brainstorm how numeric values could be used to quantify (express with numbers) the variables you identified above. Include the units of measurement.</div></article></article><div class="para" id="sec-math-models-3-1">A <dfn class="terminology">mathematical model</dfn> is a description of a system, or situation, using mathematical concepts, language, and numbers. People often use variables to help create mathematical models. Mathematical models can be represented as equations, tables, graphs, or descriptions in words.</div> <article class="activity project-like" id="sec-math-models-3-2"><h3 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.3</span><span class="period">.</span>
+<div class="introduction" id="a-ranking-colleges-1"><div class="para" id="a-ranking-colleges-1-1">Every year, <em class="emphasis">U.S. News &amp; World Report</em> publishes a list of the best colleges in the United States. Colleges on the list are ranked based on many different factors, such as first-year student retention, graduation rates, and faculty strength.</div></div>
+<article class="task exercise-like" id="a-ranking-colleges-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="a-ranking-colleges-2-1-1">Using what you know about how <em class="emphasis">U.S. News</em> ranks colleges, discuss what things you might include in your decision in choosing a college. That is, what factors would be important to your decision?</div></article><article class="task exercise-like" id="a-ranking-colleges-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="a-ranking-colleges-3-1-1">Brainstorm how numeric values could be used to quantify (express with numbers) the variables you identified above. Include the units of measurement.</div></article></article><div class="para" id="sec-math-models-3-1">A <dfn class="terminology">mathematical model</dfn> is a description of a system, or situation, using mathematical concepts, language, and numbers. People often use variables to help create mathematical models. Mathematical models can be represented as equations, tables, graphs, or descriptions in words.</div> <article class="activity project-like" id="a-cc-rankings"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.3</span><span class="period">.</span>
 </h3>
-<div class="introduction" id="sec-math-models-3-2-1"><div class="para logical" id="sec-math-models-3-2-1-1">
-<div class="para">Let’s look at a mathematical model for ranking community colleges that combines variables to give us one number for each community college. The Aspen Institute  awards the Aspen Prize every other year. The award "honors those institutions that strive for and achieve exceptional levels of success for all students, while they are in college and after they graduate."<details class="ptx-footnote" aria-live="polite" id="sec-math-models-3-2-1-1-1"><summary class="ptx-footnote__number" title="Footnote 1.1.3"><sup> 3 </sup></summary><div class="ptx-footnote__contents" id="sec-math-models-3-2-1-1-1"><a class="external" href="http://highered.aspeninstitute.org/projects/" target="_blank"><code class="code-inline tex2jax_ignore">http://highered.aspeninstitute.org/projects/</code></a></div></details> In addition to the prestige of winning this award, the winning college also receives a $1 million cash prize. To determine the 150 finalists for the award, the Aspen Institute collects information from 1000 community colleges related to the following variables:</div>
+<div class="introduction" id="a-cc-rankings-1"><div class="para logical" id="a-cc-rankings-1-1">
+<div class="para">Let’s look at a mathematical model for ranking community colleges that combines variables to give us one number for each community college. The Aspen Institute  awards the Aspen Prize every other year. The award “honors those institutions that strive for and achieve exceptional levels of success for all students, while they are in college and after they graduate.”<details class="ptx-footnote" aria-live="polite" id="a-cc-rankings-1-1-2"><summary class="ptx-footnote__number" title="Footnote 1.2.3"><sup> 3 </sup></summary><div class="ptx-footnote__contents" id="a-cc-rankings-1-1-2"><a class="external" href="http://highered.aspeninstitute.org/projects/" target="_blank"><code class="code-inline tex2jax_ignore">http://highered.aspeninstitute.org/projects/</code></a></div></details> In addition to the prestige of winning this award, the winning college also receives a $1 million cash prize. To determine the 150 finalists for the award, the Aspen Institute collects information from 1000 community colleges related to the following variables:</div>
 <ol class="decimal">
-<li id="sec-math-models-3-2-1-1-2-1"><div class="para" id="p-derived-sec-math-models-3-2-1-1-2-1">Performance - The performance score measures student success in persistence, degrees awarded, completion, and transfer;</div></li>
-<li id="sec-math-models-3-2-1-1-2-2"><div class="para" id="p-derived-sec-math-models-3-2-1-1-2-2">Change - The change score measures consistent improvement in these areas over time; and</div></li>
-<li id="sec-math-models-3-2-1-1-2-3"><div class="para" id="p-derived-sec-math-models-3-2-1-1-2-3">Minority Achievement and Family Income - The minority achievement score and family income score measure equitable outcomes for students of all racial/ethnic and socioeconomic backgrounds.</div></li>
+<li id="a-cc-rankings-1-1-3-1"><div class="para" id="p-derived-a-cc-rankings-1-1-3-1">Performance - The performance score measures student success in persistence, degrees awarded, completion, and transfer;</div></li>
+<li id="a-cc-rankings-1-1-3-2"><div class="para" id="p-derived-a-cc-rankings-1-1-3-2">Change - The change score measures consistent improvement in these areas over time; and</div></li>
+<li id="a-cc-rankings-1-1-3-3"><div class="para" id="p-derived-a-cc-rankings-1-1-3-3">Minority Achievement and Family Income - The minority achievement score and family income score measure equitable outcomes for students of all racial/ethnic and socioeconomic backgrounds.</div></li>
 </ol>
 <div class="para">Each of these scores is created from combining a great deal of information about many factors.</div>
 </div></div>
-<article class="task exercise-like" id="sec-math-models-3-2-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
-<div class="para" id="sec-math-models-3-2-2-1-1">Look at the scores in the table below for four community colleges. Which school do you think is the “best?” Why? (Hint: What data are you focusing on in the table?)</div> <figure class="table table-like" id="sec-math-models-3-2-2-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.1.1<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<article class="task exercise-like" id="a-cc-rankings-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="a-cc-rankings-2-1-1">Look at the scores in the table below for four community colleges. Which school do you think is the “best?” Why? (Hint: What data are you focusing on in the table?)</div> <figure class="table table-like" id="a-cc-rankings-2-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.2.1<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r0 l0 t0 lines">College</th>
 <th scope="col" class="c m b1 r0 l0 t0 lines">State</th>
@@ -265,9 +243,9 @@ window.MathJax = {
 <td class="c m b1 r0 l0 t0 lines">118</td>
 <td class="c m b1 r0 l0 t0 lines"></td>
 </tr>
-</table></div></figure></article><article class="task exercise-like" id="sec-math-models-3-2-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
-<div class="para logical" id="sec-math-models-3-2-3-1-1">
-<div class="para">The Aspen institute used the following <em class="emphasis">mathematical model equation</em> to calculate a score for each school:</div>
+</table></div></figure></article><article class="task exercise-like" id="a-cc-rankings-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para logical" id="a-cc-rankings-3-1-1">
+<div class="para">The Aspen institute used the following <dfn class="terminology">mathematical model equation</dfn> to calculate a score for each school:</div>
 <div class="displaymath process-math">
 \begin{equation*}
 R = 0.33P + 0.33C + 0.27M + 0.07F
@@ -275,22 +253,22 @@ R = 0.33P + 0.33C + 0.27M + 0.07F
 </div>
 <div class="para">where:</div>
 <ul class="disc cols2">
-<li id="sec-math-models-3-2-3-1-1-3-1"><div class="para" id="p-derived-sec-math-models-3-2-3-1-1-3-1">
+<li id="a-cc-rankings-3-1-1-3-1"><div class="para" id="p-derived-a-cc-rankings-3-1-1-3-1">
 <span class="process-math">\(R =\)</span> Overall ranking score (higher scores are best)</div></li>
-<li id="sec-math-models-3-2-3-1-1-3-2"><div class="para" id="p-derived-sec-math-models-3-2-3-1-1-3-2">
+<li id="a-cc-rankings-3-1-1-3-2"><div class="para" id="p-derived-a-cc-rankings-3-1-1-3-2">
 <span class="process-math">\(P =\)</span> Performance score</div></li>
-<li id="sec-math-models-3-2-3-1-1-3-3"><div class="para" id="p-derived-sec-math-models-3-2-3-1-1-3-3">
+<li id="a-cc-rankings-3-1-1-3-3"><div class="para" id="p-derived-a-cc-rankings-3-1-1-3-3">
 <span class="process-math">\(C =\)</span> Change score</div></li>
-<li id="sec-math-models-3-2-3-1-1-3-4"><div class="para" id="p-derived-sec-math-models-3-2-3-1-1-3-4">
+<li id="a-cc-rankings-3-1-1-3-4"><div class="para" id="p-derived-a-cc-rankings-3-1-1-3-4">
 <span class="process-math">\(M =\)</span> Minority score</div></li>
-<li id="sec-math-models-3-2-3-1-1-3-5"><div class="para" id="p-derived-sec-math-models-3-2-3-1-1-3-5">
+<li id="a-cc-rankings-3-1-1-3-5"><div class="para" id="p-derived-a-cc-rankings-3-1-1-3-5">
 <span class="process-math">\(F =\)</span> Family income score</div></li>
 </ul>
 <div class="para">Use this equation to calculate the overall score for each of the schools and enter it into the table above. According to the overall score you calculated, which school is best?</div>
-</div></article></article><article class="activity project-like" id="sec-math-models-4-1"><h3 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.4</span><span class="period">.</span>
+</div></article></article><article class="activity project-like" id="a-bmi"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.4</span><span class="period">.</span>
 </h3>
-<div class="introduction" id="sec-math-models-4-1-1"><div class="para logical" id="sec-math-models-4-1-1-1">
+<div class="introduction" id="a-bmi-1"><div class="para logical" id="a-bmi-1-1">
 <div class="para">Body Mass Index, or BMI, is often used to classify people as obese or underweight. The formula for BMI is</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -298,11 +276,11 @@ BMI = \frac{\text{weight (in kilograms)}}{[\text{height (in meters)}]^2}
 \end{equation*}
 </div>
 </div></div>
-<article class="task exercise-like" id="sec-math-models-4-1-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
-<div class="para" id="sec-math-models-4-1-2-1">What variables are used to calculate BMI?</div></article><article class="task exercise-like" id="sec-math-models-4-1-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
-<div class="para" id="sec-math-models-4-1-3-1">A 2012 study<details class="ptx-footnote" aria-live="polite" id="sec-math-models-4-1-3-1-1"><summary class="ptx-footnote__number" title="Footnote 1.1.4"><sup> 4 </sup></summary><div class="ptx-footnote__contents" id="sec-math-models-4-1-3-1-1"><a class="external" href="https://www.sciencedaily.com/releases/2012/10/121001132146.htm" target="_blank"><code class="code-inline tex2jax_ignore">https://www.sciencedaily.com/releases/2012/10/121001132146.htm</code></a></div></details> found that the proportion of Americans that are severely obese was increasing. How do you think the researchers in this study obtained information about these variables? Imagine yourselves as the researchers. You will want a large, varied sample, and you have limited funds. What would be a good way to get people’s height and weight from diverse U.S. locations?</div></article><article class="task exercise-like" id="sec-math-models-4-1-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
-<div class="para" id="sec-math-models-4-1-4-1-1">If you want to determine whether someone is obese, are there any other variables that might be important to consider?</div></article><article class="task exercise-like" id="sec-math-models-4-1-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
-<div class="para" id="sec-math-models-4-1-5-1-1">The table below lists known heights and weights of several current and former athletes. Calculate the BMI for each of the athletes. Use the fact that one inch is 0.0254 meters and one pound is about 0.454 kilograms. <figure class="table table-like" id="sec-math-models-4-1-5-1-1-1"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.1.2<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<article class="task exercise-like" id="a-bmi-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="a-bmi-2-1">What variables are used to calculate BMI?</div></article><article class="task exercise-like" id="a-bmi-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="a-bmi-3-1">A 2012 study<details class="ptx-footnote" aria-live="polite" id="a-bmi-3-1-1"><summary class="ptx-footnote__number" title="Footnote 1.2.4"><sup> 4 </sup></summary><div class="ptx-footnote__contents" id="a-bmi-3-1-1"><a class="external" href="https://www.sciencedaily.com/releases/2012/10/121001132146.htm" target="_blank"><code class="code-inline tex2jax_ignore">https://www.sciencedaily.com/releases/2012/10/121001132146.htm</code></a></div></details> found that the proportion of Americans that are severely obese was increasing. How do you think the researchers in this study obtained information about these variables? Imagine yourselves as the researchers. You will want a large, varied sample, and you have limited funds. What would be a good way to get people’s height and weight from diverse U.S. locations?</div></article><article class="task exercise-like" id="a-bmi-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="a-bmi-4-1-1">If you want to determine whether someone is obese, are there any other variables that might be important to consider?</div></article><article class="task exercise-like" id="a-bmi-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="a-bmi-5-1-1">The table below lists known heights and weights of several current and former athletes. Calculate the BMI for each of the athletes. Use the fact that one inch is 0.0254 meters and one pound is about 0.454 kilograms. <figure class="table table-like" id="a-bmi-5-1-1-1"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.2.2<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r0 l0 t0 lines">Athlete</th>
 <th scope="col" class="c m b1 r0 l0 t0 lines">Height (ft &amp; in)</th>
@@ -360,23 +338,119 @@ BMI = \frac{\text{weight (in kilograms)}}{[\text{height (in meters)}]^2}
 <td class="c m b0 r0 l0 t0 lines"></td>
 </tr>
 </table></div></figure>
-</div></article><article class="task exercise-like" id="sec-math-models-4-1-6"><h4 class="heading"><span class="codenumber">(e)</span></h4>
-<div class="para logical" id="sec-math-models-4-1-6-1-1">
+</div></article><article class="task exercise-like" id="a-bmi-6"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<div class="para logical" id="a-bmi-6-1-1">
 <div class="para">The Centers for Disease Control and Prevention (CDC) suggests that</div>
 <ul class="disc cols2">
-<li id="sec-math-models-4-1-6-1-1-1-1"><div class="para" id="p-derived-sec-math-models-4-1-6-1-1-1-1">BMI below 18.5 is underweight</div></li>
-<li id="sec-math-models-4-1-6-1-1-1-2"><div class="para" id="p-derived-sec-math-models-4-1-6-1-1-1-2">BMI between 18.5 and 24.9 is normal</div></li>
-<li id="sec-math-models-4-1-6-1-1-1-3"><div class="para" id="p-derived-sec-math-models-4-1-6-1-1-1-3">BMI between 25 and 29.9 is overweight</div></li>
-<li id="sec-math-models-4-1-6-1-1-1-4"><div class="para" id="p-derived-sec-math-models-4-1-6-1-1-1-4">BMI of 30 and above is obsese</div></li>
+<li id="a-bmi-6-1-1-1-1"><div class="para" id="p-derived-a-bmi-6-1-1-1-1">BMI below 18.5 is underweight</div></li>
+<li id="a-bmi-6-1-1-1-2"><div class="para" id="p-derived-a-bmi-6-1-1-1-2">BMI between 18.5 and 24.9 is normal</div></li>
+<li id="a-bmi-6-1-1-1-3"><div class="para" id="p-derived-a-bmi-6-1-1-1-3">BMI between 25 and 29.9 is overweight</div></li>
+<li id="a-bmi-6-1-1-1-4"><div class="para" id="p-derived-a-bmi-6-1-1-1-4">BMI of 30 and above is obsese</div></li>
 </ul>
 <div class="para">What are the athletes’ classifications based on their BMIs? What does this suggest about limitations of the BMI model?</div>
-</div></article><article class="task exercise-like" id="sec-math-models-4-1-7"><h4 class="heading"><span class="codenumber">(f)</span></h4>
-<div class="para" id="sec-math-models-4-1-7-1-1">Consider the following two scenarios. In each scenario, which person has the lower BMI?</div> <ul class="disc">
-<li id="sec-math-models-4-1-7-1-2-1"><div class="para" id="p-derived-sec-math-models-4-1-7-1-2-1">Marisol and Adelyn have the same weight, but Marisol is taller.</div></li>
-<li id="sec-math-models-4-1-7-1-2-2"><div class="para" id="p-derived-sec-math-models-4-1-7-1-2-2">Aries and Niko have the same height, but Aries weighs more.</div></li>
-</ul></article></article></section></div>
+</div></article><article class="task exercise-like" id="a-bmi-7"><h4 class="heading"><span class="codenumber">(f)</span></h4>
+<div class="para" id="a-bmi-7-1-1">Consider the following two scenarios. In each scenario, which person has the lower BMI?</div> <ul class="disc">
+<li id="a-bmi-7-1-2-1"><div class="para" id="p-derived-a-bmi-7-1-2-1">Marisol and Adelyn have the same weight, but Marisol is taller.</div></li>
+<li id="a-bmi-7-1-2-2"><div class="para" id="p-derived-a-bmi-7-1-2-2">Aries and Niko have the same height, but Aries weighs more.</div></li>
+</ul></article></article><article class="activity project-like" id="a-fxn-notation"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.5</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="a-fxn-notation-1">
+<div class="para logical" id="a-fxn-notation-1-1">
+<div class="para">Most of the mathematical models that we’ll explore in this class are <dfn class="terminology">functions</dfn>. A function is a special type of mathematical model that matches each value of its <dfn class="terminology">input</dfn> quantity to exactly one value of its <dfn class="terminology">output</dfn> quantity. Mathematicians use a special notation for functions, <span class="process-math">\(f(x)\text{,}\)</span> which is read “<span class="process-math">\(f\)</span> of <span class="process-math">\(x\)</span>”. It has three parts:</div>
+<ul class="disc">
+<li id="a-fxn-notation-1-1-6-1"><div class="para" id="a-fxn-notation-1-1-6-1-1">
+<span class="process-math">\(f\)</span> is the <dfn class="terminology">name</dfn> of the function or model</div></li>
+<li id="a-fxn-notation-1-1-6-2"><div class="para" id="p-derived-a-fxn-notation-1-1-6-2">
+<span class="process-math">\(x\)</span> is the <dfn class="terminology">input</dfn>
+</div></li>
+<li id="a-fxn-notation-1-1-6-3"><div class="para" id="p-derived-a-fxn-notation-1-1-6-3">
+<span class="process-math">\(f(x)\)</span> all together is the <dfn class="terminology">output</dfn>. If we have <span class="process-math">\(f(x) = y\text{,}\)</span> then <span class="process-math">\(y\)</span> is also the output.</div></li>
+</ul>
+</div> <div class="para" id="a-fxn-notation-1-2">Identify the input, output, and function name in each of the math sentences below.</div>
+</div>
+<article class="task exercise-like" id="a-fxn-notation-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="a-fxn-notation-2-1-1"><span class="process-math">\(b(q) = g\)</span></div></article><article class="task exercise-like" id="a-fxn-notation-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="a-fxn-notation-3-1-1"><span class="process-math">\(n(k) = 5\)</span></div></article><article class="task exercise-like" id="a-fxn-notation-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="a-fxn-notation-4-1-1"><span class="process-math">\(y(2) = m\)</span></div></article><article class="task exercise-like" id="a-fxn-notation-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="a-fxn-notation-5-1-1"><span class="process-math">\(s(-1) = -7\)</span></div></article></article> <article class="activity project-like" id="a-fxn-notation-table"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.6</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="a-fxn-notation-table-1">
+<div class="para" id="a-fxn-notation-table-1-1">Function notation is a compact way to keep track of and connect several pieces of information. Let’s practice interpreting it in an example.</div> <div class="para" id="a-fxn-notation-table-1-2">The table below shows the percent of US adults (18+) who said they used Instagram in each year<details class="ptx-footnote" aria-live="polite" id="a-fxn-notation-table-1-2-1"><summary class="ptx-footnote__number" title="Footnote 1.2.5"><sup> 5 </sup></summary><div class="ptx-footnote__contents" id="a-fxn-notation-table-1-2-1">Data from Pew Research Center surveys on social media use.</div></details>.</div> <figure class="table table-like" id="a-fxn-notation-table-1-3"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.2.3<span class="period">.</span></span><span class="space"> </span>Percent of US Adults That Use Instagram</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<th scope="row" class="c m b1 r1 l0 t0 lines">Year, <span class="process-math">\(y\)</span>
+</th>
+<td class="c m b1 r0 l0 t0 lines">2012</td>
+<td class="c m b1 r0 l0 t0 lines">2013</td>
+<td class="c m b1 r0 l0 t0 lines">2014</td>
+<td class="c m b1 r0 l0 t0 lines">2015</td>
+<td class="c m b1 r0 l0 t0 lines">2016</td>
+<td class="c m b1 r0 l0 t0 lines">2018</td>
+<td class="c m b1 r0 l0 t0 lines">2019</td>
+<td class="c m b1 r0 l0 t0 lines">2021</td>
+<td class="c m b1 r0 l0 t0 lines">2023</td>
+</tr>
+<tr>
+<th scope="row" class="c m b0 r1 l0 t0 lines">Percent, <span class="process-math">\(P(y)\)</span>
+</th>
+<td class="c m b0 r0 l0 t0 lines">13</td>
+<td class="c m b0 r0 l0 t0 lines">17</td>
+<td class="c m b0 r0 l0 t0 lines">26</td>
+<td class="c m b0 r0 l0 t0 lines">28</td>
+<td class="c m b0 r0 l0 t0 lines">32</td>
+<td class="c m b0 r0 l0 t0 lines">35</td>
+<td class="c m b0 r0 l0 t0 lines">37</td>
+<td class="c m b0 r0 l0 t0 lines">40</td>
+<td class="c m b0 r0 l0 t0 lines">47</td>
+</tr>
+</table></div></figure> <div class="para" id="a-fxn-notation-table-1-4">Using function notation, we can write the sentence “13% of US adults used Instagram in 2012” as <span class="process-math">\(P(2012) = 13%\text{.}\)</span>
+</div>
+</div>
+<article class="task exercise-like" id="a-fxn-notation-table-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="a-fxn-notation-table-2-1-1">Use function notation to write the sentence “47% of US adults used Instagram in 2023”.</div></article><article class="task exercise-like" id="a-fxn-notation-table-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="a-fxn-notation-table-3-1-1">Interpret <span class="process-math">\(P(2016) = 32\)</span> by writing a sentence in words.</div></article><article class="task exercise-like" id="a-fxn-notation-table-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="a-fxn-notation-table-4-1-1">We can use the table to evaluate expressions in function notation. For example, if we’re asked “Evaluate <span class="process-math">\(P(2018)\)</span>”, the table tells us the answer is <span class="process-math">\(35\text{.}\)</span>
+</div> <div class="para" id="a-fxn-notation-table-4-1-2">Evaluate <span class="process-math">\(P(2021)\text{.}\)</span>
+</div></article><article class="task exercise-like" id="a-fxn-notation-table-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="a-fxn-notation-table-5-1-1">We can also use the table to solve equations in function notation. For example, if we’re asked “Solve the equation <span class="process-math">\(P(y) = 17\)</span>”, the answer is <span class="process-math">\(y = 2014\text{,}\)</span> since that’s the year in which <span class="process-math">\(17%\)</span> of US adults used Instagram, according to the table.</div> <div class="para" id="a-fxn-notation-table-5-1-2">Solve the equation <span class="process-math">\(P(y) = 28\text{.}\)</span>
+</div></article></article> <article class="activity project-like" id="a-fxn-notation-graph"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.7</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="a-fxn-notation-graph-1">
+<div class="para" id="a-fxn-notation-graph-1-1">We can also use function notation with graphs. In the graph below, let <span class="process-math">\(y\)</span> be the year, and <span class="process-math">\(L(t)\)</span> be the life expetancy at birth in year <span class="process-math">\(y\text{.}\)</span><details class="ptx-footnote" aria-live="polite" id="a-fxn-notation-graph-1-1-4"><summary class="ptx-footnote__number" title="Footnote 1.2.6"><sup> 6 </sup></summary><div class="ptx-footnote__contents" id="a-fxn-notation-graph-1-1-4">“Data Page: Life expectancy at birth”, part of the following publication: Saloni Dattani, Lucas Rodés-Guirao, Hannah Ritchie, Esteban Ortiz-Ospina and Max Roser (2023) - “Life Expectancy”. Data adapted from Human Mortality Database, United Nations, Zijdeman et al., James C. Riley. Retrieved from <a class="external" href="https://ourworldindata.org/grapher/life-expectancy" target="_blank"><code class="code-inline tex2jax_ignore">https://ourworldindata.org/grapher/life-expectancy</code></a>  [online resource], November 25, 2024.</div></details>
+</div> <figure class="figure figure-like" id="fig-us-life-expectancy"><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;">
+<img src="external/./images/US-life-expectency.png" class="contained" alt="Graph showing life expectancy at birth in the US between 1800 and 2021."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="fig-us-life-expectancy-2-description"><div class="para" id="fig-us-life-expectancy-2-2-1">Life expectancy has increased steadily, except for dips during World War I and after COVID-19.</div></div></details>
+</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.4<span class="period">.</span></span><span class="space"> </span>US Life Expectancy at Birth Between 1800 and 2021.</figcaption></figure>
+</div>
+<article class="task exercise-like" id="a-fxn-notation-graph-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="a-fxn-notation-graph-2-1-1">Use function notation to write the sentence “Life expectancy in 1985 was about 75 years”.</div></article><article class="task exercise-like" id="a-fxn-notation-graph-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="a-fxn-notation-graph-3-1-1">Interpret <span class="process-math">\(L(2000) = 76.8\)</span> by writing a sentence in words.</div></article><article class="task exercise-like" id="a-fxn-notation-graph-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="a-fxn-notation-graph-4-1-1">Use the graph to evaluate <span class="process-math">\(L(1900)\text{.}\)</span> You’ll need to estimate!</div></article><article class="task exercise-like" id="a-fxn-notation-graph-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="a-fxn-notation-graph-5-1-1">Use the graph to solve the equation <span class="process-math">\(L(y) = 60\text{.}\)</span> You’ll need to estimate!</div></article></article> <article class="activity project-like" id="a-fxn-notation-formula"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.8</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="a-fxn-notation-formula-1">
+<div class="para" id="a-fxn-notation-formula-1-1">Function notation is also often used with formulas.</div> <div class="para logical" id="a-fxn-notation-formula-1-2">
+<div class="para">The velocity, in feet per second, of a car that slammed on its brakes can be determined based on the length of the skid marks that its tires left on the ground. Suppose that on a particular surface, this relationship is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+v(d) = \sqrt{32d}\text{,}
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(d\)</span> is the length of the skid marks in feet.</div>
+</div>
+</div>
+<article class="task exercise-like" id="a-fxn-notation-formula-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="a-fxn-notation-formula-2-1-1">Use function notation to write the sentence “If the length of the skid marks was 200 feet, then the car was traveling 80 ft/sec”.</div></article><article class="task exercise-like" id="a-fxn-notation-formula-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="a-fxn-notation-formula-3-1-1">Interpret <span class="process-math">\(v(100) \approx 56.6\)</span> by writing a sentence in words.</div></article><article class="task exercise-like" id="a-fxn-notation-formula-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="a-fxn-notation-formula-4-1-1">Use the formula to evaluate <span class="process-math">\(v(150)\text{.}\)</span>
+</div></article><article class="task exercise-like" id="a-fxn-notation-formula-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="a-fxn-notation-formula-5-1-1">Use the formula to solve the equation <span class="process-math">\(L(d) = 100\text{.}\)</span>
+</div></article></article></section></div>
 <div class="ptx-content-footer">
-<a class="previous-button button" href="ch-linear-models.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-aROC.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="sec-math-models-prep.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-aROC.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
