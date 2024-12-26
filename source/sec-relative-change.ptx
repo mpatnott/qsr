@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-relative-change" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Relative Change</title>
+  <title>Relative Change Activities</title>
 
   <page>
     <activity xml:id="a-abs-rel-change-unemployment">
@@ -27,7 +27,7 @@
         <task>
             <statement>
                 <p>
-                    From January 2020 to May 2020 the unemployment rate <fillin characters="10" /> (fill in with "nearly" or "more than") <fillin characters="10" /> (fill in with "tripled" or "quadrupled").
+                    From January 2020 to May 2020 the unemployment rate <fillin characters="10" /> (fill in with <q>nearly</q> or <q>more than</q>) <fillin characters="10" /> (fill in with <q>tripled</q> or <q>quadrupled</q>).
                 </p>
             </statement>
         </task>
@@ -77,200 +77,7 @@
         <task workspace="0.5in">
             <statement>
                 <p>
-                    Describe what you learned by writing a statement comparing the smoking rates of Canada and Greece. Use phrases similar to "almost double,"" "more than triple," and "almost a fourth of."
-                </p>
-            </statement>
-        </task>
-    </activity>
-
-    <activity xml:id="a-define-inflation">
-        <introduction>
-            <p>
-                <term>Inflation</term> is the rate at which the general level of prices for goods and services is rising and, consequently, the buying power of currency is falling. In other words, if everything else (rent, groceries, utilities, etc.) gets more expensive, but your salary stays the same, your buying power decreases.  To account for that, some state and private sector employees get annual salary adjustments, often  referred to as Cost of Living Adjustment (COLA).
-            </p>
-            <p>
-                Suppose Gracelyn's pre-tax income was $65,800 in 2022.
-            </p>
-        </introduction>
-        <task workspace="0.25in">
-            <statement>
-                <p>
-                    Gracelyn spent $41,000 on expenses in 2022. What percent of her income did she spend on expenses?
-                </p>
-            </statement>
-        </task>
-        <task workspace="0.5in">
-            <statement>
-                <p>
-                    Gracelyn spent $45,000 on expenses in 2023. How much would she have needed to make in 2023 in order to have the same buying power, i.e. in order to spend the same percent of her income on expenses as she did in 2022? 
-                </p>
-            </statement>
-        </task>
-    </activity>
-  </page>
-
-  <page>
-    <activity xml:id="a-cpi-intro" workspace="1in">
-        <p>
-            The Consumer Price Index (CPI)<fn><url href="https://www.investopedia.com/terms/c/consumerpriceindex.asp" /></fn> is often used in the US to measure inflation. The Bureau of Labor Statistics calculates the CPI every month by looking at the prices of a collection of goods and services, including cars and housing. The inflation rate is the relative change in the CPI.
-        </p>
-        <p>
-            The average price of a new car in 1945 was $1,020. The Consumer Price Index was 18.0 in 1945 and 271.0 in 2021. Use this information to answer the following question: $1,020 in 1945 has the same buying power as how many dollars in 2021?
-        </p>
-    </activity>
-
-    <activity xml:id="a-national-debt">
-        <introduction>
-            <p>
-                The table below lists the U.S. national debt at various times in history. We need to adjust these figures for inflation. Adjusting them will allow us to more accurately compare the sizes of these debts to one another.
-            </p>
-        </introduction>
-        <task workspace="2in">
-            <statement>
-                <p>
-                    Use the Consumer Price Index<fn><url href="https://www.minneapolisfed.org/about-us/monetary-policy/inflation-calculator/consumer-price-index-1913-" /></fn> to adjust the national debt for each year so that the debt is expressed in 2021 dollars. Enter the adjusted amounts in the table below. Round to two decimal places.
-                </p>
-                <table xml:id="tab-national-debt-cpi">
-                    <title>Adjusting the National Debt for Inflation</title>
-                    <tabular halign="center" top="minor" bottom="minor" left="minor" right="minor">
-                        <row header = "yes">
-                            <cell>Year</cell>
-                            <cell>National Debt (Billion $)</cell>
-                            <cell>CPI (average annual)</cell>
-                            <cell>National Debt Adjusted for Inflation (Billion 2021 $)</cell>
-                        </row>
-                        <row>
-                            <cell>1945</cell>
-                            <cell>259</cell>
-                            <cell>18.0</cell>
-                            <cell></cell>
-                        </row>
-                        <row>
-                            <cell>1980</cell>
-                            <cell>930</cell>
-                            <cell>82.4</cell>
-                            <cell></cell>
-                        </row>
-                        <row>
-                            <cell>1995</cell>
-                            <cell>4,974</cell>
-                            <cell>152.4</cell>
-                            <cell></cell>
-                        </row>
-                        <row>
-                            <cell>2010</cell>
-                            <cell>14,025</cell>
-                            <cell>218.1</cell>
-                            <cell></cell>
-                        </row>
-                        <row>
-                            <cell>2021</cell>
-                            <cell>28,429</cell>
-                            <cell>271.0</cell>
-                            <cell></cell>
-                        </row>
-                    </tabular>
-                </table>
-            </statement>
-        </task>
-        <task workspace="0.5in">
-            <statement>
-                <p>
-                    When adjusted for inflation, in which year was the national debt largest? smallest?
-                </p>
-            </statement>
-        </task>
-    </activity>
-  </page>
-
-  <page>
-    <activity xml:id="a-national-debt-visualize">
-        <introduction>
-            <p>
-                When communicating information about very large numbers like the national debt, it can be useful to use tools like infographics and comparing sizes of real objects.
-            </p>
-        </introduction>
-        <task workspace="1in">
-            <statement>
-                <p>
-                    When communicating quantitative information, an infographic can be a useful tool. In order to help people understand the national debt adjusted to 2021 dollar amounts, we can draw bags of money to illustrate the change. If we use a 4 cm segment (4 bags of money) to represent the 1945 national debt adjusted for inflation (see figure below), how long should the segments be for each of the other years' national debt after adjusting to 2021 amounts? Round your answers to the nearest tenth of a centimeter.
-                </p>
-            </statement>
-        </task>
-        <task workspace="1in">
-            <statement>
-                <p>
-                    According to the U.S. Treasury Department, a one-hundred-dollar bill is 0.0043 inches thick. Therefore, a stack of 100 one-hundred-dollar bills would be 0.43 inches thick. Assume that we could create stacks of one-hundred-dollar bills that would never topple over, no matter the height. How tall is the stack of money that represents each year's inflation-adjusted national debts?
-                </p>
-            </statement>
-        </task>
-    </activity>
-
-    <activity xml:id="a-national-debt-percent-gdp">
-        <introduction>
-            <p>
-                Now let us consider a different approach to analyzing the U.S. national debt over time. Just as the cost of dinner and a movie for a person before and after college can be compared as a percentage of their income, economists frequently compare the national debt at different times in history by measuring it as a percentage of Gross Domestic Product (GDP). The GDP is the estimated value of all the goods and services that are produced in a country in a given year. 
-            </p>
-        </introduction>
-        <task workspace="0.25in">
-            <statement>
-                <p>
-                    Fill in the table below with the national debt as a percentage of each year’s GDP. Round to the nearest percentage point.
-                </p>
-                <table xml:id="tab-national-debt-gdp">
-                    <title>Comparing the National Debt to GDP</title>
-                    <tabular halign="center" top="minor" bottom="minor" left="minor" right="minor">
-                        <row header = "yes">
-                            <cell>Year</cell>
-                            <cell>National Debt (Billion $)</cell>
-                            <cell>GDP (Billion $)</cell>
-                            <cell>National Debt as Percent of GDP</cell>
-                        </row>
-                        <row>
-                            <cell>1945</cell>
-                            <cell>259</cell>
-                            <cell>228</cell>
-                            <cell></cell>
-                        </row>
-                        <row>
-                            <cell>1980</cell>
-                            <cell>930</cell>
-                            <cell>2,857</cell>
-                            <cell></cell>
-                        </row>
-                        <row>
-                            <cell>1995</cell>
-                            <cell>4,974</cell>
-                            <cell>7.640</cell>
-                            <cell></cell>
-                        </row>
-                        <row>
-                            <cell>2010</cell>
-                            <cell>14,025</cell>
-                            <cell>15,049</cell>
-                            <cell></cell>
-                        </row>
-                        <row>
-                            <cell>2021</cell>
-                            <cell>28,429</cell>
-                            <cell>23,315</cell>
-                            <cell></cell>
-                        </row>
-                    </tabular>
-                </table>
-            </statement>
-        </task>
-        <task workspace="0.5in">
-            <statement>
-                <p>
-                    After adjusting the debt relative to GDP, in which year was the national debt the largest? In which year was the debt smallest? (<em>Note:</em> In this case, we say the national debts are being compared in relative terms.)
-                </p>
-            </statement>
-        </task>
-        <task workspace="0.5in">
-            <statement>
-                <p>
-                    Is it better to measure the national debt in absolute terms or relative terms? Write a brief explanation.
+                    Describe what you learned by writing a statement comparing the smoking rates of Canada and Greece. Use phrases similar to <q>almost double</q>, <q>more than triple</q>, and <q>almost a fourth of</q>.
                 </p>
             </statement>
         </task>
@@ -330,7 +137,7 @@
                         <cell>$82,700</cell>
                         <cell>$87,100</cell>
                         <cell>$89,000</cell>
-                        <cell>$86,100</cell>
+                        <cell>$90,100</cell>
                         <cell>$91,000</cell>
                     </row>
                 </tabular>
@@ -346,7 +153,7 @@
         <task>
             <statement>
                 <p>
-                    Make a quick sketch of a graph or visual display of these data. To make your graph easier to read, consider using different color ink to represent each of the positions.
+                    Make a quick sketch of a graph or visual display of these data. To make your graph easier to read, consider using different color ink to represent each of the positions, or a different style of mark for the points (e.g., dots vs crosses)
                 </p>
                 <figure xml:id="fig-sales-salaries">
                     <caption>Salaries of Sales Personnel (2016 - 2023)</caption>
@@ -473,7 +280,7 @@
     <activity xml:id="a-salary-index">
         <introduction>
             <p>
-                One way to systematically look at a large set of relative changes over time is to create an <term>index</term>. We used the Consumer Price Index earlier to help us understand inflation. Now, you'll compute a salary index to help Lucian's career discernment. A salary index will look like a table of numbers that answer the question, "The salary for this year is what percent of the base year?"
+                One way to systematically look at a large set of relative changes over time is to create an <term>index</term>. You'll compute a salary index to help Lucian's career discernment. A salary index will look like a table of numbers that answer the question, <q>The salary for this year is what percent of the base year</q>?
             </p>
         </introduction>
         <task>
@@ -545,7 +352,7 @@
         <task workspace="0.5in">
             <statement>
                 <p>
-                    Use quantities in your index table to explain your observations and ideas about what Gary should know about how the salaries change over time.
+                    Use quantities in your index table to explain your observations and ideas about what Lucian should know about how the salaries change over time.
                 </p>
             </statement>
         </task>
@@ -573,6 +380,210 @@
                         </latex-image>
                     </image>
                 </figure>
+            </statement>
+        </task>
+    </activity>
+  </page>
+
+  <page>
+    <activity xml:id="a-define-inflation">
+        <introduction>
+            <p>
+                <term>Inflation</term> is the rate at which the general level of prices for goods and services is rising and, consequently, the buying power of currency is falling. In other words, if everything else (rent, groceries, utilities, etc.) gets more expensive, but your salary stays the same, your buying power decreases.  To account for that, some state and private sector employees get annual salary adjustments, often  referred to as Cost of Living Adjustment (COLA).
+            </p>
+            <p>
+                Suppose Gracelyn's pre-tax income was $65,800 in 2022.
+            </p>
+        </introduction>
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Gracelyn spent $41,000 on expenses in 2022. What percent of her income did she spend on expenses?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Gracelyn spent $45,000 on expenses in 2023. How much would she have needed to make in 2023 in order to have the same buying power, i.e. in order to spend the same percent of her income on expenses as she did in 2022? 
+                </p>
+            </statement>
+        </task>
+    </activity>
+  </page>
+
+  <page>
+    <activity xml:id="a-cpi-intro" workspace="1in">
+        <p>
+            The Consumer Price Index (CPI)<fn><url href="https://www.investopedia.com/terms/c/consumerpriceindex.asp" /></fn> is often used in the US to measure inflation. The Bureau of Labor Statistics calculates the CPI every month by looking at the prices of a collection of goods and services, including cars and housing. The inflation rate is the relative change in the CPI.
+        </p>
+        <p>
+            The average price of a new car in 1945 was $1,020. The Consumer Price Index was 18.0 in 1945 and 271.0 in 2021. Use this information to answer the following question: $1,020 in 1945 has the same buying power as how many dollars in 2021?
+        </p>
+        <p>
+            <alert>Hint:</alert> Start by finding the relative change in the CPI. There are several steps to this problem - you know how to do all of them individually! This problem is about practicing putting together steps without being told what they are.
+        </p>
+    </activity>
+
+    <activity xml:id="a-national-debt">
+        <introduction>
+            <p>
+                The table below lists the U.S. national debt at various times in history. We need to adjust these figures for inflation. Adjusting them will allow us to more accurately compare the sizes of these debts to one another.
+            </p>
+        </introduction>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    Use the Consumer Price Index<fn><url href="https://www.minneapolisfed.org/about-us/monetary-policy/inflation-calculator/consumer-price-index-1913-" /></fn> to adjust the national debt for each year so that the debt is expressed in 2021 dollars. Enter the adjusted amounts in the table below. Round to two decimal places.
+                </p>
+                <table xml:id="tab-national-debt-cpi">
+                    <title>Adjusting the National Debt for Inflation</title>
+                    <tabular halign="center" top="minor" bottom="minor" left="minor" right="minor">
+                        <row header = "yes">
+                            <cell>Year</cell>
+                            <cell>National Debt (Billion $)</cell>
+                            <cell>CPI (average annual)</cell>
+                            <cell>Relative Change from Year to 2021</cell>
+                            <cell>National Debt Adjusted for Inflation (Billion 2021 $)</cell>
+                        </row>
+                        <row>
+                            <cell>1945</cell>
+                            <cell>259</cell>
+                            <cell>18.0</cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>1980</cell>
+                            <cell>930</cell>
+                            <cell>82.4</cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>1995</cell>
+                            <cell>4,974</cell>
+                            <cell>152.4</cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>2010</cell>
+                            <cell>14,025</cell>
+                            <cell>218.1</cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>2021</cell>
+                            <cell>28,429</cell>
+                            <cell>271.0</cell>
+                            <cell>0%</cell>
+                            <cell>28,429</cell>
+                        </row>
+                    </tabular>
+                </table>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    When adjusted for inflation, in which year was the national debt largest? smallest?
+                </p>
+            </statement>
+        </task>
+    </activity>
+  </page>
+
+  <page>
+    <activity xml:id="a-national-debt-percent-gdp">
+        <introduction>
+            <p>
+                Now let us consider a different approach to analyzing the U.S. national debt over time. Just as the cost of dinner and a movie for a person before and after college can be compared as a percentage of their income, economists frequently compare the national debt at different times in history by measuring it as a percentage of Gross Domestic Product (GDP). The GDP is the estimated value of all the goods and services that are produced in a country in a given year. 
+            </p>
+        </introduction>
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Fill in the table below with the national debt as a percentage of each year’s GDP. Round to the nearest percentage point.
+                </p>
+                <table xml:id="tab-national-debt-gdp">
+                    <title>Comparing the National Debt to GDP</title>
+                    <tabular halign="center" top="minor" bottom="minor" left="minor" right="minor">
+                        <row header = "yes">
+                            <cell>Year</cell>
+                            <cell>National Debt (Billion $)</cell>
+                            <cell>GDP (Billion $)</cell>
+                            <cell>National Debt as Percent of GDP</cell>
+                        </row>
+                        <row>
+                            <cell>1945</cell>
+                            <cell>259</cell>
+                            <cell>228</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>1980</cell>
+                            <cell>930</cell>
+                            <cell>2,857</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>1995</cell>
+                            <cell>4,974</cell>
+                            <cell>7.640</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>2010</cell>
+                            <cell>14,025</cell>
+                            <cell>15,049</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>2021</cell>
+                            <cell>28,429</cell>
+                            <cell>23,315</cell>
+                            <cell></cell>
+                        </row>
+                    </tabular>
+                </table>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    After adjusting the debt relative to GDP, in which year was the national debt the largest? In which year was the debt smallest? (<em>Note:</em> In this case, we say the national debts are being compared in relative terms.)
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Is it better to measure the national debt in absolute terms or relative terms? Write a brief explanation.
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+    <activity xml:id="a-national-debt-visualize">
+        <introduction>
+            <p>
+                When communicating information about very large numbers like the national debt, it can be useful to use tools like infographics and comparing sizes of real objects.
+            </p>
+        </introduction>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    When communicating quantitative information, an infographic can be a useful tool. In order to help people understand the national debt adjusted to 2021 dollar amounts, we can draw bags of money to illustrate the change. If we use a 4 cm segment (4 bags of money) to represent the 1945 national debt adjusted for inflation (see figure below), how long should the segments be for each of the other years' national debt after adjusting to 2021 amounts? Round your answers to the nearest tenth of a centimeter.
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    According to the U.S. Treasury Department, a one-hundred-dollar bill is 0.0043 inches thick. Therefore, a stack of 100 one-hundred-dollar bills would be 0.43 inches thick. Assume that we could create stacks of one-hundred-dollar bills that would never topple over, no matter the height. How tall is the stack of money that represents each year's inflation-adjusted national debts?
+                </p>
             </statement>
         </task>
     </activity>

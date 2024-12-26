@@ -8,11 +8,18 @@
   </introduction> -->
 
 <!-- include sections -->
-<chapter xml:id="ch-percents" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <chapter xml:id="ch-percents" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Working with Percentages</title>
     
     <xi:include href="sec-working-with-percentages-prep.ptx" />
     <xi:include href="sec-working-with-percentages.ptx" />
+  </chapter>
+
+  <chapter xml:id="ch-relative-change" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Relative Change</title>
+    
+    <xi:include href="sec-relative-change-prep.ptx" />
+    <xi:include href="sec-relative-change.ptx" />
   </chapter>
 
  <!-- <xi:include href="sec-working-with-percentages.ptx" />
