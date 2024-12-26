@@ -541,6 +541,627 @@ var ptx_lunr_docs = [
   "body": "  Julio is moving from one apartment to another apartment in a neighboring town. He needs to rent a truck for one day to move his belongings. Julio uses the Internet to search for companies with trucks for rent. He finds two companies that have trucks available on the day he needs one: Rent-A-Truk and Trucks-4-Less.  Rent-A-Truk advertises a rate of $40 for the day, plus 60 cents a mile for every mile over 40 miles.  Trucks-4-Less advertises a rate of $25 a day plus 80 cents a mile for every mile over 25 miles.      What factors will Julio use to determine which company to rent from?    Fill in the blank with little or no calculation: If Julio only drives _________ miles during the day, Trucks-4-Less will end up being the better deal. Explain your reasoning.    Fill in the blank with little or no calculation: If Julio drives _________ miles during the day, Rent-A-Truk will end up being the better deal. Explain your reasoning.    Without doing any calculations, do you know if there will ever be a time when the two rental plans would cost the same?    How much total mileage used will make the cost of both rental plans about the same? Use any method you wish to make this approximation.    Set up an algebraic model that can be used to represent the cost for using Rent-A-Truk, given that one plans on driving miles.    If a person plans on driving miles, what would the algebraic model be to represent the cost for using Trucks-4-Less, ?    Julio might want to know at what mileage the cost of the Rent-A-Truk plan equals the cost of the Trucks-4-Less plan. Use your algebraic models to write one equation, using only the variable , that represents this situation.  Hint: You can think about this situation as .  Hint: Julio estimated that this situation occurs at a mileage higher than 40.    Solve your equation for and check whether the solution agrees with your answer to estimate.   "
 },
 {
+  "id": "sec-working-with-percentages-prep",
+  "level": "1",
+  "url": "sec-working-with-percentages-prep.html",
+  "type": "Section",
+  "number": "6.1",
+  "title": "Working With Percentages Prep Activities",
+  "body": " Working With Percentages Prep Activities    Percentages are a common way to describe a quantity of interest (the part ) as a fraction of a base quantity (the whole ). The equations can be used to find the percent or the part.   The U.S. Census Bureau conducts a census of the U.S. population every ten years. The 2020 census found that approximately 330,000,000 people lived in the U.S. The Census Bureau also reported that 5.9% of the U.S. population was under five years of age. How many children under the age of five were living in the U.S. in 2020?    Audryn added a $12 tip to a $68.73 restaurant bill.    What percent tip did she leave? Round to the nearest tenth of a percent.    How much did Audryn pay in total, including tip?    What percent of the original $68.73 bill is the total amount that Audryn paid? Your answer to part (b) should be the Part and $68.73 should be the Whole in the percent equation.    What do you notice about the percents in parts (a) and (c)?    Celeste has $40 that she plans on using to pay for lunch with a friend, including the tip. She always tips 16%. What is the maximum amount Celeste can spend on the food, so she can be sure to have enough money remaining to cover the tip? Round to the nearest cent.   You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Find the part given the percent and the whole.     Find the percent given the part and the whole.        "
+},
+{
+  "id": "pa-find-part-from-whole-and-percent",
+  "level": "2",
+  "url": "sec-working-with-percentages-prep.html#pa-find-part-from-whole-and-percent",
+  "type": "Prep Activity",
+  "number": "6.1.1",
+  "title": "",
+  "body": "The U.S. Census Bureau conducts a census of the U.S. population every ten years. The 2020 census found that approximately 330,000,000 people lived in the U.S. The Census Bureau also reported that 5.9% of the U.S. population was under five years of age. How many children under the age of five were living in the U.S. in 2020? "
+},
+{
+  "id": "pa-find-percent-from-part-and-whole",
+  "level": "2",
+  "url": "sec-working-with-percentages-prep.html#pa-find-percent-from-part-and-whole",
+  "type": "Prep Activity",
+  "number": "6.1.2",
+  "title": "",
+  "body": "  Audryn added a $12 tip to a $68.73 restaurant bill.    What percent tip did she leave? Round to the nearest tenth of a percent.    How much did Audryn pay in total, including tip?    What percent of the original $68.73 bill is the total amount that Audryn paid? Your answer to part (b) should be the Part and $68.73 should be the Whole in the percent equation.    What do you notice about the percents in parts (a) and (c)?   "
+},
+{
+  "id": "pa-percents-puzzle",
+  "level": "2",
+  "url": "sec-working-with-percentages-prep.html#pa-percents-puzzle",
+  "type": "Prep Activity",
+  "number": "6.1.3",
+  "title": "",
+  "body": "Celeste has $40 that she plans on using to pay for lunch with a friend, including the tip. She always tips 16%. What is the maximum amount Celeste can spend on the food, so she can be sure to have enough money remaining to cover the tip? Round to the nearest cent. "
+},
+{
+  "id": "pa-prep-survey-percents",
+  "level": "2",
+  "url": "sec-working-with-percentages-prep.html#pa-prep-survey-percents",
+  "type": "Prep Activity",
+  "number": "6.1.4",
+  "title": "",
+  "body": " You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Find the part given the percent and the whole.     Find the percent given the part and the whole.      "
+},
+{
+  "id": "sec-working-with-percentages",
+  "level": "1",
+  "url": "sec-working-with-percentages.html",
+  "type": "Section",
+  "number": "6.2",
+  "title": "Working With Percentages Activities",
+  "body": " Working With Percentages Activities      Let's practice working with percentages!    In 2022, Jacob worked as a fast food manager and:   had a taxable income of $30,000  was required to pay $3,398 in federal taxes.   What federal tax rate did Jacob pay as a percentage? Round to the nearest percent.    According to Wikipedia, the information in the table below represents a breakdown of how the U.S. federal government spent money during the 2022 fiscal year: Compute the percentage of the total amount of money that the U.S. federal government spent in each category to complete the table. Round to the nearest percentage point.   US Federal Government Spending, FY 2022    Category  Billions of $ Spent  Percentage of Total Spending    Defense Department  751     Social Security  1,200     Healthcare  1,339     Net Interest  475     Other Mandatory  1,583     Other Discretionary  910        The Insurance Institute for Highway Safety (IIHS) is an independent, nonprofit scientific and educational organization dedicated to reducing deaths, injuries and property damage from motor vehicle crashes. In 2021, the IIHS published statistics showing, in part, that almost three out of four motor vehicle crash deaths were males.    Use the figures from the last sentence (\"almost three out of four motor vehicle deaths\"). What percentage of motor vehicle crash deaths in the U.S. were males? Round to the nearest percentage point.   What percentage of motor vehicle crash deaths in the U.S. were female? Round to the nearest percentage point.   Do your answers to the previous two parts support the statement, \"In general, males are more likely to be killed in traffic accidents than females\"? Explain your reasoning. Support your answer with some possible examples.          In the real world, we often describe increases and decreases in terms of percentages. For example, sales tax and tips are often calculated as a percent increase, and discounts are often calculated as a percent decrease. In previous classes, you likely calculated the new total by first finding the amount of the increase or decrease, and then adding or subtracting. In this class, we will find it useful to use a different strategy:    If there's a increase, then the new total is of the original. If there's a decrease, then the new total is of the original.   Example (increase): If we add a tip, then the total is of the original bill.   Example (decrease): If an item is off, then its new price is of its original price.    Find the new total from the original using the percent you found in Step 1.   Example (increase): If we add a tip, then the total is of the original bill. So, if the bill was originally , the bill with tip is .   Example (decrease): If an item is off, then its new price is of its original price. So, if the item originally cost , then its sales price is .      The state of Illinois has a 6.25% sales tax.    Find the total sales price on a $120 purchase, after tax, using the method introduced above.   Textbooks are taxable in Illinois. The amount that a student paid at her school bookstore, after tax, was $185. What was the price of the books and school supplies before tax? Round to the nearest cent.    Let's practice using our new method to solve problems about discounts.   A pair of shoes was originally $105. It is on sale for 10% off. Use our new method to find the sales price.   A pair of earbuds are on sale for $79.99. The website says that this is 47% off the original price. What was the original price?    Suppose the town of Hewe currently has a population of 4300 people, and has been growing at a rate of 2% per year.   How many people should Hewe expect to have next year?   How many people should Hewe expect to have in two years? three years? 10 years?   How many people did Hewe have last year? two years ago?    Compare this new method of finding the total after a percent change to the methods you've used before. Include at least one advantage of the new method.      Changes over time are often reported in terms of percents.    According to the US Census Bureau , the population of Denver County was 600,158 people in 2010. Denver County's population increased 19.4% between 2010 and 2023. What was Denver County's population in 2023?    According to a local news report from August 2024 , the median rent for a two-bedroom apartment in Denver was $2,470, a 1.6% increase from August 2023. What was the median rent for a two-bedroom apartment in Denver in August 2023?      A flyer that went to households in the mail, from a company called Life Line Screening, Life Line Screening, unsolicited mail, received April 14, 2012. included the following claim:   Answer the questions below by converting the risk of suffering a stroke from a proportion to a percentage.    What is the claimed likelihood of a woman suffering a stroke? a man? Calculate the percentages.    There are many different ways to compare the differences in these two risks. Find two or three ways, and write a complete sentence for the ways you chose.     "
+},
+{
+  "id": "a-computing-with-percents",
+  "level": "2",
+  "url": "sec-working-with-percentages.html#a-computing-with-percents",
+  "type": "Activity",
+  "number": "6.2.1",
+  "title": "",
+  "body": "  Let's practice working with percentages!    In 2022, Jacob worked as a fast food manager and:   had a taxable income of $30,000  was required to pay $3,398 in federal taxes.   What federal tax rate did Jacob pay as a percentage? Round to the nearest percent.    According to Wikipedia, the information in the table below represents a breakdown of how the U.S. federal government spent money during the 2022 fiscal year: Compute the percentage of the total amount of money that the U.S. federal government spent in each category to complete the table. Round to the nearest percentage point.   US Federal Government Spending, FY 2022    Category  Billions of $ Spent  Percentage of Total Spending    Defense Department  751     Social Security  1,200     Healthcare  1,339     Net Interest  475     Other Mandatory  1,583     Other Discretionary  910        The Insurance Institute for Highway Safety (IIHS) is an independent, nonprofit scientific and educational organization dedicated to reducing deaths, injuries and property damage from motor vehicle crashes. In 2021, the IIHS published statistics showing, in part, that almost three out of four motor vehicle crash deaths were males.    Use the figures from the last sentence (\"almost three out of four motor vehicle deaths\"). What percentage of motor vehicle crash deaths in the U.S. were males? Round to the nearest percentage point.   What percentage of motor vehicle crash deaths in the U.S. were female? Round to the nearest percentage point.   Do your answers to the previous two parts support the statement, \"In general, males are more likely to be killed in traffic accidents than females\"? Explain your reasoning. Support your answer with some possible examples.     "
+},
+{
+  "id": "a-percent-inc-dec",
+  "level": "2",
+  "url": "sec-working-with-percentages.html#a-percent-inc-dec",
+  "type": "Activity",
+  "number": "6.2.2",
+  "title": "",
+  "body": "  In the real world, we often describe increases and decreases in terms of percentages. For example, sales tax and tips are often calculated as a percent increase, and discounts are often calculated as a percent decrease. In previous classes, you likely calculated the new total by first finding the amount of the increase or decrease, and then adding or subtracting. In this class, we will find it useful to use a different strategy:    If there's a increase, then the new total is of the original. If there's a decrease, then the new total is of the original.   Example (increase): If we add a tip, then the total is of the original bill.   Example (decrease): If an item is off, then its new price is of its original price.    Find the new total from the original using the percent you found in Step 1.   Example (increase): If we add a tip, then the total is of the original bill. So, if the bill was originally , the bill with tip is .   Example (decrease): If an item is off, then its new price is of its original price. So, if the item originally cost , then its sales price is .      The state of Illinois has a 6.25% sales tax.    Find the total sales price on a $120 purchase, after tax, using the method introduced above.   Textbooks are taxable in Illinois. The amount that a student paid at her school bookstore, after tax, was $185. What was the price of the books and school supplies before tax? Round to the nearest cent.    Let's practice using our new method to solve problems about discounts.   A pair of shoes was originally $105. It is on sale for 10% off. Use our new method to find the sales price.   A pair of earbuds are on sale for $79.99. The website says that this is 47% off the original price. What was the original price?    Suppose the town of Hewe currently has a population of 4300 people, and has been growing at a rate of 2% per year.   How many people should Hewe expect to have next year?   How many people should Hewe expect to have in two years? three years? 10 years?   How many people did Hewe have last year? two years ago?    Compare this new method of finding the total after a percent change to the methods you've used before. Include at least one advantage of the new method.   "
+},
+{
+  "id": "a-percent-change-real-world",
+  "level": "2",
+  "url": "sec-working-with-percentages.html#a-percent-change-real-world",
+  "type": "Activity",
+  "number": "6.2.3",
+  "title": "",
+  "body": "  Changes over time are often reported in terms of percents.    According to the US Census Bureau , the population of Denver County was 600,158 people in 2010. Denver County's population increased 19.4% between 2010 and 2023. What was Denver County's population in 2023?    According to a local news report from August 2024 , the median rent for a two-bedroom apartment in Denver was $2,470, a 1.6% increase from August 2023. What was the median rent for a two-bedroom apartment in Denver in August 2023?   "
+},
+{
+  "id": "a-percent-proportion-and-risk",
+  "level": "2",
+  "url": "sec-working-with-percentages.html#a-percent-proportion-and-risk",
+  "type": "Activity",
+  "number": "6.2.4",
+  "title": "",
+  "body": "  A flyer that went to households in the mail, from a company called Life Line Screening, Life Line Screening, unsolicited mail, received April 14, 2012. included the following claim:   Answer the questions below by converting the risk of suffering a stroke from a proportion to a percentage.    What is the claimed likelihood of a woman suffering a stroke? a man? Calculate the percentages.    There are many different ways to compare the differences in these two risks. Find two or three ways, and write a complete sentence for the ways you chose.   "
+},
+{
+  "id": "sec-relative-change-prep",
+  "level": "1",
+  "url": "sec-relative-change-prep.html",
+  "type": "Section",
+  "number": "7.1",
+  "title": "Relative Change Prep Activities",
+  "body": " Relative Change Prep Activities    There are several different ways that we can measure the change between an old value and a new value. These values could be, for example, the weight of the same person at two different points in time, or the age of the previous governor and the age of the current governor.  The absolute change tells us by how much the two values differ. We can find the absolute change using the formula where Old is the starting value and New is the ending value.  The relative change is the absolute change compared to the reference value (typically, the earlier quantity). Relative change is often given as a percentage. We can find the relative change using the formula . We often multiply by 100 to express relative change as a percentage.  Think carefully about what change you are trying to measure! To measure a relative change, you'll need to understand which value constitutes the starting value , reference value or old value and which constitutes the ending value , final value or new value . The context and the surrounding language in a question help to clarify which is which.     An article about the 2016 presidential election stated: Trump lost the popular vote by about 2.1 percentage points. Meanwhile, Trump racked up 306 electoral voters - 14 percent more than Clinton. Answer the following questions about this statement.    Does 2.1 percentage points refer to an absolute or a relative change?    Does 14 percent more refer to an absolute or a relative change?    Use the fact that Trump won 306 electoral voters, 14 percent more than Clinton, to find the number of electoral voters won by Clinton.      The average annual snowfall for Boise, ID, is 19.8 inches. Moline, IL, receives an average of 33.3 inches.    Fill in the blanks:   Moline receives, on average, more inches of snow than Boise.   Moline receives, on average, % more snow than Boise. Round to the nearest tenth of a percent.   Boise receives, on average, % less snow than Moline. Round to the nearest tenth of a percent.    In which of the above statements were you calculating absolute change? In which were you calculating relative change?     You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Calculate absolute and relative change.     Distinguish between absolute and relative change.        "
+},
+{
+  "id": "sec-relative-change-prep-2-1-2",
+  "level": "2",
+  "url": "sec-relative-change-prep.html#sec-relative-change-prep-2-1-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "absolute change "
+},
+{
+  "id": "sec-relative-change-prep-2-1-3",
+  "level": "2",
+  "url": "sec-relative-change-prep.html#sec-relative-change-prep-2-1-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "relative change "
+},
+{
+  "id": "pa-abs-rel-change-trump-clinton",
+  "level": "2",
+  "url": "sec-relative-change-prep.html#pa-abs-rel-change-trump-clinton",
+  "type": "Prep Activity",
+  "number": "7.1.1",
+  "title": "",
+  "body": "  An article about the 2016 presidential election stated: Trump lost the popular vote by about 2.1 percentage points. Meanwhile, Trump racked up 306 electoral voters - 14 percent more than Clinton. Answer the following questions about this statement.    Does 2.1 percentage points refer to an absolute or a relative change?    Does 14 percent more refer to an absolute or a relative change?    Use the fact that Trump won 306 electoral voters, 14 percent more than Clinton, to find the number of electoral voters won by Clinton.   "
+},
+{
+  "id": "pa-abs-rel-change-snow",
+  "level": "2",
+  "url": "sec-relative-change-prep.html#pa-abs-rel-change-snow",
+  "type": "Prep Activity",
+  "number": "7.1.2",
+  "title": "",
+  "body": "  The average annual snowfall for Boise, ID, is 19.8 inches. Moline, IL, receives an average of 33.3 inches.    Fill in the blanks:   Moline receives, on average, more inches of snow than Boise.   Moline receives, on average, % more snow than Boise. Round to the nearest tenth of a percent.   Boise receives, on average, % less snow than Moline. Round to the nearest tenth of a percent.    In which of the above statements were you calculating absolute change? In which were you calculating relative change?   "
+},
+{
+  "id": "sec-relative-change-prep-2-4",
+  "level": "2",
+  "url": "sec-relative-change-prep.html#sec-relative-change-prep-2-4",
+  "type": "Prep Activity",
+  "number": "7.1.3",
+  "title": "",
+  "body": " You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Calculate absolute and relative change.     Distinguish between absolute and relative change.      "
+},
+{
+  "id": "sec-relative-change",
+  "level": "1",
+  "url": "sec-relative-change.html",
+  "type": "Section",
+  "number": "7.2",
+  "title": "Relative Change Activities",
+  "body": " Relative Change Activities     The unemployment rate is the percentage of people in the labor force who are unemployed and actively seeking work. Going into the Covid pandemic in January 2020, the unemployment rate in the United States was 3.5%. In May of that year, unemployment was 13.2%. There are many ways that this change in unemployment rate could be described. Fill in the blanks in the following statements so they correctly describe this change.    From January 2020 to May 2020 the unemployment rate increased by percentage points. ( Hint: You are computing an absolute change here.)    From January 2020 to May 2020 the unemployment rate increased percent. ( Hint: You are computing a relative change here.) Round to the nearest percent.    From January 2020 to May 2020 the unemployment rate (fill in with nearly or more than ) (fill in with tripled or quadrupled ).      The table below presents data on the proportion of smokers in several countries.   Percentage of Smokers by Country    Country  Greece  Germany  France  Sweden  Canada    % of Smokers  39.1  28.0  34.6  8.0  17.5       Write a statement comparing the smoking rates of people in Greece and Sweden, using a measure of absolute change.    Write a statement comparing the smoking rates of Canada and Greece, using a measure of relative change.    Describe what you learned by writing a statement comparing the smoking rates of Canada and Greece. Use phrases similar to almost double , more than triple , and almost a fourth of .        Lucian is a Sales Associate at a retail store for a cell phone provider. His company offers many opportunities for growth in the organization. Lucian is starting some long-term planning and wants to decide if he should stay with this company and seek a promotion, or if he wants to explore other options with another company, or even try a new career.  Lucian has access to the following data from the past seven years about typical salaries for Sales Associates, Sales Supervisors, and Regional Sales Managers. Notice that salaries do not always increase from one year to the next. Lucian wants to get a better idea about how the salaries change over time for each of these positions, to gain insight into his earning potential if he stays with his current company.   Salaries of Sales Personnel (2016 - 2023)     2016  2017  2018  2019  2020  2021  2022  2023    Sales Associate  $41,500  $42,600  $42,800  $42,000  $43,100  $43,600  $44,700  $46,300    Sales Supervisor  $56,500  $57,100  $58,700  $57,300  $60,500  $59,600  $60,700  $62,600    Regional Sales Manager  $85,000  $89,500  $87,400  $82,700  $87,100  $89,000  $90,100  $91,000       What do you notice about the figures in this table? What are some advantages or disadvantages of only using this table to compare salaries to make a decision? Be sure to describe the advantages and disadvantages quantitatively.    Make a quick sketch of a graph or visual display of these data. To make your graph easier to read, consider using different color ink to represent each of the positions, or a different style of mark for the points (e.g., dots vs crosses)   Salaries of Sales Personnel (2016 - 2023)    Blank axes. The horizontal axis is labeled the years between 2016 and 2023. The vertical axis is labeled from $0 to $100,000 in $10,000 increments.   Blank axes.       What are some advantages or disadvantages of using a graph like the one you made above to visualize data over time?        Which position seems to show the most growth in salary over the past seven years? What particular quantities would be valuable for Lucian to notice to help make his decision?    The table below shows absolute and relative changes in salaries for each position from 2016 to 2023.   Absolute and Relative Changes from 2016 to 2023    Position  Absolute Change  Relative Change    Sales Associate  $4,800  11.6%    Sales Supervisor  $6,100  10.8%    Regional Sales Manager  $6,000  7.1%      Explain what you observe in the numbers and in the absolute changes and relative changes. For example, you could explain how the Sales Associate can have the lowest absolute increase in salary but the highest relative increase.   Now calculate the absolute and relative changes in salary from 2021 to 2022. Fill in the table below with your answers. Round your answers to the nearest tenth of a percent.   Absolute and Relative Changes from 2021 to 2022    Position  Absolute Change  Relative Change    Sales Associate      Sales Supervisor      Regional Sales Manager        Which position had the greatest absolute increase in salary? Which position had the greatest relative increase in salary? Write an explanation for what you observe in the absolute changes and relative changes.        One way to systematically look at a large set of relative changes over time is to create an index . You'll compute a salary index to help Lucian's career discernment. A salary index will look like a table of numbers that answer the question, The salary for this year is what percent of the base year ?    Use the salary information from the earlier to create a salary index for each of the three positions. You will be creating three separate indices, one for Sales Associate, one for Sales Supervisor, and one for Regional Sales Manager. Use 2016 as the base year, and round each answer to the nearest tenth.   Salary Index (Base Year = 2016)    Year  Sales Associate  Sales Supervisor  Regional Sales Manager    2016       2017       2018       2019       2020       2021       2022       2023          Use quantities in your index table to explain your observations and ideas about what Lucian should know about how the salaries change over time.    Make a graph of the indices that you created. What are the advantages and disadvantages of using this graph to interpret how the salaries changed over time?   Salary Indexes of Sales Personnel (2016 - 2023)    Blank axes. The horizontal axis is labeled the years between 2016 and 2023. The vertical axis is labeled from 90 to 115 in increments of 5.   Blank axes.            Inflation is the rate at which the general level of prices for goods and services is rising and, consequently, the buying power of currency is falling. In other words, if everything else (rent, groceries, utilities, etc.) gets more expensive, but your salary stays the same, your buying power decreases. To account for that, some state and private sector employees get annual salary adjustments, often referred to as Cost of Living Adjustment (COLA).  Suppose Gracelyn's pre-tax income was $65,800 in 2022.    Gracelyn spent $41,000 on expenses in 2022. What percent of her income did she spend on expenses?    Gracelyn spent $45,000 on expenses in 2023. How much would she have needed to make in 2023 in order to have the same buying power, i.e. in order to spend the same percent of her income on expenses as she did in 2022?       The Consumer Price Index (CPI) is often used in the US to measure inflation. The Bureau of Labor Statistics calculates the CPI every month by looking at the prices of a collection of goods and services, including cars and housing. The inflation rate is the relative change in the CPI.  The average price of a new car in 1945 was $1,020. The Consumer Price Index was 18.0 in 1945 and 271.0 in 2021. Use this information to answer the following question: $1,020 in 1945 has the same buying power as how many dollars in 2021?   Hint: Start by finding the relative change in the CPI. There are several steps to this problem - you know how to do all of them individually! This problem is about practicing putting together steps without being told what they are.     The table below lists the U.S. national debt at various times in history. We need to adjust these figures for inflation. Adjusting them will allow us to more accurately compare the sizes of these debts to one another.    Use the Consumer Price Index to adjust the national debt for each year so that the debt is expressed in 2021 dollars. Enter the adjusted amounts in the table below. Round to two decimal places.   Adjusting the National Debt for Inflation    Year  National Debt (Billion $)  CPI (average annual)  Relative Change from Year to 2021  National Debt Adjusted for Inflation (Billion 2021 $)    1945  259  18.0      1980  930  82.4      1995  4,974  152.4      2010  14,025  218.1      2021  28,429  271.0  0%  28,429       When adjusted for inflation, in which year was the national debt largest? smallest?        Now let us consider a different approach to analyzing the U.S. national debt over time. Just as the cost of dinner and a movie for a person before and after college can be compared as a percentage of their income, economists frequently compare the national debt at different times in history by measuring it as a percentage of Gross Domestic Product (GDP). The GDP is the estimated value of all the goods and services that are produced in a country in a given year.    Fill in the table below with the national debt as a percentage of each year’s GDP. Round to the nearest percentage point.   Comparing the National Debt to GDP    Year  National Debt (Billion $)  GDP (Billion $)  National Debt as Percent of GDP    1945  259  228     1980  930  2,857     1995  4,974  7.640     2010  14,025  15,049     2021  28,429  23,315        After adjusting the debt relative to GDP, in which year was the national debt the largest? In which year was the debt smallest? ( Note: In this case, we say the national debts are being compared in relative terms.)    Is it better to measure the national debt in absolute terms or relative terms? Write a brief explanation.      When communicating information about very large numbers like the national debt, it can be useful to use tools like infographics and comparing sizes of real objects.    When communicating quantitative information, an infographic can be a useful tool. In order to help people understand the national debt adjusted to 2021 dollar amounts, we can draw bags of money to illustrate the change. If we use a 4 cm segment (4 bags of money) to represent the 1945 national debt adjusted for inflation (see figure below), how long should the segments be for each of the other years' national debt after adjusting to 2021 amounts? Round your answers to the nearest tenth of a centimeter.    According to the U.S. Treasury Department, a one-hundred-dollar bill is 0.0043 inches thick. Therefore, a stack of 100 one-hundred-dollar bills would be 0.43 inches thick. Assume that we could create stacks of one-hundred-dollar bills that would never topple over, no matter the height. How tall is the stack of money that represents each year's inflation-adjusted national debts?       "
+},
+{
+  "id": "a-abs-rel-change-unemployment",
+  "level": "2",
+  "url": "sec-relative-change.html#a-abs-rel-change-unemployment",
+  "type": "Activity",
+  "number": "7.2.1",
+  "title": "",
+  "body": "  The unemployment rate is the percentage of people in the labor force who are unemployed and actively seeking work. Going into the Covid pandemic in January 2020, the unemployment rate in the United States was 3.5%. In May of that year, unemployment was 13.2%. There are many ways that this change in unemployment rate could be described. Fill in the blanks in the following statements so they correctly describe this change.    From January 2020 to May 2020 the unemployment rate increased by percentage points. ( Hint: You are computing an absolute change here.)    From January 2020 to May 2020 the unemployment rate increased percent. ( Hint: You are computing a relative change here.) Round to the nearest percent.    From January 2020 to May 2020 the unemployment rate (fill in with nearly or more than ) (fill in with tripled or quadrupled ).   "
+},
+{
+  "id": "a-abs-rel-change-smoking",
+  "level": "2",
+  "url": "sec-relative-change.html#a-abs-rel-change-smoking",
+  "type": "Activity",
+  "number": "7.2.2",
+  "title": "",
+  "body": "  The table below presents data on the proportion of smokers in several countries.   Percentage of Smokers by Country    Country  Greece  Germany  France  Sweden  Canada    % of Smokers  39.1  28.0  34.6  8.0  17.5       Write a statement comparing the smoking rates of people in Greece and Sweden, using a measure of absolute change.    Write a statement comparing the smoking rates of Canada and Greece, using a measure of relative change.    Describe what you learned by writing a statement comparing the smoking rates of Canada and Greece. Use phrases similar to almost double , more than triple , and almost a fourth of .   "
+},
+{
+  "id": "a-comparing-salaries-abs-relative",
+  "level": "2",
+  "url": "sec-relative-change.html#a-comparing-salaries-abs-relative",
+  "type": "Activity",
+  "number": "7.2.3",
+  "title": "",
+  "body": "  Lucian is a Sales Associate at a retail store for a cell phone provider. His company offers many opportunities for growth in the organization. Lucian is starting some long-term planning and wants to decide if he should stay with this company and seek a promotion, or if he wants to explore other options with another company, or even try a new career.  Lucian has access to the following data from the past seven years about typical salaries for Sales Associates, Sales Supervisors, and Regional Sales Managers. Notice that salaries do not always increase from one year to the next. Lucian wants to get a better idea about how the salaries change over time for each of these positions, to gain insight into his earning potential if he stays with his current company.   Salaries of Sales Personnel (2016 - 2023)     2016  2017  2018  2019  2020  2021  2022  2023    Sales Associate  $41,500  $42,600  $42,800  $42,000  $43,100  $43,600  $44,700  $46,300    Sales Supervisor  $56,500  $57,100  $58,700  $57,300  $60,500  $59,600  $60,700  $62,600    Regional Sales Manager  $85,000  $89,500  $87,400  $82,700  $87,100  $89,000  $90,100  $91,000       What do you notice about the figures in this table? What are some advantages or disadvantages of only using this table to compare salaries to make a decision? Be sure to describe the advantages and disadvantages quantitatively.    Make a quick sketch of a graph or visual display of these data. To make your graph easier to read, consider using different color ink to represent each of the positions, or a different style of mark for the points (e.g., dots vs crosses)   Salaries of Sales Personnel (2016 - 2023)    Blank axes. The horizontal axis is labeled the years between 2016 and 2023. The vertical axis is labeled from $0 to $100,000 in $10,000 increments.   Blank axes.       What are some advantages or disadvantages of using a graph like the one you made above to visualize data over time?   "
+},
+{
+  "id": "a-comparing-salaries-abs-relative-cont",
+  "level": "2",
+  "url": "sec-relative-change.html#a-comparing-salaries-abs-relative-cont",
+  "type": "Activity",
+  "number": "7.2.4",
+  "title": "",
+  "body": "  Which position seems to show the most growth in salary over the past seven years? What particular quantities would be valuable for Lucian to notice to help make his decision?    The table below shows absolute and relative changes in salaries for each position from 2016 to 2023.   Absolute and Relative Changes from 2016 to 2023    Position  Absolute Change  Relative Change    Sales Associate  $4,800  11.6%    Sales Supervisor  $6,100  10.8%    Regional Sales Manager  $6,000  7.1%      Explain what you observe in the numbers and in the absolute changes and relative changes. For example, you could explain how the Sales Associate can have the lowest absolute increase in salary but the highest relative increase.   Now calculate the absolute and relative changes in salary from 2021 to 2022. Fill in the table below with your answers. Round your answers to the nearest tenth of a percent.   Absolute and Relative Changes from 2021 to 2022    Position  Absolute Change  Relative Change    Sales Associate      Sales Supervisor      Regional Sales Manager        Which position had the greatest absolute increase in salary? Which position had the greatest relative increase in salary? Write an explanation for what you observe in the absolute changes and relative changes.   "
+},
+{
+  "id": "a-salary-index",
+  "level": "2",
+  "url": "sec-relative-change.html#a-salary-index",
+  "type": "Activity",
+  "number": "7.2.5",
+  "title": "",
+  "body": "  One way to systematically look at a large set of relative changes over time is to create an index . You'll compute a salary index to help Lucian's career discernment. A salary index will look like a table of numbers that answer the question, The salary for this year is what percent of the base year ?    Use the salary information from the earlier to create a salary index for each of the three positions. You will be creating three separate indices, one for Sales Associate, one for Sales Supervisor, and one for Regional Sales Manager. Use 2016 as the base year, and round each answer to the nearest tenth.   Salary Index (Base Year = 2016)    Year  Sales Associate  Sales Supervisor  Regional Sales Manager    2016       2017       2018       2019       2020       2021       2022       2023          Use quantities in your index table to explain your observations and ideas about what Lucian should know about how the salaries change over time.    Make a graph of the indices that you created. What are the advantages and disadvantages of using this graph to interpret how the salaries changed over time?   Salary Indexes of Sales Personnel (2016 - 2023)    Blank axes. The horizontal axis is labeled the years between 2016 and 2023. The vertical axis is labeled from 90 to 115 in increments of 5.   Blank axes.      "
+},
+{
+  "id": "a-define-inflation",
+  "level": "2",
+  "url": "sec-relative-change.html#a-define-inflation",
+  "type": "Activity",
+  "number": "7.2.6",
+  "title": "",
+  "body": "   Inflation is the rate at which the general level of prices for goods and services is rising and, consequently, the buying power of currency is falling. In other words, if everything else (rent, groceries, utilities, etc.) gets more expensive, but your salary stays the same, your buying power decreases. To account for that, some state and private sector employees get annual salary adjustments, often referred to as Cost of Living Adjustment (COLA).  Suppose Gracelyn's pre-tax income was $65,800 in 2022.    Gracelyn spent $41,000 on expenses in 2022. What percent of her income did she spend on expenses?    Gracelyn spent $45,000 on expenses in 2023. How much would she have needed to make in 2023 in order to have the same buying power, i.e. in order to spend the same percent of her income on expenses as she did in 2022?   "
+},
+{
+  "id": "a-cpi-intro",
+  "level": "2",
+  "url": "sec-relative-change.html#a-cpi-intro",
+  "type": "Activity",
+  "number": "7.2.7",
+  "title": "",
+  "body": " The Consumer Price Index (CPI) is often used in the US to measure inflation. The Bureau of Labor Statistics calculates the CPI every month by looking at the prices of a collection of goods and services, including cars and housing. The inflation rate is the relative change in the CPI.  The average price of a new car in 1945 was $1,020. The Consumer Price Index was 18.0 in 1945 and 271.0 in 2021. Use this information to answer the following question: $1,020 in 1945 has the same buying power as how many dollars in 2021?   Hint: Start by finding the relative change in the CPI. There are several steps to this problem - you know how to do all of them individually! This problem is about practicing putting together steps without being told what they are.  "
+},
+{
+  "id": "a-national-debt",
+  "level": "2",
+  "url": "sec-relative-change.html#a-national-debt",
+  "type": "Activity",
+  "number": "7.2.8",
+  "title": "",
+  "body": "  The table below lists the U.S. national debt at various times in history. We need to adjust these figures for inflation. Adjusting them will allow us to more accurately compare the sizes of these debts to one another.    Use the Consumer Price Index to adjust the national debt for each year so that the debt is expressed in 2021 dollars. Enter the adjusted amounts in the table below. Round to two decimal places.   Adjusting the National Debt for Inflation    Year  National Debt (Billion $)  CPI (average annual)  Relative Change from Year to 2021  National Debt Adjusted for Inflation (Billion 2021 $)    1945  259  18.0      1980  930  82.4      1995  4,974  152.4      2010  14,025  218.1      2021  28,429  271.0  0%  28,429       When adjusted for inflation, in which year was the national debt largest? smallest?   "
+},
+{
+  "id": "a-national-debt-percent-gdp",
+  "level": "2",
+  "url": "sec-relative-change.html#a-national-debt-percent-gdp",
+  "type": "Activity",
+  "number": "7.2.9",
+  "title": "",
+  "body": "  Now let us consider a different approach to analyzing the U.S. national debt over time. Just as the cost of dinner and a movie for a person before and after college can be compared as a percentage of their income, economists frequently compare the national debt at different times in history by measuring it as a percentage of Gross Domestic Product (GDP). The GDP is the estimated value of all the goods and services that are produced in a country in a given year.    Fill in the table below with the national debt as a percentage of each year’s GDP. Round to the nearest percentage point.   Comparing the National Debt to GDP    Year  National Debt (Billion $)  GDP (Billion $)  National Debt as Percent of GDP    1945  259  228     1980  930  2,857     1995  4,974  7.640     2010  14,025  15,049     2021  28,429  23,315        After adjusting the debt relative to GDP, in which year was the national debt the largest? In which year was the debt smallest? ( Note: In this case, we say the national debts are being compared in relative terms.)    Is it better to measure the national debt in absolute terms or relative terms? Write a brief explanation.   "
+},
+{
+  "id": "a-national-debt-visualize",
+  "level": "2",
+  "url": "sec-relative-change.html#a-national-debt-visualize",
+  "type": "Activity",
+  "number": "7.2.10",
+  "title": "",
+  "body": "  When communicating information about very large numbers like the national debt, it can be useful to use tools like infographics and comparing sizes of real objects.    When communicating quantitative information, an infographic can be a useful tool. In order to help people understand the national debt adjusted to 2021 dollar amounts, we can draw bags of money to illustrate the change. If we use a 4 cm segment (4 bags of money) to represent the 1945 national debt adjusted for inflation (see figure below), how long should the segments be for each of the other years' national debt after adjusting to 2021 amounts? Round your answers to the nearest tenth of a centimeter.    According to the U.S. Treasury Department, a one-hundred-dollar bill is 0.0043 inches thick. Therefore, a stack of 100 one-hundred-dollar bills would be 0.43 inches thick. Assume that we could create stacks of one-hundred-dollar bills that would never topple over, no matter the height. How tall is the stack of money that represents each year's inflation-adjusted national debts?   "
+},
+{
+  "id": "sec-exponential-models-prep",
+  "level": "1",
+  "url": "sec-exponential-models-prep.html",
+  "type": "Section",
+  "number": "8.1",
+  "title": "Building Exponential Models Prep Activities",
+  "body": " Building Exponential Models Prep Activities     The population of a small town in Indiana was 5,500 people in the year 2010 and census data showed that the population grew by approximately 2.5% every year until 2020. What was the approximate population in 2011? 2012? 2013? 2020? Round to the nearest person.   Indiana Town Population    Year  2010  2011  2012  2013  2020    Population  5500            The population of a small town in Ohio was 5,500 people in the year 2010 and census data showed that the population decreased by approximately 2.5% every year until 2020. What was the approximate population in 2011? 2012? 2013? 2020? Round to the nearest person.   Ohio Town Population    Year  2010  2011  2012  2013  2020    Population  5500           The population of a small town in Michigan was also 5,500 people in the year 2010, but it decreased by an average of 150 people a year until 2020. What was the approximate population in 2011? 2012? 2013? 2020?   Michigan Town Population    Year  2010  2011  2012  2013  2020    Population  5500           What is different about the population change from year to year in the small town in Indiana and the population change from year to year in the small town in Ohio?    What is different about the population change from year to year in the small town in Michigan and the population change from year to year in the small town in Ohio?         In an expression of the form , we call the base , the exponent or power , and a coefficient . This vocabulary will be useful to us in the next lesson, so let's practice it now.    Identify the base, exponent, and coefficient in each of the expressions below.     Write an expression with base , coefficient , and exponent .     You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Apply the same percent change to a quantity repeatedly.      Identify the base, exponent, and coefficient in an expression of the form        "
+},
+{
+  "id": "pa-repeated-percent-change",
+  "level": "2",
+  "url": "sec-exponential-models-prep.html#pa-repeated-percent-change",
+  "type": "Prep Activity",
+  "number": "8.1.1",
+  "title": "",
+  "body": "  The population of a small town in Indiana was 5,500 people in the year 2010 and census data showed that the population grew by approximately 2.5% every year until 2020. What was the approximate population in 2011? 2012? 2013? 2020? Round to the nearest person.   Indiana Town Population    Year  2010  2011  2012  2013  2020    Population  5500            The population of a small town in Ohio was 5,500 people in the year 2010 and census data showed that the population decreased by approximately 2.5% every year until 2020. What was the approximate population in 2011? 2012? 2013? 2020? Round to the nearest person.   Ohio Town Population    Year  2010  2011  2012  2013  2020    Population  5500           The population of a small town in Michigan was also 5,500 people in the year 2010, but it decreased by an average of 150 people a year until 2020. What was the approximate population in 2011? 2012? 2013? 2020?   Michigan Town Population    Year  2010  2011  2012  2013  2020    Population  5500           What is different about the population change from year to year in the small town in Indiana and the population change from year to year in the small town in Ohio?    What is different about the population change from year to year in the small town in Michigan and the population change from year to year in the small town in Ohio?   "
+},
+{
+  "id": "pa-exponent-vocab",
+  "level": "2",
+  "url": "sec-exponential-models-prep.html#pa-exponent-vocab",
+  "type": "Prep Activity",
+  "number": "8.1.2",
+  "title": "",
+  "body": "  In an expression of the form , we call the base , the exponent or power , and a coefficient . This vocabulary will be useful to us in the next lesson, so let's practice it now.    Identify the base, exponent, and coefficient in each of the expressions below.     Write an expression with base , coefficient , and exponent .   "
+},
+{
+  "id": "pa-prep-survey-exp-models-prep",
+  "level": "2",
+  "url": "sec-exponential-models-prep.html#pa-prep-survey-exp-models-prep",
+  "type": "Prep Activity",
+  "number": "8.1.3",
+  "title": "",
+  "body": " You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Apply the same percent change to a quantity repeatedly.      Identify the base, exponent, and coefficient in an expression of the form      "
+},
+{
+  "id": "sec-exponential-models",
+  "level": "1",
+  "url": "sec-exponential-models.html",
+  "type": "Section",
+  "number": "8.2",
+  "title": "Building Exponential Models Activities",
+  "body": " Building Exponential Models Activities     We have seen that when a quantity increases or decreases by the same amount for each additional unit of the input variable, the value of the output variable can be modeled as a linear model. That is, linear models have a constant average rate of change. For example, think of getting a $500 raise every year.  When a quantity increases or decreases by the same percentage for each additional unit of the input variable, the value of the output variable can be modeled as an exponential model . Exponential models have a constant relative change. For example, think of getting a 3% raise every year.  Determine which of the data sets below have a linear model, which have an exponential model, and which have neither.    Data Set 1    Input  Output    -2  4000    -1  5000    0  6250    1  7812.5    2  9765.6      Data Set 2    Input  Output    0  3000    1  2850    2  2700    3  2550    4  2400      Data Set 3    Input  Output    0  5000    1  3000    2  1800    3  1080    4  648      Data Set 4    Input  Output    -2  2100    -1  2600    0  2900    1  3000    2  2900          We looked at the populations of three small towns in the Prep Activities. All three towns had a population of 5500 in 2010, but their populations were changing in different ways:  Indiana: Increasing by 2.5% each year  Ohio: Decreasing by 2.5% each year  Michigan: Decreasing by 150 people each year      Determine which town's population has a linear model. Explain your answer, and find a formula for the population of this town years after 2010.    The populations of the other two towns have an exponential model. Explain how we know this from the verbal description of the change in the towns' populations.    In the Prep Activity, you found the populations of all three towns in 2011, 2012, 2013, and 2020. Plot the populations of all three towns on the graph below. What do you notice?   Populations of Three Small Towns    Blank axes. The horizontal axis is labeled with the years between 0 and 10. The vertical axis goes from 3900 to 7100.   Blank axes.       Find formulas for the populations of the two towns with exponential models.        List at least two other situations where quantities, besides population, can have constant relative change and be represented with an exponential model, and explain your reasoning.    Create an algebraic formula that represents the changing values over time for each of your examples.    What is exponential about these exponential models?      Suppose that the cost of attending a certain four-year private college (tuition and fees) was $16,500 in 1977 and that the cost increased about 3.2% every year.    Create an algebraic model, or formula, that could be used to estimate the cost of attending this college over time.    According to your model, what would be the tuition and fees for 1987, 1997, and 2022? Round your answers to the nearest dollar.    How many years from 1977 did it take for the total cost of tuition and fees to double? To triple?    If the original cost of attending the college in 1977 was only $12,000, how would the doubling and tripling time change?    Explain one strategy you could use to determine the year when this model would predict a cost of $42,000. Assume we are using the original cost of $16,500 for 1977.        The rate of elimination of caffeine from the human body varies greatly from individual to individual. Suppose that Jacob drinks a 16-ounce coffee drink that contains about 310 mg of caffeine. His body eliminates about 13% of the caffeine every hour. Hint: Assume all caffeine is absorbed into the body as soon as the coffee is drunk.    Create an algebraic model for this situation. Let be the number of hours after drinking a 16-oz cup of coffee, and let be the amount of caffeine in your body.    How much caffeine would be in Jacob's body right after he drank a second 16-ounce coffee drink, exactly three hours after drinking the first one?    Approximately how long will it take for Jacob's body to eliminate half of the caffeine from one 16-ounce coffee drink?   Try to use algebra to answer this question! What happens?   Use a graphing utility to create a precise graphical model of the amount of caffeine in Jacob's body from one 16-ounce coffee drink. Use your graph to answer the question. Include a sketch of your graph and the steps you used to find the answer here.    If Jacob drank a 12-ounce Pepsi containing 38 mg of caffeine instead of the coffee drink, how long will it take for Jacob's body to eliminate half of the caffeine? Write your answer rounded to the nearest whole hour.        For each scenario below, find an algebraic formula to model the scenario and then use Desmos or another graphing device to create a graph. Use your formula and\/or a graph to answer the question about the scenario.    Shawn's brand new Dodge Charger valued at $52,250 depreciates at the rate of 8% per year. He plans to sell it in 5 years. How much will it be worth then?    Fletcher currently exercises for about an hour per week. They'd like to exercise for the recommended 150 minutes per week. They know that they're more likely to sustain the change if they slowly increase the amount they're exercising each week instead of trying to jump from one hour to 150 minutes. If Fletcher increases how much they exercise by 20 minutes each week, how many weeks will it take them to get to their goal of 150 minutes per week?    Melany's starting salary is $55,000, and she will be getting a 2% pay raise every year. How many years will it take for her salary to be $60,000?    Joan quit her job at GM when she was 35 years old. Her friend, who is a financial advisor, recommended that she leave her 401(k) retirement savings in GM's retirement plan rather than withdrawing or transferring the money to a new plan. Her friend said that, on average, Joan could expect a 6% increase per year if she left her money in the plan for many years, based on the past performance of GM's plan. Joan will not be able to add more money to the GM 401(k) account, but can open a new one at her new job. How long will it take for the amount of money Joan has in the GM 401(k) to double?        The half-life of a substance with an exponential model is the amount of time it takes for half of the substance to be eliminated. For example, the half-life of a drug in the blood in the amount of time it takes for half of the drug to be elminiated from the body, and the half-life of a radioactive element is the amount of time it takes for half of the starting amount to decay.    If the half-life of a certain drug is 3 hours, and 25 mg of the drug is in the blood at 5 pm, how much of the drug will be in the blood at 8 pm? How long will it take for there to be 6.25 mg of the drug left in the blood?    Earlier, we assumed that the body could eliminate 13% of the caffeine present every hour. Wikipedia states that the half-life of caffeine in a healthy adult is often between 4.9 and 6 hours. If 13% of the caffeine is eliminated every hour, does this imply a half-life between 4.9 and 6 hours? Explain.    The antibiotic tetracycline is used for treatment against many different bacterial infections. Suppose that an individual is given 300 mg of tetracycline per dose, and the half-life of tetracycline is 8 hours. Assume all tetracycline is absorbed into the body immediately.   Use that the half-life of tetracycline is 8 hours to fill in the table below.   Amount of Tetracycline in the Body    Hours Since Dose  Number of 8 Hours Periods,  Amount of Tetracycline (mg),    0  0  300    8  1     16      24      48        Find an algebraic formula for , the amount of tetracycline in the body, after 8-hour periods.   It would be more convenient to have a formula for , the amount of tetracycline in the body, after hours! If it has been hours, how many 8-hour periods has it been? Use your observation to rewrite your formula for in terms of instead of .   Suppose that Reese is given a 300-mg tetracycline does every 6-hrs. How much tetracycline does he have left in his body just before his second dose?     "
+},
+{
+  "id": "a-exp-or-not",
+  "level": "2",
+  "url": "sec-exponential-models.html#a-exp-or-not",
+  "type": "Activity",
+  "number": "8.2.1",
+  "title": "",
+  "body": "  We have seen that when a quantity increases or decreases by the same amount for each additional unit of the input variable, the value of the output variable can be modeled as a linear model. That is, linear models have a constant average rate of change. For example, think of getting a $500 raise every year.  When a quantity increases or decreases by the same percentage for each additional unit of the input variable, the value of the output variable can be modeled as an exponential model . Exponential models have a constant relative change. For example, think of getting a 3% raise every year.  Determine which of the data sets below have a linear model, which have an exponential model, and which have neither.    Data Set 1    Input  Output    -2  4000    -1  5000    0  6250    1  7812.5    2  9765.6      Data Set 2    Input  Output    0  3000    1  2850    2  2700    3  2550    4  2400      Data Set 3    Input  Output    0  5000    1  3000    2  1800    3  1080    4  648      Data Set 4    Input  Output    -2  2100    -1  2600    0  2900    1  3000    2  2900       "
+},
+{
+  "id": "a-population-models",
+  "level": "2",
+  "url": "sec-exponential-models.html#a-population-models",
+  "type": "Activity",
+  "number": "8.2.2",
+  "title": "",
+  "body": "  We looked at the populations of three small towns in the Prep Activities. All three towns had a population of 5500 in 2010, but their populations were changing in different ways:  Indiana: Increasing by 2.5% each year  Ohio: Decreasing by 2.5% each year  Michigan: Decreasing by 150 people each year      Determine which town's population has a linear model. Explain your answer, and find a formula for the population of this town years after 2010.    The populations of the other two towns have an exponential model. Explain how we know this from the verbal description of the change in the towns' populations.    In the Prep Activity, you found the populations of all three towns in 2011, 2012, 2013, and 2020. Plot the populations of all three towns on the graph below. What do you notice?   Populations of Three Small Towns    Blank axes. The horizontal axis is labeled with the years between 0 and 10. The vertical axis goes from 3900 to 7100.   Blank axes.       Find formulas for the populations of the two towns with exponential models.   "
+},
+{
+  "id": "a-build-your-own-expon-model",
+  "level": "2",
+  "url": "sec-exponential-models.html#a-build-your-own-expon-model",
+  "type": "Activity",
+  "number": "8.2.3",
+  "title": "",
+  "body": "  List at least two other situations where quantities, besides population, can have constant relative change and be represented with an exponential model, and explain your reasoning.    Create an algebraic formula that represents the changing values over time for each of your examples.    What is exponential about these exponential models?   "
+},
+{
+  "id": "a-tuition-increase",
+  "level": "2",
+  "url": "sec-exponential-models.html#a-tuition-increase",
+  "type": "Activity",
+  "number": "8.2.4",
+  "title": "",
+  "body": "  Suppose that the cost of attending a certain four-year private college (tuition and fees) was $16,500 in 1977 and that the cost increased about 3.2% every year.    Create an algebraic model, or formula, that could be used to estimate the cost of attending this college over time.    According to your model, what would be the tuition and fees for 1987, 1997, and 2022? Round your answers to the nearest dollar.    How many years from 1977 did it take for the total cost of tuition and fees to double? To triple?    If the original cost of attending the college in 1977 was only $12,000, how would the doubling and tripling time change?    Explain one strategy you could use to determine the year when this model would predict a cost of $42,000. Assume we are using the original cost of $16,500 for 1977.   "
+},
+{
+  "id": "a-caffeine-elimination",
+  "level": "2",
+  "url": "sec-exponential-models.html#a-caffeine-elimination",
+  "type": "Activity",
+  "number": "8.2.5",
+  "title": "",
+  "body": "  The rate of elimination of caffeine from the human body varies greatly from individual to individual. Suppose that Jacob drinks a 16-ounce coffee drink that contains about 310 mg of caffeine. His body eliminates about 13% of the caffeine every hour. Hint: Assume all caffeine is absorbed into the body as soon as the coffee is drunk.    Create an algebraic model for this situation. Let be the number of hours after drinking a 16-oz cup of coffee, and let be the amount of caffeine in your body.    How much caffeine would be in Jacob's body right after he drank a second 16-ounce coffee drink, exactly three hours after drinking the first one?    Approximately how long will it take for Jacob's body to eliminate half of the caffeine from one 16-ounce coffee drink?   Try to use algebra to answer this question! What happens?   Use a graphing utility to create a precise graphical model of the amount of caffeine in Jacob's body from one 16-ounce coffee drink. Use your graph to answer the question. Include a sketch of your graph and the steps you used to find the answer here.    If Jacob drank a 12-ounce Pepsi containing 38 mg of caffeine instead of the coffee drink, how long will it take for Jacob's body to eliminate half of the caffeine? Write your answer rounded to the nearest whole hour.   "
+},
+{
+  "id": "a-misc-expon-models",
+  "level": "2",
+  "url": "sec-exponential-models.html#a-misc-expon-models",
+  "type": "Activity",
+  "number": "8.2.6",
+  "title": "",
+  "body": "  For each scenario below, find an algebraic formula to model the scenario and then use Desmos or another graphing device to create a graph. Use your formula and\/or a graph to answer the question about the scenario.    Shawn's brand new Dodge Charger valued at $52,250 depreciates at the rate of 8% per year. He plans to sell it in 5 years. How much will it be worth then?    Fletcher currently exercises for about an hour per week. They'd like to exercise for the recommended 150 minutes per week. They know that they're more likely to sustain the change if they slowly increase the amount they're exercising each week instead of trying to jump from one hour to 150 minutes. If Fletcher increases how much they exercise by 20 minutes each week, how many weeks will it take them to get to their goal of 150 minutes per week?    Melany's starting salary is $55,000, and she will be getting a 2% pay raise every year. How many years will it take for her salary to be $60,000?    Joan quit her job at GM when she was 35 years old. Her friend, who is a financial advisor, recommended that she leave her 401(k) retirement savings in GM's retirement plan rather than withdrawing or transferring the money to a new plan. Her friend said that, on average, Joan could expect a 6% increase per year if she left her money in the plan for many years, based on the past performance of GM's plan. Joan will not be able to add more money to the GM 401(k) account, but can open a new one at her new job. How long will it take for the amount of money Joan has in the GM 401(k) to double?   "
+},
+{
+  "id": "a-half-life",
+  "level": "2",
+  "url": "sec-exponential-models.html#a-half-life",
+  "type": "Activity",
+  "number": "8.2.7",
+  "title": "",
+  "body": "  The half-life of a substance with an exponential model is the amount of time it takes for half of the substance to be eliminated. For example, the half-life of a drug in the blood in the amount of time it takes for half of the drug to be elminiated from the body, and the half-life of a radioactive element is the amount of time it takes for half of the starting amount to decay.    If the half-life of a certain drug is 3 hours, and 25 mg of the drug is in the blood at 5 pm, how much of the drug will be in the blood at 8 pm? How long will it take for there to be 6.25 mg of the drug left in the blood?    Earlier, we assumed that the body could eliminate 13% of the caffeine present every hour. Wikipedia states that the half-life of caffeine in a healthy adult is often between 4.9 and 6 hours. If 13% of the caffeine is eliminated every hour, does this imply a half-life between 4.9 and 6 hours? Explain.    The antibiotic tetracycline is used for treatment against many different bacterial infections. Suppose that an individual is given 300 mg of tetracycline per dose, and the half-life of tetracycline is 8 hours. Assume all tetracycline is absorbed into the body immediately.   Use that the half-life of tetracycline is 8 hours to fill in the table below.   Amount of Tetracycline in the Body    Hours Since Dose  Number of 8 Hours Periods,  Amount of Tetracycline (mg),    0  0  300    8  1     16      24      48        Find an algebraic formula for , the amount of tetracycline in the body, after 8-hour periods.   It would be more convenient to have a formula for , the amount of tetracycline in the body, after hours! If it has been hours, how many 8-hour periods has it been? Use your observation to rewrite your formula for in terms of instead of .   Suppose that Reese is given a 300-mg tetracycline does every 6-hrs. How much tetracycline does he have left in his body just before his second dose?   "
+},
+{
+  "id": "sec-log-models-prep",
+  "level": "1",
+  "url": "sec-log-models-prep.html",
+  "type": "Section",
+  "number": "9.1",
+  "title": "The Log Operation Prep Activities",
+  "body": " The Log Operation Prep Activities     Let's consider the steps we'd take to solve several equations!    Fill in the blanks:   In order to solve the equation you could from both sides of the equation.  This works because the operation of \"undoes\" the operation of .  After performing this step, you arrive at the solution, .     Fill in the blanks:   In order to solve the equation you could both sides of the equation by .  This works because the operation of  undoes the operation of .  After performing this step, you arrive at the solution, .     Fill in the blanks:   In order to solve the equation you could both sides of the equation.  This works because the operation of  undoes the operation of .  After performing this step, you arrive at the solution, .     Now we would like to introduce a new operation which undoes exponentiation. That operation is written as , and we say this as the log of x .  The term log is an abbreviation for the mathematical term logarithm . A logarithm is a quantity representing the power to which a fixed number (the base) must be raised to produce a given number.  For example, a logarithm, or log operation, can be used to find the exponent to which one must raise the number 10 to get the specific number as the output.  The expression is then equal to , since .  The expression is then equal to , since .  The expression is then equal to , since .    Most scientific and graphing calculators have a button or function labeled Log which performs this calculation. Calculators will assume that the base is 10 unless you specifically ask them to use a different base. We'll stick with base 10 for now.    What are the following logs?                Now we would like to use the log operation to solve equations. Consider the equation . Notice that the exponent is not a whole number in this case. We can still solve this equation by doing something to both sides of the equation, as we did in . In this case, we will take the log of both sides of the equation:   Solving an Equation with a Log    Initial equation     Take the log of both sides      Use a calculator's Log function to find and get the answer      We can can check this result using a calculator. If , we get , which is about . It is not exactly  because we rounded to three decimal places. Logs are often terrible decimals.    Using your calculator, follow the steps above to solve the equation . Round to the nearest thousandth.    Check your answer by finding , where is your answer. You should get , or something very close. Did you?    What happens if you try to follow the steps to solve the equation ? Why do you think that is?     You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Solve equations by undoing operations.     Understand that the log operation undoes the raise 10 to the power of... operation.        "
+},
+{
+  "id": "pa-undoing-operations-warmup",
+  "level": "2",
+  "url": "sec-log-models-prep.html#pa-undoing-operations-warmup",
+  "type": "Prep Activity",
+  "number": "9.1.1",
+  "title": "",
+  "body": "  Let's consider the steps we'd take to solve several equations!    Fill in the blanks:   In order to solve the equation you could from both sides of the equation.  This works because the operation of \"undoes\" the operation of .  After performing this step, you arrive at the solution, .     Fill in the blanks:   In order to solve the equation you could both sides of the equation by .  This works because the operation of  undoes the operation of .  After performing this step, you arrive at the solution, .     Fill in the blanks:   In order to solve the equation you could both sides of the equation.  This works because the operation of  undoes the operation of .  After performing this step, you arrive at the solution, .    "
+},
+{
+  "id": "sec-log-models-prep-2-3",
+  "level": "2",
+  "url": "sec-log-models-prep.html#sec-log-models-prep-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "logarithm "
+},
+{
+  "id": "pa-log-10",
+  "level": "2",
+  "url": "sec-log-models-prep.html#pa-log-10",
+  "type": "Prep Activity",
+  "number": "9.1.2",
+  "title": "",
+  "body": "  What are the following logs?             "
+},
+{
+  "id": "sec-log-models-prep-3-2",
+  "level": "2",
+  "url": "sec-log-models-prep.html#sec-log-models-prep-3-2",
+  "type": "Table",
+  "number": "9.1.1",
+  "title": "Solving an Equation with a Log",
+  "body": " Solving an Equation with a Log    Initial equation     Take the log of both sides      Use a calculator's Log function to find and get the answer     "
+},
+{
+  "id": "sec-log-models-prep-3-4",
+  "level": "2",
+  "url": "sec-log-models-prep.html#sec-log-models-prep-3-4",
+  "type": "Prep Activity",
+  "number": "9.1.3",
+  "title": "",
+  "body": "  Using your calculator, follow the steps above to solve the equation . Round to the nearest thousandth.    Check your answer by finding , where is your answer. You should get , or something very close. Did you?    What happens if you try to follow the steps to solve the equation ? Why do you think that is?   "
+},
+{
+  "id": "pa-prep-survey-log-models-prep",
+  "level": "2",
+  "url": "sec-log-models-prep.html#pa-prep-survey-log-models-prep",
+  "type": "Prep Activity",
+  "number": "9.1.4",
+  "title": "",
+  "body": " You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Solve equations by undoing operations.     Understand that the log operation undoes the raise 10 to the power of... operation.      "
+},
+{
+  "id": "sec-log-models",
+  "level": "1",
+  "url": "sec-log-models.html",
+  "type": "Section",
+  "number": "9.2",
+  "title": "The Log Operation Activities",
+  "body": " The Log Operation Activities    We use opposite operations to solve equations. If you can see what operations are currently applied to a variable, you can do the opposite operations to solve the equation - to find out what number the variable stands for. Some examples of operations in math are: addition, subtraction, multiplication, division, raising a number to a power, and taking a root of a number (such as the square root).  Fill in the column on the right in the table below:      If you have an equation like...  ...you can solve it by using the opposite operation.  Write the operation you would use to solve the equation, and then solve it.                              Now, consider the following example. Even though both equations include the same numbers and the same variable, they are fundamentally different. It's all about the placement of a variable.   The equation on the left is a cubic equation; the variable is in the base of .  The equation on the right is an exponential equation; the variable is in the exponent of    Variable as Base vs. Variable as Exponent    Given equation      Given operation  The variable is cubed.  is raised to the power of     An equation that has a variable in the exponent is called an exponential equation. Sometimes, we can solve such equations by inspection . This means we look at an equation and see what number could go in place of the variable to make the equation true, such as in the equation ,where we know that because .   Note: If a problem asks you to solve an equation by inspection, but you don't have that arithmetic fact memorized and don't see the answer, that's okay! In that case, use the instruction to solve by inspection as a hint that the answer is probably a small nice number, and solve by guess and check instead.    Solve the equations below by inspection.                  In , we saw that we can also undo the operation in an exponential equation using logarithms, which are often referred to as logs. We learned to use the log operation to solve equations when the base is the number 10 (such as ).  Solve the equations below. Think about the operation you would use to solve the equation first and then solve it. Round to the nearest thousandth.              What if the base isn't 10? For example, consider the examples You might be able to use inspection to see that the solution to is because you remember that , but the answers to the other two examples are not nice numbers. To solve this problem, we have to tell our calculator to use a base other than 10 for our log. We write for the log base operation. The log base operation finds the exponent of that gives us the number we're looking for. For example,   The expression is equal to , since .  The expression is equal to , since .  The expression is equal to , since .   The log base operation let us solve and . Desmos can evaluate logs with any base and give us a number. Click on the functions button in the keyboard and scroll until you find . Pressing on will add log to an entry line and let you enter the base and the number.    To solve , we see that the base is 3 and we want to get 25, so we need , which we read as log base 3 of 25 . Desmos tells us that . Since , it seems like we probably got the right answer, since that tiny a difference is probably just rounding.    To solve , we see that the base is 1.05 and we want to get 1.6, so we need , which we read as log base 1.05 of 1.6 . Desmos tells us that . Since , it seems like we probably got the right answer, since that tiny a difference is probably just rounding.    Your calculator might have a log base button, but it also might not. If it doesn't, you should use Desmos for these types of problems.       Solve each of the equations below. Round to the nearest thousandth, and double check your answers.                     We looked at the following scenario in :   Suppose that the cost of attending a certain four-year private college (tuition and fees) was $16,500 in 1977 and that the cost increased about 3.2% every year.   We found that is a formula that models this situation where is tuition and is years since 1977. We then thought about how we might determine the year when tuition would reach $42,000. We considered various methods, such as guess-and-check (guessing different values and checking the results), to find a solution to the equation: .    In what year is tuition predicted to be $42,000? Use an algebraic strategy to find the answer.    What method could you use to determine whether your solution is correct? Explain your method, then use it to check your answer.        We also modeled the amount of caffeine Jacob has left in his body several hours after drinking a 16-oz coffee drink in . Suppose that Jacob has just consumed a 16-ounce cup of coffee containing 300 mg of caffeine.    If caffeine is being eliminated from Jacob's body at a rate of 13% every hour, how long before three quarters of the caffeine has been eliminated? Enter your answer rounded to the nearest hour. ( Hint: First, set up a model for the situation and then use it to answer the question.)    How much caffeine will be in Jason’s blood if he drinks another 16-ounce cup of coffee 5 hours after the first?     Exponential equations are often seen when working with accounts or loans that use compound interest. Compound interest occurs when interest is calculated on both the initial principal and any accumulated interest from previous periods. (Note: For comparison, recall that simple interest does not take into account the accumulated interest, that is, the interest each year is only based on the initial principal.) The equation for computing the amount of a loan, or in an account, that uses compound interest (assuming no change in principal) is where  represents the total amount of the loan or in the account.  represents the principal (initial amount of the loan or money put into the account).  represents the interest rate, written as a decimal.  represents the number of compounding periods per year.  represents the term of the loan in years or time since opening the account in years.   Suppose that you take out a $2000 loan with a compound interest rate of 4%, compounded annually (once a year). If you make no payments, and interest compounds annually, in how many years will the loan balance double (reach or surpass $4000)? Think about this on your own for a minute before sharing your ideas in your group.     A log is an operation that combines two numbers to make a new number. The log operation combines the base and a target, and gives us back the exponent that we need to raise the base to to get the target. Just like when you learned the raise to the power of operation in a previous math class, practice is the key to feeling comfortable with this new operation.      Let's pratice using the relationship between logs and exponents to rewrite equations. The key idea to use is that   The equation is equivalent to the equation .   Rewrite each of the log equations as exponential equations, and each of the exponetial equations as log equations.                          In real applications, we nearly always use Desmos or another calculator to evaluate logs. But, evaluating logs without a calculator is a useful practice drill when we're first learning logs. This is uncomfortable at first, but it makes our brains think about what a log means and helps us to feel more comfortable using logs in the future. Don't use a calculator for this activity , except to check your answer! The purpose of this activity isn't to get the answers, but to practice thinking about how the log operation works.  Evaluate each of the log operations below.                          Milo's homework includes the problem , and he keeps getting it wrong. He doesn't understand why - he's entering it into Google's calculator, so it HAS to be right. He presses the log button, then 5, then closes the parentheses, then times, then 100. Here's a picture of his result:   Screenshot of calculation from Google calculator   Log of 5 times 100 equals 69.897    Explain to Milo what he's doing wrong, and what he needs to do instead so that he can get the right answer.     "
+},
+{
+  "id": "a-one-step-eqns",
+  "level": "2",
+  "url": "sec-log-models.html#a-one-step-eqns",
+  "type": "Activity",
+  "number": "9.2.1",
+  "title": "",
+  "body": " We use opposite operations to solve equations. If you can see what operations are currently applied to a variable, you can do the opposite operations to solve the equation - to find out what number the variable stands for. Some examples of operations in math are: addition, subtraction, multiplication, division, raising a number to a power, and taking a root of a number (such as the square root).  Fill in the column on the right in the table below:      If you have an equation like...  ...you can solve it by using the opposite operation.  Write the operation you would use to solve the equation, and then solve it.                             "
+},
+{
+  "id": "sec-log-models-2-4",
+  "level": "2",
+  "url": "sec-log-models.html#sec-log-models-2-4",
+  "type": "Table",
+  "number": "9.2.2",
+  "title": "Variable as Base vs. Variable as Exponent",
+  "body": " Variable as Base vs. Variable as Exponent    Given equation      Given operation  The variable is cubed.  is raised to the power of    "
+},
+{
+  "id": "sec-log-models-2-5",
+  "level": "2",
+  "url": "sec-log-models.html#sec-log-models-2-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "exponential equation. inspection "
+},
+{
+  "id": "a-solve-by-inspection",
+  "level": "2",
+  "url": "sec-log-models.html#a-solve-by-inspection",
+  "type": "Activity",
+  "number": "9.2.2",
+  "title": "",
+  "body": "  Solve the equations below by inspection.             "
+},
+{
+  "id": "a-solve-with-log-10",
+  "level": "2",
+  "url": "sec-log-models.html#a-solve-with-log-10",
+  "type": "Activity",
+  "number": "9.2.3",
+  "title": "",
+  "body": "  In , we saw that we can also undo the operation in an exponential equation using logarithms, which are often referred to as logs. We learned to use the log operation to solve equations when the base is the number 10 (such as ).  Solve the equations below. Think about the operation you would use to solve the equation first and then solve it. Round to the nearest thousandth.             "
+},
+{
+  "id": "a-solve-exp-eqn-not-base-10",
+  "level": "2",
+  "url": "sec-log-models.html#a-solve-exp-eqn-not-base-10",
+  "type": "Activity",
+  "number": "9.2.4",
+  "title": "",
+  "body": "  Solve each of the equations below. Round to the nearest thousandth, and double check your answers.                  "
+},
+{
+  "id": "a-logs-in-application-tuition",
+  "level": "2",
+  "url": "sec-log-models.html#a-logs-in-application-tuition",
+  "type": "Activity",
+  "number": "9.2.5",
+  "title": "",
+  "body": "  We looked at the following scenario in :   Suppose that the cost of attending a certain four-year private college (tuition and fees) was $16,500 in 1977 and that the cost increased about 3.2% every year.   We found that is a formula that models this situation where is tuition and is years since 1977. We then thought about how we might determine the year when tuition would reach $42,000. We considered various methods, such as guess-and-check (guessing different values and checking the results), to find a solution to the equation: .    In what year is tuition predicted to be $42,000? Use an algebraic strategy to find the answer.    What method could you use to determine whether your solution is correct? Explain your method, then use it to check your answer.   "
+},
+{
+  "id": "a-logs-in-application-caffeine",
+  "level": "2",
+  "url": "sec-log-models.html#a-logs-in-application-caffeine",
+  "type": "Activity",
+  "number": "9.2.6",
+  "title": "",
+  "body": "  We also modeled the amount of caffeine Jacob has left in his body several hours after drinking a 16-oz coffee drink in . Suppose that Jacob has just consumed a 16-ounce cup of coffee containing 300 mg of caffeine.    If caffeine is being eliminated from Jacob's body at a rate of 13% every hour, how long before three quarters of the caffeine has been eliminated? Enter your answer rounded to the nearest hour. ( Hint: First, set up a model for the situation and then use it to answer the question.)    How much caffeine will be in Jason’s blood if he drinks another 16-ounce cup of coffee 5 hours after the first?   "
+},
+{
+  "id": "a-logs-in-application-compound-interest",
+  "level": "2",
+  "url": "sec-log-models.html#a-logs-in-application-compound-interest",
+  "type": "Activity",
+  "number": "9.2.7",
+  "title": "",
+  "body": " Exponential equations are often seen when working with accounts or loans that use compound interest. Compound interest occurs when interest is calculated on both the initial principal and any accumulated interest from previous periods. (Note: For comparison, recall that simple interest does not take into account the accumulated interest, that is, the interest each year is only based on the initial principal.) The equation for computing the amount of a loan, or in an account, that uses compound interest (assuming no change in principal) is where  represents the total amount of the loan or in the account.  represents the principal (initial amount of the loan or money put into the account).  represents the interest rate, written as a decimal.  represents the number of compounding periods per year.  represents the term of the loan in years or time since opening the account in years.   Suppose that you take out a $2000 loan with a compound interest rate of 4%, compounded annually (once a year). If you make no payments, and interest compounds annually, in how many years will the loan balance double (reach or surpass $4000)? Think about this on your own for a minute before sharing your ideas in your group. "
+},
+{
+  "id": "a-logs-and-exponentials",
+  "level": "2",
+  "url": "sec-log-models.html#a-logs-and-exponentials",
+  "type": "Activity",
+  "number": "9.2.8",
+  "title": "",
+  "body": "   Let's pratice using the relationship between logs and exponents to rewrite equations. The key idea to use is that   The equation is equivalent to the equation .   Rewrite each of the log equations as exponential equations, and each of the exponetial equations as log equations.                       "
+},
+{
+  "id": "a-evaluate-logs-no-calc",
+  "level": "2",
+  "url": "sec-log-models.html#a-evaluate-logs-no-calc",
+  "type": "Activity",
+  "number": "9.2.9",
+  "title": "",
+  "body": "  In real applications, we nearly always use Desmos or another calculator to evaluate logs. But, evaluating logs without a calculator is a useful practice drill when we're first learning logs. This is uncomfortable at first, but it makes our brains think about what a log means and helps us to feel more comfortable using logs in the future. Don't use a calculator for this activity , except to check your answer! The purpose of this activity isn't to get the answers, but to practice thinking about how the log operation works.  Evaluate each of the log operations below.                       "
+},
+{
+  "id": "a-logs-not-multiplication",
+  "level": "2",
+  "url": "sec-log-models.html#a-logs-not-multiplication",
+  "type": "Activity",
+  "number": "9.2.10",
+  "title": "",
+  "body": "  Milo's homework includes the problem , and he keeps getting it wrong. He doesn't understand why - he's entering it into Google's calculator, so it HAS to be right. He presses the log button, then 5, then closes the parentheses, then times, then 100. Here's a picture of his result:   Screenshot of calculation from Google calculator   Log of 5 times 100 equals 69.897    Explain to Milo what he's doing wrong, and what he needs to do instead so that he can get the right answer.   "
+},
+{
+  "id": "sec-apply-exponential-prep",
+  "level": "1",
+  "url": "sec-apply-exponential-prep.html",
+  "type": "Section",
+  "number": "10.1",
+  "title": "Applications of Exponential Models Prep Activities",
+  "body": " Applications of Exponential Models Prep Activities    The Social Security program is a program managed by the U.S. government to make payments to individuals after they retire. Basically, current workers pay into the program (a portion of their paycheck is automatically deducted for this purpose) and people who are retired receive payments from this program, based on their income while they worked. The following text is from a March 2023 NPR story. Please read the excerpt and answer the questions.    Social Security is now expected to run short of cash by 2033   The Social Security program is expected to run short of cash to pay promised benefits in about ten years, while a key trust fund for Medicare will run out of funds by 2031, according to new forecasts issued Friday by trustees of both programs. Social Security benefits for retirees and others are primarily paid for through payroll taxes on current workers, and are supplemented by a trust fund.  Benefits paid out by the program have exceeded money coming in since 2021, and the trust fund is now expected to be depleted by 2033. That's a year earlier than forecast last year, thanks in part to slower economic growth.  Unless changes are made before then to shore up the program, 66 million Social Security recipients would see their benefits cut by 23-25%.  Meanwhile, the Medicare trust fund, which supplements payments to hospitals and nursing homes, is also running out of cash. That could result in an 11% pay cut to health care providers unless changes are made by 2031. That deadline is three years later than had been forecast last year.   Millions depend on Social Security, Medicare   Treasury Secretary Janet Yellen, who leads the trustees, stressed the importance of propping up both trust funds to avoid draconian cuts in benefits and provider payments.  \"Social Security and Medicare are two bedrock programs that older Americans rely upon for their retirement security,\" Yellen said in a statement. \"The Biden-Harris Administration is committed to ensuring the long-term viability of these critical programs so that retirees can receive the hard-earned benefits they're owed.\"  The primary challenge for Social Security is demographic. As aging baby boomers retire, there are fewer workers paying into the program to support the rising cost of benefits. As of last year, there were just 2.7 workers paying into the system for each person drawing Social Security benefits.  Additionally, a smaller fraction of income is now subject to the payroll taxes that support Social Security.  Patching the program will require higher taxes, lower benefits or some combination of the two.  \"The only responsible thing to do is admit that we've got to make changes and we disagree about how to do it but let's sit down and try to figure those out,\" said Maya Macguineas, president of the Committee for a Responsible Federal Budget. \"If we wait until the last minute, they'll be much, much harder.\"        What is the main point of this article?    Why has the Social Security Administration been paying out more money than expected?    What does the article suggest needs to be done to address these issues?    The Social Security Administration posts answers to frequently asked questions about the Social Security Trust Funds, which can be accessed here . Use the website to help you find answers to the following questions:   Which two of the following funds comprise the Social Security Trust Funds?   Old-Age and Survivors Insurance (OASI).  Temporary Assistance for Needy Families (TANF).  Disability Insurance (DI).  Women, Infants, and Children (WIC).    In what year in the past were the reserves in the OASI trust fund nearly depleted?    How were benefits paid out when the funds were nearly depleted?   Federal income tax was increased to raise the money.  Money was borrowed from other federal trust funds and repaid with interest.  Benefits were reduced for four years.         According to carfax.com, the value of a new vehicle can drop by 20 percent after the first 12 months of ownership. Then, for the next four years, you can expect your car to lose roughly 15 percent of its value annually. Use the depreciation rates listed by CARFAX to find the value after 5 years of a brand new Ford F-150 purchased for $62,520. Round to the nearest dollar.    Consider an item initially priced at $549.99. Find its value after three consecutive 10% markdowns. Round to the nearest cent.     You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Set up and evaluate exponential models given starting values and rate of growth\/decline.        "
+},
+{
+  "id": "pa-soc-security",
+  "level": "2",
+  "url": "sec-apply-exponential-prep.html#pa-soc-security",
+  "type": "Prep Activity",
+  "number": "10.1.1",
+  "title": "",
+  "body": "  What is the main point of this article?    Why has the Social Security Administration been paying out more money than expected?    What does the article suggest needs to be done to address these issues?    The Social Security Administration posts answers to frequently asked questions about the Social Security Trust Funds, which can be accessed here . Use the website to help you find answers to the following questions:   Which two of the following funds comprise the Social Security Trust Funds?   Old-Age and Survivors Insurance (OASI).  Temporary Assistance for Needy Families (TANF).  Disability Insurance (DI).  Women, Infants, and Children (WIC).    In what year in the past were the reserves in the OASI trust fund nearly depleted?    How were benefits paid out when the funds were nearly depleted?   Federal income tax was increased to raise the money.  Money was borrowed from other federal trust funds and repaid with interest.  Benefits were reduced for four years.    "
+},
+{
+  "id": "pa-practice-build-exp",
+  "level": "2",
+  "url": "sec-apply-exponential-prep.html#pa-practice-build-exp",
+  "type": "Prep Activity",
+  "number": "10.1.2",
+  "title": "",
+  "body": "  According to carfax.com, the value of a new vehicle can drop by 20 percent after the first 12 months of ownership. Then, for the next four years, you can expect your car to lose roughly 15 percent of its value annually. Use the depreciation rates listed by CARFAX to find the value after 5 years of a brand new Ford F-150 purchased for $62,520. Round to the nearest dollar.    Consider an item initially priced at $549.99. Find its value after three consecutive 10% markdowns. Round to the nearest cent.   "
+},
+{
+  "id": "pa-prep-survey-exp-trends-prep",
+  "level": "2",
+  "url": "sec-apply-exponential-prep.html#pa-prep-survey-exp-trends-prep",
+  "type": "Prep Activity",
+  "number": "10.1.3",
+  "title": "",
+  "body": " You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Set up and evaluate exponential models given starting values and rate of growth\/decline.      "
+},
+{
+  "id": "sec-apply-exponential",
+  "level": "1",
+  "url": "sec-apply-exponential.html",
+  "type": "Section",
+  "number": "10.2",
+  "title": "Applications of Exponential Models Activities",
+  "body": " Applications of Exponential Models Activities    Social Security is an insurance program. Workers pay into the program, typically through payroll withholding where they work. They can earn up to four credits each year. In 2023, you receive 1 credit for each $1,640 of earnings, up to the maximum of 4 credits per year. That money goes into two Social Security trust funds (OASI and DI) where it is used to pay benefits to people currently eligible for them. The money that is not spent remains in the trust funds.    To qualify for Social Security retirement benefits, workers must be at least 62 and have paid into the system for 10 years or more.    Workers who wait to collect Social Security, up to age 70, will receive higher monthly benefits.  Spouses and ex-spouses may also be eligible for benefits, based on their former partner's earnings record.   The Social Security Trust Funds hold the accumulated savings of the U. S. Social Security system. By law, the funds are invested in the general debt of the United States government, entirely in U.S. Treasury securities.  Projections by the Social Security Board of Trustees (the trustees) show that Social Security expenditures will exceed tax revenues each year through the end of the 75-year valuation period (ending in 2097).     One measure that analysts use to determine the strength of the Social Security Trust Fund finances is the Trust Fund Ratio . For example, in 2010 the asset reserves of the Social Security trust fund were $2.5 trillion and the total cost of the program that year was $706.3 billion, so the Trust Fund Ratio was 354%. Another way of saying this is that the trust fund asset reserves were 3.54 times greater than the cost of the program. The Trust Fund Ratio indicates how much of recipients’ annual benefit amounts could be paid from the balance at the beginning of a given year. When the Trust Fund Ratio drops below 100%, then this means that the fund is unable to pay out the total benefits due.    From 2010 to 2019, the Trust Fund Ratio declined 7.7 percentage points each year. The Trust Fund Ratio in 2010 was 354%. Using 354 as the starting amount, create a linear model and determine in what year the model predicts the Trust Fund Ratio to fall below 100. Your model can be a table, a graph, or an equation.    Use the Trust Fund Ratio information for 2020 and 2022 in the table below to create a linear model and determine in what year the model predicts the Trust Fund Ratio to fall below 100. Round the slope to one decimal place.   Trust Fund Ratio 2020 - 2022    Year  2020  2021  2022    Trust Fund Ratio (%)  265  256  234         Comparing our answers from the two parts of , we can see that using more recent data (2020 to 2022) suggests that the Trust Fund Ratio will be depleted sooner than what the 2010 to 2019 data suggested.  It is projected that in 2023, the Trust Fund Ratio will be anywhere between 204% to 219%. Furthermore, some projections suggest that the funds will drop below 100 (96%) in 2029, which means that full payments to retirees cannot be met, and then it will drop to zero (trust fund asset reserve depletion) around 2034.    Social Security Trust Funds Over Time - Real Past and Projected Future   Graph showing the trust fund ratio in the past, and projected in the future   The graph shows OASI and Combined OASI and DI declining to 0 sometime between 2031 and 2035.       Let's now explore what projected trust fund asset reserves suggest about when the fund will be unable to meet its benefit pay out obligations. The Congressional Research Service stated that at the end of 2022, the trust fund asset reserves were valued at around $2.83 trillion. Using projection figures from the 2023 Annual Report of the Board of Trustees for the OASI and DI funds for 2023 and onward, we can estimate that the asset reserves of the Social Security trust fund is going to decline about 15% each year (as a result of paying out more than is being brought in).    Assume the 15% yearly decline estimates are correct, and create a model for the yearly value of the trust fund asset reserves after 2.83 trillion dollars was reached in 2022. Your model can be a table, a graph, or an equation.    How much will the trust funds decrease in the first year after 2022?    How long will it take for the value of the trust funds to decline to half of $2.83 trillion? In what year will that occur?        Using projection data, when the trust fund drops below 400 billion dollars there will not be enough money to cover the benefits due to retirees. Use your Trust Funds Model from to find when this will occur.    If additional funds are added to the Trust Funds as a result of policy changes, so that the value of the funds in 2022 is $5 trillion, how long would it take for the value of the funds to shrink to half?    With a fund value of $5 trillion in 2022, when would these funds drop below 400 billion dollars?    What amount of money is needed in the trust funds in 2022 so that the value will not drop below 400 billion dollars until 2042? You can create an equation to model this scenario with a variable for the unknown starting amount (in trillions), and using a repeated 15% decrease for 20 years. This equation is: Solve the equation. What is the starting amount, ?    What are some important factors that might contribute to the decline that is projected in the value of the Social Security Trust Funds?    What could be done to address the problem of the decline in the value of the Trust Fund?    Some assumptions were made in order to produce the Trust Funds Model in . These assumptions are based on predictions of a future some years off, and could be somewhat inaccurate. However, they are still the best assumptions that could be made at the time and are much better than random guesses. Make a list of these assumptions.        The 1938 Fair Labor Standards Act established a federal minimum wage of $0.25 per hours in the United States. The federal minimum wage has been increased many times since it was established in 1938.  Using the federal minimum wage data from 1938 to 2009, we can estimate that the minimum wage increased, on average, by about 4.94% each year.   Find a formula to predict the federal minimum wage in year . Explain in words how you found your formula.   Use your formula to predict the federal minimum wage in 2009. How close did you get to the actual 2009 federal minimum wage of $7.25?    The federal minimum wage hasn't changed since 2009. If it had continued to increase at the same rate, what would the federal minimum wage be now?    The federal minimum wage increased much more frequently between 1938 and 1981 then it has since. If we use only the federal minimum wage data up to 1981, we find that it increased, on average, at about 6.14% per year during that time period. The data between 1938 and 1981 is also closer to fitting an exponential model than if we look at all of the data up to 2009. Find a new formula for the federal minimum wage in year based on this data.    Use your new formula to predict the federal minimum wage in 1981. How close did you get to the actual 1981 federal minimum wage of $3.35?    Suppose the minimum wage had continued to increase at the 1938 - 1981 rate up until 2009, and then stopped increasing. What would the federal minimum wage be in this scenario?    Suppose the minimum wage had continued to increase at the 1938 - 1981 rate up until now. What would the federal minimum wage be in this scenario?     "
+},
+{
+  "id": "a-trust-fund-ratio",
+  "level": "2",
+  "url": "sec-apply-exponential.html#a-trust-fund-ratio",
+  "type": "Activity",
+  "number": "10.2.1",
+  "title": "",
+  "body": "  One measure that analysts use to determine the strength of the Social Security Trust Fund finances is the Trust Fund Ratio . For example, in 2010 the asset reserves of the Social Security trust fund were $2.5 trillion and the total cost of the program that year was $706.3 billion, so the Trust Fund Ratio was 354%. Another way of saying this is that the trust fund asset reserves were 3.54 times greater than the cost of the program. The Trust Fund Ratio indicates how much of recipients’ annual benefit amounts could be paid from the balance at the beginning of a given year. When the Trust Fund Ratio drops below 100%, then this means that the fund is unable to pay out the total benefits due.    From 2010 to 2019, the Trust Fund Ratio declined 7.7 percentage points each year. The Trust Fund Ratio in 2010 was 354%. Using 354 as the starting amount, create a linear model and determine in what year the model predicts the Trust Fund Ratio to fall below 100. Your model can be a table, a graph, or an equation.    Use the Trust Fund Ratio information for 2020 and 2022 in the table below to create a linear model and determine in what year the model predicts the Trust Fund Ratio to fall below 100. Round the slope to one decimal place.   Trust Fund Ratio 2020 - 2022    Year  2020  2021  2022    Trust Fund Ratio (%)  265  256  234      "
+},
+{
+  "id": "fig-social-security",
+  "level": "2",
+  "url": "sec-apply-exponential.html#fig-social-security",
+  "type": "Figure",
+  "number": "10.2.2",
+  "title": "",
+  "body": " Social Security Trust Funds Over Time - Real Past and Projected Future   Graph showing the trust fund ratio in the past, and projected in the future   The graph shows OASI and Combined OASI and DI declining to 0 sometime between 2031 and 2035.    "
+},
+{
+  "id": "a-soc-sec-asset-reserve-projections",
+  "level": "2",
+  "url": "sec-apply-exponential.html#a-soc-sec-asset-reserve-projections",
+  "type": "Activity",
+  "number": "10.2.2",
+  "title": "",
+  "body": "  Let's now explore what projected trust fund asset reserves suggest about when the fund will be unable to meet its benefit pay out obligations. The Congressional Research Service stated that at the end of 2022, the trust fund asset reserves were valued at around $2.83 trillion. Using projection figures from the 2023 Annual Report of the Board of Trustees for the OASI and DI funds for 2023 and onward, we can estimate that the asset reserves of the Social Security trust fund is going to decline about 15% each year (as a result of paying out more than is being brought in).    Assume the 15% yearly decline estimates are correct, and create a model for the yearly value of the trust fund asset reserves after 2.83 trillion dollars was reached in 2022. Your model can be a table, a graph, or an equation.    How much will the trust funds decrease in the first year after 2022?    How long will it take for the value of the trust funds to decline to half of $2.83 trillion? In what year will that occur?   "
+},
+{
+  "id": "a-soc-sec-use-models",
+  "level": "2",
+  "url": "sec-apply-exponential.html#a-soc-sec-use-models",
+  "type": "Activity",
+  "number": "10.2.3",
+  "title": "",
+  "body": "  Using projection data, when the trust fund drops below 400 billion dollars there will not be enough money to cover the benefits due to retirees. Use your Trust Funds Model from to find when this will occur.    If additional funds are added to the Trust Funds as a result of policy changes, so that the value of the funds in 2022 is $5 trillion, how long would it take for the value of the funds to shrink to half?    With a fund value of $5 trillion in 2022, when would these funds drop below 400 billion dollars?    What amount of money is needed in the trust funds in 2022 so that the value will not drop below 400 billion dollars until 2042? You can create an equation to model this scenario with a variable for the unknown starting amount (in trillions), and using a repeated 15% decrease for 20 years. This equation is: Solve the equation. What is the starting amount, ?    What are some important factors that might contribute to the decline that is projected in the value of the Social Security Trust Funds?    What could be done to address the problem of the decline in the value of the Trust Fund?    Some assumptions were made in order to produce the Trust Funds Model in . These assumptions are based on predictions of a future some years off, and could be somewhat inaccurate. However, they are still the best assumptions that could be made at the time and are much better than random guesses. Make a list of these assumptions.   "
+},
+{
+  "id": "a-min-wage-and-inflation",
+  "level": "2",
+  "url": "sec-apply-exponential.html#a-min-wage-and-inflation",
+  "type": "Activity",
+  "number": "10.2.4",
+  "title": "",
+  "body": "  The 1938 Fair Labor Standards Act established a federal minimum wage of $0.25 per hours in the United States. The federal minimum wage has been increased many times since it was established in 1938.  Using the federal minimum wage data from 1938 to 2009, we can estimate that the minimum wage increased, on average, by about 4.94% each year.   Find a formula to predict the federal minimum wage in year . Explain in words how you found your formula.   Use your formula to predict the federal minimum wage in 2009. How close did you get to the actual 2009 federal minimum wage of $7.25?    The federal minimum wage hasn't changed since 2009. If it had continued to increase at the same rate, what would the federal minimum wage be now?    The federal minimum wage increased much more frequently between 1938 and 1981 then it has since. If we use only the federal minimum wage data up to 1981, we find that it increased, on average, at about 6.14% per year during that time period. The data between 1938 and 1981 is also closer to fitting an exponential model than if we look at all of the data up to 2009. Find a new formula for the federal minimum wage in year based on this data.    Use your new formula to predict the federal minimum wage in 1981. How close did you get to the actual 1981 federal minimum wage of $3.35?    Suppose the minimum wage had continued to increase at the 1938 - 1981 rate up until 2009, and then stopped increasing. What would the federal minimum wage be in this scenario?    Suppose the minimum wage had continued to increase at the 1938 - 1981 rate up until now. What would the federal minimum wage be in this scenario?   "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
