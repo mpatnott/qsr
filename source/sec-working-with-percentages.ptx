@@ -1,43 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-working-with-percentages" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Working With Percentages</title>
+  <title>Working With Percentages Activities</title>
 
   <page>
-    <introduction>
+    <!-- <introduction>
         <p>
             In this lesson, we will practice working with percentages.
         </p>
-    </introduction>
+    </introduction> -->
     <activity xml:id="a-computing-with-percents">
-        <task>
-            <introduction>
-                <p>
-                    The state of Illinois has a 6.25% sales tax.<fn><url href="https://www.salestaxinstitute.com/resources/rates"></url></fn>
-                </p>
-            </introduction>
-            <task workspace="0.5in">
-                <statement>
-                    <p>
-                        Calculate the amount of tax on a $120 purchase. Round to the nearest cent.
-                    </p>
-                </statement>
-            </task>
-            <task workspace="0.5in">
-                <statement>
-                    <p>
-                        What is the total sale price of a $120 purchase, including tax? Round to the nearest cent.
-                    </p>
-                </statement>
-            </task>
-            <task workspace="0.5in">
-                <statement>
-                    <p>
-                        Textbooks are taxable in Illinois.<fn><url href="https://www.taxjar.com/blog/textbooks-tax-exempt-sales-tax" /></fn>The amount that a student paid at her school bookstore was $185. What was the price of the books and school supplies before tax? Round to the nearest cent.
-                    </p>
-                </statement>
-            </task>
-        </task>
+        <introduction>
+            <p>
+                Let's practice working with percentages!
+            </p>
+        </introduction>
         <task workspace="0.5in">
             <statement>
                 <p>
@@ -99,39 +76,6 @@
                 </table>
             </statement>
         </task>
-        <task workspace="0.5in">
-            <statement>
-                <p>
-                    Some research suggests that the risk of developing type 2 diabetes by age 70 is 11%. How could you express this with a meaningful rate or ratio?
-                </p>
-            </statement>
-        </task>
-    </activity>
-  </page>
-
-  <page>
-    <activity xml:id="a-percent-as-rate">
-        <task>
-            <introduction>
-                <p>
-                    According to the CDC, 11.5% of Americans smoked tobacco in 2021.<fn><url href="https://www.cdc.gov/tobacco/data-statistics/mmwr/2023-mm7218a1.html" /></fn>
-                </p>
-            </introduction>
-            <task workspace="0.5in">
-                <statement>
-                    <p>
-                        What is meant by this statement? What was the numerator? What was the denominator? What assumptions could you make about the population of Americans included in this statement?
-                    </p>
-                </statement>
-            </task>
-            <task workspace="0.5in">
-                <statement>
-                    <p>
-                        Discuss in your group how this percentage (11.5%) was probably computed. Record your group's thinking below.
-                    </p>
-                </statement>
-            </task>
-        </task>
         <task>
             <introduction>
                 <p>
@@ -159,6 +103,181 @@
                     </p>
                 </statement>
             </task>
+        </task>
+        <!-- <task workspace="0.5in">
+            <statement>
+                <p>
+                    Some research suggests that the risk of developing type 2 diabetes by age 70 is 11%. How could you express this with a meaningful rate or ratio?
+                </p>
+            </statement>
+        </task>-->
+        <!-- <task>
+            <introduction>
+                <p>
+                    According to the CDC, 11.5% of Americans smoked tobacco in 2021.<fn><url href="https://www.cdc.gov/tobacco/data-statistics/mmwr/2023-mm7218a1.html" /></fn>
+                </p>
+            </introduction>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        What is meant by this statement? What was the numerator? What was the denominator? What assumptions could you make about the population of Americans included in this statement?
+                    </p>
+                </statement>
+            </task>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        Discuss in your group how this percentage (11.5%) was probably computed. Record your group's thinking below.
+                    </p>
+                </statement>
+            </task>
+        </task> -->
+    </activity>
+  </page>
+
+  <page>
+    <activity xml:id="a-percent-inc-dec">
+        <introduction>
+            <p>
+                In the real world, we often describe increases and decreases in terms of percentages. For example, sales tax and tips are often calculated as a percent increase, and discounts are often calculated as a percent decrease. In previous classes, you likely calculated the new total by first finding the amount of the increase or decrease, and then adding or subtracting. In this class, we will find it useful to use a different strategy: 
+            </p>
+            <ol>
+                <li>
+                    <p>
+                        If there's a <m>p\%</m> increase, then the new total is <m>(100 + p)\%</m> of the original. If there's a <m>p\%</m> decrease, then the new total is <m>(100 - p)\%</m> of the original.
+                    </p>
+                    <p>
+                        <alert>Example (increase):</alert> If we add a <m>20\%</m> tip, then the total is <m>120\%</m> of the original bill.
+                    </p>
+                    <p>
+                        <alert>Example (decrease):</alert> If an item is <m>20\%</m> off, then its new price is <m>80\%</m> of its original price.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Find the new total from the original using the percent you found in Step 1.
+                    </p>
+                    <p>
+                        <alert>Example (increase):</alert> If we add a <m>20\%</m> tip, then the total is <m>120\%</m> of the original bill. So, if the bill was originally <m>\$40</m>, the bill with tip is <me>40 \times \frac{120}{100} = \$48</me>.
+                    </p>
+                    <p>
+                        <alert>Example (decrease):</alert> If an item is <m>20\%</m> off, then its new price is <m>80\%</m> of its original price. So, if the item originally cost <m>\$40</m>, then its sales price is <me>40 \times \frac{80}{100} = \$32</me>.
+                    </p>
+                </li>
+            </ol>
+        </introduction>
+        <task>
+            <introduction>
+                <p>
+                    The state of Illinois has a 6.25% sales tax.<fn><url href="https://www.salestaxinstitute.com/resources/rates"></url></fn>
+                </p>
+            </introduction>
+            <!--<task workspace="0.5in">
+                <statement>
+                    <p>
+                        Calculate the amount of tax on a $120 purchase. Round to the nearest cent.
+                    </p>
+                </statement>
+            </task>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        What is the total sale price of a $120 purchase, including tax? Round to the nearest cent.
+                    </p>
+                </statement>
+            </task>-->
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        Find the total sales price on a $120 purchase, after tax, using the method introduced above.
+                    </p>
+                </statement>
+            </task>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        Textbooks are taxable in Illinois.<fn><url href="https://www.taxjar.com/blog/textbooks-tax-exempt-sales-tax" /></fn>The amount that a student paid at her school bookstore, after tax, was $185. What was the price of the books and school supplies before tax? Round to the nearest cent.
+                    </p>
+                </statement>
+            </task>
+        </task>
+        <task>
+            <introduction>
+                <p>
+                    Let's practice using our new method to solve problems about discounts.
+                </p>
+            </introduction>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        A pair of shoes was originally $105. It is on sale for 10% off. Use our new method to find the sales price.
+                    </p>
+                </statement>
+            </task>
+            <task workspace="0.5">
+                <statement>
+                    <p>
+                        A pair of earbuds are on sale for $79.99. The website says that this is 47% off the original price. What was the original price?
+                    </p>
+                </statement>
+            </task>
+        </task>
+        <task>
+            <introduction>
+                <p>
+                    Suppose the town of Hewe currently has a population of 4300 people, and has been growing at a rate of 2% per year.
+                </p>
+            </introduction>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        How many people should Hewe expect to have next year?
+                    </p>
+                </statement>
+            </task>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        How many people should Hewe expect to have in two years? three years? 10 years?
+                    </p>
+                </statement>
+            </task>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        How many people did Hewe have last year? two years ago?
+                    </p>
+                </statement>
+            </task>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Compare this new method of finding the total after a percent change to the methods you've used before. Include at least one advantage of the new method.
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+    <activity xml:id="a-percent-change-real-world">
+        <introduction>
+            <p>
+                Changes over time are often reported in terms of percents. 
+            </p>
+        </introduction>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    According to the US Census Bureau<fn><url href="https://www.census.gov/quickfacts/fact/table/denvercountycolorado/POP010210" /></fn>, the population of Denver County was 600,158 people in 2010. Denver County's population increased 19.4% between 2010 and 2023. What was Denver County's population in 2023?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    According to a local news report from August 2024<fn><url href="https://kdvr.com/news/local/rent-on-the-rise-report-shows-annual-increase-in-denver/" /></fn>, the median rent for a two-bedroom apartment in Denver was $2,470, a 1.6% increase from August 2023. What was the median rent for a two-bedroom apartment in Denver in August 2023?
+                </p>
+            </statement>
         </task>
     </activity>
 

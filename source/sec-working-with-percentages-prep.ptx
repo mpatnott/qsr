@@ -6,7 +6,7 @@
   <page>
     <introduction>
         <p>
-            Percentages are a common way to describe a quantity of interest (the ``part'') as a fraction of a base quantity (the ``whole'').  The equations
+            Percentages are a common way to describe a quantity of interest (the <q>part</q>) as a fraction of a base quantity (the <q>whole</q>).  The equations
             <me>\text{Percent} = \frac{\text{Part}}{\text{Whole}} \times 100, \qquad \text{Part} = \frac{\text{Percent}}{100} \times \text{Whole}</me>
             can be used to find the percent or the part.
         </p>
@@ -16,7 +16,39 @@
     </investigation>
 
     <investigation xml:id="pa-find-percent-from-part-and-whole" workspace="1in">
-        Audryn added a $12 tip to a $68.73 restaurant bill. What percent tip did she leave? Round to the nearest tenth of a percent.
+        <introduction>
+            <p>
+                Audryn added a $12 tip to a $68.73 restaurant bill. 
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    What percent tip did she leave? Round to the nearest tenth of a percent.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    How much did Audryn pay in total, including tip?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    What percent of the original $68.73 bill is the total amount that Audryn paid? Your answer to part (b) should be the Part and $68.73 should be the Whole in the percent equation.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    What do you notice about the percents in parts (a) and (c)?
+                </p>
+            </statement>
+        </task>
     </investigation>
 
     <investigation xml:id="pa-percents-puzzle" workspace="1in">
