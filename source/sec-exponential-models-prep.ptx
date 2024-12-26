@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-exponential-models-prep" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Exponential Models Prep Activities</title>
+  <title>Building Exponential Models Prep Activities</title>
 
   <page>
-    <investigation>
+    <investigation xml:id="pa-repeated-percent-change">
         <task workspace="0.5in">
             <statement>
                 <p>
@@ -145,7 +145,7 @@
   </page>
 
   <page>
-    <investigation>
+    <!-- <investigation>
         <introduction>
             <p>
                 Jennifer owns a clothing store.
@@ -166,8 +166,8 @@
                 </p>
             </statement>
         </task>
-    </investigation>
-    <investigation>
+    </investigation>-->
+    <investigation xml:id="pa-exponent-vocab">
         <introduction>
             <p>
                 In an expression of the form <me>c \times b^e</me>, we call <m>b</m> the <term>base</term>, <m>e</m> the <term>exponent</term> or <term>power</term>, and <m>c</m> a <term>coefficient</term>. This vocabulary will be useful to us in the next lesson, so let's practice it now.
@@ -203,10 +203,10 @@
                     <cell>Apply the same percent change to a quantity repeatedly.</cell>
                     <cell></cell>
                 </row>
-                <row bottom = "minor">
+                <!-- <row bottom = "minor">
                     <cell>Write formulas for calculating the new value of quantity after a percent change in two different ways.</cell>
                     <cell></cell>
-                </row>
+                </row> -->
                 <row>
                     <cell>Identify the base, exponent, and coefficient in an expression of the form <m>c \times b^e</m></cell>
                     <cell></cell>

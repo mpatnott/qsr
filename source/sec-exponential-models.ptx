@@ -1,18 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-exponential-models" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Exponential Models</title>
+  <title>Building Exponential Models Activities</title>
 
   <page>
-    <introduction>
-        <p>
-            We have seen that when a quantity increases or decreases by the same amount for each additional unit of the input variable, the value of the output variable can be modeled as a linear model. That is, linear models have a constant average rate of change. For example, think of getting a $500 raise every year.
-        </p>
-        <p>
-            When a quantity increases or decreases by the same percentage for each additional unit of the input variable, the value of the output variable can be modeled as an <term>exponential model</term>. Exponential models have a constant relative change. For example, think of getting a 3% raise every year.
-        </p>
-    </introduction>
-    <activity>
+    <activity xml:id="a-exp-or-not" workspace="0.75in">
+        <statement>
+            <p>
+                We have seen that when a quantity increases or decreases by the same amount for each additional unit of the input variable, the value of the output variable can be modeled as a linear model. That is, linear models have a constant average rate of change. For example, think of getting a $500 raise every year.
+            </p>
+            <p>
+                When a quantity increases or decreases by the same percentage for each additional unit of the input variable, the value of the output variable can be modeled as an <term>exponential model</term>. Exponential models have a constant relative change. For example, think of getting a 3% raise every year.
+            </p>
+            <p>
+                Determine which of the data sets below have a linear model, which have an exponential model, and which have neither.
+            </p>
+            <sidebyside>
+                <table>
+                    <title>Data Set 1</title>
+                    <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                        <row header="yes">
+                            <cell>Input</cell>
+                            <cell>Output</cell>
+                        </row>
+                        <row>
+                            <cell>-2</cell>
+                            <cell>4000</cell>
+                        </row>
+                        <row>
+                            <cell>-1</cell>
+                            <cell>5000</cell>
+                        </row>
+                        <row>
+                            <cell>0</cell>
+                            <cell>6250</cell>
+                        </row>
+                        <row>
+                            <cell>1</cell>
+                            <cell>7812.5</cell>
+                        </row>
+                        <row>
+                            <cell>2</cell>
+                            <cell>9765.6</cell>
+                        </row>
+                    </tabular>
+                </table>
+                <table>
+                    <title>Data Set 2</title>
+                    <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                        <row header="yes">
+                            <cell>Input</cell>
+                            <cell>Output</cell>
+                        </row>
+                        <row>
+                            <cell>0</cell>
+                            <cell>3000</cell>
+                        </row>
+                        <row>
+                            <cell>1</cell>
+                            <cell>2850</cell>
+                        </row>
+                        <row>
+                            <cell>2</cell>
+                            <cell>2700</cell>
+                        </row>
+                        <row>
+                            <cell>3</cell>
+                            <cell>2550</cell>
+                        </row>
+                        <row>
+                            <cell>4</cell>
+                            <cell>2400</cell>
+                        </row>
+                    </tabular>
+                </table>
+                <table>
+                    <title>Data Set 3</title>
+                    <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                        <row header="yes">
+                            <cell>Input</cell>
+                            <cell>Output</cell>
+                        </row>
+                        <row>
+                            <cell>0</cell>
+                            <cell>5000</cell>
+                        </row>
+                        <row>
+                            <cell>1</cell>
+                            <cell>3000</cell>
+                        </row>
+                        <row>
+                            <cell>2</cell>
+                            <cell>1800</cell>
+                        </row>
+                        <row>
+                            <cell>3</cell>
+                            <cell>1080</cell>
+                        </row>
+                        <row>
+                            <cell>4</cell>
+                            <cell>648</cell>
+                        </row>
+                    </tabular>
+                </table>
+                <table>
+                    <title>Data Set 4</title>
+                    <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                        <row header="yes">
+                            <cell>Input</cell>
+                            <cell>Output</cell>
+                        </row>
+                        <row>
+                            <cell>-2</cell>
+                            <cell>2100</cell>
+                        </row>
+                        <row>
+                            <cell>-1</cell>
+                            <cell>2600</cell>
+                        </row>
+                        <row>
+                            <cell>0</cell>
+                            <cell>2900</cell>
+                        </row>
+                        <row>
+                            <cell>1</cell>
+                            <cell>3000</cell>
+                        </row>
+                        <row>
+                            <cell>2</cell>
+                            <cell>2900</cell>
+                        </row>
+                    </tabular>
+                </table>
+            </sidebyside>
+        </statement>
+    </activity>
+
+
+    <activity xml:id="a-population-models">
         <introduction>
             <p>
                 We looked at the populations of three small towns in the Prep Activities. All three towns had a population of 5500 in 2010, but their populations were changing in different ways:
@@ -26,7 +151,7 @@
         <task workspace="0.5in">
             <statement>
                 <p>
-                    Determine which town's population has a linear model. Explain your answer, and find a formula for the population <m>P</m> of this town <m>t</m> years after 2010.
+                    Determine which town's population has a linear model. Explain your answer, and find a formula for the population <m>P(t)</m> of this town <m>t</m> years after 2010.
                 </p>
             </statement>
         </task>
@@ -66,7 +191,7 @@
         <task workspace="0.5in">
             <statement>
                 <p>
-                    You learned in the Prep Activity that the math expressions <m>5500 + 5500(0.025)</m> and <m>5500 \times 1.025</m> are equivalent. Use this idea to rewrite your work for finding the populations of the two towns with exponential models. What pattern do you see? Find formulas for the populations of the two towns with exponential models.
+                    Find formulas for the populations of the two towns with exponential models.
                 </p>
             </statement>
         </task>
@@ -74,7 +199,7 @@
   </page>
 
   <page>
-    <activity>
+    <activity xml:id="a-build-your-own-expon-model">
         <task workspace="1in">
             <statement>
                 <p>
@@ -92,13 +217,13 @@
         <task workspace="0.5in">
             <statement>
                 <p>
-                    What is "exponential" about these exponential models?
+                    What is <q>exponential</q> about these exponential models?
                 </p>
             </statement>
         </task>
     </activity>
 
-    <activity>
+    <activity xml:id="a-tuition-increase">
         <introduction>
             <p>
                 Suppose that the cost of attending a certain four-year private college (tuition and fees) was $16,500 in 1977 and that the cost increased about 3.2% every year.
@@ -143,7 +268,7 @@
   </page>
 
   <page>
-    <activity>
+    <activity xml:id="a-caffeine-elimination">
         <introduction>
             <p>
                 The rate of elimination of caffeine from the human body varies greatly from individual to individual. Suppose that Jacob drinks a 16-ounce coffee drink that contains about 310 mg of caffeine. His body eliminates about 13% of the caffeine every hour. <em>Hint:</em> Assume all caffeine is absorbed into the body as soon as the coffee is drunk.
@@ -195,8 +320,12 @@
   </page>
 
   <page>
-    <activity>
-        For each scenario below, find an algebraic formula to model the scenario. Use your formula and/or a graph to answer the question about the scenario.
+    <activity xml:id="a-misc-expon-models">
+        <introduction>
+            <p>
+                For each scenario below, find an algebraic formula to model the scenario and then use <url href="https://www.desmos.com/calculator">Desmos</url> or another graphing device to create a graph. Use your formula and/or a graph to answer the question about the scenario.
+            </p>
+        </introduction>
         <task workspace="1.5in">
             <statement>
                 <p>
@@ -229,7 +358,7 @@
   </page>
 
   <page>
-    <activity>
+    <activity xml:id="a-half-life">
         <introduction>
             <p>
                 The <term>half-life</term> of a substance with an exponential model is the amount of time it takes for half of the substance to be eliminated. For example, the half-life of a drug in the blood in the amount of time it takes for half of the drug to be elminiated from the body, and the half-life of a radioactive element is the amount of time it takes for half of the starting amount to decay.
