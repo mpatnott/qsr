@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-apply-exponential" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Applying Exponential Models to Real Scenarios</title>
+  <title>Applications of Exponential Models Activities</title>
 
   <page>
     <introduction>
@@ -164,6 +164,66 @@
             <statement>
                 <p>
                     Some assumptions were made in order to produce the Trust Funds Model in <xref ref="a-soc-sec-asset-reserve-projections"/>. These assumptions are based on predictions of a future some years off, and could be somewhat inaccurate. However, they are still the best assumptions that could be made at the time and are much better than random guesses. Make a list of these assumptions.
+                </p>
+            </statement>
+        </task>
+    </activity>
+  </page>
+
+  <page>
+    <activity xml:id="a-min-wage-and-inflation">
+        <introduction>
+            <p>
+                The 1938 Fair Labor Standards Act established a federal minimum wage of $0.25 per hours in the United States. The federal minimum wage has been increased many times since it was established in 1938.
+            </p>
+            <p>
+                Using the federal minimum wage data<fn><url href="https://www.dol.gov/agencies/whd/minimum-wage/history/chart#fn1" /></fn> from 1938 to 2009, we can estimate that the minimum wage increased, on average, by about 4.94% each year.
+            </p>
+        </introduction>
+        <task workspace="0.5in">
+            <statement>
+                Find a formula to predict the federal minimum wage in year <m>t</m>. Explain in words how you found your formula.
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Use your formula to predict the federal minimum wage in 2009. How close did you get to the actual 2009 federal minimum wage of $7.25?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    The federal minimum wage hasn't changed since 2009. If it had continued to increase at the same rate, what would the federal minimum wage be now?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    The federal minimum wage increased much more frequently between 1938 and 1981 then it has since. If we use only the federal minimum wage data up to 1981, we find that it increased, on average, at about 6.14% per year during that time period. The data between 1938 and 1981 is also closer to fitting an exponential model than if we look at all of the data up to 2009. Find a new formula for the federal minimum wage in year <m>t</m> based on this data.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5">
+            <statement>
+                <p>
+                    Use your new formula to predict the federal minimum wage in 1981. How close did you get to the actual 1981 federal minimum wage of $3.35?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Suppose the minimum wage had continued to increase at the 1938 - 1981 rate up until 2009, and then stopped increasing. What would the federal minimum wage be in this scenario?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Suppose the minimum wage had continued to increase at the 1938 - 1981 rate up until now. What would the federal minimum wage be in this scenario?
                 </p>
             </statement>
         </task>

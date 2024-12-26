@@ -36,6 +36,13 @@
     <xi:include href="sec-log-models.ptx" />
   </chapter>
 
+  <chapter xml:id="ch-apply-exponential" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Applications of Exponential Models</title>
+    
+    <xi:include href="sec-apply-exponential-prep.ptx" />
+    <xi:include href="sec-apply-exponential.ptx" />
+  </chapter>
+
  <!-- <xi:include href="sec-working-with-percentages.ptx" />
   <xi:include href="sec-relative-change.ptx" />
   <xi:include href="sec-exponential-models.ptx" />

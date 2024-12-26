@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-apply-exponential-prep" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Applying Exponential Models to Real Scenarios Prep Activities</title>
+  <title>Applications of Exponential Models Prep Activities</title>
 
   <page>
     <introduction>
@@ -119,7 +119,7 @@
         <task workspace="2in">
             <statement>
                 <p>
-                    According to carfax.com, the value of a new vehicle can drop by 20 percent after the first 12 months of ownership. Then, for the next four years, you can expect your car to lose roughly 10 percent of its value annually. Use the <url href="https://www.carfax.com/blog/car-depreciation">depreciation rates listed by CARFAX</url> to find the value after 5 years of a brand new Ford F-150 purchased for $62,520. Round to the nearest dollar.
+                    According to carfax.com, the value of a new vehicle can drop by 20 percent after the first 12 months of ownership. Then, for the next four years, you can expect your car to lose roughly 15 percent of its value annually. Use the <url href="https://www.carfax.com/blog/car-depreciation">depreciation rates listed by CARFAX</url> to find the value after 5 years of a brand new Ford F-150 purchased for $62,520. Round to the nearest dollar.
                 </p>
             </statement>
         </task>
