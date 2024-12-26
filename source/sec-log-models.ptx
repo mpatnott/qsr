@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-log-models" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>The Log Operation</title>
+  <title>The Log Operation Activities</title>
 
   <page>
     <activity xml:id="a-one-step-eqns">
             <p>
-                We use "opposite" operations to solve equations. If you can see what operations are currently applied to a variable, you can do the opposite operations to solve the equation - to find out what number the variable stands for. Some examples of operations in math are: addition, subtraction, multiplication, division, raising a number to a power, and taking a root of a number (such as the square root).
+                We use <q>opposite</q> operations to solve equations. If you can see what operations are currently applied to a variable, you can do the opposite operations to solve the equation - to find out what number the variable stands for. Some examples of operations in math are: addition, subtraction, multiplication, division, raising a number to a power, and taking a root of a number (such as the square root).
             </p>
             <p>
                 Fill in the column on the right in the table below:
@@ -70,7 +70,10 @@
         </tabular>
     </table>
     <p>
-        An equation that has a variable in the exponent is called an <term>exponential equation.</term> Sometimes, we can solve such equations by <term>inspection</term>. This means we look at an equation and see what number could go in place of the variable to make the equation true, such as in the equation <m>10^x=100</m>,where we know that <m>x = 2</m> because <m>10^2= 100</m>. <em>Note:</em> If a problem asks you to solve an equation by inspection, but you don't have that arithmetic fact memorized and don't see the answer, that's okay! In that case, use the instruction to "solve by inspection" as a hint that the answer is probably a small nice number, and solve by guess and check instead.
+        An equation that has a variable in the exponent is called an <term>exponential equation.</term> Sometimes, we can solve such equations by <term>inspection</term>. This means we look at an equation and see what number could go in place of the variable to make the equation true, such as in the equation <m>10^x=100</m>,where we know that <m>x = 2</m> because <m>10^2= 100</m>. 
+    </p>
+    <p>
+        <em>Note:</em> If a problem asks you to solve an equation by inspection, but you don't have that arithmetic fact memorized and don't see the answer, that's okay! In that case, use the instruction to <q>solve by inspection</q> as a hint that the answer is probably a small nice number, and solve by guess and check instead.
     </p>
 
     <activity xml:id="a-solve-by-inspection">
@@ -125,9 +128,32 @@
     <p>
         What if the base isn't 10? For example, consider the examples
         <me>3^x = 25 \qquad 7^x = 49 \qquad 1.05^x = 1.6</me>
-        You might be able to use inspection to see that the solution to <m>7^x = 49</m> is <m>x = 2</m> because you remember that <m>7^2=49</m>, but the answers to the other two examples are not nice numbers.
+        You might be able to use inspection to see that the solution to <m>7^x = 49</m> is <m>x = 2</m> because you remember that <m>7^2=49</m>, but the answers to the other two examples are not nice numbers. To solve this problem, we have to tell our calculator to use a base other than 10 for our log. We write <m>\log_b</m> for the log base <m>b</m> operation. The log base <m>b</m> operation finds the exponent of <m>b</m> that gives us the number we're looking for. For example,
     </p>
+    <ul>
+        <li>The expression <m>\log_7(49)</m> is equal to <m>2</m>, since <m>7^2 = 49</m>.</li>
+        <li>The expression <m>\log_2(16)</m> is equal to <m>4</m>, since <m>2^4 = 16</m>.</li>
+        <li>The expression <m>\log_b\left(b^x\right)</m> is equal to <m>x</m>, since <m>b^x = b^x</m>.</li>
+    </ul>
     <p>
+        The log base <m>b</m> operation let us solve <m>3^x = 25</m> and <m>1.05^x = 1.6</m>. <url href="https://www.desmos.com/calculator">Desmos</url> can evaluate logs with any base and give us a number. Click on the functions button in the keyboard and scroll until you find <q><m>\log_a</m></q>. Pressing on <q><m>\log_a</m></q> will add log to an entry line and let you enter the base and the number.
+    </p>
+    <ul>
+        <li>
+            <p>
+                To solve <m>3^x = 25</m>, we see that the base is 3 and we want to get 25, so we need <m>\log_3(25)</m>, which we read as <q>log base 3 of 25</q>. Desmos tells us that <m>\log_3(25) \approx 2.93</m>. Since <m>3^{2.93} \approx 25.001</m>, it seems like we probably got the right answer, since that tiny a difference is probably just rounding.
+            </p>
+        </li>
+        <li>
+            <p>
+                To solve <m>1.05^x = 1.6</m>, we see that the base is 1.05 and we want to get 1.6, so we need <m>\log_{1.05}(1.6)</m>, which we read as <q>log base 1.05 of 1.6</q>. Desmos tells us that <m>\log_{1.05}(1.6) \approx 9.63</m>. Since <m>1.05^{9.63} \approx 1.5998</m>, it seems like we probably got the right answer, since that tiny a difference is probably just rounding.
+            </p>
+        </li>
+    </ul>
+    <p>
+        Your calculator might have a log base <m>b</m> button, but it also might not. If it doesn't, you should use Desmos for these types of problems.
+    </p>
+    <!-- <p>
         There are two ways to solve this problem:
         <ol>
             <li><p> We said in <xref ref="sec-log-models-prep"/> that the log button on our calculators assumes the base is 10 <em>unless we tell it otherwise</em>. On some calculators, we can specificy the base we want to use for our log. In general, we write <me>\log_b(x)</me> for the number that we need to raise <m>b</m> to in order to get out <m>x</m> as our answer. For example,</p>
@@ -172,14 +198,14 @@
                         <line>Use a calculator to find <m>1.05^{9.633}</m> to check your answer. Is it <m>1.6</m>?</line></cell>
             </row>
         </tabular>
-    </table>
+    </table> -->
   </page>
 
   <page>
     <activity xml:id="a-solve-exp-eqn-not-base-10">
         <introduction>
             <p>
-                Use one of the two strategies to solve each of the equations below. Round to the nearest thousandth.
+                Solve each of the equations below. Round to the nearest thousandth, and double check your answers.
             </p>
         </introduction>
         <task workspace="0.5in">
@@ -275,6 +301,116 @@
             </ul>
         </p>
         Suppose that you take out a $2000 loan with a compound interest rate of 4%, compounded annually (once a year). If you make no payments, and interest compounds annually, in how many years will the loan balance double (reach or surpass $4000)? Think about this on your own for a minute before sharing your ideas in your group.
+    </activity>
+  </page>
+
+  <page>
+    <!-- <introduction> -->
+        <p>
+            A log is an operation that combines two numbers to make a new number. The log operation combines the base and a target, and gives us back the exponent that we need to raise the base to to get the target. Just like when you learned the <q>raise to the power of</q> operation in a previous math class, practice is the key to feeling comfortable with this new operation. 
+        </p>
+    <!-- </introduction> -->
+    <activity xml:id="a-logs-and-exponentials">
+        <introduction>
+            <!-- <p>
+                We've been learning how to use logs as a tool to solve equations. Logs are a verb, not a noun! In math language, we say that log is an operation that combines two numbers to make a new number. The log operation combines the base and a target, and gives us back the exponent that we need to raise the base to to get the target. 
+            </p> -->
+            <p>
+                Let's pratice using the relationship between logs and exponents to rewrite equations. The key idea to use is that
+            </p>
+            <block>
+                <p>
+                    The equation <m>\log_b(t) = p</m> is equivalent to the equation <m>b^p = t</m>.
+                </p>
+            </block>
+            <p>
+                Rewrite each of the log equations as exponential equations, and each of the exponetial equations as log equations.
+            </p>
+        </introduction>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    <m>2^8 = 256</m>
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    <m>\log_5(125) = 3</m>
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    <m>\log_4(q) = m</m>
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    <m>n^3 = L</m>
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+    <activity xml:id="a-evaluate-logs-no-calc">
+        <introduction>
+            <p>
+                In real applications, we nearly always use Desmos or another calculator to evaluate logs. But, evaluating logs without a calculator is a useful practice drill when we're first learning logs. This is uncomfortable at first, but it makes our brains think about what a log means and helps us to feel more comfortable using logs in the future. <alert>Don't use a calculator for this activity</alert>, except to check your answer! The purpose of this activity isn't to get the answers, but to practice thinking about how the log operation works.
+            </p>
+            <p>
+                Evaluate each of the log operations below.
+            </p>
+        </introduction>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    <m>\log_{10}(1000)</m>
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    <m>\log_9(81)</m>
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    <m>\log_4(4)</m>
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    <m>\log_2(16)</m>
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+    <activity xml:id="a-logs-not-multiplication">
+        <statement>
+            <p>
+                Milo's homework includes the problem <me>\log_5(100)</me>, and he keeps getting it wrong. He doesn't understand why - he's entering it into Google's calculator, so it HAS to be right. He presses the log button, then 5, then closes the parentheses, then times, then 100. Here's a picture of his result:
+            </p>
+            <figure xml:id="fig-log-incorrect">
+                <caption>Screenshot of calculation from Google calculator</caption>
+                <image source="./images/log-incorrect.png" width="50%">
+                    <shortdescription>Log of 5 times 100 equals 69.897</shortdescription>
+                </image>
+            </figure>
+            <p>
+                Explain to Milo what he's doing wrong, and what he needs to do instead so that he can get the right answer.
+            </p>
+        </statement>
     </activity>
   </page>
 </section>

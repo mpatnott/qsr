@@ -30,7 +30,7 @@
                 </p>
                 <ol>
                     <li> In order to solve the equation <m>3x = 15</m> you could <fillin characters="20" /> both sides of the equation by <fillin characters="5" />. </li>
-                    <li>This works because the operation of <fillin characters="10" /> "undoes" the operation of 
+                    <li>This works because the operation of <fillin characters="10" /> <q>undoes</q> the operation of 
                         <fillin characters="10" />.</li>
                     <li>After performing this step, you arrive at the solution, <m>x = <fillin characters="10" /></m>.</li>
                 </ol>
@@ -43,7 +43,7 @@
                 </p>
                 <ol>
                     <li> In order to solve the equation <m>x^2 = 15</m> you could <fillin characters="20" /> both sides of the equation. </li>
-                    <li>This works because the operation of <fillin characters="10" /> "undoes" the operation of 
+                    <li>This works because the operation of <fillin characters="10" /> <q>undoes</q> the operation of 
                         <fillin characters="10" />.</li>
                     <li>After performing this step, you arrive at the solution, <m>x = <fillin characters="5" /> \text{ or } <fillin characters="5" /></m>.</li>
                 </ol>
@@ -52,7 +52,7 @@
     </investigation>
 
     <p>
-        Now we would like to introduce a new operation which "undoes"  exponentiation. That operation is written as <m>\log(x)</m>, and we say this as "the log of x."
+        Now we would like to introduce a new operation which <q>undoes</q>  exponentiation. That operation is written as <m>\log(x)</m>, and we say this as <q>the log of x</q>.
     </p>
     <p>
         The term log is an abbreviation for the mathematical term <term>logarithm</term>. A logarithm is a quantity representing the power to which a fixed number (the base) must be raised to produce a given number.
@@ -60,13 +60,13 @@
     <p>
         For example, a logarithm, or log operation, can be used to find the exponent to which one must raise the number 10 to get the specific number as the output. 
         <ul>
-            <li>The expression "<m>\log(1000)</m>" is then equal to <m>3</m>, since <m>10^3=1000</m>.</li>
-            <li>The expression "<m>\log(10)</m>" is then equal to <m>1</m>, since <m>10^1=10</m>.</li>
-            <li>The expression "<m>\log\left(10^x\right)</m>" is then equal to <m>x</m>, since <m>10^x=10^x</m>.</li>
+            <li>The expression <q><m>\log(1000)</m></q> is then equal to <m>3</m>, since <m>10^3=1000</m>.</li>
+            <li>The expression <q><m>\log(10)</m></q> is then equal to <m>1</m>, since <m>10^1=10</m>.</li>
+            <li>The expression <q><m>\log\left(10^x\right)</m></q> is then equal to <m>x</m>, since <m>10^x=10^x</m>.</li>
         </ul>
     </p>
     <p>
-        Most scientific and graphing calculators have a button or function labeled "Log" which performs this calculation. Calculators will assume that the base is 10 unless you specifically ask them to use a different base. We'll stick with base 10 for now.
+        Most scientific and graphing calculators have a button or function labeled <q>Log</q> which performs this calculation. Calculators will assume that the base is 10 unless you specifically ask them to use a different base. We'll stick with base 10 for now.
     </p>
 
     <investigation xml:id="pa-log-10">
@@ -94,7 +94,7 @@
 
   <page>
     <p>
-        Now we would like to use the log operation to solve equations. Consider the equation <m>10^x=16</m>. Notice that the exponent is not a whole number in this case. We can still solve this equation by doing something to both sides of the equation, as we did in <xref ref="pa-undoing-operations-warmup"/>. In this case, we will "take the log" of both sides of the equation: 
+        Now we would like to use the log operation to solve equations. Consider the equation <m>10^x=16</m>. Notice that the exponent is not a whole number in this case. We can still solve this equation by doing something to both sides of the equation, as we did in <xref ref="pa-undoing-operations-warmup"/>. In this case, we will <q>take the log</q> of both sides of the equation: 
     </p>
     <table>
         <title>Solving an Equation with a Log</title>
@@ -109,7 +109,7 @@
                         <line><m>x = \log(16)</m></line></cell>
             </row>
             <row>
-                <cell>Use a calculator's "Log" function to find <m>\log(16)</m> and get the answer</cell>
+                <cell>Use a calculator's <q>Log</q> function to find <m>\log(16)</m> and get the answer</cell>
                 <cell><m>x \approx 1.204</m></cell>
             </row>
         </tabular>
@@ -156,7 +156,7 @@
                     <cell></cell>
                 </row>
                 <row>
-                    <cell>Understand that the log operation undoes the "raise 10 to the power of..." operation.</cell>
+                    <cell>Understand that the log operation undoes the <q>raise 10 to the power of...</q> operation.</cell>
                     <cell></cell>
                 </row>
             </tabular>
