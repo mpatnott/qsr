@@ -1162,6 +1162,96 @@ var ptx_lunr_docs = [
   "body": "  The 1938 Fair Labor Standards Act established a federal minimum wage of $0.25 per hours in the United States. The federal minimum wage has been increased many times since it was established in 1938.  Using the federal minimum wage data from 1938 to 2009, we can estimate that the minimum wage increased, on average, by about 4.94% each year.   Find a formula to predict the federal minimum wage in year . Explain in words how you found your formula.   Use your formula to predict the federal minimum wage in 2009. How close did you get to the actual 2009 federal minimum wage of $7.25?    The federal minimum wage hasn't changed since 2009. If it had continued to increase at the same rate, what would the federal minimum wage be now?    The federal minimum wage increased much more frequently between 1938 and 1981 then it has since. If we use only the federal minimum wage data up to 1981, we find that it increased, on average, at about 6.14% per year during that time period. The data between 1938 and 1981 is also closer to fitting an exponential model than if we look at all of the data up to 2009. Find a new formula for the federal minimum wage in year based on this data.    Use your new formula to predict the federal minimum wage in 1981. How close did you get to the actual 1981 federal minimum wage of $3.35?    Suppose the minimum wage had continued to increase at the 1938 - 1981 rate up until 2009, and then stopped increasing. What would the federal minimum wage be in this scenario?    Suppose the minimum wage had continued to increase at the 1938 - 1981 rate up until now. What would the federal minimum wage be in this scenario?   "
 },
 {
+  "id": "sec-properties-logs-exponents-prep",
+  "level": "1",
+  "url": "sec-properties-logs-exponents-prep.html",
+  "type": "Section",
+  "number": "11.1",
+  "title": "Properties of Exponents and Logs Prep Activities",
+  "body": " Properties of Exponents and Logs Prep Activities   Calculators like Photomath and Mathway can do the algebra that we're going to learn in this prep activity and the in-class activities for you. If the main point of this lesson was getting the answer, then I would encourage you to use these tools! But, the main point of this lesson is not getting the answer. The main point of this lesson is to practice working with complicated math notation in order to get more comfortable with it. Tools like Photomath and Mathway take the thinking that is most critical for this lesson away from your brain, and make it unlikely that you will achieve the actual goals. So, you may not use ANY tools except for your brain for this lesson , with the exception of checking your answer.     In previous math courses, you likely learned that exponents represent repeated multiplication. So, for example, . This is all we need to know to discover an important property of exponents.    In each expression below, rewrite each exponent using repeated multiplication. Then, rewrite the expression with a single exponent.                What do you notice? Use your observations to complete the Product Rule for Exponents :     Use the Product Rule for Exponents to rewrite each of the following expressions:        ( Note: This is a very, very large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is )              Rewriting exponents as repeated multiplication can also help us discover a second important property of exponents.    In each expression below, rewrite each exponent using repeated multiplication. Then, rewrite the expression with a single exponent.                What do you notice? Use your observations to complete the Quotient Rule for Exponents :     Use the Quotient Rule for Exponents to rewrite each of the following expressions:        ( Note: This is a large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is )              Let's discover one more property of exponents by rewriting exponents as repeated multiplication.    In each expression below, rewrite the outer exponent using repeated multiplication. Then, use the product rule to rewrite the expression with a single exponent. For example,                 What do you notice? Use your observations to complete the Power Rule for Exponents :     Use the Power Rule for Exponents to rewrite each of the following expressions:        ( Note: This is a very, very large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is )              You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Use the Product Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.     Use the Quotient Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.     Use the Power Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.       "
+},
+{
+  "id": "pa-exponent-product",
+  "level": "2",
+  "url": "sec-properties-logs-exponents-prep.html#pa-exponent-product",
+  "type": "Prep Activity",
+  "number": "11.1.1",
+  "title": "",
+  "body": "  In previous math courses, you likely learned that exponents represent repeated multiplication. So, for example, . This is all we need to know to discover an important property of exponents.    In each expression below, rewrite each exponent using repeated multiplication. Then, rewrite the expression with a single exponent.                What do you notice? Use your observations to complete the Product Rule for Exponents :     Use the Product Rule for Exponents to rewrite each of the following expressions:        ( Note: This is a very, very large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is )           "
+},
+{
+  "id": "pa-exponent-quotient",
+  "level": "2",
+  "url": "sec-properties-logs-exponents-prep.html#pa-exponent-quotient",
+  "type": "Prep Activity",
+  "number": "11.1.2",
+  "title": "",
+  "body": "  Rewriting exponents as repeated multiplication can also help us discover a second important property of exponents.    In each expression below, rewrite each exponent using repeated multiplication. Then, rewrite the expression with a single exponent.                What do you notice? Use your observations to complete the Quotient Rule for Exponents :     Use the Quotient Rule for Exponents to rewrite each of the following expressions:        ( Note: This is a large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is )           "
+},
+{
+  "id": "pa-power-rule-exponents",
+  "level": "2",
+  "url": "sec-properties-logs-exponents-prep.html#pa-power-rule-exponents",
+  "type": "Prep Activity",
+  "number": "11.1.3",
+  "title": "",
+  "body": "  Let's discover one more property of exponents by rewriting exponents as repeated multiplication.    In each expression below, rewrite the outer exponent using repeated multiplication. Then, use the product rule to rewrite the expression with a single exponent. For example,                 What do you notice? Use your observations to complete the Power Rule for Exponents :     Use the Power Rule for Exponents to rewrite each of the following expressions:        ( Note: This is a very, very large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is )           "
+},
+{
+  "id": "pa-logs-exponent-properties-confidence",
+  "level": "2",
+  "url": "sec-properties-logs-exponents-prep.html#pa-logs-exponent-properties-confidence",
+  "type": "Prep Activity",
+  "number": "11.1.4",
+  "title": "",
+  "body": " You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Use the Product Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.     Use the Quotient Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.     Use the Power Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.      "
+},
+{
+  "id": "sec-properties-logs-exponents",
+  "level": "1",
+  "url": "sec-properties-logs-exponents.html",
+  "type": "Section",
+  "number": "11.2",
+  "title": "Properties of Exponents and Logs Activities",
+  "body": " Properties of Exponents and Logs Activities    Use the Product, Quotient, and Product Rules for Exponents to rewrite the following expression or solve the problem. Remember, the main goal is to exercise your brain, not to get the answers, so you must not use tools like Photomath or Mathway for anything but answer checking.              Use the integers 1 to 9 to fill in the boxes. There may be more than one correct answer!                    Use the integers 1 to 9 to fill in the boxes. There may be more than one correct answer! There is at least one solution that doesn't use any digit more than once.       So far, we have focused on expressions that have positive integer exponents. A special exponent rule tells us that as long as .    The Quotient Rule Rule for Exponents gives us one way to understand why this definition is reasonable.   Use the Quotient Rule for Exponents to rewrite as .   Explain why it is also true that .   How do the previous two questions support the claim that is a reasonable definition?    Rewrite each of the following expressions:                  There is one more exponent rule for us to discover today.    Rewrite each of the expressions below using repeated multiplication.            What do you notice? Use your observations to fill in the blanks to complete the exponent property below.     Use the exponent rules that we've learned to rewrite each of the expressions below.                  The relationship between logs and exponents mean that there are log properties that correspond to the Product, Quotient, and Power Rule of Exponents. They are:   Use the log properties to rewrite each of the expressions below.    Rewrite as a single logarithm, then evaluate without a calculator:     Rewrite as a sum or difference of logarithms:     Rewrite a single logarithm:     Rewrite as a single logarithm:     Rewrite as a sum or difference of logarithms:     "
+},
+{
+  "id": "a-exponent-rule-practice",
+  "level": "2",
+  "url": "sec-properties-logs-exponents.html#a-exponent-rule-practice",
+  "type": "Activity",
+  "number": "11.2.1",
+  "title": "",
+  "body": "  Use the Product, Quotient, and Product Rules for Exponents to rewrite the following expression or solve the problem. Remember, the main goal is to exercise your brain, not to get the answers, so you must not use tools like Photomath or Mathway for anything but answer checking.              Use the integers 1 to 9 to fill in the boxes. There may be more than one correct answer!                    Use the integers 1 to 9 to fill in the boxes. There may be more than one correct answer! There is at least one solution that doesn't use any digit more than once.    "
+},
+{
+  "id": "a-zero-exponent",
+  "level": "2",
+  "url": "sec-properties-logs-exponents.html#a-zero-exponent",
+  "type": "Activity",
+  "number": "11.2.2",
+  "title": "",
+  "body": "  So far, we have focused on expressions that have positive integer exponents. A special exponent rule tells us that as long as .    The Quotient Rule Rule for Exponents gives us one way to understand why this definition is reasonable.   Use the Quotient Rule for Exponents to rewrite as .   Explain why it is also true that .   How do the previous two questions support the claim that is a reasonable definition?    Rewrite each of the following expressions:               "
+},
+{
+  "id": "a-expanded-product-quotient",
+  "level": "2",
+  "url": "sec-properties-logs-exponents.html#a-expanded-product-quotient",
+  "type": "Activity",
+  "number": "11.2.3",
+  "title": "",
+  "body": "  There is one more exponent rule for us to discover today.    Rewrite each of the expressions below using repeated multiplication.            What do you notice? Use your observations to fill in the blanks to complete the exponent property below.     Use the exponent rules that we've learned to rewrite each of the expressions below.               "
+},
+{
+  "id": "a-log-rules",
+  "level": "2",
+  "url": "sec-properties-logs-exponents.html#a-log-rules",
+  "type": "Activity",
+  "number": "11.2.4",
+  "title": "",
+  "body": "  The relationship between logs and exponents mean that there are log properties that correspond to the Product, Quotient, and Power Rule of Exponents. They are:   Use the log properties to rewrite each of the expressions below.    Rewrite as a single logarithm, then evaluate without a calculator:     Rewrite as a sum or difference of logarithms:     Rewrite a single logarithm:     Rewrite as a single logarithm:     Rewrite as a sum or difference of logarithms:    "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
