@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-properties-logs-exponents" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Properties of Exponents and Logs Activities</title>
+
+  <activity xml:id="a-exponent-rule-practice">
+    <introduction>
+      <p>
+        Use the Product, Quotient, and Product Rules for Exponents to rewrite the following expression or solve the problem. Remember, the main goal is to exercise your brain, not to get the answers, so you must not use tools like Photomath or Mathway for anything but answer checking.
+      </p>
+    </introduction>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>\frac{w^8}{w^2 w}</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>\frac{7^{5x}7^{8}}{7^6}</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Use the integers 1 to 9 to fill in the boxes. There may be more than one correct answer! <me>\frac{a^<fillin characters="1" />a^<fillin characters="1" />b^<fillin characters="1" />}{a^<fillin characters="1" />b^<fillin characters="1" />} = a^4b^3</me>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>\frac{4x^{24}}{x^{10}}</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>\frac{x^{15}y^8}{3x^4y^7}</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>(4b^5)(-4b^3)(5\left(b^2\right)^3)</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Use the integers 1 to 9 to fill in the boxes. There may be more than one correct answer! There is at least one solution that doesn't use any digit more than once. <me>\frac{<fillin characters="1" /> x^<fillin characters="1" /> \left(y^<fillin characters="1" />\right)^<fillin characters="1" /> y^<fillin characters="1" />}{<fillin characters="1" /> \left(x^<fillin characters="1" />\right)^<fillin characters="1" />} = \frac34 x^3 y^{33}</me>
+        </p>
+      </statement>
+    </task>
+  </activity>    
+
+  <activity xml:id="a-zero-exponent">
+    <introduction>
+      <p>
+        So far, we have focused on expressions that have positive integer exponents. A special exponent rule tells us that <me>x^0 = 1</me> as long as <m>x \neq 0</m>.
+      </p>
+    </introduction>
+    <task>
+      <introduction>
+        <p>
+          The Quotient Rule Rule for Exponents gives us one way to understand why this definition is reasonable. 
+        </p>
+      </introduction>
+      <task workspace="0.5in">
+        <statement>
+          <p>
+            Use the Quotient Rule for Exponents to rewrite <m>\frac{x^2}{x^2}</m> as <m>x^<fillin characters="1" /></m>.
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.5in">
+        <statement>
+          <p>
+            Explain why it is also true that <m>\frac{x^2}{x^2} = 1</m>.
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.5in">
+        <statement>
+          <p>
+            How do the previous two questions support the claim that <m>x^0 = 1</m> is a reasonable definition?
+          </p>
+        </statement>
+      </task>
+    </task>
+    <task>
+      <introduction>
+        <p>
+          Rewrite each of the following expressions:
+        </p>
+      </introduction>
+      <task workspace="0.5in">
+        <statement>
+          <p>
+            <m>\left(2025\right)^0</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.5in">
+        <statement>
+          <p>
+            <m>7\left(44 + x^7\right)^0</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.5in">
+        <statement>
+          <p>
+            <m>\log_2(1)</m>
+          </p>
+        </statement>
+      </task>
+    </task>
+  </activity>
+
+  <activity xml:id="a-expanded-product-quotient">
+    <introduction>
+      <p>
+        There is one more exponent rule for us to discover today. 
+      </p>
+    </introduction>
+    <task workspace="0.5in">
+      <introduction>
+        <p>
+          Rewrite each of the expressions below using repeated multiplication.
+        </p>
+      </introduction>
+      <task workspace="0.5in">
+        <statement>
+          <p>
+            <m>(xy)^2</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.5in">
+        <statement>
+          <p>
+            <m>\left(\frac{x}{y}\right)^3</m>
+          </p>
+        </statement>
+      </task>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          What do you notice? Use your observations to fill in the blanks to complete the exponent property below. <me>(xy)^a = x^<fillin characters="1" /> \qquad \text{ and } \qquad \left(\frac{x}{y}\right)^a = \frac{x^<fillin characters="1" />}{y^<fillin characters="1" />}</me>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <introduction>
+        <p>
+          Use the exponent rules that we've learned to rewrite each of the expressions below.
+        </p>
+      </introduction>
+      <task workspace="0.5in">
+        <statement>
+          <p>
+            <m>(2a^4)^3</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.5in">
+        <statement>
+          <p>
+            <m>\frac{\left(4n^8m^5\right)^2}{4nm^6}</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.5in">
+        <statement>
+          <p>
+            <m>\left(\frac{4x^{10}}{5y^2}\right)^5 \cdot \left(\frac{5^4 y^3}{4^3x}\right)</m>
+          </p>
+        </statement>
+      </task>
+    </task>
+  </activity>
+
+  <activity xml:id="a-log-rules">
+    <introduction>
+      <p>
+        The relationship between logs and exponents mean that there are log properties that correspond to the Product, Quotient, and Power Rule of Exponents. They are:
+      </p>
+      <md>
+        <mrow> \textbf{Sum Rule:}\quad \amp \log_b(x) + \log_b(y) = \log_b(xy) </mrow>
+        <mrow> \textbf{Difference Rule:}\quad \amp \log_b(x) - \log_b(y) = \log_b\left(\frac{x}{y}\right) </mrow>
+        <mrow> \textbf{Exponent Rule:}\quad \amp \log_b\left(x^r\right) = r\log_b(x) </mrow>
+      </md>
+      <p>
+        Use the log properties to rewrite each of the expressions below.
+      </p>
+    </introduction>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Rewrite as a single logarithm, then evaluate without a calculator: <me>2 \log_{10}(5) + \log_{10}(4)</me>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Rewrite as a sum or difference of logarithms: <me>\log_3 \left( \frac{x^4 y}{7} \right)</me>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Rewrite a single logarithm: <me>\log_5\left(2x^4\right) + \log\left(3x^5\right)</me>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Rewrite as a single logarithm: <me>2\log(x) + 3\log(y) - \log(q)</me>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          Rewrite as a sum or difference of logarithms: <me>3\log_8 \left(\frac{b^4}{a^2c^5}\right)</me>
+        </p>
+      </statement>
+    </task>
+  </activity>
+</section>

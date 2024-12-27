@@ -43,6 +43,13 @@
     <xi:include href="sec-apply-exponential.ptx" />
   </chapter>
 
+  <chapter xml:id="ch-properties-logs-exponents" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Properties of Logs and Exponents</title>
+    
+    <xi:include href="sec-properties-logs-exponents-prep.ptx" />
+    <xi:include href="sec-properties-logs-exponents.ptx" />
+  </chapter>
+
  <!-- <xi:include href="sec-working-with-percentages.ptx" />
   <xi:include href="sec-relative-change.ptx" />
   <xi:include href="sec-exponential-models.ptx" />

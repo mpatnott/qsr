@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-properties-logs-exponents-prep" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Properties of Exponents and Logs Prep Activities</title>
+
+  <introduction>
+    <p>
+        Calculators like Photomath and Mathway can do the algebra that we're going to learn in this prep activity and the in-class activities for you. If the main point of this lesson was getting the answer, then I would encourage you to use these tools! But, the main point of this lesson is <em>not</em> getting the answer. The main point of this lesson is to practice working with complicated math notation in order to get more comfortable with it. Tools like Photomath and Mathway take the thinking that is most critical for this lesson away from your brain, and make it unlikely that you will achieve the actual goals. So, <alert>you may not use ANY tools except for your brain for this lesson</alert>, with the exception of checking your answer.
+    </p>
+  </introduction>
+
+  <investigation xml:id="pa-exponent-product">
+    <introduction>
+        <p>
+            In previous math courses, you likely learned that exponents represent repeated multiplication. So, for example, <me>x^2 = x \cdot x \qquad \text{ and } \qquad x^3 = x \cdot x \cdot x</me>. This is all we need to know to discover an important property of exponents.
+        </p>
+    </introduction>
+    <task>
+        <introduction>
+            <p>
+                In each expression below, rewrite each exponent using repeated multiplication. Then, rewrite the expression with a single exponent.  
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>x^3 x^2</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>x^2x^2</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>x^2x^4</m>
+                </p>
+            </statement>
+        </task>
+    </task>
+    <task>
+        <statement>
+            <p>
+                What do you notice? Use your observations to complete the <term>Product Rule for Exponents</term>: <me>x^a x^b = <fillin characters="5" /></me>
+            </p>
+        </statement>
+    </task>
+    <task>
+        <introduction>
+            <p>
+                Use the Product Rule for Exponents to rewrite each of the following expressions: 
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>a^8 a^7</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>4^{54} 4^{98}</m> (<em>Note:</em> This is a very, very large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is <m>4^<fillin characters="2" /></m>)
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>2^{3t} 2^{5t}</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>5^{x+3} = 5^<fillin characters="2" /> 5^<fillin characters="2" /></m>
+                </p>
+            </statement>
+        </task>
+    </task>
+  </investigation>
+
+  <investigation xml:id="pa-exponent-quotient">
+    <introduction>
+        <p>
+            Rewriting exponents as repeated multiplication can also help us discover a second important property of exponents.
+        </p>
+    </introduction>
+    <task>
+        <introduction>
+            <p>
+                In each expression below, rewrite each exponent using repeated multiplication. Then, rewrite the expression with a single exponent.  
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>\frac{x^3}{x^2}</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>\frac{x^4}{x^2}</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>\frac{x^5}{x^2}</m>
+                </p>
+            </statement>
+        </task>
+    </task>
+    <task>
+        <statement>
+            <p>
+                What do you notice? Use your observations to complete the <term>Quotient Rule for Exponents</term>: <me>\frac{x^a}{x^b} = <fillin characters="5" /></me>
+            </p>
+        </statement>
+    </task>
+    <task>
+        <introduction>
+            <p>
+                Use the Quotient Rule for Exponents to rewrite each of the following expressions:
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>\frac{a^7}{a^4}</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>\frac{5^{37}}{5^{24}}</m> (<em>Note:</em> This is a large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is <m>5^<fillin characters="2" /></m>)
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>\frac{6^{9n}}{6^{5n}}</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>7^{5 - y} = \frac{7^<fillin characters="2" />}{7^<fillin characters="2" />}</m>
+                </p>
+            </statement>
+        </task>
+    </task>
+  </investigation>
+
+  <investigation xml:id="pa-power-rule-exponents">
+    <introduction>
+        <p>
+            Let's discover one more property of exponents by rewriting exponents as repeated multiplication.
+        </p>
+    </introduction>
+    <task>
+        <introduction>
+            <p>
+                In each expression below, rewrite the outer exponent using repeated multiplication. Then, use the product rule to rewrite the expression with a single exponent.  For example,
+                <me>\left(x^4\right)^2 = x^4 \cdot x^4 = x^{4 + 4} = x^8</me>
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>\left(x^4\right)^3</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>\left(x^4\right)^5</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>\left(x^5\right)^3</m>
+                </p>
+            </statement>
+        </task>
+    </task>
+    <task>
+        <statement>
+            <p>
+                What do you notice? Use your observations to complete the <term>Power Rule for Exponents</term>: <me>\left(x^a\right)^b = <fillin characters="5" /></me>
+            </p>
+        </statement>
+    </task>
+    <task>
+        <introduction>
+            <p>
+                Use the Power Rule for Exponents to rewrite each of the following expressions:
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>\left(a^6\right)^8</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>\left(3^{82}\right)^4</m> (<em>Note:</em> This is a very, very large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is <m>3^<fillin characters="2" /></m>)
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>\left(9^x\right)^y</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>6^{3t} = \left(6^<fillin characters="2" />\right)^<fillin characters="2" /></m>
+                </p>
+            </statement>
+        </task>
+    </task>
+  </investigation>
+
+  <!-- <investigation xml:id="pa-product-and-quotient">
+    <introduction>
+        <p>
+            Use the Product and Quotient Rules of Exponents to rewrite each of the expressions below.
+        </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                <m>\frac{w^8}{w^2 w}</m>
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                <m>\frac{7^{5x}7^{8}}{7^6}</m>
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                <m>\frac{x^{15}y^8}{x^4y^7}</m>
+            </p>
+        </statement>
+    </task>
+  </investigation> -->
+
+  <investigation xml:id="pa-logs-exponent-properties-confidence">
+        <p>
+            You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).
+        </p>
+        <table>
+            <tabular bottom = "minor" top = "minor" left = "minor" right = "minor">
+                <row header ="yes">
+                    <cell>Skill or Concept: I can …</cell>
+                    <cell>Rating from 1 to 5</cell>
+                </row>
+                <row>
+                    <cell>Use the Product Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.</cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Use the Quotient Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.</cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Use the Power Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.</cell>
+                    <cell></cell>
+                </row>
+            </tabular>
+        </table>
+    </investigation>
+</section>
