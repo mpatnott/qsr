@@ -57,6 +57,13 @@
     <xi:include href="sec-alt-exponential-models.ptx" />
   </chapter>
 
+  <chapter xml:id="ch-exponential-trends" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Exponential Trends</title>
+    
+    <xi:include href="sec-exponential-trends-prep.ptx" />
+    <xi:include href="sec-exponential-trends.ptx" />
+  </chapter>
+
  <!-- <xi:include href="sec-working-with-percentages.ptx" />
   <xi:include href="sec-relative-change.ptx" />
   <xi:include href="sec-exponential-models.ptx" />

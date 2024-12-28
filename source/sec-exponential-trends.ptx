@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-exponential-trends" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Exponential Trends</title>
+  <title>Exponential Trends Activities</title>
 
   <page>
     <introduction>
         <p>
-            We saw in <xref ref="sec-linear-trends"/> that in the real world, it's more common to have data that is <em>approximately</em> linear than it is to have data that is <em>exactly</em>. The same thing is true of exponential models! Today, we will put the skills we've been learning together to find a formula for an exponential model for a data set with an exponential trend. 
+            We saw in <xref ref="sec-linear-trends"/> that in the real world, it's more common to have data that is <em>approximately</em> linear than it is to have data that is <em>exactly</em>. The same thing is true of exponential models! Today, we will put the skills we've been learning together to find a formula for an exponential model for a data set with an exponential trend.  
+        </p>
+        <p>
+            Exponential models are more sensitive to small differences in the relative change than linear models are to small differences in the average rate of change. This means that it's harder to get a good estimate for the relative change of approximately exponential data than it is to estimate the average rate of change of approximately linear data. To get around this problem, we'll use logs to turn approximately exponential data into approximately linear data, find a linear model for the log of our data, then use the <q>raise 10 to the power of</q> operation to get an exponential model for our original data.
         </p>
     </introduction>
 
@@ -99,7 +102,7 @@
         <task workspace="1in">
             <statement>
                 <p>
-                    If <m>P</m> is the population of the US, then the output of your line is <m>\log(P)</m>. To transform your linear model for <m>\log(P)</m> into an exponential model for <m>P</m>, apply the "raise 10 to the power of..." operation to both sides of your line formula. 
+                    If <m>P</m> is the population of the US, then the output of your line is <m>\log(P)</m>. To transform your linear model for <m>\log(P)</m> into an exponential model for <m>P</m>, apply the <q>raise 10 to the power of...</q> operation to both sides of your line formula. 
                 </p>
             </statement>
         </task>
@@ -124,7 +127,7 @@
     <activity xml:id="a-child-mortality">
         <introduction>
             <p>
-                The graphs below show
+                The graphs below show the child mortality rate in the US between 1933 and 2021.<fn><url href="https://ourworldindata.org/child-mortality-big-problem-in-brief" /></fn>
             </p>
             <figure xml:id="fig-us-child-mortality">
                 <caption>US Child Mortality Rate Between 1933 and 2021. </caption>
