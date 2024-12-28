@@ -50,6 +50,13 @@
     <xi:include href="sec-properties-logs-exponents.ptx" />
   </chapter>
 
+  <chapter xml:id="ch-alt-exponential-models" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Alternate Forms for Exponential Models</title>
+    
+    <xi:include href="sec-alt-exponential-models-prep.ptx" />
+    <xi:include href="sec-alt-exponential-models.ptx" />
+  </chapter>
+
  <!-- <xi:include href="sec-working-with-percentages.ptx" />
   <xi:include href="sec-relative-change.ptx" />
   <xi:include href="sec-exponential-models.ptx" />

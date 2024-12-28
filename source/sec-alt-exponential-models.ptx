@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-alt-exponential-models" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Alternate Forms for Exponential Models Activities</title>
+
+  <!-- Scenario from Examples 6.1.9 - 6.1.13 from Math for Trades & Life, https://mafitch.github.io/tech_math/section-exponential.html -->
+  <activity xml:id="a-yogurt-bacteria-continued">
+    <introduction>
+        <p>
+            In <xref ref="sec-alt-exponential-models-prep"/>, we investigated the growth of a colony of the bacteria <em>lactobacillus acidophilus</em>, part of turning milk into yogurt. We noted that based on experiments a new generation of bacteria are formed every 70 minutes, that is, the population doubles every 70 minutes, and assumed that when we start tracking the data we have 3 g of cells. If <m>n</m> is the number of 70-minute periods since we started tracking and <m>M(n)</m> is the mass of the colony, we found that <me>M(n) = 3 \cdot 2^n</me> is a formula that models the relationship between the colony's mass and the number of 70-minute periods.
+        </p>
+    </introduction>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Explain in words how to build this formula using the information given in the story.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <introduction>
+            <p>
+                Use your formula to find the mass of the colony after:
+            </p>
+        </introduction>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    490 minutes
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    100 minutes
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    7 hours
+                </p>
+            </statement>
+        </task>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Our current formula's input is <m>n</m>, the number of 70-minute periods. That's an awkward unit of time! It would be nicer to have a formula whose input was <m>t</m>, the number of minutes. Find a formula that expresses the relationship between <m>T</m> and <m>t</m>.
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Rewrite the formula so that it is in terms of <m>t</m>, instead of <m>n</m>.
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Check that your new formula is correct by using it to find the mass of the colony after 490 minutes, 100 minutes, and 7 hours.
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Suppose that a quantity <m>Q</m> is changing at a rate of <m>r\%</m> every <m>n</m>-minutes. Write a formula that shows the relationship between <m>Q</m> and <m>t</m>, where <m>t</m> is measured in minutes. 
+            </p>
+        </statement>
+    </task>
+  </activity>
+
+  <!-- Scenario from Example 6.15 of Math in Life & Trades, https://mafitch.github.io/tech_math/section-exponential.html-->
+  <activity xml:id="a-viral-cat-video">
+    <introduction>
+        <p>
+            A new cat video is posted and 12 people view it the first day. Every 4 days afterward the number of people who see it triples. Let <m>V(d)</m> b the number of views the video has after <m>d</m> days.
+        </p>
+    </introduction>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Write an equation to model the total number of people who have viewed this video.
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                How many people have viewed the video after 10 days?
+            </p>
+        </statement>
+    </task>
+    <task workspace="1in">
+        <statement>
+            <p>
+                How many days does it take for the video to get 1000 views? 2000 views? 10,000 views?
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.75in">
+        <statement>
+            <p>
+                What is the relative change in the number of views the video gets each day? Use this information to find an alternate form for the formula.
+            </p>
+        </statement>
+    </task>
+  </activity>
+
+  <!-- Scenario from Example 6.1.14 in Math in Life & Trades, https://mafitch.github.io/tech_math/section-exponential.html -->
+  <activity xml:id="a-barium-half-life">
+    <introduction>
+        <p>
+            Barium-133 has a half-life of 10.551 years. This means that afeter 10.551 years only half of the original amount will remain. This is the result of the radioactive isotope breaking down into other substances. Suppose that we obtain 7.000 grams of barium-133.
+        </p>
+    </introduction>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                How much barium-133 should be left after 10.551 years? Why?
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Find an exponential model for <m>A(t)</m>, the amount of barium-133 left after <m>t</m> years.
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Check that your model works by using it to find the amount of barium-133 left after 10.551 years.
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                How much barium-133 will be left after 50 years?
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                How long will it take for there to be less than 1 g of barium-133 left? Less than half a gram?
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.75in">
+        <statement>
+            <p>
+                What is the relative change in the amount of barium-133 each day? Use this information to find an alternate form for the formula.
+            </p>
+        </statement>
+    </task>
+  </activity>
+
+  <!-- Based on Exercise 6.1.15 in Math for Life & Trades, https://mafitch.github.io/tech_math/section-exponential.html-->
+  <activity xml:id="a-chernobyl">
+    <introduction>
+        <p>
+            In April 1986, a flawed reactor design played a part in the Chernobyl nuclear meltdown. Approximately 14252 becqurels (Bqs), units of radioactivity, were initially released into the environment. Only areas with less than 800 Bqs are considered safe for human habitation. The function <m>f(x) = 14252(0.5)^{x/32}</m> describes the amount, <m>f(x)</m>, in becqurels, of a radioactive element remaining in the area <m>x</m> years after 1986.
+        </p>
+    </introduction>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                What is the half-life of the radioactivity in Chernobyl? That is, how long does it take for there to be half as much radioactivity as there was at the start? Explain in words how to answer this question by looking at the formula, without calculating anything.
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                How much radioactivity is there at Chernobyl now?
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                How much radioactivity will there be at Chernobyl a century after the accident?
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                When will Chernobyl be safe for human habitation?
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.75in">
+        <statement>
+            <p>
+                What is the relative change of radioactivity at Chernobyl each year? Use this information to find an alternate form for the formula.
+            </p>
+        </statement>
+    </task>
+  </activity>
+
+  <activity xml:id="a-introducing-e">
+    <introduction>
+        <p>
+            The number <m>e \approx 2.71828</m> is often used as the base for exponential models in science, possibly because exponential models with base <m>e</m> play especially nicely with calculus. The number <m>e</m> is also used in finance to model <term>continuously compounded interest</term>, a useful theoretical tool. The amount, <m>A(t)</m>, that an initial deposit of <m>P</m> has grown to after <m>t</m> years in an account that is compounding continuously at a rate of <m>r\%</m> is <me>A(t) = Pe^{t \times r/100}</me>. We use the letter <m>P</m> for the initial deposit because it is often called the <term>principal</term>.
+        </p>
+    </introduction>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Suppose Parker deposits $1000 into an account that earns interest at a rate of 2% per year. Parker doesn't remember how many times a year interest is compounded. Use the continuous compounding formula to find a model for the most money they could possibly have after <m>t</m> years (assuming they don't deposit any more money in the account).
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                What's the maximum amount of money that will Parker have after 1 year? 5 years? 10 years?
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                What's the smallest amount of time that it will take for Parker's money to double?
+            </p>
+            <p>
+                To solve this problem algebraically, you'll need <m>\log_e</m>. The base <m>e</m> is so common in scientific applications that <m>\log_e</m> has been given a special name and notation: it's called the <term>natural logarithm</term>, and denoted <m>\ln</m>. Many calculators, including Desmos, have a <m>\ln</m> button. It might seem strange to call <m>\log_e</m> the <q>natural</q> logarithm - there doesn't seem to be much about it that's natural! This name makes more sense in the context of calculus, where <m>\ln</m> is the best behaved logarithm.
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.75in">
+        <statement>
+            <p>
+                If Parker's money is compounded continuously, what is the relative change in the amount in their account each year? Use this information to find an alternate form for the formula that looks more like the exponential models we've been working with.
+            </p>
+        </statement>
+    </task>
+  </activity>
+</section>
