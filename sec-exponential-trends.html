@@ -8,7 +8,7 @@
 <html lang="en-US" dir="ltr">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Exponential Trends</title>
+<title>Exponential Trends Activities</title>
 <meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
@@ -86,7 +86,7 @@ window.MathJax = {
 <link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_blue_grey.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
 </head>
 <body id="qsrworkbook" class="pretext book ignore-math">
@@ -106,7 +106,7 @@ window.MathJax = {
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-log-models.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-exponential-models.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-apply-exponential.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} \def\thecourse{MT 250} \def\theterm{Fall 2024}
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-exponential-trends-prep.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-exponential-trends.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} \def\thecourse{MT 250} \def\theterm{Fall 2024}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -114,84 +114,125 @@ window.MathJax = {
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
 <div class="ptx-page">
-<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth3 parts"><ul class="structural contains-active toc-item-list">
 <li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
-<li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-linear-models.html" class="internal"><span class="codenumber">1</span> <span class="title">Linear Models</span></a></div>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="part-linear-models.html" class="internal"><span class="codenumber">I</span> <span class="title">Linear Models</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-math-models.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Mathematical Models</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-aROC.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Average Rates of Change</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-linear-models.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Building Linear Models</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-linear-trends.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Linear Trends</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-piecewise-linear.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Piecewise Linear Models</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-math-models.html" class="internal"><span class="codenumber">1</span> <span class="title">Introduction to Mathematical Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-math-models-prep.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Mathematical Models Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-math-models.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Mathematical Models Activities</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-linear-models.html" class="internal"><span class="codenumber">2</span> <span class="title">Linear Models Prep Activities</span></a></div>
+<div class="toc-title-box"><a href="ch-aROC.html" class="internal"><span class="codenumber">2</span> <span class="title">Average Rates of Change</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-math-models-prep.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Mathematical Models Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-aROC-prep.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Average Rates of Change</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-linear-models-prep.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Building Linear Models Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-linear-trends-prep.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Linear Trends Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-piecewise-linear-prep.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Piecewise Linear Models Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-aROC-prep.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Average Rates of Change Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-aROC.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Average Rates of Change Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-build-linear-models.html" class="internal"><span class="codenumber">3</span> <span class="title">Building Linear Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-linear-models-prep.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Building Linear Models Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-linear-models.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Building Linear Models Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-linear-trends.html" class="internal"><span class="codenumber">4</span> <span class="title">Linear Trends</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-linear-trends-prep.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Linear Trends Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-linear-trends.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Linear Trends Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-piecewise-linear.html" class="internal"><span class="codenumber">5</span> <span class="title">Piecewise Linear Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-piecewise-linear-prep.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Piecewise Linear Models Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-piecewise-linear.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Piecewise Linear Models Activities</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-part contains-active">
+<div class="toc-title-box"><a href="ch-exponential-models.html" class="internal"><span class="codenumber">II</span> <span class="title">Exponential Models</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-percents.html" class="internal"><span class="codenumber">6</span> <span class="title">Working with Percentages</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-working-with-percentages-prep.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Working With Percentages Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-working-with-percentages.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Working With Percentages Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-relative-change.html" class="internal"><span class="codenumber">7</span> <span class="title">Relative Change</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-relative-change-prep.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Relative Change Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-relative-change.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Relative Change Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-build-exponential-models.html" class="internal"><span class="codenumber">8</span> <span class="title">Building Exponential Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-exponential-models-prep.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Building Exponential Models Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-exponential-models.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Building Exponential Models Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-log-models.html" class="internal"><span class="codenumber">9</span> <span class="title">The Log Operation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-log-models-prep.html" class="internal"><span class="codenumber">9.1</span> <span class="title">The Log Operation Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-log-models.html" class="internal"><span class="codenumber">9.2</span> <span class="title">The Log Operation Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-apply-exponential.html" class="internal"><span class="codenumber">10</span> <span class="title">Applications of Exponential Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-apply-exponential-prep.html" class="internal"><span class="codenumber">10.1</span> <span class="title">Applications of Exponential Models Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-apply-exponential.html" class="internal"><span class="codenumber">10.2</span> <span class="title">Applications of Exponential Models Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-properties-logs-exponents.html" class="internal"><span class="codenumber">11</span> <span class="title">Properties of Logs and Exponents</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-properties-logs-exponents-prep.html" class="internal"><span class="codenumber">11.1</span> <span class="title">Properties of Exponents and Logs Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-properties-logs-exponents.html" class="internal"><span class="codenumber">11.2</span> <span class="title">Properties of Exponents and Logs Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-alt-exponential-models.html" class="internal"><span class="codenumber">12</span> <span class="title">Alternate Forms for Exponential Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-alt-exponential-models-prep.html" class="internal"><span class="codenumber">12.1</span> <span class="title">Alternate Forms for Exponential Models Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-alt-exponential-models.html" class="internal"><span class="codenumber">12.2</span> <span class="title">Alternate Forms for Exponential Models Activities</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter contains-active">
-<div class="toc-title-box"><a href="ch-exponential-models.html" class="internal"><span class="codenumber">3</span> <span class="title">Exponential Models</span></a></div>
+<div class="toc-title-box"><a href="ch-exponential-trends.html" class="internal"><span class="codenumber">13</span> <span class="title">Exponential Trends</span></a></div>
 <ul class="structural toc-item-list contains-active">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-working-with-percentages.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Working With Percentages</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-relative-change.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Relative Change</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-exponential-models.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Exponential Models</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-log-models.html" class="internal"><span class="codenumber">3.4</span> <span class="title">The Log Operation</span></a></div></li>
-<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-exponential-trends.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Exponential Trends</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-apply-exponential.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Applying Exponential Models to Real Scenarios</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-exponential-trends-prep.html" class="internal"><span class="codenumber">13.1</span> <span class="title">Exponential Trends Prep Activities</span></a></div></li>
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-exponential-trends.html" class="internal"><span class="codenumber">13.2</span> <span class="title">Exponential Trends Activities</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-exponential-models-prep.html" class="internal"><span class="codenumber">4</span> <span class="title">Exponential Models Prep Activities</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-working-with-percentages-prep.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Working With Percentages Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-relative-change-prep.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Relative Change Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-exponential-models-prep.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Exponential Models Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-log-models-prep.html" class="internal"><span class="codenumber">4.4</span> <span class="title">The Log Operation Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-exponential-trends-prep.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Exponential Trends Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-apply-exponential-prep.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Applying Exponential Models to Real Scenarios Prep Activities</span></a></div></li>
-</ul>
-</li>
-<li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-other-models.html" class="internal"><span class="codenumber">5</span> <span class="title">Other Models</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-multivar-models.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Multivariable Models</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-power-models.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Power Models</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-quad-and-polyn.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Quadratic and Polynomial Models</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-quad-algebra.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Solving Quadratic Equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-functions.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Functions</span></a></div></li>
-</ul>
-</li>
-<li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-other-models-prep.html" class="internal"><span class="codenumber">6</span> <span class="title">Other Models Prep Activities</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-multivar-models-prep.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Multivariables Models Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-power-models-prep.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Power Models Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-quad-and-polyn-prep.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Quadratic and Polynomial Models Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-quad-algebra-prep.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Solving Quadratic Equations Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-functions-prep.html" class="internal"><span class="codenumber">6.5</span> <span class="title">Functions Prep Activities</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-exponential-trends"><h2 class="heading hide-type">
-<span class="type">Section</span><span class="space"> </span><span class="codenumber">3.5</span><span class="space"> </span><span class="title">Exponential Trends</span>
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">13.2</span><span class="space"> </span><span class="title">Exponential Trends Activities</span>
 </h2>
-<div class="introduction" id="sec-exponential-trends-2-1"><div class="para" id="sec-exponential-trends-2-1-1">We saw in <a href="sec-linear-trends.html" class="internal" title="Section 1.4: Linear Trends">Section 1.4</a> that in the real world, it’s more common to have data that is <em class="emphasis">approximately</em> linear than it is to have data that is <em class="emphasis">exactly</em>. The same thing is true of exponential models! Today, we will put the skills we’ve been learning together to find a formula for an exponential model for a data set with an exponential trend.</div></div> <article class="activity project-like" id="a-us-population-1700-to-2023-start"><h3 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.5.1</span><span class="period">.</span>
+<div class="introduction" id="sec-exponential-trends-2-1">
+<div class="para" id="sec-exponential-trends-2-1-1">We saw in <a href="sec-linear-trends.html" class="internal" title="Section 4.2: Linear Trends Activities">Section 4.2</a> that in the real world, it’s more common to have data that is <em class="emphasis">approximately</em> linear than it is to have data that is <em class="emphasis">exactly</em>. The same thing is true of exponential models! Today, we will put the skills we’ve been learning together to find a formula for an exponential model for a data set with an exponential trend.</div> <div class="para" id="sec-exponential-trends-2-1-2">Exponential models are more sensitive to small differences in the relative change than linear models are to small differences in the average rate of change. This means that it’s harder to get a good estimate for the relative change of approximately exponential data than it is to estimate the average rate of change of approximately linear data. To get around this problem, we’ll use logs to turn approximately exponential data into approximately linear data, find a linear model for the log of our data, then use the “raise 10 to the power of” operation to get an exponential model for our original data.</div>
+</div> <article class="activity project-like" id="a-us-population-1700-to-2023-start"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">13.2.1</span><span class="period">.</span>
 </h3>
 <div class="introduction" id="a-us-population-1700-to-2023-start-1">
-<div class="para" id="a-us-population-1700-to-2023-start-1-1">The graph on the left below<details class="ptx-footnote" aria-live="polite" id="a-us-population-1700-to-2023-start-1-1-1"><summary class="ptx-footnote__number" title="Footnote 3.5.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="a-us-population-1700-to-2023-start-1-1-1">Chart made in Excel using data from: Hannah Ritchie, Lucas Rodés-Guirao, Edouard Mathieu, Marcel Gerber, Esteban Ortiz-Ospina, Joe Hasell and Max Roser (2023) - "Population Growth" Published online at OurWorldInData.org. Retrieved from: <a class="external" href="https://ourworldindata.org/population-growth" target="_blank"><code class="code-inline tex2jax_ignore">https://ourworldindata.org/population-growth</code></a> [Online Resource]</div></details> shows population of what is now the United States between 1700 and 2023.</div> <figure class="figure figure-like" id="fig-us-population-1700-to-2023"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="para" id="a-us-population-1700-to-2023-start-1-1">The graph on the left below<details class="ptx-footnote" aria-live="polite" id="a-us-population-1700-to-2023-start-1-1-1"><summary class="ptx-footnote__number" title="Footnote 13.2.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="a-us-population-1700-to-2023-start-1-1-1">Chart made in Excel using data from: Hannah Ritchie, Lucas Rodés-Guirao, Edouard Mathieu, Marcel Gerber, Esteban Ortiz-Ospina, Joe Hasell and Max Roser (2023) - "Population Growth" Published online at OurWorldInData.org. Retrieved from: <a class="external" href="https://ourworldindata.org/population-growth" target="_blank"><code class="code-inline tex2jax_ignore">https://ourworldindata.org/population-growth</code></a> [Online Resource]</div></details> shows population of what is now the United States between 1700 and 2023.</div> <figure class="figure figure-like" id="fig-us-population-1700-to-2023"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
 <div class="sbspanel top" style="width:50%;"><figure class="figure figure-like" id="fig-us-pop-1700-to-2023-numbers"><img src="external/./images/US-pop-1700-to-2023.png" class="contained" alt="Graph showing the population in what is now the US between 1700 and 2023."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="fig-us-pop-1700-to-2023-numbers-2-description"><div class="para" id="fig-us-pop-1700-to-2023-numbers-2-2-1">The population appears to have grown exponentially, from a little under a million people in 1700 to about 343 million in 2023.</div></div></details><figcaption><span class="codenumber">(a)</span><span class="space"> </span>Population</figcaption></figure></div>
 <div class="sbspanel top" style="width:50%;"><figure class="figure figure-like" id="fig-us-population-1700-to-2023-log"><img src="external/./images/US-pop-1700-to-2023-log.png" class="contained" alt="Graph showing the log of the population in what is now the US between 1700 and 2023.."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="fig-us-population-1700-to-2023-log-2-description"><div class="para" id="fig-us-population-1700-to-2023-log-2-2-1">The log of the population is roughly linear. It seems to be about 5.95 in 1700, and about 8.54 in 2023.</div></div></details><figcaption><span class="codenumber">(b)</span><span class="space"> </span>Log of US Population Between 1700 and 2023.</figcaption></figure></div>
 </div></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.5.1<span class="period">.</span></span><span class="space"> </span>US Population Between 1700 and 2023.</figcaption></figure>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">13.2.1<span class="period">.</span></span><span class="space"> </span>US Population Between 1700 and 2023.</figcaption></figure>
 </div>
 <article class="task exercise-like" id="a-us-population-1700-to-2023-start-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
 <div class="para" id="a-us-population-1700-to-2023-start-2-1-1">Explain why a linear model is not a good fit for the population data.</div></article><article class="task exercise-like" id="a-us-population-1700-to-2023-start-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
@@ -203,36 +244,37 @@ window.MathJax = {
 \log(P) \approx 8.4\text{.}
 \end{equation*}
 </div>
-<div class="para">As we learned in <a href="sec-exponential-trends-prep.html" class="internal" title="Section 4.5: Exponential Trends Prep Activities">Section 4.5</a>, this tells us that <span class="process-math">\(P \approx 10^{8.4} = 251,188,643.151\text{,}\)</span> which is about 250 million.</div>
+<div class="para">As we learned in <a href="sec-exponential-trends-prep.html" class="internal" title="Section 13.1: Exponential Trends Prep Activities">Section 13.1</a>, this tells us that <span class="process-math">\(P \approx 10^{8.4} = 251,188,643.151\text{,}\)</span> which is about 250 million.</div>
 </div> <div class="para" id="a-us-population-1700-to-2023-start-4-1-2">Estimate the US population in 1930 in two ways: (1) from the population data graph and (2) from the log of population data graph.</div></article></article><article class="activity project-like" id="a-us-population-1700-to-2023-cont"><h3 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.5.2</span><span class="period">.</span>
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">13.2.2</span><span class="period">.</span>
 </h3>
 <article class="task exercise-like" id="a-us-population-1700-to-2023-cont-1"><h4 class="heading"><span class="codenumber">(a)</span></h4>
 <div class="para" id="a-us-population-1700-to-2023-cont-1-1-1">Here’s the log of population graph again.</div> <figure class="figure figure-like" id="fig-us-population-1700-to-2023-log-repeat"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;">
 <img src="external/./images/US-pop-1700-to-2023-log.png" class="contained" alt="Graph showing the log of the population in what is now the US between 1700 and 2023."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="fig-us-population-1700-to-2023-log-repeat-2-description"><div class="para" id="fig-us-population-1700-to-2023-log-repeat-2-2-1">The log of the population is roughly linear. It seems to be about 5.95 in 1700, and about 8.54 in 2023.</div></div></details>
 </div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.5.2<span class="period">.</span></span><span class="space"> </span>Log of US Population Between 1700 and 2023.</figcaption></figure> <div class="para" id="a-us-population-1700-to-2023-cont-1-1-3">Sketch a line on the graph to model the trend, and find a formula for your line.</div></article><article class="task exercise-like" id="a-us-population-1700-to-2023-cont-2"><h4 class="heading"><span class="codenumber">(b)</span></h4>
-<div class="para" id="a-us-population-1700-to-2023-cont-2-1-1">If <span class="process-math">\(P\)</span> is the population of the US, then the output of your line is <span class="process-math">\(\log(P)\text{.}\)</span> To transform your linear model for <span class="process-math">\(\log(P)\)</span> into an exponential model for <span class="process-math">\(P\text{,}\)</span> apply the "raise 10 to the power of..." operation to both sides of your line formula.</div></article><article class="task exercise-like" id="a-us-population-1700-to-2023-cont-3"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">13.2.2<span class="period">.</span></span><span class="space"> </span>Log of US Population Between 1700 and 2023.</figcaption></figure> <div class="para" id="a-us-population-1700-to-2023-cont-1-1-3">Sketch a line on the graph to model the trend, and find a formula for your line.</div></article><article class="task exercise-like" id="a-us-population-1700-to-2023-cont-2"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="a-us-population-1700-to-2023-cont-2-1-1">If <span class="process-math">\(P\)</span> is the population of the US, then the output of your line is <span class="process-math">\(\log(P)\text{.}\)</span> To transform your linear model for <span class="process-math">\(\log(P)\)</span> into an exponential model for <span class="process-math">\(P\text{,}\)</span> apply the “raise 10 to the power of...” operation to both sides of your line formula.</div></article><article class="task exercise-like" id="a-us-population-1700-to-2023-cont-3"><h4 class="heading"><span class="codenumber">(c)</span></h4>
 <div class="para" id="a-us-population-1700-to-2023-cont-3-1-1">Use your exponential model for <span class="process-math">\(P\)</span> to estimate the US population in 1930 and 1990. How close are your answers to our earlier estimates?</div></article><article class="task exercise-like" id="a-us-population-1700-to-2023-cont-4"><h4 class="heading"><span class="codenumber">(d)</span></h4>
-<div class="para" id="a-us-population-1700-to-2023-cont-4-1-1">Summarize the process that we used in this activity and <a href="sec-exponential-trends.html#a-us-population-1700-to-2023-start" class="xref" data-knowl="./knowl/xref/a-us-population-1700-to-2023-start.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 3.5.1">Activity 3.5.1</a> to find an exponential model or a data set.</div></article></article><article class="activity project-like" id="a-child-mortality"><h3 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.5.3</span><span class="period">.</span>
+<div class="para" id="a-us-population-1700-to-2023-cont-4-1-1">Summarize the process that we used in this activity and <a href="sec-exponential-trends.html#a-us-population-1700-to-2023-start" class="xref" data-knowl="./knowl/xref/a-us-population-1700-to-2023-start.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 13.2.1">Activity 13.2.1</a> to find an exponential model or a data set.</div></article></article><article class="activity project-like" id="a-child-mortality"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">13.2.3</span><span class="period">.</span>
 </h3>
 <div class="introduction" id="a-child-mortality-1">
-<div class="para" id="a-child-mortality-1-1">The graphs below show</div> <figure class="figure figure-like" id="fig-us-child-mortality"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="para" id="a-child-mortality-1-1">The graphs below show the child mortality rate in the US between 1933 and 2021.<details class="ptx-footnote" aria-live="polite" id="a-child-mortality-1-1-1"><summary class="ptx-footnote__number" title="Footnote 13.2.2"><sup> 2 </sup></summary><div class="ptx-footnote__contents" id="a-child-mortality-1-1-1"><a class="external" href="https://ourworldindata.org/child-mortality-big-problem-in-brief" target="_blank"><code class="code-inline tex2jax_ignore">https://ourworldindata.org/child-mortality-big-problem-in-brief</code></a></div></details>
+</div> <figure class="figure figure-like" id="fig-us-child-mortality"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
 <div class="sbspanel top" style="width:50%;"><figure class="figure figure-like" id="fig-us-child-mortality-numbers"><img src="external/./images/US-child-mortality-1933-to-2021.png" class="contained" alt="Graph showing the child mortality rate in the US between 1933 and 2021."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="fig-us-child-mortality-numbers-2-description"><div class="para" id="fig-us-child-mortality-numbers-2-2-1">The child mortality rate appears to have decreased exponentially, from nearly 8% in 1934 to about 0.6% in 2021.</div></div></details><figcaption><span class="codenumber">(a)</span><span class="space"> </span>Child Mortality Rate</figcaption></figure></div>
 <div class="sbspanel top" style="width:50%;"><figure class="figure figure-like" id="fig-us-child-mortality-log"><img src="external/./images/US-child-mortality-1933-to-2021-log.png" class="contained" alt="Graph showing the log of the child mortality rate in the US between 1933 and 2021."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="fig-us-child-mortality-log-2-description"><div class="para" id="fig-us-child-mortality-log-2-2-1">The log of the child mortality rate is approximately linear. It’s about 0.9 in 1934 and about -0.2 in 2021.</div></div></details><figcaption><span class="codenumber">(b)</span><span class="space"> </span>Log of Child Mortality Rate</figcaption></figure></div>
 </div></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.5.3<span class="period">.</span></span><span class="space"> </span>US Child Mortality Rate Between 1933 and 2021.</figcaption></figure>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">13.2.3<span class="period">.</span></span><span class="space"> </span>US Child Mortality Rate Between 1933 and 2021.</figcaption></figure>
 </div>
 <article class="task exercise-like" id="a-child-mortality-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
 <div class="para" id="a-child-mortality-2-1-1">Explain why a linear model is a better fit for the log of the child mortality rate than the child mortality rate.</div></article><article class="task exercise-like" id="a-child-mortality-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
 <div class="para" id="a-child-mortality-3-1-1">Find a formula for a linear model for the log of the child mortality rate.</div></article><article class="task exercise-like" id="a-child-mortality-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
 <div class="para" id="a-child-mortality-4-1-1">Find a formula for an exponential model for the child mortality rate.</div></article><article class="task exercise-like" id="a-child-mortality-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
 <div class="para" id="a-child-mortality-5-1-1">Use your exponential model for the child mortality rate to estimate it in 1940, 1995, and 2025. What do you notice? What do you wonder?</div></article></article><article class="activity project-like" id="a-cost-of-data-storage"><h3 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.5.4</span><span class="period">.</span>
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">13.2.4</span><span class="period">.</span>
 </h3>
 <div class="introduction" id="a-cost-of-data-storage-1">
-<div class="para" id="a-cost-of-data-storage-1-1">The table below shows the cost in dollars per megabyte of storage space on computer hard drives from 1980 to 2004.</div> <figure class="table table-like" id="a-cost-of-data-storage-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.5.4<span class="period">.</span></span><span class="space"> </span>Cost Per Megabyte of Storage Space</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="a-cost-of-data-storage-1-1">The table below shows the cost in dollars per megabyte of storage space on computer hard drives from 1980 to 2004.</div> <figure class="table table-like" id="a-cost-of-data-storage-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">13.2.4<span class="period">.</span></span><span class="space"> </span>Cost Per Megabyte of Storage Space</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <th scope="row" class="c m b1 r1 l1 t1 lines">Year</th>
 <td class="c m b1 r1 l0 t1 lines">1980</td>
@@ -257,10 +299,10 @@ window.MathJax = {
 </div>
 <article class="task exercise-like" id="a-cost-of-data-storage-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
 <div class="para" id="a-cost-of-data-storage-2-1-1">Graph the data on the axes below left. Explain how the graph tells you that an exponential model is probably a better fit than a linear model.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:10%;margin-right:10%;">
-<div class="sbspanel top" style="width:37.5%;"><figure class="figure figure-like" id="fig-cost-mb-storage"><img src="generated/latex-image/graph-cost-mb-storage.svg" role="img" class="contained" alt="Blank axes."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="graph-cost-mb-storage-description"><div class="para" id="graph-cost-mb-storage-1-1">Blank axes. The horizontal axis goes from 0 to 24, and the vertical axis goes from 0 to 200.</div></div></details><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.5.5<span class="period">.</span></span><span class="space"> </span>Cost Per Megabyte of Storage Space</figcaption></figure></div>
-<div class="sbspanel top" style="width:37.5%;"><figure class="figure figure-like" id="fig-log-cost-mb-storage"><img src="generated/latex-image/graph-log-cost-mb-storage.svg" role="img" class="contained" alt="Blank axes."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="graph-log-cost-mb-storage-description"><div class="para" id="graph-log-cost-mb-storage-1-1">Blank axes. The horizontal axis goes from 0 to 24, and the vertical axis goes from -4 to 3.</div></div></details><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.5.6<span class="period">.</span></span><span class="space"> </span>Log Cost Per Megabyte of Storage Space</figcaption></figure></div>
+<div class="sbspanel top" style="width:37.5%;"><figure class="figure figure-like" id="fig-cost-mb-storage"><img src="generated/latex-image/graph-cost-mb-storage.svg" role="img" class="contained" alt="Blank axes."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="graph-cost-mb-storage-description"><div class="para" id="graph-cost-mb-storage-1-1">Blank axes. The horizontal axis goes from 0 to 24, and the vertical axis goes from 0 to 200.</div></div></details><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">13.2.5<span class="period">.</span></span><span class="space"> </span>Cost Per Megabyte of Storage Space</figcaption></figure></div>
+<div class="sbspanel top" style="width:37.5%;"><figure class="figure figure-like" id="fig-log-cost-mb-storage"><img src="generated/latex-image/graph-log-cost-mb-storage.svg" role="img" class="contained" alt="Blank axes."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="graph-log-cost-mb-storage-description"><div class="para" id="graph-log-cost-mb-storage-1-1">Blank axes. The horizontal axis goes from 0 to 24, and the vertical axis goes from -4 to 3.</div></div></details><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">13.2.6<span class="period">.</span></span><span class="space"> </span>Log Cost Per Megabyte of Storage Space</figcaption></figure></div>
 </div></div></article><article class="task exercise-like" id="a-cost-of-data-storage-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
-<div class="para" id="a-cost-of-data-storage-3-1-1">Complete the table below by finding the log of the costs. Then, plot your new points on the axis above right.</div> <figure class="table table-like" id="a-cost-of-data-storage-3-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.5.7<span class="period">.</span></span><span class="space"> </span>Log Cost Per Megabyte of Storage Space</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="a-cost-of-data-storage-3-1-1">Complete the table below by finding the log of the costs. Then, plot your new points on the axis above right.</div> <figure class="table table-like" id="a-cost-of-data-storage-3-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">13.2.7<span class="period">.</span></span><span class="space"> </span>Log Cost Per Megabyte of Storage Space</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <th scope="row" class="c m b1 r1 l1 t1 lines">Year</th>
 <td class="c m b1 r1 l0 t1 lines">1980</td>
@@ -284,7 +326,7 @@ window.MathJax = {
 </table></div></figure></article><article class="task exercise-like" id="a-cost-of-data-storage-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
 <div class="para" id="a-cost-of-data-storage-4-1-1">Explain why a linear model seems to be reasonable for the log of costs, then find a formula for a linear model for log costs.</div></article><article class="task exercise-like" id="a-cost-of-data-storage-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
 <div class="para" id="a-cost-of-data-storage-5-1-1">Convert your linear model for log costs into an exponential model for costs.</div></article><article class="task exercise-like" id="a-cost-of-data-storage-6"><h4 class="heading"><span class="codenumber">(e)</span></h4>
-<div class="para" id="a-cost-of-data-storage-6-1-1">Use your exponential model for costs to fill in the table below. What do you notice? What do you wonder?</div> <figure class="table table-like" id="a-cost-of-data-storage-6-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.5.8<span class="period">.</span></span><span class="space"> </span>Cost Per Megabyte of Storage Space</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="a-cost-of-data-storage-6-1-1">Use your exponential model for costs to fill in the table below. What do you notice? What do you wonder?</div> <figure class="table table-like" id="a-cost-of-data-storage-6-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">13.2.8<span class="period">.</span></span><span class="space"> </span>Cost Per Megabyte of Storage Space</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <th scope="row" class="c m b1 r1 l1 t1 lines">Year</th>
 <td class="c m b1 r1 l0 t1 lines">1980</td>
@@ -316,11 +358,11 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
 </table></div></figure></article></article><article class="activity project-like" id="a-linear-exp-or-neither"><h3 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.5.5</span><span class="period">.</span>
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">13.2.5</span><span class="period">.</span>
 </h3>
 <div class="introduction" id="a-linear-exp-or-neither-1"><div class="para" id="a-linear-exp-or-neither-1-1">Graph each of the data sets given below, and use your graph to decide whether a linear model, an exponential model, or neither is a reasonable fit for the trend. If a linear model or exponential model is a reasonable fit for the trend, find a formula for it.</div></div>
 <article class="task exercise-like" id="a-linear-exp-or-neither-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
-<div class="para" id="a-linear-exp-or-neither-2-1-1">The average price of electricity (in cents per kilowatt hour) from 1990 through 2008 is given below.</div> <figure class="table table-like" id="a-linear-exp-or-neither-2-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.5.9<span class="period">.</span></span><span class="space"> </span>Average Electricity Price (cents per kilowatt hour)</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="a-linear-exp-or-neither-2-1-1">The average price of electricity (in cents per kilowatt hour) from 1990 through 2008 is given below.</div> <figure class="table table-like" id="a-linear-exp-or-neither-2-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">13.2.9<span class="period">.</span></span><span class="space"> </span>Average Electricity Price (cents per kilowatt hour)</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <th scope="row" class="c m b1 r1 l1 t1 lines">Year</th>
 <td class="c m b1 r1 l0 t1 lines">1990</td>
@@ -348,7 +390,7 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines">11.26</td>
 </tr>
 </table></div></figure></article><article class="task exercise-like" id="a-linear-exp-or-neither-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
-<div class="para" id="a-linear-exp-or-neither-3-1-1">The average cost of a loaf of white bread from 1986 through 2008 is given below.</div> <figure class="table table-like" id="a-linear-exp-or-neither-3-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.5.10<span class="period">.</span></span><span class="space"> </span>Average Cost of a Loaf of White Bread ($)</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="a-linear-exp-or-neither-3-1-1">The average cost of a loaf of white bread from 1986 through 2008 is given below.</div> <figure class="table table-like" id="a-linear-exp-or-neither-3-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">13.2.10<span class="period">.</span></span><span class="space"> </span>Average Cost of a Loaf of White Bread ($)</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <th scope="row" class="c m b1 r1 l1 t1 lines">Year</th>
 <td class="c m b1 r1 l0 t1 lines">1986</td>
@@ -377,7 +419,7 @@ window.MathJax = {
 </tr>
 </table></div></figure></article></article></section></div>
 <div class="ptx-content-footer">
-<a class="previous-button button" href="sec-log-models.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-apply-exponential.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="sec-exponential-trends-prep.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
