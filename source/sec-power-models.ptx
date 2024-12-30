@@ -95,32 +95,70 @@
                     <li> Find the <term>cube root</term> of 8, <m>\sqrt[3]{8}</m>.</li>
                     <li> Find the <m>\frac{1}{3}</m> power of 8, <m>8^{1/3}</m>.</li>
                 </ol>
-                Find the side length of a cube with volume <m>10 \text{ ft}^3</m>
+                Find the side length of a cube with volume <m>10 \text{ ft}^3</m>.
             </p>
         </statement>
     </task>
   </activity>
 
   <activity xml:id="a-varies-directly-proportional">
-    Introduce language of varies directly/proportionally: 
-    <!-- Power models are often expressed in words using the language of proportionality. For example:
-\begin{itemize}
-%	\item Words: The strength of a beam, $S$, is proportional to the square of its thickness, $h$ \\
-%		  Power Model: $S = ch^2$, with $c$ an unknown number
-
-	\item Words: The energy, $E$, expended by a swimming dolphin is proportional to the cube of the speed, $v$ of the dolphin \\
-	      Power Model: $E = cv^3$, with $c$ an unknown number
-	
-	\item Words: The braking distance, $d$, of an Alfa Romeo on dry pavement is proportional to the square of its speed ($v$), with constant of proportionality $0.036$ \\
-		  Power Model Formula: $d = 0.036v^2$
-\end{itemize} -->
+    <introduction>
+        <p>
+            Power models with positive powers are often expressed in words using the language of <term>proportionality</term>, or by saying that one quantity <term>varies directly</term> with another. For example:
+            <ul>
+                <li>
+                    <p>
+                        Words: The strength of a beam, <m>S</m>, is proportional to the square of its thickness, <m>h</m> <br />
+        		        Power Model: <m>S = ch^2</m>, with <m>c</m> an unknown number
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Words: The energy, <m>E</m>, expended by a swimming dolphin varies directly with the cube of its speed, <m>v</m><br />
+                        Power Model: <m>E = cv^3</m>, with <m>c</m> an unknown number
+                    </p>    
+                </li>
+                <li>
+                    <p>
+                        Words: The braking distance, <m>d</m>, of an Alfa Romeo on dry pavement is proportional to the square of its speed (<m>v</m>), with coefficient <m>0.036</m> <br />
+                        Power Model Formula: <m>d = 0.036v^2</m>
+                    </p>
+                </li>
+            </ul>
+        </p>
+        <p>
+            In each of the following situations, set up the power model being described. Use the information given to find the coefficient, then answer the question.
+        </p>
+    </introduction>
+    <!-- Exercise 12 from https://mafitch.github.io/tech_math/section-variation.html-->
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                <m>C</m> is proportional to the square of <m>d</m>. When <m>d = 3</m>, <m>C = 135</m>. What is <m>C</m> when <m>d = 7</m>?
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                <m>T</m> varies directly with the cube power of <m>u</m>. When <m>u = 2</m>, <m>T = 56</m>. What is <m>u</m> when <m>T = 875</m>?
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                The electrical current, in amperes, in a circuit varies directly as the voltage. When 27 volts are applied, the current is 9 amperes. What is the current when 39 volts are applied?
+            </p>
+        </statement>
+    </task>
   </activity>
   
   <!-- From McCallum et al., \emph{Algebra: Form and Function}, who adapted it from H.\ Tennekes, \emph{The Simple Science of Flight} (Cambridge: MIT Press, 1996). -->
   <activity xml:id="a-aircraft-runway-length">
     <introduction>
         <p>
-            When an aircraft takes off, it accelerates until it reaches its takeoff speed <m>V</m>. In doing so it uses up a distance <m>R</m> of the runway, where <m>R</m> is proportional to the square of the takeoff speed. If <m>V</m> is measured in mph and <m>R</m> is measured in feet, then the constant of proportionality is <m>0.1639</m>.
+            When an aircraft takes off, it accelerates until it reaches its takeoff speed <m>V</m>. In doing so it uses up a distance <m>R</m> of the runway, where <m>R</m> is proportional to the square of the takeoff speed. An aircraft with a takeoff speed of 100 mph needs 1639 feet of runway. <!-- If <m>V</m> is measured in mph and <m>R</m> is measured in feet, then the constant of proportionality is <m>0.1639</m>.--> 
         </p>
     </introduction>
     <task workspace="0.5in">
@@ -154,6 +192,93 @@
   </activity>
 
   <activity xml:id="a-power-model-graphs">
-    Graphs and number of solutions
+    <introduction>
+        <p>
+            The graphs of power models with positive integer powers are very predictable! Let's find the pattern.
+        </p>
+    </introduction>
+    <task workspace="1in">
+        <statement>
+            <p>
+                Use Desmos to graph each of the power models listed below. What patterns do you notice?
+                <me>y = x^2 \qquad y = x^3 \qquad y = x^4 \qquad y = x^5 \qquad y = x^6</me>
+            </p>
+        </statement>
+    </task>
+    <task workspace="1in">
+        <statement>
+            <p>
+                Use Desmos to graph each of the power models listed below. What patterns do you notice?
+                <me>y = -x^2 \qquad y = -x^3 \qquad y = -x^4 \qquad y = -x^5 \qquad y = -x^6</me>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.25in">
+        <statement>
+            <p>
+                Use the patterns you noticed in the two parts above and what you already know about linear models to fill in each cell of the table with a sketch of the graph.
+            </p>
+            <table>
+                <title>Shapes of Power Model Graphs</title>
+                <tabular row-header="yes" halign="center" bottom = "minor" top = "minor" left = "minor" right = "minor">
+                    <row header="yes">
+                        <cell></cell>
+                        <cell>Positive Coefficient</cell>
+                        <cell>Negative Coefficient</cell>
+                    </row>
+                    <row>
+                        <cell><m>y = mx</m></cell>
+                        <cell><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line></cell>
+                        <cell><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line></cell>
+                    </row>
+                    <row>
+                        <cell><m>y = ax^{\text{even power}}</m></cell>
+                        <cell><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line></cell>
+                        <cell><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line></cell>
+                    </row>
+                    <row>
+                        <cell><m>y = ax^{\text{odd power}}</m></cell>
+                        <cell><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line></cell>
+                        <cell><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line></cell>
+                    </row>
+                </tabular>
+            </table>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Explain why equations involving a power model with an odd power only have one solution.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <introduction>
+            <p>
+                Suppose that we want to find <em>all</em> solutions to the equation <me>-96 = -6x^4</me>.
+            </p>
+        </introduction>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Use a sketch of the graph of <m>y = -6x^4</m> to explain why there are two solutions. Then, use Desmos to find both solutions.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Find both solutions with algebra. 
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Camila consistently gets problems like this one wrong. Write a set of steps for Camila to follow that will help her find all solutions to equations involving a power model with an even power using algebra.
+                </p>
+            </statement>
+        </task>
+    </task>
   </activity>
 </section>
