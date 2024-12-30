@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-roots-fractions-prep" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Roots and Fractional Powers Prep Activities</title>
+
+  <p>
+    TBD
+  </p>
+
+  <investigation xml:id="pa-roots-fractions-prep-confidence">
+        <p>
+            You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).
+        </p>
+        <table>
+            <tabular bottom = "minor" top = "minor" left = "minor" right = "minor">
+                <row header ="yes">
+                    <cell>Skill or Concept: I can …</cell>
+                    <cell>Rating from 1 to 5</cell>
+                </row>
+                <row>
+                    <cell>Identify whether or not a formula is a power model.</cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Explain the difference between power models and exponential models.</cell>
+                    <cell></cell>
+                </row>
+            </tabular>
+        </table>
+    </investigation>
+</section>

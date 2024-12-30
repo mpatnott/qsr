@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-negative-powers" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Negative Powers Activities</title>
+
+  <introduction>
+    <p>
+        Introduce <m>\frac{1}{x^n} = x^{-n}</m>
+    </p>
+  </introduction>
+
+  <activity xml:id="a-basic-negative-exponents-practice">
+    Basic algebra practice
+  </activity>
+
+  <activity xml:id="a-inversely-proportional">
+    Varies inversely/inversely proportional language
+  </activity>
+
+  <activity xml:id="a-color-noise">
+    <introduction>
+        <p>
+            Pink noise is a type of sound that may help some people fall asleep and/or help people with ADHD concentrate.<fn>C. Johnson, <q>Have you tried pink noise for sleep? Here's what to know.</q> AP New, May 20, 2024. <url href="https://apnews.com/article/pink-brown-white-noise-sleep-focus-concentration-f5f24dad1effb09c1cf8b607bd22ebc7"></url></fn> Higher frequency sounds are less intense than low frequency sounds in pink noise. We can model this relationship using the formula <me>P = \frac{1}{f}</me> where <m>P</m> is the power of the sound and <m>f</m> is its frequency.
+        </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                The two octaves around middle A on a piano have frequencies of about 220 - 880 Hz. Sketch a graph showing the relationship of power to frequency in pink noise for the two octaves around middle A. 
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                The model for pink noise is also a power model! We can rewrite it as <me>P = f^{-1}</me>. Talk to your table and brainstorm reasons why it might make sense for negative exponents to be related to variables in the denominator of fractions. 
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Brown noise is similar to pink noise, but has the model <me> P = \frac{1}{f^2} </me> instead. How can we rewrite this formula as a power model? Think on your own, and then compare notes with your table.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Sketch a graph showing the relationship of power to frequency in brown noise for the two octaves around middle A.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Does pink or brown noise have more power at 220 Hz? at 440 Hz? at 880 Hz?
+            </p>
+        </statement>
+    </task>
+  </activity>
+
+  <!-- https://mafitch.github.io/tech_math/section-variation.html -->
+  <activity xml:id="a-snow-shoes">
+    Pressure is a measure of the amount of force spread over an area.
+    <me>P = \frac{F}{A}</me>
+    where
+    <ul>
+        <li><m>P</m> is pressure</li>
+        <li><m>F</m> is the force in units of pounds (lbs) or Newtons (N),</li>
+        <li><m>A</m> is the area in units of square inches, or meters, or similar.</li>
+    </ul>
+    
+    Walking on snow (or mud) is difficult because our feet tend to puncture the snow (high pressure applied to low strength snow). We can use snowshoes to avoid this problem: they reduce pressure with minimal increase in force (weight).
+
+    Determine the pressure Guido exerts on the snow without and with snow shoes. Suppose Guido weighs 172 lbs.
+  </activity>
+
+  <activity xml:id="a-adv-exponent-rules-practice">
+    More exponent rules practice
+  </activity>
+</section>

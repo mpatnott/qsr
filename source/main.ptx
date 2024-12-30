@@ -18,6 +18,7 @@
     <!-- <xi:include href="./ch-exponential-models-prep.ptx" />
     <xi:include href="./ch-other-models.ptx" />
     <xi:include href="./ch-other-models-prep.ptx" /> -->
+    <xi:include href="./ch-power-models.ptx" />
 
 
     <!-- Include backmatter -->
