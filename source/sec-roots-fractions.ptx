@@ -3,12 +3,6 @@
 <section xml:id="sec-roots-fractions" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Roots and Fractional Powers Activities</title>
 
-  <introduction>
-    <p>
-        Introduce <m>\sqrt[n]{x} = x^{1/n}</m>, and the inverse relationship between <m>x^n</m> and <m>x^{1/n}</m>
-    </p>
-  </introduction>
-
   <activity xml:id="a-cube-root-law">
     <introduction>
         <p>
@@ -79,14 +73,121 @@
             </p>
         </statement>
     </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                The United States had a national speed limit of 55 mph from 1974 - 1987, and speed limits of 55 mph were still common around the country through the late 1990s. How long would the skid marks be of a car suddenly braking after going 55 mph on a dry, asphalt road?
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                The fastest posted speed limit in the US is 85 mph. How long would the skid marks be of a car suddenly braking after going 85 mph on a dry, asphalt road?
+            </p>
+        </statement>
+    </task>
   </activity>
 
   <activity xml:id="a-caution-negatives-even-roots">
-    <introduction>
+  <introduction>
+    <p>
+        We have to be careful with fractional exponents and negative numbers.
+    </p>
+  </introduction>
+    <!-->introduction>
         <p>
-            Caution: Negatives and even roots
+            Let's look at the graph of <m>x^{1/n}</m>.
         </p>
     </introduction>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Use Desmos to graph each of the power models listed below. What patterns do you notice?
+                <me>y = x^{1/2} \qquad y = x^{1/3} \qquad y = x^{1/4} \qquad y = x^{1/5} \qquad y = x^{1/6}</me>
+            </p>
+        </statement>
+    </task>-->
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Complete the table below.
+            </p>
+            <table>
+                <title>Positive or Negative?</title>
+                <tabular halign="center" bottom = "minor" top = "minor" left = "minor" right = "minor">
+                    <row header="yes">
+                        <cell></cell>
+                        <cell>Positive or Negative?</cell>
+                    </row>
+                    <row>
+                        <cell>Postive <m>\times</m> Positive</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell>Negative <m>\times</m> Negative</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell>Postive <m>\times</m> Positive <m>\times</m> Positive</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell>Negative <m>\times</m> Negative <m>\times</m> Negative</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell>Postive <m>\times</m> Positive <m>\times</m> Positive <m>\times</m> Positive</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell>Negative <m>\times</m> Negative <m>\times</m> Negative <m>\times</m> Negative</cell>
+                        <cell></cell>
+                    </row>
+                </tabular>
+            </table>
+        </statement>
+    </task>
+    <task>
+        <introduction>
+            <p>
+                Use your table to decide whether each of the following statements is true or false, and explain your answers.
+            </p>
+        </introduction>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    It is possible for <m>x^{\text{odd power}}</m> to be negative.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    It is possible for <m>x^{\text{even power}}</m> to be negative.
+                </p>
+            </statement>
+        </task>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Explain why the true sentence below makes sense.
+            </p>
+            <blockquote>
+                <p>
+                    When <m>x</m> is negative, <m>x^{1/\text{odd}} = \sqrt[\text{odd}]{x}</m> exists, but <m>x^{1/\text{even}} = \sqrt[\text{even}]{x}</m> doesn't.
+                </p>
+            </blockquote>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                What about 0? Does <m>\sqrt{0}</m> exist? What about <m>\sqrt[3]{0}</m>? <m>\sqrt[4]{0}</m>?
+            </p>
+        </statement>
+    </task>
   </activity>
 
   <activity xml:id="a-ree-mass">
@@ -140,9 +241,44 @@
   <activity xml:id="a-fractions-exponent-rules">
     <introduction>
         <p>
-            Fractional powers and exponent rules
+            We introduced the rule <me>\sqrt[n]{x} = x^{1/n}</me> in <xref ref="sec-roots-fractions-prep"/>. In fact, we can connect any fractional exponent to roots using the more general rule <me>x^{m/n} = \sqrt[n]{x^m}</me>. Use this rule, along with the other exponent rules, to rewrite each of the following expressions.
         </p>
     </introduction>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Rewrite with fractional exponents: <m>\sqrt{x^3} + \sqrt[3]{x^2}</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Rewrite with fractional exponents: <m>\sqrt[3]{2 + x^5}</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Rewrite with fractional exponents: <m>\frac{\sqrt[4]{x^7}}{\[4]sqrt{x}}</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Rewrite with fractional exponents: <m>\left(27x^6\right)^{2/3}</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Rewrite with roots: <m>\left(x-5\right)^{4/7}</m>
+            </p>
+        </statement>
+    </task>
   </activity>
 
   <activity xml:id="a-kepler-3rd-law">

@@ -3,9 +3,93 @@
 <section xml:id="sec-roots-fractions-prep" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Roots and Fractional Powers Prep Activities</title>
 
-  <p>
-    TBD
-  </p>
+  <introduction>
+    We learned in <xref ref="sec-power-models"/> that cube roots and the one-third power are the same, i.e., that <m>\sqrt[3]{x} = x^{1/3}</m>. In fact, this is a special case of the general rule that nth roots and the 1/n power are the same, i.e., <me>\sqrt[n]{x} = x^{1/n}</me>. <em>Note:</em> We use square roots so often that we don't usually bother to write the number on the root. But, <m>\sqrt{x} = \sqrt[2]{x}</m>, so <m>\sqrt{x} = x^{1/2}</m>. 
+  </introduction>
+
+  <investigation xml:id="pa-why-frac-exps-are-roots">
+    <statement>
+        <p>
+            Using the Product Rule for Exponents,
+            <me>x^{1/2}x^{1/2} = x^1 \qquad \text{ and } \qquad x^{1/3}x^{1/3}x^{1/3} = x^1</me>.
+            Why does this observation support the reasonableness of the rules that <m>x^{1/2} = \sqrt{x}</m> and <m>x^{1/3} = \sqrt[3]{x}</m>?
+        </p>
+    </statement>
+  </investigation>
+
+  <investigation xml:id="pa-rewrite-frac-exp-roots">
+    <introduction>
+        <p>
+            Let's practice using our new rule, along with other exponent rules, to rewrite expressions.
+        </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                Rewrite without a root symbol: <m>\sqrt[4]{a}</m>
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Rewrite with a root symbol: <m>\left(17b\right)^{1/5}</m>
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Rewrite as <m>(\text{number}) \times c^{\text{power}}</m>: <m>\frac13 \cdot c^3 \cdot \sqrt[4]{81c}</m>
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Rewrite as <m>(\text{number}) \times c^{\text{power}}</m>: <m>\left(\sqrt[5]{32d}\right)^3</m>
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Rewrite with a root symbol:<m>\frac{\left(e^{1/2}\right)^3}{e^{1/2}}</m>
+            </p>
+        </statement>
+    </task>
+  </investigation>
+
+  <investigation xml:id="pa-solve-eqns-frac-exps">
+    <introduction>
+        <p>
+            We introduced the one-third power in <xref ref="sec-power-models"/> to help us solve the equation <me>10 = x^3</me>. Notice that the Power Rule for Exponents tells us that
+            <me>\left(x^n\right)^{1/n} = x \qquad \text{ and } \qquad \left(x^{1/n}\right)^n = x</me>.
+            That is, the nth power and the 1/n power undo each other. Use this fact to find all solutions to each of the equations below.
+        </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                <m>350 = -7x^9</m>
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                <m>7x^6 - 1 = 7</m>
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                <m>6x^{1/4}= 9</m>
+            </p>
+        </statement>
+    </task>
+  </investigation>
 
   <investigation xml:id="pa-roots-fractions-prep-confidence">
         <p>
@@ -18,11 +102,11 @@
                     <cell>Rating from 1 to 5</cell>
                 </row>
                 <row>
-                    <cell>Identify whether or not a formula is a power model.</cell>
+                    <cell>Use the equality <m>\sqrt[n]{x} = x^{1/n}</m> to rewrite expressions.</cell>
                     <cell></cell>
                 </row>
                 <row>
-                    <cell>Explain the difference between power models and exponential models.</cell>
+                    <cell>Solve equations using the inverse relationship between <m>x^n</m> and <m>x^{1/n}</m>.</cell>
                     <cell></cell>
                 </row>
             </tabular>
