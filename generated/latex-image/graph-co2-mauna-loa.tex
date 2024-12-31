@@ -1,0 +1,44 @@
+\documentclass[12pt]{article}
+\usepackage{geometry}
+\geometry{letterpaper,total={408pt,9.0in}}
+%% Custom Page Layout Adjustments (use publisher page-geometry)
+\usepackage{amsmath,amssymb}
+\usepackage{tikz, pgfplots} \usetikzlibrary{positioning,matrix,arrows} \usetikzlibrary{shapes,decorations,shadows,fadings,patterns} \usetikzlibrary{decorations.markings}
+\ifdefined\tikzset
+\tikzset{ampersand replacement = \amp}
+\fi
+\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} \def\thecourse{MT 250} \def\theterm{Fall 2024}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\newcommand{\amp}{&}
+\begin{document}
+\pagestyle{empty}
+\resizebox{\width}{\height}{
+\begin{tikzpicture}
+    \begin{axis}[grid = both, axis lines = center,
+                    xmin = 2005, xmax = 2023, xlabel={Year}, xtick = {2006, 2010, 2014, 2018, 2022}, extra x ticks = {2007, 2008, 2009, 2011, 2012, 2013, 2015, 2016, 2017, 2019, 2020, 2021}, x tick label style={/pgf/number format/1000 sep={}}, extra x tick style={xticklabel=\empty,grid=major},
+                    ymin = 380, ymax = 420, ylabel={Mean Annual $\text{CO}_2$ (ppm)}, ytick = {380, 390, 400, 410, 420}, extra y ticks = {385, 395, 405, 415}, extra y tick style={yticklabel=\empty,grid=major}, scaled ticks = false]
+        \addplot[only marks] 
+            coordinates{
+                (2006, 382.09)
+                (2007, 384.02)
+                (2008, 385.83)
+                (2009, 387.64)
+                (2010, 390.1)
+                (2011, 391.85)
+                (2012, 394.06)
+                (2013, 396.74)
+                (2014, 398.81)
+                (2015, 401.01)
+                (2016, 404.41)
+                (2017, 406.76)
+                (2018, 408.72)
+                (2019, 411.66)
+                (2020, 414.25)
+                (2021, 416.45)
+                (2022, 418.56)
+            };
+    \end{axis}
+\end{tikzpicture}
+}
+\end{document}
