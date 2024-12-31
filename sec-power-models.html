@@ -8,7 +8,7 @@
 <html lang="en-US" dir="ltr">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Power Models</title>
+<title>Introduction to Power Models</title>
 <meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
@@ -86,7 +86,7 @@ window.MathJax = {
 <link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_blue_grey.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
 </head>
 <body id="qsrworkbook" class="pretext book ignore-math">
@@ -106,7 +106,7 @@ window.MathJax = {
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-multivar-models.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-other-models.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-quad-and-polyn.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} \def\thecourse{MT 250} \def\theterm{Fall 2024}
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-power-models-prep.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-intro-power-models.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ch-roots-fractions.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} \def\thecourse{MT 250} \def\theterm{Fall 2024}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -114,77 +114,161 @@ window.MathJax = {
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
 <div class="ptx-page">
-<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth3 parts"><ul class="structural contains-active toc-item-list">
 <li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
-<li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-linear-models.html" class="internal"><span class="codenumber">1</span> <span class="title">Linear Models</span></a></div>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="part-linear-models.html" class="internal"><span class="codenumber">I</span> <span class="title">Linear Models</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-math-models.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Mathematical Models</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-aROC.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Average Rates of Change</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-linear-models.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Building Linear Models</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-linear-trends.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Linear Trends</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-piecewise-linear.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Piecewise Linear Models</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-math-models.html" class="internal"><span class="codenumber">1</span> <span class="title">Introduction to Mathematical Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-math-models-prep.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Mathematical Models Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-math-models.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Mathematical Models Activities</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-linear-models.html" class="internal"><span class="codenumber">2</span> <span class="title">Linear Models Prep Activities</span></a></div>
+<div class="toc-title-box"><a href="ch-aROC.html" class="internal"><span class="codenumber">2</span> <span class="title">Average Rates of Change</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-math-models-prep.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Mathematical Models Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-aROC-prep.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Average Rates of Change</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-linear-models-prep.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Building Linear Models Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-linear-trends-prep.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Linear Trends Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-piecewise-linear-prep.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Piecewise Linear Models Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-aROC-prep.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Average Rates of Change Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-aROC.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Average Rates of Change Activities</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-exponential-models.html" class="internal"><span class="codenumber">3</span> <span class="title">Exponential Models</span></a></div>
+<div class="toc-title-box"><a href="ch-build-linear-models.html" class="internal"><span class="codenumber">3</span> <span class="title">Building Linear Models</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-working-with-percentages.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Working With Percentages</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-relative-change.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Relative Change</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-exponential-models.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Exponential Models</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-log-models.html" class="internal"><span class="codenumber">3.4</span> <span class="title">The Log Operation</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-exponential-trends.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Exponential Trends</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-apply-exponential.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Applying Exponential Models to Real Scenarios</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-linear-models-prep.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Building Linear Models Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-linear-models.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Building Linear Models Activities</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-exponential-models-prep.html" class="internal"><span class="codenumber">4</span> <span class="title">Exponential Models Prep Activities</span></a></div>
+<div class="toc-title-box"><a href="ch-linear-trends.html" class="internal"><span class="codenumber">4</span> <span class="title">Linear Trends</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-working-with-percentages-prep.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Working With Percentages Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-relative-change-prep.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Relative Change Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-exponential-models-prep.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Exponential Models Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-log-models-prep.html" class="internal"><span class="codenumber">4.4</span> <span class="title">The Log Operation Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-exponential-trends-prep.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Exponential Trends Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-apply-exponential-prep.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Applying Exponential Models to Real Scenarios Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-linear-trends-prep.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Linear Trends Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-linear-trends.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Linear Trends Activities</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-chapter contains-active">
-<div class="toc-title-box"><a href="ch-other-models.html" class="internal"><span class="codenumber">5</span> <span class="title">Other Models</span></a></div>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-piecewise-linear.html" class="internal"><span class="codenumber">5</span> <span class="title">Piecewise Linear Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-piecewise-linear-prep.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Piecewise Linear Models Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-piecewise-linear.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Piecewise Linear Models Activities</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="ch-exponential-models.html" class="internal"><span class="codenumber">II</span> <span class="title">Exponential Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-percents.html" class="internal"><span class="codenumber">6</span> <span class="title">Working with Percentages</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-working-with-percentages-prep.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Working With Percentages Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-working-with-percentages.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Working With Percentages Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-relative-change.html" class="internal"><span class="codenumber">7</span> <span class="title">Relative Change</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-relative-change-prep.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Relative Change Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-relative-change.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Relative Change Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-build-exponential-models.html" class="internal"><span class="codenumber">8</span> <span class="title">Building Exponential Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-exponential-models-prep.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Building Exponential Models Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-exponential-models.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Building Exponential Models Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-log-models.html" class="internal"><span class="codenumber">9</span> <span class="title">The Log Operation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-log-models-prep.html" class="internal"><span class="codenumber">9.1</span> <span class="title">The Log Operation Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-log-models.html" class="internal"><span class="codenumber">9.2</span> <span class="title">The Log Operation Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-apply-exponential.html" class="internal"><span class="codenumber">10</span> <span class="title">Applications of Exponential Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-apply-exponential-prep.html" class="internal"><span class="codenumber">10.1</span> <span class="title">Applications of Exponential Models Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-apply-exponential.html" class="internal"><span class="codenumber">10.2</span> <span class="title">Applications of Exponential Models Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-properties-logs-exponents.html" class="internal"><span class="codenumber">11</span> <span class="title">Properties of Exponents and Logs</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-properties-logs-exponents-prep.html" class="internal"><span class="codenumber">11.1</span> <span class="title">Properties of Exponents and Logs Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-properties-logs-exponents.html" class="internal"><span class="codenumber">11.2</span> <span class="title">Properties of Exponents and Logs Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-alt-exponential-models.html" class="internal"><span class="codenumber">12</span> <span class="title">Alternate Forms for Exponential Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-alt-exponential-models-prep.html" class="internal"><span class="codenumber">12.1</span> <span class="title">Alternate Forms for Exponential Models Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-alt-exponential-models.html" class="internal"><span class="codenumber">12.2</span> <span class="title">Alternate Forms for Exponential Models Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-exponential-trends.html" class="internal"><span class="codenumber">13</span> <span class="title">Exponential Trends</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-exponential-trends-prep.html" class="internal"><span class="codenumber">13.1</span> <span class="title">Exponential Trends Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-exponential-trends.html" class="internal"><span class="codenumber">13.2</span> <span class="title">Exponential Trends Activities</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-part contains-active">
+<div class="toc-title-box"><a href="ch-power-models.html" class="internal"><span class="codenumber">III</span> <span class="title">Power Models</span></a></div>
 <ul class="structural toc-item-list contains-active">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-multivar-models.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Multivariable Models</span></a></div></li>
-<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-power-models.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Power Models</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-quad-and-polyn.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Quadratic and Polynomial Models</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-quad-algebra.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Solving Quadratic Equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-functions.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Functions</span></a></div></li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-intro-power-models.html" class="internal"><span class="codenumber">14</span> <span class="title">Introduction to Power Models</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-power-models-prep.html" class="internal"><span class="codenumber">14.1</span> <span class="title">Introduction to Power Models Prep Activities</span></a></div></li>
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-power-models.html" class="internal"><span class="codenumber">14.2</span> <span class="title">Introduction to Power Models</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-other-models-prep.html" class="internal"><span class="codenumber">6</span> <span class="title">Other Models Prep Activities</span></a></div>
+<div class="toc-title-box"><a href="ch-roots-fractions.html" class="internal"><span class="codenumber">15</span> <span class="title">Roots and Fractional Powers</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-multivar-models-prep.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Multivariables Models Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-power-models-prep.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Power Models Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-quad-and-polyn-prep.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Quadratic and Polynomial Models Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-quad-algebra-prep.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Solving Quadratic Equations Prep Activities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-functions-prep.html" class="internal"><span class="codenumber">6.5</span> <span class="title">Functions Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-roots-fractions-prep.html" class="internal"><span class="codenumber">15.1</span> <span class="title">Roots and Fractional Powers Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-roots-fractions.html" class="internal"><span class="codenumber">15.2</span> <span class="title">Roots and Fractional Powers Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-negative-powers.html" class="internal"><span class="codenumber">16</span> <span class="title">Negative Powers</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-negative-powers-prep.html" class="internal"><span class="codenumber">16.1</span> <span class="title">Negative Powers Prep Activities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-negative-powers.html" class="internal"><span class="codenumber">16.2</span> <span class="title">Negative Powers Activities</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-power-models"><h2 class="heading hide-type">
-<span class="type">Section</span><span class="space"> </span><span class="codenumber">5.2</span><span class="space"> </span><span class="title">Power Models</span>
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">14.2</span><span class="space"> </span><span class="title">Introduction to Power Models</span>
 </h2>
-<article class="activity project-like" id="a-volume"><h3 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">5.2.1</span><span class="period">.</span>
+<article class="activity project-like" id="a-power-model-or-not"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">14.2.1</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="a-power-model-or-not-1"><div class="para logical" id="a-power-model-or-not-1-1">
+<div class="para">Recall from <a href="sec-power-models-prep.html" class="internal" title="Section 14.1: Introduction to Power Models Prep Activities">Section 14.1</a> that a <dfn class="terminology">power model</dfn> is a relationship between two quantities that can be written in the form</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/sec-power-models-prep.html">
+\begin{equation*}
+Q_2 = c \times Q_1^p\text{,}
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(Q_1\)</span> and <span class="process-math">\(Q_2\)</span> are the two quantities, <span class="process-math">\(c\)</span> is a number called the <dfn class="terminology">coefficient</dfn> and <span class="process-math">\(p\)</span> is a number called the <dfn class="terminology">power</dfn>.</div>
+</div></div>
+<article class="task exercise-like" id="a-power-model-or-not-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="introduction" id="a-power-model-or-not-2-1"><div class="para" id="a-power-model-or-not-2-1-1">Determine which of the following are power models and which are not. Briefly explain your answers in words.</div></div>
+<article class="task exercise-like" id="a-power-model-or-not-2-2"><h5 class="heading"><span class="codenumber">(i)</span></h5>
+<div class="para" id="a-power-model-or-not-2-2-1-1"><span class="process-math">\(\ell = 8T^{-3}\)</span></div></article><article class="task exercise-like" id="a-power-model-or-not-2-3"><h5 class="heading"><span class="codenumber">(ii)</span></h5>
+<div class="para" id="a-power-model-or-not-2-3-1-1"><span class="process-math">\(I = -7n^4 - 5n\)</span></div></article><article class="task exercise-like" id="a-power-model-or-not-2-4"><h5 class="heading"><span class="codenumber">(iii)</span></h5>
+<div class="para" id="a-power-model-or-not-2-4-1-1"><span class="process-math">\(H = 3^d\)</span></div></article><article class="task exercise-like" id="a-power-model-or-not-2-5"><h5 class="heading"><span class="codenumber">(iv)</span></h5>
+<div class="para" id="a-power-model-or-not-2-5-1-1"><span class="process-math">\(A = -6F^{4/7}\)</span></div></article><article class="task exercise-like" id="a-power-model-or-not-2-6"><h5 class="heading"><span class="codenumber">(v)</span></h5>
+<div class="para" id="a-power-model-or-not-2-6-1-1"><span class="process-math">\(u = 5k^{-1/7}\)</span></div></article></article></article><article class="activity project-like" id="a-volume"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">14.2.2</span><span class="period">.</span>
 </h3>
 <div class="introduction" id="a-volume-1"><div class="para logical" id="a-volume-1-1">
 <div class="para">The volume of a cube can be modeled by the formula</div>
@@ -208,122 +292,96 @@ V = s^3
 <li id="a-volume-6-1-1-2-2"><div class="para" id="p-derived-a-volume-6-1-1-2-2">Find the <span class="process-math">\(\frac{1}{3}\)</span> power of 8, <span class="process-math">\(8^{1/3}\text{.}\)</span>
 </div></li>
 </ol>
-<div class="para">Find the side length of a cube with volume <span class="process-math">\(10 \text{ ft}^3\)</span>
+<div class="para">Find the side length of a cube with volume <span class="process-math">\(10 \text{ ft}^3\text{.}\)</span>
 </div>
-</div></article></article><article class="activity project-like" id="a-cube-root-law"><h3 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">5.2.2</span><span class="period">.</span>
+</div></article></article><article class="activity project-like" id="a-varies-directly-proportional"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">14.2.3</span><span class="period">.</span>
 </h3>
-<div class="introduction" id="a-cube-root-law-1"><div class="para" id="a-cube-root-law-1-1">The cube root law<details class="ptx-footnote" aria-live="polite" id="a-cube-root-law-1-1-1"><summary class="ptx-footnote__number" title="Footnote 5.2.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="a-cube-root-law-1-1-1">R. Taagepera. ``The size of national assemblies.’’ <em class="emphasis">Social Science Research</em> v. 1, no. 4. <a class="external" href="https://doi.org/10.1016/0049-089X(72)90084-1" target="_blank"><code class="code-inline tex2jax_ignore">https://doi.org/10.1016/0049-089X(72)90084-1</code></a>
-</div></details>, in political science, observes that in many countries, the number of seats in the legislative body most similar to the US House of Representatives is approximately modeled by the formula <span class="process-math">\(s = \sqrt[3]{P}\text{,}\)</span> where <span class="process-math">\(s\)</span> is the number of seats in the legislative body and <span class="process-math">\(P\)</span> is the country’s population.</div></div>
-<article class="task exercise-like" id="a-cube-root-law-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
-<div class="para" id="a-cube-root-law-2-1-1">The cube root law is a power model, even though it doesn’t look like one at first. Use the fact that cube roots are the same as the 1/3rd power to rewrite the cube root law so that it looks like a power model.</div></article><article class="task exercise-like" id="a-cube-root-law-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
-<div class="para" id="a-cube-root-law-3-1-1">The population of Canada was about 37 million in 2021. The Canadian House of Commons is similar to the US House of Representatives. Use the cube root law to predict the size of the Canadian House of Commons.</div></article><article class="task exercise-like" id="a-cube-root-law-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
-<div class="para" id="a-cube-root-law-4-1-1">In 2021, the Canadian House of Commons had 338 seats. Did the cube root law give a good estimate?</div></article><article class="task exercise-like" id="a-cube-root-law-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
-<div class="para" id="a-cube-root-law-5-1-1">The population of the United States was about 332 million in 2021. Use the cube root law to predict the size of the US House of Representatives.</div></article><article class="task exercise-like" id="a-cube-root-law-6"><h4 class="heading"><span class="codenumber">(e)</span></h4>
-<div class="para" id="a-cube-root-law-6-1-1">The US House of Representatives has 435 voting members. Did the cube root law give a good estimate?</div></article><article class="task exercise-like" id="a-cube-root-law-7"><h4 class="heading"><span class="codenumber">(f)</span></h4>
-<div class="para" id="a-cube-root-law-7-1-1">Use the cube root law to predict the population of a country with 435 members in its legistlative House.</div></article><article class="task exercise-like" id="a-cube-root-law-8"><h4 class="heading"><span class="codenumber">(g)</span></h4>
-<div class="para" id="a-cube-root-law-8-1-1">The US House of Representatives hasn’t changed size since it was set to 435 by the Apportionment Act of 1911. The US population in 1911 was about 94 million. Did the cube root law give a give estimate in 1911?</div></article></article><article class="activity project-like" id="a-ree-mass"><h3 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">5.2.3</span><span class="period">.</span>
+<div class="introduction" id="a-varies-directly-proportional-1">
+<div class="para logical" id="a-varies-directly-proportional-1-1">
+<div class="para">Power models with positive powers are often expressed in words using the language of <dfn class="terminology">proportionality</dfn>, or by saying that one quantity <dfn class="terminology">varies directly</dfn> with another. For example:</div>
+<ul class="disc">
+<li id="a-varies-directly-proportional-1-1-3-1"><div class="para" id="a-varies-directly-proportional-1-1-3-1-1">Words: The strength of a beam, <span class="process-math">\(S\text{,}\)</span> is proportional to the square of its thickness, <span class="process-math">\(h\)</span>  Power Model: <span class="process-math">\(S = ch^2\text{,}\)</span> with <span class="process-math">\(c\)</span> an unknown number</div></li>
+<li id="a-varies-directly-proportional-1-1-3-2"><div class="para" id="a-varies-directly-proportional-1-1-3-2-1">Words: The energy, <span class="process-math">\(E\text{,}\)</span> expended by a swimming dolphin varies directly with the cube of its speed, <span class="process-math">\(v\)</span> Power Model: <span class="process-math">\(E = cv^3\text{,}\)</span> with <span class="process-math">\(c\)</span> an unknown number</div></li>
+<li id="a-varies-directly-proportional-1-1-3-3"><div class="para" id="a-varies-directly-proportional-1-1-3-3-1">Words: The braking distance, <span class="process-math">\(d\text{,}\)</span> of an Alfa Romeo on dry pavement is proportional to the square of its speed (<span class="process-math">\(v\)</span>), with coefficient <span class="process-math">\(0.036\)</span>  Power Model Formula: <span class="process-math">\(d = 0.036v^2\)</span>
+</div></li>
+</ul>
+</div> <div class="para" id="a-varies-directly-proportional-1-2">In each of the following situations, set up the power model being described. Use the information given to find the coefficient, then answer the question.</div>
+</div>
+<article class="task exercise-like" id="a-varies-directly-proportional-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="a-varies-directly-proportional-2-1-1">
+<span class="process-math">\(C\)</span> is proportional to the square of <span class="process-math">\(d\text{.}\)</span> When <span class="process-math">\(d = 3\text{,}\)</span> <span class="process-math">\(C = 135\text{.}\)</span> What is <span class="process-math">\(C\)</span> when <span class="process-math">\(d = 7\text{?}\)</span>
+</div></article><article class="task exercise-like" id="a-varies-directly-proportional-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="a-varies-directly-proportional-3-1-1">
+<span class="process-math">\(T\)</span> varies directly with the cube power of <span class="process-math">\(u\text{.}\)</span> When <span class="process-math">\(u = 2\text{,}\)</span> <span class="process-math">\(T = 56\text{.}\)</span> What is <span class="process-math">\(u\)</span> when <span class="process-math">\(T = 875\text{?}\)</span>
+</div></article><article class="task exercise-like" id="a-varies-directly-proportional-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="a-varies-directly-proportional-4-1-1">The electrical current, in amperes, in a circuit varies directly as the voltage. When 27 volts are applied, the current is 9 amperes. What is the current when 39 volts are applied?</div></article></article><article class="activity project-like" id="a-aircraft-runway-length"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">14.2.4</span><span class="period">.</span>
 </h3>
-<div class="introduction" id="a-ree-mass-1"><div class="para logical" id="a-ree-mass-1-1">
-<div class="para">The resting energy expenditure (REE) is the amount of energy a person or animal needs for basic bodily functions. In the 1930s, biologist Max Kleiber<details class="ptx-footnote" aria-live="polite" id="a-ree-mass-1-1-1"><summary class="ptx-footnote__number" title="Footnote 5.2.2"><sup> 2 </sup></summary><div class="ptx-footnote__contents" id="a-ree-mass-1-1-1">Z. Wang, T. O’Connor, S. Heshka, and s. Heymsfield. ``The Reconstruction of Kleiber’s Law at the Organ-Tissue Level.’’ <em class="emphasis">The Journal of Nutrition</em> v. 131, no. 11. doi: 10.1093/jn/131.11.2967</div></details> discovered that there is a relationship between the REE of an adult mammal and its body mass:</div>
+<div class="introduction" id="a-aircraft-runway-length-1"><div class="para" id="a-aircraft-runway-length-1-1">When an aircraft takes off, it accelerates until it reaches its takeoff speed <span class="process-math">\(V\text{.}\)</span> In doing so it uses up a distance <span class="process-math">\(R\)</span> of the runway, where <span class="process-math">\(R\)</span> is proportional to the square of the takeoff speed. An aircraft with a takeoff speed of 100 mph needs 1639 feet of runway. </div></div>
+<article class="task exercise-like" id="a-aircraft-runway-length-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="a-aircraft-runway-length-2-1-1">Find a formula for a power model for the relationship between <span class="process-math">\(R\)</span> and <span class="process-math">\(V\text{.}\)</span>
+</div></article><article class="task exercise-like" id="a-aircraft-runway-length-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="a-aircraft-runway-length-3-1-1">Suppose that typical takeoff speeds for aircraft are between 60 and 190 mph. Sketch a graph showing the relationship between the takeoff speed and runway length needed for takeoff for aircraft.</div></article><article class="task exercise-like" id="a-aircraft-runway-length-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="a-aircraft-runway-length-4-1-1">Suppose that a Boeing 737 aircraft has a takeoff speed<details class="ptx-footnote" aria-live="polite" id="a-aircraft-runway-length-4-1-1-1"><summary class="ptx-footnote__number" title="Footnote 14.2.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="a-aircraft-runway-length-4-1-1-1"><a class="external" href="https://flybitlux.com/how-fast-do-airplanes-go-when-taking-off/" target="_blank"><code class="code-inline tex2jax_ignore">https://flybitlux.com/how-fast-do-airplanes-go-when-taking-off/</code></a></div></details> of 150 mph. How much runway does it need?</div></article><article class="task exercise-like" id="a-aircraft-runway-length-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="a-aircraft-runway-length-5-1-1">Foula Airfield serves the remote island of Foula, part of the Shetland Islands (north of Scotland). Flights to Foula serve tourists and deliver essential items to island’s handful of residents. Its single runway is only 1699 ft long<details class="ptx-footnote" aria-live="polite" id="a-aircraft-runway-length-5-1-1-1"><summary class="ptx-footnote__number" title="Footnote 14.2.2"><sup> 2 </sup></summary><div class="ptx-footnote__contents" id="a-aircraft-runway-length-5-1-1-1"><a class="external" href="https://www.transport.gov.scot/media/4028/itf-29-sep-2016-air-services-scoping-document-supplementary-appendices.pdf" target="_blank"><code class="code-inline tex2jax_ignore">https://www.transport.gov.scot/media/4028/itf-29-sep-2016-air-services-scoping-document-supplementary-appendices.pdf</code></a></div></details>! What is the fastest takeoff speed Foula Airfield can handle?</div></article></article><article class="activity project-like" id="a-power-model-graphs"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">14.2.5</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="a-power-model-graphs-1"><div class="para" id="a-power-model-graphs-1-1">The graphs of power models with positive integer powers are very predictable! Let’s find the pattern.</div></div>
+<article class="task exercise-like" id="a-power-model-graphs-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para logical" id="a-power-model-graphs-2-1-1">
+<div class="para">Use Desmos to graph each of the power models listed below. What patterns do you notice?</div>
 <div class="displaymath process-math">
 \begin{equation*}
-R = 70 \times M^{3/4}
+y = x^2 \qquad y = x^3 \qquad y = x^4 \qquad y = x^5 \qquad y = x^6
 \end{equation*}
 </div>
-<div class="para">where <span class="process-math">\(R\)</span> is a mammal’s REE (in kcal/d) and <span class="process-math">\(M\)</span> is its body mass (in kg).</div>
+</div></article><article class="task exercise-like" id="a-power-model-graphs-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para logical" id="a-power-model-graphs-3-1-1">
+<div class="para">Use Desmos to graph each of the power models listed below. What patterns do you notice?</div>
+<div class="displaymath process-math">
+\begin{equation*}
+y = -x^2 \qquad y = -x^3 \qquad y = -x^4 \qquad y = -x^5 \qquad y = -x^6
+\end{equation*}
+</div>
+</div></article><article class="task exercise-like" id="a-power-model-graphs-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="a-power-model-graphs-4-1-1">Use the patterns you noticed in the two parts above and what you already know about linear models to fill in each cell of the table with a sketch of the graph.</div> <figure class="table table-like" id="a-power-model-graphs-4-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">14.2.1<span class="period">.</span></span><span class="space"> </span>Shapes of Power Model Graphs</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Positive Coefficient</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Negative Coefficient</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(y = mx\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> <br> <br> <br> <br> </td>
+<td class="c m b1 r1 l0 t0 lines"> <br> <br> <br> <br> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(y = ax^{\text{even power}}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> <br> <br> <br> <br> </td>
+<td class="c m b1 r1 l0 t0 lines"> <br> <br> <br> <br> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(y = ax^{\text{odd power}}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> <br> <br> <br> <br> </td>
+<td class="c m b1 r1 l0 t0 lines"> <br> <br> <br> <br> </td>
+</tr>
+</table></div></figure></article><article class="task exercise-like" id="a-power-model-graphs-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="a-power-model-graphs-5-1-1">Explain why equations involving a power model with an odd power only have one solution.</div></article><article class="task exercise-like" id="a-power-model-graphs-6"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<div class="introduction" id="a-power-model-graphs-6-1"><div class="para logical" id="a-power-model-graphs-6-1-1">
+<div class="para">Suppose that we want to find <em class="emphasis">all</em> solutions to the equation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+-96 = -6x^4\text{.}
+\end{equation*}
+</div>
 </div></div>
-<article class="task exercise-like" id="a-ree-mass-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
-<div class="para" id="a-ree-mass-2-1-1">Explain why Kleiber’s model for REE is a power model. What are the quantities, coefficient, and power?</div></article><article class="task exercise-like" id="a-ree-mass-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
-<div class="para" id="a-ree-mass-3-1-1">Sketch a graph showing the relationship between REE and body mass in mammals.</div></article><article class="task exercise-like" id="a-ree-mass-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
-<div class="para" id="a-ree-mass-4-1-1">Use this model to find the REE of a mammal with body mass 80 kg.</div></article><article class="task exercise-like" id="a-ree-mass-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
-<div class="para logical" id="a-ree-mass-5-1-1">
-<div class="para">In order to find the body mass of a mammal with REE 1400 kcal/d, we need to undo the 3/4ths power. We don’t usually talk about the 3/4ths root. Instead, we stick with fractional exponents. To undo the 3/4ths power, we’ll use the 1/(3/4)ths power.  Here’s how this example works out!</div>
-<div class="displaymath process-math">
-\begin{equation*}
-1400 = 70 \times M^{3/4}
-\end{equation*}
-</div>
-<div class="para">Divide both sides by 70 to get:</div>
-<div class="displaymath process-math">
-\begin{equation*}
-20 = M^{3/4}
-\end{equation*}
-</div>
-<div class="para">Raise both sides to the 1/(3/4)ths power:</div>
-<div class="displaymath process-math">
-\begin{equation*}
-20^{1/(3/4)} = \left(M^{3/4}\right)^{1/(3/4)}
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-54.29 = M
-\end{equation*}
-</div>
-</div> <div class="para" id="a-ree-mass-5-1-2">
-<em class="emphasis">Note:</em> 1/(3/4) is hard to read and work with! It’s important to get the parentheses right, since 1/(3/4) and (1/3)/4 are different (try to plug both into a calculator and see for yourself!). Instead of doing 1/(3/4), it’s more common to either turn 3/4 into a decimal and do 1/0.75, or to use fraction arithmetic rules to rewrite 1/(3/4) as 4/3.</div> <div class="para" id="a-ree-mass-5-1-3">Find the mass of a mammal with REE 2000 kcal/d.</div></article></article><article class="activity project-like" id="a-kepler-3rd-law"><h3 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">5.2.4</span><span class="period">.</span>
-</h3>
-<div class="introduction" id="a-kepler-3rd-law-1"><div class="para logical" id="a-kepler-3rd-law-1-1">
-<div class="para">Kepler’s Third Law tells us that</div>
-<div class="displaymath process-math">
-\begin{equation*}
-133404 \times a^3 = T^2
-\end{equation*}
-</div>
-<div class="para">where <span class="process-math">\(a\)</span> is the planet’s distance from the Sun in AU and <span class="process-math">\(T\)</span> is the number of days the planet takes to orbit the Sun. Note that 1 AU is the distance between Earth and the Sun.</div>
-</div></div>
-<article class="task exercise-like" id="a-kepler-3rd-law-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
-<div class="para" id="a-kepler-3rd-law-2-1-1">Plug in <span class="process-math">\(a = 1\)</span> and find <span class="process-math">\(T\text{.}\)</span> Does Kepler’s third law give the correct number of days in a year?</div></article><article class="task exercise-like" id="a-kepler-3rd-law-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
-<div class="para" id="a-kepler-3rd-law-3-1-1">Mars’s distance from the sun is 1.524 AU. Use Kepler’s third law to find the length of a year on Mars.</div></article><article class="task exercise-like" id="a-kepler-3rd-law-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
-<div class="para logical" id="a-kepler-3rd-law-4-1-1">
-<div class="para">Rewrite Kepler’s Third Law so that it has the form</div>
-<div class="displaymath process-math">
-\begin{equation*}
-T = \text{something}\text{.}
-\end{equation*}
-</div>
-</div></article><article class="task exercise-like" id="a-kepler-3rd-law-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
-<div class="para" id="a-kepler-3rd-law-5-1-1">Kepler’s Third Law is a power model in disguise! Talk to your table and decide how to use fractional exponents to rewrite your equation from the previous part with a fractional exponent.</div></article><article class="task exercise-like" id="a-kepler-3rd-law-6"><h4 class="heading"><span class="codenumber">(e)</span></h4>
-<div class="para" id="a-kepler-3rd-law-6-1-1">Use Kepler’s Third Law to predict the distance from the Sun to a planet with a 10,776 day year. (What planet is this? Use the Internet to find out! How good was your distance estimate?)</div></article></article><article class="activity project-like" id="a-color-noise"><h3 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">5.2.5</span><span class="period">.</span>
-</h3>
-<div class="introduction" id="a-color-noise-1"><div class="para logical" id="a-color-noise-1-1">
-<div class="para">Pink noise is a type of sound that may help some people fall asleep and/or help people with ADHD concentrate.<details class="ptx-footnote" aria-live="polite" id="a-color-noise-1-1-1"><summary class="ptx-footnote__number" title="Footnote 5.2.3"><sup> 3 </sup></summary><div class="ptx-footnote__contents" id="a-color-noise-1-1-1">C. Johnson, “Have you tried pink noise for sleep? Here’s what to know.” AP New, May 20, 2024. <a class="external" href="https://apnews.com/article/pink-brown-white-noise-sleep-focus-concentration-f5f24dad1effb09c1cf8b607bd22ebc7" target="_blank"><code class="code-inline tex2jax_ignore">https://apnews.com/article/pink-brown-white-noise-sleep-focus-concentration-f5f24dad1effb09c1cf8b607bd22ebc7</code></a>
-</div></details> Higher frequency sounds are less intense than low frequency sounds in pink noise. We can model this relationship using the formula</div>
-<div class="displaymath process-math">
-\begin{equation*}
-P = \frac{1}{f}
-\end{equation*}
-</div>
-<div class="para">where <span class="process-math">\(P\)</span> is the power of the sound and <span class="process-math">\(f\)</span> is its frequency.</div>
-</div></div>
-<article class="task exercise-like" id="a-color-noise-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
-<div class="para" id="a-color-noise-2-1-1">The two octaves around middle A on a piano have frequencies of about 220 - 880 Hz. Sketch a graph showing the relationship of power to frequency in pink noise for the two octaves around middle A.</div></article><article class="task exercise-like" id="a-color-noise-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
-<div class="para logical" id="a-color-noise-3-1-1">
-<div class="para">The model for pink noise is also a power model! We can rewrite it as</div>
-<div class="displaymath process-math">
-\begin{equation*}
-P = f^{-1}\text{.}
-\end{equation*}
-</div>
-<div class="para">Talk to your table and brainstorm reasons why it might make sense for negative exponents to be related to variables in the denominator of fractions.</div>
-</div></article><article class="task exercise-like" id="a-color-noise-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
-<div class="para logical" id="a-color-noise-4-1-1">
-<div class="para">Brown noise is similar to pink noise, but has the model</div>
-<div class="displaymath process-math">
-\begin{equation*}
-P = \frac{1}{f^2} 
-\end{equation*}
-</div>
-<div class="para">instead. How can we rewrite this formula as a power model? Think on your own, and then compare notes with your table.</div>
-</div></article><article class="task exercise-like" id="a-color-noise-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
-<div class="para" id="a-color-noise-5-1-1">Sketch a graph showing the relationship of power to frequency in brown noise for the two octaves around middle A.</div></article><article class="task exercise-like" id="a-color-noise-6"><h4 class="heading"><span class="codenumber">(e)</span></h4>
-<div class="para" id="a-color-noise-6-1-1">Does pink or brown noise have more power at 220 Hz? at 440 Hz? at 880 Hz?</div></article></article></section></div>
+<article class="task exercise-like" id="a-power-model-graphs-6-2"><h5 class="heading"><span class="codenumber">(i)</span></h5>
+<div class="para" id="a-power-model-graphs-6-2-1-1">Use a sketch of the graph of <span class="process-math">\(y = -6x^4\)</span> to explain why there are two solutions. Then, use Desmos to find both solutions.</div></article><article class="task exercise-like" id="a-power-model-graphs-6-3"><h5 class="heading"><span class="codenumber">(ii)</span></h5>
+<div class="para" id="a-power-model-graphs-6-3-1-1">Find both solutions with algebra.</div></article><article class="task exercise-like" id="a-power-model-graphs-6-4"><h5 class="heading"><span class="codenumber">(iii)</span></h5>
+<div class="para" id="a-power-model-graphs-6-4-1-1">Camila consistently gets problems like this one wrong. Write a set of steps for Camila to follow that will help her find all solutions to equations involving a power model with an even power using algebra.</div></article></article></article></section></div>
 <div class="ptx-content-footer">
-<a class="previous-button button" href="sec-multivar-models.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-quad-and-polyn.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="sec-power-models-prep.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-roots-fractions.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
