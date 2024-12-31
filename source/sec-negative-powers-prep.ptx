@@ -3,9 +3,128 @@
 <section xml:id="sec-negative-powers-prep" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Negative Powers Prep Activities</title>
 
-  <p>
-    TBD
-  </p>
+  <investigation xml:id="pa-discover-negative-powers">
+    <introduction>
+        <p>
+            We have one final exponent rule to discover.
+        </p>
+    </introduction>
+    <task>
+        <introduction>
+            <p>
+                Use repeated multiplication to rewrite each of the following expressions, then simplify by canceling.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>\frac{x^2}{x^5}</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>\frac{x^3}{x^7}</m>
+                </p>
+            </statement>
+        </task>
+    </task>
+    <task>
+        <introduction>
+            <p>
+                Use the Quotient Rule for Exponents to rewrite each of the following expressions as <m>x^{\text{power}}</m>.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>\frac{x^2}{x^5}</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>\frac{x^3}{x^7}</m>
+                </p>
+            </statement>
+        </task>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Explain why the last two parts support the reasonableness of the rule <me>\frac{1}{x^n} = x^{-n}</me>.
+            </p>
+        </statement>
+    </task>
+  </investigation>
+
+  <investigation xml:id="pa-negative-powers-rewrite">
+    <introduction>
+        <p>
+            Let's practice using our new rule, along with other exponent rules, to rewrite expressions.
+        </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                Rewrite as <m>ax^\text{power}</m>: <m>\frac{6}{x}</m>
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Rewrite as <m>ax^\text{power}</m>:<m>\frac{4x^3}{8x^6}</m>
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Rewrite without any negative exponents: <m>6^{-1}x^3x^{-5}</m>
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Rewrite without any negative exponents: <m>\left(4x^{-6}\right)^{-2}</m>
+            </p>
+        </statement>
+    </task>
+  </investigation>
+
+  <investigation xml:id="pa-negative-powers-algebra">
+    <introduction>
+        <p>
+            In many cases, the best way to deal with negative exponents and/or a variable in the denominator in an equation is to move the variable to the other side of the equation using multiplication. For example:
+        </p>
+        <md>
+            <mrow>9 \amp= \frac{5}{x^6}</mrow>
+            <mrow>x^6 \cdot 9 \amp= \frac{5}{x^6} \cdot x^6 </mrow>
+            <mrow>9x^6 \amp= 5 </mrow>
+            <mrow>x^6 \amp= \frac{5}{9} </mrow>
+            <mrow>x \amp = \pm \sqrt[6]{\frac{5}{9}} </mrow>
+        </md>
+        Use this strategy to solve each of the equations below.
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                <m>\frac{9}{x^{5}} = -3</m>
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                <m>8 = -6x^{-7}</m>
+            </p>
+        </statement>
+    </task>
+  </investigation>
 
   <investigation xml:id="pa-negative-powers-prep-confidence">
         <p>
@@ -18,11 +137,11 @@
                     <cell>Rating from 1 to 5</cell>
                 </row>
                 <row>
-                    <cell>Identify whether or not a formula is a power model.</cell>
+                    <cell>Use the equality <m>\frac{1}{x^n} = x^{-n}</m> to rewrite expressions.</cell>
                     <cell></cell>
                 </row>
                 <row>
-                    <cell>Explain the difference between power models and exponential models.</cell>
+                    <cell>Solve equations involving negative exponents.</cell>
                     <cell></cell>
                 </row>
             </tabular>

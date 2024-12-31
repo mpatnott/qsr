@@ -3,18 +3,41 @@
 <section xml:id="sec-negative-powers" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Negative Powers Activities</title>
 
-  <introduction>
-    <p>
-        Introduce <m>\frac{1}{x^n} = x^{-n}</m>
-    </p>
-  </introduction>
-
-  <activity xml:id="a-basic-negative-exponents-practice">
-    Basic algebra practice
-  </activity>
-
   <activity xml:id="a-inversely-proportional">
-    Varies inversely/inversely proportional language
+    <introduction>
+        <p>
+            Power models with negative powers are often expressed in words using the language of <term>inverse proportionality</term>, or by saying that one quantity <term>varies indirectly</term> with another. For example:
+            <ul>
+                <li>
+                    <p>
+                        The force <m>F</m> (in pounds) needed on a wrench handle to loosen a certain bolt varies inversely with the length <m>L</m> of the handle. So <me>F = \frac{c}{L} \qquad \text{or} \qquad F = cL^{-1}</me> for some constant <m>c</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The weight, <m>w</m>, of an object above the surface of Earth varies inversely with the square of distance from the center of Earth, <m>d</m>. So <me>w = \frac{c}{d^2} \qquad \text{or} \qquad w = cd^{-2}</me> for some constant <m>c</m>.
+                    </p>
+                </li>
+            </ul>
+        </p>
+        <p>
+            In each of the following situations, set up the power model being described. Use the information given to find the coefficient, then answer the question.
+        </p>
+    </introduction>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                The loudness, <m>L</m>, of a sound (measured in decibels, dB) is inversely proportional to the square of the distance, <m>d</m>, from the source of the sound. When a person 7.0 feet from a jetski, it is 75.0 decibels loud. How loud is the jetski when the person is 45 feet away?
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                The number of hours, <m>h</m>, required to build a fence is inversely proportional to the number of people, <m>n</m> working on the fence. If it takes 4 people 31 hours to complete the fence, then how long will it take 11 people to build the fence?
+            </p>
+        </statement>
+    </task>
   </activity>
 
   <activity xml:id="a-color-noise">
@@ -62,21 +85,137 @@
 
   <!-- https://mafitch.github.io/tech_math/section-variation.html -->
   <activity xml:id="a-snow-shoes">
-    Pressure is a measure of the amount of force spread over an area.
-    <me>P = \frac{F}{A}</me>
-    where
-    <ul>
-        <li><m>P</m> is pressure</li>
-        <li><m>F</m> is the force in units of pounds (lbs) or Newtons (N),</li>
-        <li><m>A</m> is the area in units of square inches, or meters, or similar.</li>
-    </ul>
-    
-    Walking on snow (or mud) is difficult because our feet tend to puncture the snow (high pressure applied to low strength snow). We can use snowshoes to avoid this problem: they reduce pressure with minimal increase in force (weight).
-
-    Determine the pressure Guido exerts on the snow without and with snow shoes. Suppose Guido weighs 172 lbs.
+    <introduction>
+        <p>
+            Pressure is a measure of the amount of force spread over an area.
+            <me>P = \frac{F}{A}</me>
+            where
+            <ul>
+                <li><m>P</m> is pressure</li>
+                <li><m>F</m> is the force in units of pounds (lbs) or Newtons (N),</li>
+                <li><m>A</m> is the area in units of square inches, or meters, or similar.</li>
+            </ul>
+        </p>
+        <p>
+            Walking on snow (or mud) is difficult because our feet tend to puncture the snow (high pressure applied to low strength snow). We can use snowshoes to avoid this problem: they reduce pressure with minimal increase in force (weight).
+        </p>
+        <p>
+            Suppose Guido weighs 172 lbs.
+        </p>
+    </introduction>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Without snowshoes, each of Guido's feet has an area of <m>22\text{ in}^2</m>. What is the pressure he exerts on the snow? Don't forget that Guido has two feet!
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                If he wears snowshoes that have a surface area of <m>144\text{ in}^2</m>, what is the pressure?
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                If Guido wants to exert a pressure of <m>1 \text{ lb/in}^2</m>, how big do his snowshoes need to be? If he wants to exert a pressure of <m>0.5 \text{ lb/in}^2</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="1in">
+        <statement>
+            <p>
+                Guido's little sister Luisa only weighs 75 lbs. How are the answers above different for Luisa?
+            </p>
+        </statement>
+    </task>
   </activity>
 
   <activity xml:id="a-adv-exponent-rules-practice">
-    More exponent rules practice
+    <introduction>
+        <p>
+            We have now seen all of the exponent rules! Use your knowledge of exponent rules to rewrite each of the expressions below. 
+        </p>
+    </introduction>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Rewrite as <m>ax^{\text{power}}</m>: <m>\frac{5x^3}{x \cdot x^3}</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Rewrite without negative exponents: <m>\frac{x^{-8}}{2x^7}</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Rewrite without negative exponents: <m>\left(a^{-6} b^2\right)^6</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Rewrite without negative exponents: <m>\left(\frac{8}{x^6}\right)^neg</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Rewrite without negative or fractional exponents: <m>\left(n^{-8}m^5\right)^{-\frac12}</m>
+            </p>
+        </statement>
+    </task>
+  </activity>
+
+  <activity xml:id="a-logs-and-negatives">
+    <introduction>
+        <p>
+            Let's stretch our understanding of negative and fractional exponents and of logarithms! Evaluate each of the logs below <alert>without using a calculator</alert>. You can check your answer with a calculator, but should first find them without one.
+        </p>
+    </introduction>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                <m>\log_2\left(\sqrt{2}\right)</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                <m>\log_2\left(\frac{1}{2}\right)</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                <m>\log_{10}\left(\frac{1}{100}\right)</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                <m>\log_{9}\left(\frac{1}{3}\right)</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                <alert>Challenge:</alert> Find <m>b</m> so that <m>\log_b\left(\frac{1}{125}\right) = -3</m>
+            </p>
+        </statement>
+    </task>
   </activity>
 </section>
