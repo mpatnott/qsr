@@ -163,7 +163,7 @@
     <task workspace="0.5in">
         <statement>
             <p>
-                Rewrite without negative exponents: <m>\left(\frac{8}{x^6}\right)^neg</m>
+                Rewrite without negative exponents: <m>\left(\frac{8}{x^6}\right)^{-5}</m>
             </p>
         </statement>
     </task>
