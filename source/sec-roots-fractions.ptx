@@ -261,7 +261,7 @@
     <task workspace="0.5in">
         <statement>
             <p>
-                Rewrite with fractional exponents: <m>\frac{\sqrt[4]{x^7}}{\[4]sqrt{x}}</m>
+                Rewrite with fractional exponents: <m>\frac{\sqrt[4]{x^7}}{\sqrt[4]{x}}</m>
             </p>
         </statement>
     </task>
