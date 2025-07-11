@@ -8,7 +8,7 @@
   </introduction> -->
 
 <!-- include sections -->
-  <chapter xml:id="ch-percents" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- <chapter xml:id="ch-percents" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Working with Percentages</title>
     
     <xi:include href="sec-working-with-percentages-prep.ptx" />
@@ -20,6 +20,13 @@
     
     <xi:include href="sec-relative-change-prep.ptx" />
     <xi:include href="sec-relative-change.ptx" />
+  </chapter> -->
+
+  <chapter xml:id="ch-percent-change" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title> Percent Change</title>
+
+    <xi:include href="sec-percent-change-prep.ptx"/>
+    <xi:include href="sec-percent-change.ptx"/>
   </chapter>
 
   <chapter xml:id="ch-build-exponential-models" xmlns:xi="http://www.w3.org/2001/XInclude">

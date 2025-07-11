@@ -11,13 +11,17 @@
         </introduction>
 
         <investigation workspace="0.5in" xml:id="pa-choose-linear-model">
-            Zeke is driving from his house to the beach and wants to model how far he is from home. He is currently 50 miles from home and will drive 65 mph until he reaches the beach. Let <m>t</m> be time in hours and <m>D(t)</m> be distance in miles from Zeke's home. Which of the following equations models this situation? Explain your answer in words.
-            <ol>
-                <li><m>D(t) = 50 - 65t</m></li>
-                <li><m>D(t) = 50 + 65t</m></li>
-                <li><m>D(t) = 65 - 50t</m></li>
-                <li><m>D(t) = 65 + 50t</m></li>
-            </ol>
+            <statement>
+                <p>
+                    Zeke is driving from his house to the beach and wants to model how far he is from home. He is currently 50 miles from home and will drive 65 mph until he reaches the beach. Let <m>t</m> be time in hours and <m>D(t)</m> be distance in miles from Zeke's home. Which of the following equations models this situation? Explain your answer in words.
+                </p>
+                <ol>
+                    <li><m>D(t) = 50 - 65t</m></li>
+                    <li><m>D(t) = 50 + 65t</m></li>
+                    <li><m>D(t) = 65 - 50t</m></li>
+                    <li><m>D(t) = 65 + 50t</m></li>
+                </ol>
+            </statement>
         </investigation>
 
         <investigation workspace="0.5in" xml:id="pa-org-members">

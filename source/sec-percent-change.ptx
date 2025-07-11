@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-percent-change" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Percent Change</title>
+
+  <introduction>
+    <p>
+        In <xref ref="sec-percent-change-prep"/>, we saw:
+        <ul>
+            <li>
+                <p>
+                    If Audryn left a $12.25 tip on a $68.00 bill, then she left an 18% tip. She paid $80.24 in totla, or 118% of the original bill.
+                </p>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <p>
+                    If August bought a shirt that originally cost $25 but was 15% off, then he paid $21.25 for the shirt. The price he paid was 85% of the original price.
+                </p>
+            </li>
+        </ul>
+    </p>
+    <p>
+        We often describe increases and decreases in terms of percents.
+        <ul>
+            <li>
+                <p>
+                    The <term>initial value</term> is the original amount.
+                </p>
+            </li>
+            <li>
+                <p>
+                    The <term>percent change</term> or <term>relative change</term> is the percent increase or decrease from the initial value. The percent change is negative if it's a decrease.
+                </p>
+            </li>
+            <li>
+                <p>
+                    The <term>change factor</term> is the new value as a percent of the original value, divided by 100.
+                </p>
+            </li>
+        </ul>
+    </p>
+  </introduction>
+  <example>
+    In the examples of Audryn and August, we have
+    <table>
+        <title>Examples of Percent Change Vocabulary</title>
+        <tabular row-headers = "yes" halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+            <row header="yes">
+                <cell></cell>
+                <cell>Audryn</cell>
+                <cell>August</cell>
+            </row>
+            <row>
+                <cell>Initial Value</cell>
+                <cell>68</cell>
+                <cell>25</cell>
+            </row>
+            <row>
+                <cell>Percent Change</cell>
+                <cell>18%</cell>
+                <cell>-15%</cell>
+            </row>
+            <row>
+                <cell>Change Factor</cell>
+                <cell>1.18</cell>
+                <cell>0.85</cell>
+            </row>
+        </tabular>
+    </table>
+  </example>
+  <p>
+    The change factor is always
+    <me>\frac{100 + \text{Percent Change}}{100}</me>.
+  </p>
+
+  <activity xml:id="a-find-change-factor">
+    <task workspace="1in">
+        <statement>
+            <p>
+                The city of Denver has a 9.15% sales tax. What is the change factor for the cost of items purchased in Denver?
+            </p>
+        </statement>
+    </task>
+    <task workspace="1in">
+        <statement>
+            <p>
+                A store is having a sale and all of its items are 25% off. What is the change factor for the price of items in this store?
+            </p>
+        </statement>
+    </task>
+  </activity>
+
+  <activity xml:id="a-notice-multiply-change-factor">
+    <task workspace="1in">
+        <statement>
+            <p>
+                Multiply <m>68 \times 1.18</m>. How does your answer compare to the total Audryn paid for her dinner?
+            </p>
+        </statement>
+    </task>
+    <task workspace="1in">
+        <statement>
+            <p>
+                Multiply <m>25 \times 0.85</m>. How does your answer compare to what August paid for his shirt?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <introduction>
+            <p>
+                Mccoy bought a pair of earbuds in Denver for $79.99. 
+            </p>
+        </introduction>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Find the amount they paid after sales tax.
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Multiply <m>79.99 \times \text{Change factor from }</m><xref ref="a-find-change-factor"/> part (a).
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    What do you notice about your answers?
+                </p>
+            </statement>
+        </task>
+    </task>
+  </activity>
+
+  <p>
+    In <xref ref="a-notice-multiply-change-factor"/>, you should have noticed that
+    <me>\text{New Value} = \text{Initial Value } \times \text{ Change Factor}</me>
+  </p>
+
+  <activity>
+    <introduction>
+        <p>
+            In 2024, Jacob worked as a fast food manager and had a taxable income of $61,009. He paid 13.9% in federal income tax.
+        </p>
+    </introduction>
+    <task workspace="1in">
+        <statement>
+            <p>
+                What are the initial value and percent change?
+            </p>
+        </statement>
+    </task>
+    <task workspace="1in">
+        <statement>
+            <p>
+                What is the change factor?
+            </p>
+        </statement>
+    </task>
+    <task workspace="1in">
+        <statement>
+            <p>
+                Use the change factor to find Jacob's income after taxes.
+            </p>
+        </statement>
+    </task>
+  </activity>
+
+  <activity>
+    <introduction>
+        <p>
+            According to the US Census Bureau<fn><url href="https://www.census.gov/quickfacts/fact/table/denvercountycolorado/POP010210" /></fn>, the population of Denver County was 600,158 people in 2010. Denver County's population increased 19.4% between 2010 and 2023.
+        </p>
+    </introduction>
+    <task workspace="1in">
+        <statement>
+            <p>
+                What are the initial value and percent change?
+            </p>
+        </statement>
+    </task>
+    <task workspace="1in">
+        <statement>
+            <p>
+                What is the change factor?
+            </p>
+        </statement>
+    </task>
+    <task workspace="1in">
+        <statement>
+            <p>
+                Use the change factor to find Denver County's population in 2023.
+            </p>
+        </statement>
+    </task>
+  </activity>
+
+  <activity>
+    <introduction>
+        <p>
+            According to a local news report from August 2024<fn><url href="https://kdvr.com/news/local/rent-on-the-rise-report-shows-annual-increase-in-denver/" /></fn>, the median rent for a two-bedroom apartment in Denver was $2,470, a 1.6% increase from August 2023.
+        </p>
+    </introduction>
+    <task workspace="1in">
+        <statement>
+            <p>
+                What is the change factor for the median rent of a two-bedroom apartment in Denver from 2023 to 2024?
+            </p>
+        </statement>
+    </task>
+    <task workspace="1in">
+        <statement>
+            <p>
+                The news report included the median rent in 2024, but not the median rent in 2023! That is, it gave us the new value, instead of the initial value. Use the new value (given in the problem statement) and the change factor to find the initial value (the median rent in 2023).
+            </p>
+        </statement>
+    </task>
+  </activity>
+
+  <activity>
+    <introduction>
+        <p>
+            A store advertises an Apple Watch Series 10 as on sale for $309. The ad says that this is a 28% discount from its original price. 
+        </p>
+    </introduction>
+    <task workspace="1in">
+        <statement>
+            <p>
+                What is the change factor for the price of the Apple Watch?
+            </p>
+        </statement>
+    </task>
+    <task workspace="1in">
+        <statement>
+            <p>
+                The ad includes the sales price, but not the original price. Use the sales price and the change factor to find the original price.
+            </p>
+        </statement>
+    </task>
+  </activity>
+
+  <activity>
+    <introduction>
+        <p>
+            Celeste has $40 to pay for lunch, including tip. She always tips 21%, and wants to figure out the maximum amount that she can spend on her lunch in order to have enough to pay for both the lunch and the tip.
+        </p>
+    </introduction>
+    <task workspace="1in">
+        <statement>
+            <p>
+                What is the change factor?
+            </p>
+        </statement>
+    </task>
+    <task workspace="1in">
+        <statement>
+            <p>
+                Is $40 the initial value or the new value?
+            </p>
+        </statement>
+    </task>
+    <task workspace="1in">
+        <statement>
+            <p>
+                Is the max amount that Celeste can spend on lunch the initial value or the new value?
+            </p>
+        </statement>
+    </task>
+    <task workspace="1in">
+        <statement>
+            <p>
+                Use the change factor and your answers to parts (b) and (c) to find the maximum amount that Celeste can spend on lunch.
+            </p>
+        </statement>
+    </task>
+  </activity>
+
+  <activity>
+    <introduction>
+        <p>
+            The table below gives the median household income in Colorado, according to the Federal Reserve Bank of St. Louis<fn><url href="https://fred.stlouisfed.org/series/MEHOINUSCOA646N" /></fn>
+        </p>
+        <table>
+            <title>Median Household Income in Colorado, 2019 - 2023</title>
+            <tabular row-headers="yes" halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                <row>
+                    <cell>Year</cell>
+                    <cell>2019</cell>
+                    <cell>2020</cell>
+                    <cell>2021</cell>
+                    <cell>2022</cell>
+                    <cell>2023</cell>
+                </row>
+                <row>
+                    <cell>Median Income ($)</cell>
+                    <cell>72,500</cell>
+                    <cell>83,780</cell>
+                    <cell>84,950</cell>
+                    <cell>89,930</cell>
+                    <cell>96,640</cell>
+                </row>
+            </tabular>
+        </table>
+    </introduction>
+    <task workspace="1in">
+        <statement>
+            <p>
+                Find the change factor from each year to next. Round to three (3) decimal places. The change factor from 2019 to 2020 has been done for you, as an example.
+            </p>
+            <table>
+                <title>Annual Change Factors in Colorado Median Household Income</title>
+                <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                    <row header="yes">
+                        <cell>Years</cell>
+                        <cell>Change Factor</cell>
+                    </row>
+                    <row>
+                        <cell>2019 to 2020</cell>
+                        <cell><m>\frac{83,780}{72,500} = 1.156</m></cell>
+                    </row>
+                    <row>
+                        <cell>2020 to 2021</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell>2021 to 2022</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell>2022 to 2023</cell>
+                        <cell></cell>
+                    </row>
+                </tabular>
+            </table>
+        </statement>
+    </task>
+    <task workspace="1in">
+        <statement>
+            <p>
+                Find the percent change from each year to the next in Colorado median household income. The percent change from 2019 to 2020 has been done for you, as an example.
+            </p>
+            <table>
+                <title>Annual Percent Change in Colorado Median Household Income</title>
+                <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                    <row header="yes">
+                        <cell>Years</cell>
+                        <cell>Percent Change</cell>
+                    </row>
+                    <row>
+                        <cell>2019 to 2020</cell>
+                        <cell><m>1.156 \times 100 - 100 = 15.6%</m></cell>
+                    </row>
+                    <row>
+                        <cell>2020 to 2021</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell>2021 to 2022</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell>2022 to 2023</cell>
+                        <cell></cell>
+                    </row>
+                </tabular>
+            </table>
+        </statement>
+    </task>
+    <task workspace="1in">
+        <statement>
+            <p>
+                What do you notice? What do you wonder?
+            </p>
+        </statement>
+    </task>
+  </activity>
+</section>
