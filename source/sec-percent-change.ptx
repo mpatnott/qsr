@@ -379,4 +379,48 @@
         </statement>
     </task>
   </activity>
+
+  <activity>
+    <introduction>
+        <p>
+            <em>Challenge:</em> Kaitlyn is ordering pizza. The screenshot below shows her order in the app, just before placing the order. On the previous screen, Kaitlyn chose to leave a 20% tip, and entered a code for a free pizza. 
+        </p>
+        <figure xml:id="fig-mod-pizza-receipt">
+            <caption>Summary of Kaitlyn's pizza order.</caption>
+            <image source="./images/mod-pizza-receipt.jpg" width="50%">
+                <shortdescription>Subtotal of $14.28, discount of $10.79, $0.30 in taxes, $2.86 tip, total of $6.65.</shortdescription>
+                <description>
+                    <p>
+                        Subtotal of $14.28, discount of $10.79, $0.30 in taxes, $2.86 tip, total of $6.65.
+                    </p>
+                </description>
+            </image>
+        </figure>
+    </introduction>
+    <task workspace="1in">
+        <statement>
+            <p>
+                Kaitlyn's friend Brixton tells her not press the Place Order button, because there's obviously a scam involved in calculating the tip. Use what you've learned about percent change to explain why Brixton is suspicious. 
+            </p>
+        </statement>
+    </task>
+    <task workspace="1in">
+        <statement>
+            <p>
+                There isn't actually a scam here, but:
+            </p>
+            <ul>
+                <li>
+                    <p>
+                        The way the app has displayed the subtotal, discount, taxes, and tip is misleading and
+                    </p>
+                </li>
+                <li>The way the app calculated the tip might not align with what Kaitlyn was expecting.</li>
+            </ul>
+            <p>
+                Use what you've learned about percent change to figure out what the app has done, and explain it to Kaitlyn and Brixton.
+            </p>
+        </statement>
+    </task>
+  </activity>
 </section>
