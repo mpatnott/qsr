@@ -5,12 +5,17 @@
 
   <page>
     <investigation xml:id="pa-repeated-percent-change">
+        <introduction>
+            <p>
+                Let's use what we've learned about change factors and rates of change to find the population of three small towns. Resist the temptation to find the populations of the towns in Indiana and Ohio by first using the percent to find the number of people the town gains or loses, and then adding or subtracting! That's a mathematically valid way to solve the problem, and would be fine if our real goal was to get the answers. But, our real goal is to practice using change factors and to have a couple of examples to help us see the connection between change factors and exponential models.  
+            </p>
+        </introduction>
         <task workspace="0.5in">
-            <statement>
+            <introduction>
                 <p>
-                    The population of a small town in Indiana was 5,500 people in the year 2010 and census data showed that the population grew by approximately 2.5% every year until 2020. What was the approximate population in 2011? 2012? 2013? 2020? Round to the nearest person.
+                    The population of a small town in Indiana was 5,500 people in the year 2010 and census data showed that the population grew by approximately 2.5% every year until 2020. 
                 </p>
-                <table>
+                <!-- <table>
                     <title>Indiana Town Population</title>
                     <tabular row-headers="yes" halign="center" top="minor" bottom="minor" right="minor" left="minor">
                         <row>
@@ -30,53 +35,43 @@
                             <cell></cell>
                         </row>
                     </tabular>
-                </table>
-            </statement>
-        </task>
-        <!-- <task workspace="0.5in">
-            <statement>
-                <p>
-                    If Karl invested $5,500 in 2010 in an account which earned 2.5% interest every year, how much money would be in the account after one year? Two years? Three years? Ten years? Round to the nearest penny.
-                </p>
-                <table>
-                    <title>Karl's Money</title>
-                    <tabular row-headers="yes" halign="center" top="minor" bottom="minor" right="minor" left="minor">
-                        <row>
-                            <cell>Year</cell>
-                            <cell>2010</cell>
-                            <cell>2011</cell>
-                            <cell>2012</cell>
-                            <cell>2013</cell>
-                            <cell>2020</cell>
-                        </row>
-                        <row>
-                            <cell>Population</cell>
-                            <cell>5500</cell>
-                            <cell></cell>
-                            <cell></cell>  
-                            <cell></cell>  
-                            <cell></cell>
-                        </row>
-                    </tabular>
-                </table>
-            </statement>
+                </table> -->
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        What is the change factor?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use the change factor to find the population in 2011.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use the change factor to find the population in 2012 and 2013.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use the change factor to find the population in 2020.
+                    </p>
+                </statement>
+            </task>
         </task>
         <task workspace="0.5in">
-            <statement>
+            <introduction>
                 <p>
-                    What are the similarities and differences between the previous two situations?
+                    The population of a small town in Ohio was 5,500 people in the year 2010 and census data showed that the population decreased by approximately 2.5% every year until 2020. <!-- What was the approximate population in 2011? 2012? 2013? 2020? Round to the nearest person. -->
                 </p>
-            </statement>
-        </task>
-    </investigation>
-
-    <investigation> -->
-        <task workspace="0.5in">
-            <statement>
-                <p>
-                    The population of a small town in Ohio was 5,500 people in the year 2010 and census data showed that the population decreased by approximately 2.5% every year until 2020. What was the approximate population in 2011? 2012? 2013? 2020? Round to the nearest person.
-                </p>
-                <table>
+                <!-- <table>
                     <title>Ohio Town Population</title>
                     <tabular row-headers="yes" halign="center" top="minor" bottom="minor" right="minor" left="minor">
                         <row>
@@ -96,15 +91,43 @@
                             <cell></cell>
                         </row>
                     </tabular>
-                </table>
-            </statement>
+                </table> -->
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        What is the change factor?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use the change factor to find the population in 2011.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use the change factor to find the population in 2012 and 2013.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use the change factor to find the population in 2020.
+                    </p>
+                </statement>
+            </task>
         </task>
         <task workspace="0.5in">
-            <statement>
+            <introduction>
                 <p>
-                    The population of a small town in Michigan was also 5,500 people in the year 2010, but it decreased by an average of 150 people a year until 2020. What was the approximate population in 2011? 2012? 2013? 2020?
+                    The population of a small town in Michigan was also 5,500 people in the year 2010, but it decreased by an average of 150 people a year until 2020. <!-- What was the approximate population in 2011? 2012? 2013? 2020? -->
                 </p>
-                <table>
+                <!-- <table>
                     <title>Michigan Town Population</title>
                     <tabular row-headers="yes" halign="center" top="minor" bottom="minor" right="minor" left="minor">
                         <row>
@@ -124,8 +147,36 @@
                             <cell></cell>
                         </row>
                     </tabular>
-                </table>
-            </statement>
+                </table> -->
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        What is the rate of change in this town's population?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use the rate of change to find the population in 2011, 2012, and 2013.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use the rate of change and the population in 2010 to build a linear model for the population of this town.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use your linear model to find the population in 2020.
+                    </p>
+                </statement>
+            </task>
         </task>
         <task workspace="0.5in">
             <statement>
@@ -170,7 +221,7 @@
     <investigation xml:id="pa-exponent-vocab">
         <introduction>
             <p>
-                In an expression of the form <me>c \times b^e</me>, we call <m>b</m> the <term>base</term>, <m>e</m> the <term>exponent</term> or <term>power</term>, and <m>c</m> a <term>coefficient</term>. This vocabulary will be useful to us in the next lesson, so let's practice it now.
+                In an expression of the form <me>c \times b^e</me>, we call <m>b</m> the <term>base</term>, <m>e</m> the <term>exponent</term> or <term>power</term>, and <m>c</m> the <term>coefficient</term>. This vocabulary will be useful to us in the next lesson, so let's practice it now.
             </p>
         </introduction>
         <task workspace="0.5in">
@@ -200,7 +251,7 @@
                     <cell>Rating from 1 to 5</cell>
                 </row>
                 <row bottom = "minor">
-                    <cell>Apply the same percent change to a quantity repeatedly.</cell>
+                    <cell>Apply the same percent change to a quantity repeatedly using the change factor.</cell>
                     <cell></cell>
                 </row>
                 <!-- <row bottom = "minor">
