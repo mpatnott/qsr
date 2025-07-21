@@ -66,13 +66,13 @@
         </ul>
     </p>
     <p>
-        Most scientific and graphing calculators have a button or function labeled <q>Log</q> which performs this calculation. Calculators will assume that the base is 10 unless you specifically ask them to use a different base. We'll stick with base 10 for now.
+        Most scientific and graphing calculators have a button or function labeled <q>log</q> which performs this calculation. Calculators will assume that the base is 10 unless you specifically ask them to use a different base. We'll stick with base 10 for now.
     </p>
 
     <investigation xml:id="pa-log-10">
         <introduction>
             <p>
-                What are the following logs?
+                What are the following logs? Try to answer without using a calculator!
             </p>
         </introduction>
         <task>
@@ -85,7 +85,7 @@
         <task>
             <statement>
                 <p>
-                    <m>\log(100,000) = <fillin characters="5" /></m>
+                    <m>\log(100,\!000) = <fillin characters="5" /></m>
                 </p>
             </statement>
         </task>
@@ -109,13 +109,13 @@
                         <line><m>x = \log(16)</m></line></cell>
             </row>
             <row>
-                <cell>Use a calculator's <q>Log</q> function to find <m>\log(16)</m> and get the answer</cell>
+                <cell>Use a calculator's <q>log</q> function to find <m>\log(16)</m> and get the answer</cell>
                 <cell><m>x \approx 1.204</m></cell>
             </row>
         </tabular>
     </table>
     <p>
-        We can can check this result using a calculator. If <m>x = 1.204</m>, we get <me> 10^x= 10^{1.204} = 15.996</me>, which is about <m>16</m>. It is not <em>exactly</em> <m>16</m> because we rounded <m>log 16</m> to three decimal places. Logs are often terrible decimals.
+        We can can check this result using a calculator. If <m>x = 1.204</m>, we get <me> 10^x= 10^{1.204} = 15.996</me>, which is about <m>16</m>. It is not <em>exactly</em> <m>16</m> because we rounded <m>\log 16</m> to three decimal places. Logs are often terrible decimals.
     </p>
     <investigation>
         <task workspace="1in">

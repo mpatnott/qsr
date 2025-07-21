@@ -136,9 +136,17 @@
         <li>The expression <m>\log_b\left(b^x\right)</m> is equal to <m>x</m>, since <m>b^x = b^x</m>.</li>
     </ul>
     <p>
-        The log base <m>b</m> operation let us solve <m>3^x = 25</m> and <m>1.05^x = 1.6</m>. <url href="https://www.desmos.com/calculator">Desmos</url> can evaluate logs with any base and give us a number. Click on the functions button in the keyboard and scroll until you find <q><m>\log_a</m></q>. Pressing on <q><m>\log_a</m></q> will add log to an entry line and let you enter the base and the number.
+        The log base <m>b</m> operation let us solve <m>3^x = 25</m> and <m>1.05^x = 1.6</m>:
+        <ul>
+            <li>The solution to <m>3^x = 25</m> is <m>x=\log_3(25)</m></li>
+            <li>The solution to <m>1.05^x = 1.6</m> is <m>x = \log_{1.05}(1.6)</m></li>
+        </ul>
+        But what numbers are <m>\log_3(25)</m> and <m>\log_{1.05}(1.6)</m>? Many calculators can only evaluate logs with base 10 or the special number <m>e</m>. To evaluate something like <m>\log_3(25)</m> using log base 10 instead of log base 3, we use that
+        <me>\log_3(25) = \frac{\log_{10}(25)}{\log_{10}(3)} \approx 2.93</me>
+        Since <m>3^{2.93} \approx 25.001</m>, it seems like we probably got the right answer, since that tiny a difference is probably just rounding.
+        <!-- <url href="https://www.desmos.com/calculator">Desmos</url> can evaluate logs with any base and give us a number. Click on the functions button in the keyboard and scroll until you find <q><m>\log_a</m></q>. Pressing on <q><m>\log_a</m></q> will add log to an entry line and let you enter the base and the number.-->
     </p>
-    <ul>
+    <!-- <ul>
         <li>
             <p>
                 To solve <m>3^x = 25</m>, we see that the base is 3 and we want to get 25, so we need <m>\log_3(25)</m>, which we read as <q>log base 3 of 25</q>. Desmos tells us that <m>\log_3(25) \approx 2.93</m>. Since <m>3^{2.93} \approx 25.001</m>, it seems like we probably got the right answer, since that tiny a difference is probably just rounding.
@@ -152,7 +160,7 @@
     </ul>
     <p>
         Your calculator might have a log base <m>b</m> button, but it also might not. If it doesn't, you should use Desmos for these types of problems.
-    </p>
+    </p> -->
     <!-- <p>
         There are two ways to solve this problem:
         <ol>
@@ -199,13 +207,21 @@
             </row>
         </tabular>
     </table> -->
+
+    <activity xml:id="a-practice-base-change">
+        <statement>
+            <p>
+                The solution to <m>1.05^x = 1.6</m> is <m>x = \log_{1.05}(1.6)</m>. Turn this into a decimal using log base 10 and a calculator, then check your answer.
+            </p>
+        </statement>
+    </activity>
   </page>
 
   <page>
     <activity xml:id="a-solve-exp-eqn-not-base-10">
         <introduction>
             <p>
-                Solve each of the equations below. Round to the nearest thousandth, and double check your answers.
+                Solve each of the equations below. Write your answer in two ways: as <m>\log_b(a)</m> and as a decimal, rounded to the nearest thousandth. Double check your answers!
             </p>
         </introduction>
         <task workspace="0.5in">
@@ -242,8 +258,8 @@
                 </p>
             </blockquote>
             <p>
-                We found that <me>T = 16,500(1.032)^t</me> is a formula that models this situation where <m>T</m> is tuition and <m>t</m> is years since 1977. We then thought about how we might determine the year when tuition would reach $42,000. We considered various methods, such as guess-and-check (guessing different values and checking the results), to find a solution to the equation:
-                <me>42,000 = 16,500(1.032)^t</me>.
+                We found that <me>T = 16,\!500(1.032)^t</me> is a formula that models this situation where <m>T</m> is tuition and <m>t</m> is years since 1977. We then thought about how we might determine the year when tuition would reach $42,000. We considered various methods, such as guess-and-check (guessing different values and checking the results), to find a solution to the equation:
+                <me>42,\!000 = 16,\!500(1.032)^t</me>.
             </p>
         </introduction>
         <task workspace="1.5in">
@@ -300,7 +316,9 @@
                 <li><m>t</m> represents the term of the loan in years or time since opening the account in years.</li>
             </ul>
         </p>
-        Suppose that you take out a $2000 loan with a compound interest rate of 4%, compounded annually (once a year). If you make no payments, and interest compounds annually, in how many years will the loan balance double (reach or surpass $4000)? Think about this on your own for a minute before sharing your ideas in your group.
+        <p>
+            Suppose that you take out a $2000 loan with a compound interest rate of 4%, compounded annually (once a year). If you make no payments, and interest compounds annually, in how many years will the loan balance double (reach or surpass $4000)? Think about this on your own for a minute before sharing your ideas in your group.
+        </p>
     </activity>
   </page>
 
@@ -360,7 +378,7 @@
     <activity xml:id="a-evaluate-logs-no-calc">
         <introduction>
             <p>
-                In real applications, we nearly always use Desmos or another calculator to evaluate logs. But, evaluating logs without a calculator is a useful practice drill when we're first learning logs. This is uncomfortable at first, but it makes our brains think about what a log means and helps us to feel more comfortable using logs in the future. <alert>Don't use a calculator for this activity</alert>, except to check your answer! The purpose of this activity isn't to get the answers, but to practice thinking about how the log operation works.
+                In real applications, we nearly always use a calculator to evaluate logs. But, evaluating logs without a calculator is a useful practice drill when we're first learning logs. This is uncomfortable at first, but it makes our brains think about what a log means and helps us to feel more comfortable using logs in the future. <alert>Don't use a calculator for this activity</alert>, except to check your answer! The purpose of this activity isn't to get the answers, but to practice thinking about how the log operation works.
             </p>
             <p>
                 Evaluate each of the log operations below.
