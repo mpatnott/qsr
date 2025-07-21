@@ -7,10 +7,10 @@
     <activity xml:id="a-exp-or-not" workspace="0.75in">
         <statement>
             <p>
-                We have seen that when a quantity increases or decreases by the same amount for each additional unit of the input variable, the value of the output variable can be modeled as a linear model. That is, linear models have a constant average rate of change. For example, think of getting a $500 raise every year.
+                We have seen that when a quantity increases or decreases by the same amount for each additional unit of the input variable, the value of the output variable can be modeled as a linear model. That is, linear models have a constant average rate of change. For example, think of getting a $500 raise every year; in this case, the average rate of change is $500/year.
             </p>
             <p>
-                When a quantity increases or decreases by the same percentage for each additional unit of the input variable, the value of the output variable can be modeled as an <term>exponential model</term>. Exponential models have a constant relative change. For example, think of getting a 3% raise every year.
+                When a quantity increases or decreases by the same percentage for each additional unit of the input variable, the value of the output variable can be modeled as an <term>exponential model</term>. Exponential models have a constant percent change and a constant change factor. For example, think of getting a 3% raise every year; in this case, the constant change factor is 1.03.
             </p>
             <p>
                 Determine which of the data sets below have a linear model, which have an exponential model, and which have neither.
@@ -140,7 +140,7 @@
     <activity xml:id="a-population-models">
         <introduction>
             <p>
-                We looked at the populations of three small towns in the Prep Activities. All three towns had a population of 5500 in 2010, but their populations were changing in different ways:
+                We looked at the populations of three small towns in <xref ref="sec-exponential-models-prep"/>. All three towns had a population of 5500 in 2010, but their populations were changing in different ways:
                 <ul>
                     <li>Indiana: Increasing by 2.5% each year</li>
                     <li>Ohio: Decreasing by 2.5% each year</li>
@@ -151,21 +151,21 @@
         <task workspace="0.5in">
             <statement>
                 <p>
-                    Determine which town's population has a linear model. Explain your answer, and find a formula for the population <m>P(t)</m> of this town <m>t</m> years after 2010.
+                    Determine which town's population has a linear model. Explain how you know, and find a formula for the population <m>P(t)</m> of this town <m>t</m> years after 2010.
                 </p>
             </statement>
         </task>
         <task workspace="0.5in">
             <statement>
                 <p>
-                    The populations of the other two towns have an exponential model. Explain how we know this from the verbal description of the change in the towns' populations.
+                    The populations of the other two towns have an exponential model. Explain how we know this from the verbal description of the change in the towns' populations and find the change factors.
                 </p>
             </statement>
         </task>
         <task>
             <statement>
                 <p>
-                    In the Prep Activity, you found the populations of all three towns in 2011, 2012, 2013, and 2020. Plot the populations of all three towns on the graph below. What do you notice?
+                    In <xref ref="sec-exponential-models-prep"/>, you found the populations of all three towns in 2011, 2012, 2013, and 2020. Plot the populations of all three towns on the graph below. What do you notice?
                 </p>
                 <figure xml:id="fig-town-pops">
                     <caption>Populations of Three Small Towns</caption>
@@ -191,7 +191,61 @@
         <task workspace="0.5in">
             <statement>
                 <p>
-                    Find formulas for the populations of the two towns with exponential models.
+                    The town in Indiana's population is increasing by 2.5% each year, so the change factor is 1.025. The table below shows computations for finding the population in 2011, 2012, and 2013.
+                </p>
+                <table>
+                    <title>Indiana Town Population</title>
+                    <tabular halign="center" top="minor" bottom="minor" right="minor" left="minor">
+                        <row header = "yes">
+                            <cell>Year</cell>
+                            <cell>Population</cell>
+                        </row>
+                        <row>
+                            <cell>2010</cell>
+                            <cell>5500</cell>
+                        </row>
+                        <row>
+                            <cell>2011</cell>
+                            <cell><m>5500 \times 1.025</m></cell>
+                        </row>
+                        <row>
+                            <cell>2012</cell>
+                            <cell><m>(5500 \times 1.025) \times 1.025</m></cell>
+                        </row>
+                        <row>
+                            <cell>2013</cell>
+                            <cell><m>((5500 \times 1.025) \times 1.025) \times 1.025</m></cell>
+                        </row>
+                    </tabular>
+                </table>
+                Rewrite the computations for 2012 and 2013 using exponents instead of repeated multiplication.
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Write the computation for the Indiana town's population in 2020 using exponents.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Write the computation for the Indiana town's population <m>t</m> years after 2010 using exponents.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Your answer to the previous question is the formula for an exponential model for the Indiana town's population! Find a formula for an exponential model for the Ohio town's population.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Write a formula showing how to build an exponential using the change factor and the initial value.
                 </p>
             </statement>
         </task>
@@ -199,7 +253,7 @@
   </page>
 
   <page>
-    <activity xml:id="a-build-your-own-expon-model">
+    <!--<activity xml:id="a-build-your-own-expon-model">
         <task workspace="1in">
             <statement>
                 <p>
@@ -221,7 +275,7 @@
                 </p>
             </statement>
         </task>
-    </activity>
+    </activity>-->
 
     <activity xml:id="a-tuition-increase">
         <introduction>
@@ -232,7 +286,7 @@
         <task workspace="0.5in">
             <statement>
                 <p>
-                    Create an algebraic model, or formula, that could be used to estimate the cost of attending this college over time.
+                    Create a formula for an exponential model that could be used to estimate the cost of attending this college over time.
                 </p>
             </statement>
         </task>
@@ -277,7 +331,7 @@
         <task workspace="0.5in">
             <statement>
                 <p>
-                    Create an algebraic model for this situation. Let <m>t</m> be the number of hours after drinking a 16-oz cup of coffee, and let <m>A</m> be the amount of caffeine in your body.
+                    Create a formula for an exponential model for this situation. Let <m>t</m> be the number of hours after drinking a 16-oz cup of coffee, and let <m>A</m> be the amount of caffeine in your body.
                 </p>
             </statement>
         </task>
@@ -329,7 +383,7 @@
         <task workspace="1.5in">
             <statement>
                 <p>
-                    Shawn's brand new Dodge Charger valued at $52,250 depreciates at the rate of 8% per year. He plans to sell it in 5 years. How much will it be worth then?
+                    Shawn's brand new Dodge Charger valued at $52,445 depreciates at the rate of 8% per year. He plans to sell it in 5 years. How much will it be worth then?
                 </p>
             </statement>
         </task>
