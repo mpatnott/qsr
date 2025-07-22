@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-apply-exponential" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Applications of Exponential Models Activities</title>
+
+  <page>
+    <introduction>
+        <p>
+            Social Security is an insurance program. Workers pay into the program, typically through payroll withholding where they work. They can earn up to four credits each year. In 2023, you receive 1 credit for each $1,640 of earnings, up to the maximum of 4 credits per year.<fn><url href="https://www.ssa.gov/benefits/retirement/planner/credits.html" /></fn> That money goes into two Social Security trust funds (OASI and DI) where it is used to pay benefits to people currently eligible for them. The money that is not spent remains in the trust funds.
+        </p>
+        <ul>
+            <li>
+                <p>
+                    To qualify for Social Security retirement benefits, workers must be at least 62 and have paid into the system for 10 years or more.<fn><url href="https://www.ssa.gov/benefits/retirement/planner/agereduction.html" /></fn>
+                </p>
+            </li>
+            <li>Workers who wait to collect Social Security, up to age 70, will receive higher monthly benefits.</li>
+            <li>Spouses and ex-spouses may also be eligible for benefits, based on their former partner's earnings record.</li>
+        </ul>
+        <p>
+            The Social Security Trust Funds hold the accumulated savings of the U. S. Social Security system. By law, the funds are invested in the general debt of the United States government, entirely in U.S. Treasury securities.
+        </p>
+        <p>
+            Projections by the Social Security Board of Trustees (the trustees) show that Social Security expenditures will exceed tax revenues each year through the end of the 75-year valuation period (ending in 2097). 
+        </p>
+    </introduction>
+    <activity xml:id="a-trust-fund-ratio">
+        <introduction>
+            <p>
+                One measure that analysts use to determine the strength of the Social Security Trust Fund finances is the <q>Trust Fund Ratio</q>.
+            <me>\text{Trust Fund Ratio} = \frac{\text{Trust fund asset reserves at beginning of year}}{\text{Total cost of running Social Security for that year}}</me>
+            For example, in 2010 the asset reserves of the Social Security trust fund were $2.5 trillion and the total cost of the program that year was $706.3 billion, so the Trust Fund Ratio was 354%. Another way of saying this is that the trust fund asset reserves were 3.54 times greater than the cost of the program. The Trust Fund Ratio indicates how much of recipients’ annual benefit amounts could be paid from the balance at the beginning of a given year. When the Trust Fund Ratio drops below 100%, then this means that the fund is unable to pay out the total benefits due.
+            </p>
+        </introduction>
+        <task workspace="1.5in">
+            <statement>
+                <p>
+                    From 2010 to 2019, the Trust Fund Ratio declined 7.7 percentage points each year. The Trust Fund Ratio in 2010 was 354%. Using 354 as the starting amount, create a linear model and determine in what year the model predicts the Trust Fund Ratio to fall below 100. Your model can be a table, a graph, or an equation.
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Use the Trust Fund Ratio information for 2020 and 2022 in the table below to create a linear model and determine in what year the model predicts the Trust Fund Ratio to fall below 100. Round the slope to one decimal place.
+                </p>
+                <table>
+                    <title>Trust Fund Ratio 2020 - 2022</title>
+                    <tabular row-headers="yes" halign="center" top="minor" bottom="minor" right="minor" left="minor">
+                        <row>
+                            <cell>Year</cell>
+                            <cell>2020</cell>
+                            <cell>2021</cell>
+                            <cell>2022</cell>
+                        </row>
+                        <row>
+                            <cell>Trust Fund Ratio (%)</cell>
+                            <cell>265</cell>
+                            <cell>256</cell>
+                            <cell>234</cell>
+                        </row>
+                    </tabular>
+                </table>
+            </statement>
+        </task>
+    </activity>
+  </page>
+
+  <page>
+    <p>
+        Comparing our answers from the two parts of <xref ref="a-trust-fund-ratio"/>, we can see that using more recent data (2020 to 2022) suggests that the Trust Fund Ratio will be depleted sooner than what the 2010 to 2019 data suggested.
+    </p>
+    <p>
+        It is projected that in 2023, the Trust Fund Ratio will be anywhere between 204% to 219%. Furthermore, some projections suggest that the funds will drop below 100 (96%) in 2029, which means that full payments to retirees cannot be met, and then it will drop to zero (trust fund asset reserve depletion) around 2034.<fn><url href="https://www.ssa.gov/OACT/TR/2023/" /></fn>
+    </p>
+    <figure xml:id="fig-social-security">
+        <caption>Social Security Trust Funds Over Time - Real Past and Projected Future</caption>
+        <image source="./images/social-security.png" width="50%">
+            <shortdescription>Graph showing the trust fund ratio in the past, and projected in the future</shortdescription>
+            <description>
+                <p>
+                    The graph shows OASI and Combined OASI and DI declining to 0 sometime between 2031 and 2035.
+                </p>
+            </description>
+        </image>
+    </figure>
+    <activity xml:id="a-soc-sec-asset-reserve-projections">
+        <introduction>
+            <p>
+                Let's now explore what projected trust fund asset reserves suggest about when the fund will be unable to meet its benefit pay out obligations. The Congressional Research Service stated that at the end of 2022, the trust fund asset reserves were valued at around $2.83 trillion.<fn><url href="https://sgp.fas.org/crs/misc/R42035.pdf" /></fn> Using projection figures from the 2023 Annual Report of the Board of Trustees for the OASI and DI funds for 2023 and onward, we can estimate that the asset reserves of the Social Security trust fund is going to decline about 15% each year (as a result of paying out more than is being brought in).
+            </p>
+        </introduction>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    Assume the 15% yearly decline estimates are correct, and create a model for the yearly value of the trust fund asset reserves after 2.83 trillion dollars was reached in 2022. Your model can be a table, a graph, or an equation. 
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    How much will the trust funds decrease in the first year after 2022?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    How long will it take for the value of the trust funds to decline to half of $2.83 trillion? In what year will that occur?
+                </p>
+            </statement>
+        </task>
+    </activity>
+  </page>
+
+  <page>
+    <activity xml:id="a-soc-sec-use-models">
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    Using projection data, when the trust fund drops below 400 billion dollars there will not be enough money to cover the benefits due to retirees. Use your Trust Funds Model from <xref ref="a-soc-sec-asset-reserve-projections"/> to find when this will occur.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    If additional funds are added to the Trust Funds as a result of policy changes, so that the value of the funds in 2022 is $5 trillion, how long would it take for the value of the funds to shrink to half?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    With a fund value of $5 trillion in 2022, when would these funds drop below 400 billion dollars?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    What amount of money is needed in the trust funds in 2022 so that the value will not drop below 400 billion dollars until 2042? You can create an equation to model this scenario with a variable for the unknown starting amount (in trillions), and using a repeated 15% decrease for 20 years. This equation is:
+                    <me>0.4 = M(0.85)^{20}</me>
+                    Solve the equation. What is the starting amount, <m>M</m>?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    What are some important factors that might contribute to the decline that is projected in the value of the Social Security Trust Funds?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    What could be done to address the problem of the decline in the value of the Trust Fund?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Some assumptions were made in order to produce the Trust Funds Model in <xref ref="a-soc-sec-asset-reserve-projections"/>. These assumptions are based on predictions of a future some years off, and could be somewhat inaccurate. However, they are still the best assumptions that could be made at the time and are much better than random guesses. Make a list of these assumptions.
+                </p>
+            </statement>
+        </task>
+    </activity>
+  </page>
+
+  <page>
+    <activity xml:id="a-min-wage-and-inflation">
+        <introduction>
+            <p>
+                The 1938 Fair Labor Standards Act established a federal minimum wage of $0.25 per hours in the United States. The federal minimum wage has been increased many times since it was established in 1938.
+            </p>
+            <p>
+                Using the federal minimum wage data<fn><url href="https://www.dol.gov/agencies/whd/minimum-wage/history/chart#fn1" /></fn> from 1938 to 2009, we can estimate that the minimum wage increased, on average, by about 4.94% each year.
+            </p>
+        </introduction>
+        <task workspace="0.5in">
+            <statement>
+                Find a formula to predict the federal minimum wage in year <m>t</m>. Explain in words how you found your formula.
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Use your formula to predict the federal minimum wage in 2009. How close did you get to the actual 2009 federal minimum wage of $7.25?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    The federal minimum wage hasn't changed since 2009. If it had continued to increase at the same rate, what would the federal minimum wage be now?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    The federal minimum wage increased much more frequently between 1938 and 1981 then it has since. If we use only the federal minimum wage data up to 1981, we find that it increased, on average, at about 6.14% per year during that time period. The data between 1938 and 1981 is also closer to fitting an exponential model than if we look at all of the data up to 2009. Find a new formula for the federal minimum wage in year <m>t</m> based on this data.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5">
+            <statement>
+                <p>
+                    Use your new formula to predict the federal minimum wage in 1981. How close did you get to the actual 1981 federal minimum wage of $3.35?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Suppose the minimum wage had continued to increase at the 1938 - 1981 rate up until 2009, and then stopped increasing. What would the federal minimum wage be in this scenario?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Suppose the minimum wage had continued to increase at the 1938 - 1981 rate up until now. What would the federal minimum wage be in this scenario?
+                </p>
+            </statement>
+        </task>
+    </activity>
+  </page>
+</section>
