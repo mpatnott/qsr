@@ -4,7 +4,7 @@
 <!-- works. -->
 
 <frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
-  <titlepage>
+  <bibinfo>
     <author>
       <personname>Megan Patnott</personname>
       <department>Astronomy, Mathematics, and Physics Department</department>
@@ -13,10 +13,6 @@
     <date>
       <today />
     </date>
-  </titlepage>
-
-  <colophon>
-
     <!--
     <website>
       <url href="https://pretextbook.org">My Website</url>
@@ -52,6 +48,13 @@
         Quantitative Skills and Reasoning: Activity Workbook is licensed under CC BY NC 4.0 by Megan Patnott.
       </shortlicense>
     </copyright>
+  </bibinfo>
+  <titlepage>
+    <titlepage-items/>
+  </titlepage>
+
+  <colophon>
+    <colophon-items/>
   </colophon>
 </frontmatter>
 

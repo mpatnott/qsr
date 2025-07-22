@@ -254,7 +254,7 @@
                 What's the smallest amount of time that it will take for Parker's money to double?
             </p>
             <p>
-                To solve this problem algebraically, you'll need <m>\log_e</m>. The base <m>e</m> is so common in scientific applications that <m>\log_e</m> has been given a special name and notation: it's called the <term>natural logarithm</term>, and denoted <m>\ln</m>. Many calculators have a <m>\ln</m> button. It might seem strange to call <m>\log_e</m> the <q>natural</q> logarithm - there doesn't seem to be much about it that's natural! This name makes more sense in the context of calculus, where <m>\ln</m> is the best behaved logarithm.
+                To solve this problem algebraically, you'll need <m>\log_e</m>. The base <m>e</m> is so common in scientific applications that <m>\log_e</m> has been given a special name and notation: it's called the <term>natural logarithm</term>, and denoted <m>\ln</m> (read as <q>el-en</q>). Many calculators have an <m>\ln</m> button. It might seem strange to call <m>\log_e</m> the <q>natural</q> logarithm - there doesn't seem to be much about it that's natural! This name makes more sense in the context of calculus, where <m>\ln</m> is the best behaved logarithm.
             </p>
         </statement>
     </task>

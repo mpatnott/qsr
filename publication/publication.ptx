@@ -82,7 +82,7 @@
       theorem="no"
       proof="yes"
       definition="no"
-      example="yes"
+      example="no"
       example-solution="yes"
       project="no"
       task="no"
@@ -98,19 +98,9 @@
       exercise-worksheet="no"
       exercise-readingquestion="no"
     />
-    <!-- Specify the style of the html by giving names to      -->
-    <!-- override defaults.  Ex: to use "style_oscarlevin.css" -->
-    <!-- put <css style="oscarlevin"/>                         -->
     <!-- See also                                              -->
-    <!-- https://pretextbook.org/doc/guide/html/publication-file-online.html#online-style-options -->
-    <css
-        style="default"
-        colors="blue_grey"
-        knowls="default"
-        toc="default"
-        banner="default"
-        navbar="default"
-    />
+    <!-- https://pretextbook.org/doc/guide/html/online-style.html -->
+    <css theme="default-modern" palette="blues"/>
     <!-- Search can be default or none, or you can use a Google-cx number to use google's search
     feature (but then variant should be set to none to avoid conflict) -->
     <search variant="default" />
