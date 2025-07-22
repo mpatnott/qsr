@@ -7,7 +7,7 @@
   <activity xml:id="a-yogurt-bacteria-continued">
     <introduction>
         <p>
-            In <xref ref="sec-alt-exponential-models-prep"/>, we investigated the growth of a colony of the bacteria <em>lactobacillus acidophilus</em>, part of turning milk into yogurt. We noted that based on experiments a new generation of bacteria are formed every 70 minutes, that is, the population doubles every 70 minutes, and assumed that when we start tracking the data we have 3 g of cells. If <m>n</m> is the number of 70-minute periods since we started tracking and <m>M(n)</m> is the mass of the colony, we found that <me>M(n) = 3 \cdot 2^n</me> is a formula that models the relationship between the colony's mass and the number of 70-minute periods.
+            In <xref ref="sec-alt-exponential-models-prep"/>, we investigated the growth of a colony of the bacteria <em>lactobacillus acidophilus</em>, part of turning milk into yogurt. We noted that based on experiments a new generation of bacteria are formed every 70 minutes, that is, the population doubles every 70 minutes, and assumed that when we start tracking the data we have 3 g of cells. If <m>a</m> is the number of 70-minute periods since we started tracking and <m>M(a)</m> is the mass of the colony, we found that <me>M(a) = 3 \cdot 2^a</me> is a formula that models the relationship between the colony's mass and the number of 70-minute periods.
         </p>
     </introduction>
     <task workspace="0.5in">
@@ -48,14 +48,21 @@
     <task workspace="0.5in">
         <statement>
             <p>
-                Our current formula's input is <m>n</m>, the number of 70-minute periods. That's an awkward unit of time! It would be nicer to have a formula whose input was <m>t</m>, the number of minutes. Find a formula that expresses the relationship between <m>T</m> and <m>t</m>.
+                Our current formula's input is <m>a</m>, the number of 70-minute periods. That's an awkward unit of time! It would be nicer to have a formula whose input was <m>t</m>, the number of minutes. Find a formula that expresses the relationship between <m>a</m> and <m>t</m>. That is, write an equation <me>t = \text{a formula with } a \text{ in it} </me>.
             </p>
         </statement>
     </task>
     <task workspace="0.5in">
         <statement>
             <p>
-                Rewrite the formula so that it is in terms of <m>t</m>, instead of <m>n</m>.
+                Use algebra to rewrite your equation for the last part so that looks like <me>a =  \text{a formula with } t \text{ in it} </me>.
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Use your equation for <m>a</m> to find a formula for the mass of the colony in terms of <m>t</m> by replacing the <m>a</m> in <m>3 \times 2^a</m>.
             </p>
         </statement>
     </task>
@@ -69,7 +76,7 @@
     <task workspace="0.5in">
         <statement>
             <p>
-                Suppose that a quantity <m>Q</m> is changing at a rate of <m>r\%</m> every <m>n</m>-minutes. Write a formula that shows the relationship between <m>Q</m> and <m>t</m>, where <m>t</m> is measured in minutes. 
+                Suppose that a quantity <m>Q</m> is changing by <m>r\%</m> every <m>n</m>-minutes. Write a formula that shows the relationship between <m>Q</m> and <m>t</m>, where <m>t</m> is measured in minutes. 
             </p>
         </statement>
     </task>
@@ -79,13 +86,20 @@
   <activity xml:id="a-viral-cat-video">
     <introduction>
         <p>
-            A new cat video is posted and 12 people view it the first day. Every 4 days afterward the number of people who see it triples. Let <m>V(d)</m> b the number of views the video has after <m>d</m> days.
+            A new cat video is posted and 12 people view it the first day. Every 4 days afterward the number of people who see it triples. Let <m>V(d)</m> be the number of views the video has after <m>d</m> days.
         </p>
     </introduction>
     <task workspace="0.5in">
         <statement>
             <p>
-                Write an equation to model the total number of people who have viewed this video.
+                What is the change factor? The percent change?
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Write an equation to model the total number of people who have viewed this video after <m>d</m> days.
             </p>
         </statement>
     </task>
@@ -106,7 +120,7 @@
     <task workspace="0.75in">
         <statement>
             <p>
-                What is the relative change in the number of views the video gets each day? Use this information to find an alternate form for the formula.
+                Find the percent change in the number of views the video gets each day. Use this information to find an alternate form for the formula. <alert>Hint:</alert> Start by finding the number of views the video gets on the second day. Use this number and the fact that it got 12 views on the first day to find the percent change.
             </p>
         </statement>
     </task>
@@ -116,13 +130,20 @@
   <activity xml:id="a-barium-half-life">
     <introduction>
         <p>
-            Barium-133 has a half-life of 10.551 years. This means that afeter 10.551 years only half of the original amount will remain. This is the result of the radioactive isotope breaking down into other substances. Suppose that we obtain 7.000 grams of barium-133.
+            Barium-133 has a half-life of 10.551 years. This means that after 10.551 years only half of the original amount will remain. This is the result of the radioactive isotope breaking down into other substances. Suppose that we obtain 7.000 grams of barium-133.
         </p>
     </introduction>
     <task workspace="0.5in">
         <statement>
             <p>
                 How much barium-133 should be left after 10.551 years? Why?
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                What is the change factor? The percent change?
             </p>
         </statement>
     </task>
@@ -157,7 +178,7 @@
     <task workspace="0.75in">
         <statement>
             <p>
-                What is the relative change in the amount of barium-133 each day? Use this information to find an alternate form for the formula.
+                What is the percent change in the amount of barium-133 each day? Use this information to find an alternate form for the formula.
             </p>
         </statement>
     </task>
@@ -201,7 +222,7 @@
     <task workspace="0.75in">
         <statement>
             <p>
-                What is the relative change of radioactivity at Chernobyl each year? Use this information to find an alternate form for the formula.
+                What is the percent change of radioactivity at Chernobyl each year? Use this information to find an alternate form for the formula.
             </p>
         </statement>
     </task>
@@ -223,7 +244,7 @@
     <task workspace="0.5in">
         <statement>
             <p>
-                What's the maximum amount of money that will Parker have after 1 year? 5 years? 10 years?
+                What's the maximum amount of money that Parker could have after 1 year? 5 years? 10 years?
             </p>
         </statement>
     </task>
@@ -233,14 +254,14 @@
                 What's the smallest amount of time that it will take for Parker's money to double?
             </p>
             <p>
-                To solve this problem algebraically, you'll need <m>\log_e</m>. The base <m>e</m> is so common in scientific applications that <m>\log_e</m> has been given a special name and notation: it's called the <term>natural logarithm</term>, and denoted <m>\ln</m>. Many calculators, including Desmos, have a <m>\ln</m> button. It might seem strange to call <m>\log_e</m> the <q>natural</q> logarithm - there doesn't seem to be much about it that's natural! This name makes more sense in the context of calculus, where <m>\ln</m> is the best behaved logarithm.
+                To solve this problem algebraically, you'll need <m>\log_e</m>. The base <m>e</m> is so common in scientific applications that <m>\log_e</m> has been given a special name and notation: it's called the <term>natural logarithm</term>, and denoted <m>\ln</m>. Many calculators have a <m>\ln</m> button. It might seem strange to call <m>\log_e</m> the <q>natural</q> logarithm - there doesn't seem to be much about it that's natural! This name makes more sense in the context of calculus, where <m>\ln</m> is the best behaved logarithm.
             </p>
         </statement>
     </task>
     <task workspace="0.75in">
         <statement>
             <p>
-                If Parker's money is compounded continuously, what is the relative change in the amount in their account each year? Use this information to find an alternate form for the formula that looks more like the exponential models we've been working with.
+                If Parker's money is compounded continuously, what is the percent change in the amount in their account each year? Use this information to find an alternate form for the formula that looks more like the exponential models we've been working with.
             </p>
         </statement>
     </task>
