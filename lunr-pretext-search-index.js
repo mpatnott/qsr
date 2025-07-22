@@ -1045,119 +1045,29 @@ var ptx_lunr_docs = [
   "body": "  The federal minimum wage increased much more frequently between 1938 and 1981 then it has since 1981. If we use only the federal minimum wage data up to 1981, we find that it increased, on average, at about 6.14% per year during that time period. The data between 1938 and 1981 is also closer to fitting an exponential model than if we look at all of the data up to 2009.     Find a new formula for the federal minimum wage in year based on this data.      Use your new formula to predict the federal minimum wage in 1981. How close did you get to the actual 1981 federal minimum wage of $3.35?      Suppose the minimum wage had continued to increase at the 1938 - 1981 rate up until 2009, and then stopped increasing.     What would the federal minimum wage be in this scenario?      When would the federal minimum wage have reached $15 per hour?       Suppose the minimum wage had continued to increase at the 1938 - 1981 rate up until now.     What would the federal minimum wage be in this scenario?       When would the federal minimum wage reach $30 per hour?     "
 },
 {
-  "id": "sec-properties-logs-exponents-prep",
-  "level": "1",
-  "url": "sec-properties-logs-exponents-prep.html",
-  "type": "Section",
-  "number": "10.1",
-  "title": "Properties of Exponents and Logs Prep Activities",
-  "body": " Properties of Exponents and Logs Prep Activities   Calculators like Photomath and Mathway can do the algebra that we're going to learn in this prep activity and the in-class activities for you. If the main point of this lesson was getting the answer, then I would encourage you to use these tools! But, the main point of this lesson is not getting the answer. The main point of this lesson is to practice working with complicated math notation in order to get more comfortable with it. Tools like Photomath and Mathway take the thinking that is most critical for this lesson away from your brain, and make it unlikely that you will achieve the actual goals. So, you may not use ANY tools except for your brain for this lesson , with the exception of checking your answer.     In previous math courses, you likely learned that exponents represent repeated multiplication. So, for example, . This is all we need to know to discover an important property of exponents.     In each expression below, rewrite each exponent using repeated multiplication. Then, rewrite the expression with a single exponent.                           What do you notice? Use your observations to complete the Product Rule for Exponents :       Use the Product Rule for Exponents to rewrite each of the following expressions:             ( Note: This is a very, very large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is )                      Rewriting exponents as repeated multiplication can also help us discover a second important property of exponents.     In each expression below, rewrite each exponent using repeated multiplication. Then, rewrite the expression with a single exponent.                           What do you notice? Use your observations to complete the Quotient Rule for Exponents :       Use the Quotient Rule for Exponents to rewrite each of the following expressions:             ( Note: This is a large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is )                      Let's discover one more property of exponents by rewriting exponents as repeated multiplication.     In each expression below, rewrite the outer exponent using repeated multiplication. Then, use the product rule to rewrite the expression with a single exponent. For example,                            What do you notice? Use your observations to complete the Power Rule for Exponents :       Use the Power Rule for Exponents to rewrite each of the following expressions:             ( Note: This is a very, very large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is )                      You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Use the Product Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.     Use the Quotient Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.     Use the Power Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.       "
-},
-{
-  "id": "pa-exponent-product",
-  "level": "2",
-  "url": "sec-properties-logs-exponents-prep.html#pa-exponent-product",
-  "type": "Prep Activity",
-  "number": "10.1.1",
-  "title": "",
-  "body": "  In previous math courses, you likely learned that exponents represent repeated multiplication. So, for example, . This is all we need to know to discover an important property of exponents.     In each expression below, rewrite each exponent using repeated multiplication. Then, rewrite the expression with a single exponent.                           What do you notice? Use your observations to complete the Product Rule for Exponents :       Use the Product Rule for Exponents to rewrite each of the following expressions:             ( Note: This is a very, very large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is )                   "
-},
-{
-  "id": "pa-exponent-quotient",
-  "level": "2",
-  "url": "sec-properties-logs-exponents-prep.html#pa-exponent-quotient",
-  "type": "Prep Activity",
-  "number": "10.1.2",
-  "title": "",
-  "body": "  Rewriting exponents as repeated multiplication can also help us discover a second important property of exponents.     In each expression below, rewrite each exponent using repeated multiplication. Then, rewrite the expression with a single exponent.                           What do you notice? Use your observations to complete the Quotient Rule for Exponents :       Use the Quotient Rule for Exponents to rewrite each of the following expressions:             ( Note: This is a large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is )                   "
-},
-{
-  "id": "pa-power-rule-exponents",
-  "level": "2",
-  "url": "sec-properties-logs-exponents-prep.html#pa-power-rule-exponents",
-  "type": "Prep Activity",
-  "number": "10.1.3",
-  "title": "",
-  "body": "  Let's discover one more property of exponents by rewriting exponents as repeated multiplication.     In each expression below, rewrite the outer exponent using repeated multiplication. Then, use the product rule to rewrite the expression with a single exponent. For example,                            What do you notice? Use your observations to complete the Power Rule for Exponents :       Use the Power Rule for Exponents to rewrite each of the following expressions:             ( Note: This is a very, very large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is )                   "
-},
-{
-  "id": "pa-logs-exponent-properties-confidence",
-  "level": "2",
-  "url": "sec-properties-logs-exponents-prep.html#pa-logs-exponent-properties-confidence",
-  "type": "Prep Activity",
-  "number": "10.1.4",
-  "title": "",
-  "body": " You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Use the Product Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.     Use the Quotient Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.     Use the Power Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.      "
-},
-{
-  "id": "sec-properties-logs-exponents",
-  "level": "1",
-  "url": "sec-properties-logs-exponents.html",
-  "type": "Section",
-  "number": "10.2",
-  "title": "Properties of Exponents and Logs Activities",
-  "body": " Properties of Exponents and Logs Activities    Use the Product, Quotient, and Product Rules for Exponents to rewrite the following expression or solve the problem. Remember, the main goal is to exercise your brain, not to get the answers, so you must not use tools like Photomath or Mathway for anything but answer checking.                   Use the integers 1 to 9 to fill in the boxes. There may be more than one correct answer!                            Use the integers 1 to 9 to fill in the boxes. There may be more than one correct answer! There is at least one solution that doesn't use any digit more than once.        So far, we have focused on expressions that have positive integer exponents. A special exponent rule tells us that as long as .     The Quotient Rule Rule for Exponents gives us one way to understand why this definition is reasonable.     Use the Quotient Rule for Exponents to rewrite as .      Explain why it is also true that .      How do the previous two questions support the claim that is a reasonable definition?       Rewrite each of the following expressions:                            There is one more exponent rule for us to discover today.     Rewrite each of the expressions below using repeated multiplication.                    What do you notice? Use your observations to fill in the blanks to complete the exponent property below.       Use the exponent rules that we've learned to rewrite each of the expressions below.                            The relationship between logs and exponents mean that there are log properties that correspond to the Product, Quotient, and Power Rule of Exponents. They are:   Use the log properties to rewrite each of the expressions below.     Rewrite as a single logarithm, then evaluate without a calculator:       Rewrite as a sum or difference of logarithms:       Rewrite a single logarithm:       Rewrite as a single logarithm:       Rewrite as a sum or difference of logarithms:      "
-},
-{
-  "id": "a-exponent-rule-practice",
-  "level": "2",
-  "url": "sec-properties-logs-exponents.html#a-exponent-rule-practice",
-  "type": "Activity",
-  "number": "10.2.1",
-  "title": "",
-  "body": "  Use the Product, Quotient, and Product Rules for Exponents to rewrite the following expression or solve the problem. Remember, the main goal is to exercise your brain, not to get the answers, so you must not use tools like Photomath or Mathway for anything but answer checking.                   Use the integers 1 to 9 to fill in the boxes. There may be more than one correct answer!                            Use the integers 1 to 9 to fill in the boxes. There may be more than one correct answer! There is at least one solution that doesn't use any digit more than once.     "
-},
-{
-  "id": "a-zero-exponent",
-  "level": "2",
-  "url": "sec-properties-logs-exponents.html#a-zero-exponent",
-  "type": "Activity",
-  "number": "10.2.2",
-  "title": "",
-  "body": "  So far, we have focused on expressions that have positive integer exponents. A special exponent rule tells us that as long as .     The Quotient Rule Rule for Exponents gives us one way to understand why this definition is reasonable.     Use the Quotient Rule for Exponents to rewrite as .      Explain why it is also true that .      How do the previous two questions support the claim that is a reasonable definition?       Rewrite each of the following expressions:                         "
-},
-{
-  "id": "a-expanded-product-quotient",
-  "level": "2",
-  "url": "sec-properties-logs-exponents.html#a-expanded-product-quotient",
-  "type": "Activity",
-  "number": "10.2.3",
-  "title": "",
-  "body": "  There is one more exponent rule for us to discover today.     Rewrite each of the expressions below using repeated multiplication.                    What do you notice? Use your observations to fill in the blanks to complete the exponent property below.       Use the exponent rules that we've learned to rewrite each of the expressions below.                         "
-},
-{
-  "id": "a-log-rules",
-  "level": "2",
-  "url": "sec-properties-logs-exponents.html#a-log-rules",
-  "type": "Activity",
-  "number": "10.2.4",
-  "title": "",
-  "body": "  The relationship between logs and exponents mean that there are log properties that correspond to the Product, Quotient, and Power Rule of Exponents. They are:   Use the log properties to rewrite each of the expressions below.     Rewrite as a single logarithm, then evaluate without a calculator:       Rewrite as a sum or difference of logarithms:       Rewrite a single logarithm:       Rewrite as a single logarithm:       Rewrite as a sum or difference of logarithms:     "
-},
-{
   "id": "sec-alt-exponential-models-prep",
   "level": "1",
   "url": "sec-alt-exponential-models-prep.html",
   "type": "Section",
-  "number": "11.1",
+  "number": "10.1",
   "title": "Alternate Forms for Exponential Models Prep Activities",
-  "body": " Alternate Forms for Exponential Models Prep Activities     The bacteria lactobacillus acidophilus is part of turning milk into yogurt. Based on experiments a new generation of bacteria are formed every 70 minutes, that is, the population doubles every 70 minutes. Suppose when we start tracking the data we have 3 g of cells, and that the mass of the cells doubles when the population doubles. (It's more realistic to measure the mass of our bacteria colony than to try to count thousands of bacteria cells!)     Fill in the table below.   Mass of Lactobcillus Colony    Minutes,  70-minute Periods,  Colony Mass (g),    0  0  3    70  1     140  2     210      280      350           Find a formula for , the mass of the colony after 70-minute periods.      Use your formula to find the mass of the colony after 700 minutes, i.e., after 10 70-minute periods.      Use your formula to determine how long it takes for the mass of the colony to reach 1 kg, i.e., 1000 g.      Suppose we want to know the mass of the colony after 6 hours. How easy is it to use your formula to figure this out? Explain your answer.      You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Set up and evaluate exponential models given starting values and relative change or change ratio.       "
+  "body": " Alternate Forms for Exponential Models Prep Activities     The bacteria lactobacillus acidophilus is part of turning milk into yogurt. Based on experiments, a new generation of bacteria are formed every 70 minutes, that is, the population doubles every 70 minutes. Suppose when we start tracking the data we have 3 g of cells, and that the mass of the cells doubles when the population doubles. (It's more realistic to measure the mass of our bacteria colony than to try to count thousands of bacteria cells!)     Fill in the table below.   Mass of Lactobcillus Colony    Minutes,  70-minute Periods,  Colony Mass (g),    0  0  3    70  1     140  2     210      280      350           What is the change factor for the colony's mass? What is the percent change?      Find a formula for , the mass of the colony after 70-minute periods.      Use your formula to find the mass of the colony after 700 minutes, i.e., after 10 70-minute periods.      Use your formula to determine how long it takes for the mass of the colony to reach 1 kg, i.e., 1000 g.      Suppose we want to know the mass of the colony after 6 hours. How easy is it to use your formula to figure this out? Explain your answer.      You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Set up and evaluate exponential models given starting values and relative change or change ratio.       "
 },
 {
   "id": "pa-yogurt-bacteria",
   "level": "2",
   "url": "sec-alt-exponential-models-prep.html#pa-yogurt-bacteria",
   "type": "Prep Activity",
-  "number": "11.1.1",
+  "number": "10.1.1",
   "title": "",
-  "body": "  The bacteria lactobacillus acidophilus is part of turning milk into yogurt. Based on experiments a new generation of bacteria are formed every 70 minutes, that is, the population doubles every 70 minutes. Suppose when we start tracking the data we have 3 g of cells, and that the mass of the cells doubles when the population doubles. (It's more realistic to measure the mass of our bacteria colony than to try to count thousands of bacteria cells!)     Fill in the table below.   Mass of Lactobcillus Colony    Minutes,  70-minute Periods,  Colony Mass (g),    0  0  3    70  1     140  2     210      280      350           Find a formula for , the mass of the colony after 70-minute periods.      Use your formula to find the mass of the colony after 700 minutes, i.e., after 10 70-minute periods.      Use your formula to determine how long it takes for the mass of the colony to reach 1 kg, i.e., 1000 g.      Suppose we want to know the mass of the colony after 6 hours. How easy is it to use your formula to figure this out? Explain your answer.    "
+  "body": "  The bacteria lactobacillus acidophilus is part of turning milk into yogurt. Based on experiments, a new generation of bacteria are formed every 70 minutes, that is, the population doubles every 70 minutes. Suppose when we start tracking the data we have 3 g of cells, and that the mass of the cells doubles when the population doubles. (It's more realistic to measure the mass of our bacteria colony than to try to count thousands of bacteria cells!)     Fill in the table below.   Mass of Lactobcillus Colony    Minutes,  70-minute Periods,  Colony Mass (g),    0  0  3    70  1     140  2     210      280      350           What is the change factor for the colony's mass? What is the percent change?      Find a formula for , the mass of the colony after 70-minute periods.      Use your formula to find the mass of the colony after 700 minutes, i.e., after 10 70-minute periods.      Use your formula to determine how long it takes for the mass of the colony to reach 1 kg, i.e., 1000 g.      Suppose we want to know the mass of the colony after 6 hours. How easy is it to use your formula to figure this out? Explain your answer.    "
 },
 {
   "id": "pa-prep-alt-exponential-models-prep",
   "level": "2",
   "url": "sec-alt-exponential-models-prep.html#pa-prep-alt-exponential-models-prep",
   "type": "Prep Activity",
-  "number": "11.1.2",
+  "number": "10.1.2",
   "title": "",
   "body": " You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Set up and evaluate exponential models given starting values and relative change or change ratio.      "
 },
@@ -1166,54 +1076,144 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-alt-exponential-models.html",
   "type": "Section",
-  "number": "11.2",
+  "number": "10.2",
   "title": "Alternate Forms for Exponential Models Activities",
-  "body": " Alternate Forms for Exponential Models Activities     In , we investigated the growth of a colony of the bacteria lactobacillus acidophilus , part of turning milk into yogurt. We noted that based on experiments a new generation of bacteria are formed every 70 minutes, that is, the population doubles every 70 minutes, and assumed that when we start tracking the data we have 3 g of cells. If is the number of 70-minute periods since we started tracking and is the mass of the colony, we found that is a formula that models the relationship between the colony's mass and the number of 70-minute periods.     Explain in words how to build this formula using the information given in the story.      Use your formula to find the mass of the colony after:     490 minutes      100 minutes      7 hours       Our current formula's input is , the number of 70-minute periods. That's an awkward unit of time! It would be nicer to have a formula whose input was , the number of minutes. Find a formula that expresses the relationship between and .      Rewrite the formula so that it is in terms of , instead of .      Check that your new formula is correct by using it to find the mass of the colony after 490 minutes, 100 minutes, and 7 hours.      Suppose that a quantity is changing at a rate of every -minutes. Write a formula that shows the relationship between and , where is measured in minutes.        A new cat video is posted and 12 people view it the first day. Every 4 days afterward the number of people who see it triples. Let b the number of views the video has after days.     Write an equation to model the total number of people who have viewed this video.      How many people have viewed the video after 10 days?      How many days does it take for the video to get 1000 views? 2000 views? 10,000 views?      What is the relative change in the number of views the video gets each day? Use this information to find an alternate form for the formula.        Barium-133 has a half-life of 10.551 years. This means that afeter 10.551 years only half of the original amount will remain. This is the result of the radioactive isotope breaking down into other substances. Suppose that we obtain 7.000 grams of barium-133.     How much barium-133 should be left after 10.551 years? Why?      Find an exponential model for , the amount of barium-133 left after years.      Check that your model works by using it to find the amount of barium-133 left after 10.551 years.      How much barium-133 will be left after 50 years?      How long will it take for there to be less than 1 g of barium-133 left? Less than half a gram?      What is the relative change in the amount of barium-133 each day? Use this information to find an alternate form for the formula.        In April 1986, a flawed reactor design played a part in the Chernobyl nuclear meltdown. Approximately 14252 becqurels (Bqs), units of radioactivity, were initially released into the environment. Only areas with less than 800 Bqs are considered safe for human habitation. The function describes the amount, , in becqurels, of a radioactive element remaining in the area years after 1986.     What is the half-life of the radioactivity in Chernobyl? That is, how long does it take for there to be half as much radioactivity as there was at the start? Explain in words how to answer this question by looking at the formula, without calculating anything.      How much radioactivity is there at Chernobyl now?      How much radioactivity will there be at Chernobyl a century after the accident?      When will Chernobyl be safe for human habitation?      What is the relative change of radioactivity at Chernobyl each year? Use this information to find an alternate form for the formula.       The number is often used as the base for exponential models in science, possibly because exponential models with base play especially nicely with calculus. The number is also used in finance to model continuously compounded interest , a useful theoretical tool. The amount, , that an initial deposit of has grown to after years in an account that is compounding continuously at a rate of is . We use the letter for the initial deposit because it is often called the principal .     Suppose Parker deposits $1000 into an account that earns interest at a rate of 2% per year. Parker doesn't remember how many times a year interest is compounded. Use the continuous compounding formula to find a model for the most money they could possibly have after years (assuming they don't deposit any more money in the account).      What's the maximum amount of money that will Parker have after 1 year? 5 years? 10 years?      What's the smallest amount of time that it will take for Parker's money to double?  To solve this problem algebraically, you'll need . The base is so common in scientific applications that has been given a special name and notation: it's called the natural logarithm , and denoted . Many calculators, including Desmos, have a button. It might seem strange to call the natural logarithm - there doesn't seem to be much about it that's natural! This name makes more sense in the context of calculus, where is the best behaved logarithm.      If Parker's money is compounded continuously, what is the relative change in the amount in their account each year? Use this information to find an alternate form for the formula that looks more like the exponential models we've been working with.     "
+  "body": " Alternate Forms for Exponential Models Activities     In , we investigated the growth of a colony of the bacteria lactobacillus acidophilus , part of turning milk into yogurt. We noted that based on experiments a new generation of bacteria are formed every 70 minutes, that is, the population doubles every 70 minutes, and assumed that when we start tracking the data we have 3 g of cells. If is the number of 70-minute periods since we started tracking and is the mass of the colony, we found that is a formula that models the relationship between the colony's mass and the number of 70-minute periods.     Explain in words how to build this formula using the information given in the story.      Use your formula to find the mass of the colony after:     490 minutes      100 minutes      7 hours       Our current formula's input is , the number of 70-minute periods. That's an awkward unit of time! It would be nicer to have a formula whose input was , the number of minutes. Find a formula that expresses the relationship between and . That is, write an equation .      Use algebra to rewrite your equation for the last part so that looks like .      Use your equation for to find a formula for the mass of the colony in terms of by replacing the in .      Check that your new formula is correct by using it to find the mass of the colony after 490 minutes, 100 minutes, and 7 hours.      Suppose that a quantity is changing by every -minutes. Write a formula that shows the relationship between and , where is measured in minutes.        A new cat video is posted and 12 people view it the first day. Every 4 days afterward the number of people who see it triples. Let be the number of views the video has after days.     What is the change factor? The percent change?      Write an equation to model the total number of people who have viewed this video after days.      How many people have viewed the video after 10 days?      How many days does it take for the video to get 1000 views? 2000 views? 10,000 views?      Find the percent change in the number of views the video gets each day. Use this information to find an alternate form for the formula. Hint: Start by finding the number of views the video gets on the second day. Use this number and the fact that it got 12 views on the first day to find the percent change.        Barium-133 has a half-life of 10.551 years. This means that after 10.551 years only half of the original amount will remain. This is the result of the radioactive isotope breaking down into other substances. Suppose that we obtain 7.000 grams of barium-133.     How much barium-133 should be left after 10.551 years? Why?      What is the change factor? The percent change?      Find an exponential model for , the amount of barium-133 left after years.      Check that your model works by using it to find the amount of barium-133 left after 10.551 years.      How much barium-133 will be left after 50 years?      How long will it take for there to be less than 1 g of barium-133 left? Less than half a gram?      What is the percent change in the amount of barium-133 each day? Use this information to find an alternate form for the formula.        In April 1986, a flawed reactor design played a part in the Chernobyl nuclear meltdown. Approximately 14252 becqurels (Bqs), units of radioactivity, were initially released into the environment. Only areas with less than 800 Bqs are considered safe for human habitation. The function describes the amount, , in becqurels, of a radioactive element remaining in the area years after 1986.     What is the half-life of the radioactivity in Chernobyl? That is, how long does it take for there to be half as much radioactivity as there was at the start? Explain in words how to answer this question by looking at the formula, without calculating anything.      How much radioactivity is there at Chernobyl now?      How much radioactivity will there be at Chernobyl a century after the accident?      When will Chernobyl be safe for human habitation?      What is the percent change of radioactivity at Chernobyl each year? Use this information to find an alternate form for the formula.       The number is often used as the base for exponential models in science, possibly because exponential models with base play especially nicely with calculus. The number is also used in finance to model continuously compounded interest , a useful theoretical tool. The amount, , that an initial deposit of has grown to after years in an account that is compounding continuously at a rate of is . We use the letter for the initial deposit because it is often called the principal .     Suppose Parker deposits $1000 into an account that earns interest at a rate of 2% per year. Parker doesn't remember how many times a year interest is compounded. Use the continuous compounding formula to find a model for the most money they could possibly have after years (assuming they don't deposit any more money in the account).      What's the maximum amount of money that Parker could have after 1 year? 5 years? 10 years?      What's the smallest amount of time that it will take for Parker's money to double?  To solve this problem algebraically, you'll need . The base is so common in scientific applications that has been given a special name and notation: it's called the natural logarithm , and denoted . Many calculators have a button. It might seem strange to call the natural logarithm - there doesn't seem to be much about it that's natural! This name makes more sense in the context of calculus, where is the best behaved logarithm.      If Parker's money is compounded continuously, what is the percent change in the amount in their account each year? Use this information to find an alternate form for the formula that looks more like the exponential models we've been working with.     "
 },
 {
   "id": "a-yogurt-bacteria-continued",
   "level": "2",
   "url": "sec-alt-exponential-models.html#a-yogurt-bacteria-continued",
   "type": "Activity",
-  "number": "11.2.1",
+  "number": "10.2.1",
   "title": "",
-  "body": "  In , we investigated the growth of a colony of the bacteria lactobacillus acidophilus , part of turning milk into yogurt. We noted that based on experiments a new generation of bacteria are formed every 70 minutes, that is, the population doubles every 70 minutes, and assumed that when we start tracking the data we have 3 g of cells. If is the number of 70-minute periods since we started tracking and is the mass of the colony, we found that is a formula that models the relationship between the colony's mass and the number of 70-minute periods.     Explain in words how to build this formula using the information given in the story.      Use your formula to find the mass of the colony after:     490 minutes      100 minutes      7 hours       Our current formula's input is , the number of 70-minute periods. That's an awkward unit of time! It would be nicer to have a formula whose input was , the number of minutes. Find a formula that expresses the relationship between and .      Rewrite the formula so that it is in terms of , instead of .      Check that your new formula is correct by using it to find the mass of the colony after 490 minutes, 100 minutes, and 7 hours.      Suppose that a quantity is changing at a rate of every -minutes. Write a formula that shows the relationship between and , where is measured in minutes.    "
+  "body": "  In , we investigated the growth of a colony of the bacteria lactobacillus acidophilus , part of turning milk into yogurt. We noted that based on experiments a new generation of bacteria are formed every 70 minutes, that is, the population doubles every 70 minutes, and assumed that when we start tracking the data we have 3 g of cells. If is the number of 70-minute periods since we started tracking and is the mass of the colony, we found that is a formula that models the relationship between the colony's mass and the number of 70-minute periods.     Explain in words how to build this formula using the information given in the story.      Use your formula to find the mass of the colony after:     490 minutes      100 minutes      7 hours       Our current formula's input is , the number of 70-minute periods. That's an awkward unit of time! It would be nicer to have a formula whose input was , the number of minutes. Find a formula that expresses the relationship between and . That is, write an equation .      Use algebra to rewrite your equation for the last part so that looks like .      Use your equation for to find a formula for the mass of the colony in terms of by replacing the in .      Check that your new formula is correct by using it to find the mass of the colony after 490 minutes, 100 minutes, and 7 hours.      Suppose that a quantity is changing by every -minutes. Write a formula that shows the relationship between and , where is measured in minutes.    "
 },
 {
   "id": "a-viral-cat-video",
   "level": "2",
   "url": "sec-alt-exponential-models.html#a-viral-cat-video",
   "type": "Activity",
-  "number": "11.2.2",
+  "number": "10.2.2",
   "title": "",
-  "body": "  A new cat video is posted and 12 people view it the first day. Every 4 days afterward the number of people who see it triples. Let b the number of views the video has after days.     Write an equation to model the total number of people who have viewed this video.      How many people have viewed the video after 10 days?      How many days does it take for the video to get 1000 views? 2000 views? 10,000 views?      What is the relative change in the number of views the video gets each day? Use this information to find an alternate form for the formula.    "
+  "body": "  A new cat video is posted and 12 people view it the first day. Every 4 days afterward the number of people who see it triples. Let be the number of views the video has after days.     What is the change factor? The percent change?      Write an equation to model the total number of people who have viewed this video after days.      How many people have viewed the video after 10 days?      How many days does it take for the video to get 1000 views? 2000 views? 10,000 views?      Find the percent change in the number of views the video gets each day. Use this information to find an alternate form for the formula. Hint: Start by finding the number of views the video gets on the second day. Use this number and the fact that it got 12 views on the first day to find the percent change.    "
 },
 {
   "id": "a-barium-half-life",
   "level": "2",
   "url": "sec-alt-exponential-models.html#a-barium-half-life",
   "type": "Activity",
-  "number": "11.2.3",
+  "number": "10.2.3",
   "title": "",
-  "body": "  Barium-133 has a half-life of 10.551 years. This means that afeter 10.551 years only half of the original amount will remain. This is the result of the radioactive isotope breaking down into other substances. Suppose that we obtain 7.000 grams of barium-133.     How much barium-133 should be left after 10.551 years? Why?      Find an exponential model for , the amount of barium-133 left after years.      Check that your model works by using it to find the amount of barium-133 left after 10.551 years.      How much barium-133 will be left after 50 years?      How long will it take for there to be less than 1 g of barium-133 left? Less than half a gram?      What is the relative change in the amount of barium-133 each day? Use this information to find an alternate form for the formula.    "
+  "body": "  Barium-133 has a half-life of 10.551 years. This means that after 10.551 years only half of the original amount will remain. This is the result of the radioactive isotope breaking down into other substances. Suppose that we obtain 7.000 grams of barium-133.     How much barium-133 should be left after 10.551 years? Why?      What is the change factor? The percent change?      Find an exponential model for , the amount of barium-133 left after years.      Check that your model works by using it to find the amount of barium-133 left after 10.551 years.      How much barium-133 will be left after 50 years?      How long will it take for there to be less than 1 g of barium-133 left? Less than half a gram?      What is the percent change in the amount of barium-133 each day? Use this information to find an alternate form for the formula.    "
 },
 {
   "id": "a-chernobyl",
   "level": "2",
   "url": "sec-alt-exponential-models.html#a-chernobyl",
   "type": "Activity",
-  "number": "11.2.4",
+  "number": "10.2.4",
   "title": "",
-  "body": "  In April 1986, a flawed reactor design played a part in the Chernobyl nuclear meltdown. Approximately 14252 becqurels (Bqs), units of radioactivity, were initially released into the environment. Only areas with less than 800 Bqs are considered safe for human habitation. The function describes the amount, , in becqurels, of a radioactive element remaining in the area years after 1986.     What is the half-life of the radioactivity in Chernobyl? That is, how long does it take for there to be half as much radioactivity as there was at the start? Explain in words how to answer this question by looking at the formula, without calculating anything.      How much radioactivity is there at Chernobyl now?      How much radioactivity will there be at Chernobyl a century after the accident?      When will Chernobyl be safe for human habitation?      What is the relative change of radioactivity at Chernobyl each year? Use this information to find an alternate form for the formula.    "
+  "body": "  In April 1986, a flawed reactor design played a part in the Chernobyl nuclear meltdown. Approximately 14252 becqurels (Bqs), units of radioactivity, were initially released into the environment. Only areas with less than 800 Bqs are considered safe for human habitation. The function describes the amount, , in becqurels, of a radioactive element remaining in the area years after 1986.     What is the half-life of the radioactivity in Chernobyl? That is, how long does it take for there to be half as much radioactivity as there was at the start? Explain in words how to answer this question by looking at the formula, without calculating anything.      How much radioactivity is there at Chernobyl now?      How much radioactivity will there be at Chernobyl a century after the accident?      When will Chernobyl be safe for human habitation?      What is the percent change of radioactivity at Chernobyl each year? Use this information to find an alternate form for the formula.    "
 },
 {
   "id": "a-introducing-e",
   "level": "2",
   "url": "sec-alt-exponential-models.html#a-introducing-e",
   "type": "Activity",
-  "number": "11.2.5",
+  "number": "10.2.5",
   "title": "",
-  "body": "  The number is often used as the base for exponential models in science, possibly because exponential models with base play especially nicely with calculus. The number is also used in finance to model continuously compounded interest , a useful theoretical tool. The amount, , that an initial deposit of has grown to after years in an account that is compounding continuously at a rate of is . We use the letter for the initial deposit because it is often called the principal .     Suppose Parker deposits $1000 into an account that earns interest at a rate of 2% per year. Parker doesn't remember how many times a year interest is compounded. Use the continuous compounding formula to find a model for the most money they could possibly have after years (assuming they don't deposit any more money in the account).      What's the maximum amount of money that will Parker have after 1 year? 5 years? 10 years?      What's the smallest amount of time that it will take for Parker's money to double?  To solve this problem algebraically, you'll need . The base is so common in scientific applications that has been given a special name and notation: it's called the natural logarithm , and denoted . Many calculators, including Desmos, have a button. It might seem strange to call the natural logarithm - there doesn't seem to be much about it that's natural! This name makes more sense in the context of calculus, where is the best behaved logarithm.      If Parker's money is compounded continuously, what is the relative change in the amount in their account each year? Use this information to find an alternate form for the formula that looks more like the exponential models we've been working with.    "
+  "body": "  The number is often used as the base for exponential models in science, possibly because exponential models with base play especially nicely with calculus. The number is also used in finance to model continuously compounded interest , a useful theoretical tool. The amount, , that an initial deposit of has grown to after years in an account that is compounding continuously at a rate of is . We use the letter for the initial deposit because it is often called the principal .     Suppose Parker deposits $1000 into an account that earns interest at a rate of 2% per year. Parker doesn't remember how many times a year interest is compounded. Use the continuous compounding formula to find a model for the most money they could possibly have after years (assuming they don't deposit any more money in the account).      What's the maximum amount of money that Parker could have after 1 year? 5 years? 10 years?      What's the smallest amount of time that it will take for Parker's money to double?  To solve this problem algebraically, you'll need . The base is so common in scientific applications that has been given a special name and notation: it's called the natural logarithm , and denoted . Many calculators have a button. It might seem strange to call the natural logarithm - there doesn't seem to be much about it that's natural! This name makes more sense in the context of calculus, where is the best behaved logarithm.      If Parker's money is compounded continuously, what is the percent change in the amount in their account each year? Use this information to find an alternate form for the formula that looks more like the exponential models we've been working with.    "
+},
+{
+  "id": "sec-properties-logs-exponents-prep",
+  "level": "1",
+  "url": "sec-properties-logs-exponents-prep.html",
+  "type": "Section",
+  "number": "11.1",
+  "title": "Properties of Exponents and Logs Prep Activities",
+  "body": " Properties of Exponents and Logs Prep Activities   Calculators like Photomath and Mathway can do the algebra that we're going to learn in this prep activity and the in-class activities for you. If the main point of this lesson was getting the answer, then I would encourage you to use these tools! But, the main point of this lesson is not getting the answer. The main point of this lesson is to practice working with complicated math notation in order to get more comfortable with it. Tools like Photomath and Mathway take the thinking that is most critical for this lesson away from your brain, and make it unlikely that you will achieve the actual goals. So, you may not use ANY tools except for your brain for this lesson , with the exception of checking your answer.     In previous math courses, you likely learned that exponents represent repeated multiplication. So, for example, . This is all we need to know to discover an important property of exponents.     In each expression below, rewrite each exponent using repeated multiplication. Then, rewrite the expression with a single exponent.                           What do you notice? Use your observations to complete the Product Rule for Exponents :       Use the Product Rule for Exponents to rewrite each of the following expressions:             ( Note: This is a very, very large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is )                      Rewriting exponents as repeated multiplication can also help us discover a second important property of exponents.     In each expression below, rewrite each exponent using repeated multiplication. Then, rewrite the expression with a single exponent.                           What do you notice? Use your observations to complete the Quotient Rule for Exponents :       Use the Quotient Rule for Exponents to rewrite each of the following expressions:             ( Note: This is a large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is )                      Let's discover one more property of exponents by rewriting exponents as repeated multiplication.     In each expression below, rewrite the outer exponent using repeated multiplication. Then, use the product rule to rewrite the expression with a single exponent. For example,                            What do you notice? Use your observations to complete the Power Rule for Exponents :       Use the Power Rule for Exponents to rewrite each of the following expressions:             ( Note: This is a very, very large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is )                      You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Use the Product Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.     Use the Quotient Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.     Use the Power Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.       "
+},
+{
+  "id": "pa-exponent-product",
+  "level": "2",
+  "url": "sec-properties-logs-exponents-prep.html#pa-exponent-product",
+  "type": "Prep Activity",
+  "number": "11.1.1",
+  "title": "",
+  "body": "  In previous math courses, you likely learned that exponents represent repeated multiplication. So, for example, . This is all we need to know to discover an important property of exponents.     In each expression below, rewrite each exponent using repeated multiplication. Then, rewrite the expression with a single exponent.                           What do you notice? Use your observations to complete the Product Rule for Exponents :       Use the Product Rule for Exponents to rewrite each of the following expressions:             ( Note: This is a very, very large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is )                   "
+},
+{
+  "id": "pa-exponent-quotient",
+  "level": "2",
+  "url": "sec-properties-logs-exponents-prep.html#pa-exponent-quotient",
+  "type": "Prep Activity",
+  "number": "11.1.2",
+  "title": "",
+  "body": "  Rewriting exponents as repeated multiplication can also help us discover a second important property of exponents.     In each expression below, rewrite each exponent using repeated multiplication. Then, rewrite the expression with a single exponent.                           What do you notice? Use your observations to complete the Quotient Rule for Exponents :       Use the Quotient Rule for Exponents to rewrite each of the following expressions:             ( Note: This is a large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is )                   "
+},
+{
+  "id": "pa-power-rule-exponents",
+  "level": "2",
+  "url": "sec-properties-logs-exponents-prep.html#pa-power-rule-exponents",
+  "type": "Prep Activity",
+  "number": "11.1.3",
+  "title": "",
+  "body": "  Let's discover one more property of exponents by rewriting exponents as repeated multiplication.     In each expression below, rewrite the outer exponent using repeated multiplication. Then, use the product rule to rewrite the expression with a single exponent. For example,                            What do you notice? Use your observations to complete the Power Rule for Exponents :       Use the Power Rule for Exponents to rewrite each of the following expressions:             ( Note: This is a very, very large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is )                   "
+},
+{
+  "id": "pa-logs-exponent-properties-confidence",
+  "level": "2",
+  "url": "sec-properties-logs-exponents-prep.html#pa-logs-exponent-properties-confidence",
+  "type": "Prep Activity",
+  "number": "11.1.4",
+  "title": "",
+  "body": " You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Use the Product Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.     Use the Quotient Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.     Use the Power Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.      "
+},
+{
+  "id": "sec-properties-logs-exponents",
+  "level": "1",
+  "url": "sec-properties-logs-exponents.html",
+  "type": "Section",
+  "number": "11.2",
+  "title": "Properties of Exponents and Logs Activities",
+  "body": " Properties of Exponents and Logs Activities    Use the Product, Quotient, and Product Rules for Exponents to rewrite the following expression or solve the problem. Remember, the main goal is to exercise your brain, not to get the answers, so you must not use tools like Photomath or Mathway for anything but answer checking.                   Use the integers 1 to 9 to fill in the boxes. There may be more than one correct answer!                            Use the integers 1 to 9 to fill in the boxes. There may be more than one correct answer! There is at least one solution that doesn't use any digit more than once.        So far, we have focused on expressions that have positive integer exponents. A special exponent rule tells us that as long as .     The Quotient Rule Rule for Exponents gives us one way to understand why this definition is reasonable.     Use the Quotient Rule for Exponents to rewrite as .      Explain why it is also true that .      How do the previous two questions support the claim that is a reasonable definition?       Rewrite each of the following expressions:                            There is one more exponent rule for us to discover today.     Rewrite each of the expressions below using repeated multiplication.                    What do you notice? Use your observations to fill in the blanks to complete the exponent property below.       Use the exponent rules that we've learned to rewrite each of the expressions below.                            The relationship between logs and exponents mean that there are log properties that correspond to the Product, Quotient, and Power Rule of Exponents. They are:   Use the log properties to rewrite each of the expressions below.     Rewrite as a single logarithm, then evaluate without a calculator:       Rewrite as a sum or difference of logarithms:       Rewrite a single logarithm:       Rewrite as a single logarithm:       Rewrite as a sum or difference of logarithms:      "
+},
+{
+  "id": "a-exponent-rule-practice",
+  "level": "2",
+  "url": "sec-properties-logs-exponents.html#a-exponent-rule-practice",
+  "type": "Activity",
+  "number": "11.2.1",
+  "title": "",
+  "body": "  Use the Product, Quotient, and Product Rules for Exponents to rewrite the following expression or solve the problem. Remember, the main goal is to exercise your brain, not to get the answers, so you must not use tools like Photomath or Mathway for anything but answer checking.                   Use the integers 1 to 9 to fill in the boxes. There may be more than one correct answer!                            Use the integers 1 to 9 to fill in the boxes. There may be more than one correct answer! There is at least one solution that doesn't use any digit more than once.     "
+},
+{
+  "id": "a-zero-exponent",
+  "level": "2",
+  "url": "sec-properties-logs-exponents.html#a-zero-exponent",
+  "type": "Activity",
+  "number": "11.2.2",
+  "title": "",
+  "body": "  So far, we have focused on expressions that have positive integer exponents. A special exponent rule tells us that as long as .     The Quotient Rule Rule for Exponents gives us one way to understand why this definition is reasonable.     Use the Quotient Rule for Exponents to rewrite as .      Explain why it is also true that .      How do the previous two questions support the claim that is a reasonable definition?       Rewrite each of the following expressions:                         "
+},
+{
+  "id": "a-expanded-product-quotient",
+  "level": "2",
+  "url": "sec-properties-logs-exponents.html#a-expanded-product-quotient",
+  "type": "Activity",
+  "number": "11.2.3",
+  "title": "",
+  "body": "  There is one more exponent rule for us to discover today.     Rewrite each of the expressions below using repeated multiplication.                    What do you notice? Use your observations to fill in the blanks to complete the exponent property below.       Use the exponent rules that we've learned to rewrite each of the expressions below.                         "
+},
+{
+  "id": "a-log-rules",
+  "level": "2",
+  "url": "sec-properties-logs-exponents.html#a-log-rules",
+  "type": "Activity",
+  "number": "11.2.4",
+  "title": "",
+  "body": "  The relationship between logs and exponents mean that there are log properties that correspond to the Product, Quotient, and Power Rule of Exponents. They are:   Use the log properties to rewrite each of the expressions below.     Rewrite as a single logarithm, then evaluate without a calculator:       Rewrite as a sum or difference of logarithms:       Rewrite a single logarithm:       Rewrite as a single logarithm:       Rewrite as a sum or difference of logarithms:     "
 },
 {
   "id": "sec-exponential-trends-prep",
