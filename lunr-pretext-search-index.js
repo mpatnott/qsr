@@ -1207,110 +1207,20 @@ var ptx_lunr_docs = [
   "body": "   The table below shows the cost in dollars per megabyte of storage space on computer hard drives from 1980 to 2004.   Cost Per Megabyte of Storage Space    Year  1980  1984  1988  1992  1996  2000  2004    Cost per MB ($)  192.31  87.86  15.98  4  0.173  0.006849  0.001149    Log Cost per MB (log($))               Explain why a linear model is not a good fit for the cost data.      Fill in the last row of the table by taking the log of the cost values. Keep three decimal places! For example, in 1980, the value in the Log Cost row should be       Graph your new Log Cost data on the axes below. Does your graph look like it has a linear trend?   Log Cost Per Megabyte of Storage Space    Blank axes. The horizontal axis goes from 0 to 24, and the vertical axis goes from -4 to 3.   Blank axes.          Find a formula for a linear model for log costs. Use as the output variable and as the input variable, and include at least four decimal places in your slope.      Use the steps you learned in the population activities to use your linear model to estimate the cost per megabyte of storage space in 2002.      Use the steps you learned in the population activities to use your linear model to estimate when the cost per megabyte of storage space was $0.0001.     "
 },
 {
-  "id": "sec-properties-logs-exponents-prep",
-  "level": "1",
-  "url": "sec-properties-logs-exponents-prep.html",
-  "type": "Section",
-  "number": "12.1",
-  "title": "Properties of Exponents and Logs Prep Activities",
-  "body": " Properties of Exponents and Logs Prep Activities   Calculators like Photomath and Mathway can do the algebra that we're going to learn in this prep activity and the in-class activities for you. If the main point of this lesson was getting the answer, then I would encourage you to use these tools! But, the main point of this lesson is not getting the answer. The main point of this lesson is to practice working with complicated math notation in order to get more comfortable with it. Tools like Photomath and Mathway take the thinking that is most critical for this lesson away from your brain, and make it unlikely that you will achieve the actual goals. So, you may not use ANY tools except for your brain for this lesson , with the exception of checking your answer.     In previous math courses, you likely learned that exponents represent repeated multiplication. So, for example, . This is all we need to know to discover an important property of exponents.     In each expression below, rewrite each exponent using repeated multiplication. Then, rewrite the expression with a single exponent.                           What do you notice? Use your observations to complete the Product Rule for Exponents :       Use the Product Rule for Exponents to rewrite each of the following expressions:             ( Note: This is a very, very large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is )                      Rewriting exponents as repeated multiplication can also help us discover a second important property of exponents.     In each expression below, rewrite each exponent using repeated multiplication. Then, rewrite the expression with a single exponent.                           What do you notice? Use your observations to complete the Quotient Rule for Exponents :       Use the Quotient Rule for Exponents to rewrite each of the following expressions:             ( Note: This is a large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is )                      Let's discover one more property of exponents by rewriting exponents as repeated multiplication.     In each expression below, rewrite the outer exponent using repeated multiplication. Then, use the product rule to rewrite the expression with a single exponent. For example,                            What do you notice? Use your observations to complete the Power Rule for Exponents :       Use the Power Rule for Exponents to rewrite each of the following expressions:             ( Note: This is a very, very large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is )                      You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Use the Product Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.     Use the Quotient Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.     Use the Power Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.       "
-},
-{
-  "id": "pa-exponent-product",
-  "level": "2",
-  "url": "sec-properties-logs-exponents-prep.html#pa-exponent-product",
-  "type": "Prep Activity",
-  "number": "12.1.1",
-  "title": "",
-  "body": "  In previous math courses, you likely learned that exponents represent repeated multiplication. So, for example, . This is all we need to know to discover an important property of exponents.     In each expression below, rewrite each exponent using repeated multiplication. Then, rewrite the expression with a single exponent.                           What do you notice? Use your observations to complete the Product Rule for Exponents :       Use the Product Rule for Exponents to rewrite each of the following expressions:             ( Note: This is a very, very large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is )                   "
-},
-{
-  "id": "pa-exponent-quotient",
-  "level": "2",
-  "url": "sec-properties-logs-exponents-prep.html#pa-exponent-quotient",
-  "type": "Prep Activity",
-  "number": "12.1.2",
-  "title": "",
-  "body": "  Rewriting exponents as repeated multiplication can also help us discover a second important property of exponents.     In each expression below, rewrite each exponent using repeated multiplication. Then, rewrite the expression with a single exponent.                           What do you notice? Use your observations to complete the Quotient Rule for Exponents :       Use the Quotient Rule for Exponents to rewrite each of the following expressions:             ( Note: This is a large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is )                   "
-},
-{
-  "id": "pa-power-rule-exponents",
-  "level": "2",
-  "url": "sec-properties-logs-exponents-prep.html#pa-power-rule-exponents",
-  "type": "Prep Activity",
-  "number": "12.1.3",
-  "title": "",
-  "body": "  Let's discover one more property of exponents by rewriting exponents as repeated multiplication.     In each expression below, rewrite the outer exponent using repeated multiplication. Then, use the product rule to rewrite the expression with a single exponent. For example,                            What do you notice? Use your observations to complete the Power Rule for Exponents :       Use the Power Rule for Exponents to rewrite each of the following expressions:             ( Note: This is a very, very large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is )                   "
-},
-{
-  "id": "pa-logs-exponent-properties-confidence",
-  "level": "2",
-  "url": "sec-properties-logs-exponents-prep.html#pa-logs-exponent-properties-confidence",
-  "type": "Prep Activity",
-  "number": "12.1.4",
-  "title": "",
-  "body": " You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Use the Product Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.     Use the Quotient Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.     Use the Power Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.      "
-},
-{
-  "id": "sec-properties-logs-exponents",
-  "level": "1",
-  "url": "sec-properties-logs-exponents.html",
-  "type": "Section",
-  "number": "12.2",
-  "title": "Properties of Exponents and Logs Activities",
-  "body": " Properties of Exponents and Logs Activities    Use the Product, Quotient, and Product Rules for Exponents to rewrite the following expression or solve the problem. Remember, the main goal is to exercise your brain, not to get the answers, so you must not use tools like Photomath or Mathway for anything but answer checking.                   Use the integers 1 to 9 to fill in the boxes. There may be more than one correct answer!                            Use the integers 1 to 9 to fill in the boxes. There may be more than one correct answer! There is at least one solution that doesn't use any digit more than once.        So far, we have focused on expressions that have positive integer exponents. A special exponent rule tells us that as long as .     The Quotient Rule Rule for Exponents gives us one way to understand why this definition is reasonable.     Use the Quotient Rule for Exponents to rewrite as .      Explain why it is also true that .      How do the previous two questions support the claim that is a reasonable definition?       Rewrite each of the following expressions:                            There is one more exponent rule for us to discover today.     Rewrite each of the expressions below using repeated multiplication.                    What do you notice? Use your observations to fill in the blanks to complete the exponent property below.       Use the exponent rules that we've learned to rewrite each of the expressions below.                            The relationship between logs and exponents mean that there are log properties that correspond to the Product, Quotient, and Power Rule of Exponents. They are:   Use the log properties to rewrite each of the expressions below.     Rewrite as a single logarithm, then evaluate without a calculator:       Rewrite as a sum or difference of logarithms:       Rewrite a single logarithm:       Rewrite as a single logarithm:       Rewrite as a sum or difference of logarithms:      "
-},
-{
-  "id": "a-exponent-rule-practice",
-  "level": "2",
-  "url": "sec-properties-logs-exponents.html#a-exponent-rule-practice",
-  "type": "Activity",
-  "number": "12.2.1",
-  "title": "",
-  "body": "  Use the Product, Quotient, and Product Rules for Exponents to rewrite the following expression or solve the problem. Remember, the main goal is to exercise your brain, not to get the answers, so you must not use tools like Photomath or Mathway for anything but answer checking.                   Use the integers 1 to 9 to fill in the boxes. There may be more than one correct answer!                            Use the integers 1 to 9 to fill in the boxes. There may be more than one correct answer! There is at least one solution that doesn't use any digit more than once.     "
-},
-{
-  "id": "a-zero-exponent",
-  "level": "2",
-  "url": "sec-properties-logs-exponents.html#a-zero-exponent",
-  "type": "Activity",
-  "number": "12.2.2",
-  "title": "",
-  "body": "  So far, we have focused on expressions that have positive integer exponents. A special exponent rule tells us that as long as .     The Quotient Rule Rule for Exponents gives us one way to understand why this definition is reasonable.     Use the Quotient Rule for Exponents to rewrite as .      Explain why it is also true that .      How do the previous two questions support the claim that is a reasonable definition?       Rewrite each of the following expressions:                         "
-},
-{
-  "id": "a-expanded-product-quotient",
-  "level": "2",
-  "url": "sec-properties-logs-exponents.html#a-expanded-product-quotient",
-  "type": "Activity",
-  "number": "12.2.3",
-  "title": "",
-  "body": "  There is one more exponent rule for us to discover today.     Rewrite each of the expressions below using repeated multiplication.                    What do you notice? Use your observations to fill in the blanks to complete the exponent property below.       Use the exponent rules that we've learned to rewrite each of the expressions below.                         "
-},
-{
-  "id": "a-log-rules",
-  "level": "2",
-  "url": "sec-properties-logs-exponents.html#a-log-rules",
-  "type": "Activity",
-  "number": "12.2.4",
-  "title": "",
-  "body": "  The relationship between logs and exponents mean that there are log properties that correspond to the Product, Quotient, and Power Rule of Exponents. They are:   Use the log properties to rewrite each of the expressions below.     Rewrite as a single logarithm, then evaluate without a calculator:       Rewrite as a sum or difference of logarithms:       Rewrite a single logarithm:       Rewrite as a single logarithm:       Rewrite as a sum or difference of logarithms:     "
-},
-{
   "id": "sec-power-models-prep",
   "level": "1",
   "url": "sec-power-models-prep.html",
   "type": "Section",
-  "number": "13.1",
+  "number": "12.1",
   "title": "Introduction to Power Models Prep Activities",
-  "body": " Introduction to Power Models Prep Activities     The area of a square can be modeled by the formula where is the length of a side of the square and is the square's area.     Use the model to fill in the table below.   Areas of Squares    Side Length, , (cm)  1  2  3  4  5    Area, ,              What would change if the side lengths of the squares were measured in feet instead of centimeters?      Sketch a graph showing the relationship between the area of a square and its side length.      Explain how we know that this isn't a linear model.      Explain how we know that this isn't an exponential model.       A power model is a relationship between two quantities that can be written in the form , where and are the two quantities, is a number called the coefficient and is a number called the power .  For example, the area of a square model is a power model. The two quantities are the area ( ) and the side length ( ), the coefficient is , and the power is .  Determine whether or not each of the models below is a power model. If it is a power model, identify the quantities, the coefficient, and the power. If it's not a power model, explain why not.                                         Create formulas for three models: a power model, an exponential model, and a model that is neither. Briefly explain your answer.     You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Identify whether or not a formula is a power model.     Explain the difference between power models and exponential models.        "
+  "body": " Introduction to Power Models Prep Activities     The area of a square can be modeled by the formula where is the length of a side of the square and is the square's area.     Use the model to fill in the table below.   Areas of Squares    Side Length, , (cm)  1  2  3  4  5    Area, ,              What would change if the side lengths of the squares were measured in feet instead of centimeters?      Sketch a graph showing the relationship between the area of a square and its side length.      Explain how we know that this isn't a linear model.      Explain how we know that this isn't an exponential model.       A power model is a relationship between two quantities that can be written in the form , where and are the two quantities, is a number called the coefficient and is a number called the power . The quantitites and are variables, and the coefficient and the power are numbers.  For example, the area of a square model is a power model. The two quantities are the area ( ) and the side length ( ), the coefficient is , and the power is .  Determine whether or not each of the models below is a power model. If it is a power model, identify the quantities, the coefficient, and the power. If it's not a power model, explain why not.                                         Create formulas for three models: a power model, an exponential model, and a model that is neither. Briefly explain your answer.     You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Identify whether or not a formula is a power model.     Explain the difference between power models and exponential models.        "
 },
 {
   "id": "pa-area",
   "level": "2",
   "url": "sec-power-models-prep.html#pa-area",
   "type": "Prep Activity",
-  "number": "13.1.1",
+  "number": "12.1.1",
   "title": "",
   "body": "  The area of a square can be modeled by the formula where is the length of a side of the square and is the square's area.     Use the model to fill in the table below.   Areas of Squares    Side Length, , (cm)  1  2  3  4  5    Area, ,              What would change if the side lengths of the squares were measured in feet instead of centimeters?      Sketch a graph showing the relationship between the area of a square and its side length.      Explain how we know that this isn't a linear model.      Explain how we know that this isn't an exponential model.    "
 },
@@ -1319,16 +1229,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-power-models-prep.html#pa-id-power-model",
   "type": "Prep Activity",
-  "number": "13.1.2",
+  "number": "12.1.2",
   "title": "",
-  "body": "  A power model is a relationship between two quantities that can be written in the form , where and are the two quantities, is a number called the coefficient and is a number called the power .  For example, the area of a square model is a power model. The two quantities are the area ( ) and the side length ( ), the coefficient is , and the power is .  Determine whether or not each of the models below is a power model. If it is a power model, identify the quantities, the coefficient, and the power. If it's not a power model, explain why not.                                      "
+  "body": "  A power model is a relationship between two quantities that can be written in the form , where and are the two quantities, is a number called the coefficient and is a number called the power . The quantitites and are variables, and the coefficient and the power are numbers.  For example, the area of a square model is a power model. The two quantities are the area ( ) and the side length ( ), the coefficient is , and the power is .  Determine whether or not each of the models below is a power model. If it is a power model, identify the quantities, the coefficient, and the power. If it's not a power model, explain why not.                                      "
 },
 {
   "id": "pa-power-model-examples",
   "level": "2",
   "url": "sec-power-models-prep.html#pa-power-model-examples",
   "type": "Prep Activity",
-  "number": "13.1.3",
+  "number": "12.1.3",
   "title": "",
   "body": "  Create formulas for three models: a power model, an exponential model, and a model that is neither. Briefly explain your answer.   "
 },
@@ -1337,7 +1247,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-power-models-prep.html#pa-power-model-prep-confidence",
   "type": "Prep Activity",
-  "number": "13.1.4",
+  "number": "12.1.4",
   "title": "",
   "body": " You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Identify whether or not a formula is a power model.     Explain the difference between power models and exponential models.      "
 },
@@ -1346,43 +1256,70 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-power-models.html",
   "type": "Section",
-  "number": "13.2",
+  "number": "12.2",
   "title": "Introduction to Power Models",
-  "body": " Introduction to Power Models    Recall from that a power model is a relationship between two quantities that can be written in the form , where and are the two quantities, is a number called the coefficient and is a number called the power .     Determine which of the following are power models and which are not. Briefly explain your answers in words.                                          The volume of a cube can be modeled by the formula where is the length of a side of the cube and is the cube's volume.     Explain why the volume of a cube is a power model, and identify its quantities, coefficient, and power.      Sketch a graph showing the relationship between the volume of a cube and its side lengths.      Confirm that the volume of a cube is not a linear model using average rates of change.      Confirm that the volume of a cube is not an exponential model using relative change.      In order to find the side length of a cube with volume , we can use one of two equivalent strategies:  Find the cube root of 8, .  Find the power of 8, .  Find the side length of a cube with volume .       Power models with positive powers are often expressed in words using the language of proportionality , or by saying that one quantity varies directly with another. For example:   Words: The strength of a beam, , is proportional to the square of its thickness,  Power Model: , with an unknown number    Words: The energy, , expended by a swimming dolphin varies directly with the cube of its speed, Power Model: , with an unknown number    Words: The braking distance, , of an Alfa Romeo on dry pavement is proportional to the square of its speed ( ), with coefficient  Power Model Formula:      In each of the following situations, set up the power model being described. Use the information given to find the coefficient, then answer the question.       is proportional to the square of . When , . What is when ?       varies directly with the cube power of . When , . What is when ?      The electrical current, in amperes, in a circuit varies directly as the voltage. When 27 volts are applied, the current is 9 amperes. What is the current when 39 volts are applied?        When an aircraft takes off, it accelerates until it reaches its takeoff speed . In doing so it uses up a distance of the runway, where is proportional to the square of the takeoff speed. An aircraft with a takeoff speed of 100 mph needs 1639 feet of runway.      Find a formula for a power model for the relationship between and .      Suppose that typical takeoff speeds for aircraft are between 60 and 190 mph. Sketch a graph showing the relationship between the takeoff speed and runway length needed for takeoff for aircraft.      Suppose that a Boeing 737 aircraft has a takeoff speed of 150 mph. How much runway does it need?      Foula Airfield serves the remote island of Foula, part of the Shetland Islands (north of Scotland). Flights to Foula serve tourists and deliver essential items to island's handful of residents. Its single runway is only 1699 ft long ! What is the fastest takeoff speed Foula Airfield can handle?       The graphs of power models with positive integer powers are very predictable! Let's find the pattern.     Use Desmos to graph each of the power models listed below. What patterns do you notice?       Use Desmos to graph each of the power models listed below. What patterns do you notice?       Use the patterns you noticed in the two parts above and what you already know about linear models to fill in each cell of the table with a sketch of the graph.   Shapes of Power Model Graphs     Positive Coefficient  Negative Coefficient                        Explain why equations involving a power model with an odd power only have one solution.      Suppose that we want to find all solutions to the equation .     Use a sketch of the graph of to explain why there are two solutions. Then, use Desmos to find both solutions.      Find both solutions with algebra.      Camila consistently gets problems like this one wrong. Write a set of steps for Camila to follow that will help her find all solutions to equations involving a power model with an even power using algebra.      "
+  "body": " Introduction to Power Models    Recall from that a power model is a relationship between two quantities that can be written in the form , where and are the two quantities, is a number called the coefficient and is a number called the power . The quantitites and are variables, and the coefficient and the power are numbers.     Determine which of the following are power models and which are not. Briefly explain your answers in words.                                          The volume of a cube can be modeled by the formula where is the length of a side of the cube and is the cube's volume.     Explain why the volume of a cube is a power model, and identify its quantities, coefficient, and power.      Sketch a graph showing the relationship between the volume of a cube and its side lengths.      Confirm that the volume of a cube is not a linear model using average rates of change.      Confirm that the volume of a cube is not an exponential model using percent change or change factors.      In order to find the side length of a cube with volume , we can use one of two equivalent strategies:  Find the cube root of 8, .  Find the power of 8, .  Find the side length of a cube with volume .     Power models with positive powers are often expressed in words using the language of proportionality , or by saying that one quantity varies directly with another.    If the energy, , expended by a swimming dolphin varies directly with the cube of its speed, , then , with an unknown number, is a power model for .    The braking distance, , of an Alfa Romeo on dry pavement is proportional to the square of its speed ( ). An Alfa Romeo going 70 mph require 177 feet to stop. What is a power model for ?   Solution: The first sentence gives us that the power model has the structure: , where is an unknown number. The second sentences gives us the information we need to find . We plug in and to get . Solving for gives us that . Now we can give the final power model: .     In each of the following situations, set up the power model being described, including using the information given to find the coefficient. Then, use your power model to answer the question.       is proportional to the square of . When , . What is when ?       varies directly with the cube power of . When , . What is when ?      The electrical current, in amperes, in a circuit varies directly as the voltage. When 27 volts are applied, the current is 9 amperes. What is the current when 39 volts are applied?        When an aircraft takes off, it accelerates until it reaches its takeoff speed . In doing so it uses up a distance of the runway, where is proportional to the square of the takeoff speed. An aircraft with a takeoff speed of 100 mph needs 1639 feet of runway.      Find a formula for a power model for the relationship between and .      Suppose that typical takeoff speeds for aircraft are between 60 and 190 mph. Sketch a graph showing the relationship between the takeoff speed and runway length needed for takeoff for aircraft.      Suppose that a Boeing 737 aircraft has a takeoff speed of 150 mph. How much runway does it need?      Foula Airfield serves the remote island of Foula, part of the Shetland Islands (north of Scotland). Flights to Foula serve tourists and deliver essential items to island's handful of residents. Its single runway is only 1699 ft long ! What is the fastest takeoff speed Foula Airfield can handle?       The graphs of power models with positive integer powers are very predictable! Let's find the pattern.     Use Desmos to graph each of the power models listed below. What patterns do you notice?       Use Desmos to graph each of the power models listed below. What patterns do you notice?       Use the patterns you noticed in the two parts above and what you already know about linear models to fill in each cell of the table with a sketch of the graph.   Shapes of Power Model Graphs     Positive Coefficient  Negative Coefficient                        Explain why equations involving a power model with an odd power only have one solution.      Suppose that we want to find all solutions to the equation .     Use a sketch of the graph of to explain why there are two solutions. Then, use Desmos to find both solutions.      Find both solutions with algebra.      Camila consistently gets problems like this one wrong. Write a set of steps for Camila to follow that will help her find all solutions to equations involving a power model with an even power using algebra.      "
 },
 {
   "id": "a-power-model-or-not",
   "level": "2",
   "url": "sec-power-models.html#a-power-model-or-not",
   "type": "Activity",
-  "number": "13.2.1",
+  "number": "12.2.1",
   "title": "",
-  "body": "  Recall from that a power model is a relationship between two quantities that can be written in the form , where and are the two quantities, is a number called the coefficient and is a number called the power .     Determine which of the following are power models and which are not. Briefly explain your answers in words.                                       "
+  "body": "  Recall from that a power model is a relationship between two quantities that can be written in the form , where and are the two quantities, is a number called the coefficient and is a number called the power . The quantitites and are variables, and the coefficient and the power are numbers.     Determine which of the following are power models and which are not. Briefly explain your answers in words.                                       "
 },
 {
   "id": "a-volume",
   "level": "2",
   "url": "sec-power-models.html#a-volume",
   "type": "Activity",
-  "number": "13.2.2",
+  "number": "12.2.2",
   "title": "",
-  "body": "  The volume of a cube can be modeled by the formula where is the length of a side of the cube and is the cube's volume.     Explain why the volume of a cube is a power model, and identify its quantities, coefficient, and power.      Sketch a graph showing the relationship between the volume of a cube and its side lengths.      Confirm that the volume of a cube is not a linear model using average rates of change.      Confirm that the volume of a cube is not an exponential model using relative change.      In order to find the side length of a cube with volume , we can use one of two equivalent strategies:  Find the cube root of 8, .  Find the power of 8, .  Find the side length of a cube with volume .    "
+  "body": "  The volume of a cube can be modeled by the formula where is the length of a side of the cube and is the cube's volume.     Explain why the volume of a cube is a power model, and identify its quantities, coefficient, and power.      Sketch a graph showing the relationship between the volume of a cube and its side lengths.      Confirm that the volume of a cube is not a linear model using average rates of change.      Confirm that the volume of a cube is not an exponential model using percent change or change factors.      In order to find the side length of a cube with volume , we can use one of two equivalent strategies:  Find the cube root of 8, .  Find the power of 8, .  Find the side length of a cube with volume .    "
+},
+{
+  "id": "sec-power-models-4",
+  "level": "2",
+  "url": "sec-power-models.html#sec-power-models-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "proportionality varies directly "
+},
+{
+  "id": "sec-power-models-5",
+  "level": "2",
+  "url": "sec-power-models.html#sec-power-models-5",
+  "type": "Example",
+  "number": "12.2.1",
+  "title": "",
+  "body": " If the energy, , expended by a swimming dolphin varies directly with the cube of its speed, , then , with an unknown number, is a power model for .  "
+},
+{
+  "id": "sec-power-models-6",
+  "level": "2",
+  "url": "sec-power-models.html#sec-power-models-6",
+  "type": "Example",
+  "number": "12.2.2",
+  "title": "",
+  "body": " The braking distance, , of an Alfa Romeo on dry pavement is proportional to the square of its speed ( ). An Alfa Romeo going 70 mph require 177 feet to stop. What is a power model for ?   Solution: The first sentence gives us that the power model has the structure: , where is an unknown number. The second sentences gives us the information we need to find . We plug in and to get . Solving for gives us that . Now we can give the final power model: .  "
 },
 {
   "id": "a-varies-directly-proportional",
   "level": "2",
   "url": "sec-power-models.html#a-varies-directly-proportional",
   "type": "Activity",
-  "number": "13.2.3",
+  "number": "12.2.3",
   "title": "",
-  "body": "  Power models with positive powers are often expressed in words using the language of proportionality , or by saying that one quantity varies directly with another. For example:   Words: The strength of a beam, , is proportional to the square of its thickness,  Power Model: , with an unknown number    Words: The energy, , expended by a swimming dolphin varies directly with the cube of its speed, Power Model: , with an unknown number    Words: The braking distance, , of an Alfa Romeo on dry pavement is proportional to the square of its speed ( ), with coefficient  Power Model Formula:      In each of the following situations, set up the power model being described. Use the information given to find the coefficient, then answer the question.       is proportional to the square of . When , . What is when ?       varies directly with the cube power of . When , . What is when ?      The electrical current, in amperes, in a circuit varies directly as the voltage. When 27 volts are applied, the current is 9 amperes. What is the current when 39 volts are applied?    "
+  "body": "  In each of the following situations, set up the power model being described, including using the information given to find the coefficient. Then, use your power model to answer the question.       is proportional to the square of . When , . What is when ?       varies directly with the cube power of . When , . What is when ?      The electrical current, in amperes, in a circuit varies directly as the voltage. When 27 volts are applied, the current is 9 amperes. What is the current when 39 volts are applied?    "
 },
 {
   "id": "a-aircraft-runway-length",
   "level": "2",
   "url": "sec-power-models.html#a-aircraft-runway-length",
   "type": "Activity",
-  "number": "13.2.4",
+  "number": "12.2.4",
   "title": "",
   "body": "  When an aircraft takes off, it accelerates until it reaches its takeoff speed . In doing so it uses up a distance of the runway, where is proportional to the square of the takeoff speed. An aircraft with a takeoff speed of 100 mph needs 1639 feet of runway.      Find a formula for a power model for the relationship between and .      Suppose that typical takeoff speeds for aircraft are between 60 and 190 mph. Sketch a graph showing the relationship between the takeoff speed and runway length needed for takeoff for aircraft.      Suppose that a Boeing 737 aircraft has a takeoff speed of 150 mph. How much runway does it need?      Foula Airfield serves the remote island of Foula, part of the Shetland Islands (north of Scotland). Flights to Foula serve tourists and deliver essential items to island's handful of residents. Its single runway is only 1699 ft long ! What is the fastest takeoff speed Foula Airfield can handle?    "
 },
@@ -1391,9 +1328,99 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-power-models.html#a-power-model-graphs",
   "type": "Activity",
-  "number": "13.2.5",
+  "number": "12.2.5",
   "title": "",
   "body": "  The graphs of power models with positive integer powers are very predictable! Let's find the pattern.     Use Desmos to graph each of the power models listed below. What patterns do you notice?       Use Desmos to graph each of the power models listed below. What patterns do you notice?       Use the patterns you noticed in the two parts above and what you already know about linear models to fill in each cell of the table with a sketch of the graph.   Shapes of Power Model Graphs     Positive Coefficient  Negative Coefficient                        Explain why equations involving a power model with an odd power only have one solution.      Suppose that we want to find all solutions to the equation .     Use a sketch of the graph of to explain why there are two solutions. Then, use Desmos to find both solutions.      Find both solutions with algebra.      Camila consistently gets problems like this one wrong. Write a set of steps for Camila to follow that will help her find all solutions to equations involving a power model with an even power using algebra.     "
+},
+{
+  "id": "sec-properties-logs-exponents-prep",
+  "level": "1",
+  "url": "sec-properties-logs-exponents-prep.html",
+  "type": "Section",
+  "number": "13.1",
+  "title": "Properties of Exponents and Logs Prep Activities",
+  "body": " Properties of Exponents and Logs Prep Activities   Calculators like Photomath and Mathway can do the algebra that we're going to learn in this prep activity and the in-class activities for you. If the main point of this lesson was getting the answer, then I would encourage you to use these tools! But, the main point of this lesson is not getting the answer. The main point of this lesson is to practice working with complicated math notation in order to get more comfortable with it. Tools like Photomath and Mathway take the thinking that is most critical for this lesson away from your brain, and make it unlikely that you will achieve the actual goals. So, you may not use ANY tools except for your brain for this lesson , with the exception of checking your answer.     In previous math courses, you likely learned that exponents represent repeated multiplication. So, for example, . This is all we need to know to discover an important property of exponents.     In each expression below, rewrite each exponent using repeated multiplication. Then, rewrite the expression with a single exponent.                           What do you notice? Use your observations to complete the Product Rule for Exponents :       Use the Product Rule for Exponents to rewrite each of the following expressions:             ( Note: This is a very, very large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is )                      Rewriting exponents as repeated multiplication can also help us discover a second important property of exponents.     In each expression below, rewrite each exponent using repeated multiplication. Then, rewrite the expression with a single exponent.                           What do you notice? Use your observations to complete the Quotient Rule for Exponents :       Use the Quotient Rule for Exponents to rewrite each of the following expressions:             ( Note: This is a large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is )                      Let's discover one more property of exponents by rewriting exponents as repeated multiplication.     In each expression below, rewrite the outer exponent using repeated multiplication. Then, use the product rule to rewrite the expression with a single exponent. For example,                            What do you notice? Use your observations to complete the Power Rule for Exponents :       Use the Power Rule for Exponents to rewrite each of the following expressions:             ( Note: This is a very, very large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is )                      You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Use the Product Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.     Use the Quotient Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.     Use the Power Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.       "
+},
+{
+  "id": "pa-exponent-product",
+  "level": "2",
+  "url": "sec-properties-logs-exponents-prep.html#pa-exponent-product",
+  "type": "Prep Activity",
+  "number": "13.1.1",
+  "title": "",
+  "body": "  In previous math courses, you likely learned that exponents represent repeated multiplication. So, for example, . This is all we need to know to discover an important property of exponents.     In each expression below, rewrite each exponent using repeated multiplication. Then, rewrite the expression with a single exponent.                           What do you notice? Use your observations to complete the Product Rule for Exponents :       Use the Product Rule for Exponents to rewrite each of the following expressions:             ( Note: This is a very, very large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is )                   "
+},
+{
+  "id": "pa-exponent-quotient",
+  "level": "2",
+  "url": "sec-properties-logs-exponents-prep.html#pa-exponent-quotient",
+  "type": "Prep Activity",
+  "number": "13.1.2",
+  "title": "",
+  "body": "  Rewriting exponents as repeated multiplication can also help us discover a second important property of exponents.     In each expression below, rewrite each exponent using repeated multiplication. Then, rewrite the expression with a single exponent.                           What do you notice? Use your observations to complete the Quotient Rule for Exponents :       Use the Quotient Rule for Exponents to rewrite each of the following expressions:             ( Note: This is a large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is )                   "
+},
+{
+  "id": "pa-power-rule-exponents",
+  "level": "2",
+  "url": "sec-properties-logs-exponents-prep.html#pa-power-rule-exponents",
+  "type": "Prep Activity",
+  "number": "13.1.3",
+  "title": "",
+  "body": "  Let's discover one more property of exponents by rewriting exponents as repeated multiplication.     In each expression below, rewrite the outer exponent using repeated multiplication. Then, use the product rule to rewrite the expression with a single exponent. For example,                            What do you notice? Use your observations to complete the Power Rule for Exponents :       Use the Power Rule for Exponents to rewrite each of the following expressions:             ( Note: This is a very, very large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is )                   "
+},
+{
+  "id": "pa-logs-exponent-properties-confidence",
+  "level": "2",
+  "url": "sec-properties-logs-exponents-prep.html#pa-logs-exponent-properties-confidence",
+  "type": "Prep Activity",
+  "number": "13.1.4",
+  "title": "",
+  "body": " You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Use the Product Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.     Use the Quotient Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.     Use the Power Rule for Exponents to rewrite expressions without using tools such as Photomath or Mathway.      "
+},
+{
+  "id": "sec-properties-logs-exponents",
+  "level": "1",
+  "url": "sec-properties-logs-exponents.html",
+  "type": "Section",
+  "number": "13.2",
+  "title": "Properties of Exponents and Logs Activities",
+  "body": " Properties of Exponents and Logs Activities    Use the Product, Quotient, and Product Rules for Exponents to rewrite the following expression or solve the problem. Remember, the main goal is to exercise your brain, not to get the answers, so you must not use tools like Photomath or Mathway for anything but answer checking.                   Use the integers 1 to 9 to fill in the boxes. There may be more than one correct answer!                            Use the integers 1 to 9 to fill in the boxes. There may be more than one correct answer! There is at least one solution that doesn't use any digit more than once.        So far, we have focused on expressions that have positive integer exponents. A special exponent rule tells us that as long as .     The Quotient Rule Rule for Exponents gives us one way to understand why this definition is reasonable.     Use the Quotient Rule for Exponents to rewrite as .      Explain why it is also true that .      How do the previous two questions support the claim that is a reasonable definition?       Rewrite each of the following expressions:                            There is one more exponent rule for us to discover today.     Rewrite each of the expressions below using repeated multiplication.                    What do you notice? Use your observations to fill in the blanks to complete the exponent property below.       Use the exponent rules that we've learned to rewrite each of the expressions below.                            The relationship between logs and exponents mean that there are log properties that correspond to the Product, Quotient, and Power Rule of Exponents. They are:   Use the log properties to rewrite each of the expressions below.     Rewrite as a single logarithm, then evaluate without a calculator:       Rewrite as a sum or difference of logarithms:       Rewrite a single logarithm:       Rewrite as a single logarithm:       Rewrite as a sum or difference of logarithms:      "
+},
+{
+  "id": "a-exponent-rule-practice",
+  "level": "2",
+  "url": "sec-properties-logs-exponents.html#a-exponent-rule-practice",
+  "type": "Activity",
+  "number": "13.2.1",
+  "title": "",
+  "body": "  Use the Product, Quotient, and Product Rules for Exponents to rewrite the following expression or solve the problem. Remember, the main goal is to exercise your brain, not to get the answers, so you must not use tools like Photomath or Mathway for anything but answer checking.                   Use the integers 1 to 9 to fill in the boxes. There may be more than one correct answer!                            Use the integers 1 to 9 to fill in the boxes. There may be more than one correct answer! There is at least one solution that doesn't use any digit more than once.     "
+},
+{
+  "id": "a-zero-exponent",
+  "level": "2",
+  "url": "sec-properties-logs-exponents.html#a-zero-exponent",
+  "type": "Activity",
+  "number": "13.2.2",
+  "title": "",
+  "body": "  So far, we have focused on expressions that have positive integer exponents. A special exponent rule tells us that as long as .     The Quotient Rule Rule for Exponents gives us one way to understand why this definition is reasonable.     Use the Quotient Rule for Exponents to rewrite as .      Explain why it is also true that .      How do the previous two questions support the claim that is a reasonable definition?       Rewrite each of the following expressions:                         "
+},
+{
+  "id": "a-expanded-product-quotient",
+  "level": "2",
+  "url": "sec-properties-logs-exponents.html#a-expanded-product-quotient",
+  "type": "Activity",
+  "number": "13.2.3",
+  "title": "",
+  "body": "  There is one more exponent rule for us to discover today.     Rewrite each of the expressions below using repeated multiplication.                    What do you notice? Use your observations to fill in the blanks to complete the exponent property below.       Use the exponent rules that we've learned to rewrite each of the expressions below.                         "
+},
+{
+  "id": "a-log-rules",
+  "level": "2",
+  "url": "sec-properties-logs-exponents.html#a-log-rules",
+  "type": "Activity",
+  "number": "13.2.4",
+  "title": "",
+  "body": "  The relationship between logs and exponents mean that there are log properties that correspond to the Product, Quotient, and Power Rule of Exponents. They are:   Use the log properties to rewrite each of the expressions below.     Rewrite as a single logarithm, then evaluate without a calculator:       Rewrite as a sum or difference of logarithms:       Rewrite a single logarithm:       Rewrite as a single logarithm:       Rewrite as a sum or difference of logarithms:     "
 },
 {
   "id": "sec-roots-fractions-prep",
