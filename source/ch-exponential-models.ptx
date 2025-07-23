@@ -57,18 +57,18 @@
     <xi:include href="sec-alt-exponential-models.ptx" />
   </chapter>
 
-  <chapter xml:id="ch-properties-logs-exponents" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Properties of Exponents and Logs</title>
-    
-    <xi:include href="sec-properties-logs-exponents-prep.ptx" />
-    <xi:include href="sec-properties-logs-exponents.ptx" />
-  </chapter>
-
   <chapter xml:id="ch-exponential-trends" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Exponential Trends</title>
     
     <xi:include href="sec-exponential-trends-prep.ptx" />
     <xi:include href="sec-exponential-trends.ptx" />
+  </chapter>
+
+  <chapter xml:id="ch-properties-logs-exponents" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Properties of Exponents and Logs</title>
+    
+    <xi:include href="sec-properties-logs-exponents-prep.ptx" />
+    <xi:include href="sec-properties-logs-exponents.ptx" />
   </chapter>
 
  <!-- <xi:include href="sec-working-with-percentages.ptx" />

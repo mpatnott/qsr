@@ -7,10 +7,10 @@
     <investigation xml:id="pa-raise-to-power-undoes-log">
         <introduction>
             <p>
-                In <xref ref="sec-log-models-prep"/> and <xref ref="sec-log-models"/>, we introduced the log operation, which undoes the <q>raise 10 to the power of</q> operation. We also saw that we can use the log base <m>b</m> operation to undo the <q>raise <m>b</m> to the power of</q> operation. This has allowed us to solve exponential equations algebraically, including in a variety of applications.
+                In <xref ref="sec-log-models-prep"/> and <xref ref="sec-log-models"/>, we introduced the log operation, which undoes the <q>raise 10 to the power of</q> operation. We also saw that we can use the log base <m>b</m> operation to undo the <q>raise <m>b</m> to the power of</q> operation. This has allowed us to solve exponential equations algebraically.
             </p>
             <p>
-                A <term>logarithmic equation</term>, or a log equation, is an equation that has the variable inside of a log. We will need to solve log equations in the next lesson. In order to solve log equations, we need to know how to undo the log operation. Fortunately, we don't need another new operation! The <q>raise <m>b</m> to the power of</q> operation undoes the log base <m>b</m> operation. For our purposes, it will be sufficient to use the <q>raise 10 to the power of</q> operation to undo the log (assumed baes 10) operation. That is, we will use the fact that
+                A <term>logarithmic equation</term>, or a log equation, is an equation that has the variable inside of a log. We will need to solve log equations in the next lesson. In order to solve log equations, we need to know how to undo the log operation. Fortunately, we don't need another new operation! The <q>raise <m>b</m> to the power of</q> operation undoes the log base <m>b</m> operation. For our purposes, it will be sufficient to use the <q>raise 10 to the power of</q> operation to undo the log (assumed baes 10) operation. That is, we will use the fact
                 <me>10^{\log(x)} = x</me>
                 to undo the log operation. This fact is true because <m>\log(x)</m> is the number so that <m>10^{\text{that number}} = x</m>
             </p>
@@ -44,7 +44,7 @@
         <task>
             <statement>
                 <p>
-                   <m>3\log(x) = 9.2 </m> (<em>Hint:</em> You'll need to do another step first to get an equation that looks like <m>\log(x) = \text{a number}</m>.)  
+                   <m>3\log(x) = 9.2 </m> (<alert>Hint:</alert> You'll need to do another step first to get an equation that looks like <m>\log(x) = \text{a number}</m>.)  
                 </p>
             </statement>
         </task>
@@ -61,7 +61,7 @@
                 Every year, the Mauna Loa Observatory in Hawaii measures the levels of carbon dioxide (<m>\text{CO}_2</m>) in the atmosphere. The graph below shows the annual mean amounts, in parts per million, for the years 2006 - 2022<fn><url href="https://gml.noaa.gov/ccgg/trends/mlo.html" /></fn>:
             </p>
             <figure xml:id="fig-co2-mauna-loa">
-                <caption>Annual Mean <m>\text{CO}_2</m> Ammounts (ppm) at the Mauna Loa Observatory</caption>
+                <caption>Annual Mean <m>\text{CO}_2</m> Amounts (ppm) at the Mauna Loa Observatory</caption>
                 <image xml:id="graph-co2-mauna-loa" width="50%">
                     <description>
                         <p>
@@ -145,7 +145,7 @@
                             </tabular>
                         </table>
                     </description>
-                    <shortdescription>Graph showing annual mean CO2 amounts from 2006 to 2022.</shortdescription>
+                    <shortdescription>Graph showing annual mean <m>\text{CO}_2</m> amounts from 2006 to 2022.</shortdescription>
                     <latex-image>
                         \begin{tikzpicture}
                             \begin{axis}[grid = both, axis lines = center,
@@ -194,7 +194,7 @@
         <task workspace="0.5in">
             <statement>
                 <p>
-                    Using your model, predict how much CO<sub>2</sub> there will be in the atmosphere at Mauna Loa in 2050. How much confidence do you have in your prediction? Explain your answer.
+                    Using your model, predict how much <m>\text{CO}_2</m> there will be in the atmosphere at Mauna Loa in 2050. How much confidence do you have in your prediction? Explain your answer.
                 </p>
             </statement>
         </task>

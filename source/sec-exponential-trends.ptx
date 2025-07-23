@@ -6,17 +6,20 @@
   <page>
     <introduction>
         <p>
-            We saw in <xref ref="sec-linear-trends"/> that in the real world, it's more common to have data that is <em>approximately</em> linear than it is to have data that is <em>exactly</em>. The same thing is true of exponential models! Today, we will put the skills we've been learning together to find a formula for an exponential model for a data set with an exponential trend.  
+            We saw in <xref ref="sec-linear-trends"/> that in the real world, it's more common to have data that is <em>approximately</em> linear than it is to have data that is <em>exactly</em> linear. The same thing is true of exponential models! Today, we will put the skills we've been learning together to analyze data sets with exponential trends.  
         </p>
         <p>
-            Exponential models are more sensitive to small differences in the relative change than linear models are to small differences in the average rate of change. This means that it's harder to get a good estimate for the relative change of approximately exponential data than it is to estimate the average rate of change of approximately linear data. To get around this problem, we'll use logs to turn approximately exponential data into approximately linear data, find a linear model for the log of our data, then use the <q>raise 10 to the power of</q> operation to get an exponential model for our original data.
+            A consequence of the relationship between <m>\log_b</m> and raising <m>b</m> to powers is that if we have data with an exponential trend and take the log of one of the variables, we get a new data set with a linear trend. Linear trends are easier to work with than exponential trends, so scientists use this trick to help them study data with an exponential trend.
         </p>
+        <!-- <p>
+            Exponential models are more sensitive to small differences in the relative change than linear models are to small differences in the average rate of change. This means that it's harder to get a good estimate for the relative change of approximately exponential data than it is to estimate the average rate of change of approximately linear data. To get around this problem, we'll use logs to turn approximately exponential data into approximately linear data, find a linear model for the log of our data, then use the <q>raise 10 to the power of</q> operation to get an exponential model for our original data.
+        </p> -->
     </introduction>
 
     <activity xml:id="a-us-population-1700-to-2023-start">
         <introduction>
             <p>
-                The graph on the left below<fn>Chart made in Excel using data from: Hannah Ritchie, Lucas Rodés-Guirao, Edouard Mathieu, Marcel Gerber, Esteban Ortiz-Ospina, Joe Hasell and Max Roser (2023) - "Population Growth" Published online at OurWorldInData.org. Retrieved from: <url href="https://ourworldindata.org/population-growth" /> [Online Resource]</fn> shows population of what is now the United States between 1700 and 2023.
+                The graph on the left below<fn>Chart made in Excel using data from: Hannah Ritchie, Lucas Rodés-Guirao, Edouard Mathieu, Marcel Gerber, Esteban Ortiz-Ospina, Joe Hasell and Max Roser (2023) - "Population Growth" Published online at OurWorldInData.org. Retrieved from: <url href="https://ourworldindata.org/population-growth" /> [Online Resource]</fn> shows the population of what is now the United States between 1700 and 2023.
             </p>
             <figure xml:id="fig-us-population-1700-to-2023">
                 <caption>US Population Between 1700 and 2023. </caption>
@@ -35,7 +38,7 @@
                     <figure xml:id="fig-us-population-1700-to-2023-log">
                         <caption>Log of US Population Between 1700 and 2023. </caption>
                         <image source="./images/US-pop-1700-to-2023-log.png" width="50%">
-                            <shortdescription>Graph showing the log of the population in what is now the US between 1700 and 2023..</shortdescription>
+                            <shortdescription>Graph showing the log of the population in what is now the US between 1700 and 2023.</shortdescription>
                             <description>
                                 <p>
                                     The log of the population is roughly linear. It seems to be about 5.95 in 1700, and about 8.54 in 2023.
@@ -53,17 +56,68 @@
                 </p>
             </statement>
         </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Use the population graph to estimate the US population in 1815 and in 1990. Round to the nearest million!
+                </p>
+            </statement>
+        </task>
         <task workspace="0.35in">
             <statement>
                 <p>
-                    The trend of the data resembles the graphs of an increasing exponential model. Logs are often used to analyze trends when the data seems to grow exponentially. The graph above right shows the <em>log</em> of the population. The years are kept the same, but the vertical axis shows the log of the population instead of the population itself. A graph that takes the log of the data values on one of the two axes is called a <term>semi-log graph</term>.
+                    The trend of the population data resembles the graphs of an increasing exponential model. Logs are often used to analyze trends when the data seems to grow exponentially. The graph above right shows the <em>log</em> of the population. The years are kept the same, but the vertical axis shows the log of the population instead of the population itself. A graph that takes the log of the data values on one of the two axes is called a <term>semi-log graph</term>.
                 </p>
                 <p>
                     Explain why a linear model IS a good fit for the log of the population data.
                 </p>
             </statement>
         </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Let <m>L</m> be the output (vertical) variable for the semi-log graph. For example, the value of <m>L</m> in 1990 is about 8.4:
+                </p>
+                <figure xml:id="fig-us-population-1700-to-2023-log-use">
+                    <caption>Finding <m>L</m> in 1990 </caption>
+                    <image source="./images/US-pop-1700-to-2023-log-use.png" width="50%">
+                        <shortdescription>Graph showing how to estimate the output on the semi-log graph.</shortdescription>
+                        <description>
+                            <p>
+                                To estimate the output in 1990, go in a straight vertical line from 1990 on the horizontal axis to the curve. Then, go in a straight horizontal line from that point on the curve to the vertical axis. The value you hit on the vertical axis is the output. In 1990, the semi-log graph gives us an output of about 8.4.
+                            </p>
+                        </description>
+                    </image>
+                </figure>
+                <p>
+                    Use the semi-log graph to estimate <m>L</m> in 1815.
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    We can use the value of <m>L</m> that we get from the semi-log graph to find the population. Since <m>L = \log(P)</m>, where <m>P</m> is the population, in 1990 we have:
+                    <md>
+                        <mrow> L \amp \approx 8.4</mrow>
+                        <mrow> \log(P) \amp \approx 8.4</mrow>
+                        <mrow> 10^{\log(P)} \amp \approx 10^{8.4}</mrow>
+                        <mrow> P \amp \approx 251,\!188,\!643 </mrow>
+                    </md>
+                </p>
+                <p>
+                    Use this process to estimate the population in 1815.
+                </p>
+            </statement>
+        </task>
         <task workspace="0.5in">
+            <statement>
+                <p>
+                    How close are our population estimates in parts (b) and (e)?
+                </p>
+            </statement>
+        </task>
+        <!-- <task workspace="0.5in">
             <statement>
                 <p>
                     We can use either graph to estimate the US population in a year. For example, we see from the population data graph that the US population in 1990 was about 250 million. From the log population graph, we see that the log of the population in 1990 was about 8.4. If we let <m>P</m> be the population, we get the log equation <me>\log(P) \approx 8.4</me>. As we learned in <xref ref="sec-exponential-trends-prep"/>, this tells us that <m>P \approx 10^{8.4} = 251,188,643.151</m>, which is about 250 million.
@@ -72,18 +126,17 @@
                     Estimate the US population in 1930 in two ways: (1) from the population data graph and (2) from the log of population data graph.
                 </p>
             </statement>
-        </task>
+        </task> -->
     </activity>
   </page>
 
   <page>
     <activity xml:id="a-us-population-1700-to-2023-cont">
-        <task workspace="1in">
-            <statement>
-                <p>
-                    Here's the log of population graph again.
-                </p>
-                <figure xml:id="fig-us-population-1700-to-2023-log-repeat">
+        <introduction>
+            <p>
+                Here's the log of population graph again.
+            </p>
+            <figure xml:id="fig-us-population-1700-to-2023-log-repeat">
                     <caption>Log of US Population Between 1700 and 2023. </caption>
                     <image source="./images/US-pop-1700-to-2023-log.png" width="50%">
                         <shortdescription>Graph showing the log of the population in what is now the US between 1700 and 2023.</shortdescription>
@@ -94,94 +147,101 @@
                         </description>
                     </image>
                 </figure>
+        </introduction>
+        <task workspace="1in">
+            <statement>
                 <p>
-                    Sketch a line on the graph to model the trend, and find a formula for your line.
+                    Find a formula for this linear trend. Use <m>L</m> for your output variable and <m>t</m> for your input variable. Include four decimal places in your slope!
                 </p>
             </statement>
         </task>
         <task workspace="1in">
+            <statement>
+                <p>
+                    Use your formula to estimate <m>L</m> in 1815 and 1990.
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Use the process we learned in the previous activity to estimate the population 1815 and 1990. How well do your new estimates match your old estimates?
+                </p>
+            </statement>
+        </task>
+        <!-- <task workspace="1in">
             <statement>
                 <p>
                     If <m>P</m> is the population of the US, then the output of your line is <m>\log(P)</m>. To transform your linear model for <m>\log(P)</m> into an exponential model for <m>P</m>, apply the <q>raise 10 to the power of...</q> operation to both sides of your line formula. 
                 </p>
             </statement>
-        </task>
-        <task workspace="1in">
+        </task> -->
+        <!-- <task workspace="1in">
             <statement>
                 <p>
                     Use your exponential model for <m>P</m> to estimate the US population in 1930 and 1990. How close are your answers to our earlier estimates?
                 </p>
             </statement>
-        </task>
-        <task workspace="1in">
+        </task> -->
+        <!-- <task workspace="1in">
             <statement>
                 <p>
                     Summarize the process that we used in this activity and <xref ref="a-us-population-1700-to-2023-start"/> to find an exponential model for a data set.
                 </p>
             </statement>
-        </task>
+        </task> -->
     </activity>
-  </page>
 
-  <page>
-    <activity xml:id="a-child-mortality">
+    <activity>
         <introduction>
             <p>
-                The graphs below show the child mortality rate in the US between 1933 and 2021.<fn><url href="https://ourworldindata.org/child-mortality-big-problem-in-brief" /></fn>
+                Let's estimate when the population of the US will hit 400 million, assuming the historical trend continues.
             </p>
-            <figure xml:id="fig-us-child-mortality">
-                <caption>US Child Mortality Rate Between 1933 and 2021. </caption>
-                <sidebyside>
-                    <figure xml:id="fig-us-child-mortality-numbers">
-                        <caption>Child Mortality Rate</caption>
-                        <image source="./images/US-child-mortality-1933-to-2021.png" width="50%">
-                            <shortdescription>Graph showing the child mortality rate in the US between 1933 and 2021.</shortdescription>
-                            <description>
-                                <p>
-                                    The child mortality rate appears to have decreased exponentially, from nearly 8% in 1934 to about 0.6% in 2021.
-                                </p>
-                            </description>
-                        </image>
-                    </figure>
-                    <figure xml:id="fig-us-child-mortality-log">
-                        <caption>Log of Child Mortality Rate</caption>
-                        <image source="./images/US-child-mortality-1933-to-2021-log.png" width="50%">
-                            <shortdescription>Graph showing the log of the child mortality rate in the US between 1933 and 2021.</shortdescription>
-                            <description>
-                                <p>
-                                    The log of the child mortality rate is approximately linear. It's about 0.9 in 1934 and about -0.2 in 2021.
-                                </p>
-                            </description>
-                        </image>
-                    </figure>
-                </sidebyside>
-            </figure>
         </introduction>
         <task workspace="0.5in">
             <statement>
                 <p>
-                    Explain why a linear model is a better fit for the log of the child mortality rate than the child mortality rate.
+                    What are the challenges to using the original population graph for this estimate?
                 </p>
             </statement>
+        </task>
+        <task>
+            <introduction>
+                <p>
+                    This part will walk you through the steps of using your linear model for the semi-log graph to make this estimate.
+                </p>
+            </introduction>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        First, the output needs to be the log of the population, not the population. Find <m>\log(400,\!000,
+                            \!000)</m>.
+                    </p>
+                </statement>
+            </task>
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        Set up the equation:
+                    </p>
+                    <me>\text{Answer to previous part} = \text{Formula for linear model}</me>
+                    <p>
+                        Now, use algebra to find <m>t</m>.
+                    </p>
+                </statement>
+            </task>
+            <task workspace="0.5in">
+                <statement>
+                    <p>
+                        Use your value of <m>t</m> to find the year. (Depending on how you set up your linear model, <m>t</m> might already be the year, or you might need to adjust it.)
+                    </p>
+                </statement>
+            </task>
         </task>
         <task workspace="1in">
             <statement>
                 <p>
-                    Find a formula for a linear model for the log of the child mortality rate.
-                </p>
-            </statement>
-        </task>
-        <task workspace="1in">
-            <statement>
-                <p>
-                    Find a formula for an exponential model for the child mortality rate.
-                </p>
-            </statement>
-        </task>
-        <task workspace="1in">
-            <statement>
-                <p>
-                    Use your exponential model for the child mortality rate to estimate it in 1940, 1995, and 2025. What do you notice? What do you wonder?
+                    Use the steps you just learned to estimate when the US population will be 375,000,000, if historical trends continue.
                 </p>
             </statement>
         </task>
@@ -218,10 +278,60 @@
                         <cell>0.006849</cell>
                         <cell>0.001149</cell>
                     </row>
+                    <row>
+                        <cell>Log Cost per MB (log($))</cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
                 </tabular>
             </table>
         </introduction>
-        <task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Explain why a linear model is not a good fit for the cost data.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Fill in the last row of the table by taking the log of the cost values. Keep three decimal places! For example, in 1980, the value in the Log Cost row should be <me>\log(192.31) \approx 2.284</me>
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Graph your new Log Cost data on the axes below. Does your graph look like it has a linear trend?
+                </p>
+                <figure xml:id="fig-log-cost-mb-storage">
+                        <caption>Log Cost Per Megabyte of Storage Space</caption>
+                        <image xml:id="graph-log-cost-mb-storage" width="30%">
+                            <description>
+                                <p>
+                                    Blank axes. The horizontal axis goes from 0 to 24, and the vertical axis goes from -4 to 3.
+                                </p>
+                            </description>
+                            <shortdescription>Blank axes.</shortdescription>
+                            <latex-image>
+                                \begin{tikzpicture}
+                                    \begin{axis}[grid = both, axis lines = center,
+                                                    xmin = -2, xmax = 25, xlabel = {Year Since 1980},
+                                                    ymin = -4, ymax = 4, ylabel = {log(\$)}]
+                                    \end{axis}
+                                \end{tikzpicture}
+                            </latex-image>
+                        </image>
+                    </figure>
+            </statement>
+        </task>
+        <!-- <task>
             <statement>
                 <p>
                     Graph the data on the axes below left. Explain how the graph tells you that an exponential model is probably a better fit than a linear model.
@@ -287,28 +397,32 @@
                             <cell>2000</cell>
                             <cell>2004</cell>
                         </row>
-                        <row>
-                            <cell>Log Cost per MB ($)</cell>
-                            <cell></cell>
-                            <cell></cell>
-                            <cell></cell>
-                            <cell></cell>
-                            <cell></cell>
-                            <cell></cell>
-                            <cell></cell>
-                        </row>
+                        
                     </tabular>
                 </table>
             </statement>
-        </task>
+        </task> -->
         <task workspace="0.5in">
             <statement>
                 <p>
-                    Explain why a linear model seems to be reasonable for the log of costs, then find a formula for a linear model for log costs.
+                    Find a formula for a linear model for log costs. Use <m>L</m> as the output variable and <m>t</m> as the input variable, and include at least four decimal places in your slope.</p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Use the steps you learned in the population activities to use your linear model to estimate the cost per megabyte of storage space in 2002.
                 </p>
             </statement>
         </task>
         <task workspace="1in">
+            <statement>
+                <p>
+                    Use the steps you learned in the population activities to use your linear model to estimate when the cost per megabyte of storage space was $0.0001.
+                </p>
+            </statement>
+        </task>
+        <!-- <task workspace="1in">
             <statement>
                 <p>
                     Convert your linear model for log costs into an exponential model for costs.
@@ -356,11 +470,76 @@
                     </tabular>
                 </table>
             </statement>
-        </task>
+        </task>-->
     </activity>
   </page>
 
-  <page>
+  <!--<page>
+    <activity xml:id="a-child-mortality">
+        <introduction>
+            <p>
+                The graphs below show the child mortality rate in the US between 1933 and 2021.<fn><url href="https://ourworldindata.org/child-mortality-big-problem-in-brief" /></fn>
+            </p>
+            <figure xml:id="fig-us-child-mortality">
+                <caption>US Child Mortality Rate Between 1933 and 2021. </caption>
+                <sidebyside>
+                    <figure xml:id="fig-us-child-mortality-numbers">
+                        <caption>Child Mortality Rate</caption>
+                        <image source="./images/US-child-mortality-1933-to-2021.png" width="50%">
+                            <shortdescription>Graph showing the child mortality rate in the US between 1933 and 2021.</shortdescription>
+                            <description>
+                                <p>
+                                    The child mortality rate appears to have decreased exponentially, from nearly 8% in 1934 to about 0.6% in 2021.
+                                </p>
+                            </description>
+                        </image>
+                    </figure>
+                    <figure xml:id="fig-us-child-mortality-log">
+                        <caption>Log of Child Mortality Rate</caption>
+                        <image source="./images/US-child-mortality-1933-to-2021-log.png" width="50%">
+                            <shortdescription>Graph showing the log of the child mortality rate in the US between 1933 and 2021.</shortdescription>
+                            <description>
+                                <p>
+                                    The log of the child mortality rate is approximately linear. It's about 0.9 in 1934 and about -0.2 in 2021.
+                                </p>
+                            </description>
+                        </image>
+                    </figure>
+                </sidebyside>
+            </figure>
+        </introduction>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Explain why a linear model is a better fit for the log of the child mortality rate than the child mortality rate.
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Find a formula for a linear model for the log of the child mortality rate.
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Find a formula for an exponential model for the child mortality rate.
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Use your exponential model for the child mortality rate to estimate it in 1940, 1995, and 2025. What do you notice? What do you wonder?
+                </p>
+            </statement>
+        </task>
+    </activity>
+  </page>-->
+
+  <!-- <page>
     <activity xml:id="a-linear-exp-or-neither">
         <introduction>
             <p>
@@ -444,5 +623,5 @@
             </statement>
         </task>
     </activity>
-  </page>
+  </page> -->
 </section>
