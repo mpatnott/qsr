@@ -15,6 +15,13 @@
     <xi:include href="sec-power-models.ptx" />
   </chapter>
 
+  <chapter xml:id="ch-properties-logs-exponents" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Properties of Exponents and Logs</title>
+    
+    <xi:include href="sec-properties-logs-exponents-prep.ptx" />
+    <xi:include href="sec-properties-logs-exponents.ptx" />
+  </chapter>
+
   <chapter xml:id="ch-roots-fractions" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Roots and Fractional Powers</title>
     

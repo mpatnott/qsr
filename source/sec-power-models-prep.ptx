@@ -71,7 +71,7 @@
     <investigation xml:id="pa-id-power-model">
         <introduction>
             <p>
-                A <term>power model</term> is a relationship between two quantities that can be written in the form <me>Q_2 = c \times Q_1^p</me>, where <m>Q_1</m> and <m>Q_2</m> are the two quantities, <m>c</m> is a number called the <term>coefficient</term> and <m>p</m> is a number called the <term>power</term>.
+                A <term>power model</term> is a relationship between two quantities that can be written in the form <me>Q_2 = c \times Q_1^p</me>, where <m>Q_1</m> and <m>Q_2</m> are the two quantities, <m>c</m> is a number called the <term>coefficient</term> and <m>p</m> is a number called the <term>power</term>. The quantitites <m>Q_1</m> and <m>Q_2</m> are variables, and the coefficient and the power are numbers.
             </p>
             <p>
                 For example, the area of a square model is a power model. The two quantities are the area (<m>A</m>) and the side length (<m>s</m>), the coefficient is <m>1</m>, and the power is <m>2</m>.

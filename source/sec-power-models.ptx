@@ -6,7 +6,7 @@
   <activity xml:id="a-power-model-or-not">
     <introduction>
         <p>
-            Recall from <xref ref="sec-power-models-prep"/> that a <term>power model</term> is a relationship between two quantities that can be written in the form <me>Q_2 = c \times Q_1^p</me>, where <m>Q_1</m> and <m>Q_2</m> are the two quantities, <m>c</m> is a number called the <term>coefficient</term> and <m>p</m> is a number called the <term>power</term>.
+            Recall from <xref ref="sec-power-models-prep"/> that a <term>power model</term> is a relationship between two quantities that can be written in the form <me>Q_2 = c \times Q_1^p</me>, where <m>Q_1</m> and <m>Q_2</m> are the two quantities, <m>c</m> is a number called the <term>coefficient</term> and <m>p</m> is a number called the <term>power</term>. The quantitites <m>Q_1</m> and <m>Q_2</m> are variables, and the coefficient and the power are numbers.
         </p>
     </introduction>
     <task>
@@ -83,7 +83,7 @@
     <task workspace="1in">
         <statement>
             <p>
-                Confirm that the volume of a cube is not an exponential model using relative change.
+                Confirm that the volume of a cube is not an exponential model using percent change or change factors.
             </p>
         </statement>
     </task>
@@ -101,33 +101,44 @@
     </task>
   </activity>
 
+  <p>
+    Power models with positive powers are often expressed in words using the language of <term>proportionality</term>, or by saying that one quantity <term>varies directly</term> with another.
+  </p>
+
+  <!-- <example>
+    <p>
+        If the strength of a beam, <m>S</m>, is proportional to the square of its thickness, <m>h</m>, then
+        <me>S = ch^2</me>,
+        where <m>c</m> is an unknown number, is a power model for <m>S</m> in terms of <m>h</m>. 
+    </p>
+  </example> -->
+
+  <example>
+    <p>
+        If the energy, <m>E</m>, expended by a swimming dolphin varies directly with the cube of its speed, <m>v</m>, then
+        <me>E = cv^3</me>,
+        with <m>c</m> an unknown number, is a power model for <m>E</m>.
+    </p>
+  </example>
+
+  <example>
+    <p>
+        The braking distance, <m>d</m>, of an Alfa Romeo on dry pavement is proportional to the square of its speed (<m>v</m>). An Alfa Romeo going 70 mph require 177 feet to stop. What is a power model for <m>d</m>?
+    </p>
+    <p>
+        <alert>Solution:</alert> The first sentence gives us that the power model has the structure:
+        <me>d = cv^2</me>,
+        where <m>c</m> is an unknown number. The second sentences gives us the information we need to find <m>c</m>. We plug in <m>v = 70</m> and <m>d = 177</m> to get
+        <me>177 = c(70)^2</me>.
+        Solving for <m>c</m> gives us that <m>c \approx 0.036</m>. Now we can give the final power model:
+        <m>d = 0.036v^2</m>.
+    </p>
+  </example>
+
   <activity xml:id="a-varies-directly-proportional">
     <introduction>
         <p>
-            Power models with positive powers are often expressed in words using the language of <term>proportionality</term>, or by saying that one quantity <term>varies directly</term> with another. For example:
-            <ul>
-                <li>
-                    <p>
-                        Words: The strength of a beam, <m>S</m>, is proportional to the square of its thickness, <m>h</m> <br />
-        		        Power Model: <m>S = ch^2</m>, with <m>c</m> an unknown number
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Words: The energy, <m>E</m>, expended by a swimming dolphin varies directly with the cube of its speed, <m>v</m><br />
-                        Power Model: <m>E = cv^3</m>, with <m>c</m> an unknown number
-                    </p>    
-                </li>
-                <li>
-                    <p>
-                        Words: The braking distance, <m>d</m>, of an Alfa Romeo on dry pavement is proportional to the square of its speed (<m>v</m>), with coefficient <m>0.036</m> <br />
-                        Power Model Formula: <m>d = 0.036v^2</m>
-                    </p>
-                </li>
-            </ul>
-        </p>
-        <p>
-            In each of the following situations, set up the power model being described. Use the information given to find the coefficient, then answer the question.
+            In each of the following situations, set up the power model being described, including using the information given to find the coefficient. Then, use your power model to answer the question.
         </p>
     </introduction>
     <!-- Exercise 12 from https://mafitch.github.io/tech_math/section-variation.html-->
