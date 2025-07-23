@@ -200,6 +200,13 @@
             </p>
         </statement>
     </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                For this problem, use your power model formula, but ignore the aircraft context. Find all solutions to the equation you get when <m>R = 1000</m>.
+            </p>
+        </statement>
+    </task>
   </activity>
 
   <activity xml:id="a-power-model-graphs">
