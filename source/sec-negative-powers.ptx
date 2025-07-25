@@ -49,14 +49,14 @@
     <task>
         <statement>
             <p>
-                The two octaves around middle A on a piano have frequencies of about 220 - 880 Hz. Sketch a graph showing the relationship of power to frequency in pink noise for the two octaves around middle A. 
+                The two octaves around middle A on a piano have frequencies of about 220 - 880 Hz. Sketch a graph showing the relationship of power to frequency in pink noise for the two octaves around middle A. <alert>Hint:</alert> You don't need to know anything about music to solve this problem. The instructions are telling you that the horizontal axis should start at 220 and go up to 880. Choose some numbers between 220 and 880, plug them into the formula to find the power, and then use these points to make a graph.
             </p>
         </statement>
     </task>
     <task>
         <statement>
             <p>
-                The model for pink noise is also a power model! We can rewrite it as <me>P = f^{-1}</me>. Talk to your table and brainstorm reasons why it might make sense for negative exponents to be related to variables in the denominator of fractions. 
+                The model for pink noise is also a power model! We can rewrite it as <me>P = f^{-1}</me>. Talk to your table and brainstorm reasons why it might make sense for negative exponents to be related to variables in the denominator of fractions. <alert>Hint:</alert> You thought about this in the prep activities.
             </p>
         </statement>
     </task>
@@ -70,7 +70,7 @@
     <task>
         <statement>
             <p>
-                Sketch a graph showing the relationship of power to frequency in brown noise for the two octaves around middle A.
+                Sketch a graph showing the relationship of power to frequency in brown noise for the two octaves around middle A. <alert> Hint: </alert> What steps did you use to sketch a graph for pink noise?
             </p>
         </statement>
     </task>
@@ -106,14 +106,14 @@
     <task workspace="0.5in">
         <statement>
             <p>
-                Without snowshoes, each of Guido's feet has an area of <m>22\text{ in}^2</m>. What is the pressure he exerts on the snow? Don't forget that Guido has two feet!
+                Without snowshoes, each of Guido's feet has an area of <m>22\text{ in}^2</m>. What is the pressure he exerts on the snow? <alert> Hint: </alert> Guido has two feet! So, what is the total area of his feet?
             </p>
         </statement>
     </task>
     <task workspace="0.5in">
         <statement>
             <p>
-                If he wears snowshoes that have a surface area of <m>144\text{ in}^2</m>, what is the pressure?
+                If he wears snowshoes that have a surface area of <m>144\text{ in}^2</m> total, what is the pressure? 
             </p>
         </statement>
     </task>
@@ -136,7 +136,7 @@
   <activity xml:id="a-adv-exponent-rules-practice">
     <introduction>
         <p>
-            We have now seen all of the exponent rules! Use your knowledge of exponent rules to rewrite each of the expressions below. 
+            Use your knowledge of exponent rules to rewrite each of the expressions below. 
         </p>
     </introduction>
     <task workspace="0.5in">
@@ -167,28 +167,28 @@
             </p>
         </statement>
     </task>
-    <task workspace="0.5in">
+    <!-- <task workspace="0.5in">
         <statement>
             <p>
                 Rewrite without negative or fractional exponents: <m>\left(n^{-8}m^5\right)^{-\frac12}</m>
             </p>
         </statement>
-    </task>
+    </task> -->
   </activity>
 
   <activity xml:id="a-logs-and-negatives">
     <introduction>
         <p>
-            Let's stretch our understanding of negative and fractional exponents and of logarithms! Evaluate each of the logs below <alert>without using a calculator</alert>. You can check your answer with a calculator, but should first find them without one.
+            Let's stretch our understanding of negative exponents and logarithms! Evaluate each of the logs below <alert>without using a calculator</alert>. You can check your answer with a calculator, but should first find them without one.
         </p>
     </introduction>
-    <task workspace="0.5in">
+    <!-- <task workspace="0.5in">
         <statement>
             <p>
                 <m>\log_2\left(\sqrt{2}\right)</m>
             </p>
         </statement>
-    </task>
+    </task> -->
     <task workspace="0.5in">
         <statement>
             <p>
@@ -206,7 +206,7 @@
     <task workspace="0.5in">
         <statement>
             <p>
-                <m>\log_{9}\left(\frac{1}{3}\right)</m>
+                <m>\log_{9}\left(\frac{1}{27}\right)</m>
             </p>
         </statement>
     </task>

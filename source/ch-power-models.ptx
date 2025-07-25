@@ -22,17 +22,17 @@
     <xi:include href="sec-properties-logs-exponents.ptx" />
   </chapter>
 
-  <chapter xml:id="ch-roots-fractions" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Roots and Fractional Powers</title>
-    
-    <xi:include href="sec-roots-fractions-prep.ptx" />
-    <xi:include href="sec-roots-fractions.ptx" />
-  </chapter>
-
   <chapter xml:id="ch-negative-powers" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Negative Powers</title>
     
     <xi:include href="sec-negative-powers-prep.ptx" />
     <xi:include href="sec-negative-powers.ptx" />
+  </chapter>
+
+  <chapter xml:id="ch-roots-fractions" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Roots and Fractional Powers</title>
+    
+    <xi:include href="sec-roots-fractions-prep.ptx" />
+    <xi:include href="sec-roots-fractions.ptx" />
   </chapter>
 </part>

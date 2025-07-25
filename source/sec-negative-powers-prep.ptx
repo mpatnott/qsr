@@ -6,13 +6,13 @@
   <investigation xml:id="pa-discover-negative-powers">
     <introduction>
         <p>
-            We have one final exponent rule to discover.
+            Let's discover another exponent rule.
         </p>
     </introduction>
     <task>
         <introduction>
             <p>
-                Use repeated multiplication to rewrite each of the following expressions, then simplify by canceling.
+                Use repeated multiplication to rewrite each of the following expressions, then simplify by canceling. Remember, if you cancel everything from the numerator of the fraction, then you're left a <m>1</m> in the numerator.
             </p>
         </introduction>
         <task>
@@ -108,7 +108,9 @@
             <mrow>x^6 \amp= \frac{5}{9} </mrow>
             <mrow>x \amp = \pm \sqrt[6]{\frac{5}{9}} </mrow>
         </md>
-        Use this strategy to solve each of the equations below.
+        <p>
+            Use this strategy to solve each of the equations below.
+        </p>
     </introduction>
     <task>
         <statement>
