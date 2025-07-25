@@ -1432,137 +1432,29 @@ var ptx_lunr_docs = [
   "body": "  The relationship between logs and exponents mean that there are log properties that correspond to the Product, Quotient, and Power Rule of Exponents. They are:   Use the log properties to rewrite each of the expressions below.     Rewrite as a single logarithm, then evaluate without a calculator:       Rewrite as a sum or difference of logarithms:       Rewrite as a single logarithm:       Rewrite as a single logarithm:       Rewrite as a sum or difference of logarithms:     "
 },
 {
-  "id": "sec-roots-fractions-prep",
-  "level": "1",
-  "url": "sec-roots-fractions-prep.html",
-  "type": "Section",
-  "number": "14.1",
-  "title": "Roots and Fractional Powers Prep Activities",
-  "body": " Roots and Fractional Powers Prep Activities  We learned in that cube roots and the one-third power are the same, i.e., that . In fact, this is a special case of the general rule that nth roots and the 1\/n power are the same, i.e., . Note: We use square roots so often that we don't usually bother to write the number on the root. But, , so .    Using the Product Rule for Exponents, . Why does this observation support the reasonableness of the rules that and ?      Let's practice using our new rule, along with other exponent rules, to rewrite expressions.     Rewrite without a root symbol:       Rewrite with a root symbol:       Rewrite as :       Rewrite as :       Rewrite with a root symbol:        We introduced the one-third power in to help us solve the equation . Notice that the Power Rule for Exponents tells us that . That is, the nth power and the 1\/n power undo each other. Use this fact to find all solutions to each of the equations below.                          You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Use the equality to rewrite expressions.     Solve equations using the inverse relationship between and .       "
-},
-{
-  "id": "pa-why-frac-exps-are-roots",
-  "level": "2",
-  "url": "sec-roots-fractions-prep.html#pa-why-frac-exps-are-roots",
-  "type": "Prep Activity",
-  "number": "14.1.1",
-  "title": "",
-  "body": "  Using the Product Rule for Exponents, . Why does this observation support the reasonableness of the rules that and ?   "
-},
-{
-  "id": "pa-rewrite-frac-exp-roots",
-  "level": "2",
-  "url": "sec-roots-fractions-prep.html#pa-rewrite-frac-exp-roots",
-  "type": "Prep Activity",
-  "number": "14.1.2",
-  "title": "",
-  "body": "  Let's practice using our new rule, along with other exponent rules, to rewrite expressions.     Rewrite without a root symbol:       Rewrite with a root symbol:       Rewrite as :       Rewrite as :       Rewrite with a root symbol:     "
-},
-{
-  "id": "pa-solve-eqns-frac-exps",
-  "level": "2",
-  "url": "sec-roots-fractions-prep.html#pa-solve-eqns-frac-exps",
-  "type": "Prep Activity",
-  "number": "14.1.3",
-  "title": "",
-  "body": "  We introduced the one-third power in to help us solve the equation . Notice that the Power Rule for Exponents tells us that . That is, the nth power and the 1\/n power undo each other. Use this fact to find all solutions to each of the equations below.                        "
-},
-{
-  "id": "pa-roots-fractions-prep-confidence",
-  "level": "2",
-  "url": "sec-roots-fractions-prep.html#pa-roots-fractions-prep-confidence",
-  "type": "Prep Activity",
-  "number": "14.1.4",
-  "title": "",
-  "body": " You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Use the equality to rewrite expressions.     Solve equations using the inverse relationship between and .      "
-},
-{
-  "id": "sec-roots-fractions",
-  "level": "1",
-  "url": "sec-roots-fractions.html",
-  "type": "Section",
-  "number": "14.2",
-  "title": "Roots and Fractional Powers Activities",
-  "body": " Roots and Fractional Powers Activities    The cube root law R. Taagepera. ``The size of national assemblies.'' Social Science Research v. 1, no. 4. , in political science, observes that in many countries, the number of seats in the legislative body most similar to the US House of Representatives is approximately modeled by the formula , where is the number of seats in the legislative body and is the country's population.     The cube root law is a power model, even though it doesn't look like one at first. Use the fact that cube roots are the same as the 1\/3rd power to rewrite the cube root law so that it looks like a power model.      The population of Canada was about 37 million in 2021. The Canadian House of Commons is similar to the US House of Representatives. Use the cube root law to predict the size of the Canadian House of Commons.      In 2021, the Canadian House of Commons had 338 seats. Did the cube root law give a good estimate?      The population of the United States was about 332 million in 2021. Use the cube root law to predict the size of the US House of Representatives.      The US House of Representatives has 435 voting members. Did the cube root law give a good estimate?      Use the cube root law to predict the population of a country with 435 members in its legistlative House.      The US House of Representatives hasn't changed size since it was set to 435 by the Apportionment Act of 1911. The US population in 1911 was about 94 million. Did the cube root law give a give estimate in 1911?       Police use the formula to estimate the speed of a car, , in miles per hour, based on the length, , in feet, of its skid marks when suddenly braking on a dry, asphalt road.     At the scene of an accident, a police officer measures a car's skid marks to be 135 feet long. Approximately how fast was the car traveling? What if the skid marks had been 215 feet long instead?      The United States had a national speed limit of 55 mph from 1974 - 1987, and speed limits of 55 mph were still common around the country through the late 1990s. How long would the skid marks be of a car suddenly braking after going 55 mph on a dry, asphalt road?      The fastest posted speed limit in the US is 85 mph. How long would the skid marks be of a car suddenly braking after going 85 mph on a dry, asphalt road?       We have to be careful with fractional exponents and negative numbers.      Complete the table below.   Positive or Negative?     Positive or Negative?    Postive Positive     Negative Negative     Postive Positive Positive     Negative Negative Negative     Postive Positive Positive Positive     Negative Negative Negative Negative          Use your table to decide whether each of the following statements is true or false. Explain your answers.     It is possible for to be negative.      It is possible for to be negative.       Explain why the true sentence below makes sense.   When is negative, exists, but doesn't.       What about 0? Does exist? What about ? ?       The resting energy expenditure (REE) is the amount of energy a person or animal needs for basic bodily functions. In the 1930s, biologist Max Kleiber Z. Wang, T. O'Connor, S. Heshka, and s. Heymsfield. ``The Reconstruction of Kleiber's Law at the Organ-Tissue Level.'' The Journal of Nutrition v. 131, no. 11. doi: 10.1093\/jn\/131.11.2967 discovered that there is a relationship between the REE of an adult mammal and its body mass: where is a mammal's REE (in kcal\/d) and is its body mass (in kg).     Explain why Kleiber's model for REE is a power model. What are the quantities, coefficient, and power?      Sketch a graph showing the relationship between REE and body mass in mammals.      Use this model to find the REE of a mammal with body mass 80 kg.      In order to find the body mass of a mammal with REE 1400 kcal\/d, we need to undo the 3\/4ths power. We don't usually talk about the 3\/4ths root. Instead, we stick with fractional exponents. To undo the 3\/4ths power, we'll use the 1\/(3\/4)ths power. Here's how this example works out! Divide both sides by 70 to get: Raise both sides to the 1\/(3\/4)ths power:     Note: 1\/(3\/4) is hard to read and work with! It's important to get the parentheses right, since 1\/(3\/4) and (1\/3)\/4 are different (try to plug both into a calculator and see for yourself!). Instead of doing 1\/(3\/4), it's more common to either turn 3\/4 into a decimal and do 1\/0.75, or to use fraction arithmetic rules to rewrite 1\/(3\/4) as 4\/3.  Find the mass of a mammal with REE 2000 kcal\/d.       We introduced the rule in . In fact, we can connect any fractional exponent to roots using the more general rule . Use this rule, along with the other exponent rules, to rewrite each of the following expressions.     Rewrite with fractional exponents:       Rewrite with fractional exponents:       Rewrite with fractional exponents:       Rewrite with fractional exponents:       Rewrite with roots:        Kepler's Third Law tells us that where is the planet's distance from the Sun in AU and is the number of days the planet takes to orbit the Sun. Note that 1 AU is the distance between Earth and the Sun.     Plug in and find . Does Kepler's third law give the correct number of days in a year?      Mars's distance from the sun is 1.524 AU. Use Kepler's third law to find the length of a year on Mars.      Rewrite Kepler's Third Law so that it has the form .      Kepler's Third Law is a power model in disguise! Talk to your table and decide how to use fractional exponents to rewrite your equation from the previous part with a fractional exponent.      Use Kepler's Third Law to predict the distance from the Sun to a planet with a 10,776 day year. (What planet is this? Use the Internet to find out! How good was your distance estimate?)     "
-},
-{
-  "id": "a-cube-root-law",
-  "level": "2",
-  "url": "sec-roots-fractions.html#a-cube-root-law",
-  "type": "Activity",
-  "number": "14.2.1",
-  "title": "",
-  "body": "  The cube root law R. Taagepera. ``The size of national assemblies.'' Social Science Research v. 1, no. 4. , in political science, observes that in many countries, the number of seats in the legislative body most similar to the US House of Representatives is approximately modeled by the formula , where is the number of seats in the legislative body and is the country's population.     The cube root law is a power model, even though it doesn't look like one at first. Use the fact that cube roots are the same as the 1\/3rd power to rewrite the cube root law so that it looks like a power model.      The population of Canada was about 37 million in 2021. The Canadian House of Commons is similar to the US House of Representatives. Use the cube root law to predict the size of the Canadian House of Commons.      In 2021, the Canadian House of Commons had 338 seats. Did the cube root law give a good estimate?      The population of the United States was about 332 million in 2021. Use the cube root law to predict the size of the US House of Representatives.      The US House of Representatives has 435 voting members. Did the cube root law give a good estimate?      Use the cube root law to predict the population of a country with 435 members in its legistlative House.      The US House of Representatives hasn't changed size since it was set to 435 by the Apportionment Act of 1911. The US population in 1911 was about 94 million. Did the cube root law give a give estimate in 1911?    "
-},
-{
-  "id": "a-skid-marks",
-  "level": "2",
-  "url": "sec-roots-fractions.html#a-skid-marks",
-  "type": "Activity",
-  "number": "14.2.2",
-  "title": "",
-  "body": "  Police use the formula to estimate the speed of a car, , in miles per hour, based on the length, , in feet, of its skid marks when suddenly braking on a dry, asphalt road.     At the scene of an accident, a police officer measures a car's skid marks to be 135 feet long. Approximately how fast was the car traveling? What if the skid marks had been 215 feet long instead?      The United States had a national speed limit of 55 mph from 1974 - 1987, and speed limits of 55 mph were still common around the country through the late 1990s. How long would the skid marks be of a car suddenly braking after going 55 mph on a dry, asphalt road?      The fastest posted speed limit in the US is 85 mph. How long would the skid marks be of a car suddenly braking after going 85 mph on a dry, asphalt road?    "
-},
-{
-  "id": "a-caution-negatives-even-roots",
-  "level": "2",
-  "url": "sec-roots-fractions.html#a-caution-negatives-even-roots",
-  "type": "Activity",
-  "number": "14.2.3",
-  "title": "",
-  "body": "  We have to be careful with fractional exponents and negative numbers.      Complete the table below.   Positive or Negative?     Positive or Negative?    Postive Positive     Negative Negative     Postive Positive Positive     Negative Negative Negative     Postive Positive Positive Positive     Negative Negative Negative Negative          Use your table to decide whether each of the following statements is true or false. Explain your answers.     It is possible for to be negative.      It is possible for to be negative.       Explain why the true sentence below makes sense.   When is negative, exists, but doesn't.       What about 0? Does exist? What about ? ?    "
-},
-{
-  "id": "a-ree-mass",
-  "level": "2",
-  "url": "sec-roots-fractions.html#a-ree-mass",
-  "type": "Activity",
-  "number": "14.2.4",
-  "title": "",
-  "body": "  The resting energy expenditure (REE) is the amount of energy a person or animal needs for basic bodily functions. In the 1930s, biologist Max Kleiber Z. Wang, T. O'Connor, S. Heshka, and s. Heymsfield. ``The Reconstruction of Kleiber's Law at the Organ-Tissue Level.'' The Journal of Nutrition v. 131, no. 11. doi: 10.1093\/jn\/131.11.2967 discovered that there is a relationship between the REE of an adult mammal and its body mass: where is a mammal's REE (in kcal\/d) and is its body mass (in kg).     Explain why Kleiber's model for REE is a power model. What are the quantities, coefficient, and power?      Sketch a graph showing the relationship between REE and body mass in mammals.      Use this model to find the REE of a mammal with body mass 80 kg.      In order to find the body mass of a mammal with REE 1400 kcal\/d, we need to undo the 3\/4ths power. We don't usually talk about the 3\/4ths root. Instead, we stick with fractional exponents. To undo the 3\/4ths power, we'll use the 1\/(3\/4)ths power. Here's how this example works out! Divide both sides by 70 to get: Raise both sides to the 1\/(3\/4)ths power:     Note: 1\/(3\/4) is hard to read and work with! It's important to get the parentheses right, since 1\/(3\/4) and (1\/3)\/4 are different (try to plug both into a calculator and see for yourself!). Instead of doing 1\/(3\/4), it's more common to either turn 3\/4 into a decimal and do 1\/0.75, or to use fraction arithmetic rules to rewrite 1\/(3\/4) as 4\/3.  Find the mass of a mammal with REE 2000 kcal\/d.    "
-},
-{
-  "id": "a-fractions-exponent-rules",
-  "level": "2",
-  "url": "sec-roots-fractions.html#a-fractions-exponent-rules",
-  "type": "Activity",
-  "number": "14.2.5",
-  "title": "",
-  "body": "  We introduced the rule in . In fact, we can connect any fractional exponent to roots using the more general rule . Use this rule, along with the other exponent rules, to rewrite each of the following expressions.     Rewrite with fractional exponents:       Rewrite with fractional exponents:       Rewrite with fractional exponents:       Rewrite with fractional exponents:       Rewrite with roots:     "
-},
-{
-  "id": "a-kepler-3rd-law",
-  "level": "2",
-  "url": "sec-roots-fractions.html#a-kepler-3rd-law",
-  "type": "Activity",
-  "number": "14.2.6",
-  "title": "",
-  "body": "  Kepler's Third Law tells us that where is the planet's distance from the Sun in AU and is the number of days the planet takes to orbit the Sun. Note that 1 AU is the distance between Earth and the Sun.     Plug in and find . Does Kepler's third law give the correct number of days in a year?      Mars's distance from the sun is 1.524 AU. Use Kepler's third law to find the length of a year on Mars.      Rewrite Kepler's Third Law so that it has the form .      Kepler's Third Law is a power model in disguise! Talk to your table and decide how to use fractional exponents to rewrite your equation from the previous part with a fractional exponent.      Use Kepler's Third Law to predict the distance from the Sun to a planet with a 10,776 day year. (What planet is this? Use the Internet to find out! How good was your distance estimate?)    "
-},
-{
   "id": "sec-negative-powers-prep",
   "level": "1",
   "url": "sec-negative-powers-prep.html",
   "type": "Section",
-  "number": "15.1",
+  "number": "14.1",
   "title": "Negative Powers Prep Activities",
-  "body": " Negative Powers Prep Activities    We have one final exponent rule to discover.     Use repeated multiplication to rewrite each of the following expressions, then simplify by canceling.                    Use the Quotient Rule for Exponents to rewrite each of the following expressions as .                    Explain why the last two parts support the reasonableness of the rule .       Let's practice using our new rule, along with other exponent rules, to rewrite expressions.     Rewrite as :       Rewrite as :       Rewrite without any negative exponents:       Rewrite without any negative exponents:        In many cases, the best way to deal with negative exponents and\/or a variable in the denominator in an equation is to move the variable to the other side of the equation using multiplication. For example:  Use this strategy to solve each of the equations below.                  You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Use the equality to rewrite expressions.     Solve equations involving negative exponents.       "
+  "body": " Negative Powers Prep Activities    Let's discover another exponent rule.     Use repeated multiplication to rewrite each of the following expressions, then simplify by canceling. Remember, if you cancel everything from the numerator of the fraction, then you're left a in the numerator.                    Use the Quotient Rule for Exponents to rewrite each of the following expressions as .                    Explain why the last two parts support the reasonableness of the rule .       Let's practice using our new rule, along with other exponent rules, to rewrite expressions.     Rewrite as :       Rewrite as :       Rewrite without any negative exponents:       Rewrite without any negative exponents:        In many cases, the best way to deal with negative exponents and\/or a variable in the denominator in an equation is to move the variable to the other side of the equation using multiplication. For example:   Use this strategy to solve each of the equations below.                   You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Use the equality to rewrite expressions.     Solve equations involving negative exponents.       "
 },
 {
   "id": "pa-discover-negative-powers",
   "level": "2",
   "url": "sec-negative-powers-prep.html#pa-discover-negative-powers",
   "type": "Prep Activity",
-  "number": "15.1.1",
+  "number": "14.1.1",
   "title": "",
-  "body": "  We have one final exponent rule to discover.     Use repeated multiplication to rewrite each of the following expressions, then simplify by canceling.                    Use the Quotient Rule for Exponents to rewrite each of the following expressions as .                    Explain why the last two parts support the reasonableness of the rule .    "
+  "body": "  Let's discover another exponent rule.     Use repeated multiplication to rewrite each of the following expressions, then simplify by canceling. Remember, if you cancel everything from the numerator of the fraction, then you're left a in the numerator.                    Use the Quotient Rule for Exponents to rewrite each of the following expressions as .                    Explain why the last two parts support the reasonableness of the rule .    "
 },
 {
   "id": "pa-negative-powers-rewrite",
   "level": "2",
   "url": "sec-negative-powers-prep.html#pa-negative-powers-rewrite",
   "type": "Prep Activity",
-  "number": "15.1.2",
+  "number": "14.1.2",
   "title": "",
   "body": "  Let's practice using our new rule, along with other exponent rules, to rewrite expressions.     Rewrite as :       Rewrite as :       Rewrite without any negative exponents:       Rewrite without any negative exponents:     "
 },
@@ -1571,16 +1463,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-negative-powers-prep.html#pa-negative-powers-algebra",
   "type": "Prep Activity",
-  "number": "15.1.3",
+  "number": "14.1.3",
   "title": "",
-  "body": "  In many cases, the best way to deal with negative exponents and\/or a variable in the denominator in an equation is to move the variable to the other side of the equation using multiplication. For example:  Use this strategy to solve each of the equations below.                "
+  "body": "  In many cases, the best way to deal with negative exponents and\/or a variable in the denominator in an equation is to move the variable to the other side of the equation using multiplication. For example:   Use this strategy to solve each of the equations below.                 "
 },
 {
   "id": "pa-negative-powers-prep-confidence",
   "level": "2",
   "url": "sec-negative-powers-prep.html#pa-negative-powers-prep-confidence",
   "type": "Prep Activity",
-  "number": "15.1.4",
+  "number": "14.1.4",
   "title": "",
   "body": " You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Use the equality to rewrite expressions.     Solve equations involving negative exponents.      "
 },
@@ -1589,16 +1481,16 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-negative-powers.html",
   "type": "Section",
-  "number": "15.2",
+  "number": "14.2",
   "title": "Negative Powers Activities",
-  "body": " Negative Powers Activities    Power models with negative powers are often expressed in words using the language of inverse proportionality , or by saying that one quantity varies indirectly with another. For example:   The force (in pounds) needed on a wrench handle to loosen a certain bolt varies inversely with the length of the handle. So for some constant .    The weight, , of an object above the surface of Earth varies inversely with the square of distance from the center of Earth, . So for some constant .     In each of the following situations, set up the power model being described. Use the information given to find the coefficient, then answer the question.     The loudness, , of a sound (measured in decibels, dB) is inversely proportional to the square of the distance, , from the source of the sound. When a person 7.0 feet from a jetski, it is 75.0 decibels loud. How loud is the jetski when the person is 45 feet away?      The number of hours, , required to build a fence is inversely proportional to the number of people, working on the fence. If it takes 4 people 31 hours to complete the fence, then how long will it take 11 people to build the fence?       Pink noise is a type of sound that may help some people fall asleep and\/or help people with ADHD concentrate. C. Johnson, Have you tried pink noise for sleep? Here's what to know. AP New, May 20, 2024. Higher frequency sounds are less intense than low frequency sounds in pink noise. We can model this relationship using the formula where is the power of the sound and is its frequency.     The two octaves around middle A on a piano have frequencies of about 220 - 880 Hz. Sketch a graph showing the relationship of power to frequency in pink noise for the two octaves around middle A.      The model for pink noise is also a power model! We can rewrite it as . Talk to your table and brainstorm reasons why it might make sense for negative exponents to be related to variables in the denominator of fractions.      Brown noise is similar to pink noise, but has the model instead. How can we rewrite this formula as a power model? Think on your own, and then compare notes with your table.      Sketch a graph showing the relationship of power to frequency in brown noise for the two octaves around middle A.      Does pink or brown noise have more power at 220 Hz? at 440 Hz? at 880 Hz?        Pressure is a measure of the amount of force spread over an area. where  is pressure  is the force in units of pounds (lbs) or Newtons (N),  is the area in units of square inches, or meters, or similar.    Walking on snow is difficult because our feet tend to puncture the snow (high pressure applied to low strength snow). We can use snowshoes to avoid this problem: they reduce pressure with minimal increase in force (weight).  Suppose Guido weighs 172 lbs.     Without snowshoes, each of Guido's feet has an area of . What is the pressure he exerts on the snow? Don't forget that Guido has two feet!      If he wears snowshoes that have a surface area of , what is the pressure?      If Guido wants to exert a pressure of , how big do his snowshoes need to be? If he wants to exert a pressure of       Guido's little sister Luisa only weighs 75 lbs. How are the answers above different for Luisa?       We have now seen all of the exponent rules! Use your knowledge of exponent rules to rewrite each of the expressions below.     Rewrite as :       Rewrite without negative exponents:       Rewrite without negative exponents:       Rewrite without negative exponents:       Rewrite without negative or fractional exponents:        Let's stretch our understanding of negative and fractional exponents and of logarithms! Evaluate each of the logs below without using a calculator . You can check your answer with a calculator, but should first find them without one.                                  Challenge: Find so that      "
+  "body": " Negative Powers Activities    Power models with negative powers are often expressed in words using the language of inverse proportionality , or by saying that one quantity varies indirectly with another. For example:   The force (in pounds) needed on a wrench handle to loosen a certain bolt varies inversely with the length of the handle. So for some constant .    The weight, , of an object above the surface of Earth varies inversely with the square of distance from the center of Earth, . So for some constant .     In each of the following situations, set up the power model being described. Use the information given to find the coefficient, then answer the question.     The loudness, , of a sound (measured in decibels, dB) is inversely proportional to the square of the distance, , from the source of the sound. When a person 7.0 feet from a jetski, it is 75.0 decibels loud. How loud is the jetski when the person is 45 feet away?      The number of hours, , required to build a fence is inversely proportional to the number of people, working on the fence. If it takes 4 people 31 hours to complete the fence, then how long will it take 11 people to build the fence?       Pink noise is a type of sound that may help some people fall asleep and\/or help people with ADHD concentrate. C. Johnson, Have you tried pink noise for sleep? Here's what to know. AP New, May 20, 2024. Higher frequency sounds are less intense than low frequency sounds in pink noise. We can model this relationship using the formula where is the power of the sound and is its frequency.     The two octaves around middle A on a piano have frequencies of about 220 - 880 Hz. Sketch a graph showing the relationship of power to frequency in pink noise for the two octaves around middle A. Hint: You don't need to know anything about music to solve this problem. The instructions are telling you that the horizontal axis should start at 220 and go up to 880. Choose some numbers between 220 and 880, plug them into the formula to find the power, and then use these points to make a graph.      The model for pink noise is also a power model! We can rewrite it as . Talk to your table and brainstorm reasons why it might make sense for negative exponents to be related to variables in the denominator of fractions. Hint: You thought about this in the prep activities.      Brown noise is similar to pink noise, but has the model instead. How can we rewrite this formula as a power model? Think on your own, and then compare notes with your table.      Sketch a graph showing the relationship of power to frequency in brown noise for the two octaves around middle A. Hint: What steps did you use to sketch a graph for pink noise?      Does pink or brown noise have more power at 220 Hz? at 440 Hz? at 880 Hz?        Pressure is a measure of the amount of force spread over an area. where  is pressure  is the force in units of pounds (lbs) or Newtons (N),  is the area in units of square inches, or meters, or similar.    Walking on snow is difficult because our feet tend to puncture the snow (high pressure applied to low strength snow). We can use snowshoes to avoid this problem: they reduce pressure with minimal increase in force (weight).  Suppose Guido weighs 172 lbs.     Without snowshoes, each of Guido's feet has an area of . What is the pressure he exerts on the snow? Hint: Guido has two feet! So, what is the total area of his feet?      If he wears snowshoes that have a surface area of total, what is the pressure?      If Guido wants to exert a pressure of , how big do his snowshoes need to be? If he wants to exert a pressure of       Guido's little sister Luisa only weighs 75 lbs. How are the answers above different for Luisa?       Use your knowledge of exponent rules to rewrite each of the expressions below.     Rewrite as :       Rewrite without negative exponents:       Rewrite without negative exponents:       Rewrite without negative exponents:         Let's stretch our understanding of negative exponents and logarithms! Evaluate each of the logs below without using a calculator . You can check your answer with a calculator, but should first find them without one.                            Challenge: Find so that      "
 },
 {
   "id": "a-inversely-proportional",
   "level": "2",
   "url": "sec-negative-powers.html#a-inversely-proportional",
   "type": "Activity",
-  "number": "15.2.1",
+  "number": "14.2.1",
   "title": "",
   "body": "  Power models with negative powers are often expressed in words using the language of inverse proportionality , or by saying that one quantity varies indirectly with another. For example:   The force (in pounds) needed on a wrench handle to loosen a certain bolt varies inversely with the length of the handle. So for some constant .    The weight, , of an object above the surface of Earth varies inversely with the square of distance from the center of Earth, . So for some constant .     In each of the following situations, set up the power model being described. Use the information given to find the coefficient, then answer the question.     The loudness, , of a sound (measured in decibels, dB) is inversely proportional to the square of the distance, , from the source of the sound. When a person 7.0 feet from a jetski, it is 75.0 decibels loud. How loud is the jetski when the person is 45 feet away?      The number of hours, , required to build a fence is inversely proportional to the number of people, working on the fence. If it takes 4 people 31 hours to complete the fence, then how long will it take 11 people to build the fence?    "
 },
@@ -1607,36 +1499,144 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-negative-powers.html#a-color-noise",
   "type": "Activity",
-  "number": "15.2.2",
+  "number": "14.2.2",
   "title": "",
-  "body": "  Pink noise is a type of sound that may help some people fall asleep and\/or help people with ADHD concentrate. C. Johnson, Have you tried pink noise for sleep? Here's what to know. AP New, May 20, 2024. Higher frequency sounds are less intense than low frequency sounds in pink noise. We can model this relationship using the formula where is the power of the sound and is its frequency.     The two octaves around middle A on a piano have frequencies of about 220 - 880 Hz. Sketch a graph showing the relationship of power to frequency in pink noise for the two octaves around middle A.      The model for pink noise is also a power model! We can rewrite it as . Talk to your table and brainstorm reasons why it might make sense for negative exponents to be related to variables in the denominator of fractions.      Brown noise is similar to pink noise, but has the model instead. How can we rewrite this formula as a power model? Think on your own, and then compare notes with your table.      Sketch a graph showing the relationship of power to frequency in brown noise for the two octaves around middle A.      Does pink or brown noise have more power at 220 Hz? at 440 Hz? at 880 Hz?    "
+  "body": "  Pink noise is a type of sound that may help some people fall asleep and\/or help people with ADHD concentrate. C. Johnson, Have you tried pink noise for sleep? Here's what to know. AP New, May 20, 2024. Higher frequency sounds are less intense than low frequency sounds in pink noise. We can model this relationship using the formula where is the power of the sound and is its frequency.     The two octaves around middle A on a piano have frequencies of about 220 - 880 Hz. Sketch a graph showing the relationship of power to frequency in pink noise for the two octaves around middle A. Hint: You don't need to know anything about music to solve this problem. The instructions are telling you that the horizontal axis should start at 220 and go up to 880. Choose some numbers between 220 and 880, plug them into the formula to find the power, and then use these points to make a graph.      The model for pink noise is also a power model! We can rewrite it as . Talk to your table and brainstorm reasons why it might make sense for negative exponents to be related to variables in the denominator of fractions. Hint: You thought about this in the prep activities.      Brown noise is similar to pink noise, but has the model instead. How can we rewrite this formula as a power model? Think on your own, and then compare notes with your table.      Sketch a graph showing the relationship of power to frequency in brown noise for the two octaves around middle A. Hint: What steps did you use to sketch a graph for pink noise?      Does pink or brown noise have more power at 220 Hz? at 440 Hz? at 880 Hz?    "
 },
 {
   "id": "a-snow-shoes",
   "level": "2",
   "url": "sec-negative-powers.html#a-snow-shoes",
   "type": "Activity",
-  "number": "15.2.3",
+  "number": "14.2.3",
   "title": "",
-  "body": "  Pressure is a measure of the amount of force spread over an area. where  is pressure  is the force in units of pounds (lbs) or Newtons (N),  is the area in units of square inches, or meters, or similar.    Walking on snow is difficult because our feet tend to puncture the snow (high pressure applied to low strength snow). We can use snowshoes to avoid this problem: they reduce pressure with minimal increase in force (weight).  Suppose Guido weighs 172 lbs.     Without snowshoes, each of Guido's feet has an area of . What is the pressure he exerts on the snow? Don't forget that Guido has two feet!      If he wears snowshoes that have a surface area of , what is the pressure?      If Guido wants to exert a pressure of , how big do his snowshoes need to be? If he wants to exert a pressure of       Guido's little sister Luisa only weighs 75 lbs. How are the answers above different for Luisa?    "
+  "body": "  Pressure is a measure of the amount of force spread over an area. where  is pressure  is the force in units of pounds (lbs) or Newtons (N),  is the area in units of square inches, or meters, or similar.    Walking on snow is difficult because our feet tend to puncture the snow (high pressure applied to low strength snow). We can use snowshoes to avoid this problem: they reduce pressure with minimal increase in force (weight).  Suppose Guido weighs 172 lbs.     Without snowshoes, each of Guido's feet has an area of . What is the pressure he exerts on the snow? Hint: Guido has two feet! So, what is the total area of his feet?      If he wears snowshoes that have a surface area of total, what is the pressure?      If Guido wants to exert a pressure of , how big do his snowshoes need to be? If he wants to exert a pressure of       Guido's little sister Luisa only weighs 75 lbs. How are the answers above different for Luisa?    "
 },
 {
   "id": "a-adv-exponent-rules-practice",
   "level": "2",
   "url": "sec-negative-powers.html#a-adv-exponent-rules-practice",
   "type": "Activity",
-  "number": "15.2.4",
+  "number": "14.2.4",
   "title": "",
-  "body": "  We have now seen all of the exponent rules! Use your knowledge of exponent rules to rewrite each of the expressions below.     Rewrite as :       Rewrite without negative exponents:       Rewrite without negative exponents:       Rewrite without negative exponents:       Rewrite without negative or fractional exponents:     "
+  "body": "  Use your knowledge of exponent rules to rewrite each of the expressions below.     Rewrite as :       Rewrite without negative exponents:       Rewrite without negative exponents:       Rewrite without negative exponents:      "
 },
 {
   "id": "a-logs-and-negatives",
   "level": "2",
   "url": "sec-negative-powers.html#a-logs-and-negatives",
   "type": "Activity",
+  "number": "14.2.5",
+  "title": "",
+  "body": "  Let's stretch our understanding of negative exponents and logarithms! Evaluate each of the logs below without using a calculator . You can check your answer with a calculator, but should first find them without one.                            Challenge: Find so that     "
+},
+{
+  "id": "sec-roots-fractions-prep",
+  "level": "1",
+  "url": "sec-roots-fractions-prep.html",
+  "type": "Section",
+  "number": "15.1",
+  "title": "Roots and Fractional Powers Prep Activities",
+  "body": " Roots and Fractional Powers Prep Activities  We learned in that cube roots and the one-third power are the same, i.e., that . In fact, this is a special case of the general rule that nth roots and the 1\/n power are the same, i.e., . Note: We use square roots so often that we don't usually bother to write the number on the root. But, , so .    Using the Product Rule for Exponents, . Why does this observation support the reasonableness of the rules that and ?      Let's practice using our new rule, along with other exponent rules, to rewrite expressions.     Rewrite without a root symbol:       Rewrite with a root symbol:       Rewrite as :       Rewrite as :       Rewrite with a root symbol:        We introduced the one-third power in to help us solve the equation . Notice that the Power Rule for Exponents tells us that . That is, the nth power and the 1\/n power undo each other. Use this fact to find all solutions to each of the equations below.                          You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Use the equality to rewrite expressions.     Solve equations using the inverse relationship between and .       "
+},
+{
+  "id": "pa-why-frac-exps-are-roots",
+  "level": "2",
+  "url": "sec-roots-fractions-prep.html#pa-why-frac-exps-are-roots",
+  "type": "Prep Activity",
+  "number": "15.1.1",
+  "title": "",
+  "body": "  Using the Product Rule for Exponents, . Why does this observation support the reasonableness of the rules that and ?   "
+},
+{
+  "id": "pa-rewrite-frac-exp-roots",
+  "level": "2",
+  "url": "sec-roots-fractions-prep.html#pa-rewrite-frac-exp-roots",
+  "type": "Prep Activity",
+  "number": "15.1.2",
+  "title": "",
+  "body": "  Let's practice using our new rule, along with other exponent rules, to rewrite expressions.     Rewrite without a root symbol:       Rewrite with a root symbol:       Rewrite as :       Rewrite as :       Rewrite with a root symbol:     "
+},
+{
+  "id": "pa-solve-eqns-frac-exps",
+  "level": "2",
+  "url": "sec-roots-fractions-prep.html#pa-solve-eqns-frac-exps",
+  "type": "Prep Activity",
+  "number": "15.1.3",
+  "title": "",
+  "body": "  We introduced the one-third power in to help us solve the equation . Notice that the Power Rule for Exponents tells us that . That is, the nth power and the 1\/n power undo each other. Use this fact to find all solutions to each of the equations below.                        "
+},
+{
+  "id": "pa-roots-fractions-prep-confidence",
+  "level": "2",
+  "url": "sec-roots-fractions-prep.html#pa-roots-fractions-prep-confidence",
+  "type": "Prep Activity",
+  "number": "15.1.4",
+  "title": "",
+  "body": " You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Use the equality to rewrite expressions.     Solve equations using the inverse relationship between and .      "
+},
+{
+  "id": "sec-roots-fractions",
+  "level": "1",
+  "url": "sec-roots-fractions.html",
+  "type": "Section",
+  "number": "15.2",
+  "title": "Roots and Fractional Powers Activities",
+  "body": " Roots and Fractional Powers Activities    The cube root law R. Taagepera. ``The size of national assemblies.'' Social Science Research v. 1, no. 4. , in political science, observes that in many countries, the number of seats in the legislative body most similar to the US House of Representatives is approximately modeled by the formula , where is the number of seats in the legislative body and is the country's population.     The cube root law is a power model, even though it doesn't look like one at first. Use the fact that cube roots are the same as the 1\/3rd power to rewrite the cube root law so that it looks like a power model.      The population of Canada was about 37 million in 2021. The Canadian House of Commons is similar to the US House of Representatives. Use the cube root law to predict the size of the Canadian House of Commons.      In 2021, the Canadian House of Commons had 338 seats. Did the cube root law give a good estimate?      The population of the United States was about 332 million in 2021. Use the cube root law to predict the size of the US House of Representatives.      The US House of Representatives has 435 voting members. Did the cube root law give a good estimate?      Use the cube root law to predict the population of a country with 435 members in its legistlative House.      The US House of Representatives hasn't changed size since it was set to 435 by the Apportionment Act of 1911. The US population in 1911 was about 94 million. Did the cube root law give a give estimate in 1911?       Police use the formula to estimate the speed of a car, , in miles per hour, based on the length, , in feet, of its skid marks when suddenly braking on a dry, asphalt road.     At the scene of an accident, a police officer measures a car's skid marks to be 135 feet long. Approximately how fast was the car traveling? What if the skid marks had been 215 feet long instead?      The United States had a national speed limit of 55 mph from 1974 - 1987, and speed limits of 55 mph were still common around the country through the late 1990s. How long would the skid marks be of a car suddenly braking after going 55 mph on a dry, asphalt road?      The fastest posted speed limit in the US is 85 mph. How long would the skid marks be of a car suddenly braking after going 85 mph on a dry, asphalt road?       We have to be careful with fractional exponents and negative numbers.      Complete the table below.   Positive or Negative?     Positive or Negative?    Postive Positive     Negative Negative     Postive Positive Positive     Negative Negative Negative     Postive Positive Positive Positive     Negative Negative Negative Negative          Use your table to decide whether each of the following statements is true or false. Explain your answers.     It is possible for to be negative.      It is possible for to be negative.       Explain why the true sentence below makes sense.   When is negative, exists, but doesn't.       What about 0? Does exist? What about ? ?       The resting energy expenditure (REE) is the amount of energy a person or animal needs for basic bodily functions. In the 1930s, biologist Max Kleiber Z. Wang, T. O'Connor, S. Heshka, and s. Heymsfield. ``The Reconstruction of Kleiber's Law at the Organ-Tissue Level.'' The Journal of Nutrition v. 131, no. 11. doi: 10.1093\/jn\/131.11.2967 discovered that there is a relationship between the REE of an adult mammal and its body mass: where is a mammal's REE (in kcal\/d) and is its body mass (in kg).     Explain why Kleiber's model for REE is a power model. What are the quantities, coefficient, and power?      Sketch a graph showing the relationship between REE and body mass in mammals.      Use this model to find the REE of a mammal with body mass 80 kg.      In order to find the body mass of a mammal with REE 1400 kcal\/d, we need to undo the 3\/4ths power. We don't usually talk about the 3\/4ths root. Instead, we stick with fractional exponents. To undo the 3\/4ths power, we'll use the 1\/(3\/4)ths power. Here's how this example works out! Divide both sides by 70 to get: Raise both sides to the 1\/(3\/4)ths power:     Note: 1\/(3\/4) is hard to read and work with! It's important to get the parentheses right, since 1\/(3\/4) and (1\/3)\/4 are different (try to plug both into a calculator and see for yourself!). Instead of doing 1\/(3\/4), it's more common to either turn 3\/4 into a decimal and do 1\/0.75, or to use fraction arithmetic rules to rewrite 1\/(3\/4) as 4\/3.  Find the mass of a mammal with REE 2000 kcal\/d.       We introduced the rule in . In fact, we can connect any fractional exponent to roots using the more general rule . Use this rule, along with the other exponent rules, to rewrite each of the following expressions.     Rewrite with fractional exponents:       Rewrite with fractional exponents:       Rewrite with fractional exponents:       Rewrite with fractional exponents:       Rewrite with roots:        Kepler's Third Law tells us that where is the planet's distance from the Sun in AU and is the number of days the planet takes to orbit the Sun. Note that 1 AU is the distance between Earth and the Sun.     Plug in and find . Does Kepler's third law give the correct number of days in a year?      Mars's distance from the sun is 1.524 AU. Use Kepler's third law to find the length of a year on Mars.      Rewrite Kepler's Third Law so that it has the form .      Kepler's Third Law is a power model in disguise! Talk to your table and decide how to use fractional exponents to rewrite your equation from the previous part with a fractional exponent.      Use Kepler's Third Law to predict the distance from the Sun to a planet with a 10,776 day year. (What planet is this? Use the Internet to find out! How good was your distance estimate?)     "
+},
+{
+  "id": "a-cube-root-law",
+  "level": "2",
+  "url": "sec-roots-fractions.html#a-cube-root-law",
+  "type": "Activity",
+  "number": "15.2.1",
+  "title": "",
+  "body": "  The cube root law R. Taagepera. ``The size of national assemblies.'' Social Science Research v. 1, no. 4. , in political science, observes that in many countries, the number of seats in the legislative body most similar to the US House of Representatives is approximately modeled by the formula , where is the number of seats in the legislative body and is the country's population.     The cube root law is a power model, even though it doesn't look like one at first. Use the fact that cube roots are the same as the 1\/3rd power to rewrite the cube root law so that it looks like a power model.      The population of Canada was about 37 million in 2021. The Canadian House of Commons is similar to the US House of Representatives. Use the cube root law to predict the size of the Canadian House of Commons.      In 2021, the Canadian House of Commons had 338 seats. Did the cube root law give a good estimate?      The population of the United States was about 332 million in 2021. Use the cube root law to predict the size of the US House of Representatives.      The US House of Representatives has 435 voting members. Did the cube root law give a good estimate?      Use the cube root law to predict the population of a country with 435 members in its legistlative House.      The US House of Representatives hasn't changed size since it was set to 435 by the Apportionment Act of 1911. The US population in 1911 was about 94 million. Did the cube root law give a give estimate in 1911?    "
+},
+{
+  "id": "a-skid-marks",
+  "level": "2",
+  "url": "sec-roots-fractions.html#a-skid-marks",
+  "type": "Activity",
+  "number": "15.2.2",
+  "title": "",
+  "body": "  Police use the formula to estimate the speed of a car, , in miles per hour, based on the length, , in feet, of its skid marks when suddenly braking on a dry, asphalt road.     At the scene of an accident, a police officer measures a car's skid marks to be 135 feet long. Approximately how fast was the car traveling? What if the skid marks had been 215 feet long instead?      The United States had a national speed limit of 55 mph from 1974 - 1987, and speed limits of 55 mph were still common around the country through the late 1990s. How long would the skid marks be of a car suddenly braking after going 55 mph on a dry, asphalt road?      The fastest posted speed limit in the US is 85 mph. How long would the skid marks be of a car suddenly braking after going 85 mph on a dry, asphalt road?    "
+},
+{
+  "id": "a-caution-negatives-even-roots",
+  "level": "2",
+  "url": "sec-roots-fractions.html#a-caution-negatives-even-roots",
+  "type": "Activity",
+  "number": "15.2.3",
+  "title": "",
+  "body": "  We have to be careful with fractional exponents and negative numbers.      Complete the table below.   Positive or Negative?     Positive or Negative?    Postive Positive     Negative Negative     Postive Positive Positive     Negative Negative Negative     Postive Positive Positive Positive     Negative Negative Negative Negative          Use your table to decide whether each of the following statements is true or false. Explain your answers.     It is possible for to be negative.      It is possible for to be negative.       Explain why the true sentence below makes sense.   When is negative, exists, but doesn't.       What about 0? Does exist? What about ? ?    "
+},
+{
+  "id": "a-ree-mass",
+  "level": "2",
+  "url": "sec-roots-fractions.html#a-ree-mass",
+  "type": "Activity",
+  "number": "15.2.4",
+  "title": "",
+  "body": "  The resting energy expenditure (REE) is the amount of energy a person or animal needs for basic bodily functions. In the 1930s, biologist Max Kleiber Z. Wang, T. O'Connor, S. Heshka, and s. Heymsfield. ``The Reconstruction of Kleiber's Law at the Organ-Tissue Level.'' The Journal of Nutrition v. 131, no. 11. doi: 10.1093\/jn\/131.11.2967 discovered that there is a relationship between the REE of an adult mammal and its body mass: where is a mammal's REE (in kcal\/d) and is its body mass (in kg).     Explain why Kleiber's model for REE is a power model. What are the quantities, coefficient, and power?      Sketch a graph showing the relationship between REE and body mass in mammals.      Use this model to find the REE of a mammal with body mass 80 kg.      In order to find the body mass of a mammal with REE 1400 kcal\/d, we need to undo the 3\/4ths power. We don't usually talk about the 3\/4ths root. Instead, we stick with fractional exponents. To undo the 3\/4ths power, we'll use the 1\/(3\/4)ths power. Here's how this example works out! Divide both sides by 70 to get: Raise both sides to the 1\/(3\/4)ths power:     Note: 1\/(3\/4) is hard to read and work with! It's important to get the parentheses right, since 1\/(3\/4) and (1\/3)\/4 are different (try to plug both into a calculator and see for yourself!). Instead of doing 1\/(3\/4), it's more common to either turn 3\/4 into a decimal and do 1\/0.75, or to use fraction arithmetic rules to rewrite 1\/(3\/4) as 4\/3.  Find the mass of a mammal with REE 2000 kcal\/d.    "
+},
+{
+  "id": "a-fractions-exponent-rules",
+  "level": "2",
+  "url": "sec-roots-fractions.html#a-fractions-exponent-rules",
+  "type": "Activity",
   "number": "15.2.5",
   "title": "",
-  "body": "  Let's stretch our understanding of negative and fractional exponents and of logarithms! Evaluate each of the logs below without using a calculator . You can check your answer with a calculator, but should first find them without one.                                  Challenge: Find so that     "
+  "body": "  We introduced the rule in . In fact, we can connect any fractional exponent to roots using the more general rule . Use this rule, along with the other exponent rules, to rewrite each of the following expressions.     Rewrite with fractional exponents:       Rewrite with fractional exponents:       Rewrite with fractional exponents:       Rewrite with fractional exponents:       Rewrite with roots:     "
+},
+{
+  "id": "a-kepler-3rd-law",
+  "level": "2",
+  "url": "sec-roots-fractions.html#a-kepler-3rd-law",
+  "type": "Activity",
+  "number": "15.2.6",
+  "title": "",
+  "body": "  Kepler's Third Law tells us that where is the planet's distance from the Sun in AU and is the number of days the planet takes to orbit the Sun. Note that 1 AU is the distance between Earth and the Sun.     Plug in and find . Does Kepler's third law give the correct number of days in a year?      Mars's distance from the sun is 1.524 AU. Use Kepler's third law to find the length of a year on Mars.      Rewrite Kepler's Third Law so that it has the form .      Kepler's Third Law is a power model in disguise! Talk to your table and decide how to use fractional exponents to rewrite your equation from the previous part with a fractional exponent.      Use Kepler's Third Law to predict the distance from the Sun to a planet with a 10,776 day year. (What planet is this? Use the Internet to find out! How good was your distance estimate?)    "
 },
 {
   "id": "backmatter-2",
