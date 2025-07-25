@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-properties-logs-exponents-prep" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Properties of Exponents and Logs Prep Activities</title>
+  <title>Properties of Exponents Prep Activities</title>
 
   <introduction>
     <p>
-        Calculators like Photomath and Mathway can do the algebra that we're going to learn in this prep activity and the in-class activities for you. If the main point of this lesson was getting the answer, then I would encourage you to use these tools! But, the main point of this lesson is <em>not</em> getting the answer. The main point of this lesson is to practice working with complicated math notation in order to get more comfortable with it. Tools like Photomath and Mathway take the thinking that is most critical for this lesson away from your brain, and make it unlikely that you will achieve the actual goals. So, <alert>you may not use ANY tools except for your brain for this lesson</alert>, with the exception of checking your answer.
+        Calculators like Photomath and Mathway can do the algebra that we're going to learn in this prep activity and the in-class activities for you. If the main point of this lesson was getting the answer, then it would make sense to discuss how to use these tools effectively! But, the main point of this lesson is <alert>not</alert> getting the answer. The main point of this lesson is to practice working with complicated math notation in order to get more comfortable with it. Tools like Photomath and Mathway take the thinking that is most critical for this lesson away from your brain, and make it unlikely that you will achieve the actual goals. So, <alert>you may not use ANY tools except for your brain for this lesson</alert>, with the exception of checking your answer.
     </p>
   </introduction>
 
@@ -66,7 +66,7 @@
         <task>
             <statement>
                 <p>
-                    <m>4^{54} 4^{98}</m> (<em>Note:</em> This is a very, very large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is <m>4^<fillin characters="2" /></m>)
+                    <m>4^{54} 4^{98}</m> (<em>Note:</em> This is a very, very large number. You can use a calculator to find the number if you're curious, but the best way to write the answer is <m>4^<fillin characters="2" /></m>)
                 </p>
             </statement>
         </task>
@@ -144,7 +144,7 @@
         <task>
             <statement>
                 <p>
-                    <m>\frac{5^{37}}{5^{24}}</m> (<em>Note:</em> This is a large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is <m>5^<fillin characters="2" /></m>)
+                    <m>\frac{5^{37}}{5^{24}}</m> (<em>Note:</em> This is a large number. You can use a calculator to find the number if you're curious, but the best way to write the answer is <m>5^<fillin characters="2" /></m>)
                 </p>
             </statement>
         </task>
@@ -223,7 +223,7 @@
         <task>
             <statement>
                 <p>
-                    <m>\left(3^{82}\right)^4</m> (<em>Note:</em> This is a very, very large number. You can use a calculator to find the number if you're curious, but the answer I'm looking for is <m>3^<fillin characters="2" /></m>)
+                    <m>\left(3^{82}\right)^4</m> (<em>Note:</em> This is a very, very large number. You can use a calculator to find the number if you're curious, but the best way to write the answer is <m>3^<fillin characters="2" /></m>)
                 </p>
             </statement>
         </task>

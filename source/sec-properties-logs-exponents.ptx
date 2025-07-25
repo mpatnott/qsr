@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-properties-logs-exponents" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Properties of Exponents and Logs Activities</title>
+  <title>Properties of Exponents Activities</title>
 
   <activity xml:id="a-exponent-rule-practice">
     <introduction>
       <p>
-        Use the Product, Quotient, and Product Rules for Exponents to rewrite the following expression or solve the problem. Remember, the main goal is to exercise your brain, not to get the answers, so you must not use tools like Photomath or Mathway for anything but answer checking.
+        Use the Product, Quotient, and Product Rules for Exponents to rewrite the following expression or solve the problem. Remember, the main goal is to exercise your brain, not to get the answers, so you must not use tools like Photomath or Mathway for anything but answer checking. <alert>Hint:</alert> Use one rule at a time. Don't spend too much time worrying about which rule to use first! As soon as you see a rule that you could use, do that. 
       </p>
     </introduction>
     <task workspace="0.5in">
       <statement>
         <p>
-          <m>\frac{w^8}{w^2 w}</m>
+          <m>\frac{w^8}{w^2 w}</m> <alert>Hint:</alert> Don't forget that if you don't see an exponent, that means the exponent is <m>1</m>.
         </p>
       </statement>
     </task>
@@ -110,14 +110,14 @@
       <task workspace="0.5in">
         <statement>
           <p>
-            <m>7\left(44 + x^7\right)^0</m>
+            <m>7\left(44 + x^7\right)^0</m> <alert>Hint:</alert> Don't overthink it.
           </p>
         </statement>
       </task>
       <task workspace="0.5in">
         <statement>
           <p>
-            <m>\log_2(1)</m>
+            <m>\log_2(1)</m> <alert>Hint:</alert> Write <m>\log_2(1) = x</m>, then rewrite that equation as an exponential equation instead of a log equation.
           </p>
         </statement>
       </task>
@@ -127,7 +127,7 @@
   <activity xml:id="a-expanded-product-quotient">
     <introduction>
       <p>
-        There is one more exponent rule for us to discover today. 
+        There is one more exponent rule for us to discover in this section. 
       </p>
     </introduction>
     <task workspace="0.5in">
@@ -154,7 +154,7 @@
     <task workspace="0.5in">
       <statement>
         <p>
-          What do you notice? Use your observations to fill in the blanks to complete the exponent property below. <me>(xy)^a = x^<fillin characters="1" /> \qquad \text{ and } \qquad \left(\frac{x}{y}\right)^a = \frac{x^<fillin characters="1" />}{y^<fillin characters="1" />}</me>
+          What do you notice? Use your observations to fill in the blanks to complete Expansion Rules below. <me>(xy)^a = x^<fillin characters="1" /> \qquad \text{ and } \qquad \left(\frac{x}{y}\right)^a = \frac{x^<fillin characters="1" />}{y^<fillin characters="1" />}</me>
         </p>
       </statement>
     </task>
@@ -174,17 +174,69 @@
       <task workspace="0.5in">
         <statement>
           <p>
-            <m>\frac{\left(4n^8m^5\right)^2}{4nm^6}</m>
+            <m>\frac{\left(4n^8m^5\right)^2}{4nm^6}</m> <alert>Hint:</alert> Use one rule at a time. Start by using the Expansion Rule to rewrite <m>\left(4n^8m^5\right)^2</m>.
           </p>
         </statement>
       </task>
       <task workspace="0.5in">
         <statement>
           <p>
-            <m>\left(\frac{4x^{10}}{5y^2}\right)^5 \cdot \left(\frac{5^4 y^3}{4^3x}\right)</m>
+            <m>\left(\frac{4x^{10}}{5y^2}\right)^5 \cdot \left(\frac{5^4 y^3}{4^3x}\right)</m> <alert>Hint:</alert> Use one rule at a time.
           </p>
         </statement>
       </task>
+    </task>
+  </activity>
+
+  <activity xml:id="a-exp-rules-rewrite-exp-formulas">
+    <introduction>
+      <p>
+        In <xref ref="sec-alt-exponential-models"/>, we learned how to write formulas for exponential models that increase by a constant percent change over awkward time periods. For example, in <xref ref="a-yogurt-bacteria-continued"/>, we discovered that if a bacteria colony starts initially weighs 3 g and doubles in size every 70 minutes, then a formula for its mass <m>M</m> after <m>t</m> minutes is
+        <me>M = 3 \times 2^{t/70}</me>.
+        We can use exponent rules to rewrite this formula:
+        <md>
+          <mrow>M \amp = 3 \times 2^{t/70}</mrow>
+          <mrow> \amp = 3 \times 2^{t \times \frac{1}{70}}</mrow>
+          <mrow> \amp = 3 \times \left(2^\frac{1}{70}\right)^t</mrow>
+          <mrow>M \amp = 3 \times (1.00995)^t </mrow>.
+        </md> 
+        We can see from the rewritten version of the formula that the bacteria colony is growing by <m>0.995</m>% every minute.
+      </p>
+      <p>
+        Use exponent rules to rewrite each of the formulas from <xref ref="sec-alt-exponential-models"/>, and use the rewritten formula to find the percent change per minute/hour/day/etc.
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>
+          In <xref ref="a-viral-cat-video"/>, we saw that if a new cat video is posted, 12 people view it the first day, every 4 days afterward the number of people who see it triples, and <m>V</m> is the number of views the video has after <m>d</m> days, then a formula for <m>V</m> is
+          <me>V = 12 \times 3^{t/4}</me>.
+        </p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          In <xref ref="a-barium-half-life"/>, we learned that Barium-133 has a half-life of 10.551 years. If we start with 7.000 grams of Barium-133, then a formula for the amount of left, <m>A</m>, after <m>t</m> years is
+          <me>A = 7 \times \left(\frac{1}{2}\right)^{t/10.551}</me>.
+        </p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          In <xref ref="a-chernobyl"/>, we learned about the Chernobyl nuclear disaster. We were told that <m>B = 14252(0.5)^{x/32}</m> describes the amount, <m>B</m>, in becqurels, of a radioactive element remaining in the area <m>x</m> years after 1986.
+        </p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>
+          In <xref ref="a-introducing-e"/>, we learned that <m>e \approx 2.71828</m> is a special number used in science, finance, and other fields. Finance uses <m>e</m> to model continuously compounded interest with the formula 
+          <me>A = Pe^{rt}</me> 
+          where <m>A</m> is the amount of money currently in an account, <m>P</m> is the amount of money initially deposited into the count, <m>r</m> is the interest rate as a decimal, and <m>t</m> is the number of years since the money was deposited. Suppose Parker deposits $1000 into an account that earns interest at a rate of 2% per year, compounded continuously. What is the equivalent interest rate if, instead of compounding continuously, we only compound once per year?
+        </p>
+      </statement>
     </task>
   </activity>
 
@@ -219,7 +271,7 @@
     <task workspace="0.5in">
       <statement>
         <p>
-          Rewrite a single logarithm: <me>\log_5\left(2x^4\right) + \log\left(3x^5\right)</me>
+          Rewrite as a single logarithm: <me>\log_5\left(2x^4\right) + \log\left(3x^5\right)</me>
         </p>
       </statement>
     </task>
