@@ -16,12 +16,26 @@
             </p>
         </statement>
     </task>
-    <task workspace="0.5in">
-        <statement>
+    <task>
+        <introduction>
             <p>
-                The population of Canada was about 37 million in 2021. The Canadian House of Commons is similar to the US House of Representatives. Use the cube root law to predict the size of the Canadian House of Commons.
+                The population of Canada was about 37 million in 2021. The Canadian House of Commons is similar to the US House of Representatives. 
             </p>
-        </statement>
+        </introduction>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    37 million is a big number! Write it in scientific notation.
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Use the cube root law, the scientific notation version of 37 million, and exponent rules to predict the size of the Canadian House of Commons.
+                </p>
+            </statement>
+        </task>
     </task>
     <task workspace="0.5in">
         <statement>
@@ -33,7 +47,7 @@
     <task workspace="0.5in">
         <statement>
             <p>
-                The population of the United States was about 332 million in 2021. Use the cube root law to predict the size of the US House of Representatives.
+                The population of the United States was about 332 million in 2021. Write 332 million in scientific notation, then use the cube root law to predict the size of the US House of Representatives.
             </p>
         </statement>
     </task>
@@ -54,7 +68,7 @@
     <task workspace="0.5in">
         <statement>
             <p>
-                The US House of Representatives hasn't changed size since it was set to 435 by the Apportionment Act of 1911. The US population in 1911 was about 94 million. Did the cube root law give a give estimate in 1911?
+                The US House of Representatives hasn't changed size since it was set to 435 by the Apportionment Act of 1911. The US population in 1911 was about 94 million. Did the cube root law give a give estimate in 1911? Don't forget to rewrite 94 million in scientific notation first!
             </p>
         </statement>
     </task>
@@ -69,7 +83,14 @@
     <task workspace="0.5in">
         <statement>
             <p>
-                At the scene of an accident, a police officer measures a car's skid marks to be 135 feet long. Approximately how fast was the car traveling? What if the skid marks had been 215 feet long instead?
+                At the scene of an accident, a police officer measures a car's skid marks to be 135 feet long. Approximately how fast was the car traveling? 
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                What if the skid marks had been 215 feet long instead?
             </p>
         </statement>
     </task>
