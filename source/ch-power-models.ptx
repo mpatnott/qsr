@@ -29,6 +29,13 @@
     <xi:include href="sec-negative-powers.ptx" />
   </chapter>
 
+  <chapter xml:id="ch-scientific-notation" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Scientific Notation</title>
+
+    <xi:include href="sec-scientific-notation-prep.ptx" />
+    <xi:include href="sec-scientific-notation.ptx" />
+  </chapter>
+
   <chapter xml:id="ch-roots-fractions" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Roots and Fractional Powers</title>
     

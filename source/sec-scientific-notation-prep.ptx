@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-scientific-notation-prep" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Scientific Notation Prep Activities</title>
+
+  <investigation xml:id="pa-powerball-meme">
+    <statement>
+        <p>
+            Very large and very small numbers are hard to work with and understand. Consider the meme below, which made its way around the internet in the mid-2010s:
+        </p> 
+        <figure xml:id="fig-powerball-meme">
+            <caption>Powerball Math</caption>
+            <image source="./images/powerball-meme.png" width="50%">
+                <shortdescription>Powerball 1.3 billion divided by US pop 300 million = 4.33 mil per person</shortdescription>
+                <description>
+                    <p>
+                        Powerball 1.3 billion divided by US pop 300 million = 4.33 mil per person. Poverty solved!
+                    </p>
+                </description>
+            </image>
+        </figure>
+        <p>
+            Are you persuaded by the quantitative information in this meme? Explain why or why not.
+        </p>
+    </statement>
+  </investigation> 
+
+  <investigation xml:id="pa-intro-sci-notation">
+    <introduction>
+        <p>
+            Below is a table that describes some large numbers in words, standard decimal notation, and <term>scientific notation</term>. Notice that: 
+            <ul>
+                <li> Numbers written in scientific notation always have one nonzero number to the left of the decimal, but can have as money numbers as desired/needed to the right of the decimal.</li>
+                <li> Scientific notation always include <q><m>\times 10^{\text{some power}}</m></q></li>
+                <li> Scientific notation keeps track of the number of decimal places to the right of the first digit but before the decimal point using the exponent.</li>
+            </ul>
+            Keeping track of the number of decimal places in quantities can be useful for some estimation problems and in helping us to work with and think about large numbers.
+        </p>
+        <table>
+            <title>Examples of Scientific Notation (Large Numbers)</title>
+            <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                <col width="40%"/>
+                <col/>
+                <col/>
+                <col/>
+                <row header="yes">
+                    <cell>Quantity in Words</cell>
+                    <cell><q>Regular</q> Notation</cell>
+                    <cell>Scientific Notation</cell>
+                    <cell>Number of places the decimal point was moved</cell>
+                </row>
+                <row>
+                    <cell><p>One hundred twenty-two and one tenth</p></cell>
+                    <cell><m>122.1</m></cell>
+                    <cell><m>1.221 \times 10^2</m></cell>
+                    <cell>2</cell>
+                </row>
+                <row>
+                    <cell><p>One thousand forty-five</p></cell>
+                    <cell><m>1045</m></cell>
+                    <cell><m>1.045 \times 10^3</m></cell>
+                    <cell>3</cell>
+                </row>
+                <row>
+                    <cell><p>Three million, four hundred seventy-five thousand, three hundred twenty and seventy-one hundredths</p></cell>
+                    <cell><m>3,\!475,\!320.71</m>
+                    </cell>
+                    <cell><m>3.47532071 \times 10^6</m></cell>
+                    <cell>6</cell>
+                </row>
+                <row>
+                    <cell><p>One billion, four hundred seventy-two million, three hundred forth-one thousand, nine hundred eight-two and three tenths</p></cell>
+                    <cell><m>1,\!472,\!341,\!982.3</m></cell>
+                    <cell><m>1.4723419823 \times 10^9</m></cell>
+                    <cell>9</cell>
+                </row>
+                <row>
+                    <cell><p>One Trillion</p></cell>
+                    <cell><m>1\!,000,\!000,\!000,\!000</m></cell>
+                    <cell><m>1 \times 10^{12}</m></cell>
+                    <cell>12</cell>
+                </row>
+            </tabular>
+        </table>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                Write a sentence in your words that explains how to convert a number in <q>regular</q> notation into scientific notation.       
+            </p>
+        </statement>
+    </task>
+    <task>
+        <introduction>
+            <p>
+                Convert each of the numbers below into scientific notation.       
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>1,\!832,\!460.7</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>292,\!891.527</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>18.001</m>
+                </p>
+            </statement>
+        </task>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Write a sentence in your own words describin how to convert a number from scientific notation into <q>regular</q> notation (without using a calculator).
+            </p>
+        </statement>
+    </task>
+    <task>
+        <introduction>
+            <p>
+                Convert each of the numbers below into <q>regular</q> notation, without using a calculator.  
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>8.590076 \times 10^2</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>4.64929 \times 10^4</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>8.385243 \times 10^6</m>
+                </p>
+            </statement>
+        </task>
+    </task>
+  </investigation>
+
+  <investigation xml:id="pa-big-number-words">
+    <statement>
+        <p>
+            Words like <q>million</q> and <q>billion</q> help us describe large numbers. These words have not been used consistently throughout time and across cultures to refer to the same numbers. We will use the convention described in the table below. Note that the table shows <q>ten million</q> and <q>hundered million</q>; <q>ten thousand</q>, <q>hundred thousand</q>, <q>ten billion</q>, etc. work similarly.
+        </p>
+        <table>
+            <title>Names of Large Numbers</title>
+            <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                <row header="yes">
+                    <cell>Words</cell>
+                    <cell>Number</cell>
+                    <cell>Power of Ten</cell>
+                </row>
+                <row>
+                    <cell>Thousand</cell>
+                    <cell><m>1000</m></cell>
+                    <cell><m>10^3</m></cell>
+                </row>
+                <!-- <row>
+                    <cell>Ten Thousand</cell>
+                    <cell>10,000</cell>
+                    <cell><m>10^4</m></cell>
+                </row> -->
+                <row>
+                    <cell>Million</cell>
+                    <cell><m>1,\!000,\!000</m></cell>
+                    <cell><m>10^6</m></cell>
+                </row>
+                <row>
+                    <cell>Ten Million</cell>
+                    <cell><m>10,\!000,\!000</m></cell>
+                    <cell><m>10^7</m></cell>
+                </row>
+                <row>
+                    <cell>Hundred Million</cell>
+                    <cell><m>100,\!000,\!000</m></cell>
+                    <cell><m>10^8</m></cell>
+                </row>
+                <row>
+                    <cell>Billion</cell>
+                    <cell><m>1,\!000,\!000,\!000</m></cell>
+                    <cell><m>10^9</m></cell>
+                </row>
+                <row>
+                    <cell>Trillion</cell>
+                    <cell><m>1,\!000,\!000,\!000,\!000</m></cell>
+                    <cell><m>10^{12}</m></cell>
+                </row>
+            </tabular>
+        </table>
+        <p>
+            Use the information above to match the given numbers to tens or hundreds of thousands/millions/billions/trillions.
+            <tabular>
+                <row header="yes">
+                    <cell>Numbers</cell>
+                    <cell>Words</cell>
+                </row>
+                <row>
+                    <cell>15,000,000</cell>
+                    <cell>tens of thousands</cell>
+                </row>
+                <row>
+                    <cell>250,000,000,000</cell>
+                    <cell>tens of trillions</cell>
+                </row>
+                <row>
+                    <cell>76,000,000</cell>
+                    <cell>hundreds of millions</cell>
+                </row>
+                <row>
+                    <cell>879,000,000</cell>
+                    <cell>hundreds of trillions</cell>
+                </row>
+                <row>
+                    <cell>876,000,000,000,000</cell>
+                    <cell>hundreds of billions</cell>
+                </row>
+                <row>
+                    <cell>58,000,000,000,000</cell>
+                    <cell>tens of millions</cell>
+                </row>
+            </tabular>
+        </p>
+    </statement>
+  </investigation>
+
+  <investigation xml:id="pa-rounding-large-numbers">
+    <introduction>
+        <p>
+            It's often convenient to round when working with large numbers. To round large numbers:
+            <ul>
+                <li> Decide what place value to round to.</li>
+                <li> 
+                    <p>
+                        Look at the number to the immediate right of the place value you're rounding to.
+                    </p>
+                    <ul>
+                        <li>If it is <m>5</m> or higher, round up. That is, increase the digit you are rounding to by one and change all of the numbers to the right of it to zeroes.</li>
+                        <li>If it is <m>4</m> or lower, round down. That is, change to zeroes all of the numbers to the right of the place value to which you are rounding. </li>
+                    </ul>
+                </li>
+            </ul>
+        </p>
+        <p>
+            For example,
+            <ul>
+                <li>12,650 rounded to the nearest thousand is 13,000</li>
+                <li>12,499 rounded to the nearest thousand is 12,000</li>
+                <li>65,452,120 rounded to the nearest million is 65,000,000</li>
+                <li>12,811,120 rounded to the nearest million is 13,000,000</li>
+            </ul>
+        </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                Round <m>96,\!740,\!112</m> to the nearest million.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Round <m>948,\!279,\!040</m> to the nearest ten million.
+            </p>
+        </statement>
+    </task>
+  </investigation>
+
+  <investigation xml:id="pa-estimate-big-numbers">
+    <introduction>
+        <p>
+            Decide if the following quantities are in the millions, billions, trillions, or some other size, such as tens of millions. Explain your reasoning.
+        </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                The number of seconds you have been alive if you are 20 years old.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                The amount of money needed to send all adults in the United States to a public college for four years. Assume there are about 258 million adults in the United States and that the cost of tuition and fees to a public college is about $25,000.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                The number of words in the novel <em>War and Peace</em>. Note that using an internet search, we found that sample pages of an e-book version of War and Peace have about 300 words on each page. This e-book version is 1307 pages long.
+            </p>
+        </statement>
+    </task>
+  </investigation>
+
+  <investigation xml:id="pa-scientific-notation-prep-confidence">
+        <p>
+            You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).
+        </p>
+        <table>
+            <tabular bottom = "minor" top = "minor" left = "minor" right = "minor">
+                <row header ="yes">
+                    <cell>Skill or Concept: I can …</cell>
+                    <cell>Rating from 1 to 5</cell>
+                </row>
+                <row>
+                    <cell>Convert between <q>regular</q> and scientific notation, for large numbers.</cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Use <q>million</q>, <q>billion</q>, and <q>trillion</q> to describe large numbers.</cell>
+                </row>
+                <row>
+                    <cell>Round large numbers to a convenient place.</cell>
+                    <cell></cell>
+                </row>
+            </tabular>
+        </table>
+    </investigation>
+</section>
