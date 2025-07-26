@@ -1531,11 +1531,128 @@ var ptx_lunr_docs = [
   "body": "  Let's stretch our understanding of negative exponents and logarithms! Evaluate each of the logs below without using a calculator . You can check your answer with a calculator, but should first find them without one.                            Challenge: Find so that     "
 },
 {
+  "id": "sec-scientific-notation-prep",
+  "level": "1",
+  "url": "sec-scientific-notation-prep.html",
+  "type": "Section",
+  "number": "15.1",
+  "title": "Scientific Notation Prep Activities",
+  "body": " Scientific Notation Prep Activities    Very large and very small numbers are hard to work with and understand. Consider the meme below, which made its way around the internet in the mid-2010s:   Powerball Math   Powerball 1.3 billion divided by US pop 300 million = 4.33 mil per person   Powerball 1.3 billion divided by US pop 300 million = 4.33 mil per person. Poverty solved!     Are you persuaded by the quantitative information in this meme? Explain why or why not.      Below is a table that describes some large numbers in words, standard decimal notation, and scientific notation . Notice that:  Numbers written in scientific notation always have one nonzero number to the left of the decimal, but can have as money numbers as desired\/needed to the right of the decimal.  Scientific notation always include  Scientific notation keeps track of the number of decimal places to the right of the first digit but before the decimal point using the exponent.  Keeping track of the number of decimal places in quantities can be useful for some estimation problems and in helping us to work with and think about large numbers.   Examples of Scientific Notation (Large Numbers)        Quantity in Words  Regular Notation  Scientific Notation  Number of places the decimal point was moved    One hundred twenty-two and one tenth    2    One thousand forty-five    3    Three million, four hundred seventy-five thousand, three hundred twenty and seventy-one hundredths     6    One billion, four hundred seventy-two million, three hundred forth-one thousand, nine hundred eight-two and three tenths    9    One Trillion    12        Write a sentence in your words that explains how to convert a number in regular notation into scientific notation.      Convert each of the numbers below into scientific notation.                           Write a sentence in your own words describin how to convert a number from scientific notation into regular notation (without using a calculator).      Convert each of the numbers below into regular notation, without using a calculator.                            Words like million and billion help us describe large numbers. These words have not been used consistently throughout time and across cultures to refer to the same numbers. We will use the convention described in the table below. Note that the table shows ten million and hundered million ; ten thousand , hundred thousand , ten billion , etc. work similarly.   Names of Large Numbers    Words  Number  Power of Ten    Thousand       Million      Ten Million      Hundred Million      Billion      Trillion       Use the information above to match the given numbers to tens or hundreds of thousands\/millions\/billions\/trillions.   Numbers  Words    15,000,000  tens of thousands    250,000,000,000  tens of trillions    76,000,000  hundreds of millions    879,000,000  hundreds of trillions    876,000,000,000,000  hundreds of billions    58,000,000,000,000  tens of millions         It's often convenient to round when working with large numbers. To round large numbers:  Decide what place value to round to.   Look at the number to the immediate right of the place value you're rounding to.   If it is or higher, round up. That is, increase the digit you are rounding to by one and change all of the numbers to the right of it to zeroes.  If it is or lower, round down. That is, change to zeroes all of the numbers to the right of the place value to which you are rounding.      For example,  12,650 rounded to the nearest thousand is 13,000  12,499 rounded to the nearest thousand is 12,000  65,452,120 rounded to the nearest million is 65,000,000  12,811,120 rounded to the nearest million is 13,000,000       Round to the nearest million.      Round to the nearest ten million.       Decide if the following quantities are in the millions, billions, trillions, or some other size, such as tens of millions. Explain your reasoning.     The number of seconds you have been alive if you are 20 years old.      The amount of money needed to send all adults in the United States to a public college for four years. Assume there are about 258 million adults in the United States and that the cost of tuition and fees to a public college is about $25,000.      The number of words in the novel War and Peace . Note that using an internet search, we found that sample pages of an e-book version of War and Peace have about 300 words on each page. This e-book version is 1307 pages long.      You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Convert between regular and scientific notation, for large numbers.     Use million , billion , and trillion to describe large numbers.    Round large numbers to a convenient place.       "
+},
+{
+  "id": "pa-powerball-meme",
+  "level": "2",
+  "url": "sec-scientific-notation-prep.html#pa-powerball-meme",
+  "type": "Prep Activity",
+  "number": "15.1.1",
+  "title": "",
+  "body": "  Very large and very small numbers are hard to work with and understand. Consider the meme below, which made its way around the internet in the mid-2010s:   Powerball Math   Powerball 1.3 billion divided by US pop 300 million = 4.33 mil per person   Powerball 1.3 billion divided by US pop 300 million = 4.33 mil per person. Poverty solved!     Are you persuaded by the quantitative information in this meme? Explain why or why not.   "
+},
+{
+  "id": "pa-intro-sci-notation",
+  "level": "2",
+  "url": "sec-scientific-notation-prep.html#pa-intro-sci-notation",
+  "type": "Prep Activity",
+  "number": "15.1.2",
+  "title": "",
+  "body": "  Below is a table that describes some large numbers in words, standard decimal notation, and scientific notation . Notice that:  Numbers written in scientific notation always have one nonzero number to the left of the decimal, but can have as money numbers as desired\/needed to the right of the decimal.  Scientific notation always include  Scientific notation keeps track of the number of decimal places to the right of the first digit but before the decimal point using the exponent.  Keeping track of the number of decimal places in quantities can be useful for some estimation problems and in helping us to work with and think about large numbers.   Examples of Scientific Notation (Large Numbers)        Quantity in Words  Regular Notation  Scientific Notation  Number of places the decimal point was moved    One hundred twenty-two and one tenth    2    One thousand forty-five    3    Three million, four hundred seventy-five thousand, three hundred twenty and seventy-one hundredths     6    One billion, four hundred seventy-two million, three hundred forth-one thousand, nine hundred eight-two and three tenths    9    One Trillion    12        Write a sentence in your words that explains how to convert a number in regular notation into scientific notation.      Convert each of the numbers below into scientific notation.                           Write a sentence in your own words describin how to convert a number from scientific notation into regular notation (without using a calculator).      Convert each of the numbers below into regular notation, without using a calculator.                         "
+},
+{
+  "id": "pa-big-number-words",
+  "level": "2",
+  "url": "sec-scientific-notation-prep.html#pa-big-number-words",
+  "type": "Prep Activity",
+  "number": "15.1.3",
+  "title": "",
+  "body": "  Words like million and billion help us describe large numbers. These words have not been used consistently throughout time and across cultures to refer to the same numbers. We will use the convention described in the table below. Note that the table shows ten million and hundered million ; ten thousand , hundred thousand , ten billion , etc. work similarly.   Names of Large Numbers    Words  Number  Power of Ten    Thousand       Million      Ten Million      Hundred Million      Billion      Trillion       Use the information above to match the given numbers to tens or hundreds of thousands\/millions\/billions\/trillions.   Numbers  Words    15,000,000  tens of thousands    250,000,000,000  tens of trillions    76,000,000  hundreds of millions    879,000,000  hundreds of trillions    876,000,000,000,000  hundreds of billions    58,000,000,000,000  tens of millions      "
+},
+{
+  "id": "pa-rounding-large-numbers",
+  "level": "2",
+  "url": "sec-scientific-notation-prep.html#pa-rounding-large-numbers",
+  "type": "Prep Activity",
+  "number": "15.1.4",
+  "title": "",
+  "body": "  It's often convenient to round when working with large numbers. To round large numbers:  Decide what place value to round to.   Look at the number to the immediate right of the place value you're rounding to.   If it is or higher, round up. That is, increase the digit you are rounding to by one and change all of the numbers to the right of it to zeroes.  If it is or lower, round down. That is, change to zeroes all of the numbers to the right of the place value to which you are rounding.      For example,  12,650 rounded to the nearest thousand is 13,000  12,499 rounded to the nearest thousand is 12,000  65,452,120 rounded to the nearest million is 65,000,000  12,811,120 rounded to the nearest million is 13,000,000       Round to the nearest million.      Round to the nearest ten million.    "
+},
+{
+  "id": "pa-estimate-big-numbers",
+  "level": "2",
+  "url": "sec-scientific-notation-prep.html#pa-estimate-big-numbers",
+  "type": "Prep Activity",
+  "number": "15.1.5",
+  "title": "",
+  "body": "  Decide if the following quantities are in the millions, billions, trillions, or some other size, such as tens of millions. Explain your reasoning.     The number of seconds you have been alive if you are 20 years old.      The amount of money needed to send all adults in the United States to a public college for four years. Assume there are about 258 million adults in the United States and that the cost of tuition and fees to a public college is about $25,000.      The number of words in the novel War and Peace . Note that using an internet search, we found that sample pages of an e-book version of War and Peace have about 300 words on each page. This e-book version is 1307 pages long.    "
+},
+{
+  "id": "pa-scientific-notation-prep-confidence",
+  "level": "2",
+  "url": "sec-scientific-notation-prep.html#pa-scientific-notation-prep-confidence",
+  "type": "Prep Activity",
+  "number": "15.1.6",
+  "title": "",
+  "body": " You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Convert between regular and scientific notation, for large numbers.     Use million , billion , and trillion to describe large numbers.    Round large numbers to a convenient place.      "
+},
+{
+  "id": "sec-scientific-notation",
+  "level": "1",
+  "url": "sec-scientific-notation.html",
+  "type": "Section",
+  "number": "15.2",
+  "title": "Scientific Notation Activities",
+  "body": " Scientific Notation Activities   Consider the meme below, which made its way around the internet in the mid-2010s:   Powerball Math   Powerball 1.3 billion divided by US pop 300 million = 4.33 mil per person   Powerball 1.3 billion divided by US pop 300 million = 4.33 mil per person. Poverty solved!     This meme spread so far in part because the math is wrong! Writing the numbers in scientific notation can help: That is, dividing a $1.3 billion powerball jackpot among a US population of 300 million would give everyone $4.33. This will not solve poverty.  Notice that writing 1.3 billion and 300 million in scientific notation meant that we didn't need to enter long strings of zeros into our calculator. This is an advantage, since it is very easy to accidentally include too many or too few zeros!    Let's use scientific notation to help us estimate the number of words in War and Peace as millions, billions, trillions, or some other size. Using an internet search, we found that sample pages of an e-book version of War and Peace have about 300 words on each page. This e-book version is 1307 pages long.  The number of words in War and Peace can be estimated as Since is hundreds of thousands, this tells us that a rough estimate for the number of words in War and Peace is 300 thousand.     Use scientific notation to estimate:     The amount of money needed to send all adults in the United States to a public college for four years. Assume there are about 258 million adults in the United States and that the cost of tuition and fees to a public college is about $25,000.      The number of seconds you have been alive if you are 20 years old.      The amount of money needed per year to raise wages in the US to $15 per hour. Assume that there are 800 thousand full-time US workers making the federal minimum wage of $7.25 or less and that a full-time worker works 40 hours a week for 50 weeks a year. Hint: How much do we need to raise each worker's hourly wage?      If the U.S. national debt was $36 trillion in June of 2025 and was evenly divided among the 342 million people living in the United States in 2025, estimate how much each person's share would be.      The US federal budget was about $7.266 trillion in 2025.     The National Science Foundation (NSF) requested a budget of $10.183 billion for 2025 . What percent of the total US federal budget was that?      What percentage of the budget would be needed to pay for your estimate in part (c), for raising the minimum wage to $15 per hour?        Below is a table that describes some small numbers in standard decimal notation, and scientific notation . Notice that for small numbers:  Scientific notation keeps track of the number of decimal places to the left of the second nonzero digit, but after the decimal point, using the exponent.  The exponent is negative     Examples of Scientific Notation (Large Numbers)    Regular Notation  Scientific Notation  Number of places the decimal point was moved      1      2       4      7        Write a sentence in your words that explains how to convert a small number in regular notation into scientific notation.      Convert each of the numbers below into scientific notation.                           Write a sentence in your own words describin how to convert a number from scientific notation into regular notation (without using a calculator).      Convert each of the numbers below into regular notation, without using a calculator.                            If you type into Google, you will get:   Strange Calculator Notation   5.6e-8    divided by equals 5.6 e -8.     This notation may look strange, but it is how many calculators write . It may be helpful to think of the e as standing for exponent .  Write each of the calculator outputs shown below in scientific notation and standard decimal notation.   More Strange Calculator Notation   5e-7, 6.08e-8, 9e+15   5e-7, 6.08234793e-8, 8.99996e+15       "
+},
+{
+  "id": "sec-scientific-notation-2",
+  "level": "2",
+  "url": "sec-scientific-notation.html#sec-scientific-notation-2",
+  "type": "Example",
+  "number": "15.2.1",
+  "title": "",
+  "body": " Consider the meme below, which made its way around the internet in the mid-2010s:   Powerball Math   Powerball 1.3 billion divided by US pop 300 million = 4.33 mil per person   Powerball 1.3 billion divided by US pop 300 million = 4.33 mil per person. Poverty solved!     This meme spread so far in part because the math is wrong! Writing the numbers in scientific notation can help: That is, dividing a $1.3 billion powerball jackpot among a US population of 300 million would give everyone $4.33. This will not solve poverty.  Notice that writing 1.3 billion and 300 million in scientific notation meant that we didn't need to enter long strings of zeros into our calculator. This is an advantage, since it is very easy to accidentally include too many or too few zeros!  "
+},
+{
+  "id": "sec-scientific-notation-3",
+  "level": "2",
+  "url": "sec-scientific-notation.html#sec-scientific-notation-3",
+  "type": "Example",
+  "number": "15.2.3",
+  "title": "",
+  "body": " Let's use scientific notation to help us estimate the number of words in War and Peace as millions, billions, trillions, or some other size. Using an internet search, we found that sample pages of an e-book version of War and Peace have about 300 words on each page. This e-book version is 1307 pages long.  The number of words in War and Peace can be estimated as Since is hundreds of thousands, this tells us that a rough estimate for the number of words in War and Peace is 300 thousand.  "
+},
+{
+  "id": "a-estimate-big-sci-notation",
+  "level": "2",
+  "url": "sec-scientific-notation.html#a-estimate-big-sci-notation",
+  "type": "Activity",
+  "number": "15.2.1",
+  "title": "",
+  "body": "  Use scientific notation to estimate:     The amount of money needed to send all adults in the United States to a public college for four years. Assume there are about 258 million adults in the United States and that the cost of tuition and fees to a public college is about $25,000.      The number of seconds you have been alive if you are 20 years old.      The amount of money needed per year to raise wages in the US to $15 per hour. Assume that there are 800 thousand full-time US workers making the federal minimum wage of $7.25 or less and that a full-time worker works 40 hours a week for 50 weeks a year. Hint: How much do we need to raise each worker's hourly wage?      If the U.S. national debt was $36 trillion in June of 2025 and was evenly divided among the 342 million people living in the United States in 2025, estimate how much each person's share would be.      The US federal budget was about $7.266 trillion in 2025.     The National Science Foundation (NSF) requested a budget of $10.183 billion for 2025 . What percent of the total US federal budget was that?      What percentage of the budget would be needed to pay for your estimate in part (c), for raising the minimum wage to $15 per hour?     "
+},
+{
+  "id": "a-small-scientific-notation",
+  "level": "2",
+  "url": "sec-scientific-notation.html#a-small-scientific-notation",
+  "type": "Activity",
+  "number": "15.2.2",
+  "title": "",
+  "body": "  Below is a table that describes some small numbers in standard decimal notation, and scientific notation . Notice that for small numbers:  Scientific notation keeps track of the number of decimal places to the left of the second nonzero digit, but after the decimal point, using the exponent.  The exponent is negative     Examples of Scientific Notation (Large Numbers)    Regular Notation  Scientific Notation  Number of places the decimal point was moved      1      2       4      7        Write a sentence in your words that explains how to convert a small number in regular notation into scientific notation.      Convert each of the numbers below into scientific notation.                           Write a sentence in your own words describin how to convert a number from scientific notation into regular notation (without using a calculator).      Convert each of the numbers below into regular notation, without using a calculator.                         "
+},
+{
+  "id": "a-sci-notation-and-calculator",
+  "level": "2",
+  "url": "sec-scientific-notation.html#a-sci-notation-and-calculator",
+  "type": "Activity",
+  "number": "15.2.3",
+  "title": "",
+  "body": "  If you type into Google, you will get:   Strange Calculator Notation   5.6e-8    divided by equals 5.6 e -8.     This notation may look strange, but it is how many calculators write . It may be helpful to think of the e as standing for exponent .  Write each of the calculator outputs shown below in scientific notation and standard decimal notation.   More Strange Calculator Notation   5e-7, 6.08e-8, 9e+15   5e-7, 6.08234793e-8, 8.99996e+15      "
+},
+{
   "id": "sec-roots-fractions-prep",
   "level": "1",
   "url": "sec-roots-fractions-prep.html",
   "type": "Section",
-  "number": "15.1",
+  "number": "16.1",
   "title": "Roots and Fractional Powers Prep Activities",
   "body": " Roots and Fractional Powers Prep Activities   We learned in that cube roots and the one-third power are the same, i.e., that . In fact, this is a special case of the general rule that nth roots and the 1\/n power are the same, i.e., .   Note: We use square roots so often that we don't usually bother to write the number on the root. But, , so .     Using the Product Rule for Exponents, . Why does this observation support the reasonableness of the rules that and ?      Let's practice using our new rule, along with other exponent rules, to rewrite expressions. Remember, if you're not sure what to do, look for an opportunity to use any one of the exponent rules, use it, and then re-evaluate.     Rewrite without a root symbol:       Rewrite with a root symbol:       Rewrite as :       Rewrite as :       Rewrite with a root symbol:        We introduced the one-third power in to help us solve the equation . Notice that the Power Rule for Exponents tells us that . That is, the nth power and the 1\/n power undo each other. Use this fact to find all solutions to each of the equations below.                          You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Use the equality to rewrite expressions.     Solve equations using the inverse relationship between and .       "
 },
@@ -1544,7 +1661,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-roots-fractions-prep.html#pa-why-frac-exps-are-roots",
   "type": "Prep Activity",
-  "number": "15.1.1",
+  "number": "16.1.1",
   "title": "",
   "body": "  Using the Product Rule for Exponents, . Why does this observation support the reasonableness of the rules that and ?   "
 },
@@ -1553,7 +1670,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-roots-fractions-prep.html#pa-rewrite-frac-exp-roots",
   "type": "Prep Activity",
-  "number": "15.1.2",
+  "number": "16.1.2",
   "title": "",
   "body": "  Let's practice using our new rule, along with other exponent rules, to rewrite expressions. Remember, if you're not sure what to do, look for an opportunity to use any one of the exponent rules, use it, and then re-evaluate.     Rewrite without a root symbol:       Rewrite with a root symbol:       Rewrite as :       Rewrite as :       Rewrite with a root symbol:     "
 },
@@ -1562,7 +1679,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-roots-fractions-prep.html#pa-solve-eqns-frac-exps",
   "type": "Prep Activity",
-  "number": "15.1.3",
+  "number": "16.1.3",
   "title": "",
   "body": "  We introduced the one-third power in to help us solve the equation . Notice that the Power Rule for Exponents tells us that . That is, the nth power and the 1\/n power undo each other. Use this fact to find all solutions to each of the equations below.                        "
 },
@@ -1571,7 +1688,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-roots-fractions-prep.html#pa-roots-fractions-prep-confidence",
   "type": "Prep Activity",
-  "number": "15.1.4",
+  "number": "16.1.4",
   "title": "",
   "body": " You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).     Skill or Concept: I can …  Rating from 1 to 5    Use the equality to rewrite expressions.     Solve equations using the inverse relationship between and .      "
 },
@@ -1580,7 +1697,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-roots-fractions.html",
   "type": "Section",
-  "number": "15.2",
+  "number": "16.2",
   "title": "Roots and Fractional Powers Activities",
   "body": " Roots and Fractional Powers Activities    The cube root law R. Taagepera. ``The size of national assemblies.'' Social Science Research v. 1, no. 4. , in political science, observes that in many countries, the number of seats in the legislative body most similar to the US House of Representatives is approximately modeled by the formula , where is the number of seats in the legislative body and is the country's population.     The cube root law is a power model, even though it doesn't look like one at first. Use the fact that cube roots are the same as the 1\/3rd power to rewrite the cube root law so that it looks like a power model.      The population of Canada was about 37 million in 2021. The Canadian House of Commons is similar to the US House of Representatives.     37 million is a big number! Write it in scientific notation.      Use the cube root law, the scientific notation version of 37 million, and exponent rules to predict the size of the Canadian House of Commons.       In 2021, the Canadian House of Commons had 338 seats. Did the cube root law give a good estimate?      The population of the United States was about 332 million in 2021. Write 332 million in scientific notation, then use the cube root law to predict the size of the US House of Representatives.      The US House of Representatives has 435 voting members. Did the cube root law give a good estimate?      Use the cube root law to predict the population of a country with 435 members in its legistlative House.      The US House of Representatives hasn't changed size since it was set to 435 by the Apportionment Act of 1911. The US population in 1911 was about 94 million. Did the cube root law give a give estimate in 1911? Don't forget to rewrite 94 million in scientific notation first!       Police use the formula to estimate the speed of a car, , in miles per hour, based on the length, , in feet, of its skid marks when suddenly braking on a dry, asphalt road.     At the scene of an accident, a police officer measures a car's skid marks to be 135 feet long. Approximately how fast was the car traveling?      What if the skid marks had been 215 feet long instead?      The United States had a national speed limit of 55 mph from 1974 - 1987, and speed limits of 55 mph were still common around the country through the late 1990s. How long would the skid marks be of a car suddenly braking after going 55 mph on a dry, asphalt road?      The fastest posted speed limit in the US is 85 mph. How long would the skid marks be of a car suddenly braking after going 85 mph on a dry, asphalt road?       We have to be careful with fractional exponents and negative numbers.      Complete the table below.   Positive or Negative?     Positive or Negative?    Postive Positive     Negative Negative     Postive Positive Positive     Negative Negative Negative     Postive Positive Positive Positive     Negative Negative Negative Negative          Use your table to decide whether each of the following statements is true or false. Explain your answers.     It is possible for to be negative.      It is possible for to be negative.       Explain why the true sentence below makes sense.   When is negative, exists, but doesn't.       What about 0? Does exist? What about ? ?       The resting energy expenditure (REE) is the amount of energy a person or animal needs for basic bodily functions. In the 1930s, biologist Max Kleiber Z. Wang, T. O'Connor, S. Heshka, and s. Heymsfield. ``The Reconstruction of Kleiber's Law at the Organ-Tissue Level.'' The Journal of Nutrition v. 131, no. 11. doi: 10.1093\/jn\/131.11.2967 discovered that there is a relationship between the REE of an adult mammal and its body mass: where is a mammal's REE (in kcal\/d) and is its body mass (in kg).     Explain why Kleiber's model for REE is a power model. What are the quantities, coefficient, and power?      Sketch a graph showing the relationship between REE and body mass in mammals.      Use this model to find the REE of a mammal with body mass 80 kg.      In order to find the body mass of a mammal with REE 1400 kcal\/d, we need to undo the 3\/4ths power. We don't usually talk about the 3\/4ths root. Instead, we stick with fractional exponents. To undo the 3\/4ths power, we'll use the 1\/(3\/4)ths power. Here's how this example works out! Divide both sides by 70 to get: Raise both sides to the 1\/(3\/4)ths power:     Note: 1\/(3\/4) is hard to read and work with! It's important to get the parentheses right, since 1\/(3\/4) and (1\/3)\/4 are different (try to plug both into a calculator and see for yourself!). Instead of doing 1\/(3\/4), it's more common to either turn 3\/4 into a decimal and do 1\/0.75, or to use fraction arithmetic rules to rewrite 1\/(3\/4) as 4\/3.  Find the mass of a mammal with REE 2000 kcal\/d.       We introduced the rule in . In fact, we can connect any fractional exponent to roots using the more general rule . Use this rule, along with the other exponent rules, to rewrite each of the following expressions.     Rewrite with fractional exponents:       Rewrite with fractional exponents:       Rewrite with fractional exponents:       Rewrite with fractional exponents:       Rewrite with roots:        Kepler's Third Law tells us that where is the planet's distance from the Sun in AU and is the number of days the planet takes to orbit the Sun. Note that 1 AU is the distance between Earth and the Sun.     Plug in and find . Does Kepler's third law give the correct number of days in a year?      Mars's distance from the sun is 1.524 AU. Use Kepler's third law to find the length of a year on Mars.      Rewrite Kepler's Third Law so that it has the form .      Kepler's Third Law is a power model in disguise! Talk to your table and decide how to use fractional exponents to rewrite your equation from the previous part with a fractional exponent.      Use Kepler's Third Law to predict the distance from the Sun to a planet with a 10,776 day year. (What planet is this? Use the Internet to find out! How good was your distance estimate?)     "
 },
@@ -1589,7 +1706,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-roots-fractions.html#a-cube-root-law",
   "type": "Activity",
-  "number": "15.2.1",
+  "number": "16.2.1",
   "title": "",
   "body": "  The cube root law R. Taagepera. ``The size of national assemblies.'' Social Science Research v. 1, no. 4. , in political science, observes that in many countries, the number of seats in the legislative body most similar to the US House of Representatives is approximately modeled by the formula , where is the number of seats in the legislative body and is the country's population.     The cube root law is a power model, even though it doesn't look like one at first. Use the fact that cube roots are the same as the 1\/3rd power to rewrite the cube root law so that it looks like a power model.      The population of Canada was about 37 million in 2021. The Canadian House of Commons is similar to the US House of Representatives.     37 million is a big number! Write it in scientific notation.      Use the cube root law, the scientific notation version of 37 million, and exponent rules to predict the size of the Canadian House of Commons.       In 2021, the Canadian House of Commons had 338 seats. Did the cube root law give a good estimate?      The population of the United States was about 332 million in 2021. Write 332 million in scientific notation, then use the cube root law to predict the size of the US House of Representatives.      The US House of Representatives has 435 voting members. Did the cube root law give a good estimate?      Use the cube root law to predict the population of a country with 435 members in its legistlative House.      The US House of Representatives hasn't changed size since it was set to 435 by the Apportionment Act of 1911. The US population in 1911 was about 94 million. Did the cube root law give a give estimate in 1911? Don't forget to rewrite 94 million in scientific notation first!    "
 },
@@ -1598,7 +1715,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-roots-fractions.html#a-skid-marks",
   "type": "Activity",
-  "number": "15.2.2",
+  "number": "16.2.2",
   "title": "",
   "body": "  Police use the formula to estimate the speed of a car, , in miles per hour, based on the length, , in feet, of its skid marks when suddenly braking on a dry, asphalt road.     At the scene of an accident, a police officer measures a car's skid marks to be 135 feet long. Approximately how fast was the car traveling?      What if the skid marks had been 215 feet long instead?      The United States had a national speed limit of 55 mph from 1974 - 1987, and speed limits of 55 mph were still common around the country through the late 1990s. How long would the skid marks be of a car suddenly braking after going 55 mph on a dry, asphalt road?      The fastest posted speed limit in the US is 85 mph. How long would the skid marks be of a car suddenly braking after going 85 mph on a dry, asphalt road?    "
 },
@@ -1607,7 +1724,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-roots-fractions.html#a-caution-negatives-even-roots",
   "type": "Activity",
-  "number": "15.2.3",
+  "number": "16.2.3",
   "title": "",
   "body": "  We have to be careful with fractional exponents and negative numbers.      Complete the table below.   Positive or Negative?     Positive or Negative?    Postive Positive     Negative Negative     Postive Positive Positive     Negative Negative Negative     Postive Positive Positive Positive     Negative Negative Negative Negative          Use your table to decide whether each of the following statements is true or false. Explain your answers.     It is possible for to be negative.      It is possible for to be negative.       Explain why the true sentence below makes sense.   When is negative, exists, but doesn't.       What about 0? Does exist? What about ? ?    "
 },
@@ -1616,7 +1733,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-roots-fractions.html#a-ree-mass",
   "type": "Activity",
-  "number": "15.2.4",
+  "number": "16.2.4",
   "title": "",
   "body": "  The resting energy expenditure (REE) is the amount of energy a person or animal needs for basic bodily functions. In the 1930s, biologist Max Kleiber Z. Wang, T. O'Connor, S. Heshka, and s. Heymsfield. ``The Reconstruction of Kleiber's Law at the Organ-Tissue Level.'' The Journal of Nutrition v. 131, no. 11. doi: 10.1093\/jn\/131.11.2967 discovered that there is a relationship between the REE of an adult mammal and its body mass: where is a mammal's REE (in kcal\/d) and is its body mass (in kg).     Explain why Kleiber's model for REE is a power model. What are the quantities, coefficient, and power?      Sketch a graph showing the relationship between REE and body mass in mammals.      Use this model to find the REE of a mammal with body mass 80 kg.      In order to find the body mass of a mammal with REE 1400 kcal\/d, we need to undo the 3\/4ths power. We don't usually talk about the 3\/4ths root. Instead, we stick with fractional exponents. To undo the 3\/4ths power, we'll use the 1\/(3\/4)ths power. Here's how this example works out! Divide both sides by 70 to get: Raise both sides to the 1\/(3\/4)ths power:     Note: 1\/(3\/4) is hard to read and work with! It's important to get the parentheses right, since 1\/(3\/4) and (1\/3)\/4 are different (try to plug both into a calculator and see for yourself!). Instead of doing 1\/(3\/4), it's more common to either turn 3\/4 into a decimal and do 1\/0.75, or to use fraction arithmetic rules to rewrite 1\/(3\/4) as 4\/3.  Find the mass of a mammal with REE 2000 kcal\/d.    "
 },
@@ -1625,7 +1742,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-roots-fractions.html#a-fractions-exponent-rules",
   "type": "Activity",
-  "number": "15.2.5",
+  "number": "16.2.5",
   "title": "",
   "body": "  We introduced the rule in . In fact, we can connect any fractional exponent to roots using the more general rule . Use this rule, along with the other exponent rules, to rewrite each of the following expressions.     Rewrite with fractional exponents:       Rewrite with fractional exponents:       Rewrite with fractional exponents:       Rewrite with fractional exponents:       Rewrite with roots:     "
 },
@@ -1634,7 +1751,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-roots-fractions.html#a-kepler-3rd-law",
   "type": "Activity",
-  "number": "15.2.6",
+  "number": "16.2.6",
   "title": "",
   "body": "  Kepler's Third Law tells us that where is the planet's distance from the Sun in AU and is the number of days the planet takes to orbit the Sun. Note that 1 AU is the distance between Earth and the Sun.     Plug in and find . Does Kepler's third law give the correct number of days in a year?      Mars's distance from the sun is 1.524 AU. Use Kepler's third law to find the length of a year on Mars.      Rewrite Kepler's Third Law so that it has the form .      Kepler's Third Law is a power model in disguise! Talk to your table and decide how to use fractional exponents to rewrite your equation from the previous part with a fractional exponent.      Use Kepler's Third Law to predict the distance from the Sun to a planet with a 10,776 day year. (What planet is this? Use the Internet to find out! How good was your distance estimate?)    "
 },
