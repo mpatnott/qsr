@@ -118,7 +118,9 @@
     </definition>
 
     <activity xml:id="a-linear-or-not" workspace="1.5in">
+        <p>
         Decide whether each of the three data sets has a linear model. Explain your answers in words. If a data set does define a linear model, find its slope.
+        </p>
         <sidebyside>
             <table>
                 <title>Data Set 1</title>
