@@ -339,7 +339,7 @@
                 Many old comic books contained ads offering money-making schemes to children reading the comics.<fn><url href=" http://mentalfloss.com/article/57958/6-get-rich-quick-schemes-vintage-comic-books"></url></fn> As an example, suppose a company offered to send 30 greeting cards to a child to sell to relatives, friends, and neighbors. The child was to sell them for <m>m</m> dollars each, and had to send <m>b</m> dollars back to the company. Here is a graph of a linear model representing the situation. The input (horizontal value) represents the number of cards sold, and the output (vertical value) represents the child's profit in dollars.
             </p>
             <figure xml:id="fig-comic-scam">
-                <caption>Relationship between Latte Purchase and Amount Left on Card</caption>
+                <caption>Relationship between Number of Card Sold and Profit in Dollars</caption>
                 <image xml:id="graph-comic-scam">
                     <description>
                         <p>
@@ -432,7 +432,7 @@
                     Sketch both of your linear models on the same graph.
                 </p>
                 <figure xml:id="fig-compare-data-plans">
-                    <caption>Relationship between Latte Purchase and Amount Left on Card</caption>
+                    <caption>Relationship between Data Usage and Plan Cost</caption>
                     <image xml:id="graph-compare-data-plans" width="35%">
                         <description>
                             <p>
