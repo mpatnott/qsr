@@ -5,7 +5,7 @@
     <page>
         <introduction>
             <p>
-                In the real world, it is more common to have data that is approximately linear than exactly linear. These activities will introduce the idea of linear trends, which we'll spend more time in class. They'll also provide practice with building a linear model by identifying its slope and vertical intercept.
+                In the real world, it is more common to have data that is approximately linear than exactly linear. These activities will introduce the idea of linear trends, which we'll spend more time on in class. They'll also provide practice with building a linear model by identifying its slope and vertical intercept.
             </p>
         </introduction>
         <investigation xml:id="a-meal-plan">
@@ -122,14 +122,14 @@
             <task>
                 <statement>
                     <p>
-                        This model is approximately linear. What are the units for the slope: $, Week/$, $/Week, or there are no units.
+                        This model is approximately linear. Choose the correct units for the slope: $, Week/$, $/Week, or there are no units.
                     </p>
                 </statement>
             </task>
             <task workspace="0.5in">
                 <statement>
                     <p>
-                        What is the vertical intercept tell you in context? the horizontal intercept?
+                        What does the vertical intercept tell you in context? the horizontal intercept?
                     </p>
                 </statement>
             </task>
@@ -222,7 +222,7 @@
                         Now, use the table from the previous question to create a graph of the data. Remember to label the axes.
                     </p>
                     <figure xml:id="fig-phone-depreciation">
-                        <caption>Loralee's Flex Dollars Balance</caption>
+                        <caption>Value of Coraline's iPhone 11</caption>
                         <image xml:id="graph-phone-depreciation" width="33%">
                             <description>
                                 <p>
