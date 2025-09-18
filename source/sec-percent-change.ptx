@@ -400,7 +400,7 @@
     <task workspace="1in">
         <statement>
             <p>
-                Kaitlyn's friend Brixton tells her not press the Place Order button, because there's obviously a scam involved in calculating the tip. Use what you've learned about percent change to explain why Brixton is suspicious. 
+                Kaitlyn's friend Brixton tells her not to press the Place Order button, because there's obviously a scam involved in calculating the tip. Use what you've learned about percent change to explain why Brixton is suspicious. 
             </p>
         </statement>
     </task>
@@ -422,5 +422,145 @@
             </p>
         </statement>
     </task>
+  </activity>
+
+  <activity>
+    <introduction>
+        <p>
+            In April 2025, the Trump Administration raised tariffs on goods imported to the US. The Office of the US Trade Representative (USTR) initially published a <url href="https://www.whitehouse.gov/wp-content/uploads/2025/04/Annex-I.pdf">table of new tariffs</url>, but followed up with more <url href="https://ustr.gov/sites/default/files/files/Issue_Areas/Presidential%20Tariff%20Action/Reciprocal%20Tariff%20Calculations.pdf">details on the calculations</url>. The White House calls the new tariffs <q>reciprocal tariffs</q> in the <url href="https://www.whitehouse.gov/presidential-actions/2025/04/regulating-imports-with-a-reciprocal-tariff-to-rectify-trade-practices-that-contribute-to-large-and-persistent-annual-united-states-goods-trade-deficits/">Executive Order authorizing the new rates</url>, and the document explaining the calculations says that <q>Reciprocal tariffs are calculated as the tariff rate necessary to balance bilateral trade deficits between the U.S. and each of our trading partners.</q>
+        </p>
+        <p>
+            According to the USTR document explaining the calculation, the formula used to calculate the new tariff rates is
+            <me>
+                \Delta\tau_i = \frac{x_i - m_i}{\epsilon \times \phi \times m_i}   
+            </me>.
+            This looks complicated! The document tells us that the variables here are
+            <ul>
+                <li><m>\Delta\tau_i = \text{Change in tariff rate (%) on Country } i</m> (this is what we're calculating)</li>
+                <li><m>x_i = \text{Total exports from US to Country } i</m></li>
+                <li><m>m_i = \text{Total imports from US to Country } i</m></li>
+                <li><m>\epsilon = \text{Elasticity of imports with respect to import prices}</m></li>  
+                <li><m>\phi = \text{Passthrough from tariffs to import prices}</m></li>
+            </ul>
+            Although <m>x_i</m> and <m>m_i</m> are both numbers that we could look up, <m>\epsilon</m> and <m>\phi</m> are numbers whose values aren't certain. Depending on the assumptions you make, you could reasonably get differnt values for <m>\epsilon</m> and <m>\phi</m>. The document tells us that the Trump Administration assumed that <m>\epsilon = -4</m> and <m>\phi = 0.25</m>. Since <m>4 \times 0.25 = -1</m>, all of this information lets us rewrite the very complicated looking formula as
+            <me>
+                \text{Change in Tariff Rate} = \frac{\text{Exports} - \text{Imports}}{-Imports}
+            </me>.
+        </p>
+        <task>
+            <introduction>
+                <p>
+                    Use the formula to calculate the change in tariff rate for each of the following countries:
+                </p>
+            </introduction>
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        China. The US exports $143.5 billion in goods to China, and imports $438.9 billion in goods.<fn><url href="https://www.census.gov/foreign-trade/Press-Release/ft900/ft900_2412.pdf" /></fn>
+                    </p>
+                </statement>
+            </task>
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        European Union. The US exports $370.2 billion in goods to the EU, and imports $605.8 billion in goods.<fn><url href="https://www.census.gov/foreign-trade/Press-Release/ft900/ft900_2412.pdf" /></fn>
+                    </p>
+                </statement>
+            </task>
+        </task>
+        <task>
+            <introduction>
+                <p>
+                    The rewritten formula
+                    <me>
+                        \text{Change in Tariff Rate} = \frac{\text{Exports} - \text{Imports}}{-\text{Imports}}
+                    </me>
+                    looks similar to the percent change formula that we developed in this section!
+                </p>
+            </introduction>
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        Explain what impact using <q>-Imports</q> instead of <q>Imports</q> in the denominator has on the output of the formula.
+                    </p>
+                </statement>
+            </task>
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        Reports about the new tariff rates generally gave one of two explanations for the reasoning behind the formula:
+                    </p>
+                    <ol>
+                        <li>It calculates a fair tariff rate that takes into account the tariffs a country charges on imported US goods, plus other factors that make it hard for the US to export to that country.</li>
+                        <li>It calculates the percent difference between the amount of goods imported to a country from the US and the amount of goods exported from that country to the US.</li>
+                    </ol>
+                    <p>
+                        Which of these explanations matches the formula more closely? Explain your answer.
+                    </p>
+                </statement>
+            </task>
+        </task>
+        <task>
+            <introduction>
+                <p>
+                    The Trump Administration did two more steps after using the formula (which they claim gives the fair tariff rate):
+                    <ol>
+                        <li>Divide the answer by 2, to get the discounted tariff rate that the US will actually use in order to be nice.</li>
+                        <li>If your answer is now less than 10%, ignore it and just use 10% instead.</li>
+                    </ol>
+                    Use these last two steps to find the actual new tariff rates for each of the following countries/regions:
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        China
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                       European Union 
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Venezuela. The US exports $4.2 billion in goods to the UK, and imports $6.0 billion in goods.<fn><url href="https://www.census.gov/foreign-trade/Press-Release/ft900/ft900_2412.pdf" /></fn>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        United Kingdom. The US exports $79.9 billion in goods to the UK, and imports $68.1 billion in goods.<fn><url href="https://www.census.gov/foreign-trade/Press-Release/ft900/ft900_2412.pdf" /></fn>
+                    </p>
+                </statement>
+            </task>
+        </task>
+        <task>
+            <introduction>
+                <p>
+                    Use what you've learned from doing these calculations, and about percent differences, to decide:
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Did the Trump Administration communicate clearly about how the new tariffs were calculated, and what the formula for calculating them is really doing? Explain your answer.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Are the new tariffs fair? Explain your answer.
+                    </p>
+                </statement>
+            </task>
+        </task>
+    </introduction>
   </activity>
 </section>
