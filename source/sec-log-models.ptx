@@ -430,5 +430,214 @@
             </p>
         </statement>
     </activity>
+
+    <activity>
+        <introduction>
+            <p>
+                Researchers often use logs to help them make charts when there are big size differences between the values in their data set. Alia is taking an astronomy class, and needs to make a chart showing the distance from the sun of the 8 planets.
+            </p>
+            <table>
+                <title>Distance from the sun (millions of km) of the 8 planets</title>
+                <tabular halign="center" top="minor" bottom="minor" right="minor" left="minor">
+                    <row header = "yes">
+                        <cell>Planet</cell>
+                        <cell>Distance (millions of km)</cell>
+                    </row>
+                    <row>
+                        <cell>Mercury</cell>
+                        <cell>58</cell>
+                    </row>
+                    <row>
+                        <cell>Venus</cell>
+                        <cell>108</cell>
+                    </row>
+                    <row>
+                        <cell>Earth</cell>
+                        <cell>150</cell>
+                    </row>
+                    <row>
+                        <cell>Mars</cell>
+                        <cell>228</cell>
+                    </row>
+                    <row>
+                        <cell>Jupiter</cell>
+                        <cell>779</cell>
+                    </row>
+                    <row>
+                        <cell>Saturn</cell>
+                        <cell>1430</cell>
+                    </row>
+                    <row>
+                        <cell>Uranus</cell>
+                        <cell>2880</cell>
+                    </row>
+                    <row>
+                        <cell>Neptune</cell>
+                        <cell>4500</cell>
+                    </row>
+                </tabular>
+            </table>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Plot each of the planets' distances on the number line below.
+                </p>
+                <figure xml:id="fig-planet-distance-linear">
+                <caption>Planets' Distance from the Sun</caption>
+                <image xml:id="graph-planet-distance-linear" width="75%">
+                    <description>
+                        <p>
+                            Blank number line, from 0 to 4750
+                        </p>
+                    </description>
+                    <shortdescription>Blank number line</shortdescription>
+                    <latex-image>
+                        \begin{tikzpicture}
+                            \draw[very thick] (-0.5,0) -- (10,0);
+                            \foreach \x / \label in {0 / 0, 1 / 500, 2 / 1000, 3 / 1500, 4 / 2000, 5 / 2500, 6 / 3000, 7 / 3500, 8 / 4000, 9 / 4500}
+                            {
+                                \draw[very thick] (\x,0.25) -- (\x,-0.25) node[below]{\label};
+                                \draw[very thick] (\x+0.5,0.25) -- (\x+0.5,-0.25);
+                            }
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </figure>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Add a third column to the table: Log of Distance. Fill in the column by using your calculator to find <m>\log_{10}(\text{distance})</m> in each row.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Plot the Log Distances on the number line below.
+                </p>
+                <figure xml:id="fig-planet-distance-log">
+                <caption>Log of Planets' Distance from the Sun</caption>
+                <image xml:id="graph-planet-distance-log" width="75%">
+                    <description>
+                        <p>
+                            Blank number line, from 1.5 to 4
+                        </p>
+                    </description>
+                    <shortdescription>Blank number line</shortdescription>
+                    <latex-image>
+                        \begin{tikzpicture}
+                            \draw[very thick] (-0.5,0) -- (10,0);
+                            \foreach \i / \name in {0 / 1.5, 1 / 1.75, 2 / 2, 3 / 2.25, 4 / 2.5, 5 / 2.75, 6 / 3, 7 / 3.25, 8 / 3.5, 9 / 3.75}
+                            {
+                                \draw[very thick] (\i,0.25) -- (\i,-0.25) node[below]{\name};
+                                \draw[very thick] (\i+0.5,0.25) -- (\i+0.5,-0.25);
+                            }
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </figure>
+            </statement>
+        </task>
+        <task>
+            <introduction>
+                <p>
+                    Alia doesn't like that the list of planets doesn't include Pluto, so she decides to add it. She finds online that Pluto is 5925 million miles from the sun.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Find Log Distance for Pluto.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which chart is it easier to add Pluto to: the distance chart, or the log distance chart?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        State at least one advantage and at least one disadvantage of the log distance chart.
+                    </p>
+                </statement>
+            </task>
+        </task>
+    </activity>
+
+    <!--<activity>
+        <statement>
+            <p>
+                Researchers often use logs to help them make graphs when there are big size differences between the values in their data set. Alia is an economist studying increases in prosperity in East Asia since 1900. One of the data sets that she's using in her study gives GDP per capita between 1900 and 2020.<fn><url href="https://ourworldindata.org/grapher/gdp-per-capita-maddison-project-database?tab=line" /></fn>
+            </p>
+            <table>
+                <title>GDP Per Capita in East Asia, 1900 - 2020 (in constant international dollars at 2011 prices, to adjust for inflation and cost of living differences between countries)</title>
+                <tabular halign="center" top="minor" bottom="minor" right="minor" left="minor">
+                    <row header="yes">
+                        <cell>Year</cell>
+                        <cell>GDP Per Capita</cell>
+                    </row>
+                    <row>
+                        <cell>1900</cell>
+                        <cell>1086</cell>
+                    </row>
+                    <row>
+                        <cell>1910</cell>
+                        <cell>1056</cell>
+                    </row>
+                    <row>
+                        <cell>1920</cell>
+                        <cell>1216</cell>
+                    </row>
+                    <row>
+                        <cell>1930</cell>
+                        <cell>1296</cell>
+                    </row>
+                    <row>
+                        <cell>1940</cell>
+                        <cell>1496</cell>
+                    </row>
+                    <row>
+                        <cell>1950</cell>
+                        <cell>1109</cell>
+                    </row>
+                    <row>
+                        <cell>1960</cell>
+                        <cell>1726</cell>
+                    </row>
+                    <row>
+                        <cell>1970</cell>
+                        <cell>3031</cell>
+                    </row>
+                    <row>
+                        <cell>1980</cell>
+                        <cell>4191</cell>
+                    </row>
+                    <row>
+                        <cell>1990</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell>2000</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell>2010</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell>2020</cell>
+                        <cell></cell>
+                    </row>
+                </tabular>
+            </table>
+        </statement>
+    </activity>-->
   </page>
 </section>
