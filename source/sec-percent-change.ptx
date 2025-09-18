@@ -444,7 +444,7 @@
             </ul>
             Although <m>x_i</m> and <m>m_i</m> are both numbers that we could look up, <m>\epsilon</m> and <m>\phi</m> are numbers whose values aren't certain. Depending on the assumptions you make, you could reasonably get differnt values for <m>\epsilon</m> and <m>\phi</m>. The document tells us that the Trump Administration assumed that <m>\epsilon = -4</m> and <m>\phi = 0.25</m>. Since <m>4 \times 0.25 = -1</m>, all of this information lets us rewrite the very complicated looking formula as
             <me>
-                \text{Change in Tariff Rate} = \frac{\text{Exports} - \text{Imports}}{-Imports}
+                \text{Change in Tariff Rate} = \frac{\text{Exports} - \text{Imports}}{-\text{Imports}}
             </me>.
         </p>
         <task>
@@ -549,7 +549,7 @@
             <task>
                 <statement>
                     <p>
-                        Did the Trump Administration communicate clearly about how the new tariffs were calculated, and what the formula for calculating them is really doing? Explain your answer.
+                        How could the Trump Administration improve their communication about the way the new tariffs were calculated? Explain your answer.
                     </p>
                 </statement>
             </task>

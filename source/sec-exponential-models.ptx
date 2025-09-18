@@ -136,6 +136,57 @@
         </statement>
     </activity>
 
+    <activity xml:id="a-create-exp-model">
+        Fill in the empty cells to create a table of values that has an exponential model.
+        <table>
+            <title>My Exponential Model</title>
+            <tabular row-headers = "yes" top="minor" bottom="minor" right="minor" left="minor">
+                <row>
+                    <cell>Input</cell>
+                    <cell><m>\hspace{3em}</m></cell>
+                    <cell><m>\hspace{3em}</m></cell>
+                    <cell><m>\hspace{3em}</m></cell>
+                    <cell><m>\hspace{3em}</m></cell>
+                    <cell><m>\hspace{3em}</m></cell>
+                </row>
+                <row>
+                    <cell>Output</cell>
+                    <cell><m>\hspace{3em}</m></cell>
+                    <cell><m>\hspace{3em}</m></cell>
+                    <cell><m>\hspace{3em}</m></cell>
+                    <cell><m>\hspace{3em}</m></cell>
+                    <cell><m>\hspace{3em}</m></cell>
+                </row>
+            </tabular>
+        </table>
+        Carefully explain in words how you know that your table has an exponential model. Your explanation should use percent changes and/or change factors, not a formula.
+    </activity>
+
+    <activity xml:id="a-create-non-exp-model">
+        Fill in the empty cells to create a table of values that does NOT have an exponential model.
+        <table>
+            <title>My Non-Exponential Model</title>
+            <tabular row-headers = "yes" top="minor" bottom="minor" right="minor" left="minor">
+                <row>
+                    <cell>Input</cell>
+                    <cell><m>\hspace{3em}</m></cell>
+                    <cell><m>\hspace{3em}</m></cell>
+                    <cell><m>\hspace{3em}</m></cell>
+                    <cell><m>\hspace{3em}</m></cell>
+                    <cell><m>\hspace{3em}</m></cell>
+                </row>
+                <row>
+                    <cell>Output</cell>
+                    <cell><m>\hspace{3em}</m></cell>
+                    <cell><m>\hspace{3em}</m></cell>
+                    <cell><m>\hspace{3em}</m></cell>
+                    <cell><m>\hspace{3em}</m></cell>
+                    <cell><m>\hspace{3em}</m></cell>
+                </row>
+            </tabular>
+        </table>
+        Carefully explain in words how you know that your table doesn't have an exponential model. Your explanation should use percent changes and/or change factors, not a formula.
+    </activity>
 
     <activity xml:id="a-population-models">
         <introduction>
@@ -253,30 +304,6 @@
   </page>
 
   <page>
-    <!--<activity xml:id="a-build-your-own-expon-model">
-        <task workspace="1in">
-            <statement>
-                <p>
-                    List at least two other situations where quantities, besides population, can have constant relative change and be represented with an exponential model, and explain your reasoning.
-                </p>
-            </statement>
-        </task>
-        <task workspace="1in">
-            <statement>
-                <p>
-                    Create an algebraic formula that represents the changing values over time for each of your examples.
-                </p>
-            </statement>
-        </task>
-        <task workspace="0.5in">
-            <statement>
-                <p>
-                    What is <q>exponential</q> about these exponential models?
-                </p>
-            </statement>
-        </task>
-    </activity>-->
-
     <activity xml:id="a-tuition-increase">
         <introduction>
             <p>
@@ -501,6 +528,71 @@
                     </p>
                 </statement>
             </task>
+        </task>
+    </activity>
+
+    <activity>
+        <introduction>
+            <p>
+                Consider the graph shown below. The axes don't have numbers on them on purpose!
+            </p>
+            <figure xml:id="fig-exp-graph">
+                <caption>Graph of an Exponential Model</caption>
+                <image source="./images/exp-graph.png" xml:id="graph-exp-graph" width="50%">
+                    <description>
+                        <p>
+                            Decreasing exponential model on axes with no labels, but several tick marks. The vertical intercept is at the fourth tick mark above 0. The graph goes through the point at the first horizontal tick mark and the second vertical tick mark. By the sixth horizontal tick mark, the graph is just barely above the horizontal axis.
+                        </p>
+                    </description>
+                    <shortdescription>Graph of a decreasing exponential model</shortdescription>
+                </image>
+            </figure>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Write a formula for an exponential model that cannot possibly fit this curve. Explain in words how you know your model cannot work, no matter what numbers are on the axes.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Write a formula for an exponential model that could fit this curve. Explain in words how you know your
+model could work.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <alert>Challenge:</alert> Find a second exponential model that could fit this curve! Explain in words how you know this model is different from your first model, and why this new model is also a valid option.
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+    <activity xml:id="a-build-your-own-expon-model">
+        <task workspace="1in">
+            <statement>
+                <p>
+                    List at least two other situations where quantities, other than those seen here, might have a constant percent change and be represented with an exponential model. Explain your reasoning.
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Create an algebraic formula that represents the changing values over time for each of your examples.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    What is <q>exponential</q> about these exponential models?
+                </p>
+            </statement>
         </task>
     </activity>
   </page>
