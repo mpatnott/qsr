@@ -137,8 +137,11 @@
     </activity>
 
     <activity xml:id="a-create-exp-model">
-        Fill in the empty cells to create a table of values that has an exponential model.
-        <table>
+        <statement>
+            <p>
+                Fill in the empty cells to create a table of values that has an exponential model.
+            </p>
+            <table>
             <title>My Exponential Model</title>
             <tabular row-headers = "yes" top="minor" bottom="minor" right="minor" left="minor">
                 <row>
@@ -159,12 +162,18 @@
                 </row>
             </tabular>
         </table>
-        Carefully explain in words how you know that your table has an exponential model. Your explanation should use percent changes and/or change factors, not a formula.
+        <p>
+            Carefully explain in words how you know that your table has an exponential model. Your explanation should use percent changes and/or change factors, not a formula.
+        </p>
+        </statement>
     </activity>
 
     <activity xml:id="a-create-non-exp-model">
-        Fill in the empty cells to create a table of values that does NOT have an exponential model.
-        <table>
+        <statement>
+            <p>
+                Fill in the empty cells to create a table of values that does NOT have an exponential model.
+            </p>
+            <table>
             <title>My Non-Exponential Model</title>
             <tabular row-headers = "yes" top="minor" bottom="minor" right="minor" left="minor">
                 <row>
@@ -185,7 +194,10 @@
                 </row>
             </tabular>
         </table>
-        Carefully explain in words how you know that your table doesn't have an exponential model. Your explanation should use percent changes and/or change factors, not a formula.
+        <p>
+            Carefully explain in words how you know that your table doesn't have an exponential model. Your explanation should use percent changes and/or change factors, not a formula.
+        </p>
+        </statement>        
     </activity>
 
     <activity xml:id="a-population-models">

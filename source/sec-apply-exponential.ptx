@@ -126,4 +126,155 @@
         </task>
     </activity>
   </page>
+
+  <page>
+    <activity xml:id="a-inflation">
+        <introduction>
+            <p>
+                Prices increase over time due to inflation. Inflation varies from year to year, but we can calculate average annual inflation and use it to study price increases over a time period. Inflation also varies between categories of goods and services: some types of goods and services have experienced faster inflation than others in recent years. 
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    The average inflation rate<fn>Calculated using data from the <url href="https://www.bls.gov/data/inflation_calculator.htm">Bureau of Labor Statistics</url>.</fn> between 1985 and 2025 was about 2.78% per year. Use this information to find a formula to calculate the amount of money you'd have needed, <m>t</m> years after 1985, in order to have the same buying power as $100 in 1985.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Use your formula to calculate the amount of money you'd have needed in 2000, 2010, and 2025 in order to have the same buying power as $100 in 1985.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <introduction>
+                <p>
+                    The average tuition at a private, four-year university<fn><url href="https://nces.ed.gov/programs/digest/d07/tables/dt07_320.asp" /></fn> in 1985 was $6,121. 
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Set up a new formula to calculate the average college tuition at a private, four-year univeristy, <m>t</m> years after 1985, assuming average college tuition increased at the overall average inflation rate.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use your formula to estimate the average college tuition in 2024.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The average cost of college tuition at a private, four-year university in 2024 was about $43,400 (2025 numbers weren't yet available when this problem was written!). Was the average inflation rate for college tuition higher, lower, or about the same as for the US as a whole?
+                    </p>
+                </statement>
+            </task>
+        </task>
+        <task>
+            <introduction>
+                <p>
+                    According to one source<fn><url href="http://1980sflashback.com/1985/Economy.asp" /></fn>, a dozen eggs cost about $0.80 in 1985.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Set up a new formula to calculate the price of a dozen eggs, <m>t</m> years after 1985, assuming this price increased at the overall average inflation rate.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use your formula to estimate the price of a dozen eggs in 2025.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        According to one source<fn><url href="https://eggprices.org/national-data" /></fn>, the price of a dozen eggs in September 2025 was about $2.00. Was the average inflation rate for a dozen eggs higher, lower, or about the same as for the US as a whole?
+                    </p>
+                </statement>
+            </task>
+        </task>
+    </activity>
+
+    <activity>
+        <introduction>
+            <p>
+                Inflation measures price increases over time. The impact that price increases due to inflation have on people's lives depends not only on inflation itself, but also on whether or not their wages are increasing by a corresponding amount. According to the US Census Bureau<fn><url href="https://www.census.gov/library/publications/1987/demo/p60-156.html" /></fn>, the median US household income was $23,260 in 1985.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Use the average annual inflation rate of 2.78% per year to build a formula for the median household income <m>t</m> years after 1985, assuming the median household income increased at the same rate as overall inflation.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Use your formula to estimate the median household income in 2024.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    According the US Census Bureau<fn><url href="https://www.census.gov/library/visualizations/2025/comm/median-household-income.html" /></fn>, the median US household income in 2024 was $83,730. Has the median household income increased at a faster, slower, or about the same rate as overall inflation? What does this tell you about the overall affordability of life for the median US household? Does your answer match with your intuition?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <introduction>
+                <p>
+                    The overall average annual inflation rate in the US between 1985 and 2024 may have only been 2.78%, but the average inflation rate for private, four-year university tuition specifically was 5.15%.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Use the inflation rate for private, four-year university tuition to build a formula for the median household income <m>t</m> years after 1985, then use your formula to estimate the median household income in 2024.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What does this tell you about the affordability of a private, four-year university education for the median US household?
+                    </p>
+                </statement>
+            </task>
+        </task>
+        <task>
+            <introduction>
+                <p>
+                    The median sales price of a US house<fn><url href="https://www.visualcapitalist.com/charted-american-income-vs-home-prices-1985-2025/" /></fn> in 1985 was $82,800. The median sales price of a US house in 2025 is about $416,900. This means that average annual inflation in house sales prices during this period was about 4.12%.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Use the inflation rate for house sales to build a formula for the median household income <m>t</m> years after 1985, then use your formula to estimate the median household income in 2024.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What does this tell you about the affordability of the median house in the US for the median US household?
+                    </p>
+                </statement>
+            </task>
+        </task>
+    </activity>
+  </page>
 </section>
