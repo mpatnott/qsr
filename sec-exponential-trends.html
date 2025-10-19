@@ -102,15 +102,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.9.10';
+eBookConfig.runestone_version = '7.9.14';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.fea5c754ab3e056b.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.b37c97cbe7a5455b.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8141ae22fd347e48.css">
+<script src="_static/prefix-runtime.cc8d78735f870736.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.29d986501a531379.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.557d81b04b3ec0e4.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
@@ -446,7 +446,172 @@ P \amp \approx 251,\!188,\!643
 <div class="autopermalink" data-description="Task 11.2.4.e"><a href="#a-cost-of-data-storage-6" title="Copy heading and permalink for Task 11.2.4.e">🔗</a></div></article><article class="task exercise-like" id="a-cost-of-data-storage-7"><h4 class="heading"><span class="codenumber">(f)</span></h4>
 <div class="para" id="a-cost-of-data-storage-7-1-1">Use the steps you learned in the population activities to use your linear model to estimate when the cost per megabyte of storage space was $0.0001.<div class="autopermalink" data-description="Paragraph"><a href="#a-cost-of-data-storage-7-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 11.2.4.f"><a href="#a-cost-of-data-storage-7" title="Copy heading and permalink for Task 11.2.4.f">🔗</a></div></article><div class="autopermalink" data-description="Activity 11.2.4"><a href="#a-cost-of-data-storage" title="Copy heading and permalink for Activity 11.2.4">🔗</a></div></article><div class="autopermalink" data-description="Section 11.2: Exponential Trends Activities"><a href="#sec-exponential-trends" title="Copy heading and permalink for Section 11.2: Exponential Trends Activities">🔗</a></div></section></div>
+<div class="autopermalink" data-description="Task 11.2.4.f"><a href="#a-cost-of-data-storage-7" title="Copy heading and permalink for Task 11.2.4.f">🔗</a></div></article><div class="autopermalink" data-description="Activity 11.2.4"><a href="#a-cost-of-data-storage" title="Copy heading and permalink for Activity 11.2.4">🔗</a></div></article><article class="activity project-like" id="sec-exponential-trends-5-1"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">11.2.5</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="sec-exponential-trends-5-1-1">
+<div class="para" id="sec-exponential-trends-5-1-1-1">Alia is an economist studying increases in prosperity in East Asia since World War II. One of the data sets that she’s using in her study gives GDP per capita between 1820 and 2020.<details class="ptx-footnote" aria-live="polite" id="sec-exponential-trends-5-1-1-1-1"><summary class="ptx-footnote__number" title="Footnote 11.2.2"><sup> 2 </sup></summary><div class="ptx-footnote__contents" id="sec-exponential-trends-5-1-1-1-1"><a class="external" href="https://ourworldindata.org/grapher/gdp-per-capita-maddison-project-database?tab=line" target="_blank"><code class="code-inline tex2jax_ignore">https://ourworldindata.org/grapher/gdp-per-capita-maddison-project-database?tab=line</code></a></div></details> The subset of this data of interest to Alia is in the table below.<div class="autopermalink" data-description="Paragraph"><a href="#sec-exponential-trends-5-1-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="table table-like" id="sec-exponential-trends-5-1-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">11.2.6<span class="period">.</span></span><span class="space"> </span>GDP Per Capita in East Asia, 1950 - 2020 (in constant international dollars at 2011 prices, to adjust for inflation and cost of living differences between countries)<div class="autopermalink" data-description="Table 11.2.6: GDP Per Capita in East Asia, 1950 - 2020 (in constant international dollars at 2011 prices, to adjust for inflation and cost of living differences between countries)"><a href="#sec-exponential-trends-5-1-1-2" title="Copy heading and permalink for Table 11.2.6: GDP Per Capita in East Asia, 1950 - 2020 (in constant international dollars at 2011 prices, to adjust for inflation and cost of living differences between countries)">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Year</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">GDP Per Capita</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1950</td>
+<td class="c m b1 r1 l0 t0 lines">1109</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1960</td>
+<td class="c m b1 r1 l0 t0 lines">1726</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1970</td>
+<td class="c m b1 r1 l0 t0 lines">3031</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1980</td>
+<td class="c m b1 r1 l0 t0 lines">4191</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1990</td>
+<td class="c m b1 r1 l0 t0 lines">6090</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2000</td>
+<td class="c m b1 r1 l0 t0 lines">8153</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2010</td>
+<td class="c m b1 r1 l0 t0 lines">12,862</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2020</td>
+<td class="c m b1 r1 l0 t0 lines">19,750</td>
+</tr>
+</table></div></figure>
+</div>
+<article class="task exercise-like" id="sec-exponential-trends-5-1-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="sec-exponential-trends-5-1-2-1-1">Add a new column to the table for the Log of GDP. Keep three decimal places!<div class="autopermalink" data-description="Paragraph"><a href="#sec-exponential-trends-5-1-2-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 11.2.5.a"><a href="#sec-exponential-trends-5-1-2" title="Copy heading and permalink for Task 11.2.5.a">🔗</a></div></article><article class="task exercise-like" id="sec-exponential-trends-5-1-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="sec-exponential-trends-5-1-3-1-1">Find a formula for a linear model for log GDP. Use <span class="process-math">\(L\)</span> as the output variable and <span class="process-math">\(t\)</span> as the input variable, and include at least four decimal places in your slope.<div class="autopermalink" data-description="Paragraph"><a href="#sec-exponential-trends-5-1-3-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 11.2.5.b"><a href="#sec-exponential-trends-5-1-3" title="Copy heading and permalink for Task 11.2.5.b">🔗</a></div></article><article class="task exercise-like" id="sec-exponential-trends-5-1-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="sec-exponential-trends-5-1-4-1-1">Use the steps you learned in the population activities to use your linear model to estimate the GDP per capita in 2025.<div class="autopermalink" data-description="Paragraph"><a href="#sec-exponential-trends-5-1-4-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 11.2.5.c"><a href="#sec-exponential-trends-5-1-4" title="Copy heading and permalink for Task 11.2.5.c">🔗</a></div></article><article class="task exercise-like" id="sec-exponential-trends-5-1-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="sec-exponential-trends-5-1-5-1-1">Use the steps you learned in the population activities to use your linear model to estimate when GDP per capita was $10,000.<div class="autopermalink" data-description="Paragraph"><a href="#sec-exponential-trends-5-1-5-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 11.2.5.d"><a href="#sec-exponential-trends-5-1-5" title="Copy heading and permalink for Task 11.2.5.d">🔗</a></div></article><article class="task exercise-like" id="sec-exponential-trends-5-1-6"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<div class="para logical" id="sec-exponential-trends-5-1-6-1-1">
+<div class="para">Sometimes it’s useful to undo the logs and get a formula for an exponential model for the original output variable. The key to doing this is to remember that</div>
+<div class="displaymath process-math">
+\begin{equation*}
+10^{\log(y)} = y\text{.}
+\end{equation*}
+</div>
+<div class="para">Let <span class="process-math">\(G\)</span> be the GDP per capita and rewrite your formula by replacing <span class="process-math">\(L\)</span> with <span class="process-math">\(\log(G)\text{.}\)</span> Then, apply the “10 to the power of” operation to both sides of your equation to get a formula for <span class="process-math">\(G\text{.}\)</span> Your formula should look like</div>
+<div class="displaymath process-math">
+\begin{equation*}
+G = 10^{at + b}\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-exponential-trends-5-1-6-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 11.2.5.e"><a href="#sec-exponential-trends-5-1-6" title="Copy heading and permalink for Task 11.2.5.e">🔗</a></div></article><article class="task exercise-like" id="sec-exponential-trends-5-1-7"><h4 class="heading"><span class="codenumber">(f)</span></h4>
+<div class="para" id="sec-exponential-trends-5-1-7-1-1">Use your formula for <span class="process-math">\(G\)</span> to estimate GPD per capita in 2025 and to estimate when GDP per capita was $10,000. Do you get the same answers as you did with the linear model for <span class="process-math">\(L = \log(G)\text{?}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-exponential-trends-5-1-7-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 11.2.5.f"><a href="#sec-exponential-trends-5-1-7" title="Copy heading and permalink for Task 11.2.5.f">🔗</a></div></article><div class="autopermalink" data-description="Activity 11.2.5"><a href="#sec-exponential-trends-5-1" title="Copy heading and permalink for Activity 11.2.5">🔗</a></div></article><article class="activity project-like" id="a-child-mortality"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">11.2.6</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="a-child-mortality-1">
+<div class="para" id="a-child-mortality-1-1">The graphs below show the child mortality rate in the US between 1933 and 2021.<details class="ptx-footnote" aria-live="polite" id="a-child-mortality-1-1-1"><summary class="ptx-footnote__number" title="Footnote 11.2.3"><sup> 3 </sup></summary><div class="ptx-footnote__contents" id="a-child-mortality-1-1-1"><a class="external" href="https://ourworldindata.org/child-mortality-big-problem-in-brief" target="_blank"><code class="code-inline tex2jax_ignore">https://ourworldindata.org/child-mortality-big-problem-in-brief</code></a></div></details><div class="autopermalink" data-description="Paragraph"><a href="#a-child-mortality-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="fig-us-child-mortality"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;"><figure class="figure figure-like" id="fig-us-child-mortality-numbers"><img src="external/./images/US-child-mortality-1933-to-2021.png" class="contained" alt="Graph showing the child mortality rate in the US between 1933 and 2021."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="fig-us-child-mortality-numbers-2-description"><div class="para" id="fig-us-child-mortality-numbers-2-2-1">The child mortality rate appears to have decreased exponentially, from nearly 8% in 1934 to about 0.6% in 2021.<div class="autopermalink" data-description="Paragraph"><a href="#fig-us-child-mortality-numbers-2-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div></details><figcaption><span class="codenumber">(a)</span><span class="space"> </span>Child Mortality Rate<div class="autopermalink" data-description="Figure 11.2.7.(a)"><a href="#fig-us-child-mortality-numbers" title="Copy heading and permalink for Figure 11.2.7.(a)">🔗</a></div></figcaption></figure></div>
+<div class="sbspanel top" style="width:50%;"><figure class="figure figure-like" id="fig-us-child-mortality-log"><img src="external/./images/US-child-mortality-1933-to-2021-log.png" class="contained" alt="Graph showing the log of the child mortality rate in the US between 1933 and 2021."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="fig-us-child-mortality-log-2-description"><div class="para" id="fig-us-child-mortality-log-2-2-1">The log of the child mortality rate is approximately linear. It’s about 0.9 in 1934 and about -0.2 in 2021.<div class="autopermalink" data-description="Paragraph"><a href="#fig-us-child-mortality-log-2-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div></details><figcaption><span class="codenumber">(b)</span><span class="space"> </span>Log of Child Mortality Rate<div class="autopermalink" data-description="Figure 11.2.7.(b)"><a href="#fig-us-child-mortality-log" title="Copy heading and permalink for Figure 11.2.7.(b)">🔗</a></div></figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">11.2.7<span class="period">.</span></span><span class="space"> </span>US Child Mortality Rate Between 1933 and 2021.<div class="autopermalink" data-description="Figure 11.2.7"><a href="#fig-us-child-mortality" title="Copy heading and permalink for Figure 11.2.7">🔗</a></div></figcaption></figure>
+</div>
+<article class="task exercise-like" id="a-child-mortality-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="a-child-mortality-2-1-1">Explain why a linear model is a better fit for the log of the child mortality rate than the child mortality rate.<div class="autopermalink" data-description="Paragraph"><a href="#a-child-mortality-2-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 11.2.6.a"><a href="#a-child-mortality-2" title="Copy heading and permalink for Task 11.2.6.a">🔗</a></div></article><article class="task exercise-like" id="a-child-mortality-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="a-child-mortality-3-1-1">Find a formula for a linear model for the log of the child mortality rate.<div class="autopermalink" data-description="Paragraph"><a href="#a-child-mortality-3-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 11.2.6.b"><a href="#a-child-mortality-3" title="Copy heading and permalink for Task 11.2.6.b">🔗</a></div></article><article class="task exercise-like" id="a-child-mortality-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="a-child-mortality-4-1-1">Find a formula for an exponential model for the child mortality rate.<div class="autopermalink" data-description="Paragraph"><a href="#a-child-mortality-4-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 11.2.6.c"><a href="#a-child-mortality-4" title="Copy heading and permalink for Task 11.2.6.c">🔗</a></div></article><article class="task exercise-like" id="a-child-mortality-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="a-child-mortality-5-1-1">Use your exponential model for the child mortality rate to estimate it in 1940, 1995, and 2025. What do you notice? What do you wonder?<div class="autopermalink" data-description="Paragraph"><a href="#a-child-mortality-5-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 11.2.6.d"><a href="#a-child-mortality-5" title="Copy heading and permalink for Task 11.2.6.d">🔗</a></div></article><div class="autopermalink" data-description="Activity 11.2.6"><a href="#a-child-mortality" title="Copy heading and permalink for Activity 11.2.6">🔗</a></div></article><article class="activity project-like" id="a-linear-exp-or-neither"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">11.2.7</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="a-linear-exp-or-neither-1"><div class="para" id="a-linear-exp-or-neither-1-1">Graph each of the data sets given below, and use your graph to decide whether a linear model, an exponential model, or neither is a reasonable fit for the trend. If a linear or exponential model is a reasonable fit for the trend, find a formula for it.<div class="autopermalink" data-description="Paragraph"><a href="#a-linear-exp-or-neither-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="a-linear-exp-or-neither-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="a-linear-exp-or-neither-2-1-1">The average price of electricity (in cents per kilowatt hour) from 1990 through 2008 is given below.<div class="autopermalink" data-description="Paragraph"><a href="#a-linear-exp-or-neither-2-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="table table-like" id="a-linear-exp-or-neither-2-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">11.2.8<span class="period">.</span></span><span class="space"> </span>Average Electricity Price (cents per kilowatt hour)<div class="autopermalink" data-description="Table 11.2.8: Average Electricity Price (cents per kilowatt hour)"><a href="#a-linear-exp-or-neither-2-1-2" title="Copy heading and permalink for Table 11.2.8: Average Electricity Price (cents per kilowatt hour)">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<th scope="row" class="c m b1 r1 l1 t1 lines">Year</th>
+<td class="c m b1 r1 l0 t1 lines">1990</td>
+<td class="c m b1 r1 l0 t1 lines">1992</td>
+<td class="c m b1 r1 l0 t1 lines">1994</td>
+<td class="c m b1 r1 l0 t1 lines">1996</td>
+<td class="c m b1 r1 l0 t1 lines">1998</td>
+<td class="c m b1 r1 l0 t1 lines">2000</td>
+<td class="c m b1 r1 l0 t1 lines">2002</td>
+<td class="c m b1 r1 l0 t1 lines">2004</td>
+<td class="c m b1 r1 l0 t1 lines">2006</td>
+<td class="c m b1 r1 l0 t1 lines">2008</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Cost</th>
+<td class="c m b1 r1 l0 t0 lines">7.83</td>
+<td class="c m b1 r1 l0 t0 lines">8.21</td>
+<td class="c m b1 r1 l0 t0 lines">8.38</td>
+<td class="c m b1 r1 l0 t0 lines">8.36</td>
+<td class="c m b1 r1 l0 t0 lines">8.26</td>
+<td class="c m b1 r1 l0 t0 lines">8.24</td>
+<td class="c m b1 r1 l0 t0 lines">8.44</td>
+<td class="c m b1 r1 l0 t0 lines">8.95</td>
+<td class="c m b1 r1 l0 t0 lines">10.50</td>
+<td class="c m b1 r1 l0 t0 lines">11.26</td>
+</tr>
+</table></div></figure><div class="autopermalink" data-description="Task 11.2.7.a"><a href="#a-linear-exp-or-neither-2" title="Copy heading and permalink for Task 11.2.7.a">🔗</a></div></article><article class="task exercise-like" id="a-linear-exp-or-neither-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="a-linear-exp-or-neither-3-1-1">The average cost of a loaf of white bread from 1986 through 2008 is given below.<div class="autopermalink" data-description="Paragraph"><a href="#a-linear-exp-or-neither-3-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="table table-like" id="a-linear-exp-or-neither-3-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">11.2.9<span class="period">.</span></span><span class="space"> </span>Average Cost of a Loaf of White Bread ($)<div class="autopermalink" data-description="Table 11.2.9: Average Cost of a Loaf of White Bread ($)"><a href="#a-linear-exp-or-neither-3-1-2" title="Copy heading and permalink for Table 11.2.9: Average Cost of a Loaf of White Bread ($)">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<th scope="row" class="c m b1 r1 l1 t1 lines">Year</th>
+<td class="c m b1 r1 l0 t1 lines">1986</td>
+<td class="c m b1 r1 l0 t1 lines">1988</td>
+<td class="c m b1 r1 l0 t1 lines">1990</td>
+<td class="c m b1 r1 l0 t1 lines">1995</td>
+<td class="c m b1 r1 l0 t1 lines">1997</td>
+<td class="c m b1 r1 l0 t1 lines">2000</td>
+<td class="c m b1 r1 l0 t1 lines">2002</td>
+<td class="c m b1 r1 l0 t1 lines">2004</td>
+<td class="c m b1 r1 l0 t1 lines">2006</td>
+<td class="c m b1 r1 l0 t1 lines">2008</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Cost</th>
+<td class="c m b1 r1 l0 t0 lines">0.57</td>
+<td class="c m b1 r1 l0 t0 lines">0.66</td>
+<td class="c m b1 r1 l0 t0 lines">0.70</td>
+<td class="c m b1 r1 l0 t0 lines">0.84</td>
+<td class="c m b1 r1 l0 t0 lines">0.88</td>
+<td class="c m b1 r1 l0 t0 lines">0.99</td>
+<td class="c m b1 r1 l0 t0 lines">1.03</td>
+<td class="c m b1 r1 l0 t0 lines">0.97</td>
+<td class="c m b1 r1 l0 t0 lines">1.14</td>
+<td class="c m b1 r1 l0 t0 lines">1.42</td>
+</tr>
+</table></div></figure><div class="autopermalink" data-description="Task 11.2.7.b"><a href="#a-linear-exp-or-neither-3" title="Copy heading and permalink for Task 11.2.7.b">🔗</a></div></article><div class="autopermalink" data-description="Activity 11.2.7"><a href="#a-linear-exp-or-neither" title="Copy heading and permalink for Activity 11.2.7">🔗</a></div></article><div class="autopermalink" data-description="Section 11.2: Exponential Trends Activities"><a href="#sec-exponential-trends" title="Copy heading and permalink for Section 11.2: Exponential Trends Activities">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="sec-exponential-trends-prep.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-power-models.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
