@@ -474,7 +474,119 @@
     </activity>
   </page>
 
-  <!--<page>
+  <page>
+    <activity>
+        <introduction>
+            <p>
+                Alia is an economist studying increases in prosperity in East Asia since World War II. One of the data sets that she's using in her study gives GDP per capita between 1820 and 2020.<fn><url href="https://ourworldindata.org/grapher/gdp-per-capita-maddison-project-database?tab=line" /></fn> The subset of this data of interest to Alia is in the table below.
+            </p>
+            <table>
+                <title>GDP Per Capita in East Asia, 1950 - 2020 (in constant international dollars at 2011 prices, to adjust for inflation and cost of living differences between countries)</title>
+                <tabular halign="center" top="minor" bottom="minor" right="minor" left="minor">
+                    <row header="yes">
+                        <cell>Year</cell>
+                        <cell>GDP Per Capita</cell>
+                    </row>
+                    <!--<row>
+                        <cell>1900</cell>
+                        <cell>1086</cell>
+                    </row>
+                    <row>
+                        <cell>1910</cell>
+                        <cell>1056</cell>
+                    </row>
+                    <row>
+                        <cell>1920</cell>
+                        <cell>1216</cell>
+                    </row>
+                    <row>
+                        <cell>1930</cell>
+                        <cell>1296</cell>
+                    </row>
+                    <row>
+                        <cell>1940</cell>
+                        <cell>1496</cell>
+                    </row>-->
+                    <row>
+                        <cell>1950</cell>
+                        <cell>1109</cell>
+                    </row>
+                    <row>
+                        <cell>1960</cell>
+                        <cell>1726</cell>
+                    </row>
+                    <row>
+                        <cell>1970</cell>
+                        <cell>3031</cell>
+                    </row>
+                    <row>
+                        <cell>1980</cell>
+                        <cell>4191</cell>
+                    </row>
+                    <row>
+                        <cell>1990</cell>
+                        <cell>6090</cell>
+                    </row>
+                    <row>
+                        <cell>2000</cell>
+                        <cell>8153</cell>
+                    </row>
+                    <row>
+                        <cell>2010</cell>
+                        <cell>12,862</cell>
+                    </row>
+                    <row>
+                        <cell>2020</cell>
+                        <cell>19,750</cell>
+                    </row>
+                </tabular>
+            </table>
+        </introduction>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Add a new column to the table for the Log of GDP. Keep three decimal places!
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Find a formula for a linear model for log GDP. Use <m>L</m> as the output variable and <m>t</m> as the input variable, and include at least four decimal places in your slope.</p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Use the steps you learned in the population activities to use your linear model to estimate the GDP per capita in 2025.
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Use the steps you learned in the population activities to use your linear model to estimate when GDP per capita was $10,000.
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Sometimes it's useful to undo the logs and get a formula for an exponential model for the original output variable. The key to doing this is to remember that <me>10^{\log(y)} = y</me>. Let <m>G</m> be the GDP per capita and rewrite your formula by replacing <m>L</m> with <m>\log(G)</m>. Then, apply the <q>10 to the power of</q> operation to both sides of your equation to get a formula for <m>G</m>. Your formula should look like <me>G = 10^{at + b}</me>.
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Use your formula for <m>G</m> to estimate GPD per capita in 2025 and to estimate when GDP per capita was $10,000. Do you get the same answers as you did with the linear model for <m>L = \log(G)</m>?
+                </p>
+            </statement>
+        </task>
+    </activity>
+  </page>
+
+  <page>
     <activity xml:id="a-child-mortality">
         <introduction>
             <p>
@@ -537,13 +649,13 @@
             </statement>
         </task>
     </activity>
-  </page>-->
+  </page>
 
-  <!-- <page>
+  <page>
     <activity xml:id="a-linear-exp-or-neither">
         <introduction>
             <p>
-                Graph each of the data sets given below, and use your graph to decide whether a linear model, an exponential model, or neither is a reasonable fit for the trend. If a linear model or exponential model is a reasonable fit for the trend, find a formula for it.
+                Graph each of the data sets given below, and use your graph to decide whether a linear model, an exponential model, or neither is a reasonable fit for the trend. If a linear or exponential model is a reasonable fit for the trend, find a formula for it.
             </p>
         </introduction>
         <task workspace="3.5in">
@@ -623,5 +735,5 @@
             </statement>
         </task>
     </activity>
-  </page> -->
+  </page>
 </section>

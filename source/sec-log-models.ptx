@@ -571,73 +571,15 @@
         </task>
     </activity>
 
-    <!--<activity>
-        <statement>
+    <!-- Flesh this out to be a new activity?
+     Have them find the logs of all of the numbers in the table.
+     Notice that they're all negative, and that's annoying! Define pH. 
+     <activity xml:id="a-ph">
+        <introduction>
             <p>
-                Researchers often use logs to help them make graphs when there are big size differences between the values in their data set. Alia is an economist studying increases in prosperity in East Asia since 1900. One of the data sets that she's using in her study gives GDP per capita between 1900 and 2020.<fn><url href="https://ourworldindata.org/grapher/gdp-per-capita-maddison-project-database?tab=line" /></fn>
+                Chemists are often interested in the concentration of hydrogen ions in liquid solutions. The table below shows the approximate concentration of hydrogen ions in a variety of liquids.
             </p>
-            <table>
-                <title>GDP Per Capita in East Asia, 1900 - 2020 (in constant international dollars at 2011 prices, to adjust for inflation and cost of living differences between countries)</title>
-                <tabular halign="center" top="minor" bottom="minor" right="minor" left="minor">
-                    <row header="yes">
-                        <cell>Year</cell>
-                        <cell>GDP Per Capita</cell>
-                    </row>
-                    <row>
-                        <cell>1900</cell>
-                        <cell>1086</cell>
-                    </row>
-                    <row>
-                        <cell>1910</cell>
-                        <cell>1056</cell>
-                    </row>
-                    <row>
-                        <cell>1920</cell>
-                        <cell>1216</cell>
-                    </row>
-                    <row>
-                        <cell>1930</cell>
-                        <cell>1296</cell>
-                    </row>
-                    <row>
-                        <cell>1940</cell>
-                        <cell>1496</cell>
-                    </row>
-                    <row>
-                        <cell>1950</cell>
-                        <cell>1109</cell>
-                    </row>
-                    <row>
-                        <cell>1960</cell>
-                        <cell>1726</cell>
-                    </row>
-                    <row>
-                        <cell>1970</cell>
-                        <cell>3031</cell>
-                    </row>
-                    <row>
-                        <cell>1980</cell>
-                        <cell>4191</cell>
-                    </row>
-                    <row>
-                        <cell>1990</cell>
-                        <cell></cell>
-                    </row>
-                    <row>
-                        <cell>2000</cell>
-                        <cell></cell>
-                    </row>
-                    <row>
-                        <cell>2010</cell>
-                        <cell></cell>
-                    </row>
-                    <row>
-                        <cell>2020</cell>
-                        <cell></cell>
-                    </row>
-                </tabular>
-            </table>
-        </statement>
-    </activity>-->
+        </introduction>
+    </activity> -->
   </page>
 </section>
