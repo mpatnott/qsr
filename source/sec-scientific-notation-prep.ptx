@@ -30,7 +30,7 @@
         <p>
             Below is a table that describes some large numbers in words, standard decimal notation, and <term>scientific notation</term>. Notice that: 
             <ul>
-                <li> Numbers written in scientific notation always have one nonzero number to the left of the decimal, but can have as money numbers as desired/needed to the right of the decimal.</li>
+                <li> Numbers written in scientific notation always have one nonzero number to the left of the decimal, but can have as many numbers as desired/needed to the right of the decimal.</li>
                 <li> Scientific notation always include <q><m>\times 10^{\text{some power}}</m></q></li>
                 <li> Scientific notation keeps track of the number of decimal places to the right of the first digit but before the decimal point using the exponent.</li>
             </ul>
