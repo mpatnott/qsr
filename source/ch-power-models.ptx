@@ -8,7 +8,12 @@
   </introduction> -->
 
 <!-- include sections -->
-  <chapter xml:id="ch-intro-power-models" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <chapter xml:id="ch-direct-variation" xmlns:xi:="http://www.w3.org/2001/XInclude">
+    <title>Proportionality and Direct Variation</title>
+    
+    <xi:include href="sec-direct-variation-prep.ptx" />
+ </chapter>
+  <!-- <chapter xml:id="ch-intro-power-models" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Introduction to Power Models</title>
     
     <xi:include href="sec-power-models-prep.ptx" />
@@ -41,5 +46,5 @@
     
     <xi:include href="sec-roots-fractions-prep.ptx" />
     <xi:include href="sec-roots-fractions.ptx" />
-  </chapter>
+  </chapter> -->
 </part>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-power-models-prep" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Proportionality and Direct Variation Prep Activities</title>
+
+  <introduction>
+    <p>
+      Two varying quantities <m>Q_1</m> and <m>Q_2</m> have a <term>proportional relationship</term> when the ratio between the quantities is constant. That is, <m>Q_1</m> and <m>Q_2</m> have a proportional relationship when 
+      <me>
+        c = \frac{Q_2}{Q_1}
+      </me>
+      always has the same value. We call <m>c</m> the <term>constant of proportionality.</term>
+    </p>
+  </introduction>
+
+  <investigation xml:id="pa-proportion-or-not">
+    <introduction>
+        <p>
+            Peyton is using an app to track data about their recent activity. The tables below show time, <m>T</m>, (measured in minutes) and distance, <m>D</m> from their starting location (measured in miles) data from three of Peyton's recent activity sessions.
+        </p>
+        <sidebyside>
+                <table>
+                    <title>Walk</title>
+                    <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                        <row header="yes">
+                            <cell><m>T</m></cell>
+                            <cell><m>D</m></cell>
+                        </row>
+                        <row>
+                            <cell>5</cell>
+                            <cell>0.25</cell>
+                        </row>
+                        <row>
+                            <cell>10</cell>
+                            <cell>0.5</cell>
+                        </row>
+                        <row>
+                            <cell>15</cell>
+                            <cell>0.75</cell>
+                        </row>
+                        <row>
+                            <cell>20</cell>
+                            <cell>1.0</cell>
+                        </row>
+                        <row>
+                            <cell>25</cell>
+                            <cell>1.25</cell>
+                        </row>
+                    </tabular>
+                </table>
+                <table>
+                    <title>Hike</title>
+                    <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                        <row header="yes">
+                            <cell><m>T</m></cell>
+                            <cell><m>D</m></cell>
+                        </row>
+                        <row>
+                            <cell>10</cell>
+                            <cell>0.5</cell>
+                        </row>
+                        <row>
+                            <cell>20</cell>
+                            <cell>0.75</cell>
+                        </row>
+                        <row>
+                            <cell>30</cell>
+                            <cell>1.0</cell>
+                        </row>
+                        <row>
+                            <cell>40</cell>
+                            <cell>1.5</cell>
+                        </row>
+                        <row>
+                            <cell>50</cell>
+                            <cell>1.75</cell>
+                        </row>
+                    </tabular>
+                </table>
+                <table>
+                    <title>Bike Ride</title>
+                    <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                        <row header="yes">
+                            <cell><m>T</m></cell>
+                            <cell><m>D</m></cell>
+                        </row>
+                        <row>
+                            <cell>10</cell>
+                            <cell>2.5</cell>
+                        </row>
+                        <row>
+                            <cell>20</cell>
+                            <cell>5.0</cell>
+                        </row>
+                        <row>
+                            <cell>30</cell>
+                            <cell>7.5</cell>
+                        </row>
+                        <row>
+                            <cell>40</cell>
+                            <cell>10.0</cell>
+                        </row>
+                        <row>
+                            <cell>50</cell>
+                            <cell>12.5</cell>
+                        </row>
+                    </tabular>
+                </table>
+            </sidebyside>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          Find <m>\frac{D}{T}</m> for each row in the Walk table. Use your results to determine whether Peyton's time and distance on their walk have a proportional relationship.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Find <m>\frac{D}{T}</m> for each row in the Hike table. Use your results to determine whether Peyton's time and distance on their hike have a proportional relationship.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Find <m>\frac{D}{T}</m> for each row in the Bike Ride table. Use your results to determine whether Peyton's time and distance on their bike ride have a proportional relationship.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          What is the constant of proportionality for each of the activities in which Peyton's time and distance had a proportional relationship?
+        </p>
+      </statement>
+    </task>
+  </investigation>
+
+  <investigation xml:id="pa-varies-directly">
+    <introduction>
+      <p>
+        When two quantities have a proportional relationship, it is often useful to rewrite the equation
+        <me>
+          c = \frac{Q_2}{Q_1}
+        </me> 
+        as
+        <me>Q_2 = c Q_1</me>.
+        We sometimes say that <m>Q_2</m> <term>varies directly</term> with respect to <m>Q_1</m>.
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          Use your work from <xref ref="pa-proportion-or-not"/> to write an equation that shows that Peyton's distance varies directly with respect to time for one of their activities.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Use your equation to predict Peyton's distance after 65 minutes of activity.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Use your equation to predict how long it would take Peyton to go 3.0 miles.
+        </p>
+      </statement>
+    </task>
+  </investigation>
+
+  <investigation xml:id="pa-prep-survey-direct-variation">
+            <p>
+                You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).
+            </p>
+            <table>
+                <tabular bottom = "minor" top = "minor" left = "minor" right = "minor">
+                    <row header ="yes" bottom = "minor">
+                        <cell>Skill or Concept: I can …</cell>
+                        <cell>Rating from 1 to 5</cell>
+                    </row>
+                    <row bottom = "minor">
+                        <cell>Determine whether two quantities have a proportional relationship.</cell>
+                        <cell></cell>
+                    </row>
+                    <row bottom = "minor">
+                        <cell>Find the constant of proportionality for two quantities with a proportional relationship from a data table.</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell>Write an equation that shows a quantity <m>Q_2</m> varies directly with respect to another quantity <m>Q_1</m>.</cell>
+                        <cell></cell>
+                    </row>
+                </tabular>
+            </table>
+        </investigation>
+</section>
