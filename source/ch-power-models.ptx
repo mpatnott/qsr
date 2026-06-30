@@ -12,6 +12,7 @@
     <title>Proportionality and Direct Variation</title>
     
     <xi:include href="sec-direct-variation-prep.ptx" />
+    <xi:include href="sec-direct-variation.ptx" />
  </chapter>
   <!-- <chapter xml:id="ch-intro-power-models" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Introduction to Power Models</title>

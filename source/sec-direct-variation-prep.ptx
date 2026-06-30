@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-power-models-prep" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-direct-variation-prep" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Proportionality and Direct Variation Prep Activities</title>
 
   <introduction>
@@ -173,6 +173,88 @@
     </task>
   </investigation>
 
+  <investigation xml:id="pa-using-roots-to-solve">
+    <introduction>
+      <p>
+        In this unit, we will need to be able to solve equations of the form <me>y = cx^n</me>, where the values of <m>y</m>, <m>c</m>, and <m>n</m> are known.
+      </p>
+      <ol>
+        <li>
+          <p>
+            Divide by sides by <m>c</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            When <m>n</m> is a positive whole number, take the <term>n-th root</term> of both sides. 
+          </p>
+        </li>
+      </ol>
+      <p>
+        Here is an example:
+      </p>
+      <table>
+        <title>Solving an equation with an unknown base and a known power.</title>
+        <tabular>
+          <row>
+            <cell><m>24 = 3x^3</m></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell><m>8 = x^3</m></cell>
+            <cell>Divide by sides by 3, and compute <m>\frac{24}{3} = 8</m></cell>
+          </row>
+          <row>
+            <cell><m>\sqrt[3]{8} = \sqrt[3]{x^3}</m></cell>
+            <cell>Take the 3rd root, <m>\sqrt[3]{\ }</m>, of both sides</cell>
+          </row>
+          <row>
+            <cell><m>2 = x</m></cell>
+            <cell>Calculate <m>\sqrt[3]{8} = 2</m></cell>
+          </row>
+        </tabular>
+      </table>
+      <p>
+        The TI-30XIIS calculator can calculate the <m>n</m>th root using 2nd + ^. To calculate <m>\sqrt[3]{8}</m>, for example, press 3, then 2nd, then ^, then 8, then =. We will study roots more carefully in a few lessons, but you will need to be able to use them to solve equations in the next class period.
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          Use roots to find a solution to each of the following equations:
+        </p>
+      </statement>
+      <task>
+        <statement>
+          <p>
+            <m>972 = 0.125x^5</m>
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>36 = 2x^3</m>
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>0.5 = 0.02x^2</m>
+          </p>
+        </statement>
+      </task>
+    </task>
+    <task>
+      <statement>
+        <p>
+          In previous math classes, you may have learned that when the power is even, like in <m>0.5 = 0.02x^2</m>, then there are two solutions. You found one of them above. What's the other solution?
+        </p>
+      </statement>
+    </task>
+  </investigation>
+
   <investigation xml:id="pa-prep-survey-direct-variation">
             <p>
                 You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).
@@ -194,6 +276,10 @@
                     <row>
                         <cell>Write an equation that shows a quantity <m>Q_2</m> varies directly with respect to another quantity <m>Q_1</m>.</cell>
                         <cell></cell>
+                    </row>
+                    <row>
+                      <cell>Use roots to solve an equation of the form <m>y = cx^n</m>.</cell>
+                      <cell></cell>
                     </row>
                 </tabular>
             </table>

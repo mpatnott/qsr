@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-direct-variation" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Proportionality and Direct Variation</title>
+
+  <introduction>
+    <p>
+      Recall that in <xref ref="sec-direct-variation-prep"/>, we said that two varying quantities <m>Q_1</m> and <m>Q_2</m> have a <term>proportional relationship</term> when the ratio between the quantities is constant. That is, <m>Q_1</m> and <m>Q_2</m> have a proportional relationship when 
+      <me>
+        c = \frac{Q_2}{Q_1}
+      </me>
+      always has the same value. We called <m>c</m> the <term>constant of proportionality</term>. We also noted that it is sometimes useful to rewrite this equation as
+      <me>Q_2 = c Q_1</me>, and say that <m>Q_2</m> <term>varies directly</term> with respect to <m>Q_1</m>.
+    </p>
+  </introduction>
+
+  <activity xml:id="a-braking-distance">
+    <introduction>
+        <p>
+            How does speed impact the distance it takes a car to stop? The table below shows the approximate braking distance (in ft), <m>d</m>, for a car with speed (in mph) <m>v</m>, on dry asphalt<fn>As calulated by <url href="https://best-calculators.com/automotive/stopping-distance-calculator/"/></fn>.
+        </p>
+        <table>
+          <title>Approximate Braking Distance, Dry Asphalt</title>
+          <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+            <row header="yes">
+              <cell><m>v</m></cell>
+              <cell><m>d</m></cell>
+            </row>
+            <row>
+              <cell>15</cell>
+              <cell>11</cell>
+            </row>
+            <row>
+              <cell>25</cell>
+              <cell>30</cell>
+            </row>
+            <row>
+              <cell>35</cell>
+              <cell>58</cell>
+            </row>
+            <row>
+              <cell>45</cell>
+              <cell>97</cell>
+            </row>
+            <row>
+              <cell>55</cell>
+              <cell>144</cell>
+            </row>
+            <row>
+              <cell>65</cell>
+              <cell>202</cell>
+            </row>
+          </tabular>
+        </table>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          Bianca wonders if braking distance might vary directly with speed. Calculate <m>\frac{d}{v}</m> using this data and use your results to explain to Bianca why her hypothesis isn't correct.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Carolyn remembers something about squaring from her Driver's Ed class. Calculate <m>\frac{d}{v^2}</m>, rounding to the nearest hundredth (i.e., round to two decimal places). What do you notice?
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Use your results from the last part to write an equation showing that braking distance is proportional to the square of speed.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          The maximum posted speed limit anywhere in the US is 85 mph. Use your formula to find the braking distance of a car driving at 85 mph.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Kendra is a road safety engineer. Cars on a particular stretch of road need to be able to brake in no more than 50 ft. What speed limit should Kendra recommend for this stretch of road? Explain your answer.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <q>When you drive twice as fast, it takes four times the distance to stop</q> is a common guideline. Use your formula to test the reasonableness of this guideline. (Hint: Use your formula to find the braking distance for two different speeds. How should the faster speed be related to the slower speed?)
+        </p>
+      </statement>
+    </task>
+  </activity>
+</section>
