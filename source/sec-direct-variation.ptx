@@ -17,7 +17,7 @@
   <activity xml:id="a-braking-distance">
     <introduction>
         <p>
-            How does speed impact the distance it takes a car to stop? The table below shows the approximate braking distance (in ft), <m>d</m>, for a car with speed (in mph) <m>v</m>, on dry asphalt<fn>As calulated by <url href="https://best-calculators.com/automotive/stopping-distance-calculator/"/></fn>.
+            How does speed impact the distance it takes a car to stop? The table below shows the approximate braking distance (in ft), <m>d</m>, for a car with speed (in mph) <m>v</m>, on dry asphalt<fn>As calculated by <url href="https://best-calculators.com/automotive/stopping-distance-calculator/"/></fn>.
         </p>
         <table>
           <title>Approximate Braking Distance, Dry Asphalt</title>
@@ -77,6 +77,13 @@
     <task>
       <statement>
         <p>
+          Interpret the constant of proportionality in context.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
           The maximum posted speed limit anywhere in the US is 85 mph. Use your formula to find the braking distance of a car driving at 85 mph.
         </p>
       </statement>
@@ -92,6 +99,371 @@
       <statement>
         <p>
           <q>When you drive twice as fast, it takes four times the distance to stop</q> is a common guideline. Use your formula to test the reasonableness of this guideline. (Hint: Use your formula to find the braking distance for two different speeds. How should the faster speed be related to the slower speed?)
+        </p>
+      </statement>
+    </task>
+  </activity>
+
+  <activity xml:id="a-intro-power-models">
+    <introduction>
+      <p>
+        A <term>power model</term> is a relationship between two quantities that can be written in the form <me>Q_2 = c \times Q_1^p</me>, where <m>Q_1</m> and <m>Q_2</m> are the two quantities, <m>c</m> is a number called the <term>coefficient</term> and <m>p</m> is a number called the <term>power</term>. The quantitites <m>Q_1</m> and <m>Q_2</m> are variables, and the coefficient and the power are numbers.
+      </p>
+      <p>
+        The formula you found in <xref ref="a-braking-distance"/> was a power model, with
+        <me>Q_1 = v, Q_2 = d, p = 2, c = 0.05</me>. The power <m>p</m> can be ANY number, including negatives, fractions, and decimals.
+      </p>
+      <p>
+          Determine whether or not each of the models below is a power model. If it is a power model, identify the quantities, the coefficient, and the power. If it's not a power model, explain why not.
+      </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                <m>i = -7m^3</m>
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                <m>p = 5 \times 8^s</m>
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                <m>E = -8 T^4 - 2</m>
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                <m>S = 6b^{-1}</m>
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                <m>C = 5n^{3/5}</m>
+            </p>
+        </statement>
+    </task>
+  </activity>
+
+  <!-- From McCallum et al., \emph{Algebra: Form and Function}, who adapted it from H.\ Tennekes, \emph{The Simple Science of Flight} (Cambridge: MIT Press, 1996). -->
+  <activity xml:id="a-varies-directly-to-power-model">
+    <introduction>
+      <p>
+        We saw in <xref ref="a-braking-distance"/> that the braking distance, <m>d</m>, of a car varies directly with the square of its speed, <m>v</m>. That is, <m>d = cv^2</m> for some constant of proportionality <m>c</m>. We used data to find that when <m>v</m> is measured in mph, <m>d</m> is measured in feet, and the car is driving on dry asphalt, <m>c = 0.05\text{ feet}/\text{mph}^2</m>. This let us set up the equation <m>d = 0.05v^2</m> and use it to make predictions. Notice that this equation is a power model!
+      </p>
+      <p>
+        The runway distance, <m>R</m>, an aircraft needs to take off varies directly with the square of its speed, <m>v</m>.
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          Write a formula for the relationship between <m>R</m> and <m>v</m>. Your formula will include an unknown constant of proportionality <m>c</m>!
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          An aircraft with a takeoff speed of 100 mph needs 1639 feet of runway. Use this information to find the value of <m>c</m>. What are the units of <m>c</m>? (Hint: How did you find the constant of proportionality in the braking distance example?)
+        </p>
+      </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Suppose that a Boeing 737 aircraft has a takeoff speed<fn><url href="https://flybitlux.com/how-fast-do-airplanes-go-when-taking-off/" /></fn> of 150 mph. How much runway does it need?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Foula Airfield serves the remote island of Foula, part of the Shetland Islands (north of Scotland). Flights to Foula serve tourists and deliver essential items to the island's handful of residents. Its single runway is only 1699 ft long<fn><url href="https://www.transport.gov.scot/media/4028/itf-29-sep-2016-air-services-scoping-document-supplementary-appendices.pdf" /></fn>! What is the fastest takeoff speed Foula Airfield can handle?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Suppose that typical takeoff speeds for aircraft are between 60 and 190 mph. Sketch a graph showing the relationship between the takeoff speed and runway length needed for takeoff for aircraft. (Hint: Use your formula to make a table of takeoff speeds and runway lengths first.)
+            </p>
+        </statement>
+    </task>
+  </activity>
+
+  <activity xml:id="a-pop-varies-direct-cube-legislature-size">
+    <introduction>
+      <p>
+        Political scientists have observed<fn>R. Taagepera. ``The size of national assemblies.'' <em>Social Science Research</em> v. 1, no. 4. <url href="https://doi.org/10.1016/0049-089X(72)90084-1"/></fn> that in many countries, the population of the country and the cube of the number of seats in the legislative body most similar to the US House of Representatives are proportional, with constant of proportionality <m>c \approx 1</m>. Let <m>P</m> be the country's population and <m>s</m> be the number of seats in the legislative body.
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          Find a power model that describes the relationship between <m>P</m> and <m>s</m>. (Hint: Use the fact that the population is proportional to the cube of the number of seats.)
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          In 2021, the Canadian House of Commons had 338 seats. Use your model to predict the population of Canada in 2021.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          The actual population of Canada in 2021 was about 37 million people. Did your model give a good estimate?
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          In 2021, the population of México was about 129 million. Use your model to estimate the number of seats in the Cámara de Diputados. Warning You will have to write 129 million as 129,000,000 in order to get the right answer!
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          The Cámara de Diputados had 500 seats in 2021. Did your model give a good estimate?
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          The US House of Representatives had 435 voting members in 2021. Use your model to predict the population of the US in 2021.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          The population of the US was about 332 million in 2021. Did your model give a good estimate?
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Although the model worked well for Canada and México, it didn't work well for the US! Why? One possible explanation is that the US House of Representatives hasn't changed size since it was set to 435 by the Apportionment Act of 1911. The US population in 1911 was about 94 million. Would the model have worked better in 1911?
+        </p>
+      </statement>
+    </task>
+  </activity>
+
+  <!-- Data selected from the USPVDB, filtering to projects that are ground-mounted, fixed-tilt, crystalline silicon modules, built between 2018 and 2024, and between 8 MW and 120 MW of DC capacity. The data set and filters were suggested by ChatGPT. -->
+  <activity xml:id="a-solar-farm-capacity">
+    <introduction>
+      <p>
+        There's a relationship between the size of a solar farm and the amount of power (capacity, <m>C</m>, measured in MW). The table below is based on data from the US Geological Survey. Length, <m>L</m>, is measured in meters and assumes the solar farm is square.
+      </p>
+      <table>
+        <title>Square Solar Farm Side Length (<m>L</m>, meters) and Power (<m>C</m>, MW)</title>
+        <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+          <row header="yes">
+            <cell><m>L</m></cell>
+            <cell><m>C</m></cell>
+          </row>
+          <row>
+            <cell>312</cell>
+            <cell>10.7</cell>
+          </row>
+          <row>
+            <cell>589</cell>
+            <cell>31.6</cell>
+          </row>
+          <row>
+            <cell>669</cell>
+            <cell>43.2</cell>
+          </row>
+          <row>
+            <cell>1095</cell>
+            <cell>96.7</cell>
+          </row>
+          <row>
+            <cell>982</cell>
+            <cell>81.1</cell>
+          </row>
+          <row>
+            <cell>1183</cell>
+            <cell>113.4</cell>
+          </row>
+          <row>
+            <cell>558</cell>
+            <cell>27.2</cell>
+          </row>
+          <row>
+            <cell>846</cell>
+            <cell>65.2</cell>
+          </row>
+        </tabular>
+      </table>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          How do you know the relationship between the length of the solar farm and its capacity isn't linear? Explain how you know your answer is correct.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Is the solar farm's capacity EXACTLY proportion to the square of its length? What about approximately?
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Complete the following sentences 
+          <blockquote>
+            <p>
+              A square solar farm's capacity varies directly with...
+            </p>
+          </blockquote>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Estimate the constant of proportionality and give its units.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Build a power model the approximates the relationship between a solar farm's capacity and its side length.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Use your model to estimate the capacity of a solar farm with a side length of 750 m.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          How big would a solar farm need to be if we wanted it to produce 50 MW of power?
+        </p>
+      </statement>
+    </task>
+  </activity>
+
+  <!-- Based on a scenario suggested by ChatGPT. ChatGPT also generated the data table, supposedly to be realistic. -->
+  <activity xml:id="a-3d-printing">
+    <introduction>
+      <p>
+        Oscar, an engineer, 3D prints prototypes during his design process. He wants a better understanding of how the amount of filament (in grams) his 3D printer uses is related to the size of the model. In order to test this, he has the printer create several versions of the same model, scaled to different size but without changing any of the other settings. The table below shows the data he collected from this experiment.
+      </p>
+      <table>
+        <title>Scale Factor (<m>s</m>) vs Filament (<m>F</m>, grams)</title>
+        <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+          <row header="yes">
+            <cell><m>s</m></cell>
+            <cell><m>F</m></cell>
+          </row>
+          <row>
+            <cell>0.6</cell>
+            <cell>18.1</cell>
+          </row>
+          <row>
+            <cell>0.7</cell>
+            <cell>28.8</cell>
+          </row>
+          <row>
+            <cell>0.8</cell>
+            <cell>43.5</cell>
+          </row>
+          <row>
+            <cell>0.9</cell>
+            <cell>61.7</cell>
+          </row>
+          <row>
+            <cell>1.0</cell>
+            <cell>84.2</cell>
+          </row>
+          <row>
+            <cell>1.1</cell>
+            <cell>111.0</cell>
+          </row>
+          <row>
+            <cell>1.2</cell>
+            <cell>143.6</cell> <!--Adjusted from 144.9, at ChatGPT's suggestion, to make one point that's a bit weird, but hopefully not too weird to be distracting. -->
+          </row>
+          <row>
+            <cell>1.3</cell>
+            <cell>184.4</cell>
+          </row>
+          <row>
+            <cell>1.4</cell>
+            <cell>229.1</cell>
+          </row>
+          <row>
+            <cell>1.5</cell>
+            <cell>285.0</cell>
+          </row>
+        </tabular>
+      </table>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          Help Oscar find a power model for this data by finding a power of the scale factor so that the amount of filament used varies directly with that power of the scale factor.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          What is a good estimate for the coefficient of proportionality for your model? What are its units?
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          If Oscar wants to print a model at a scale factor of 3.0 instead of 1.0, will the mount of filament he needs triple? Use your model to help you answer this question, and explain your answer.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Oscar wants to print this part at 175 scale. Find the scale factor and use your model to estimate how much filament he needs.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Oscar has 50 grams of filament left. What scale factor could he print that would let him use up this filament?
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Oscar started this project in hopes of better understanding his 3D printer. Suppose he has another prototype that he needs to print at many scales. At its original size (i.e., scale factor 1.0), it needs 132 g of filament. Use what you've learned so far to create a power model relating the scale factor to the amount of filament needed for this new model, and use it to predict how much filament Oscar will need to print 0.5 and 1.5 scale versions of this prototype. Explain your reasoning to Oscar.
         </p>
       </statement>
     </task>
