@@ -6,7 +6,7 @@
   <activity xml:id="a-exponent-rule-practice">
     <introduction>
       <p>
-        Use the Product, Quotient, and Product Rules for Exponents to rewrite the following expression or solve the problem. Remember, the main goal is to exercise your brain, not to get the answers, so you must not use tools like Photomath or Mathway for anything but answer checking. <alert>Hint:</alert> Use one rule at a time. Don't spend too much time worrying about which rule to use first! As soon as you see a rule that you could use, do that. 
+        Use the Product, Quotient, and Power Rules for Exponents to rewrite the expression or solve the problem. Remember, the main goal is to exercise your brain, not to get the answers, so you must not use tools like Photomath or Mathway for anything but answer checking. <alert>Hint:</alert> Use one rule at a time. Don't spend too much time worrying about which rule to use first! As soon as you see a rule that you could use, do that. 
       </p>
     </introduction>
     <task workspace="0.5in">
@@ -232,7 +232,7 @@
     <task workspace="1in">
       <statement>
         <p>
-          In <xref ref="a-introducing-e"/>, we learned that <m>e \approx 2.71828</m> is a special number used in science, finance, and other fields. Finance uses <m>e</m> to model continuously compounded interest with the formula 
+          In <xref ref="a-introducing-e"/>, we learned that <m>e \approx 2.71828</m> is a special number used in chemistry, finance, and other fields. Finance uses <m>e</m> to model continuously compounded interest with the formula 
           <me>A = Pe^{rt}</me> 
           where <m>A</m> is the amount of money currently in an account, <m>P</m> is the amount of money initially deposited into the count, <m>r</m> is the interest rate as a decimal, and <m>t</m> is the number of years since the money was deposited. Suppose Parker deposits $1000 into an account that earns interest at a rate of 2% per year, compounded continuously. What is the equivalent interest rate if, instead of compounding continuously, we only compound once per year?
         </p>
