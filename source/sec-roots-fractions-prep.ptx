@@ -3,94 +3,113 @@
 <section xml:id="sec-roots-fractions-prep" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Roots and Fractional Powers Prep Activities</title>
 
-  <introduction>
-    <p>
-        We learned in <xref ref="sec-power-models"/> that cube roots and the one-third power are the same, i.e., that <m>\sqrt[3]{x} = x^{1/3}</m>. In fact, this is a special case of the general rule that nth roots and the 1/n power are the same, i.e., <me>\sqrt[n]{x} = x^{1/n}</me>.
-    </p>
-    <p>
-        <alert>Note:</alert> We use square roots so often that we don't usually bother to write the number on the root. But, <m>\sqrt{x} = \sqrt[2]{x}</m>, so <m>\sqrt{x} = x^{1/2}</m>. 
-    </p>
-  </introduction>
-
-  <investigation xml:id="pa-why-frac-exps-are-roots">
-    <statement>
-        <p>
-            Using the Product Rule for Exponents,
-            <me>x^{1/2}x^{1/2} = x^1 \qquad \text{ and } \qquad x^{1/3}x^{1/3}x^{1/3} = x^1</me>.
-            Why does this observation support the reasonableness of the rules that <m>x^{1/2} = \sqrt{x}</m> and <m>x^{1/3} = \sqrt[3]{x}</m>?
-        </p>
-    </statement>
-  </investigation>
-
-  <investigation xml:id="pa-rewrite-frac-exp-roots">
+  <investigation xml:id="pa-ceo-pay">
     <introduction>
         <p>
-            Let's practice using our new rule, along with other exponent rules, to rewrite expressions. Remember, if you're not sure what to do, look for an opportunity to use any one of the exponent rules, use it, and then re-evaluate.
+            Roberts' Law for CEO Compensation<fn>cf. Gabaix, Xavier. <q>Power Laws in Economics and Finance.</q> Annu. Rev. Econ. 2009. 1:255 - 93. doi: 10.1146/annurev.economics.050708.142940</fn> says that at a given moment in time, CEO compensation is proportional to the firm's size. Firm size is often measured as <term>market capitalization</term>, which is the total value of all shares currently owned by stockholders. 
         </p>
+        <p>
+            Let <m>C</m> be CEO compensation, in millions of dollars, and <m>S</m> be firm size, measured as market capitalization in billions of dollars. Suppose the table below shows the CEO compensation and market capitalization for several companies.
+        </p>
+        <table>
+            <title>CEO Compensation vs. Market Capitalization - Example</title>
+            <tabular  halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                <row header="yes">
+                    <cell><m>S</m></cell>
+                    <cell><m>C</m></cell>
+                </row>
+                <row>
+                    <cell>1</cell>
+                    <cell>3.4</cell>
+                </row>
+                <row>
+                    <cell>8</cell>
+                    <cell>6.8</cell>
+                </row>
+                <row>
+                    <cell>27</cell>
+                    <cell>10.2</cell>
+                </row>
+                <row>
+                    <cell>64</cell>
+                    <cell>13.6</cell>
+                </row>
+            </tabular>
+        </table>
     </introduction>
     <task>
         <statement>
             <p>
-                Rewrite without a root symbol: <m>\sqrt[4]{a}</m>
+                Translate the sentence Roberts' Law into a power model equation.
             </p>
         </statement>
     </task>
     <task>
         <statement>
             <p>
-                Rewrite with a root symbol: <m>\left(17b\right)^{1/5}</m>
+                Find the constant or proportionality.
             </p>
         </statement>
     </task>
     <task>
         <statement>
             <p>
-                Rewrite as <m>(\text{number}) \times c^{\text{power}}</m>: <m>\frac13 \cdot c^3 \cdot \sqrt[4]{81c}</m>
-            </p>
-        </statement>
-    </task>
-    <task>
-        <statement>
-            <p>
-                Rewrite as <m>(\text{number}) \times d^{\text{power}}</m>: <m>\left(\sqrt[5]{32d}\right)^3</m>
-            </p>
-        </statement>
-    </task>
-    <task>
-        <statement>
-            <p>
-                Rewrite with a root symbol:<m>\frac{\left(e^{1/2}\right)^3}{e^{1/2}}</m>
+                Come back to this - have them use their formula to estimate some real companies?
             </p>
         </statement>
     </task>
   </investigation>
 
-  <investigation xml:id="pa-solve-eqns-frac-exps">
+  <investigation xml:id="pa-defining-roots">
     <introduction>
         <p>
-            We introduced the one-third power in <xref ref="sec-power-models"/> to help us solve the equation <me>10 = x^3</me>. Notice that the Power Rule for Exponents tells us that
-            <me>\left(x^n\right)^{1/n} = x \qquad \text{ and } \qquad \left(x^{1/n}\right)^n = x</me>.
-            That is, the nth power and the 1/n power undo each other. Use this fact to find all solutions to each of the equations below.
+            We learned how to use roots to help us solve equations in <xref ref="pa-using-roots-to-solve"/>. If we want to solve an equation like
+            <me>343 = x^3</me>, then we take the cube root of both sides <me>\sqrt[3]{343} = \sqrt[3]{x^3}</me> and get <me>7 = x</me>.
+        </p>
+        <p>
+            What do roots really mean? Let's explore. 
         </p>
     </introduction>
     <task>
         <statement>
             <p>
-                <m>350 = -7x^9</m>
+                Square root of <m>x</m> (<m>\sqrt{x}</m>, or <m>\sqrt[2]{x}</m>) is the positive number that multiplies by itself to get <m>x</m>. That is, 
+                <me>\sqrt{x} \cdot \sqrt{x} = x</me>. For example, <m>\sqrt{9} = 3</m> because <m>3 \times 3 = 9</m>.
+            </p>
+            <p>
+                Use this idea to find <m>\sqrt{16}</m>, <m>\sqrt{64}</m>, and <m>\sqrt{1}</m> without using a calculator.
             </p>
         </statement>
     </task>
     <task>
         <statement>
             <p>
-                <m>7x^6 - 1 = 7</m>
+                Can you find <m>\sqrt{0}</m>? What about <m>\sqrt{-9}</m>?
             </p>
         </statement>
     </task>
     <task>
         <statement>
             <p>
-                <m>6x^{1/4}= 9</m>
+                Cube root of <m>x</m> (<m>\sqrt[3]{x}</m>) is the number that gives <m>x</m> when you multiply it by itself three times. That is,
+                <me>\sqrt[3]{x} \cdot \sqrt[3]{x} \cdot\sqrt[3]{x} = x</me>. For example, <m>\sqrt{27} = 3</m> because <m>3 \times 3 \times 3 = 27</m>.
+            </p>
+            <p>
+                Use this idea to find <m>\sqrt[3]{8}</m> and <m>\sqrt[3]{125}</m> without using a calculator.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Can you find <m>\sqrt[3]{0}</m>? What about <m>\sqrt[3]{-1}</m>?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Test your understanding by extending this idea to a new root! Write a sentence and an equation explaining what the fourth root of <m>x</m> (<m>\sqrt[4]{x}</m>) means, and use your idea to find <m>\sqrt[4]{81}</m> without using a calculator.
             </p>
         </statement>
     </task>
@@ -107,11 +126,19 @@
                     <cell>Rating from 1 to 5</cell>
                 </row>
                 <row>
-                    <cell>Use the equality <m>\sqrt[n]{x} = x^{1/n}</m> to rewrite expressions.</cell>
+                    <cell>Translate wording about proportional relationships to power model equations.</cell>
                     <cell></cell>
                 </row>
                 <row>
-                    <cell>Solve equations using the inverse relationship between <m>x^n</m> and <m>x^{1/n}</m>.</cell>
+                    <cell>Use data to find the constant of proportionality.</cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Use a calculator to raise a number to a fractional power.</cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Explain what roots mean by writing an equation.</cell>
                     <cell></cell>
                 </row>
             </tabular>
