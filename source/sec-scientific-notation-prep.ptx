@@ -253,7 +253,7 @@
                     </p>
                     <ul>
                         <li>If it is <m>5</m> or higher, round up. That is, increase the digit you are rounding to by one and change all of the numbers to the right of it to zeroes.</li>
-                        <li>If it is <m>4</m> or lower, round down. That is, change to zeroes all of the numbers to the right of the place value to which you are rounding. </li>
+                        <li>If it is <m>4</m> or lower, round down. That is, don't change the digit you're rounding to at all, and change all of the numbers to the right of it to zeroes. </li>
                     </ul>
                 </li>
             </ul>
@@ -287,7 +287,7 @@
   <investigation xml:id="pa-estimate-big-numbers">
     <introduction>
         <p>
-            Decide if the following quantities are in the millions, billions, trillions, or some other size, such as tens of millions. Explain your reasoning.
+            Do you think the following quantities are in the millions, billions, trillions, or some other size, such as tens of millions? Think about what makes sense, and explain your thinking, but don't calculate (we'll revisit and calculate more precisely in class).
         </p>
     </introduction>
     <task>
@@ -300,7 +300,7 @@
     <task>
         <statement>
             <p>
-                The amount of money needed to send all adults in the United States to a public college for four years. Assume there are about 258 million adults in the United States and that the cost of tuition and fees to a public college is about $25,000.
+                The amount of money needed to send all adults in the United States to a public college for four years. Assume there are about 258 million adults in the United States and that the cost of tuition and fees to a public college is about $25,000 per year.
             </p>
         </statement>
     </task>

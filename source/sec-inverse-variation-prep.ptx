@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-inverse-variation-prep" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Inverse Variation and Negative Powers Prep Activities</title>
+
+  <introduction>
+    <p>
+      Two varying quantities <m>Q_1</m> and <m>Q_2</m> have an <term>inversely proportional relationship</term> when the product of the quantities is constant. That is, <m>Q_1</m> and <m>Q_2</m> have an inversely proportional relationship when 
+      <me>
+        c = Q_2 Q_1
+      </me>
+      always has the same value. We call <m>c</m> the <term>constant of proportionality</term>.
+    </p>
+  </introduction>
+
+  <investigation xml:id="pa-inverse-variation-workers-time">
+    <introduction>
+        <p>
+            Angel and his friends run a painting business in the summer. Suppose it takes 2 of them 6 hours to paint a medium-sized room, and the amount of time needed and the number of painters are inversely proportional.
+        </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                What is <m>c</m>, the constant of proportionality?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Complete the table below, showing the relationship between painting time and number of painters.
+            </p>
+            <table>
+                <title>Relationship Between Painting Time and Number of Painters</title>
+                <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                    <row header="yes">
+                        <cell>Time, <m>T</m> (Hours)</cell>
+                        <cell>Num Painters, <m>P</m></cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell>1</cell>
+                    </row>
+                    <row>
+                        <cell>6</cell>
+                        <cell>2</cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell>3</cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell>4</cell>
+                    </row>
+                    <row>
+                        <cell>2</cell>
+                        <cell></cell>
+                    </row>
+                </tabular>
+            </table>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Describe in words and with a formula how you found the missing information in the table.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Select the correct options to complete the sentence: <q>As the number of painters increases, the amount of time it takes to paint the room increases/decreases.</q>
+            </p>
+        </statement>
+    </task>
+  </investigation>
+
+  <investigation xml:id="pa-inverse-variation-or-not">
+    <introduction>
+        <p>
+            The tables below show four relationships between variables. Which pair(s) of variables are inversely proportional? Are any of the pairs of variables (directly) proportional?
+        </p>
+        <sidebyside>
+            <table>
+                <title>Pair 1</title>
+                <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                    <row header="yes">
+                        <cell><m>A</m></cell>
+                        <cell><m>B</m></cell>
+                    </row>
+                    <row>
+                        <cell>5</cell>
+                        <cell>300</cell>
+                    </row>
+                    <row>
+                        <cell>10</cell>
+                        <cell>200</cell>
+                    </row>
+                    <row>
+                        <cell>15</cell>
+                        <cell>100</cell>
+                    </row>
+                    <row>
+                        <cell>20</cell>
+                        <cell>50</cell>
+                    </row>
+                    <row>
+                        <cell>25</cell>
+                        <cell>25</cell>
+                    </row>
+                </tabular>
+            </table>
+           <table>
+                <title>Pair 2</title>
+                <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                    <row header="yes">
+                        <cell><m>T</m></cell>
+                        <cell><m>D</m></cell>
+                    </row>
+                    <row>
+                        <cell>10</cell>
+                        <cell>15</cell>
+                    </row>
+                    <row>
+                        <cell>20</cell>
+                        <cell>30</cell>
+                    </row>
+                    <row>
+                        <cell>30</cell>
+                        <cell>45</cell>
+                    </row>
+                    <row>
+                        <cell>40</cell>
+                        <cell>60</cell>
+                    </row>
+                    <row>
+                        <cell>50</cell>
+                        <cell>75</cell>
+                    </row>
+                </tabular>
+            </table>
+            <table>
+                <title>Pair 3</title>
+                <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                    <row header="yes">
+                        <cell><m>X</m></cell>
+                        <cell><m>Y</m></cell>
+                    </row>
+                    <row>
+                        <cell>2</cell>
+                        <cell>60</cell>
+                    </row>
+                    <row>
+                        <cell>4</cell>
+                        <cell>30</cell>
+                    </row>
+                    <row>
+                        <cell>6</cell>
+                        <cell>20</cell>
+                    </row>
+                    <row>
+                        <cell>8</cell>
+                        <cell>15</cell>
+                    </row>
+                    <row>
+                        <cell>10</cell>
+                        <cell>12</cell>
+                    </row>
+                </tabular>
+            </table>
+            <table>
+                <title>Pair 4</title>
+                <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                    <row header="yes">
+                        <cell><m>S</m></cell>
+                        <cell><m>A</m></cell>
+                    </row>
+                    <row>
+                        <cell>1</cell>
+                        <cell>1</cell>
+                    </row>
+                    <row>
+                        <cell>3</cell>
+                        <cell>9</cell>
+                    </row>
+                    <row>
+                        <cell>5</cell>
+                        <cell>25</cell>
+                    </row>
+                    <row>
+                        <cell>7</cell>
+                        <cell>49</cell>
+                    </row>
+                    <row>
+                        <cell>9</cell>
+                        <cell>81</cell>
+                    </row>
+                </tabular>
+            </table>
+        </sidebyside>
+    </introduction>
+  </investigation>
+
+  <investigation xml:id="pa-inverse-variation-formula">
+    <introduction>
+        <p>
+            Suppose that the number of hours, <m>h</m>, required to build a fence is inversely proportional to the number of people, <m>n</m>, working on the fence.
+        </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                If it takes <m>4</m> people <m>31</m> hours to build the fence, what is <m>c</m>, the constant of proportionality?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Use the definition of inverse proportionality and your constant of proportionality to write an equation that shows the relationship between <m>h</m> and <m>n</m>.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Use your equation to predict how long it will take <m>11</m> people to build the fence.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Use your equation to predict how many people need to be on the team in order to build the fence in 8 hours.
+            </p>
+        </statement>
+    </task>
+  </investigation>
+
+  <investigation xml:id="pa-compare-inverse-direct-variation">
+    <statement>
+        <p>
+            You have now seen examples of quantities that vary directly/are proportional to each other and quantities that vary inversely/are inversely proportion to each other. How are proportional relationships and inversely proportional relationship similar? How are they different? 
+        </p>
+    </statement>
+  </investigation>
+
+  <investigation xml:id="pa-prep-survey-inverse-variation">
+      <p>
+          You'll need to be able to do the following things for this lesson. Rate how confident you are on a scale of 1 - 5 (1 = not confident and 5 = very confident).
+      </p>
+      <table>
+          <tabular bottom = "minor" top = "minor" left = "minor" right = "minor">
+              <row header ="yes" bottom = "minor">
+                  <cell>Skill or Concept: I can …</cell>
+                  <cell>Rating from 1 to 5</cell>
+              </row>
+              <row bottom = "minor">
+                  <cell>Find the constant of proportionality for two quantities with an inversely proportional relationship from data.</cell>
+                  <cell></cell>
+              </row>
+              <row bottom = "minor">
+                  <cell>Determine whether two quantities have an inversely proportional relationship.</cell>
+                  <cell></cell>
+              </row>
+              <row>
+                  <cell>Write an equation that shows a quantity <m>Q_2</m> varies inversely with respect to another quantity <m>Q_1</m>.</cell>
+                  <cell></cell>
+              </row>
+              <row>
+                <cell>Compare and contrast inverse and direct variation.</cell>
+                <cell></cell>
+              </row>
+          </tabular>
+      </table>
+  </investigation>
+</section>

@@ -35,6 +35,14 @@
     </p>
   </example>
 
+  <activity xml:id="a-elon-musk">
+    <statement>
+      <p>
+        Elon Musk's net worth was estimated to be $1.2 trillion in early July 2026. If we divided Musk's money amongst the 340 million people living in the US in 2026, how much money would each person get? Use scientific notation to do this calculation, for practice.
+      </p>
+    </statement>
+  </activity>
+
   <example>
     <p>
       Let's use scientific notation to help us estimate the number of words in <em>War and Peace</em> as millions, billions, trillions, or some other size. Using an internet search, we found that sample pages of an e-book version of War and Peace have about 300 words on each page. This e-book version is 1307 pages long.
@@ -75,7 +83,24 @@
     <task workspace="1in">
       <statement>
         <p>
-          The amount of money needed per year to raise wages in the US to $15 per hour. Assume that there are 800 thousand full-time US workers making the federal minimum wage of $7.25 or less<fn><url href="https://www.bls.gov/opub/reports/minimum-wage/2023/" /></fn> and that a full-time worker works 40 hours a week for 50 weeks a year. <alert>Hint:</alert> How much do we need to raise each worker's hourly wage?
+          The amount of money needed per year to raise wages in the US to $17 per hour (as called for in the Raise the Wage Act of 2023<fn>https://www.congress.gov/bill/118th-congress/senate-bill/2488/text</fn>). Assume that:
+          <ul>
+            <li>
+              <p>
+                There are 39 million US workers who make less than $17 per hour<fn>Kaitlyn Henderson. The Crisis of Low Wages, 2024. Oxfam report.</fn>
+              </p>
+            </li>
+            <li>
+              <p>
+                All 39 million are making the federal minimum wage of $7.25<fn><url href="https://www.bls.gov/opub/reports/minimum-wage/2023/" /></fn>
+              </p>
+            </li>
+            <li>
+              <p>
+                A full-time worker works 40 hours a week for 50 weeks a year.
+              </p>
+            </li>
+          </ul><alert>Hint:</alert> How much do we need to raise each worker's hourly wage?
         </p>
       </statement>
     </task>
@@ -102,7 +127,7 @@
       <task workspace="1in">
         <statement>
           <p>
-            What percentage of the budget would be needed to pay for your estimate in part (c), for raising the minimum wage to $15 per hour?
+            What percentage of the budget would be needed to pay for your estimate in part (c), for raising the minimum wage to $17 per hour?
           </p>
         </statement>
       </task>
@@ -112,7 +137,7 @@
   <activity xml:id="a-small-scientific-notation">
     <introduction>
         <p>
-            Below is a table that describes some small numbers in standard decimal notation, and <term>scientific notation</term>. Notice that for small numbers:
+            Below is a table that describes some small numbers in standard decimal notation, and scientific notation. Notice that for small numbers:
             <ul>
                 <li> Scientific notation keeps track of the number of decimal places to the left of the second nonzero digit, but after the decimal point, using the exponent.</li>
                 <li> The exponent is negative</li>
@@ -188,7 +213,7 @@
     <task>
         <statement>
             <p>
-                Write a sentence in your own words describin how to convert a number from scientific notation into <q>regular</q> notation (without using a calculator).
+                Write a sentence in your own words describing how to convert a number from scientific notation into <q>regular</q> notation (without using a calculator).
             </p>
         </statement>
     </task>
@@ -256,5 +281,88 @@
         </image>
       </figure>
   </statement>
+  </activity>
+
+  <activity xml:id="a-microplastics">
+    <introduction>
+      <p>
+        People are increasingly concerned about the prevalence of micro- and nanoplastics in our environment.
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          Microplastics are plastic particles between 1 micrometer (μm) and 5 millimeters (mm) in size<fn>https://cris.msu.edu/news/real-time-science-microplastic-nanoplastic/</fn>. A micrometer is 0.000001 meter, and a millimeter is 0.001 meters. Convert these numbers to scientific notation.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Nanoplastics are plastic particles that are less than 1 μm in size<fn>https://cris.msu.edu/news/real-time-science-microplastic-nanoplastic/</fn> (the average human hair is 70 μm, for comparison!). Using 1 micrometer as the size of the largest nanoplastics, how much larger than the largest nanoplastics are the largest microplasics?
+        </p>
+      </statement>
+    </task>
+    <task>
+      <introduction>
+        <p>
+          Many recent studies have estimate the number of micro- and nanoplastic particles in tap water. Different studies have found different results: some studies have found a concentration as low as 0.0001 microplastics/liter, and others as high as 930 microplastics/liter.
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            Convert the low and high concentration numbers to scientific notation.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            The exponent in its scientific notation is sometimes called the <term>order of magnitude</term> of a number. It is more common to compare the orders of magnitude of two numbers than it is to discuss the order of magnitude of a single number. Subtract the order of magnitude for the low concentration from the order of magnitude for the high concentration. How many orders of magnitude are there between these estimates?
+          </p>
+        </statement>
+      </task>
+    </task>
+  </activity>
+
+  <activity xml:id="a-probabilities-of-unlikely-events">
+    <introduction>
+      <p>
+        The probability of a particular event occurring can be estimated as
+      </p>
+      <me>\text{Probability} = \frac{\text{Number of ways for the particular event to occur}}{\text{Total number of possible outcomes}}</me>
+      <p>
+        For example, there is one way to win the grand prize in Powerball: your number must match the numbers on all 5 regular balls plus the powerball. There are 292,201,338 different options for what the 5 regular balls plus the powerball will show, so the probability of winning the grand prize in Powerball is <m>\frac{1}{292,201,338}</m>
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          Use your calculator to divide <m>\frac{1}{292,201,338}</m> and write the probability of winning the Powerball in scientific notation.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          To convert a decimal into percent, we multiply it by 100. Write the probability of winning the Powerball as a percent.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          The National Weather Service estimates<fn>https://www.weather.gov/safety/lightning-odds</fn> that the odds of being struck by lightning in your lifetime is about <m>\frac{1}{15,300}</m>. Convert this number to scientific notation.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          How much more likely are you to be struck by lightning than to win the Powerball grand prize?
+        </p>
+      </statement>
+    </task>
   </activity>
 </section>

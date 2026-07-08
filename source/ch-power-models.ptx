@@ -29,6 +29,19 @@
     <xi:include href="sec-roots-fractions.ptx" />
   </chapter>
 
+  <chapter xml:id="ch-scientific-notation" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Scientific Notation</title>
+
+    <xi:include href="sec-scientific-notation-prep.ptx" />
+    <xi:include href="sec-scientific-notation.ptx" />
+  </chapter>
+
+  <chapter xml:id="ch-inverse-variation" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Inverse Variation and Negative Powers</title>
+
+    <xi:include href="sec-inverse-variation-prep.ptx" />
+  </chapter>
+
   <!-- <chapter xml:id="ch-intro-power-models" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Introduction to Power Models</title>
     

@@ -6,33 +6,41 @@
   <investigation xml:id="pa-ceo-pay">
     <introduction>
         <p>
-            Roberts' Law for CEO Compensation<fn>cf. Gabaix, Xavier. <q>Power Laws in Economics and Finance.</q> Annu. Rev. Econ. 2009. 1:255 - 93. doi: 10.1146/annurev.economics.050708.142940</fn> says that at a given moment in time, CEO compensation is proportional to the firm's size. Firm size is often measured as <term>market capitalization</term>, which is the total value of all shares currently owned by stockholders. 
+            Roberts' Law for CEO Compensation<fn>cf. Gabaix, Xavier. <q>Power Laws in Economics and Finance.</q> Annu. Rev. Econ. 2009. 1:255 - 93. doi: 10.1146/annurev.economics.050708.142940</fn> says that at a given moment in time, CEO compensation for large companies is proportional to the 1/3rd power of their size. Total revenue is one way to measure a company's size.
+            <!-- Firm size is often measured as <term>market capitalization</term>, which is the total value of all shares currently owned by stockholders. -->
         </p>
-        <p>
+        <!-- <p>
             Let <m>C</m> be CEO compensation, in millions of dollars, and <m>S</m> be firm size, measured as market capitalization in billions of dollars. Suppose the table below shows the CEO compensation and market capitalization for several companies.
+        </p> -->
+        <p>
+            Let <m>C</m> be CEO compensation, in millions of dollars, and <m>S</m> be company size size, measured by revenue in billions of dollars. Suppose the table below shows the CEO compensation and market capitalization for several companies.
         </p>
         <table>
-            <title>CEO Compensation vs. Market Capitalization - Example</title>
+            <title>CEO Compensation vs. Revenue (Company Size)</title>
             <tabular  halign="center" top="minor" bottom = "minor" right="minor" left="minor">
                 <row header="yes">
                     <cell><m>S</m></cell>
                     <cell><m>C</m></cell>
                 </row>
                 <row>
-                    <cell>1</cell>
-                    <cell>3.4</cell>
+                    <cell>15</cell>
+                    <cell>13.1</cell>
                 </row>
                 <row>
-                    <cell>8</cell>
-                    <cell>6.8</cell>
+                    <cell>25</cell>
+                    <cell>15.5</cell>
                 </row>
                 <row>
-                    <cell>27</cell>
-                    <cell>10.2</cell>
+                    <cell>45</cell>
+                    <cell>18.9</cell>
                 </row>
                 <row>
-                    <cell>64</cell>
-                    <cell>13.6</cell>
+                    <cell>75</cell>
+                    <cell>22.4</cell>
+                </row>
+                <row>
+                    <cell>105</cell>
+                    <cell>25.0</cell>
                 </row>
             </tabular>
         </table>
@@ -40,21 +48,21 @@
     <task>
         <statement>
             <p>
-                Translate the sentence Roberts' Law into a power model equation.
+                Translate the sentence about Roberts' Law into a power model equation.
             </p>
         </statement>
     </task>
     <task>
         <statement>
             <p>
-                Find the constant or proportionality.
+                Use the data to estimate the constant or proportionality
             </p>
         </statement>
     </task>
     <task>
         <statement>
             <p>
-                Come back to this - have them use their formula to estimate some real companies?
+                Pepsi's total revenue in 2024 was about $91 billion, and they reported a total CEO compensation package of about $25 million in reports filed to the SEC. How well does your model predict Pepsi's CEO's compensation package from Pepsi's revenue?
             </p>
         </statement>
     </task>
