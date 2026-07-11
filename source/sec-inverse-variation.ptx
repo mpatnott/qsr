@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-inverse-variation" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Inverse Variation and Negative Exponent Activities</title>
+
+  <introduction>
+    <p>
+        Recall that in <xref ref="sec-inverse-variation-prep"/>, we said that two varying quantities <m>Q_1</m> and <m>Q_2</m> have an <term>inversely proportional relationship</term> when the product of the quantities is constant. That is, <m>Q_1</m> and <m>Q_2</m> have an inversely proportional relationship when 
+      <me>
+        c = Q_2 Q_1
+      </me>
+      always has the same value. We call <m>c</m> the <term>constant of proportionality</term>.
+    </p>
+    <p>
+        We sometimes reorganize <m>c = Q_2 Q_1</m> as
+        <me>
+           Q_2 = \frac{c}{Q_1} 
+        </me>
+        and say that <m>Q_2</m> <term>varies inversely</term> with respect to <m>Q_1</m>.
+    </p>
+  </introduction>
+
+  <activity xml:id="a-zipf-law-en-wikipedia">
+    <introduction>
+        <p>
+            Zipf's Law says that in a particular text, the number of times a word appears in the text is inversely proportional to its rank (i.e., the most common word has rank 1, the second most common has rank 2, etc.). Let <m>N</m> be the number of times, in millions, a word appears in English Wikipedia and <m>r</m> be its rank.
+        </p>
+        <p>
+            According to one source<fn><url href="https://github.com/IlyaSemenov/wikipedia-word-frequency" /></fn>, <q>the</q> was the most common word in English Wikipedia in 2023, appearing 187 times. 
+        </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+           What are the values of <m>r</m> and <m>N</m> for <q>the</q> in English Wikipedia?
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Use your values of <m>r</m> and <m>N</m> to find the constant of proportionality.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Set up a formula that outputs <m>N</m> when given <m>r</m>. That is, write a formula that relates <m>r</m> and <m>N</m> where <m>N</m> is by itself on one side of the equals sign, and the other side of the equations sign is an expression that includes <m>r</m>.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <introduction>
+        <p>
+          Use your formula to estimate the number of times each of the following words appears in English Wikipedia:
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            <q>of</q>, the second most common word
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <q>is</q>, the eight most common word
+          </p>
+        </statement>
+      </task>
+    </task>
+    <task>
+      <statement>
+        <p>
+          In fact, <q>of</q> occurred 88.3 million times and <q>is</q> occurred 24 million times. Does your model seem to give reasonable estimates, based on these two data points?
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          The word <q>were</q> occurred 8.7 million times. Use your model to predict its rank. (It was really 21st. How good was your prediction?)
+        </p>
+      </statement>
+    </task>
+  </activity>
+
+  <!-- Scenario suggested by Gemini. Gemini also created the data table, which seems to be reasonable based on relatively quick confirmation searching. -->
+  <activity xml:id="a-wifi-strength-distance">
+    <introduction>
+      <p>
+        Have you ever noticed that your wi-fi signal strength gets worse as you get further away from the router? Aliyah, an engineering student, is experimenting with a wireless router to learn more about the relationship between signal strength and distance. She's measuring signal strength in milliwatts (mW), because she's knows that's more accurate than the more commonly reported dBm or RSSI values. The table below gives her data.
+      </p>
+      <table>
+        <title>Wi-Fi Signal Power (in mW) vs Distance from Router (in meters, m), for a 2.4 GHz Wireless Router</title>
+        <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+          <row header="yes">
+            <cell>Distance, <m>d</m></cell>
+            <cell>Signal Power, <m>s</m></cell>
+          </row>
+          <row>
+            <cell>1</cell>
+            <cell>0.10000</cell>
+          </row>
+          <row>
+            <cell>2</cell>
+            <cell>0.02500</cell>
+          </row>
+          <row>
+            <cell>4</cell>
+            <cell>0.00625</cell>
+          </row>
+          <row>
+            <cell>5</cell>
+            <cell>0.00400</cell>
+          </row>
+          <row>
+            <cell>10</cell>
+            <cell>0.00100</cell>
+          </row>
+        </tabular>
+      </table>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          Use Aliyah's data to show that signal power and distance aren't inversely proportional.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Aliyah's professor suggested that signal power might vary inversely with the square of distance. Use the data to show that they're correct!
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          What is the constant of proportionality for the relationship between signal power and the square of distance?
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Write a formula that shows how signal power varies inversely with the square of distance.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Use your formula to predict the signal power from Aliyah's router at a distance of 7 meters.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Some sources suggest that a signal strength of 0.000000001 mW is the minimum strength needed for basic connectivity. How far can Aliyah get from her router and still have at least basic connectivity?
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          The milliwatt numbers we've been working with in this activity are very small! Why might it be helpful to express them in scientific notation, instead of regular notation?
+        </p>
+      </statement>
+    </task>
+  </activity>
+
+  <!-- This doesn't work - it's actually sound intensity that follows an inverse square law, and converting between decibels and sound intensity is going to be too complicated/distracting since it involves logs. <activity xml:id="a-decibels-noise-pollution">
+    <introduction>
+      <p>
+        Have you ever been distracted by an unwanted noise, like traffic sounds from a nearby road? This is called <term>noise pollution</term>, and it can have surprising health consequences<fn><url href="https://www.epa.gov/clean-air-act-overview/clean-air-act-title-iv-noise-pollution" /></fn>. Concern about noise pollution is one reason people often give for not wanting a new data center to be built near their home.
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          The loudness of a noise, measured in decibels (dB), is inversely proportional to the square of the distance from the sound. Choose variables to represent the loudness of a sound and the distance from it.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Jazmine and her neighbors are concerned about noise pollution from a data center in their city. Suppose they used a decibel meter to collect the data given in the table below.
+        </p>
+        <table>
+          <title>Noise Loudness, in Decibels, at Various Distances from a Data Center</title>
+          <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+            <row header="yes">
+              <cell>Distance, feet</cell>
+              <cell>Loundess, dB</cell>
+            </row>
+            <row>
+              <cell></cell>
+            </row>
+          </tabular>
+        </table>
+      </statement>
+    </task>
+  </activity>-->
+
+  <activity xml:id="a-intro-neg-exponents">
+    <introduction>
+        <p>
+            Let's discover another exponent rule.
+        </p>
+    </introduction>
+    <task>
+        <introduction>
+            <p>
+                Use repeated multiplication to rewrite each of the following expressions, then simplify by canceling. Remember, if you cancel everything from the numerator of the fraction, then you're left a <m>1</m> in the numerator.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>\frac{x^2}{x^5}</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>\frac{x^3}{x^7}</m>
+                </p>
+            </statement>
+        </task>
+    </task>
+    <task>
+        <introduction>
+            <p>
+                Use the Quotient Rule for Exponents to rewrite each of the following expressions as <m>x^{\text{power}}</m>.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>\frac{x^2}{x^5}</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>\frac{x^3}{x^7}</m>
+                </p>
+            </statement>
+        </task>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Explain why the last two parts support the reasonableness of the Negative Powers Rule: <me>\frac{1}{x^n} = x^{-n}</me>.
+            </p>
+        </statement>
+    </task>
+  </activity>
+
+  <activity xml:id="a-rewrite-with-neg-powers">
+    <introduction>
+      <p>
+        The Negative Powers Rule lets us see how inverse proportionality relationships lead to power models.
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          Rewrite your formula from <xref ref="a-zipf-law-en-wikipedia"/>, relating the number of times a word appears in English Wikipedia and its rank, with a negative exponent to show that it is a power model.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Rewrite your formula from <xref ref="a-wifi-strength-distance"/>, relating the wi-fi signal power and distance from a wireless router, with a negative exponent to show that it is a power model.
+        </p>
+      </statement>
+    </task>
+  </activity>
+
+  <activity xml:id="a-negative-powers-rewrite">
+    <introduction>
+        <p>
+            Let's practice using our new rule, along with other exponent rules, to rewrite expressions.
+        </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                Rewrite as <m>ax^\text{power}</m>: <m>\frac{6}{x}</m>
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Rewrite as <m>ax^\text{power}</m>:<m>\frac{4x^3}{8x^6}</m>
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Rewrite without any negative exponents: <m>6^{-1}x^3x^{-5}</m>
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Rewrite without any negative exponents: <m>\left(4x^{-6}\right)^{-2}</m>
+            </p>
+        </statement>
+    </task>
+  </activity>
+
+  <activity xml:id="a-radar-power-distance">
+    <introduction>
+      <p>
+        A radar system sends out radio waves, which bounce off objects in the world and return to the system. The radar system interprets the signals that it receives back to learn information such as how far away the object. The signal gets weaker the entire time it is traveling. In order for a radar system to detect an object, it has to be close enough that the signal's strength when it arrives back is detectable by the system. Physics tells us that the signal power the system will receive when the signal returns is inversely proportional to the fourth power of the distance the signal has to travel to the object<fn>https://www.radartutorial.eu/01.basics/The%20Radar%20Range%20Equation.en.html</fn>.
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          Write an equation for signal power, <m>P</m>, in terms of distance to the object, <m>d</m>. Your equation will have an unknown constant in it!
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          The relationship between signal power and distance is a power model. What is its exponent?
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Suppose a particular radar system receives a return signal of 4231 picowatts (pW) from a known target 20 kilometers (km) away. Use your equation to find the constant of proportionality. Your answer should be a big number! Write it in scientific notation, and round so that there are 2 decimal places in scientific notation.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          What signal power should this system receive back from a target that is 25 km away?
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Suppose that the smallest signal that this radar system can detect is 100 pW. What is the maximum distance at which this system can detect an object?
+        </p>
+      </statement>
+    </task>
+  </activity>
+
+  <activity xml:id="a-adv-exponent-rules-practice">
+    <introduction>
+        <p>
+            Use your knowledge of exponent rules to rewrite each of the expressions below. 
+        </p>
+    </introduction>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Rewrite as <m>ax^{\text{power}}</m>: <m>\frac{5x^3}{x \cdot x^3}</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Rewrite without negative exponents: <m>\frac{x^{-8}}{2x^7}</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Rewrite without negative exponents: <m>\left(a^{-6} b^2\right)^6</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Rewrite without negative exponents: <m>\left(\frac{8}{x^6}\right)^{-5}</m>
+            </p>
+        </statement>
+    </task>
+    <!-- <task workspace="0.5in">
+        <statement>
+            <p>
+                Rewrite without negative or fractional exponents: <m>\left(n^{-8}m^5\right)^{-\frac12}</m>
+            </p>
+        </statement>
+    </task> -->
+  </activity>
+
+  <activity xml:id="a-color-noise">
+    <introduction>
+        <p>
+            Pink noise is a type of sound that may help some people fall asleep and/or help people with ADHD concentrate.<fn>C. Johnson, <q>Have you tried pink noise for sleep? Here's what to know.</q> AP New, May 20, 2024. <url href="https://apnews.com/article/pink-brown-white-noise-sleep-focus-concentration-f5f24dad1effb09c1cf8b607bd22ebc7"></url></fn> Higher frequency sounds are less intense than low frequency sounds in pink noise. We can model this relationship using the formula <me>P = f^{-1}</me> where <m>P</m> is the power of the sound and <m>f</m> is its frequency.
+        </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                The two octaves around middle A on a piano have frequencies of about 220 - 880 Hz. Sketch a graph showing the relationship of power to frequency in pink noise for the two octaves around middle A. <alert>Hint:</alert> You don't need to know anything about music to solve this problem. The instructions are telling you that the horizontal axis should start at 220 and go up to 880. Choose some numbers between 220 and 880, plug them into the formula to find the power, and then use these points to make a graph.
+            </p>
+        </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Rewrite the formula so that it doesn't have any negative exponents in it.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Complete the sentence: <q>In pink noise, the power of the sounds varies inversely with respect to...</q>
+        </p>
+      </statement>
+    </task>
+    <!--<task>
+        <statement>
+            <p>
+                The model for pink noise is also a power model! We can rewrite it as <me>P = f^{-1}</me>. Talk to your table and brainstorm reasons why it might make sense for negative exponents to be related to variables in the denominator of fractions. <alert>Hint:</alert> You thought about this in the prep activities.
+            </p>
+        </statement>
+    </task>-->
+    <task>
+        <statement>
+            <p>
+                Brown noise is similar to pink noise, but has the model <me> P = f^{-2} </me> instead. Rewrite this formula without negative exponents.
+            </p>
+        </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Complete the sentence: <q>In brown noise, the power of the sound varies inversely with respect to...</q>
+        </p>
+      </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Sketch a graph showing the relationship of power to frequency in brown noise for the two octaves around middle A. <alert> Hint: </alert> What steps did you use to sketch a graph for pink noise?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Does pink or brown noise have more power at 220 Hz? at 440 Hz? at 880 Hz?
+            </p>
+        </statement>
+    </task>
+  </activity>
+
+  <!-- https://mafitch.github.io/tech_math/section-variation.html -->
+  <!--<activity xml:id="a-snow-shoes">
+    <introduction>
+        <p>
+            Pressure is a measure of the amount of force spread over an area.
+            <me>P = \frac{F}{A}</me>
+            where
+            <ul>
+                <li><m>P</m> is pressure</li>
+                <li><m>F</m> is the force in units of pounds (lbs) or Newtons (N),</li>
+                <li><m>A</m> is the area in units of square inches, or meters, or similar.</li>
+            </ul>
+        </p>
+        <p>
+            Walking on snow is difficult because our feet tend to puncture the snow (high pressure applied to low strength snow). We can use snowshoes to avoid this problem: they reduce pressure with minimal increase in force (weight).
+        </p>
+        <p>
+            Suppose Guido weighs 172 lbs.
+        </p>
+    </introduction>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                Without snowshoes, each of Guido's feet has an area of <m>22\text{ in}^2</m>. What is the pressure he exerts on the snow? <alert> Hint: </alert> Guido has two feet! So, what is the total area of his feet?
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                If he wears snowshoes that have a surface area of <m>144\text{ in}^2</m> total, what is the pressure? 
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                If Guido wants to exert a pressure of <m>1 \text{ lb/in}^2</m>, how big do his snowshoes need to be? If he wants to exert a pressure of <m>0.5 \text{ lb/in}^2</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="1in">
+        <statement>
+            <p>
+                Guido's little sister Luisa only weighs 75 lbs. How are the answers above different for Luisa?
+            </p>
+        </statement>
+    </task>
+  </activity>-->
+
+  <activity xml:id="a-logs-and-negatives">
+    <introduction>
+        <p>
+            Let's stretch our understanding of negative exponents and logarithms! Evaluate each of the logs below <alert>without using a calculator</alert>. You can check your answer with a calculator, but should first find them without one.
+        </p>
+    </introduction>
+    <!-- <task workspace="0.5in">
+        <statement>
+            <p>
+                <m>\log_2\left(\sqrt{2}\right)</m>
+            </p>
+        </statement>
+    </task> -->
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                <m>\log_2\left(\frac{1}{2}\right)</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                <m>\log_{10}\left(\frac{1}{100}\right)</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                <m>\log_{9}\left(\frac{1}{27}\right)</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                <alert>Challenge:</alert> Find <m>b</m> so that <m>\log_b\left(\frac{1}{125}\right) = -3</m>
+            </p>
+        </statement>
+    </task>
+  </activity>
+</section>

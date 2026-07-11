@@ -40,6 +40,13 @@
     <title>Inverse Variation and Negative Powers</title>
 
     <xi:include href="sec-inverse-variation-prep.ptx" />
+    <xi:include href="sec-inverse-variation.ptx" />
+  </chapter>
+
+  <chapter xml:id="ch-power-model-trends" xmlns:xi="http://ww.w3.org/2001/XInclude">
+    <title>Power Model Trends</title>
+
+    <xi:include href="sec-power-model-trends-prep.ptx" />
   </chapter>
 
   <!-- <chapter xml:id="ch-intro-power-models" xmlns:xi="http://www.w3.org/2001/XInclude">

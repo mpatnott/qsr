@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-power-model-trends-prep" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Power Model Trends Prep Activities</title>
+
+  <investigation xml:id="pa-linear-trends-review">
+    <introduction>
+        <p>
+            The table below shows the average price per pound ($/lb) of 100% beef ground chuck in the US in May<fn><url href="https://www.bls.gov/charts/consumer-price-index/consumer-price-index-average-price-data.htm" /></fn>
+        </p>
+        <table>
+            <title>Average Price Per Pound ($/lb) of Ground Chuck in the US</title>
+            <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                <row> header="yes"
+                    <cell>Year</cell>
+                    <cell>Price Per Pound</cell>
+                </row>
+                <row>
+                    <cell>2006</cell>
+                    <cell>2.508</cell>
+                </row>
+                <row>
+                    <cell>2011</cell>
+                    <cell>3.277</cell>
+                </row>
+                <row>
+                    <cell>2016</cell>
+                    <cell>3.902</cell>
+                </row>
+                <row>
+                    <cell>2021</cell>
+                    <cell>4.495</cell>
+                </row>
+                <row>
+                    <cell>2026</cell>
+                    <cell>6.718</cell>
+                </row>
+            </tabular>
+        </table>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                Graph
+            </p>
+        </statement>
+    </task>
+  </investigation>
+</section>
