@@ -47,6 +47,7 @@
     <title>Power Model Trends</title>
 
     <xi:include href="sec-power-model-trends-prep.ptx" />
+    <xi:include href="sec-power-model-trends.ptx" />
   </chapter>
 
   <!-- <chapter xml:id="ch-intro-power-models" xmlns:xi="http://www.w3.org/2001/XInclude">

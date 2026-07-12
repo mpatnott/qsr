@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-power-model-trends" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Power Model Trends Activities</title>
+
+  <introduction>
+    <p>
+        We've seen examples of power models with a variety of exponents. Once we've decided a power model is appropriate, we can determine whether the exponent should be positive or negative by looking at how the quantities change together. 
+    </p>
+    <ul>
+        <li>
+            <p>
+                If they increase together, then we need a positive power.
+            </p>
+        </li>
+        <li>
+            <p>
+                If as one quantity increases, the other decreases, then we need a negative power.
+            </p>
+        </li>
+    </ul>
+    <p>
+        But, if all we have is data, how do we know if a power model is appropriate? And, how do we figure out what the value of the exponent should be? In this lesson, we'll learn how to use a <term>log-log graph</term> to answer both of these questions.
+    </p>
+  </introduction>
+
+  <activity xml:id="a-why-log-log">
+    <introduction>
+        <p>
+            In order to understand why logs are helpful here and also see how to use them effectively, we need to start by doing some algebra. 
+        </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                Let's look at an example, using the specific power model
+            </p>
+            <me>
+               d =  0.05v^2
+            </me>
+            <p>
+                that we found in <xref ref="a-braking-distance"/> for the relationship between the braking distance and speed of a car.
+            </p>
+            <ol>
+                <li>
+                    <p>
+                        Take <m>\log_{10}</m> of both sides to get
+                    </p>
+                    <me>\log_{10}(d) = \log_{10}(0.05 \times v^2)</me>
+                </li>
+                <li>
+                    <p>
+                        Use the log property <me>\log(xy) = \log(x) + \log(y)</me> that we introduced in <xref ref="a-log-rules"/> to rewrite the right hand side:
+                    </p>
+                    <me>\log_{10}(d) = \log_{10}(0.05) + \log_{10}(v^2)</me>
+                </li>
+                <li>
+                    <p>
+                        Use a calculator to find <m>\log_{10}(0.05)</m>, and use the log property <me>\log(x^r) = r\log(x)</me> to rewrite the hand side again:
+                    </p>
+                    <me>\log_{10}(d) = -1.301 + 2\log_{10}(v)</me>
+                </li>
+            </ol>
+            <p>
+                We've rewritten our original power model
+            </p>
+            <me>d = 0.05v^2</me>
+            <p>
+                as a linear model
+            </p>
+            <me>\log_{10}(d) = -1.301 + 2\log_{10}(v)</me>
+            <p>
+                for <m>\log_{10}</m> of both of our original variables, and the slope of the linear model is our exponent.
+            </p>
+            <p>
+                Now you try: mimic the steps from the example to rewrite the power model
+            </p>
+            <me>R = 70 \times M^{3/4}</me>
+            <p>
+                from <xref ref="a-ree-mass"/> as a linear model for <m>\log_{10}</m> of <m>R</m> and <m>M</m>. Is the slope of the linear model equal to <m>\frac34</m>?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Now consider the generic power model
+            </p>
+            <me>Q_2 = c Q_1^p</me>
+            <p>
+                where <m>Q_1</m> and <m>Q_2</m> are the quantities we're interested in and are the variables when we work with a specific power model, and <m>c</m> and <m>p</m> are numbers. Use the same steps from the previous part of this activity to rewrite the model as a linear model for <m>\log_{10}</m> of the variables.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                What do you notice about the slope of the linear model for <m>\log_{10}</m> of the variables?
+            </p>
+        </statement>
+    </task>
+  </activity>
+
+  <activity xml:id="a-log-log-and-cube-root-law">
+    <introduction>
+        <p>
+            In <xref ref="a-pop-varies-direct-cube-legislature-size"/>, we worked with a power model that relates the population of a country and the size of its lower house (i.e., its legislative body most similar to the US House of Representatives). That model, proposed by Rein Taagepera in 1972<fn>Taagepera, Rein (1972). <q>The size of national assemblies.</q> <em>Social Science Research.</em><strong>1</strong>(4): 385-401. doi:10.1016/0049-089X(72)90084-1.</fn>, is often stated as <m>s \approx P^{1/3}</m>, that is, the size of the lower house is roughly the cube root of the population.
+        </p>
+        <p>
+            Where did the <m>\frac13</m>rd power come from? And, is it still reasonable? Let's investigate this question for European legislatures. The table below shows the 2019 populations and lower house size for a sample of European countries<fn>https://en.wikipedia.org/wiki/Cube_root_law</fn>.
+        </p>
+        <table>
+            <title>Sample of European Country Populations and Lower House Sizes (in 2019)</title>
+            <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                <row header="yes">
+                    <cell>Country</cell>
+                    <cell>Population (2019)</cell>
+                    <cell>Lower House Size</cell>
+                    <cell>Log(Pop)</cell>
+                    <cell>Log(House)</cell>
+                </row>
+                <row>
+                    <cell>Austria</cell>
+                    <cell>8,877,067</cell>
+                    <cell>183</cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Denmark</cell>
+                    <cell>5,818,553</cell>
+                    <cell>179</cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Finland</cell>
+                    <cell>5,520,314</cell>
+                    <cell>200</cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Germany</cell>
+                    <cell>83,132,799</cell>
+                    <cell>734</cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Iceland</cell>
+                    <cell>361,313</cell>
+                    <cell>63</cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Italy</cell>
+                    <cell>60,297,396</cell>
+                    <cell>400</cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Lithuania</cell>
+                    <cell>2,786,844</cell>
+                    <cell>141</cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Luxembourg</cell>
+                    <cell>619,896</cell>
+                    <cell>60</cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Netherlands</cell>
+                    <cell>17,332,850</cell>
+                    <cell>150</cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Poland</cell>
+                    <cell>37,970,874</cell>
+                    <cell>460</cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Spain</cell>
+                    <cell>47,076,781</cell>
+                    <cell>350</cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Switzerland</cell>
+                    <cell>8,574,832</cell>
+                    <cell>200</cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+            </tabular>
+        </table>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                Use a calculator to find <m>\log_{10}</m> of the population and lower house columns in order to fill in the Log(Pop) and Log(House) columns. Round your answers to two decimal places.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Write several of the population values in scientific notation. What do you notice about the Log(Pop) values and the exponent in scientific notation?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Sketch a graph of the Log(Pop) and Log(House) values, with Log(Pop) as the horizontal axis. This is called a <term>log-log graph</term>.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Find a linear model for Log(House) in terms of Log(Pop). (If you're stuck, ask yourself: what information do I need in order to create a linear model?)
+            </p>
+        </statement>
+    </task>
+    <task>
+        <introduction>
+            <p>
+                Let's turn our linear model for Log(House) in terms of Log(Pop) into a power model for lower house size (<m>s</m>) in terms of population (<m>P</m>). 
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Start by reading the power directly from the linear model. Hint: You learned how to do this in <xref ref="a-why-log-log"/>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    In <xref ref="a-why-log-log"/>, we found that the vertical intercept term in the linear model was <m>\log_{10}(\text{coefficient of power model})</m>. So, to find the coefficient of the power model from the vertical intercept term in the linear model we need to reverse this: the coefficient of the power model is <m>10^{\text{vertical intercept of log-log linear model}}</m>. Find the coefficient of the power model in this example.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Put it together to write a power model for the size of the lower house in terms of the population.
+                </p>
+            </statement>
+        </task>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Is the power in your model equal to <m>\frac13</m>?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Use your power model to estimate the size of the lower house in Estonia<fn>The country Taagepera was from!</fn>, which had a population of 1,326,590 in 2019.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                The UK had a population of 66,834,405 in 2019. Use your model to estimate the size of its lower house.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Norway's lower house had 169 seats in 2019. Use your model to estimate Norway's 2019 population.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                In 2019, Estonia's lower house had 101 seats and the UK's had 650. Norway's 2019 population was 5,347,896. Does your model give a good estimate for any of these countries? a bad estimate? What can we learn from this about this type of model?
+            </p>
+        </statement>
+    </task>
+  </activity>
+
+  <activity xml:id="a-zipfs-law-city-population">
+    <introduction>
+        <p>
+            In <xref ref="a-zipf-law-en-wikipedia"/>, we worked with Zipf's Law in linguistics, which says that in a text
+        </p>
+        <me>\text{# of times a word appears} \approx \frac{c}{\text{rank}}</me>
+        <p>
+            where the rank of the most common word is 1, the second most common word is 2, etc. and <m>c</m> is some constant. It has been suggested<fn>cf. Sidra Arshad, Shougeng Hu, and Badar Nadeem Ashraf. (2018) <q>Zipf's law and city size distribution: A survey of the literature and future research agenda</q>. <em>Physica A: Statistical Mechanics and its Applications</em>. v. 492, pp. 75 - 92. https://doi.org/10.1016/j.physa.2017.10.005.</fn> that Zipf's Law also applies to the distribution of city sizes. That is, if <m>P</m> is a city's population and <m>r</m> is its size rank then
+        </p> 
+        <me>P \approx \frac{c}{r}</me>.
+        <p>
+            Let's explore this claim using US cities. The table below gives 2025 estimates for the population (within the official city limits) of the 10 largest cities in the US<fn>https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population</fn>.
+        </p>
+        <table>
+            <title>10 Largest US Cities, 2025 City-Limits Population Estimates.</title>
+            <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                <row header="yes">
+                    <cell>City</cell>
+                    <cell>Rank, <m>r</m></cell>
+                    <cell>Population (Thousands), <m>P</m></cell>
+                </row>
+                <row>
+                    <cell>New York</cell>
+                    <cell>1</cell>
+                    <cell>8585</cell>
+                </row>
+                <row>
+                    <cell>Los Angeles</cell>
+                    <cell>2</cell>
+                    <cell>3869</cell>
+                </row>
+                <row>
+                    <cell>Chicago</cell>
+                    <cell>3</cell>
+                    <cell>2732</cell>
+                </row>
+                <row>
+                    <cell>Houston</cell>
+                    <cell>4</cell>
+                    <cell>2397</cell>
+                </row>
+                <row>
+                    <cell>Phoenix</cell>
+                    <cell>5</cell>
+                    <cell>1665</cell>
+                </row>
+                <row>
+                    <cell>Philadelphia</cell>
+                    <cell>6</cell>
+                    <cell>1574</cell>
+                </row>
+                <row>
+                    <cell>San Antonio</cell>
+                    <cell>7</cell>
+                    <cell>1548</cell>
+                </row>
+                <row>
+                    <cell>San Diego</cell>
+                    <cell>8</cell>
+                    <cell>1406</cell>
+                </row>
+                <row>
+                    <cell>Dallas</cell>
+                    <cell>9</cell>
+                    <cell>1329</cell>
+                </row>
+                <row>
+                    <cell>Fort Worth</cell>
+                    <cell>10</cell>
+                    <cell>1028</cell>
+                </row>
+            </tabular>
+        </table>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                What exponent does Zipf's Law predict for the exponent in a power model relating the size of a US city to its rank?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                If Zipf's Law holds for the distribution of US cities, then <m>P \times r</m> should be approximately constant. Does this seem to be true, based on this sample of cities?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <introduction>
+            <p>
+                Let's find our own model using a log-log graph.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Add Log(Rank) and Log(Pop) columns to the chart, then use a calculator to fill them in.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Make a log-log graph with Log(Rank) on the horizontal axis and Log(Pop) on the vertical axis.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Find a linear model for Log(Pop) in terms of Log(Rank).
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Rewrite your linear model for Log(Pop) in terms of Log(Rank) as a power model for <m>P</m> with respect to <m>r</m>. Use the same steps that we used in <xref ref="a-log-log-and-cube-root-law"/>.
+                </p>
+            </statement>
+        </task>
+    </task>
+    <task>
+        <statement>
+            <p>
+                What is the exponent in your model? What does this suggest about the claim that Zipf's Law holds for the distribution of city sizes?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <introduction>
+            <p>
+                In 2025, Denver was the 19th largest city in the US and had a population of about 741,000 people. 
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Use your model to predict Denver's population.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    If we estimate <m>c</m> in Zipf's Law with the average of <m>P \times r</m> for the top 10 cities in the US, then we get the model
+                </p>
+                <me>P = \frac{9620}{r}</me>
+                <p>Use this model to predict Denver's 2019 population.</p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Which gave a better estimate: your model, or the Zipf's Law model? Are you surprised?
+                </p>
+            </statement>
+        </task>
+    </task>
+  </activity>
+
+  <activity xml:id="a-income-distribution">
+    <introduction>
+        <p>
+            In the late 19th century, Italian economist Vilfredo Pareto claimed that the income distribution in all countries followed a power model<fn>https://en.wikipedia.org/wiki/Vilfredo_Pareto#Pareto_theory_of_maximum_economics</fn>. That is, if <m>x</m> is an amount of money and <m>N</m> is the number of people who earn at least <m>x</m> in a year, then <me>N = cx^p</me> where <m>c</m> and <m>p</m> are numbers that might be different in different countries and at different times. Modern economists have modified Pareto's claim: instead of the entire income distribution following a power model, they suggest that lower incomes (i.e., the incomes of most people) follow a different pattern, but very high incomes follow a power model. Let's investigate these claims for the United States in the 21st century, using IRS data in the table below<fn><q>All Returns: Sources of Income, Adjustments Deductions and Exemptions, and Tax Items. Published as: Individual Complete Report (Publication 1304), Table 1.4</q> (2023), SOI Tax Stats, IRS.</fn>.
+        </p>
+        <table>
+            <title>Number of Tax Returns Reporting an Adjusted Gross Income (AGI) for Selected Income Levels</title>
+            <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                <row header="yes">
+                    <cell>Adjusted Gross Income ($)</cell>
+                    <cell>Number With This AGI or Higher</cell>
+                    <cell>Log(AGI)</cell>
+                    <cell>Log(Num)</cell>
+                </row>
+                <row>
+                    <cell>5,000</cell>
+                    <cell>151,064,212</cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>25,000</cell>
+                    <cell>117,372,197</cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>50,000</cell>
+                    <cell>81,048,740</cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>100,000</cell>
+                    <cell>41,137,388</cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>200,000</cell>
+                    <cell>13,534,633</cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>500,000</cell>
+                    <cell>2,578,815</cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>1,000,000</cell>
+                    <cell>799,095</cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>1,500,000</cell>
+                    <cell>430,164</cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>2,000,000</cell>
+                    <cell>282,874</cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>5,000,000</cell>
+                    <cell>79,644</cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>10,000,000</cell>
+                    <cell>30,382</cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+            </tabular>
+        </table>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                Use a calculator to fill in the Log(AGI) and Log(Num) columns in the table.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Make a log-log graph for the data.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                If modern economists are correct, then your log-log graph should suggest that a linear model is a good fit for the log-log data for high income values, but that a different pattern holds for the lower income values. Does this seem to be the case? Explain your answer.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Find a linear model for the log-log data for high income values.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Rewrite your linear model for the log-log data as a power model for <m>N</m>, the number of people earning <m>x</m> dollars are more, with respect to <m>x</m>.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Use your power model to predict the number of returns reporting an AGI of $3 million or more.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Use your power model to predict an AGI so that about 50,000 returns reported that AGI or higher.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Would it make sense to use your power model to predict an income level so that 100 million returns report that AGI or higher?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                The IRS table this data was pulled from doesn't provide information on the number of returns that report an AGI of $25 million or more. Use your model to estimate the number of returns reporting an AGI of $25 million or more. What caution should you provide all with this estimate?
+            </p>
+        </statement>
+    </task>
+  </activity>
+
+  <activity xml:id="a-blood-circulation-body-mass">
+    <introduction>
+        <p>
+            Researchers developing new medicines often test their potential new drugs in animals before testing them in humans. How do they scale a safe and effective dose in mice or other lab animals to a safe and effective dose in humans? <term>Allometric scaling</term>, which uses data to find a power model and then make predications, can be a useful tool<fn>Mahmood, Iftekhar. (2007) <q>Application of allometric principles for the prediction of pharmacokinetics in human and veterinary drug development</q>. <em>Advanced Drug Delivery Reviews</em>. vol 59, no. 11, pp. 1177-1192. https://doi.org/10.1016/j.addr.2007.05.015 </fn>.
+        </p>
+        <p>
+            Let's explore allometric scaling by finding a power model for blood circulation time with respect to body mass in mammals. The table below is based on real data and formulas<fn>Lindstedt, S.L. and W.A. Calder III. <q>Body Size, Physiological Time, and Longevity of Homeothermic Animals</q>. <em>The Quarterly Review of Biology</em>. Vol. 56, No. 1 (Mar., 1981), pp. 1-16. https://www.jstor.org/stable/2826367</fn>.
+        </p>
+        <table>
+            <title>Estimated Average Body Mass (in kg) and Estimated Circulation Time (in sec) for a Selection of Mammal Species</title>
+            <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                <row header="yes">
+                    <cell>Mammal</cell>
+                    <cell>Body Mass, <m>M</m> (kg)</cell>
+                    <cell>Circulation Time, <m>t</m> (sec)</cell>
+                </row>
+                <!--<row>
+                    <cell>Mouse</cell>
+                    <cell>0.018</cell>
+                    <cell></cell>
+                </row>-->
+                <row>
+                    <cell>Rat</cell>
+                    <cell>0.35</cell>
+                    <cell>17</cell>
+                </row>
+                <row>
+                    <cell>Cat</cell>
+                    <cell>4.5</cell>
+                    <cell>29</cell>
+                </row>
+                <row>
+                    <cell>Dog</cell>
+                    <cell>18</cell>
+                    <cell>39</cell>
+                </row>
+                <row>
+                    <cell>Human</cell>
+                    <cell>70</cell>
+                    <cell>51</cell>
+                </row>
+                <row>
+                    <cell>Horse</cell>
+                    <cell>500</cell>
+                    <cell>77</cell>
+                </row>
+                <row>
+                    <cell>Elephant</cell>
+                    <cell>4500</cell>
+                    <cell>123</cell>
+                </row>
+            </tabular>
+        </table>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                Find a power model for <m>t</m> with respect to <m>M</m> using log-log data. Try to remember the steps, but refer back to the structure of the previous activities when you get stuck!
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Use your model to predict the blood circulation time for a llama with a body mass of 120 kg.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Is it appropriate to use your model to predict the blood circulation time for a chicken with a body mass of 3 kg? Explain your answer.
+            </p>
+        </statement>
+    </task>
+  </activity>
+</section>
