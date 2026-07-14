@@ -101,14 +101,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '8.1.11';
+eBookConfig.runestone_version = '8.1.14';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.8b6d53d5a91823a0.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.2901d6466316ff22.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<script src="_static/prefix-runtime.cb5af2e851de3574.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.f51cd4153b45055d.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.66fa8a682a32c0ac.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
@@ -341,16 +341,23 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para">The change factor is always</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\frac{100 + \text{Percent Change}}{100}\text{.}
+\frac{100 + \text{Percent Change}}{100}
 \end{equation*}
 </div>
+<div class="para">or, equivalently,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+1 + \frac{\text{Percent Change}}{100} = 1 + \text{Percent Change as a Decimal}\text{.}
+\end{equation*}
+</div>
+<div class="para">These formulas will always give the exact same answer, if you use them correctly. Use the one you like best!</div>
 <div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <article class="activity project-like" id="a-find-change-factor"><h3 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">6.2.1</span><span class="period">.</span>
 </h3>
 <article class="task exercise-like" id="a-find-change-factor-1"><h4 class="heading"><span class="codenumber">(a)</span></h4>
-<div class="para" id="a-find-change-factor-1-1-1">The city of Denver has a 9.15% sales tax. What is the change factor for the cost of items purchased in Denver?<div class="autopermalink" data-description="Paragraph"><a href="#a-find-change-factor-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="a-find-change-factor-1-1-1">The city of Denver (as of July 2026) has a 9.15% sales tax. What is the change factor for the cost of items purchased in Denver?<div class="autopermalink" data-description="Paragraph"><a href="#a-find-change-factor-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Task 6.2.1.a"><a href="#a-find-change-factor-1" title="Copy heading and permalink for Task 6.2.1.a" aria-label="Copy heading and permalink for Task 6.2.1.a">🔗</a></div></article><article class="task exercise-like" id="a-find-change-factor-2"><h4 class="heading"><span class="codenumber">(b)</span></h4>
 <div class="para" id="a-find-change-factor-2-1-1">A store is having a sale and all of its items are 25% off. What is the change factor for the price of items in this store?<div class="autopermalink" data-description="Paragraph"><a href="#a-find-change-factor-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -456,9 +463,17 @@ eBookConfig.enable_chatcodes =  false;
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">6.2.8</span><span class="period">.</span>
 </h3>
 <div class="introduction" id="sec-percent-change-13-1">
-<div class="para" id="sec-percent-change-13-1-1">The table below gives the median household income in Colorado, according to the Federal Reserve Bank of St. Louis<details class="ptx-footnote" aria-live="polite" id="sec-percent-change-13-1-1-1"><summary class="ptx-footnote__number" title="Footnote 6.2.3"><sup> 3 </sup></summary><div class="ptx-footnote__contents" id="sec-percent-change-13-1-1-1"><a class="external" href="https://fred.stlouisfed.org/series/MEHOINUSCOA646N" target="_blank"><code class="code-inline tex2jax_ignore">https://fred.stlouisfed.org/series/MEHOINUSCOA646N</code></a></div></details><div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-13-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para logical" id="sec-percent-change-13-1-1">
+<div class="para">The table below gives the median household income in Colorado, according to the Federal Reserve Bank of St. Louis<details class="ptx-footnote" aria-live="polite" id="sec-percent-change-13-1-1-1"><summary class="ptx-footnote__number" title="Footnote 6.2.3"><sup> 3 </sup></summary><div class="ptx-footnote__contents" id="sec-percent-change-13-1-1-1"><a class="external" href="https://fred.stlouisfed.org/series/MEHOINUSCOA646N" target="_blank"><code class="code-inline tex2jax_ignore">https://fred.stlouisfed.org/series/MEHOINUSCOA646N</code></a></div></details>. When working from data, we can find the change factor between data points by rearranging the equation <span class="process-math">\(\text{New Value} = \text{Initial Value } \times \text{ Change Factor}\)</span> as</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{Change Factor} = \frac{\text{New Value}}{\text{Initial Value}}\text{.}
+\end{equation*}
 </div>
-<figure class="table table-like" id="sec-percent-change-13-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.2.3<span class="period">.</span></span><span class="space"> </span>Median Household Income in Colorado, 2019 - 2023<div class="autopermalink" data-description="Table 6.2.3: Median Household Income in Colorado, 2019 - 2023"><a href="#sec-percent-change-13-1-2" title="Copy heading and permalink for Table 6.2.3: Median Household Income in Colorado, 2019 - 2023" aria-label="Copy heading and permalink for Table 6.2.3: Median Household Income in Colorado, 2019 - 2023">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<div class="para">Typically, we use the earlier value as the initial value and the later value as the new value.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-13-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="table table-like" id="sec-percent-change-13-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.2.3<span class="period">.</span></span><span class="space"> </span>Median Household Income in Colorado, 2019 - 2024<div class="autopermalink" data-description="Table 6.2.3: Median Household Income in Colorado, 2019 - 2024"><a href="#sec-percent-change-13-1-2" title="Copy heading and permalink for Table 6.2.3: Median Household Income in Colorado, 2019 - 2024" aria-label="Copy heading and permalink for Table 6.2.3: Median Household Income in Colorado, 2019 - 2024">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <th scope="row" class="c m b1 r1 l1 t1 lines">Year</th>
 <td class="c m b1 r1 l0 t1 lines">2019</td>
@@ -466,6 +481,7 @@ eBookConfig.enable_chatcodes =  false;
 <td class="c m b1 r1 l0 t1 lines">2021</td>
 <td class="c m b1 r1 l0 t1 lines">2022</td>
 <td class="c m b1 r1 l0 t1 lines">2023</td>
+<td class="c m b1 r1 l0 t1 lines">2024</td>
 </tr>
 <tr>
 <th scope="row" class="c m b1 r1 l1 t0 lines">Median Income ($)</th>
@@ -474,11 +490,12 @@ eBookConfig.enable_chatcodes =  false;
 <td class="c m b1 r1 l0 t0 lines">84,950</td>
 <td class="c m b1 r1 l0 t0 lines">89,930</td>
 <td class="c m b1 r1 l0 t0 lines">96,640</td>
+<td class="c m b1 r1 l0 t0 lines">106,500</td>
 </tr>
 </table></div></figure>
 </div>
 <article class="task exercise-like" id="sec-percent-change-13-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
-<div class="para" id="sec-percent-change-13-2-1-1">Find the change factor from each year to next. Round to three (3) decimal places. The change factor from 2019 to 2020 has been done for you, as an example.<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-13-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec-percent-change-13-2-1-1">Find the change factor from each year to next. Round to three (3) decimal places. The change factors from 2019 to 2020  and 2021 to 2022 have been done for you, as examples. Notice that for 2019 to 2020, we used the 2019 median income as the initial value and the 2020 medican income as the new value, and for 2021 to 2022, we used the 2021 median income as the initial value and the 2022 median income as the old value.<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-13-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div> <figure class="table table-like" id="sec-percent-change-13-2-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.2.4<span class="period">.</span></span><span class="space"> </span>Annual Change Factors in Colorado Median Household Income<div class="autopermalink" data-description="Table 6.2.4: Annual Change Factors in Colorado Median Household Income"><a href="#sec-percent-change-13-2-1-2" title="Copy heading and permalink for Table 6.2.4: Annual Change Factors in Colorado Median Household Income" aria-label="Copy heading and permalink for Table 6.2.4: Annual Change Factors in Colorado Median Household Income">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines">Years</th>
@@ -494,15 +511,27 @@ eBookConfig.enable_chatcodes =  false;
 </tr>
 <tr>
 <td class="c m b1 r1 l1 t0 lines">2021 to 2022</td>
-<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\frac{89,930}{84,950} = 1.059\)</span></td>
 </tr>
 <tr>
 <td class="c m b1 r1 l1 t0 lines">2022 to 2023</td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2023 to 2024</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
 </table></div></figure><div class="autopermalink" data-description="Task 6.2.8.a"><a href="#sec-percent-change-13-2" title="Copy heading and permalink for Task 6.2.8.a" aria-label="Copy heading and permalink for Task 6.2.8.a">🔗</a></div></article><article class="task exercise-like" id="sec-percent-change-13-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
-<div class="para" id="sec-percent-change-13-3-1-1">Find the percent change from each year to the next in Colorado median household income. The percent change from 2019 to 2020 has been done for you, as an example.<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-13-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <figure class="table table-like" id="sec-percent-change-13-3-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.2.5<span class="period">.</span></span><span class="space"> </span>Annual Percent Change in Colorado Median Household Income<div class="autopermalink" data-description="Table 6.2.5: Annual Percent Change in Colorado Median Household Income"><a href="#sec-percent-change-13-3-1-2" title="Copy heading and permalink for Table 6.2.5: Annual Percent Change in Colorado Median Household Income" aria-label="Copy heading and permalink for Table 6.2.5: Annual Percent Change in Colorado Median Household Income">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<div class="para logical" id="sec-percent-change-13-3-1-1">
+<div class="para">The change factor is easier to find from data, but we typically want to report the percent change. To find the percent change from the change factor, we reorganize the formulas that give us change factor from percent change to get</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{Percent Change} = \text{Change Factor} \times 100 - 100\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-13-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="sec-percent-change-13-3-1-2">Find the percent change from each year to the next in Colorado median household income. The percent change from 2019 to 2020 has been done for you, as an example.<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-13-3-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="table table-like" id="sec-percent-change-13-3-1-3"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.2.5<span class="period">.</span></span><span class="space"> </span>Annual Percent Change in Colorado Median Household Income<div class="autopermalink" data-description="Table 6.2.5: Annual Percent Change in Colorado Median Household Income"><a href="#sec-percent-change-13-3-1-3" title="Copy heading and permalink for Table 6.2.5: Annual Percent Change in Colorado Median Household Income" aria-label="Copy heading and permalink for Table 6.2.5: Annual Percent Change in Colorado Median Household Income">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines">Years</th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Percent Change</th>
@@ -523,15 +552,42 @@ eBookConfig.enable_chatcodes =  false;
 <td class="c m b1 r1 l1 t0 lines">2022 to 2023</td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2023 to 2024</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
 </table></div></figure><div class="autopermalink" data-description="Task 6.2.8.b"><a href="#sec-percent-change-13-3" title="Copy heading and permalink for Task 6.2.8.b" aria-label="Copy heading and permalink for Task 6.2.8.b">🔗</a></div></article><article class="task exercise-like" id="sec-percent-change-13-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
 <div class="para" id="sec-percent-change-13-4-1-1">What do you notice? What do you wonder?<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-13-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 6.2.8.c"><a href="#sec-percent-change-13-4" title="Copy heading and permalink for Task 6.2.8.c" aria-label="Copy heading and permalink for Task 6.2.8.c">🔗</a></div></article><div class="autopermalink" data-description="Activity 6.2.8"><a href="#sec-percent-change-13" title="Copy heading and permalink for Activity 6.2.8" aria-label="Copy heading and permalink for Activity 6.2.8">🔗</a></div></article><article class="activity project-like" id="sec-percent-change-14"><h3 class="heading">
+<div class="autopermalink" data-description="Task 6.2.8.c"><a href="#sec-percent-change-13-4" title="Copy heading and permalink for Task 6.2.8.c" aria-label="Copy heading and permalink for Task 6.2.8.c">🔗</a></div></article><div class="autopermalink" data-description="Activity 6.2.8"><a href="#sec-percent-change-13" title="Copy heading and permalink for Activity 6.2.8" aria-label="Copy heading and permalink for Activity 6.2.8">🔗</a></div></article><article class="activity project-like" id="percent-change-latinos"><h3 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">6.2.9</span><span class="period">.</span>
 </h3>
-<div class="introduction" id="sec-percent-change-14-1">
-<div class="para" id="sec-percent-change-14-1-1">
-<em class="emphasis">Challenge:</em> Kaitlyn is ordering pizza. The screenshot below shows her order in the app, just before placing the order. On the previous screen, Kaitlyn chose to leave a 20% tip, and entered a code for a free pizza.<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-14-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="introduction" id="percent-change-latinos-1"><div class="para" id="percent-change-latinos-1-1">The number of Latine people living in Colorado and the United States has grown dramatically since 2000.<div class="autopermalink" data-description="Paragraph"><a href="#percent-change-latinos-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="percent-change-latinos-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="introduction" id="percent-change-latinos-2-1"><div class="para" id="percent-change-latinos-2-1-1">In 2000, 736,000 Latine people lived in Colorado. By 2024, this number had grown to 1,300,000<details class="ptx-footnote" aria-live="polite" id="percent-change-latinos-2-1-1-1"><summary class="ptx-footnote__number" title="Footnote 6.2.4"><sup> 4 </sup></summary><div class="ptx-footnote__contents" id="percent-change-latinos-2-1-1-1">https://www.cpr.org/2025/11/16/colorado-hispanic-population-growth-data/</div></details>.<div class="autopermalink" data-description="Paragraph"><a href="#percent-change-latinos-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="percent-change-latinos-2-2"><h5 class="heading"><span class="codenumber">(i)</span></h5>
+<div class="para" id="percent-change-latinos-2-2-1-1">What is the change factor for the Colorado Latine population from 2000 to 2024?<div class="autopermalink" data-description="Paragraph"><a href="#percent-change-latinos-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 6.2.9.a.i"><a href="#percent-change-latinos-2-2" title="Copy heading and permalink for Task 6.2.9.a.i" aria-label="Copy heading and permalink for Task 6.2.9.a.i">🔗</a></div></article><article class="task exercise-like" id="percent-change-latinos-2-3"><h5 class="heading"><span class="codenumber">(ii)</span></h5>
+<div class="para" id="percent-change-latinos-2-3-1-1">What is the percent change?<div class="autopermalink" data-description="Paragraph"><a href="#percent-change-latinos-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 6.2.9.a.ii"><a href="#percent-change-latinos-2-3" title="Copy heading and permalink for Task 6.2.9.a.ii" aria-label="Copy heading and permalink for Task 6.2.9.a.ii">🔗</a></div></article><div class="autopermalink" data-description="Task 6.2.9.a"><a href="#percent-change-latinos-2" title="Copy heading and permalink for Task 6.2.9.a" aria-label="Copy heading and permalink for Task 6.2.9.a">🔗</a></div></article><article class="task exercise-like" id="percent-change-latinos-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="introduction" id="percent-change-latinos-3-1"><div class="para" id="percent-change-latinos-3-1-1">The US Latine population in 2024 was 68 million, whereas in 2000 it was 35.5 million<details class="ptx-footnote" aria-live="polite" id="percent-change-latinos-3-1-1-1"><summary class="ptx-footnote__number" title="Footnote 6.2.5"><sup> 5 </sup></summary><div class="ptx-footnote__contents" id="percent-change-latinos-3-1-1-1">https://www.cpr.org/2025/11/16/colorado-hispanic-population-growth-data/</div></details>.<div class="autopermalink" data-description="Paragraph"><a href="#percent-change-latinos-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="percent-change-latinos-3-2"><h5 class="heading"><span class="codenumber">(i)</span></h5>
+<div class="para" id="percent-change-latinos-3-2-1-1">What is the change factor for the US Latine population from 2000 to 2024?<div class="autopermalink" data-description="Paragraph"><a href="#percent-change-latinos-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 6.2.9.b.i"><a href="#percent-change-latinos-3-2" title="Copy heading and permalink for Task 6.2.9.b.i" aria-label="Copy heading and permalink for Task 6.2.9.b.i">🔗</a></div></article><article class="task exercise-like" id="percent-change-latinos-3-3"><h5 class="heading"><span class="codenumber">(ii)</span></h5>
+<div class="para" id="percent-change-latinos-3-3-1-1">What is the percent change?<div class="autopermalink" data-description="Paragraph"><a href="#percent-change-latinos-3-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 6.2.9.b.ii"><a href="#percent-change-latinos-3-3" title="Copy heading and permalink for Task 6.2.9.b.ii" aria-label="Copy heading and permalink for Task 6.2.9.b.ii">🔗</a></div></article><div class="autopermalink" data-description="Task 6.2.9.b"><a href="#percent-change-latinos-3" title="Copy heading and permalink for Task 6.2.9.b" aria-label="Copy heading and permalink for Task 6.2.9.b">🔗</a></div></article><div class="autopermalink" data-description="Activity 6.2.9"><a href="#percent-change-latinos" title="Copy heading and permalink for Activity 6.2.9" aria-label="Copy heading and permalink for Activity 6.2.9">🔗</a></div></article><article class="activity project-like" id="sec-percent-change-15"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">6.2.10</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="sec-percent-change-15-1">
+<div class="para" id="sec-percent-change-15-1-1">
+<em class="emphasis">Challenge:</em> Kaitlyn is ordering pizza. The screenshot below shows her order in the app, just before placing the order. On the previous screen, Kaitlyn chose to leave a 20% tip, and entered a code for a free pizza.<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-15-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <figure class="figure figure-like" id="fig-mod-pizza-receipt"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;">
 <img src="external/./images/mod-pizza-receipt.jpg" class="contained" alt="Subtotal of $14.28, discount of $10.79, $0.30 in taxes, $2.86 tip, total of $6.65."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="fig-mod-pizza-receipt-2-description"><div class="para" id="fig-mod-pizza-receipt-2-2-1">Subtotal of $14.28, discount of $10.79, $0.30 in taxes, $2.86 tip, total of $6.65.<div class="autopermalink" data-description="Paragraph"><a href="#fig-mod-pizza-receipt-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -539,30 +595,30 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">6.2.6<span class="period">.</span></span><span class="space"> </span>Summary of Kaitlyn’s pizza order.<div class="autopermalink" data-description="Figure 6.2.6"><a href="#fig-mod-pizza-receipt" title="Copy heading and permalink for Figure 6.2.6" aria-label="Copy heading and permalink for Figure 6.2.6">🔗</a></div></figcaption></figure>
 </div>
-<article class="task exercise-like" id="sec-percent-change-14-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
-<div class="para" id="sec-percent-change-14-2-1-1">Kaitlyn’s friend Brixton tells her not to press the Place Order button, because there’s obviously a scam involved in calculating the tip. Use what you’ve learned about percent change to explain why Brixton is suspicious.<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-14-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<article class="task exercise-like" id="sec-percent-change-15-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="sec-percent-change-15-2-1-1">Kaitlyn’s friend Brixton tells her not to press the Place Order button, because there’s obviously a scam involved in calculating the tip. Use what you’ve learned about percent change to explain why Brixton is suspicious.<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-15-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 6.2.9.a"><a href="#sec-percent-change-14-2" title="Copy heading and permalink for Task 6.2.9.a" aria-label="Copy heading and permalink for Task 6.2.9.a">🔗</a></div></article><article class="task exercise-like" id="sec-percent-change-14-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
-<div class="para" id="sec-percent-change-14-3-1-1">There isn’t actually a scam here, but:<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-14-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <ul class="disc" id="sec-percent-change-14-3-1-2">
-<li id="sec-percent-change-14-3-1-2-1">
-<div class="para" id="sec-percent-change-14-3-1-2-1-1">The way the app has displayed the subtotal, discount, taxes, and tip is misleading and<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-14-3-1-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task 6.2.10.a"><a href="#sec-percent-change-15-2" title="Copy heading and permalink for Task 6.2.10.a" aria-label="Copy heading and permalink for Task 6.2.10.a">🔗</a></div></article><article class="task exercise-like" id="sec-percent-change-15-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="sec-percent-change-15-3-1-1">There isn’t actually a scam here, but:<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-15-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <ul class="disc" id="sec-percent-change-15-3-1-2">
+<li id="sec-percent-change-15-3-1-2-1">
+<div class="para" id="sec-percent-change-15-3-1-2-1-1">The way the app has displayed the subtotal, discount, taxes, and tip is misleading and<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-15-3-1-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#sec-percent-change-14-3-1-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#sec-percent-change-15-3-1-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="sec-percent-change-14-3-1-2-2">
-<div class="para" id="p-derived-sec-percent-change-14-3-1-2-2">The way the app calculated the tip might not align with what Kaitlyn was expecting.</div>
-<div class="autopermalink" data-description="Item"><a href="#sec-percent-change-14-3-1-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<li id="sec-percent-change-15-3-1-2-2">
+<div class="para" id="p-derived-sec-percent-change-15-3-1-2-2">The way the app calculated the tip might not align with what Kaitlyn was expecting.</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-percent-change-15-3-1-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-</ul> <div class="para" id="sec-percent-change-14-3-1-3">Use what you’ve learned about percent change to figure out what the app has done, and explain it to Kaitlyn and Brixton.<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-14-3-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</ul> <div class="para" id="sec-percent-change-15-3-1-3">Use what you’ve learned about percent change to figure out what the app has done, and explain it to Kaitlyn and Brixton.<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-15-3-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 6.2.9.b"><a href="#sec-percent-change-14-3" title="Copy heading and permalink for Task 6.2.9.b" aria-label="Copy heading and permalink for Task 6.2.9.b">🔗</a></div></article><div class="autopermalink" data-description="Activity 6.2.9"><a href="#sec-percent-change-14" title="Copy heading and permalink for Activity 6.2.9" aria-label="Copy heading and permalink for Activity 6.2.9">🔗</a></div></article><article class="activity project-like" id="sec-percent-change-15"><h3 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">6.2.10</span><span class="period">.</span>
+<div class="autopermalink" data-description="Task 6.2.10.b"><a href="#sec-percent-change-15-3" title="Copy heading and permalink for Task 6.2.10.b" aria-label="Copy heading and permalink for Task 6.2.10.b">🔗</a></div></article><div class="autopermalink" data-description="Activity 6.2.10"><a href="#sec-percent-change-15" title="Copy heading and permalink for Activity 6.2.10" aria-label="Copy heading and permalink for Activity 6.2.10">🔗</a></div></article><article class="activity project-like" id="sec-percent-change-16"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">6.2.11</span><span class="period">.</span>
 </h3>
-<div class="introduction" id="sec-percent-change-15-1">
-<div class="para" id="sec-percent-change-15-1-1">In April 2025, the Trump Administration raised tariffs on goods imported to the US. The Office of the US Trade Representative (USTR) initially published a <a class="external" href="https://www.whitehouse.gov/wp-content/uploads/2025/04/Annex-I.pdf" target="_blank">table of new tariffs</a><details class="ptx-footnote" aria-live="polite" id="sec-percent-change-15-1-1-2"><summary class="ptx-footnote__number" title="Footnote 6.2.4"><sup> 4 </sup></summary><div class="ptx-footnote__contents" id="sec-percent-change-15-1-1-2"><code class="code-inline tex2jax_ignore">www.whitehouse.gov/wp-content/uploads/2025/04/Annex-I.pdf</code></div></details>, but followed up with more <a class="external" href="https://ustr.gov/sites/default/files/files/Issue_Areas/Presidential%20Tariff%20Action/Reciprocal%20Tariff%20Calculations.pdf" target="_blank">details on the calculations</a><details class="ptx-footnote" aria-live="polite" id="sec-percent-change-15-1-1-4"><summary class="ptx-footnote__number" title="Footnote 6.2.5"><sup> 5 </sup></summary><div class="ptx-footnote__contents" id="sec-percent-change-15-1-1-4"><code class="code-inline tex2jax_ignore">ustr.gov/sites/default/files/files/Issue_Areas/Presidential%20Tariff%20Action/Reciprocal%20Tariff%20Calculations.pdf</code></div></details>. The White House calls the new tariffs “reciprocal tariffs” in the <a class="external" href="https://www.whitehouse.gov/presidential-actions/2025/04/regulating-imports-with-a-reciprocal-tariff-to-rectify-trade-practices-that-contribute-to-large-and-persistent-annual-united-states-goods-trade-deficits/" target="_blank">Executive Order authorizing the new rates</a><details class="ptx-footnote" aria-live="polite" id="sec-percent-change-15-1-1-7"><summary class="ptx-footnote__number" title="Footnote 6.2.6"><sup> 6 </sup></summary><div class="ptx-footnote__contents" id="sec-percent-change-15-1-1-7"><code class="code-inline tex2jax_ignore">www.whitehouse.gov/presidential-actions/2025/04/regulating-imports-with-a-reciprocal-tariff-to-rectify-trade-practices-that-contribute-to-large-and-persistent-annual-united-states-goods-trade-deficits/</code></div></details>, and the document explaining the calculations says that “Reciprocal tariffs are calculated as the tariff rate necessary to balance bilateral trade deficits between the U.S. and each of our trading partners.”<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-15-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="introduction" id="sec-percent-change-16-1">
+<div class="para" id="sec-percent-change-16-1-1">In April 2025, the Trump Administration raised tariffs on goods imported to the US. The Office of the US Trade Representative (USTR) initially published a <a class="external" href="https://www.whitehouse.gov/wp-content/uploads/2025/04/Annex-I.pdf" target="_blank">table of new tariffs</a><details class="ptx-footnote" aria-live="polite" id="sec-percent-change-16-1-1-2"><summary class="ptx-footnote__number" title="Footnote 6.2.6"><sup> 6 </sup></summary><div class="ptx-footnote__contents" id="sec-percent-change-16-1-1-2"><code class="code-inline tex2jax_ignore">www.whitehouse.gov/wp-content/uploads/2025/04/Annex-I.pdf</code></div></details>, but followed up with more <a class="external" href="https://ustr.gov/sites/default/files/files/Issue_Areas/Presidential%20Tariff%20Action/Reciprocal%20Tariff%20Calculations.pdf" target="_blank">details on the calculations</a><details class="ptx-footnote" aria-live="polite" id="sec-percent-change-16-1-1-4"><summary class="ptx-footnote__number" title="Footnote 6.2.7"><sup> 7 </sup></summary><div class="ptx-footnote__contents" id="sec-percent-change-16-1-1-4"><code class="code-inline tex2jax_ignore">ustr.gov/sites/default/files/files/Issue_Areas/Presidential%20Tariff%20Action/Reciprocal%20Tariff%20Calculations.pdf</code></div></details>. The White House calls the new tariffs “reciprocal tariffs” in the <a class="external" href="https://www.whitehouse.gov/presidential-actions/2025/04/regulating-imports-with-a-reciprocal-tariff-to-rectify-trade-practices-that-contribute-to-large-and-persistent-annual-united-states-goods-trade-deficits/" target="_blank">Executive Order authorizing the new rates</a><details class="ptx-footnote" aria-live="polite" id="sec-percent-change-16-1-1-7"><summary class="ptx-footnote__number" title="Footnote 6.2.8"><sup> 8 </sup></summary><div class="ptx-footnote__contents" id="sec-percent-change-16-1-1-7"><code class="code-inline tex2jax_ignore">www.whitehouse.gov/presidential-actions/2025/04/regulating-imports-with-a-reciprocal-tariff-to-rectify-trade-practices-that-contribute-to-large-and-persistent-annual-united-states-goods-trade-deficits/</code></div></details>, and the document explaining the calculations says that “Reciprocal tariffs are calculated as the tariff rate necessary to balance bilateral trade deficits between the U.S. and each of our trading partners.”<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-16-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="sec-percent-change-15-1-2">
+<div class="para logical" id="sec-percent-change-16-1-2">
 <div class="para">According to the USTR document explaining the calculation, the formula used to calculate the new tariff rates is</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -570,48 +626,48 @@ eBookConfig.enable_chatcodes =  false;
 \end{equation*}
 </div>
 <div class="para">This looks complicated! The document tells us that the variables here are</div>
-<ul class="disc" id="sec-percent-change-15-1-2-2">
-<li id="sec-percent-change-15-1-2-2-1">
-<div class="para" id="p-derived-sec-percent-change-15-1-2-2-1">
+<ul class="disc" id="sec-percent-change-16-1-2-2">
+<li id="sec-percent-change-16-1-2-2-1">
+<div class="para" id="p-derived-sec-percent-change-16-1-2-2-1">
 <span class="process-math">\(\Delta\tau_i = \text{Change in tariff rate (%) on Country } i\)</span> (this is what we’re calculating)</div>
-<div class="autopermalink" data-description="Item"><a href="#sec-percent-change-15-1-2-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#sec-percent-change-16-1-2-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="sec-percent-change-15-1-2-2-2">
-<div class="para" id="p-derived-sec-percent-change-15-1-2-2-2"><span class="process-math">\(\displaystyle x_i = \text{Total exports from US to Country } i\)</span></div>
-<div class="autopermalink" data-description="Item"><a href="#sec-percent-change-15-1-2-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<li id="sec-percent-change-16-1-2-2-2">
+<div class="para" id="p-derived-sec-percent-change-16-1-2-2-2"><span class="process-math">\(\displaystyle x_i = \text{Total exports from US to Country } i\)</span></div>
+<div class="autopermalink" data-description="Item"><a href="#sec-percent-change-16-1-2-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="sec-percent-change-15-1-2-2-3">
-<div class="para" id="p-derived-sec-percent-change-15-1-2-2-3"><span class="process-math">\(\displaystyle m_i = \text{Total imports from US to Country } i\)</span></div>
-<div class="autopermalink" data-description="Item"><a href="#sec-percent-change-15-1-2-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<li id="sec-percent-change-16-1-2-2-3">
+<div class="para" id="p-derived-sec-percent-change-16-1-2-2-3"><span class="process-math">\(\displaystyle m_i = \text{Total imports from US to Country } i\)</span></div>
+<div class="autopermalink" data-description="Item"><a href="#sec-percent-change-16-1-2-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="sec-percent-change-15-1-2-2-4">
-<div class="para" id="p-derived-sec-percent-change-15-1-2-2-4"><span class="process-math">\(\displaystyle \epsilon = \text{Elasticity of imports with respect to import prices}\)</span></div>
-<div class="autopermalink" data-description="Item"><a href="#sec-percent-change-15-1-2-2-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<li id="sec-percent-change-16-1-2-2-4">
+<div class="para" id="p-derived-sec-percent-change-16-1-2-2-4"><span class="process-math">\(\displaystyle \epsilon = \text{Elasticity of imports with respect to import prices}\)</span></div>
+<div class="autopermalink" data-description="Item"><a href="#sec-percent-change-16-1-2-2-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="sec-percent-change-15-1-2-2-5">
-<div class="para" id="p-derived-sec-percent-change-15-1-2-2-5"><span class="process-math">\(\displaystyle \phi = \text{Passthrough from tariffs to import prices}\)</span></div>
-<div class="autopermalink" data-description="Item"><a href="#sec-percent-change-15-1-2-2-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<li id="sec-percent-change-16-1-2-2-5">
+<div class="para" id="p-derived-sec-percent-change-16-1-2-2-5"><span class="process-math">\(\displaystyle \phi = \text{Passthrough from tariffs to import prices}\)</span></div>
+<div class="autopermalink" data-description="Item"><a href="#sec-percent-change-16-1-2-2-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="para">Although <span class="process-math">\(x_i\)</span> and <span class="process-math">\(m_i\)</span> are both numbers that we could look up, <span class="process-math">\(\epsilon\)</span> and <span class="process-math">\(\phi\)</span> are numbers whose values aren’t certain. Depending on the assumptions you make, you could reasonably get differnt values for <span class="process-math">\(\epsilon\)</span> and <span class="process-math">\(\phi\text{.}\)</span> The document tells us that the Trump Administration assumed that <span class="process-math">\(\epsilon = -4\)</span> and <span class="process-math">\(\phi = 0.25\text{.}\)</span> Since <span class="process-math">\(4 \times 0.25 = -1\text{,}\)</span> all of this information lets us rewrite the very complicated looking formula as</div>
+<div class="para">Although <span class="process-math">\(x_i\)</span> and <span class="process-math">\(m_i\)</span> are both numbers that we could look up, <span class="process-math">\(\epsilon\)</span> and <span class="process-math">\(\phi\)</span> are numbers whose values aren’t certain. Depending on the assumptions you make, you could reasonably get different values for <span class="process-math">\(\epsilon\)</span> and <span class="process-math">\(\phi\text{.}\)</span> The document tells us that the Trump Administration assumed that <span class="process-math">\(\epsilon = -4\)</span> and <span class="process-math">\(\phi = 0.25\text{.}\)</span> Since <span class="process-math">\(4 \times 0.25 = -1\text{,}\)</span> all of this information lets us rewrite the very complicated looking formula as</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \text{Change in Tariff Rate} = \frac{\text{Exports} - \text{Imports}}{-\text{Imports}}\text{.}
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-15-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-16-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<article class="task exercise-like" id="sec-percent-change-15-1-3"><h4 class="heading"><span class="codenumber">(a)</span></h4>
-<div class="introduction" id="sec-percent-change-15-1-3-1"><div class="para" id="sec-percent-change-15-1-3-1-1">Use the formula to calculate the change in tariff rate for each of the following countries:<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-15-1-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<article class="task exercise-like" id="sec-percent-change-16-1-3"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="introduction" id="sec-percent-change-16-1-3-1"><div class="para" id="sec-percent-change-16-1-3-1-1">Use the formula to calculate the change in tariff rate for each of the following countries:<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-16-1-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></div>
-<article class="task exercise-like" id="sec-percent-change-15-1-3-2"><h5 class="heading"><span class="codenumber">(i)</span></h5>
-<div class="para" id="sec-percent-change-15-1-3-2-1-1">China. The US exports $143.5 billion in goods to China, and imports $438.9 billion in goods.<details class="ptx-footnote" aria-live="polite" id="sec-percent-change-15-1-3-2-1-1-1"><summary class="ptx-footnote__number" title="Footnote 6.2.7"><sup> 7 </sup></summary><div class="ptx-footnote__contents" id="sec-percent-change-15-1-3-2-1-1-1"><a class="external" href="https://www.census.gov/foreign-trade/Press-Release/ft900/ft900_2412.pdf" target="_blank"><code class="code-inline tex2jax_ignore">https://www.census.gov/foreign-trade/Press-Release/ft900/ft900_2412.pdf</code></a></div></details><div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-15-1-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<article class="task exercise-like" id="sec-percent-change-16-1-3-2"><h5 class="heading"><span class="codenumber">(i)</span></h5>
+<div class="para" id="sec-percent-change-16-1-3-2-1-1">China. As of February 2025, the US exports $143.5 billion in goods to China, and imports $438.9 billion in goods.<details class="ptx-footnote" aria-live="polite" id="sec-percent-change-16-1-3-2-1-1-1"><summary class="ptx-footnote__number" title="Footnote 6.2.9"><sup> 9 </sup></summary><div class="ptx-footnote__contents" id="sec-percent-change-16-1-3-2-1-1-1"><a class="external" href="https://www.census.gov/foreign-trade/Press-Release/ft900/ft900_2412.pdf" target="_blank"><code class="code-inline tex2jax_ignore">https://www.census.gov/foreign-trade/Press-Release/ft900/ft900_2412.pdf</code></a></div></details><div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-16-1-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task a.i"><a href="#sec-percent-change-15-1-3-2" title="Copy heading and permalink for Task a.i" aria-label="Copy heading and permalink for Task a.i">🔗</a></div></article><article class="task exercise-like" id="sec-percent-change-15-1-3-3"><h5 class="heading"><span class="codenumber">(ii)</span></h5>
-<div class="para" id="sec-percent-change-15-1-3-3-1-1">European Union. The US exports $370.2 billion in goods to the EU, and imports $605.8 billion in goods.<details class="ptx-footnote" aria-live="polite" id="sec-percent-change-15-1-3-3-1-1-1"><summary class="ptx-footnote__number" title="Footnote 6.2.8"><sup> 8 </sup></summary><div class="ptx-footnote__contents" id="sec-percent-change-15-1-3-3-1-1-1"><a class="external" href="https://www.census.gov/foreign-trade/Press-Release/ft900/ft900_2412.pdf" target="_blank"><code class="code-inline tex2jax_ignore">https://www.census.gov/foreign-trade/Press-Release/ft900/ft900_2412.pdf</code></a></div></details><div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-15-1-3-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task a.i"><a href="#sec-percent-change-16-1-3-2" title="Copy heading and permalink for Task a.i" aria-label="Copy heading and permalink for Task a.i">🔗</a></div></article><article class="task exercise-like" id="sec-percent-change-16-1-3-3"><h5 class="heading"><span class="codenumber">(ii)</span></h5>
+<div class="para" id="sec-percent-change-16-1-3-3-1-1">European Union. As of February 2025, the US exports $370.2 billion in goods to the EU, and imports $605.8 billion in goods.<details class="ptx-footnote" aria-live="polite" id="sec-percent-change-16-1-3-3-1-1-1"><summary class="ptx-footnote__number" title="Footnote 6.2.10"><sup> 10 </sup></summary><div class="ptx-footnote__contents" id="sec-percent-change-16-1-3-3-1-1-1"><a class="external" href="https://www.census.gov/foreign-trade/Press-Release/ft900/ft900_2412.pdf" target="_blank"><code class="code-inline tex2jax_ignore">https://www.census.gov/foreign-trade/Press-Release/ft900/ft900_2412.pdf</code></a></div></details><div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-16-1-3-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task a.ii"><a href="#sec-percent-change-15-1-3-3" title="Copy heading and permalink for Task a.ii" aria-label="Copy heading and permalink for Task a.ii">🔗</a></div></article><div class="autopermalink" data-description="Task a"><a href="#sec-percent-change-15-1-3" title="Copy heading and permalink for Task a" aria-label="Copy heading and permalink for Task a">🔗</a></div></article><article class="task exercise-like" id="sec-percent-change-15-1-4"><h4 class="heading"><span class="codenumber">(b)</span></h4>
-<div class="introduction" id="sec-percent-change-15-1-4-1"><div class="para logical" id="sec-percent-change-15-1-4-1-1">
+<div class="autopermalink" data-description="Task a.ii"><a href="#sec-percent-change-16-1-3-3" title="Copy heading and permalink for Task a.ii" aria-label="Copy heading and permalink for Task a.ii">🔗</a></div></article><div class="autopermalink" data-description="Task a"><a href="#sec-percent-change-16-1-3" title="Copy heading and permalink for Task a" aria-label="Copy heading and permalink for Task a">🔗</a></div></article><article class="task exercise-like" id="sec-percent-change-16-1-4"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="introduction" id="sec-percent-change-16-1-4-1"><div class="para logical" id="sec-percent-change-16-1-4-1-1">
 <div class="para">The rewritten formula</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -619,64 +675,64 @@ eBookConfig.enable_chatcodes =  false;
 \end{equation*}
 </div>
 <div class="para">looks similar to the percent change formula that we developed in this section!</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-15-1-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-16-1-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></div>
-<article class="task exercise-like" id="sec-percent-change-15-1-4-2"><h5 class="heading"><span class="codenumber">(i)</span></h5>
-<div class="para" id="sec-percent-change-15-1-4-2-1-1">Explain what impact using “-Imports” instead of “Imports” in the denominator has on the output of the formula.<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-15-1-4-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<article class="task exercise-like" id="sec-percent-change-16-1-4-2"><h5 class="heading"><span class="codenumber">(i)</span></h5>
+<div class="para" id="sec-percent-change-16-1-4-2-1-1">Explain what impact using “-Imports” instead of “Imports” in the denominator has on the output of the formula.<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-16-1-4-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task b.i"><a href="#sec-percent-change-15-1-4-2" title="Copy heading and permalink for Task b.i" aria-label="Copy heading and permalink for Task b.i">🔗</a></div></article><article class="task exercise-like" id="sec-percent-change-15-1-4-3"><h5 class="heading"><span class="codenumber">(ii)</span></h5>
-<div class="para" id="sec-percent-change-15-1-4-3-1-1">Reports about the new tariff rates generally gave one of two explanations for the reasoning behind the formula:<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-15-1-4-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <ol class="decimal" id="sec-percent-change-15-1-4-3-1-2">
-<li id="sec-percent-change-15-1-4-3-1-2-1">
-<div class="para" id="p-derived-sec-percent-change-15-1-4-3-1-2-1">It calculates a fair tariff rate that takes into account the tariffs a country charges on imported US goods, plus other factors that make it hard for the US to export to that country.</div>
-<div class="autopermalink" data-description="Item 1"><a href="#sec-percent-change-15-1-4-3-1-2-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+<div class="autopermalink" data-description="Task b.i"><a href="#sec-percent-change-16-1-4-2" title="Copy heading and permalink for Task b.i" aria-label="Copy heading and permalink for Task b.i">🔗</a></div></article><article class="task exercise-like" id="sec-percent-change-16-1-4-3"><h5 class="heading"><span class="codenumber">(ii)</span></h5>
+<div class="para" id="sec-percent-change-16-1-4-3-1-1">Reports about the new tariff rates generally gave one of two explanations for the reasoning behind the formula:<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-16-1-4-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <ol class="decimal" id="sec-percent-change-16-1-4-3-1-2">
+<li id="sec-percent-change-16-1-4-3-1-2-1">
+<div class="para" id="p-derived-sec-percent-change-16-1-4-3-1-2-1">It calculates a fair tariff rate that takes into account the tariffs a country charges on imported US goods, plus other factors that make it hard for the US to export to that country.</div>
+<div class="autopermalink" data-description="Item 1"><a href="#sec-percent-change-16-1-4-3-1-2-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
 </li>
-<li id="sec-percent-change-15-1-4-3-1-2-2">
-<div class="para" id="p-derived-sec-percent-change-15-1-4-3-1-2-2">It calculates the percent difference between the amount of goods imported to a country from the US and the amount of goods exported from that country to the US.</div>
-<div class="autopermalink" data-description="Item 2"><a href="#sec-percent-change-15-1-4-3-1-2-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+<li id="sec-percent-change-16-1-4-3-1-2-2">
+<div class="para" id="p-derived-sec-percent-change-16-1-4-3-1-2-2">It calculates the percent difference between the amount of goods imported to a country from the US and the amount of goods exported from that country to the US.</div>
+<div class="autopermalink" data-description="Item 2"><a href="#sec-percent-change-16-1-4-3-1-2-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
 </li>
-</ol> <div class="para" id="sec-percent-change-15-1-4-3-1-3">Which of these explanations matches the formula more closely? Explain your answer.<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-15-1-4-3-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</ol> <div class="para" id="sec-percent-change-16-1-4-3-1-3">Which of these explanations matches the formula more closely? Explain your answer.<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-16-1-4-3-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task b.ii"><a href="#sec-percent-change-15-1-4-3" title="Copy heading and permalink for Task b.ii" aria-label="Copy heading and permalink for Task b.ii">🔗</a></div></article><div class="autopermalink" data-description="Task b"><a href="#sec-percent-change-15-1-4" title="Copy heading and permalink for Task b" aria-label="Copy heading and permalink for Task b">🔗</a></div></article><article class="task exercise-like" id="sec-percent-change-15-1-5"><h4 class="heading"><span class="codenumber">(c)</span></h4>
-<div class="introduction" id="sec-percent-change-15-1-5-1"><div class="para logical" id="sec-percent-change-15-1-5-1-1">
+<div class="autopermalink" data-description="Task b.ii"><a href="#sec-percent-change-16-1-4-3" title="Copy heading and permalink for Task b.ii" aria-label="Copy heading and permalink for Task b.ii">🔗</a></div></article><div class="autopermalink" data-description="Task b"><a href="#sec-percent-change-16-1-4" title="Copy heading and permalink for Task b" aria-label="Copy heading and permalink for Task b">🔗</a></div></article><article class="task exercise-like" id="sec-percent-change-16-1-5"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="introduction" id="sec-percent-change-16-1-5-1"><div class="para logical" id="sec-percent-change-16-1-5-1-1">
 <div class="para">The Trump Administration did two more steps after using the formula (which they claim gives the fair tariff rate):</div>
-<ol class="decimal" id="sec-percent-change-15-1-5-1-1-1">
-<li id="sec-percent-change-15-1-5-1-1-1-1">
-<div class="para" id="p-derived-sec-percent-change-15-1-5-1-1-1-1">Divide the answer by 2, to get the discounted tariff rate that the US will actually use in order to be nice.</div>
-<div class="autopermalink" data-description="Item 1"><a href="#sec-percent-change-15-1-5-1-1-1-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+<ol class="decimal" id="sec-percent-change-16-1-5-1-1-1">
+<li id="sec-percent-change-16-1-5-1-1-1-1">
+<div class="para" id="p-derived-sec-percent-change-16-1-5-1-1-1-1">Divide the answer by 2, to get the discounted tariff rate that the US will actually use in order to be nice.</div>
+<div class="autopermalink" data-description="Item 1"><a href="#sec-percent-change-16-1-5-1-1-1-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
 </li>
-<li id="sec-percent-change-15-1-5-1-1-1-2">
-<div class="para" id="p-derived-sec-percent-change-15-1-5-1-1-1-2">If your answer is now less than 10%, ignore it and just use 10% instead.</div>
-<div class="autopermalink" data-description="Item 2"><a href="#sec-percent-change-15-1-5-1-1-1-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+<li id="sec-percent-change-16-1-5-1-1-1-2">
+<div class="para" id="p-derived-sec-percent-change-16-1-5-1-1-1-2">If your answer is now less than 10%, ignore it and just use 10% instead.</div>
+<div class="autopermalink" data-description="Item 2"><a href="#sec-percent-change-16-1-5-1-1-1-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
 </li>
 </ol>
 <div class="para">Use these last two steps to find the actual new tariff rates for each of the following countries/regions:</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-15-1-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-16-1-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></div>
-<article class="task exercise-like" id="sec-percent-change-15-1-5-2"><h5 class="heading"><span class="codenumber">(i)</span></h5>
-<div class="para" id="sec-percent-change-15-1-5-2-1-1">China<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-15-1-5-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<article class="task exercise-like" id="sec-percent-change-16-1-5-2"><h5 class="heading"><span class="codenumber">(i)</span></h5>
+<div class="para" id="sec-percent-change-16-1-5-2-1-1">China<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-16-1-5-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task c.i"><a href="#sec-percent-change-15-1-5-2" title="Copy heading and permalink for Task c.i" aria-label="Copy heading and permalink for Task c.i">🔗</a></div></article><article class="task exercise-like" id="sec-percent-change-15-1-5-3"><h5 class="heading"><span class="codenumber">(ii)</span></h5>
-<div class="para" id="sec-percent-change-15-1-5-3-1-1">European Union<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-15-1-5-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task c.i"><a href="#sec-percent-change-16-1-5-2" title="Copy heading and permalink for Task c.i" aria-label="Copy heading and permalink for Task c.i">🔗</a></div></article><article class="task exercise-like" id="sec-percent-change-16-1-5-3"><h5 class="heading"><span class="codenumber">(ii)</span></h5>
+<div class="para" id="sec-percent-change-16-1-5-3-1-1">European Union<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-16-1-5-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task c.ii"><a href="#sec-percent-change-15-1-5-3" title="Copy heading and permalink for Task c.ii" aria-label="Copy heading and permalink for Task c.ii">🔗</a></div></article><article class="task exercise-like" id="sec-percent-change-15-1-5-4"><h5 class="heading"><span class="codenumber">(iii)</span></h5>
-<div class="para" id="sec-percent-change-15-1-5-4-1-1">Venezuela. The US exports $4.2 billion in goods to the UK, and imports $6.0 billion in goods.<details class="ptx-footnote" aria-live="polite" id="sec-percent-change-15-1-5-4-1-1-1"><summary class="ptx-footnote__number" title="Footnote 6.2.9"><sup> 9 </sup></summary><div class="ptx-footnote__contents" id="sec-percent-change-15-1-5-4-1-1-1"><a class="external" href="https://www.census.gov/foreign-trade/Press-Release/ft900/ft900_2412.pdf" target="_blank"><code class="code-inline tex2jax_ignore">https://www.census.gov/foreign-trade/Press-Release/ft900/ft900_2412.pdf</code></a></div></details><div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-15-1-5-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task c.ii"><a href="#sec-percent-change-16-1-5-3" title="Copy heading and permalink for Task c.ii" aria-label="Copy heading and permalink for Task c.ii">🔗</a></div></article><article class="task exercise-like" id="sec-percent-change-16-1-5-4"><h5 class="heading"><span class="codenumber">(iii)</span></h5>
+<div class="para" id="sec-percent-change-16-1-5-4-1-1">Venezuela. As of February 2025, the US exports $4.2 billion in goods to the UK, and imports $6.0 billion in goods.<details class="ptx-footnote" aria-live="polite" id="sec-percent-change-16-1-5-4-1-1-1"><summary class="ptx-footnote__number" title="Footnote 6.2.11"><sup> 11 </sup></summary><div class="ptx-footnote__contents" id="sec-percent-change-16-1-5-4-1-1-1"><a class="external" href="https://www.census.gov/foreign-trade/Press-Release/ft900/ft900_2412.pdf" target="_blank"><code class="code-inline tex2jax_ignore">https://www.census.gov/foreign-trade/Press-Release/ft900/ft900_2412.pdf</code></a></div></details><div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-16-1-5-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task c.iii"><a href="#sec-percent-change-15-1-5-4" title="Copy heading and permalink for Task c.iii" aria-label="Copy heading and permalink for Task c.iii">🔗</a></div></article><article class="task exercise-like" id="sec-percent-change-15-1-5-5"><h5 class="heading"><span class="codenumber">(iv)</span></h5>
-<div class="para" id="sec-percent-change-15-1-5-5-1-1">United Kingdom. The US exports $79.9 billion in goods to the UK, and imports $68.1 billion in goods.<details class="ptx-footnote" aria-live="polite" id="sec-percent-change-15-1-5-5-1-1-1"><summary class="ptx-footnote__number" title="Footnote 6.2.10"><sup> 10 </sup></summary><div class="ptx-footnote__contents" id="sec-percent-change-15-1-5-5-1-1-1"><a class="external" href="https://www.census.gov/foreign-trade/Press-Release/ft900/ft900_2412.pdf" target="_blank"><code class="code-inline tex2jax_ignore">https://www.census.gov/foreign-trade/Press-Release/ft900/ft900_2412.pdf</code></a></div></details><div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-15-1-5-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task c.iii"><a href="#sec-percent-change-16-1-5-4" title="Copy heading and permalink for Task c.iii" aria-label="Copy heading and permalink for Task c.iii">🔗</a></div></article><article class="task exercise-like" id="sec-percent-change-16-1-5-5"><h5 class="heading"><span class="codenumber">(iv)</span></h5>
+<div class="para" id="sec-percent-change-16-1-5-5-1-1">United Kingdom. As of February 2025, the US exports $79.9 billion in goods to the UK, and imports $68.1 billion in goods.<details class="ptx-footnote" aria-live="polite" id="sec-percent-change-16-1-5-5-1-1-1"><summary class="ptx-footnote__number" title="Footnote 6.2.12"><sup> 12 </sup></summary><div class="ptx-footnote__contents" id="sec-percent-change-16-1-5-5-1-1-1"><a class="external" href="https://www.census.gov/foreign-trade/Press-Release/ft900/ft900_2412.pdf" target="_blank"><code class="code-inline tex2jax_ignore">https://www.census.gov/foreign-trade/Press-Release/ft900/ft900_2412.pdf</code></a></div></details><div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-16-1-5-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task c.iv"><a href="#sec-percent-change-15-1-5-5" title="Copy heading and permalink for Task c.iv" aria-label="Copy heading and permalink for Task c.iv">🔗</a></div></article><div class="autopermalink" data-description="Task c"><a href="#sec-percent-change-15-1-5" title="Copy heading and permalink for Task c" aria-label="Copy heading and permalink for Task c">🔗</a></div></article><article class="task exercise-like" id="sec-percent-change-15-1-6"><h4 class="heading"><span class="codenumber">(d)</span></h4>
-<div class="introduction" id="sec-percent-change-15-1-6-1"><div class="para" id="sec-percent-change-15-1-6-1-1">Use what you’ve learned from doing these calculations, and about percent differences, to decide:<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-15-1-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task c.iv"><a href="#sec-percent-change-16-1-5-5" title="Copy heading and permalink for Task c.iv" aria-label="Copy heading and permalink for Task c.iv">🔗</a></div></article><div class="autopermalink" data-description="Task c"><a href="#sec-percent-change-16-1-5" title="Copy heading and permalink for Task c" aria-label="Copy heading and permalink for Task c">🔗</a></div></article><article class="task exercise-like" id="sec-percent-change-16-1-6"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="introduction" id="sec-percent-change-16-1-6-1"><div class="para" id="sec-percent-change-16-1-6-1-1">Use what you’ve learned from doing these calculations, and about percent differences, to decide:<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-16-1-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></div>
-<article class="task exercise-like" id="sec-percent-change-15-1-6-2"><h5 class="heading"><span class="codenumber">(i)</span></h5>
-<div class="para" id="sec-percent-change-15-1-6-2-1-1">How could the Trump Administration improve their communication about the way the new tariffs were calculated? Explain your answer.<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-15-1-6-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<article class="task exercise-like" id="sec-percent-change-16-1-6-2"><h5 class="heading"><span class="codenumber">(i)</span></h5>
+<div class="para" id="sec-percent-change-16-1-6-2-1-1">How could the Trump Administration improve their communication about the way the new tariffs were calculated? Explain your answer.<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-16-1-6-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task d.i"><a href="#sec-percent-change-15-1-6-2" title="Copy heading and permalink for Task d.i" aria-label="Copy heading and permalink for Task d.i">🔗</a></div></article><article class="task exercise-like" id="sec-percent-change-15-1-6-3"><h5 class="heading"><span class="codenumber">(ii)</span></h5>
-<div class="para" id="sec-percent-change-15-1-6-3-1-1">Are the new tariffs fair? Explain your answer.<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-15-1-6-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task d.i"><a href="#sec-percent-change-16-1-6-2" title="Copy heading and permalink for Task d.i" aria-label="Copy heading and permalink for Task d.i">🔗</a></div></article><article class="task exercise-like" id="sec-percent-change-16-1-6-3"><h5 class="heading"><span class="codenumber">(ii)</span></h5>
+<div class="para" id="sec-percent-change-16-1-6-3-1-1">Are the new tariffs fair? Explain your answer.<div class="autopermalink" data-description="Paragraph"><a href="#sec-percent-change-16-1-6-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task d.ii"><a href="#sec-percent-change-15-1-6-3" title="Copy heading and permalink for Task d.ii" aria-label="Copy heading and permalink for Task d.ii">🔗</a></div></article><div class="autopermalink" data-description="Task d"><a href="#sec-percent-change-15-1-6" title="Copy heading and permalink for Task d" aria-label="Copy heading and permalink for Task d">🔗</a></div></article>
+<div class="autopermalink" data-description="Task d.ii"><a href="#sec-percent-change-16-1-6-3" title="Copy heading and permalink for Task d.ii" aria-label="Copy heading and permalink for Task d.ii">🔗</a></div></article><div class="autopermalink" data-description="Task d"><a href="#sec-percent-change-16-1-6" title="Copy heading and permalink for Task d" aria-label="Copy heading and permalink for Task d">🔗</a></div></article>
 </div>
-<div class="autopermalink" data-description="Activity 6.2.10"><a href="#sec-percent-change-15" title="Copy heading and permalink for Activity 6.2.10" aria-label="Copy heading and permalink for Activity 6.2.10">🔗</a></div></article><div class="autopermalink" data-description="Section 6.2: Percent Change"><a href="#sec-percent-change" title="Copy heading and permalink for Section 6.2: Percent Change" aria-label="Copy heading and permalink for Section 6.2: Percent Change">🔗</a></div></section></div>
+<div class="autopermalink" data-description="Activity 6.2.11"><a href="#sec-percent-change-16" title="Copy heading and permalink for Activity 6.2.11" aria-label="Copy heading and permalink for Activity 6.2.11">🔗</a></div></article><div class="autopermalink" data-description="Section 6.2: Percent Change"><a href="#sec-percent-change" title="Copy heading and permalink for Section 6.2: Percent Change" aria-label="Copy heading and permalink for Section 6.2: Percent Change">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="sec-percent-change-prep.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-build-exponential-models.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
