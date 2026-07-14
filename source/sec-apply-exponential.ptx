@@ -164,14 +164,14 @@
             <task>
                 <statement>
                     <p>
-                        Use your formula to estimate the average college tuition in 2024.
+                        Use your formula to estimate the average college tuition in 2025.
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
-                        The average cost of college tuition at a private, four-year university in 2024 was about $43,400 (2025 numbers weren't yet available when this problem was written!). Was the average inflation rate for college tuition higher, lower, or about the same as for the US as a whole?
+                        The average cost of college tuition at a private, four-year university in 2025 was about $44,961<fn>https://www.usnews.com/education/best-colleges/paying-for-college/articles/paying-for-college-infographic</fn>. Was the average inflation rate for college tuition higher, lower, or about the same as for the US as a whole?
                     </p>
                 </statement>
             </task>
@@ -236,7 +236,7 @@
         <task>
             <introduction>
                 <p>
-                    The overall average annual inflation rate in the US between 1985 and 2024 may have only been 2.78%, but the average inflation rate for private, four-year university tuition specifically was 5.15%.
+                    The overall average annual inflation rate in the US between 1985 and 2025 was 2.78%, but the average inflation rate for private, four-year university tuition specifically was 5.15%.
                 </p>
             </introduction>
             <task>
@@ -263,7 +263,7 @@
             <task>
                 <statement>
                     <p>
-                        Use the inflation rate for house sales to build a formula for the median household income <m>t</m> years after 1985, then use your formula to estimate the median household income in 2024.
+                        Use the inflation rate for house sales to build a formula for the median household income <m>t</m> years after 1985, then use your formula to estimate the median household income in 2025.
                     </p>
                 </statement>
             </task>

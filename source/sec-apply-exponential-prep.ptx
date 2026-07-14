@@ -7,7 +7,7 @@
     <investigation xml:id="pa-consecutive-markdowns">
         <introduction>
             <p>
-                Consider an item initially priced at $549.9, but which has had its price reduced by 10% several times in a row.
+                Consider an item initially priced at $549.90, but which has had its price reduced by 10% several times in a row.
             </p>
         </introduction>
         <task workspace="1in">
@@ -56,7 +56,7 @@
         <task>
             <introduction>
                 <p>
-                    The Carfax article says that after the next four years, you can expect a car to lose about 15% of its value each year.
+                    The Carfax article says that at the end of years 2 - 5, you can expect a car to lose about 15% of its value each year.
                 </p>
             </introduction>
             <task workspace="1in">
@@ -69,7 +69,7 @@
             <task workspace="1in">
                 <statement>
                     <p>
-                        Estimate the value of the Crosstrek after 2, 3, 4, and 5 years using the change factors. Don't forget that the change factor is different for the 1st year!
+                        Estimate the value of the Crosstrek after 2, 3, 4, and 5 years using the change factor. Don't forget that the change factor is different for the 1st year!
                     </p>
                 </statement>
             </task>

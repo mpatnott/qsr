@@ -7,7 +7,7 @@
   <investigation xml:id="pa-yogurt-bacteria">
     <introduction>
         <p>
-            The bacteria <em>lactobacillus acidophilus</em> is part of turning milk into yogurt. Based on experiments, a new generation of bacteria are formed every 70 minutes, that is, the population doubles every 70 minutes. Suppose when we start tracking the data we have 3 g of cells, and that the mass of the cells doubles when the population doubles. (It's more realistic to measure the mass of our bacteria colony than to try to count thousands of bacteria cells!)
+            The bacteria <em>lactobacillus acidophilus</em> is part of turning milk into yogurt. Based on experiments, a new generation of bacteria are formed every 70 minutes, that is, the population doubles every 70 minutes. Suppose we have 3 g of cells when we start tracking the data, and that the mass of the cells doubles when the population doubles. (It's more realistic to measure the mass of our bacteria colony than to try to count thousands of bacteria cells!)
         </p>
     </introduction>
     <task>
