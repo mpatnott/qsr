@@ -364,9 +364,59 @@
     <activity xml:id="a-caffeine-elimination">
         <introduction>
             <p>
-                The rate of elimination of caffeine from the human body varies greatly from individual to individual. Suppose that Jacob drinks a 16-ounce coffee drink that contains about 310 mg of caffeine. His body eliminates about 13% of the caffeine every hour. <em>Hint:</em> Assume all caffeine is absorbed into the body as soon as the coffee is drunk.
+                The rate of elimination of caffeine from the human body varies greatly from individual to individual. Suppose Jacob recorded the following data on himself after drinking a 16-ouce coffee drink containing 310 mg of caffeine.
             </p>
+            <table>
+                <title>Amount of Caffeine in Jacob's Body After Drinking a Coffee</title>
+                <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                    <row header="yes">
+                        <cell>Time, <m>t</m> (hrs)</cell>
+                        <cell>Amount of Caffeine, <m>A</m> (mg)</cell>
+                    </row>
+                    <row>
+                        <cell>0</cell>
+                        <cell>310.0</cell>
+                    </row>
+                    <row>
+                        <cell>1</cell>
+                        <cell>269.7</cell>
+                    </row>
+                    <row>
+                        <cell>2</cell>
+                        <cell>234.6</cell>
+                    </row>
+                    <row>
+                        <cell>3</cell>
+                        <cell>204.1</cell>
+                    </row>
+                    <row>
+                        <cell>4</cell>
+                        <cell>177.6</cell>
+                    </row>
+                    <row>
+                        <cell>5</cell>
+                        <cell>154.5</cell>
+                    </row>
+                </tabular>
+            </table>
+            <!--<p> 
+                 Suppose that Jacob drinks a 16-ounce coffee drink that contains about 310 mg of caffeine. His body eliminates about 13% of the caffeine every hour. <em>Hint:</em> Assume all caffeine is absorbed into the body as soon as the coffee is drunk.
+            </p>-->
         </introduction>
+        <task>
+            <statement>
+                <p>
+                    Use the table to find the hourly change factor for the amount of caffeine in Jacob's body.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    What is the percent change of caffeine in Jacob's body each hour?
+                </p>
+            </statement>
+        </task>
         <task workspace="0.5in">
             <statement>
                 <p>
@@ -394,18 +444,25 @@
                     </p>
                 </statement>
             </task>
-            <task workspace="2.5in">
+            <task>
+                <statement>
+                    <p>
+                        Use guess-and-check to estimate the answer to this question.
+                    </p>
+                </statement>
+            </task>
+            <!--<task workspace="2.5in">
                 <statement>
                     <p>
                         Use a graphing utility to create a precise graphical model of the amount of caffeine in Jacob's body from one 16-ounce coffee drink. Use your graph to answer the question. Include a sketch of your graph and the steps you used to find the answer here.
                     </p>
                 </statement>
-            </task>
+            </task>-->
         </task>
         <task workspace="1in">
             <statement>
                 <p>
-                    If Jacob drank a 12-ounce Pepsi containing 38 mg of caffeine instead of the coffee drink, how long will it take for Jacob's body to eliminate half of the caffeine? Write your answer rounded to the nearest whole hour.
+                    If Jacob drinks a 12-ounce Pepsi containing 38 mg of caffeine, how long will it take for Jacob's body to eliminate half of the caffeine? Write your answer rounded to the nearest whole hour.
                 </p>
             </statement>
         </task>
@@ -414,9 +471,14 @@
 
   <page>
     <activity xml:id="a-misc-expon-models">
-        <introduction>
+        <!--<introduction>
             <p>
                 For each scenario below, find an algebraic formula to model the scenario and then use <url href="https://www.desmos.com/calculator">Desmos</url> or another graphing device to create a graph. Use your formula and/or a graph to answer the question about the scenario.
+            </p>
+        </introduction>-->
+        <introduction>
+            <p>
+                For each scenario below, find an algebraic formula to model the scenario. Use your formula and/or guess-and-check to answer the question.
             </p>
         </introduction>
         <task workspace="1.5in">
@@ -434,10 +496,40 @@
             </statement>
         </task>
         <task workspace="1.5in">
-            <statement>
+            <!--<statement>
                 <p>
                     Melany's starting salary is $55,000, and she will be getting a 2% pay raise every year. How many years will it take for her salary to be $60,000?
                 </p>
+            </statement>-->
+            <statement>
+                <p>
+                    Melany's starting salary was $55,000, and she's received a pay raise every year. The table below shows her salary for the last several years. Use this data to find the percent change of Melany's salary each year, then figure out how many years it will take for her salary to reach $60,000.
+                </p>
+                <table>
+                    <title>Melany's Salary</title>
+                    <tabular halign="center" top="minor" bottom = "minor" right="minor" left="minor">
+                        <row header="yes">
+                            <cell>Year</cell>
+                            <cell>Salary ($)</cell>
+                        </row>
+                        <row>
+                            <cell>3 years ago</cell>
+                            <cell>55,000.00</cell>
+                        </row>
+                        <row>
+                            <cell>2 years ago</cell>
+                            <cell>56,100.00</cell>
+                        </row>
+                        <row>
+                            <cell>Last year</cell>
+                            <cell>57,222.00</cell>
+                        </row>
+                        <row>
+                            <cell>This year</cell>
+                            <cell>58,366.44</cell>
+                        </row>
+                    </tabular>
+                </table>
             </statement>
         </task>
         <task workspace="1.5in">
@@ -454,7 +546,7 @@
     <activity xml:id="a-half-life">
         <introduction>
             <p>
-                The <term>half-life</term> of a substance with an exponential model is the amount of time it takes for half of the substance to be eliminated. For example, the half-life of a drug in the blood in the amount of time it takes for half of the drug to be elminiated from the body, and the half-life of a radioactive element is the amount of time it takes for half of the starting amount to decay.
+                The <term>half-life</term> of a substance with an exponential model is the amount of time it takes for half of the substance to be eliminated. For example, the half-life of a drug in the blood is the amount of time it takes for half of the drug to be elminiated from the body, and the half-life of a radioactive element is the amount of time it takes for half of the starting amount to decay.
             </p>
         </introduction>
         <task workspace="1in">
@@ -467,7 +559,7 @@
         <task workspace="1in">
             <statement>
                 <p>
-                    Earlier, we assumed that the body could eliminate 13% of the caffeine present every hour. Wikipedia states that the half-life of caffeine in a healthy adult is often between 4.9 and 6 hours.<fn><url href="https://en.wikipedia.org/wiki/Caffeine" /></fn> If 13% of the caffeine is eliminated every hour, does this imply a half-life between 4.9 and 6 hours? Explain.
+                    Earlier, we found that Jacob's body could eliminate 13% of the caffeine present every hour. Wikipedia states that the half-life of caffeine in a healthy adult is often between 4.9 and 6 hours.<fn><url href="https://en.wikipedia.org/wiki/Caffeine" /></fn> If 13% of the caffeine is eliminated every hour, does this imply a half-life between 4.9 and 6 hours? Explain.
                 </p>
             </statement>
         </task>

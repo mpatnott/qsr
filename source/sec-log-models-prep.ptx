@@ -55,14 +55,14 @@
         Now we would like to introduce a new operation which <q>undoes</q>  exponentiation. That operation is written as <m>\log(x)</m>, and we say this as <q>the log of x</q>.
     </p>
     <p>
-        The term log is an abbreviation for the mathematical term <term>logarithm</term>. A logarithm is a quantity representing the power to which a fixed number (the base) must be raised to produce a given number.
+        The term log is an abbreviation for <term>logarithm</term>. A logarithm is a quantity representing the power to which a fixed number (the base) must be raised to produce a given number.
     </p>
     <p>
         For example, a logarithm, or log operation, can be used to find the exponent to which one must raise the number 10 to get the specific number as the output. 
         <ul>
-            <li>The expression <q><m>\log(1000)</m></q> is then equal to <m>3</m>, since <m>10^3=1000</m>.</li>
-            <li>The expression <q><m>\log(10)</m></q> is then equal to <m>1</m>, since <m>10^1=10</m>.</li>
-            <li>The expression <q><m>\log\left(10^x\right)</m></q> is then equal to <m>x</m>, since <m>10^x=10^x</m>.</li>
+            <li>The expression <q><m>\log(1000)</m></q> is equal to <m>3</m>, since <m>10^3=1000</m>.</li>
+            <li>The expression <q><m>\log(10)</m></q> is equal to <m>1</m>, since <m>10^1=10</m>.</li>
+            <li>The expression <q><m>\log\left(10^x\right)</m></q> is equal to <m>x</m>, since <m>10^x=10^x</m>.</li>
         </ul>
     </p>
     <p>

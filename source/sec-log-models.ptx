@@ -283,7 +283,7 @@
     <activity xml:id="a-logs-in-application-caffeine">
         <introduction>
             <p>
-                We also modeled the amount of caffeine Jacob has left in his body several hours after drinking a 16-oz coffee drink in <xref ref="sec-exponential-models"/>. Suppose that Jacob has just consumed a 16-ounce cup of coffee containing 300 mg of caffeine.
+                We also modeled the amount of caffeine Jacob has left in his body several hours after drinking a 16-oz coffee drink in <xref ref="sec-exponential-models"/>. Suppose that Jacob has just consumed a 16-ounce cup of coffee containing 310 mg of caffeine.
             </p>
         </introduction>
         <task workspace="1.5in">
@@ -305,7 +305,9 @@
 
     <activity xml:id="a-logs-in-application-compound-interest" workspace="1.5in">
         <p>
-            Exponential equations are often seen when working with accounts or loans that use compound interest. Compound interest occurs when interest is calculated on both the initial principal and any accumulated interest from previous periods. (Note: For comparison, recall that simple interest does not take into account the accumulated interest, that is, the interest each year is only based on the initial principal.) The equation for computing the amount of a loan, or in an account, that uses compound interest (assuming no change in principal) is
+            Exponential equations are often seen when working with accounts or loans that use compound interest. Compound interest occurs when interest is calculated on both the initial principal and any accumulated interest from previous periods. 
+            <!--(Note: For comparison, recall that simple interest does not take into account the accumulated interest, that is, the interest each year is only based on the initial principal.)-->
+            The equation for computing the amount of a loan, or in an account, that uses compound interest (assuming no change in principal) is
             <me>A = P\left(1 + \frac{r}{n}\right)^{nt}</me>
             where
             <ul>
