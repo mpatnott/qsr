@@ -7,7 +7,7 @@
     <investigation xml:id="pa-repeated-percent-change">
         <introduction>
             <p>
-                Let's use what we've learned about change factors and rates of change to find the population of three small towns. Resist the temptation to find the populations of the towns in Indiana and Ohio by first using the percent to find the number of people the town gains or loses, and then adding or subtracting! That's a mathematically valid way to solve the problem, and would be fine if our real goal was to get the answers. But, our real goal is to practice using change factors and to have a couple of examples to help us see the connection between change factors and exponential models.  
+                Let's use what we've learned about change factors and rates of change to model the population of three small towns. Resist the temptation to find the populations of the towns in Indiana and Ohio by first using the percent to find the number of people the town gains or loses, and then adding or subtracting! That's a mathematically valid way to solve the problem, and would be fine if our real goal was to get the answers. But, our real goal is to practice using change factors and to have a couple of examples to help us see the connection between change factors and exponential models.  
             </p>
         </introduction>
         <task workspace="0.5in">
@@ -221,7 +221,7 @@
     <investigation xml:id="pa-exponent-vocab">
         <introduction>
             <p>
-                In an expression of the form <me>c \times b^e</me>, we call <m>b</m> the <term>base</term>, <m>e</m> the <term>exponent</term> or <term>power</term>, and <m>c</m> the <term>coefficient</term>. This vocabulary will be useful to us in the next lesson, so let's practice it now.
+                In an expression of the form <me>c \times b^p</me>, we call <m>b</m> the <term>base</term>, <m>p</m> the <term>exponent</term> or <term>power</term>, and <m>c</m> the <term>coefficient</term>. This vocabulary will be useful to us in the next lesson, so let's practice it now.
             </p>
         </introduction>
         <task workspace="0.5in">

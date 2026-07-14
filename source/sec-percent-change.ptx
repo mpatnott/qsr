@@ -72,14 +72,17 @@
   </example>
   <p>
     The change factor is always
-    <me>\frac{100 + \text{Percent Change}}{100}</me>.
+    <me>\frac{100 + \text{Percent Change}}{100}</me>
+    or, equivalently,
+    <me>1 + \frac{\text{Percent Change}}{100} = 1 + \text{Percent Change as a Decimal}</me>.
+    These formulas will always give the exact same answer, if you use them correctly. Use the one you like best!
   </p>
 
   <activity xml:id="a-find-change-factor">
     <task workspace="1in">
         <statement>
             <p>
-                The city of Denver has a 9.15% sales tax. What is the change factor for the cost of items purchased in Denver?
+                The city of Denver (as of July 2026) has a 9.15% sales tax. What is the change factor for the cost of items purchased in Denver?
             </p>
         </statement>
     </task>
@@ -283,10 +286,10 @@
   <activity>
     <introduction>
         <p>
-            The table below gives the median household income in Colorado, according to the Federal Reserve Bank of St. Louis<fn><url href="https://fred.stlouisfed.org/series/MEHOINUSCOA646N" /></fn>
+            The table below gives the median household income in Colorado, according to the Federal Reserve Bank of St. Louis<fn><url href="https://fred.stlouisfed.org/series/MEHOINUSCOA646N" /></fn>. When working from data, we can find the change factor between data points by rearranging the equation <m>\text{New Value} = \text{Initial Value } \times \text{ Change Factor}</m> as <me>\text{Change Factor} = \frac{\text{New Value}}{\text{Initial Value}}</me>. Typically, we use the earlier value as the initial value and the later value as the new value.
         </p>
         <table>
-            <title>Median Household Income in Colorado, 2019 - 2023</title>
+            <title>Median Household Income in Colorado, 2019 - 2024</title>
             <tabular row-headers="yes" halign="center" top="minor" bottom = "minor" right="minor" left="minor">
                 <row>
                     <cell>Year</cell>
@@ -295,6 +298,7 @@
                     <cell>2021</cell>
                     <cell>2022</cell>
                     <cell>2023</cell>
+                    <cell>2024</cell>
                 </row>
                 <row>
                     <cell>Median Income ($)</cell>
@@ -303,6 +307,7 @@
                     <cell>84,950</cell>
                     <cell>89,930</cell>
                     <cell>96,640</cell>
+                    <cell>106,500</cell>
                 </row>
             </tabular>
         </table>
@@ -310,7 +315,7 @@
     <task workspace="1in">
         <statement>
             <p>
-                Find the change factor from each year to next. Round to three (3) decimal places. The change factor from 2019 to 2020 has been done for you, as an example.
+                Find the change factor from each year to next. Round to three (3) decimal places. The change factors from 2019 to 2020  and 2021 to 2022 have been done for you, as examples. Notice that for 2019 to 2020, we used the 2019 median income as the initial value and the 2020 medican income as the new value, and for 2021 to 2022, we used the 2021 median income as the initial value and the 2022 median income as the old value.
             </p>
             <table>
                 <title>Annual Change Factors in Colorado Median Household Income</title>
@@ -329,10 +334,14 @@
                     </row>
                     <row>
                         <cell>2021 to 2022</cell>
-                        <cell></cell>
+                        <cell><m>\frac{89,930}{84,950} = 1.059</m></cell>
                     </row>
                     <row>
                         <cell>2022 to 2023</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell>2023 to 2024</cell>
                         <cell></cell>
                     </row>
                 </tabular>
@@ -341,6 +350,9 @@
     </task>
     <task workspace="1in">
         <statement>
+            <p>
+                The change factor is easier to find from data, but we typically want to report the percent change. To find the percent change from the change factor, we reorganize the formulas that give us change factor from percent change to get <me>\text{Percent Change} = \text{Change Factor} \times 100 - 100</me>.
+            </p>
             <p>
                 Find the percent change from each year to the next in Colorado median household income. The percent change from 2019 to 2020 has been done for you, as an example.
             </p>
@@ -367,6 +379,10 @@
                         <cell>2022 to 2023</cell>
                         <cell></cell>
                     </row>
+                    <row>
+                        <cell>2023 to 2024</cell>
+                        <cell></cell>
+                    </row>
                 </tabular>
             </table>
         </statement>
@@ -377,6 +393,56 @@
                 What do you notice? What do you wonder?
             </p>
         </statement>
+    </task>
+  </activity>
+
+  <activity xml:id="percent-change-latinos">
+    <introduction>
+        <p>
+            The number of Latine people living in Colorado and the United States has grown dramatically since 2000.
+        </p>
+    </introduction>
+    <task>
+        <introduction>
+            <p>
+                In 2000, 736,000 Latine people lived in Colorado. By 2024, this number had grown to 1,300,000<fn>https://www.cpr.org/2025/11/16/colorado-hispanic-population-growth-data/</fn>.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    What is the change factor for the Colorado Latine population from 2000 to 2024?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    What is the percent change?
+                </p>
+            </statement>
+        </task>
+    </task>
+    <task>
+        <introduction>
+            <p>
+                The US Latine population in 2024 was 68 million, whereas in 2000 it was 35.5 million<fn>https://www.cpr.org/2025/11/16/colorado-hispanic-population-growth-data/</fn>.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    What is the change factor for the US Latine population from 2000 to 2024?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    What is the percent change?
+                </p>
+            </statement>
+        </task>
     </task>
   </activity>
 
@@ -442,7 +508,7 @@
                 <li><m>\epsilon = \text{Elasticity of imports with respect to import prices}</m></li>  
                 <li><m>\phi = \text{Passthrough from tariffs to import prices}</m></li>
             </ul>
-            Although <m>x_i</m> and <m>m_i</m> are both numbers that we could look up, <m>\epsilon</m> and <m>\phi</m> are numbers whose values aren't certain. Depending on the assumptions you make, you could reasonably get differnt values for <m>\epsilon</m> and <m>\phi</m>. The document tells us that the Trump Administration assumed that <m>\epsilon = -4</m> and <m>\phi = 0.25</m>. Since <m>4 \times 0.25 = -1</m>, all of this information lets us rewrite the very complicated looking formula as
+            Although <m>x_i</m> and <m>m_i</m> are both numbers that we could look up, <m>\epsilon</m> and <m>\phi</m> are numbers whose values aren't certain. Depending on the assumptions you make, you could reasonably get different values for <m>\epsilon</m> and <m>\phi</m>. The document tells us that the Trump Administration assumed that <m>\epsilon = -4</m> and <m>\phi = 0.25</m>. Since <m>4 \times 0.25 = -1</m>, all of this information lets us rewrite the very complicated looking formula as
             <me>
                 \text{Change in Tariff Rate} = \frac{\text{Exports} - \text{Imports}}{-\text{Imports}}
             </me>.
@@ -456,14 +522,14 @@
             <task workspace="1in">
                 <statement>
                     <p>
-                        China. The US exports $143.5 billion in goods to China, and imports $438.9 billion in goods.<fn><url href="https://www.census.gov/foreign-trade/Press-Release/ft900/ft900_2412.pdf" /></fn>
+                        China. As of February 2025, the US exports $143.5 billion in goods to China, and imports $438.9 billion in goods.<fn><url href="https://www.census.gov/foreign-trade/Press-Release/ft900/ft900_2412.pdf" /></fn>
                     </p>
                 </statement>
             </task>
             <task workspace="1in">
                 <statement>
                     <p>
-                        European Union. The US exports $370.2 billion in goods to the EU, and imports $605.8 billion in goods.<fn><url href="https://www.census.gov/foreign-trade/Press-Release/ft900/ft900_2412.pdf" /></fn>
+                        European Union. As of February 2025, the US exports $370.2 billion in goods to the EU, and imports $605.8 billion in goods.<fn><url href="https://www.census.gov/foreign-trade/Press-Release/ft900/ft900_2412.pdf" /></fn>
                     </p>
                 </statement>
             </task>
@@ -528,14 +594,14 @@
             <task>
                 <statement>
                     <p>
-                        Venezuela. The US exports $4.2 billion in goods to the UK, and imports $6.0 billion in goods.<fn><url href="https://www.census.gov/foreign-trade/Press-Release/ft900/ft900_2412.pdf" /></fn>
+                        Venezuela. As of February 2025, the US exports $4.2 billion in goods to the UK, and imports $6.0 billion in goods.<fn><url href="https://www.census.gov/foreign-trade/Press-Release/ft900/ft900_2412.pdf" /></fn>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
-                        United Kingdom. The US exports $79.9 billion in goods to the UK, and imports $68.1 billion in goods.<fn><url href="https://www.census.gov/foreign-trade/Press-Release/ft900/ft900_2412.pdf" /></fn>
+                        United Kingdom. As of February 2025, the US exports $79.9 billion in goods to the UK, and imports $68.1 billion in goods.<fn><url href="https://www.census.gov/foreign-trade/Press-Release/ft900/ft900_2412.pdf" /></fn>
                     </p>
                 </statement>
             </task>
