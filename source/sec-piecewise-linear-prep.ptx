@@ -27,7 +27,7 @@
         <investigation workspace="0.5in" xml:id="pa-org-members">
             <introduction>
                 <p>
-                    The number of members in a professional organization increased each year for ten years, starting in 2013. The result can be modeled by the equation <m>M(t) = 1,200 + 250t</m>. 
+                    The number of members in a professional organization increased each year for ten years, starting in 2013. The result can be modeled by the equation <m>M(t) = 1200 + 250t</m>. 
                 </p>
             </introduction>
             <task>

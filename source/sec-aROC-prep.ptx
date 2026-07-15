@@ -24,7 +24,7 @@
             <task workspace="0.75in">
                 <statement>
                     <p>
-                    The graph below shows several points  in the <m>xy-</m>plane (aka coordinate plane). The <term>horizontal axis</term> goes from left to right and is the boldest left-to-right line if the graph includes more than one such line. In previous classes, you may have called this the <term><m>x-</m>axis</term>. The <term>vertical axis</term> goes up and down and is the boldst up-and-down line if the graph includes more than one such line. In previous classes, you may have called this the <term><m>y-</m>axis</term>. The axes are two number lines that create a grid on the coordinate plane. (Note: Axis is singular and axes is plural.)
+                    The graph below shows several points  in the <m>xy-</m>plane (aka coordinate plane). The <term>horizontal axis</term> goes from left to right and is the boldest left-to-right line if the graph includes more than one such line. In previous classes, you may have called this the <term><m>x</m>-axis</term>. The <term>vertical axis</term> goes up and down and is the boldst up-and-down line if the graph includes more than one such line. In previous classes, you may have called this the <term><m>y</m>-axis</term>. The axes are two number lines that create a grid on the coordinate plane. (Note: Axis is singular and axes is plural.)
                     </p>
                     <figure xml:id="fig-coords-example">
                         <caption>Example of points in the coordinate plane.</caption>
@@ -88,7 +88,7 @@
         <investigation xml:id="pa-read-graph">
             <introduction>
                 <p>
-                    We will often be interested in graphs of lines and curves, rather than graphs of invidual points. Here is a graph that we will see again soon.
+                    We will often be interested in graphs of lines and curves, rather than graphs of individual points. Here is a graph that we will see again soon.
                 </p>
                 <figure xml:id="fig-3-leg-race-team-a-prep">
                     <caption>Team A</caption>
@@ -131,7 +131,7 @@
                                 How long did it take Team A to go 10 m?
                             </p>
                             <p>
-                                <strong>Solution:</strong> Since distance in meters is on the vertical axis, we need to find the coordinates of the point on the curve whose vertical coordinate is 10. To do this, we go to 10 on the vertical axis and look directly to the right and left until we find the curve. On this graph, we find point <m>B</m>. Now that we've found the point we want, our answer is the horizontal coordinate of that point. In this case, we see that our point is between 1 and 2 on the horizontal axis. It's a little closer to 2 than to 1, we estimate that our answer is 1.6 sec. When we estimate, there's a range of acceptable answers. In this case, any number between 1.5 and 1.9 is a reasonable estimate.
+                                <strong>Solution:</strong> Since distance in meters is on the vertical axis, we need to find the coordinates of the point on the curve whose vertical coordinate is 10. To do this, we go to 10 on the vertical axis and look directly to the right and left until we find the curve. On this graph, we find point <m>B</m>. Now that we've found the point we want, our answer is the horizontal coordinate of that point. In this case, we see that our point is between 1 and 2 on the horizontal axis. It's a little closer to 2 than to 1, so we might estimate that our answer is 1.6 sec. When we estimate, there's a range of acceptable answers. In this case, any number between 1.5 and 1.9 is a reasonable estimate.
                             </p>
                         </li>
                     </ul>

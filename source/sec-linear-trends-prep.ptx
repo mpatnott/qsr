@@ -5,7 +5,7 @@
     <page>
         <introduction>
             <p>
-                In the real world, it is more common to have data that is approximately linear than exactly linear. These activities will introduce the idea of linear trends, which we'll spend more time on in class. They'll also provide practice with building a linear model by identifying its slope and vertical intercept.
+                In the real world, it is more common to have data that is approximately linear than exactly linear. These activities will introduce the idea of linear trends, which we'll spend more time on in class. They'll also provide practice with building a linear model by identifying its slope and initial value.
             </p>
         </introduction>
         <investigation xml:id="a-meal-plan">
@@ -269,14 +269,14 @@
             <task workspace="0.5in">
                 <statement>
                     <p>
-                        Give an estimate for the slope of the model, and explain what it means in this situation.
+                        Give an estimate for the slope of the model, and explain what it means in this scenario.
                     </p>
                 </statement>
             </task>
             <task workspace="0.5in">
                 <statement>
                     <p>
-                        What is the vertical intercept of the graph? What does it mean in relation to the situation?
+                        What is the initial value in this scenario?
                     </p>
                 </statement>
             </task>

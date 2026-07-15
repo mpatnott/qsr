@@ -112,7 +112,7 @@
     <definition xml:id="def-linear-model">
         <statement>
             <p>
-                A mathematical model that has a constant rate of change is called <term>linear model</term>. The rate of change of a linear model is called its <term>slope</term>. Linear models are functions, so we will sometimes use function notation when working with them.
+                A mathematical model that has a constant rate of change is called a <term>linear model</term>. The rate of change of a linear model is called its <term>slope</term>. Linear models are functions, so we will sometimes use function notation when working with them.
             </p>
         </statement>
     </definition>
@@ -216,8 +216,11 @@
         <task workspace="0.25in">
             <statement>
                 <p>
-                    The <term>vertical intercept</term> of a mathematical model is the value where the graph crosses the vertical axis. It is also called the <term>initial value</term> because it is the output when the input is 0. What is the vertical intercept of your graph in <xref ref="a-xcel-summer-electricity"/> part (e)?
+                    The <term>initial value</term> of a mathematical model is its output when the input is 0. It is also called the <term>vertical intercept</term> (or <m>y</m>-intercept) because the initial value is where the graph cross the vertical axis. What is the initial value of the model in <xref ref="a-xcel-summer-electricity"/> part (e)?
                 </p>
+                <!--<p>
+                    The <term>vertical intercept</term> of a mathematical model is the value where the graph crosses the vertical axis. It is also called the <term>initial value</term> because it is the output when the input is 0. What is the vertical intercept of your graph in <xref ref="a-xcel-summer-electricity"/> part (e)?
+                </p>-->
             </statement>
         </task>
         <task workspace="0.5in">
@@ -226,21 +229,21 @@
                     Suppose that Theo used <m>k</m> kWh of energy in a summer month. Find a formula for <m>B(k)</m>, Theo's bill. 
                 </p>
                 <p>
-                    Reminder: <m>B(k)</m> is read <q><m>B</m> of <m>k</m></q> and is NOT multiplication; <m>B</m> is the name of the function, <m>k</m> is the input, and <m>B(k)</m> all together is the output. In this context, <m>k</m> is the kWh of energy that Theo used, and <m>B(k)</m> is the amount of money he owes.
+                    Note: <m>B(k)</m> is read <q><m>B</m> of <m>k</m></q> and is NOT multiplication; <m>B</m> is the name of the function, <m>k</m> is the input, and <m>B(k)</m> all together is the output. In this context, <m>k</m> is the kWh of energy that Theo used, and <m>B(k)</m> is the amount of money he owes.
                 </p>
             </statement>
         </task>
         <task workspace="0.5in">
             <statement>
                 <p>
-                    How do the slope and vertical intercept of the linear model appear in your formula in part (b)?
+                    How do the slope and initial value of the linear model appear in your formula in part (b)?
                 </p>
             </statement>
         </task>
         <task workspace="0.5in">
             <statement>
                 <p>
-                    Write a sentence describing how to build a formula to find the output of a linear model from its slope, vertical intercept, and an input value.
+                    Write a sentence describing how to build a formula to find the output of a linear model from its slope, initial value, and an input value.
                 </p>
             </statement>
         </task>
@@ -278,7 +281,7 @@
         <task workspace="0.5in">
             <statement>
                 <p>
-                    What is the vertical intercept for the linear model? The slope? How do you know?
+                    What is the initial value for the linear model? The slope? How do you know?
                 </p>
             </statement>
         </task>
@@ -395,7 +398,7 @@
     <activity xml:id="a-phone-plans">
         <introduction>
             <p>
-                Data plans for cell phone plans can be purchased in two different ways. One is an unlimited data plan where the customer pays a set monthly fee for unlimited data. The other is a per-gigabyte (GB) pricing service where the customer pays a set monthly fee plus a specified amount for each GB. The GBs are not prorated (that means it doesn't matter if the customer uses 0.001 GB or 1 GB, they must still pay for the entire 1 GB). The cost of the phone itself and other fees are the same amount under each plan.
+                Data can be purchased in two different ways as part of a cell phone plan. One is an unlimited data plan where the customer pays a set monthly fee for unlimited data. The other is a per-gigabyte (GB) pricing service where the customer pays a set monthly fee plus a specified amount for each GB. The GBs are not prorated (that means it doesn't matter if the customer uses 0.001 GB or 1 GB, they must still pay for the entire 1 GB). The cost of the phone itself and other fees are the same amount under each plan.
             </p>
             <p>
                 Ximena is shopping for a data plan and needs to decide which option costs less.
@@ -502,7 +505,7 @@
         <task workspace="1in">
             <statement>
                 <p>
-                    The table doesn't give us the vertical intercept. Find it, then write a formula for the output, <m>y</m>, in terms of the input, <m>x</m>.
+                    The table doesn't give us the output when the input is 0. Find it, then write a formula for the output, <m>y</m>, in terms of the input, <m>x</m>.
                 </p>
             </statement>
         </task>

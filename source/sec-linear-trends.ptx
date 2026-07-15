@@ -46,7 +46,7 @@
         <task workspace="1in">
             <statement>
                 <p>
-                    Find a linear equation that approximately models the above situation. Use <m>P(t)</m> to represent Nelson's pay in dollars and <m>t</m> to represent the number of years since 2012.
+                    Find a linear equation that approximately models the above situation. Use <m>P(t)</m> to represent Nelson's pay in dollars and <m>t</m> to represent the number of years since 2012. (Hint: <m>t = 0</m> in 2012. So, what is the initial value?)
                 </p>
             </statement>
         </task>
@@ -114,6 +114,13 @@
                 </p>
             </statement>
         </task>
+        <task>
+            <statement>
+                <p>
+                    The table doesn't include the average weight of a brand new infant (i.e., in month <m>0</m>), possibly brand new babies grow at a different rate than older babies. But, as we saw in <xref ref="a-nelsons-pay"/>, we can use any output as the initial value as long as we're careful about how we plug numbers into the input variable. What makes the most sense for the initial value in this scenario?
+                </p>
+            </statement>
+        </task>
         <task workspace="1in">
             <statement>
                 <p>
@@ -151,7 +158,7 @@
         There are others who are skeptical of the theory of <q>global warming</q> and hold a contrary view of weather data. These people believe that there are other explanations and reasons for the climate changes being experienced. In the next two activities, we are going to examine the Berkeley Earth project data and linear models for Global Surface Temperature Change to study the issue of global warming.
     </p>
     <p>
-        On the website <url href="https://skepticalscience.com/" visual="skepticalscience.com"></url>, the data from the Berkeley Earth project has been used as the source for two different analyses of the same information. The first one is labeled <q>How Realists View Global Warming</q>> and the other is <q>How Contrarians View Global Warming.</q> The two infographics are reproduced here. You will see that each includes a line or line segments along with the actual data. Use these infographics to answer the following questions.
+        On the website <url href="https://skepticalscience.com/" visual="skepticalscience.com"></url>, the data from the Berkeley Earth project has been used as the source for two different analyses of the same information. The first one is labeled <q>How Realists View Global Warming</q> and the other is <q>How Contrarians View Global Warming.</q> The two infographics are reproduced here. You will see that each includes a line or line segments along with the actual data. Use these infographics to answer the following questions.
     </p>
   </page>
 
@@ -214,7 +221,7 @@
         <task>
             <statement>
                 <p>
-                    Estimate the value where the trendline crosses the vertical axis (we will treat this as the value in 1970). Describe the meaning of the point where the trendline crosses the vertical axis.
+                    Estimate the value the initial value (we will treat this as the value in 1970). Where does it appear on the graph?
                 </p>
             </statement>
         </task>
@@ -235,14 +242,14 @@
         <task>
             <statement>
                 <p>
-                    What is the model saying about the general pattern of the global temperature. Is it rising or falling?
+                    What is the model saying about the general pattern of the global temperature? Is it rising or falling?
                 </p>
             </statement>
         </task>
         <task>
             <statement>
                 <p>
-                    Using your linear equation from above, predict the temperature change at the end of 2030. Also predict the temperature change at the end of 2050. Do you think this is a reliable prediction for 2050? Why or why not? Explain using complete sentences.
+                    Using your linear equation from above, predict the temperature change at the end of 2030. Also predict the temperature change at the end of 2100. Do you think this is a reliable prediction for 2100? Why or why not? Explain using complete sentences.
                 </p>
             </statement>
         </task>
@@ -277,34 +284,48 @@
                 </p>
             </statement>
         </task>
-        <task>
+        <!--<task>
             <statement>
                 <p>
                     Now look at just the segment of the piecewise <q>best fit</q> model from 2010 to 2015 (the line segment second farthest to the right). Estimate where the line segment would cross the vertical axis (in year 1970). (Hint: It might be useful to use a straight-edged item to extend the line to the vertical axis. You can see the line is very slightly slanted.)
                 </p>
             </statement>
-        </task>
+        </task>-->
         <task>
-            <statement>
+            <introduction>
                 <p>
-                    What is the slope value of the 2010 to 2015 line segment? Give an interpretation of the slope value.
+                    Now look at just the segment of the piecewise <q>best fit</q> model from 2010 to 2015 (the line segment second farthest to the right).
                 </p>
-            </statement>
-        </task>
-        <task>
-            <statement>
-                <p>
-                    Estimate the equation of the 2010 to 2015 line segment.
-                </p>
-            </statement>
-        </task>
-        <task>
-            <statement>
-                <p>
-                    Could we use the equation of the 2010 to 2015 line segment to predict the mean Global Surface Temperature Change in 2035? Why or why not?
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        What is the slope value of the 2010 to 2015 line segment? Give an interpretation of the slope value.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What is an initial value for the 2010 to 2015 line segment? What year does it correspond to?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Estimate the equation of the 2010 to 2015 line segment.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Could we use the equation of the 2010 to 2015 line segment to predict the mean Global Surface Temperature Change in 2035? Why or why not?
 
-                </p>
-            </statement>
+                    </p>
+                </statement>
+            </task>
         </task>
         <task>
             <statement>

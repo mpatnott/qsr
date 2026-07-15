@@ -134,7 +134,7 @@
             <task workspace="1in">
                 <statement>
                     <p>
-                        Find the average rates of change of Team A during the three-legged race over the intervals 0 to 10 sec, 0 to 3 sec, 3 to 6 sec, 7 to 8 sec, and 8 to 10 sec.
+                        Find the average rates of change of Team A during the three-legged race over the intervals 0 to 10 sec, 0 to 3 sec, 7 to 8 sec, and 8 to 10 sec. Their average rate of change on the interval 3 to 6 sec has been done for you as an example.
                     </p>
                 </statement>
             </task>
@@ -169,7 +169,7 @@
                             </row>
                             <row bottom="minor">
                                 <cell>3 to 6 sec</cell>
-                                <cell></cell>
+                                <cell><m>\frac{26 \text{m} - 17 \text{m}}{6 \text{s} - 3 \text{s}} = \frac{9\text{m}}{3\text{s}} = 3\text{ m/s}</m></cell>
                                 <cell></cell>
                                 <cell></cell>
                                 <cell></cell>
